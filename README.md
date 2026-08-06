@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/krytronx-quantum-k-field-logo.png" alt="Krytronx Quantum K-Field" width="240">
+  <img src="./Assets/Quantum_K-Field_GitHub_Profile_500x500.png" alt="Krytronx Quantum K-Field" width="240">
 </p>
 
 Quantum K-Field
