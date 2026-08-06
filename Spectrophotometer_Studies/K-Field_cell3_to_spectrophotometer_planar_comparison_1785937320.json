@@ -1,0 +1,2290 @@
+{
+  "schema": "K-Field.cell3_to_spectrophotometer_planar_comparison.archival.v1",
+  "title": "K-Field Cell3 to Spectrophotometer Planar Comparison",
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "role": "Principal Investigator",
+    "organization": "Krytronx, LLC.",
+    "degrees": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ]
+  },
+  "generation": {
+    "epoch": 1785937320,
+    "utc": "2026-08-05T13:42:00Z",
+    "pdf_filename": "K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+    "json_filename": "K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.json",
+    "pdf_engine": "Python ReportLab",
+    "pdf_fonts": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman",
+      "Courier"
+    ],
+    "pdf_sha256": "ec31b4106be203c4836fab3d322a345e54f80f07b7f2feb549bacb5a2a306337",
+    "pdf_size_bytes": 2380860,
+    "pdf_page_count": 29
+  },
+  "source_files": [
+    {
+      "filename": "K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+      "path": "/mnt/data/pic14e_report_final/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+      "sha256": "79e3aa2b187a9ad4fbd2b481de1b22ff7c53753c738678f3f593d3c0fc8e3c85",
+      "size_bytes": 1545939
+    },
+    {
+      "filename": "K-Field_ICRS_plane_scew_rajectory_analysis_1785606737.json",
+      "path": "/mnt/data/cell3_authoritative/K-Field_ICRS_plane_scew_rajectory_analysis_1785606737.json",
+      "sha256": "03e6d901dbbe0801cada29a559d40b50c3cec5360f8e29f96d80e8e818cae3c3",
+      "size_bytes": 47024
+    },
+    {
+      "filename": "K-Field_student_introduction_1785346272.json",
+      "path": "/mnt/data/cell3_authoritative/K-Field_student_introduction_1785346272.json",
+      "sha256": "c16dc1d479efc074d0cd1f312193780a80e61e7e8ea7e014986d8258f51baa20",
+      "size_bytes": 890582
+    },
+    {
+      "filename": "pic_id14E_full24_hrs_20260805.csv",
+      "path": "/mnt/data/pic_id14E_full24_hrs_20260805.csv",
+      "sha256": "6f5e3c69c623fe02b854e121110f915861bab24e8b6f000b094e810f49b53f62",
+      "size_bytes": 31949154
+    },
+    {
+      "filename": "K-Field_spectrophotometer_pic_id14E_fullvalid_exploratory_analysis_1785932633.json",
+      "path": "/mnt/data/kfield_pic14e_fullvalid/K-Field_spectrophotometer_pic_id14E_fullvalid_exploratory_analysis_1785932633.json",
+      "sha256": "7ebd920092387642774c7135d618e3322791202cc0525b4f2cad3d3228ec4b6f",
+      "size_bytes": 115320
+    }
+  ],
+  "authoritative_cell3": {
+    "basis_B_nm": [
+      [
+        0.327501242056,
+        0.035330775844,
+        -0.010129317627
+      ],
+      [
+        -0.054897007884,
+        0.20731985044,
+        -0.389787702366
+      ],
+      [
+        -0.037487502895,
+        -0.547401085389,
+        -0.689734408367
+      ]
+    ],
+    "inverse_B_nm_inverse": [
+      [
+        3.022229338081531,
+        -0.2536884930494306,
+        0.09898235188382572
+      ],
+      [
+        0.19719466520404422,
+        1.9189145203318763,
+        -1.0873268322088259
+      ],
+      [
+        -0.3207617339986032,
+        -1.5091399391617828,
+        -0.5922666871822097
+      ]
+    ],
+    "reciprocal_basis_G_nm_inverse": [
+      [
+        3.022229338081531,
+        0.19719466520404422,
+        -0.3207617339986032
+      ],
+      [
+        -0.2536884930494306,
+        1.9189145203318763,
+        -1.5091399391617828
+      ],
+      [
+        0.09898235188382572,
+        -1.0873268322088259,
+        -0.5922666871822097
+      ]
+    ],
+    "determinant_nm3": -0.11791489191174925,
+    "handedness": "negative for ordered basis (a,b,c)",
+    "basis_vectors": {
+      "a": [
+        0.327501242056,
+        -0.054897007884,
+        -0.037487502895
+      ],
+      "b": [
+        0.035330775844,
+        0.20731985044,
+        -0.547401085389
+      ],
+      "c": [
+        -0.010129317627,
+        -0.389787702366,
+        -0.689734408367
+      ]
+    },
+    "basis_lengths_nm": {
+      "a": 0.33417967905924695,
+      "b": 0.5864108904115426,
+      "c": 0.7923197650423278
+    },
+    "intervector_angles_deg": {
+      "a_b": 83.93348301224935,
+      "a_c": 80.44813001832222,
+      "b_c": 50.36323181371764
+    },
+    "face_areas_nm2": {
+      "ab": 0.1948691654606743,
+      "ac": 0.26110623579018216,
+      "bc": 0.3578095391284459
+    },
+    "face_area_ratios": {
+      "Aac_over_Aab": 1.3399053419914957,
+      "Abc_over_Aac": 1.370359991769679,
+      "Abc_over_Aab": 1.836152673423615
+    },
+    "recursive_basis_law": "B_r = 9^r B",
+    "nodes_27": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "icrs_nm": [
+          -0.17635135013650002,
+          0.11868242990500001,
+          0.6373114983254999
+        ],
+        "radius_nm": 0.6718268108381916,
+        "label": "(-1,-1,-1)"
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "icrs_nm": [
+          -0.18141600895,
+          -0.076211421278,
+          0.292444294142
+        ],
+        "radius_nm": 0.35248207644186946,
+        "label": "(-1,-1,0)"
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          -0.5,
+          0.5
+        ],
+        "icrs_nm": [
+          -0.1864806677635,
+          -0.271105272461,
+          -0.05242291004149996
+        ],
+        "radius_nm": 0.33319854396874715,
+        "label": "(-1,-1,1)"
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          0.0,
+          -0.5
+        ],
+        "icrs_nm": [
+          -0.15868596221450001,
+          0.222342355125,
+          0.363610955631
+        ],
+        "radius_nm": 0.4547859766322642,
+        "label": "(-1,0,-1)"
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          0.0,
+          0.0
+        ],
+        "icrs_nm": [
+          -0.163750621028,
+          0.027448503942,
+          0.0187437514475
+        ],
+        "radius_nm": 0.16708983952962347,
+        "label": "(-1,0,0)"
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          0.0,
+          0.5
+        ],
+        "icrs_nm": [
+          -0.1688152798415,
+          -0.16744534724100002,
+          -0.32612345273599996
+        ],
+        "radius_nm": 0.4036001108090445,
+        "label": "(-1,0,1)"
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          0.5,
+          -0.5
+        ],
+        "icrs_nm": [
+          -0.1410205742925,
+          0.326002280345,
+          0.08991041293649998
+        ],
+        "radius_nm": 0.3663989240136199,
+        "label": "(-1,1,-1)"
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          0.5,
+          0.0
+        ],
+        "icrs_nm": [
+          -0.146085233106,
+          0.131108429162,
+          -0.254956791247
+        ],
+        "radius_nm": 0.32176587906726195,
+        "label": "(-1,1,0)"
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "fractional_coordinate": [
+          -0.5,
+          0.5,
+          0.5
+        ],
+        "icrs_nm": [
+          -0.15114989191949998,
+          -0.06378542202100002,
+          -0.5998239954305
+        ],
+        "radius_nm": 0.6218550437070379,
+        "label": "(-1,1,1)"
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "fractional_coordinate": [
+          0.0,
+          -0.5,
+          -0.5
+        ],
+        "icrs_nm": [
+          -0.012600729108499999,
+          0.091233925963,
+          0.618567746878
+        ],
+        "radius_nm": 0.6253866524786194,
+        "label": "(0,-1,-1)"
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "fractional_coordinate": [
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "icrs_nm": [
+          -0.017665387922,
+          -0.10365992522,
+          0.2737005426945
+        ],
+        "radius_nm": 0.2932054452057713,
+        "label": "(0,-1,0)"
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "fractional_coordinate": [
+          0.0,
+          -0.5,
+          0.5
+        ],
+        "icrs_nm": [
+          -0.022730046735499998,
+          -0.298553776403,
+          -0.07116666148899997
+        ],
+        "radius_nm": 0.30775916905362943,
+        "label": "(0,-1,1)"
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "fractional_coordinate": [
+          0.0,
+          0.0,
+          -0.5
+        ],
+        "icrs_nm": [
+          0.0050646588135,
+          0.194893851183,
+          0.3448672041835
+        ],
+        "radius_nm": 0.3961598825211639,
+        "label": "(0,0,-1)"
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "fractional_coordinate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "icrs_nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radius_nm": 0.0,
+        "label": "(0,0,0)"
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "fractional_coordinate": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "icrs_nm": [
+          -0.0050646588135,
+          -0.194893851183,
+          -0.3448672041835
+        ],
+        "radius_nm": 0.3961598825211639,
+        "label": "(0,0,1)"
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "fractional_coordinate": [
+          0.0,
+          0.5,
+          -0.5
+        ],
+        "icrs_nm": [
+          0.022730046735499998,
+          0.298553776403,
+          0.07116666148899997
+        ],
+        "radius_nm": 0.30775916905362943,
+        "label": "(0,1,-1)"
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "fractional_coordinate": [
+          0.0,
+          0.5,
+          0.0
+        ],
+        "icrs_nm": [
+          0.017665387922,
+          0.10365992522,
+          -0.2737005426945
+        ],
+        "radius_nm": 0.2932054452057713,
+        "label": "(0,1,0)"
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "fractional_coordinate": [
+          0.0,
+          0.5,
+          0.5
+        ],
+        "icrs_nm": [
+          0.012600729108499999,
+          -0.091233925963,
+          -0.618567746878
+        ],
+        "radius_nm": 0.6253866524786194,
+        "label": "(0,1,1)"
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "fractional_coordinate": [
+          0.5,
+          -0.5,
+          -0.5
+        ],
+        "icrs_nm": [
+          0.15114989191949998,
+          0.06378542202100002,
+          0.5998239954305
+        ],
+        "radius_nm": 0.6218550437070379,
+        "label": "(1,-1,-1)"
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "fractional_coordinate": [
+          0.5,
+          -0.5,
+          0.0
+        ],
+        "icrs_nm": [
+          0.146085233106,
+          -0.131108429162,
+          0.254956791247
+        ],
+        "radius_nm": 0.32176587906726195,
+        "label": "(1,-1,0)"
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "fractional_coordinate": [
+          0.5,
+          -0.5,
+          0.5
+        ],
+        "icrs_nm": [
+          0.1410205742925,
+          -0.326002280345,
+          -0.08991041293649998
+        ],
+        "radius_nm": 0.3663989240136199,
+        "label": "(1,-1,1)"
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "fractional_coordinate": [
+          0.5,
+          0.0,
+          -0.5
+        ],
+        "icrs_nm": [
+          0.1688152798415,
+          0.16744534724100002,
+          0.32612345273599996
+        ],
+        "radius_nm": 0.4036001108090445,
+        "label": "(1,0,-1)"
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "fractional_coordinate": [
+          0.5,
+          0.0,
+          0.0
+        ],
+        "icrs_nm": [
+          0.163750621028,
+          -0.027448503942,
+          -0.0187437514475
+        ],
+        "radius_nm": 0.16708983952962347,
+        "label": "(1,0,0)"
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "fractional_coordinate": [
+          0.5,
+          0.0,
+          0.5
+        ],
+        "icrs_nm": [
+          0.15868596221450001,
+          -0.222342355125,
+          -0.363610955631
+        ],
+        "radius_nm": 0.4547859766322642,
+        "label": "(1,0,1)"
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "fractional_coordinate": [
+          0.5,
+          0.5,
+          -0.5
+        ],
+        "icrs_nm": [
+          0.1864806677635,
+          0.271105272461,
+          0.05242291004149996
+        ],
+        "radius_nm": 0.33319854396874715,
+        "label": "(1,1,-1)"
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "fractional_coordinate": [
+          0.5,
+          0.5,
+          0.0
+        ],
+        "icrs_nm": [
+          0.18141600895,
+          0.076211421278,
+          -0.292444294142
+        ],
+        "radius_nm": 0.35248207644186946,
+        "label": "(1,1,0)"
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "fractional_coordinate": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "icrs_nm": [
+          0.17635135013650002,
+          -0.11868242990500001,
+          -0.6373114983254999
+        ],
+        "radius_nm": 0.6718268108381916,
+        "label": "(1,1,1)"
+      }
+    ],
+    "edges": [
+      {
+        "from": [
+          -1,
+          -1,
+          -1
+        ],
+        "to": [
+          0,
+          -1,
+          -1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          -1,
+          -1
+        ],
+        "to": [
+          -1,
+          0,
+          -1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          -1,
+          -1,
+          -1
+        ],
+        "to": [
+          -1,
+          -1,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          -1,
+          -1,
+          0
+        ],
+        "to": [
+          0,
+          -1,
+          0
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          -1,
+          0
+        ],
+        "to": [
+          -1,
+          0,
+          0
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          -1,
+          -1,
+          0
+        ],
+        "to": [
+          -1,
+          -1,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          -1,
+          -1,
+          1
+        ],
+        "to": [
+          0,
+          -1,
+          1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          -1,
+          1
+        ],
+        "to": [
+          -1,
+          0,
+          1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          -1
+        ],
+        "to": [
+          0,
+          0,
+          -1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          -1
+        ],
+        "to": [
+          -1,
+          1,
+          -1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          -1
+        ],
+        "to": [
+          -1,
+          0,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0,
+          0
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          0
+        ],
+        "to": [
+          -1,
+          1,
+          0
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          0
+        ],
+        "to": [
+          -1,
+          0,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          1
+        ],
+        "to": [
+          0,
+          0,
+          1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          0,
+          1
+        ],
+        "to": [
+          -1,
+          1,
+          1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          -1,
+          1,
+          -1
+        ],
+        "to": [
+          0,
+          1,
+          -1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          1,
+          -1
+        ],
+        "to": [
+          -1,
+          1,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          -1,
+          1,
+          0
+        ],
+        "to": [
+          0,
+          1,
+          0
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          -1,
+          1,
+          0
+        ],
+        "to": [
+          -1,
+          1,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          -1,
+          1,
+          1
+        ],
+        "to": [
+          0,
+          1,
+          1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          -1
+        ],
+        "to": [
+          1,
+          -1,
+          -1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          -1
+        ],
+        "to": [
+          0,
+          0,
+          -1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          -1
+        ],
+        "to": [
+          0,
+          -1,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          0
+        ],
+        "to": [
+          1,
+          -1,
+          0
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          0
+        ],
+        "to": [
+          0,
+          0,
+          0
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          0
+        ],
+        "to": [
+          0,
+          -1,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          1
+        ],
+        "to": [
+          1,
+          -1,
+          1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          -1,
+          1
+        ],
+        "to": [
+          0,
+          0,
+          1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          -1
+        ],
+        "to": [
+          1,
+          0,
+          -1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          -1
+        ],
+        "to": [
+          0,
+          1,
+          -1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          -1
+        ],
+        "to": [
+          0,
+          0,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          1,
+          0,
+          0
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          0,
+          1,
+          0
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          1
+        ],
+        "to": [
+          1,
+          0,
+          1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          0,
+          1
+        ],
+        "to": [
+          0,
+          1,
+          1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          0,
+          1,
+          -1
+        ],
+        "to": [
+          1,
+          1,
+          -1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          1,
+          -1
+        ],
+        "to": [
+          0,
+          1,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          0,
+          1,
+          0
+        ],
+        "to": [
+          1,
+          1,
+          0
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          0,
+          1,
+          0
+        ],
+        "to": [
+          0,
+          1,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          0,
+          1,
+          1
+        ],
+        "to": [
+          1,
+          1,
+          1
+        ],
+        "axis": "a/2"
+      },
+      {
+        "from": [
+          1,
+          -1,
+          -1
+        ],
+        "to": [
+          1,
+          0,
+          -1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          1,
+          -1,
+          -1
+        ],
+        "to": [
+          1,
+          -1,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          1,
+          -1,
+          0
+        ],
+        "to": [
+          1,
+          0,
+          0
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          1,
+          -1,
+          0
+        ],
+        "to": [
+          1,
+          -1,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          1,
+          -1,
+          1
+        ],
+        "to": [
+          1,
+          0,
+          1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          1,
+          0,
+          -1
+        ],
+        "to": [
+          1,
+          1,
+          -1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          1,
+          0,
+          -1
+        ],
+        "to": [
+          1,
+          0,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          1,
+          0,
+          0
+        ],
+        "to": [
+          1,
+          1,
+          0
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          1,
+          0,
+          0
+        ],
+        "to": [
+          1,
+          0,
+          1
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          1,
+          1,
+          1
+        ],
+        "axis": "b/2"
+      },
+      {
+        "from": [
+          1,
+          1,
+          -1
+        ],
+        "to": [
+          1,
+          1,
+          0
+        ],
+        "axis": "c/2"
+      },
+      {
+        "from": [
+          1,
+          1,
+          0
+        ],
+        "to": [
+          1,
+          1,
+          1
+        ],
+        "axis": "c/2"
+      }
+    ],
+    "primary_plane_atlas": [
+      {
+        "hkl": [
+          1,
+          0,
+          0
+        ],
+        "name": "(100)",
+        "reciprocal_vector_nm_inverse": [
+          3.022229338081531,
+          -0.2536884930494306,
+          0.09898235188382572
+        ],
+        "unit_normal_icrs": [
+          0.9959651903088967,
+          -0.08360216250813762,
+          0.03261929056442016
+        ],
+        "spacing_nm": 0.3295465296955662,
+        "ra_deg": 355.20179208859463,
+        "dec_deg": 1.869279271210476,
+        "axial_mismatch_qA_deg": 85.99616995352831,
+        "axial_mismatch_qB_deg": 66.90646189030738,
+        "axial_mismatch_qC_deg": 75.54258105574371,
+        "axial_mismatch_qF_deg": 84.91613099194686
+      },
+      {
+        "hkl": [
+          0,
+          1,
+          0
+        ],
+        "name": "(010)",
+        "reciprocal_vector_nm_inverse": [
+          0.19719466520404422,
+          1.9189145203318763,
+          -1.0873268322088259
+        ],
+        "unit_normal_icrs": [
+          0.08905259410117375,
+          0.8665767692911119,
+          -0.4910339483262135
+        ],
+        "spacing_nm": 0.4515973797213424,
+        "ra_deg": 84.13267228718287,
+        "dec_deg": -29.408562675990886,
+        "axial_mismatch_qA_deg": 75.24565755619643,
+        "axial_mismatch_qB_deg": 29.694580214052944,
+        "axial_mismatch_qC_deg": 77.49596488495625,
+        "axial_mismatch_qF_deg": 77.84429328111534
+      },
+      {
+        "hkl": [
+          0,
+          0,
+          1
+        ],
+        "name": "(001)",
+        "reciprocal_vector_nm_inverse": [
+          -0.3207617339986032,
+          -1.5091399391617828,
+          -0.5922666871822097
+        ],
+        "unit_normal_icrs": [
+          -0.19409220080794864,
+          -0.9131771688213897,
+          -0.35837923479029615
+        ],
+        "spacing_nm": 0.6050977415179887,
+        "ra_deg": 258.0005762033777,
+        "dec_deg": -21.000692600648936,
+        "axial_mismatch_qA_deg": 24.949143866658304,
+        "axial_mismatch_qB_deg": 74.43960125365555,
+        "axial_mismatch_qC_deg": 51.98226206126148,
+        "axial_mismatch_qF_deg": 27.363528174855773
+      },
+      {
+        "hkl": [
+          1,
+          1,
+          0
+        ],
+        "name": "(110)",
+        "reciprocal_vector_nm_inverse": [
+          3.2194240032855754,
+          1.6652260272824457,
+          -0.9883444803250001
+        ],
+        "unit_normal_icrs": [
+          0.8569303597846745,
+          0.4432416286968248,
+          -0.2630726459924988
+        ],
+        "spacing_nm": 0.26617505457812835,
+        "ra_deg": 27.349970065437205,
+        "dec_deg": -15.252460507000377,
+        "axial_mismatch_qA_deg": 78.08245421534292,
+        "axial_mismatch_qB_deg": 78.7436744966965,
+        "axial_mismatch_qC_deg": 85.75397913610813,
+        "axial_mismatch_qF_deg": 78.71528047272439
+      },
+      {
+        "hkl": [
+          1,
+          0,
+          1
+        ],
+        "name": "(101)",
+        "reciprocal_vector_nm_inverse": [
+          2.7014676040829277,
+          -1.7628284322112133,
+          -0.49328433529838395
+        ],
+        "unit_normal_icrs": [
+          0.827844953838517,
+          -0.5402058569510497,
+          -0.15116337029811686
+        ],
+        "spacing_nm": 0.30644267308159967,
+        "ra_deg": 326.8737546218911,
+        "dec_deg": -8.694351579947273,
+        "axial_mismatch_qA_deg": 66.7809317002874,
+        "axial_mismatch_qB_deg": 59.96109692275608,
+        "axial_mismatch_qC_deg": 85.42529697845987,
+        "axial_mismatch_qF_deg": 68.44663083866772
+      },
+      {
+        "hkl": [
+          0,
+          1,
+          1
+        ],
+        "name": "(011)",
+        "reciprocal_vector_nm_inverse": [
+          -0.12356706879455898,
+          0.40977458117009347,
+          -1.6795935193910356
+        ],
+        "unit_normal_icrs": [
+          -0.07129137523272795,
+          0.23641730529030258,
+          -0.9690327123357075
+        ],
+        "spacing_nm": 0.5769447792862682,
+        "ra_deg": 106.78062662096556,
+        "dec_deg": -75.70393955743688,
+        "axial_mismatch_qA_deg": 57.375299856984775,
+        "axial_mismatch_qB_deg": 31.348420726754107,
+        "axial_mismatch_qC_deg": 30.248009451217566,
+        "axial_mismatch_qF_deg": 54.70600296859778
+      },
+      {
+        "hkl": [
+          1,
+          1,
+          1
+        ],
+        "name": "(111)",
+        "reciprocal_vector_nm_inverse": [
+          2.898662269286972,
+          0.15608608812066294,
+          -1.5806111675072096
+        ],
+        "unit_normal_icrs": [
+          0.8769768663752187,
+          0.047223124230508104,
+          -0.4782066001014748
+        ],
+        "spacing_nm": 0.30254537607478565,
+        "ra_deg": 3.08226505390138,
+        "dec_deg": -28.568337609607642,
+        "axial_mismatch_qA_deg": 77.37227801920382,
+        "axial_mismatch_qB_deg": 84.96609769757627,
+        "axial_mismatch_qC_deg": 77.06807901386753,
+        "axial_mismatch_qF_deg": 77.19545404957168
+      }
+    ],
+    "orientation_lock": {
+      "dec_deg": -6.942599922129508,
+      "ra_deg": 167.94329987982758,
+      "unit_vector_icrs": [
+        -0.9707708558359351,
+        0.20734800911098614,
+        -0.12087492948199192
+      ]
+    }
+  },
+  "spectrophotometer_exposed_planes": [
+    {
+      "name": "qA",
+      "q_cycles_per_m": [
+        3.287321093304614e-07,
+        2.168679499253338e-06,
+        2.2552294909215927e-06
+      ],
+      "unit_normal_icrs": [
+        0.1044921956991859,
+        0.689345750575859,
+        0.7168569014810199
+      ],
+      "spacing_m": 317864.2813809953,
+      "spacing_km": 317.8642813809953,
+      "ra_deg": 81.38062488529458,
+      "dec_deg": 45.79558638984726,
+      "angle_to_cmb_axis_deg": 89.98418298644063,
+      "cell3_fractional_miller_direction": [
+        -0.030494870397093286,
+        -0.24580139768477377,
+        -0.7641978017193215
+      ],
+      "cell3_miller_normalized_max_abs_1": [
+        -0.03990442046350403,
+        -0.32164630300134384,
+        -1.0
+      ]
+    },
+    {
+      "name": "qB",
+      "q_cycles_per_m": [
+        3.0667487242027543e-07,
+        -6.155152953414554e-07,
+        6.789419322445436e-07
+      ],
+      "unit_normal_icrs": [
+        0.31734730724865895,
+        -0.6369355272096944,
+        0.7025694419487186
+      ],
+      "spacing_m": 1034800.4867309694,
+      "spacing_km": 1034.8004867309694,
+      "ra_deg": 296.4843615879636,
+      "dec_deg": 44.633515928569835,
+      "angle_to_cmb_axis_deg": 89.96584273573048,
+      "cell3_fractional_miller_direction": [
+        0.11255991795690203,
+        -0.5054245267478096,
+        -0.23953119434608391
+      ],
+      "cell3_miller_normalized_max_abs_1": [
+        0.22270371143477524,
+        -1.0,
+        -0.4739207966169837
+      ]
+    },
+    {
+      "name": "qC",
+      "q_cycles_per_m": [
+        9.277917496028659e-07,
+        9.826674478923353e-07,
+        3.596529571208077e-06
+      ],
+      "unit_normal_icrs": [
+        0.24148262134986995,
+        0.25576548975974517,
+        0.9360930284079425
+      ],
+      "spacing_m": 260276.7500931483,
+      "spacing_km": 260.2767500931483,
+      "ra_deg": 46.645301632519924,
+      "dec_deg": 69.40545481652569,
+      "angle_to_cmb_axis_deg": 89.99682822152117,
+      "cell3_fractional_miller_direction": [
+        0.029953308206793237,
+        -0.4508613083257462,
+        -0.7477958678964447
+      ],
+      "cell3_miller_normalized_max_abs_1": [
+        0.040055460979013045,
+        -0.6029202990837893,
+        -1.0
+      ]
+    },
+    {
+      "name": "qF",
+      "q_cycles_per_m": [
+        1.7798071722764015e-07,
+        9.7483400726233e-07,
+        1.113468312806658e-06
+      ],
+      "unit_normal_icrs": [
+        0.1194047030665665,
+        0.6540021132034912,
+        0.7470098746408598
+      ],
+      "spacing_m": 670885.615736934,
+      "spacing_km": 670.885615736934,
+      "ra_deg": 79.6531615831626,
+      "dec_deg": 48.33202362322002,
+      "angle_to_cmb_axis_deg": 89.98361852382789,
+      "cell3_fractional_miller_direction": [
+        -0.02480110544124913,
+        -0.2691077350791515,
+        -0.7713698831413366
+      ],
+      "cell3_miller_normalized_max_abs_1": [
+        -0.03215202717047857,
+        -0.3488699014060981,
+        -1.0
+      ]
+    }
+  ],
+  "closest_primary_plane_matches": {
+    "qA": {
+      "plane": "(001)",
+      "axial_mismatch_deg": 24.949143866658304
+    },
+    "qB": {
+      "plane": "(010)",
+      "axial_mismatch_deg": 29.694580214052944
+    },
+    "qC": {
+      "plane": "(011)",
+      "axial_mismatch_deg": 30.248009451217566
+    },
+    "qF": {
+      "plane": "(001)",
+      "axial_mismatch_deg": 27.363528174855773
+    }
+  },
+  "common_zone_analysis": {
+    "measured_qA_cross_qB_unit": [
+      -0.9454310021024944,
+      -0.15482076579585302,
+      0.28668929303665813
+    ],
+    "measured_intersection_cell3_direct_coordinates_normalized_first_1": [
+      1.0,
+      0.2850698291251197,
+      -0.13159607709882357
+    ],
+    "cmb_cell3_direct_coordinates_normalized_first_1": [
+      1.0,
+      0.2846434853198298,
+      -0.13158840405573968
+    ],
+    "low_order_integer_zone_direction": [
+      7,
+      2,
+      -1
+    ],
+    "low_order_physical_unit": [
+      0.9489702602803016,
+      0.1679974552349272,
+      -0.26689379936245294
+    ],
+    "angle_low_order_zone_to_cmb_deg": 1.3563675511189361,
+    "angle_low_order_zone_to_measured_intersection_deg": 1.3775327069228083,
+    "angle_measured_intersection_to_cmb_deg": 0.03638596896725139,
+    "zone_law": "7 h + 2 k - l = 0"
+  },
+  "recursive_harmonic_assignments": [
+    {
+      "measured_mode": "qA",
+      "role": "common qA/qF family; exact [7,2,-1] zone",
+      "hkl": [
+        1,
+        6,
+        19
+      ],
+      "recursive_level_r": 18,
+      "harmonic_order_m": 19,
+      "predicted_q_cycles_per_m": [
+        -2.3913204256543615e-07,
+        -2.2043648890769106e-06,
+        -2.2378072846785252e-06
+      ],
+      "predicted_spacing_m": 317433.28373544477,
+      "observed_spacing_m": 317864.2813809953,
+      "spacing_residual_percent": 0.135775820505879,
+      "orientation_residual_deg": 1.7820770628253977,
+      "zone_law_value_7h_2k_minus_l": 0
+    },
+    {
+      "measured_mode": "qF",
+      "role": "common qA/qF family; equivalent to r=17,m=1",
+      "hkl": [
+        1,
+        6,
+        19
+      ],
+      "recursive_level_r": 18,
+      "harmonic_order_m": 9,
+      "predicted_q_cycles_per_m": [
+        -1.1327307279415397e-07,
+        -1.0441728421943261e-06,
+        -1.0600139769529854e-06
+      ],
+      "predicted_spacing_m": 670136.9323303833,
+      "observed_spacing_m": 670885.615736934,
+      "spacing_residual_percent": 0.11172095887137523,
+      "orientation_residual_deg": 4.182885311147231,
+      "zone_law_value_7h_2k_minus_l": 0
+    },
+    {
+      "measured_mode": "qB",
+      "role": "exact [7,2,-1] zone-preserving assignment",
+      "hkl": [
+        2,
+        -9,
+        -4
+      ],
+      "recursive_level_r": 18,
+      "harmonic_order_m": 8,
+      "predicted_q_cycles_per_m": [
+        2.9596013817994705e-07,
+        -6.257944070662388e-07,
+        6.584098315270245e-07
+      ],
+      "predicted_spacing_m": 1046724.7979782319,
+      "observed_spacing_m": 1034800.4867309694,
+      "spacing_residual_percent": -1.1392021351070092,
+      "orientation_residual_deg": 1.3609063716470402,
+      "zone_law_value_7h_2k_minus_l": 0
+    },
+    {
+      "measured_mode": "qB",
+      "role": "combination-optimized assignment for qC closure",
+      "hkl": [
+        1,
+        -4,
+        -2
+      ],
+      "recursive_level_r": 18,
+      "harmonic_order_m": 18,
+      "predicted_q_cycles_per_m": [
+        3.447793754408805e-07,
+        -5.889564297487456e-07,
+        6.755125843830276e-07
+      ],
+      "predicted_spacing_m": 1041406.9430920344,
+      "observed_spacing_m": 1034800.4867309694,
+      "spacing_residual_percent": -0.6343779830629726,
+      "orientation_residual_deg": 2.7462868419677102,
+      "zone_law_value_7h_2k_minus_l": 1
+    }
+  ],
+  "common_family_1_6_19": {
+    "primitive_spacing_nm": 0.04018286449105375,
+    "recursive_level_18_spacing_m": 6031232.390973451,
+    "qA_qF_observed_spacing_ratio": 2.110603974822839,
+    "target_ratio_19_over_9": 2.111111111111111,
+    "ratio_residual_percent": -0.02402224523393448
+  },
+  "qC_combination_closure": {
+    "measured_vector_relation": "qC approximately qA + 2 qB",
+    "measured_qA_plus_2qB": [
+      9.420818541710122e-07,
+      9.376489085704274e-07,
+      3.61311335541068e-06
+    ],
+    "measured_qC": [
+      9.277917496028659e-07,
+      9.826674478923353e-07,
+      3.596529571208077e-06
+    ],
+    "measured_vector_angle_deg": 0.7367084668770466,
+    "measured_spacing_residual_percent": 0.20246477366758775,
+    "cell3_qA_packet": {
+      "hkl": [
+        -1,
+        -6,
+        -19
+      ],
+      "multiplier": 19
+    },
+    "cell3_qB_packet": {
+      "hkl": [
+        1,
+        -4,
+        -2
+      ],
+      "multiplier": 36
+    },
+    "resulting_hkl_packet": [
+      17,
+      -258,
+      -433
+    ],
+    "recursive_level_r": 18,
+    "predicted_q_cycles_per_m": [
+      9.286907934471972e-07,
+      1.0264520295794196e-06,
+      3.5888324534445806e-06
+    ],
+    "predicted_spacing_m": 259974.61229153932,
+    "observed_spacing_m": 260276.7500931483,
+    "orientation_residual_deg": 0.659365804354491,
+    "spacing_residual_percent": 0.11621819490210683,
+    "predicted_ra_deg": 47.86252493092053,
+    "predicted_dec_deg": 68.90824437817565
+  },
+  "exposed_direct_space_base_face": {
+    "measured": {
+      "a_icrs_m": [
+        23580.891690751218,
+        241209.35889614394,
+        208024.24496355117
+      ],
+      "b_icrs_m": [
+        320888.4484778324,
+        -735846.4399508036,
+        660832.4156771048
+      ],
+      "a_length_m": 319393.33080807317,
+      "b_length_m": 1039778.2750011755,
+      "included_angle_deg": 95.60865702306182,
+      "acute_equivalent_angle_deg": 84.39134297693818,
+      "area_m2": 330508374178.8196,
+      "edge_ratio_b_over_a": 3.2554789806365405
+    },
+    "harmonic_cell3_prediction": {
+      "a_icrs_m": [
+        13074.285037135523,
+        243490.05122841283,
+        205617.6163590586
+      ],
+      "b_icrs_m": [
+        369728.18938065687,
+        -716862.9866215655,
+        666640.8457424794
+      ],
+      "a_length_m": 318962.2957868663,
+      "b_length_m": 1046423.1901209654,
+      "included_angle_deg": 95.61237980099132,
+      "acute_equivalent_angle_deg": 84.38762019900868,
+      "area_m2": 332169549417.0177,
+      "edge_ratio_b_over_a": 3.2807112437521315
+    },
+    "residuals": {
+      "a_length_percent": 0.13513666878510744,
+      "b_length_percent": -0.6350122190068919,
+      "included_angle_deg": -0.0037227779294966012,
+      "area_percent": -0.5000985915517009,
+      "edge_ratio_percent": -0.769109538781998
+    }
+  },
+  "exposed_direct_space_nodes": [
+    {
+      "i": -1,
+      "j": -1,
+      "label": "(-1,-1)",
+      "measured_icrs_m": [
+        -344469.3401685837,
+        494637.0810546597,
+        -868856.660640656
+      ],
+      "predicted_icrs_m": [
+        -382802.4744177924,
+        473372.9353931527,
+        -872258.462101538
+      ],
+      "qA_phase_cycles": -1.0000000000000002,
+      "qB_phase_cycles": -0.9999999999999999
+    },
+    {
+      "i": -1,
+      "j": 0,
+      "label": "(-1,0)",
+      "measured_icrs_m": [
+        -23580.891690751218,
+        -241209.35889614394,
+        -208024.24496355117
+      ],
+      "predicted_icrs_m": [
+        -13074.285037135523,
+        -243490.05122841283,
+        -205617.6163590586
+      ],
+      "qA_phase_cycles": -1.0000000000000002,
+      "qB_phase_cycles": -3.084149929215548e-17
+    },
+    {
+      "i": -1,
+      "j": 1,
+      "label": "(-1,1)",
+      "measured_icrs_m": [
+        297307.5567870812,
+        -977055.7988469476,
+        452808.17071355367
+      ],
+      "predicted_icrs_m": [
+        356653.90434352134,
+        -960353.0378499783,
+        461023.22938342084
+      ],
+      "qA_phase_cycles": -1.0000000000000002,
+      "qB_phase_cycles": 0.9999999999999998
+    },
+    {
+      "i": -1,
+      "j": 2,
+      "label": "(-1,2)",
+      "measured_icrs_m": [
+        618196.0052649137,
+        -1712902.2387977513,
+        1113640.5863906585
+      ],
+      "predicted_icrs_m": [
+        726382.0937241783,
+        -1677216.024471544,
+        1127664.0751259003
+      ],
+      "qA_phase_cycles": -1.0,
+      "qB_phase_cycles": 1.9999999999999996
+    },
+    {
+      "i": 0,
+      "j": -1,
+      "label": "(0,-1)",
+      "measured_icrs_m": [
+        -320888.4484778324,
+        735846.4399508036,
+        -660832.4156771048
+      ],
+      "predicted_icrs_m": [
+        -369728.18938065687,
+        716862.9866215655,
+        -666640.8457424794
+      ],
+      "qA_phase_cycles": 3.077339029617111e-17,
+      "qB_phase_cycles": -0.9999999999999999
+    },
+    {
+      "i": 0,
+      "j": 0,
+      "label": "(0,0)",
+      "measured_icrs_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_icrs_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qA_phase_cycles": 0.0,
+      "qB_phase_cycles": 0.0
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "label": "(0,1)",
+      "measured_icrs_m": [
+        320888.4484778324,
+        -735846.4399508036,
+        660832.4156771048
+      ],
+      "predicted_icrs_m": [
+        369728.18938065687,
+        -716862.9866215655,
+        666640.8457424794
+      ],
+      "qA_phase_cycles": -3.077339029617111e-17,
+      "qB_phase_cycles": 0.9999999999999999
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "label": "(0,2)",
+      "measured_icrs_m": [
+        641776.8969556649,
+        -1471692.8799016073,
+        1321664.8313542097
+      ],
+      "predicted_icrs_m": [
+        739456.3787613137,
+        -1433725.973243131,
+        1333281.6914849589
+      ],
+      "qA_phase_cycles": -6.154678059234222e-17,
+      "qB_phase_cycles": 1.9999999999999998
+    },
+    {
+      "i": 1,
+      "j": -1,
+      "label": "(1,-1)",
+      "measured_icrs_m": [
+        -297307.5567870812,
+        977055.7988469476,
+        -452808.17071355367
+      ],
+      "predicted_icrs_m": [
+        -356653.90434352134,
+        960353.0378499783,
+        -461023.22938342084
+      ],
+      "qA_phase_cycles": 1.0000000000000002,
+      "qB_phase_cycles": -0.9999999999999998
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "label": "(1,0)",
+      "measured_icrs_m": [
+        23580.891690751218,
+        241209.35889614394,
+        208024.24496355117
+      ],
+      "predicted_icrs_m": [
+        13074.285037135523,
+        243490.05122841283,
+        205617.6163590586
+      ],
+      "qA_phase_cycles": 1.0000000000000002,
+      "qB_phase_cycles": 3.084149929215548e-17
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "label": "(1,1)",
+      "measured_icrs_m": [
+        344469.3401685837,
+        -494637.0810546597,
+        868856.660640656
+      ],
+      "predicted_icrs_m": [
+        382802.4744177924,
+        -473372.9353931527,
+        872258.462101538
+      ],
+      "qA_phase_cycles": 1.0000000000000002,
+      "qB_phase_cycles": 0.9999999999999999
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "label": "(1,2)",
+      "measured_icrs_m": [
+        665357.788646416,
+        -1230483.5210054633,
+        1529689.0763177609
+      ],
+      "predicted_icrs_m": [
+        752530.6637984492,
+        -1190235.9220147182,
+        1538899.3078440174
+      ],
+      "qA_phase_cycles": 1.0,
+      "qB_phase_cycles": 1.9999999999999996
+    },
+    {
+      "i": 2,
+      "j": -1,
+      "label": "(2,-1)",
+      "measured_icrs_m": [
+        -273726.66509633,
+        1218265.1577430915,
+        -244783.9257500025
+      ],
+      "predicted_icrs_m": [
+        -343579.6193063858,
+        1203843.0890783912,
+        -255405.61302436225
+      ],
+      "qA_phase_cycles": 2.0000000000000004,
+      "qB_phase_cycles": -0.9999999999999997
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "label": "(2,0)",
+      "measured_icrs_m": [
+        47161.783381502435,
+        482418.7177922879,
+        416048.48992710235
+      ],
+      "predicted_icrs_m": [
+        26148.570074271047,
+        486980.10245682567,
+        411235.2327181172
+      ],
+      "qA_phase_cycles": 2.0000000000000004,
+      "qB_phase_cycles": 6.168299858431096e-17
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "label": "(2,1)",
+      "measured_icrs_m": [
+        368050.23185933486,
+        -253427.72215851577,
+        1076880.9056042072
+      ],
+      "predicted_icrs_m": [
+        395876.75945492793,
+        -229882.88416473987,
+        1077876.0784605965
+      ],
+      "qA_phase_cycles": 2.0000000000000004,
+      "qB_phase_cycles": 0.9999999999999999
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "label": "(2,2)",
+      "measured_icrs_m": [
+        688938.6803371673,
+        -989274.1621093194,
+        1737713.321281312
+      ],
+      "predicted_icrs_m": [
+        765604.9488355848,
+        -946745.8707863054,
+        1744516.924203076
+      ],
+      "qA_phase_cycles": 2.0000000000000004,
+      "qB_phase_cycles": 1.9999999999999998
+    }
+  ],
+  "ratio_comparison": {
+    "authoritative_cell3_direct_edge_ratios": {
+      "b_over_a": 1.7547772266175927,
+      "c_over_a": 2.3709393918648685,
+      "c_over_b": 1.3511341245492194
+    },
+    "authoritative_cell3_face_area_ratios": {
+      "Aac_over_Aab": 1.3399053419914957,
+      "Abc_over_Aac": 1.370359991769679,
+      "Abc_over_Aab": 1.836152673423615
+    },
+    "authoritative_exact_multiplicative_closure_error": -2.220446049250313e-16,
+    "exposed_direct_face_edge_ratio_b_over_a": 3.2554789806365405,
+    "primary_harmonic_qF_over_qA": {
+      "observed": 2.110603974822839,
+      "target_19_over_9": 2.111111111111111,
+      "residual_percent": -0.02402224523393448
+    },
+    "secondary_scaled_relations": {
+      "dB_over_dF": 1.5424395194317786,
+      "target_9_over_8_times_r2": 1.5416549907408887,
+      "dB_over_dF_residual_percent": 0.0508887329267349,
+      "dA_over_dC": 1.2212549959504162,
+      "target_2_over_3_times_r3": 1.22410178228241,
+      "dA_over_dC_residual_percent": -0.23256124394214206
+    }
+  },
+  "interpretation": {
+    "resolved": [
+      "high-index recursively enlarged Cell3 zone",
+      "qA/qF common-family 19:9 harmonic relation",
+      "qA-qB common transverse zone",
+      "qC reciprocal sum closure",
+      "dimensionally recovered transverse direct-space base face"
+    ],
+    "not_resolved": [
+      "longitudinal period along CMB-like zone axis",
+      "absolute full three-dimensional Cell3 registry from pic_id14E alone"
+    ]
+  },
+  "figure_manifest": [
+    {
+      "filename": "authoritative_cell3_27_nodes.png",
+      "sha256": "f921b42aec98ea102f85d67ef857a654b9affe5f0e17f4a8c3a143f60998729f",
+      "size_bytes": 422878
+    },
+    {
+      "filename": "authoritative_cell3_central_planes_all_nodes.png",
+      "sha256": "e1b7d927e277461176ff8fdda36853f82cc474340626de85bc118d018388167d",
+      "size_bytes": 66035
+    },
+    {
+      "filename": "authoritative_cell3_face_area_ratios.png",
+      "sha256": "6790c826be96bafcffb0aefacbd707b6db34643c8aef0cdb1011b4e460bfd483",
+      "size_bytes": 50339
+    },
+    {
+      "filename": "cell3_primary_plane_atlas_vs_measured.png",
+      "sha256": "643d06958dbf447cc288c01b0f7ffcafe750ef2db9db5b7898ba39ae4d7d0f49",
+      "size_bytes": 70670
+    },
+    {
+      "filename": "common_cell3_zone_geometry_3d.png",
+      "sha256": "67866c08cf1486ea50772510c4a5e6b446107a3adf562959f9aeec1e27f9b70d",
+      "size_bytes": 303552
+    },
+    {
+      "filename": "exposed_base_face_measured_vs_cell3_prediction.png",
+      "sha256": "91de1eb2e5d23b61e61d0760a6ca52afb13d748f50acb65f00a482a1d7018005",
+      "size_bytes": 129996
+    },
+    {
+      "filename": "indexed_plane_spacing_comparison.png",
+      "sha256": "b0d3258dac0afa38fe6b4a2893916ca2ab0fa117a4871db7afe590b7521e8541",
+      "size_bytes": 64954
+    },
+    {
+      "filename": "low_index_plane_mismatch_ranked.png",
+      "sha256": "dafde640d8b00fa500e75382d798eb19b7be5f9f2c31e9e7b652b4b5edfb35bb",
+      "size_bytes": 66043
+    },
+    {
+      "filename": "measured_normalized_miller_coordinates.png",
+      "sha256": "6c62cf7078bd33262bb6474b30aa729f7e63da42892d77cba52fc9c366c3b5a6",
+      "size_bytes": 51364
+    },
+    {
+      "filename": "qA_qF_recursive_harmonic_stack.png",
+      "sha256": "7e0fb8bbdc1e89865b874552d62b2b5d0af170ba269de11f499a75f50a116013",
+      "size_bytes": 48629
+    },
+    {
+      "filename": "qC_reciprocal_vector_closure.png",
+      "sha256": "08143f27408da06704fcce5bf4509e696caa6329a8de390342916760702e600c",
+      "size_bytes": 285045
+    },
+    {
+      "filename": "spacing_ratio_comparisons.png",
+      "sha256": "3d60020a67e93369d43383f1351429774efb64fbb7af44ddd1cab92790940291",
+      "size_bytes": 59435
+    },
+    {
+      "filename": "title_cell3_exposed_plane_composite.png",
+      "sha256": "6582f943e87e1a01ac3593a4845f233d038159e249a7d0f121445e0d03721ca1",
+      "size_bytes": 513938
+    }
+  ]
+}
