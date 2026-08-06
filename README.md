@@ -170,7 +170,7 @@ Commercial licensing inquiries: dwayne.esterline@krytronx.com
 
 About the principal investigator
 
-P. Dwayne EsterlinePrincipal Investigator, Krytronx Quantum K-Field ResearchBS, Huntington University, 1999MBA, Indiana Wesleyan University, 2008
+P. Dwayne EsterlinePrincipal Investigator, Krytronx Quantum K-Field Research; BS, Huntington University, 1999; MBA, Indiana Wesleyan University, 2008
 
 Contact: dwayne.esterline@krytronx.com
 
