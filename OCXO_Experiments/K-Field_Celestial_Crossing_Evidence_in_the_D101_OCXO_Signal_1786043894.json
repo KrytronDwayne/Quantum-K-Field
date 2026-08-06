@@ -3,10 +3,10 @@
   "document": {
     "title": "K-FIELD CELESTIAL CROSSING EVIDENCE IN THE D101 OCXO SIGNAL",
     "subtitle": "A Foundational Educational and Archival Reference on Repeated Crossing States, Direct, Antipodal, and Orthogonal Celestial Geometry, Earth-Moon Barycentric Motion, Palindromic Variance Envelopes, Chirp Trajectories, CWT and FFT Derivatives, Two-Dimensional Recurrence, and the Volume-Filling Cell3 Plane System",
-    "filename_pdf": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786040912.pdf",
-    "filename_json": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786040912.json",
-    "generation_epoch": 1786040912,
-    "generation_utc": "2026-08-06T18:28:32Z",
+    "filename_pdf": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf",
+    "filename_json": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json",
+    "generation_epoch": 1786043894,
+    "generation_utc": "2026-08-06T19:18:14Z",
     "principal_investigator": {
       "name": "P. Dwayne Esterline",
       "role": "Principal Investigator",
@@ -25,10 +25,36 @@
       "Times-Roman",
       "Courier"
     ],
-    "pdf_size_bytes": 12283148,
-    "pdf_sha256": "b45e52d60e960da662085916479d0d79e6cbe8893eb3ebbf8fdd99640c65169c",
-    "json_size_bytes_pre_self_hash": 5393329,
-    "json_payload_sha256_before_self_hash": "6245a7ad818dc8788ef74f783831cf6c6361ce9d89a2b924835b0772df730169"
+    "approved_outline_order": [
+      "Observed repeat-signal overlays",
+      "D101 measurement foundation",
+      "Authoritative Cell3 and volume-filling ICRS context",
+      "Earth-Moon barycentric datum and nested observer motion",
+      "Explicit ICRS anchor geometry",
+      "Signal operators, palindromes, chirps, CWT and FFT derivatives",
+      "Direct, antipodal and orthogonal crossing evidence",
+      "Integrated symmetry model and falsifiable predictions"
+    ],
+    "authoritative_logo": {
+      "filename": "K-Field_Logo_20260806(1).png",
+      "sha256": "d58ade314a1b3b8edc91952342ec94a42575073fd025223ad6decc3fdfc54370"
+    },
+    "defensive_layout_contract": {
+      "fonts": [
+        "Helvetica",
+        "Helvetica-Bold",
+        "Times-Roman",
+        "Courier"
+      ],
+      "table_widths": "dynamic and limited to 98.5 percent of available page width",
+      "table_cells": "all text cells are ReportLab Paragraph objects",
+      "long_tables": "repeatRows=1",
+      "figures": "aspect-ratio preserved, centered, page-break protected, tight bounding box with padding"
+    },
+    "pdf_size_bytes": 11480297,
+    "pdf_sha256": "b595c636947f617b833fe52ae8d732b195b8462b7e32d7f61a1f5df399999dae",
+    "json_size_bytes_pre_self_hash": 5413032,
+    "json_payload_sha256_before_self_hash": "0a5a47c694e7b47b3ad711446e189c916139a679b86b219a437670f920a71f1d"
   },
   "archive": {
     "source_rows": 6762475,
@@ -133767,220 +133793,13 @@
   },
   "figure_manifest": [
     {
-      "id": 1,
-      "filename": "figure_event_geometry.png",
-      "title": "Directed crossing taxonomy",
-      "data_basis": "Analytical event definitions",
-      "description": "Direct, antipodal, and two orthogonal positions separated by 90 degrees in hour angle.",
-      "sha256": "ad288e9a889f39d8a5dd403af86f81b798dd20bf226266c056373e6bbc5492ed"
-    },
-    {
-      "id": 2,
-      "filename": "figure_crossing_evidence_matrix.png",
-      "title": "Direct and antipodal crossing evidence matrix",
-      "data_basis": "D101 latitude-unwound palindrome, chirp, CWT, and FFT2 ledgers",
-      "description": "Native metric values are printed in each cell; color is normalized within each column.",
-      "sha256": "f37cda3e362b17617a2ecdeda7c92c0312de581af4881193f149040e19d7e6fd"
-    },
-    {
-      "id": 3,
-      "filename": "figure_latitude_registration_gain.png",
-      "title": "Latitude-unwinding registration gain",
-      "data_basis": "D101 UTC and hour-angle palindrome ledgers",
-      "description": "Moonset and Moonrise show the largest gains; fixed axes remain effectively unchanged.",
-      "sha256": "3fba24fff90be648c623e297543ba66892d72962f2da2746383b86eca06aa6be"
-    },
-    {
-      "id": 4,
-      "filename": "figure_angular_chirp_summary.png",
-      "title": "Angular chirp trajectory atlas",
-      "data_basis": "D101 latitude-unwound full-band chirp ledger",
-      "description": "Each line connects the fitted pre-crossing, crossing, and post-crossing angular wavelength positions.",
-      "sha256": "4adfebb51bb8e05de9d10592de5524e49a10c9511967a85389797f556b4d576a"
-    },
-    {
-      "id": 5,
-      "filename": "figure_orthogonal_inversion_summary.png",
-      "title": "Opposite-quadrature spectral inversion",
-      "data_basis": "D101 orthogonal90 template comparison ledger",
-      "description": "All 24 parent event classes have negative long-period direct correlation between opposite quadratures.",
-      "sha256": "a43d7591c9de0b0d3add52b0cc850692fd5207402839d5ee94f1bd28e026df84"
-    },
-    {
-      "id": 6,
-      "filename": "figure_cell3_base_cell.png",
-      "title": "Authoritative Cell3 base cell with all nodes",
-      "data_basis": "K-Field ICRS plane screw trajectory machine-readable Cell3 basis",
-      "description": "Six boundary faces, 12 edges, 27 centered half-step nodes, labels, and basis vectors in nanometres.",
-      "sha256": "620c2eaf7eb58089428fc68d9e33bdd3fddeaf4b7893d8b39b9989fcd6b9ea4c"
-    },
-    {
-      "id": 7,
-      "filename": "figure_cell3_central_planes.png",
-      "title": "Cell3 central face-plane system",
-      "data_basis": "Authoritative Cell3 basis and 27-node registry",
-      "description": "The ab, ac, and bc central planes each contain nine labeled half-step nodes.",
-      "sha256": "2887961bc49418328a69e25b140318aadc8e4d78f2bb7b4f70ed4a4e23a034fd"
-    },
-    {
-      "id": 8,
-      "filename": "figure_cell3_seven_sheet_registry.png",
-      "title": "Cell3 seven-sheet node registry",
-      "data_basis": "Authoritative Cell3 (111) family and node sheet indices",
-      "description": "All 27 nodes projected into the (111) sheet plane and colored by integer sheet index.",
-      "sha256": "000cfb31a9ea8c1fe8dc9844e78e72e40124b89837630d860ea789e355757b81"
-    },
-    {
-      "id": 9,
-      "filename": "figure_cover_composite.png",
-      "title": "Data-derived title composite",
-      "data_basis": "D101 archive, crossing ledgers, CMB event profile, authoritative Cell3 geometry",
-      "description": "Four-panel archival overview generated only from the source data and exact geometry ledgers.",
-      "sha256": "6728e6c204de3e10f3c40e99caab7465ff66a150c97b742fe3e6ad80bf792e55"
-    },
-    {
-      "id": 10,
-      "filename": "03_moving_std.png",
-      "title": "Multiscale moving-standard-deviation envelopes",
-      "data_basis": "D101 raw pulse-width archive",
-      "description": "Moving standard deviations across short through long windows.",
-      "sha256": "3e45b44913b7e8ea80b944cc76f5f8232bd7ff3fea9941bcfa3e09ef634c5aee"
-    },
-    {
-      "id": 11,
-      "filename": "04_high_frequency_psd.png",
-      "title": "High-frequency spectral structure and carrier ladder",
-      "data_basis": "D101 one-second pulse-width archive",
-      "description": "Power spectral density showing the 26.84 s carrier and harmonic ladder.",
-      "sha256": "bfe5403288fbc07f14fa2a22074852d7fd627881d04328cdf211df30ce47a283"
-    },
-    {
-      "id": 12,
-      "filename": "08_lunar_local_r2.png",
-      "title": "Scale-dependent local lunar covariance",
-      "data_basis": "D101 lunar-coordinate regression ledger",
-      "description": "Local partial R-squared over sliding windows, demonstrating nonstationary lunar covariance.",
-      "sha256": "a8feafd35f5bbce41c577c3076f44236e36f983e66bbfd7e4c869c558adb1286"
-    },
-    {
-      "id": 13,
-      "filename": "15_solar_noon_midnight_comparison.png",
-      "title": "Solar upper and lower culmination comparison",
-      "data_basis": "D101 event-centered moving-standard-deviation templates",
-      "description": "Direct comparison of noon and midnight variance-envelope morphology.",
-      "sha256": "7933a978a1a2ff7a06c8cc94428c2107b428600ea7c65708a0cab303e8dfd7c9"
-    },
-    {
-      "id": 14,
-      "filename": "04_lunar_minimum_exact_profile.png",
-      "title": "Lunar lower-culmination palindrome",
-      "data_basis": "D101 event-centered moving-standard-deviation profiles",
-      "description": "Broad mirror envelope around lunar altitude minimum.",
-      "sha256": "ee233acb60902e31744a7610771c8daf896764ed0e4197a5e98442b9c96e83e2"
-    },
-    {
-      "id": 15,
-      "filename": "16_cmb_retreating_exact_profile.png",
-      "title": "CMB retreating palindrome",
-      "data_basis": "D101 fixed-vector event profiles",
-      "description": "Strong stable broad palindrome at the retreating CMB crossing.",
-      "sha256": "c4b07e9718f31827ac185908fd474c988835ce6a77f05b9195885e2984cc33cb"
-    },
-    {
-      "id": 16,
-      "filename": "16_galactic_anticenter_exact_profile.png",
-      "title": "Galactic anticenter palindrome",
-      "data_basis": "D101 fixed-vector event profiles",
-      "description": "Broad and short-scale symmetry at the Galactic anticenter crossing.",
-      "sha256": "b16dcf0fe44f9a2779e1f52ee3c38c3129cc53e337d14d3e2b42d8fde6504415"
-    },
-    {
-      "id": 17,
-      "filename": "19_planetary_crossing_metric_matrix.png",
-      "title": "Planetary crossing metric matrix",
-      "data_basis": "D101 planetary transit ledger",
-      "description": "Advancing and retreating planetary palindrome and recurrence metrics.",
-      "sha256": "1c22fa42e62c3dc27a815b454d1100a8b5bf47bdc39c480bbe2196862f355f61"
-    },
-    {
-      "id": 18,
-      "filename": "20_planetary_opposite_side_templates.png",
-      "title": "Planetary advancing-retreating template relations",
-      "data_basis": "D101 planetary opposite-side ledger",
-      "description": "Direct and time-reversed template comparisons for all planets.",
-      "sha256": "0ffd0d9c04d36663345891cb296a4354cf1a832b3c40133cc9915c403b98ec9e"
-    },
-    {
-      "id": 19,
-      "filename": "scalogram_solar_midnight_high.png",
-      "title": "Solar-midnight fast chirp scalogram",
-      "data_basis": "D101 one-second pulse-width spectrogram",
-      "description": "Fast power-notch chirp structure around lower solar culmination.",
-      "sha256": "e68e85620b24d13a1ba6ccac5feb6929b0cbd383da706359acfa140b4b6c8011"
-    },
-    {
-      "id": 20,
-      "filename": "scalogram_uranus_advancing_low.png",
-      "title": "Uranus-advancing long-period chirp scalogram",
-      "data_basis": "D101 minute-resampled spectrogram",
-      "description": "Controlled long-period angular chirp at Uranus advancing.",
-      "sha256": "909b2805ee175b486d678d002eb5f2ed887c770b27ca68aea192845c9beea3e4"
-    },
-    {
-      "id": 21,
-      "filename": "solar_evening_quadrature_low.png",
-      "title": "Solar evening quadrature chirp",
-      "data_basis": "D101 orthogonal-event spectrogram",
-      "description": "Controlled long-period downward notch chirp at the solar evening quadrature.",
-      "sha256": "8ca46cea855ed792a4f271481521a32df8eecde58bb0a16a62f40049a898cc9a"
-    },
-    {
-      "id": 22,
-      "filename": "saturn_orthogonal_sector_low.png",
-      "title": "Saturn orthogonal-sector chirp",
-      "data_basis": "D101 orthogonal-event spectrogram",
-      "description": "Controlled long-period upward notch chirp at the Saturn quadrature.",
-      "sha256": "b78f04d75e9617fe0f217a638eb26b1e6ccf192da84b7a678140413bcb3c1f25"
-    },
-    {
-      "id": 23,
-      "filename": "low_tier_orthogonal_pair_correlations.png",
-      "title": "Orthogonal pair correlations across all event classes",
-      "data_basis": "D101 orthogonal template ledger",
-      "description": "Negative long-period correlation for every direct parent class.",
-      "sha256": "bfd30ee10007b823a60ed16c4cd5faf1a7ddf39e2d9c4b54940fb1a8eb68306d"
-    },
-    {
-      "id": 24,
-      "filename": "latitude_cone_unwind_geometry.png",
-      "title": "Analytical latitude-cone flattening",
-      "data_basis": "Exact laboratory latitude geometry",
-      "description": "Local zenith cone and its flattened equatorial unit circle.",
-      "sha256": "e2b8335a8dbf1f4c4e5fffaca2b98cf2e9c34617b20d85fc6e163c3f2bae0fd6"
-    },
-    {
-      "id": 25,
-      "filename": "01_palindrome_unwind_comparison.png",
-      "title": "UTC versus latitude-unwound palindrome comparison",
-      "data_basis": "D101 time and hour-angle profile matrices",
-      "description": "Crossing-by-crossing comparison before and after phase registration.",
-      "sha256": "971a782e414b7bcf0cc5b1e0a6c351ca6452c1a65998f1f4f2eec32f38271480"
-    },
-    {
-      "id": 26,
-      "filename": "04_cwt_mixed_derivative.png",
-      "title": "CWT mixed derivative at a crossing",
-      "data_basis": "D101 latitude-unwound CWT product",
-      "description": "Scale-phase derivative structure that isolates branching chirps and reversals.",
-      "sha256": "113f9d47d9a6ec2ac745a2201dfff55f13218fd330b136625ade9659463a97ac"
-    },
-    {
-      "id": 27,
-      "filename": "03_fft2_strongest_palindrome.png",
-      "title": "Two-dimensional FFT of event profiles",
-      "data_basis": "D101 event-by-phase matrix",
-      "description": "Within-event angular order and across-event recurrence frequency.",
-      "sha256": "3117d07d5079e55be52281c66ae218c6f061126687e7a99340e9be8ffe2b42db"
+      "id": 42,
+      "filename": "figure_cover_composite_expanded.png",
+      "title": "Expanded data-derived title composite",
+      "data_basis": "D101 repeated profiles, authoritative Cell3 lattice, and actual EMB ephemeris",
+      "description": "The paper begins with observed repeat states, then places them in the oriented spatial and barycentric geometry.",
+      "sha256": "b55a443d0f938f02c5e51edc94efe90fd5f2765a7c157ba3c454b82a564fa922",
+      "figure_number": 1
     },
     {
       "id": 28,
@@ -133988,7 +133807,8 @@
       "title": "Explicit episodic repeat-signal overlays",
       "data_basis": "D101 minute feature matrix and archived top-pair ledger",
       "description": "Eight high-similarity pairs separated by one day through several weeks, aligned by the best common lag within plus or minus 60 minutes.",
-      "sha256": "4cdc8c22ff42759989de472295b1f2c90ee6e3ddc66d0a4ea4c3d1d554a78725"
+      "sha256": "8142672ed00d258138ebc4f039303cee6166a7fa5faa69e463a0d0aec8f39f5b",
+      "figure_number": 2
     },
     {
       "id": 29,
@@ -133996,7 +133816,8 @@
       "title": "Repeated profile overlays and residuals",
       "data_basis": "D101 minute feature matrix and high-similarity event pairs",
       "description": "The residual panels show that the recurrence includes internal peaks, valleys, and broad envelope shape rather than only the mean level.",
-      "sha256": "f0bdbea7c8bf54c0a4353df7e14010bea9bf8b2b022994db0fed512b5e6f2712"
+      "sha256": "f6d04d0a7a33374921cbdbad40e268864ffe3c8855d0020edf6876a0fab1d8e8",
+      "figure_number": 3
     },
     {
       "id": 30,
@@ -134004,7 +133825,8 @@
       "title": "Pair correlation versus temporal separation",
       "data_basis": "Complete high-similarity pair geometry ledger",
       "description": "Every plotted point is an actual D101 profile pair with archived correlation at or above 0.90.",
-      "sha256": "b6abe23bc6fbe2ad5a23b62b8f10e13e20a6a3043be99f5a12e556197b715912"
+      "sha256": "f4931cdd0352fdc902380097d60006da92115cf0afb217babf87bdf7480aa8d9",
+      "figure_number": 4
     },
     {
       "id": 31,
@@ -134012,7 +133834,69 @@
       "title": "April 12-13 common-state cluster",
       "data_basis": "D101 Venus, Galactic-anticenter, and Mars event profiles",
       "description": "Three independently defined celestial events reproduce during the same approximately three-hour sector on consecutive dates.",
-      "sha256": "b971219758fdd0ee374ff52269826ec8385ccaa03cb9193e51026df375e32e37"
+      "sha256": "a01a3b81e6c0d0537c1f34bde35e19ea6174d7b3d62502291d2fa7fd13f514fe",
+      "figure_number": 5
+    },
+    {
+      "filename": "01_daily_lag_scan.png",
+      "title": "01_daily_lag_scan",
+      "data_basis": "See caption and machine-readable source ledger",
+      "description": "",
+      "sha256": "f8b3d9abe479efa18017b296a55feef69f322a02b2454268be93f72fed884b5b",
+      "figure_number": 6
+    },
+    {
+      "filename": "01_timeline.png",
+      "title": "01_timeline",
+      "data_basis": "See caption and machine-readable source ledger",
+      "description": "",
+      "sha256": "bdaad59718bb20d25a9a929e6470b37eaca87e5619211e61bf167903acd1a026",
+      "figure_number": 7
+    },
+    {
+      "id": 11,
+      "filename": "04_high_frequency_psd.png",
+      "title": "High-frequency spectral structure and carrier ladder",
+      "data_basis": "D101 one-second pulse-width archive",
+      "description": "Power spectral density showing the 26.84 s carrier and harmonic ladder.",
+      "sha256": "bfe5403288fbc07f14fa2a22074852d7fd627881d04328cdf211df30ce47a283",
+      "figure_number": 8
+    },
+    {
+      "id": 10,
+      "filename": "03_moving_std.png",
+      "title": "Multiscale moving-standard-deviation envelopes",
+      "data_basis": "D101 raw pulse-width archive",
+      "description": "Moving standard deviations across short through long windows.",
+      "sha256": "3e45b44913b7e8ea80b944cc76f5f8232bd7ff3fea9941bcfa3e09ef634c5aee",
+      "figure_number": 9
+    },
+    {
+      "id": 6,
+      "filename": "figure_cell3_base_cell.png",
+      "title": "Authoritative Cell3 base cell with all nodes",
+      "data_basis": "K-Field ICRS plane screw trajectory machine-readable Cell3 basis",
+      "description": "Six boundary faces, 12 edges, 27 centered half-step nodes, labels, and basis vectors in nanometres.",
+      "sha256": "4903814da99d313611ac50d7349ca7cd96f7ad0ebfd42263d11c7f2f75bbafb2",
+      "figure_number": 10
+    },
+    {
+      "id": 7,
+      "filename": "figure_cell3_central_planes.png",
+      "title": "Cell3 central face-plane system",
+      "data_basis": "Authoritative Cell3 basis and 27-node registry",
+      "description": "The ab, ac, and bc central planes each contain nine labeled half-step nodes.",
+      "sha256": "cc76952451cf84739d8fa9a8f1d4d8fd730c92472a0406b430356115b8d51526",
+      "figure_number": 11
+    },
+    {
+      "id": 8,
+      "filename": "figure_cell3_seven_sheet_registry.png",
+      "title": "Cell3 seven-sheet node registry",
+      "data_basis": "Authoritative Cell3 (111) family and node sheet indices",
+      "description": "All 27 nodes projected into the (111) sheet plane and colored by integer sheet index.",
+      "sha256": "8bedfd2f31fd98aa5ee0551029a118c10f6e68ab22453822d7e013c496269a55",
+      "figure_number": 12
     },
     {
       "id": 32,
@@ -134020,23 +133904,8 @@
       "title": "Volume-filling Cell3 lattice and celestial-direction context",
       "data_basis": "Authoritative Cell3 basis plus measured CMB, Galactic, solar, Mars, and Uranus ICRS directions",
       "description": "The lattice dimensions are native nanometres; arrow lengths are normalized only for visibility while their ICRS directions are exact.",
-      "sha256": "59fb410dd52704b46ba40c8e5d57439f99a34d2eca6d4ea8fbc07427b4451776"
-    },
-    {
-      "id": 33,
-      "filename": "figure_actual_emb_orbit.png",
-      "title": "Actual Earth-Moon barycentric paths during the D101 archive",
-      "data_basis": "D101 one-minute Swiss-Ephemeris lunar vectors and measured lunar distance",
-      "description": "The Earth-center curve is exactly minus the lunar vector multiplied by the Earth-Moon mass fraction.",
-      "sha256": "911d4bd44d96de74db503bfe59c0f7822014817f0a92756d83e81338690f18e3"
-    },
-    {
-      "id": 34,
-      "filename": "figure_nested_observer_motion.png",
-      "title": "Nested Earth-Moon barycentric and laboratory motion",
-      "data_basis": "D101 one-minute lunar ephemeris and geodetic laboratory ICRS position",
-      "description": "The laboratory traces daily loops around an Earth center that is itself moving opposite the Moon about the EMB.",
-      "sha256": "916f363d75a844c02d813801a4920c2bc4a902eee7fd6e1bc0096f381f3dbe35"
+      "sha256": "530d0a8dc710d05c76011718093221ad7726af88b237b30e57bc78681bd08714",
+      "figure_number": 13
     },
     {
       "id": 35,
@@ -134044,39 +133913,35 @@
       "title": "Local boundary-crossing geometry at an episodic Galactic-center anchor",
       "data_basis": "Actual D101 lunar vector, Earth reflex offset, geodetic laboratory vector, and authoritative Cell3 (110) normal",
       "description": "The left panel preserves detector-scale offsets; the right panel shows the full Earth-Moon scale without compressing the local geometry.",
-      "sha256": "e02abc1afdbaa62d619a693dd2332aa527a337ca19d9e62e79c165d81e6a3232"
+      "sha256": "717b76902b23c45d14d78ec6a2b40630f8be7fed82396f65d2104a29a5559a52",
+      "figure_number": 14
     },
     {
-      "id": 36,
-      "filename": "figure_three_gate_closure_comparison.png",
-      "title": "Three-level closure comparison for representative returns",
-      "data_basis": "D101 EMB reanalysis representative-pair ledger",
-      "description": "Some returns improve when Earth reflex is removed; others are completed by deterministic reflex compensation.",
-      "sha256": "c40f3ac910911cbe4b597f976bfe2dc080ecdc9a244616ca9c3943d4f638c824"
+      "id": 1,
+      "filename": "figure_event_geometry.png",
+      "title": "Directed crossing taxonomy",
+      "data_basis": "Analytical event definitions",
+      "description": "Direct, antipodal, and two orthogonal positions separated by 90 degrees in hour angle.",
+      "sha256": "da78628b21894423545051235396eb3ef00405412427b6c73b603c53a3d896b4",
+      "figure_number": 15
     },
     {
-      "id": 37,
-      "filename": "episodic_anchor_icrs_sky_map.png",
-      "title": "High-similarity ICRS anchor sky map",
-      "data_basis": "D101 episodic anchor ledger and authoritative Cell3 axes",
-      "description": "All unique high-similarity anchors plotted with the Cell3 reciprocal-plane and projected symmetry directions.",
-      "sha256": "e9cd05fd5990c8105e25f9c1c86550847d0542278c4bb1aa379b2c7fd6350848"
+      "id": 33,
+      "filename": "figure_actual_emb_orbit.png",
+      "title": "Actual Earth-Moon barycentric paths during the D101 archive",
+      "data_basis": "D101 one-minute Swiss-Ephemeris lunar vectors and measured lunar distance",
+      "description": "Both paths are expressed relative to the EMB: r_Earth/EMB = -mu r_Moon/Earth and r_Moon/EMB = (1-mu) r_Moon/Earth.",
+      "sha256": "e56c9a38d62014533c9fa383aca82a8b3ef8fda82983d04fc9d19389eb3633a1",
+      "figure_number": 16
     },
     {
-      "id": 38,
-      "filename": "cell3_primary_plane_anchor_projections.png",
-      "title": "Cell3 primary-plane anchor projections",
-      "data_basis": "D101 anchor vectors and authoritative projected Cell3 node rays",
-      "description": "Projected event vectors compared directly with discrete node rays in the principal Cell3 planes.",
-      "sha256": "39eff5a8c10b8a02c359c80c5bdb6c0341ff38f16e40e2a060490b51db8954b3"
-    },
-    {
-      "id": 39,
-      "filename": "recursive_lattice_closure_improvement.png",
-      "title": "Recursive lattice-closure improvement",
-      "data_basis": "D101 high-pair and matched-control closure ledgers",
-      "description": "Recursive-order comparison of high-similarity pairs and matched controls.",
-      "sha256": "b898a2671e5086bd557380508ed71c921091bf5bb0e1c56c5938e4adb0fa8bef"
+      "id": 34,
+      "filename": "figure_nested_observer_motion.png",
+      "title": "Nested Earth-Moon barycentric and laboratory motion",
+      "data_basis": "D101 one-minute lunar ephemeris and geodetic laboratory ICRS position",
+      "description": "The laboratory traces daily loops around an Earth center that is itself moving opposite the Moon about the EMB.",
+      "sha256": "962b98c16d5ad32fb29d8c6aae4cbc241dba266c17932e80c4e61708e6f569f8",
+      "figure_number": 17
     },
     {
       "id": 40,
@@ -134084,7 +133949,17 @@
       "title": "EMB reflex and laboratory phase modulation versus recursive order",
       "data_basis": "D101 EMB modulation ledger",
       "description": "Peak-to-peak plane-phase modulation caused by monthly Earth reflex and daily laboratory rotation.",
-      "sha256": "ea2ee8859b1ed66fc615ede92b40bd06e2e6dce8c92fe7821076265a0f288853"
+      "sha256": "ea2ee8859b1ed66fc615ede92b40bd06e2e6dce8c92fe7821076265a0f288853",
+      "figure_number": 18
+    },
+    {
+      "id": 36,
+      "filename": "figure_three_gate_closure_comparison.png",
+      "title": "Three-level closure comparison for representative returns",
+      "data_basis": "D101 EMB reanalysis representative-pair ledger",
+      "description": "Some returns improve when Earth reflex is removed; others are completed by deterministic reflex compensation.",
+      "sha256": "24aa90ae6a6ea16df0f2e2c8aa1ec450b119764954d82385c69c37b8e422cb99",
+      "figure_number": 19
     },
     {
       "id": 41,
@@ -134092,15 +133967,214 @@
       "title": "Representative pair closure with and without Earth reflex",
       "data_basis": "D101 EMB representative-pair ledger",
       "description": "Full detector closure compared with the EMB-plus-lab and EMB-only decompositions.",
-      "sha256": "77b2a04c425dc170a11a9c1670f64c338761c67fc4e8880d10b179662de6e6cd"
+      "sha256": "77b2a04c425dc170a11a9c1670f64c338761c67fc4e8880d10b179662de6e6cd",
+      "figure_number": 20
     },
     {
-      "id": 42,
-      "filename": "figure_cover_composite_expanded.png",
-      "title": "Expanded data-derived title composite",
-      "data_basis": "D101 repeated profiles, authoritative Cell3 lattice, and actual EMB ephemeris",
-      "description": "The paper begins with observed repeat states, then places them in the oriented spatial and barycentric geometry.",
-      "sha256": "ec831de1612e3729bda038e1c8c8f16170e3d3bdd85913391f9d7640056a9f78"
+      "id": 24,
+      "filename": "latitude_cone_unwind_geometry.png",
+      "title": "Analytical latitude-cone flattening",
+      "data_basis": "Exact laboratory latitude geometry",
+      "description": "Local zenith cone and its flattened equatorial unit circle.",
+      "sha256": "e2b8335a8dbf1f4c4e5fffaca2b98cf2e9c34617b20d85fc6e163c3f2bae0fd6",
+      "figure_number": 21
+    },
+    {
+      "id": 3,
+      "filename": "figure_latitude_registration_gain.png",
+      "title": "Latitude-unwinding registration gain",
+      "data_basis": "D101 UTC and hour-angle palindrome ledgers",
+      "description": "Moonset and Moonrise show the largest gains; fixed axes remain effectively unchanged.",
+      "sha256": "e8403f228f760c1955558174f9dba93b34ae55cfc5d19a9b00a02ab5891aeb04",
+      "figure_number": 22
+    },
+    {
+      "id": 37,
+      "filename": "episodic_anchor_icrs_sky_map.png",
+      "title": "High-similarity ICRS anchor sky map",
+      "data_basis": "D101 episodic anchor ledger and authoritative Cell3 axes",
+      "description": "All unique high-similarity anchors plotted with the Cell3 reciprocal-plane and projected symmetry directions.",
+      "sha256": "e9cd05fd5990c8105e25f9c1c86550847d0542278c4bb1aa379b2c7fd6350848",
+      "figure_number": 23
+    },
+    {
+      "id": 38,
+      "filename": "cell3_primary_plane_anchor_projections.png",
+      "title": "Cell3 primary-plane anchor projections",
+      "data_basis": "D101 anchor vectors and authoritative projected Cell3 node rays",
+      "description": "Projected event vectors compared directly with discrete node rays in the principal Cell3 planes.",
+      "sha256": "39eff5a8c10b8a02c359c80c5bdb6c0341ff38f16e40e2a060490b51db8954b3",
+      "figure_number": 24
+    },
+    {
+      "id": 39,
+      "filename": "recursive_lattice_closure_improvement.png",
+      "title": "Recursive lattice-closure improvement",
+      "data_basis": "D101 high-pair and matched-control closure ledgers",
+      "description": "Recursive-order comparison of high-similarity pairs and matched controls.",
+      "sha256": "b898a2671e5086bd557380508ed71c921091bf5bb0e1c56c5938e4adb0fa8bef",
+      "figure_number": 25
+    },
+    {
+      "filename": "01_daily_lag_scan.png",
+      "title": "01_daily_lag_scan",
+      "data_basis": "See caption and machine-readable source ledger",
+      "description": "",
+      "sha256": "f8b3d9abe479efa18017b296a55feef69f322a02b2454268be93f72fed884b5b",
+      "figure_number": 26
+    },
+    {
+      "id": 2,
+      "filename": "figure_crossing_evidence_matrix.png",
+      "title": "Direct and antipodal crossing evidence matrix",
+      "data_basis": "D101 latitude-unwound palindrome, chirp, CWT, and FFT2 ledgers",
+      "description": "Native metric values are printed in each cell; color is normalized within each column.",
+      "sha256": "f7f57a2616e2296ee88e4490513a87461f7b469d065dc0139162595c8c04a0b1",
+      "figure_number": 27
+    },
+    {
+      "id": 4,
+      "filename": "figure_angular_chirp_summary.png",
+      "title": "Angular chirp trajectory atlas",
+      "data_basis": "D101 latitude-unwound full-band chirp ledger",
+      "description": "Each line connects the fitted pre-crossing, crossing, and post-crossing angular wavelength positions.",
+      "sha256": "40c1cb2d5c6af67cded6a565810a994062660e0770cd4855b5c1dfa25dda6d9b",
+      "figure_number": 28
+    },
+    {
+      "id": 26,
+      "filename": "04_cwt_mixed_derivative.png",
+      "title": "CWT mixed derivative at a crossing",
+      "data_basis": "D101 latitude-unwound CWT product",
+      "description": "Scale-phase derivative structure that isolates branching chirps and reversals.",
+      "sha256": "113f9d47d9a6ec2ac745a2201dfff55f13218fd330b136625ade9659463a97ac",
+      "figure_number": 29
+    },
+    {
+      "id": 27,
+      "filename": "03_fft2_strongest_palindrome.png",
+      "title": "Two-dimensional FFT of event profiles",
+      "data_basis": "D101 event-by-phase matrix",
+      "description": "Within-event angular order and across-event recurrence frequency.",
+      "sha256": "3117d07d5079e55be52281c66ae218c6f061126687e7a99340e9be8ffe2b42db",
+      "figure_number": 30
+    },
+    {
+      "id": 13,
+      "filename": "15_solar_noon_midnight_comparison.png",
+      "title": "Solar upper and lower culmination comparison",
+      "data_basis": "D101 event-centered moving-standard-deviation templates",
+      "description": "Direct comparison of noon and midnight variance-envelope morphology.",
+      "sha256": "7933a978a1a2ff7a06c8cc94428c2107b428600ea7c65708a0cab303e8dfd7c9",
+      "figure_number": 31
+    },
+    {
+      "id": 19,
+      "filename": "scalogram_solar_midnight_high.png",
+      "title": "Solar-midnight fast chirp scalogram",
+      "data_basis": "D101 one-second pulse-width spectrogram",
+      "description": "Fast power-notch chirp structure around lower solar culmination.",
+      "sha256": "e68e85620b24d13a1ba6ccac5feb6929b0cbd383da706359acfa140b4b6c8011",
+      "figure_number": 32
+    },
+    {
+      "id": 14,
+      "filename": "04_lunar_minimum_exact_profile.png",
+      "title": "Lunar lower-culmination palindrome",
+      "data_basis": "D101 event-centered moving-standard-deviation profiles",
+      "description": "Broad mirror envelope around lunar altitude minimum.",
+      "sha256": "ee233acb60902e31744a7610771c8daf896764ed0e4197a5e98442b9c96e83e2",
+      "figure_number": 33
+    },
+    {
+      "id": 3,
+      "filename": "figure_latitude_registration_gain.png",
+      "title": "Latitude-unwinding registration gain",
+      "data_basis": "D101 UTC and hour-angle palindrome ledgers",
+      "description": "Moonset and Moonrise show the largest gains; fixed axes remain effectively unchanged.",
+      "sha256": "e8403f228f760c1955558174f9dba93b34ae55cfc5d19a9b00a02ab5891aeb04",
+      "figure_number": 34
+    },
+    {
+      "id": 15,
+      "filename": "16_cmb_retreating_exact_profile.png",
+      "title": "CMB retreating palindrome",
+      "data_basis": "D101 fixed-vector event profiles",
+      "description": "Strong stable broad palindrome at the retreating CMB crossing.",
+      "sha256": "c4b07e9718f31827ac185908fd474c988835ce6a77f05b9195885e2984cc33cb",
+      "figure_number": 35
+    },
+    {
+      "id": 16,
+      "filename": "16_galactic_anticenter_exact_profile.png",
+      "title": "Galactic anticenter palindrome",
+      "data_basis": "D101 fixed-vector event profiles",
+      "description": "Broad and short-scale symmetry at the Galactic anticenter crossing.",
+      "sha256": "b16dcf0fe44f9a2779e1f52ee3c38c3129cc53e337d14d3e2b42d8fde6504415",
+      "figure_number": 36
+    },
+    {
+      "id": 20,
+      "filename": "scalogram_uranus_advancing_low.png",
+      "title": "Uranus-advancing long-period chirp scalogram",
+      "data_basis": "D101 minute-resampled spectrogram",
+      "description": "Controlled long-period angular chirp at Uranus advancing.",
+      "sha256": "909b2805ee175b486d678d002eb5f2ed887c770b27ca68aea192845c9beea3e4",
+      "figure_number": 37
+    },
+    {
+      "id": 17,
+      "filename": "19_planetary_crossing_metric_matrix.png",
+      "title": "Planetary crossing metric matrix",
+      "data_basis": "D101 planetary transit ledger",
+      "description": "Advancing and retreating planetary palindrome and recurrence metrics.",
+      "sha256": "1c22fa42e62c3dc27a815b454d1100a8b5bf47bdc39c480bbe2196862f355f61",
+      "figure_number": 38
+    },
+    {
+      "id": 18,
+      "filename": "20_planetary_opposite_side_templates.png",
+      "title": "Planetary advancing-retreating template relations",
+      "data_basis": "D101 planetary opposite-side ledger",
+      "description": "Direct and time-reversed template comparisons for all planets.",
+      "sha256": "0ffd0d9c04d36663345891cb296a4354cf1a832b3c40133cc9915c403b98ec9e",
+      "figure_number": 39
+    },
+    {
+      "id": 5,
+      "filename": "figure_orthogonal_inversion_summary.png",
+      "title": "Opposite-quadrature spectral inversion",
+      "data_basis": "D101 orthogonal90 template comparison ledger",
+      "description": "All 24 parent event classes have negative long-period direct correlation between opposite quadratures.",
+      "sha256": "ebe191d21a80698f50ebfd2679a97ce7bb1b96a6335f131293fed83a23cf283e",
+      "figure_number": 40
+    },
+    {
+      "id": 23,
+      "filename": "low_tier_orthogonal_pair_correlations.png",
+      "title": "Orthogonal pair correlations across all event classes",
+      "data_basis": "D101 orthogonal template ledger",
+      "description": "Negative long-period correlation for every direct parent class.",
+      "sha256": "bfd30ee10007b823a60ed16c4cd5faf1a7ddf39e2d9c4b54940fb1a8eb68306d",
+      "figure_number": 41
+    },
+    {
+      "id": 21,
+      "filename": "solar_evening_quadrature_low.png",
+      "title": "Solar evening quadrature chirp",
+      "data_basis": "D101 orthogonal-event spectrogram",
+      "description": "Controlled long-period downward notch chirp at the solar evening quadrature.",
+      "sha256": "8ca46cea855ed792a4f271481521a32df8eecde58bb0a16a62f40049a898cc9a",
+      "figure_number": 42
+    },
+    {
+      "id": 22,
+      "filename": "saturn_orthogonal_sector_low.png",
+      "title": "Saturn orthogonal-sector chirp",
+      "data_basis": "D101 orthogonal-event spectrogram",
+      "description": "Controlled long-period upward notch chirp at the Saturn quadrature.",
+      "sha256": "b78f04d75e9617fe0f217a638eb26b1e6ccf192da84b7a678140413bcb3c1f25",
+      "figure_number": 43
     }
   ],
   "source_files": [
@@ -134519,10 +134593,348 @@
     },
     {
       "role": "logo",
-      "filename": "K-Field Quantum Orbit Logo.png",
-      "path": "/mnt/data/kfield_assets/K-Field Quantum Orbit Logo.png",
-      "size_bytes": 1005869,
-      "sha256": "44d181ef689cc200e61b743d8c75ba83bcb28f21a3d258fc8dce02c92c9c24a0"
+      "filename": "K-Field_Logo_20260806(1).png",
+      "path": "/mnt/data/K-Field_Logo_20260806(1).png",
+      "size_bytes": 2464613,
+      "sha256": "d58ade314a1b3b8edc91952342ec94a42575073fd025223ad6decc3fdfc54370"
+    }
+  ],
+  "figure_manifest_assets": [
+    {
+      "id": 1,
+      "filename": "figure_event_geometry.png",
+      "title": "Directed crossing taxonomy",
+      "data_basis": "Analytical event definitions",
+      "description": "Direct, antipodal, and two orthogonal positions separated by 90 degrees in hour angle.",
+      "sha256": "da78628b21894423545051235396eb3ef00405412427b6c73b603c53a3d896b4"
+    },
+    {
+      "id": 2,
+      "filename": "figure_crossing_evidence_matrix.png",
+      "title": "Direct and antipodal crossing evidence matrix",
+      "data_basis": "D101 latitude-unwound palindrome, chirp, CWT, and FFT2 ledgers",
+      "description": "Native metric values are printed in each cell; color is normalized within each column.",
+      "sha256": "f7f57a2616e2296ee88e4490513a87461f7b469d065dc0139162595c8c04a0b1"
+    },
+    {
+      "id": 3,
+      "filename": "figure_latitude_registration_gain.png",
+      "title": "Latitude-unwinding registration gain",
+      "data_basis": "D101 UTC and hour-angle palindrome ledgers",
+      "description": "Moonset and Moonrise show the largest gains; fixed axes remain effectively unchanged.",
+      "sha256": "e8403f228f760c1955558174f9dba93b34ae55cfc5d19a9b00a02ab5891aeb04"
+    },
+    {
+      "id": 4,
+      "filename": "figure_angular_chirp_summary.png",
+      "title": "Angular chirp trajectory atlas",
+      "data_basis": "D101 latitude-unwound full-band chirp ledger",
+      "description": "Each line connects the fitted pre-crossing, crossing, and post-crossing angular wavelength positions.",
+      "sha256": "40c1cb2d5c6af67cded6a565810a994062660e0770cd4855b5c1dfa25dda6d9b"
+    },
+    {
+      "id": 5,
+      "filename": "figure_orthogonal_inversion_summary.png",
+      "title": "Opposite-quadrature spectral inversion",
+      "data_basis": "D101 orthogonal90 template comparison ledger",
+      "description": "All 24 parent event classes have negative long-period direct correlation between opposite quadratures.",
+      "sha256": "ebe191d21a80698f50ebfd2679a97ce7bb1b96a6335f131293fed83a23cf283e"
+    },
+    {
+      "id": 6,
+      "filename": "figure_cell3_base_cell.png",
+      "title": "Authoritative Cell3 base cell with all nodes",
+      "data_basis": "K-Field ICRS plane screw trajectory machine-readable Cell3 basis",
+      "description": "Six boundary faces, 12 edges, 27 centered half-step nodes, labels, and basis vectors in nanometres.",
+      "sha256": "4903814da99d313611ac50d7349ca7cd96f7ad0ebfd42263d11c7f2f75bbafb2"
+    },
+    {
+      "id": 7,
+      "filename": "figure_cell3_central_planes.png",
+      "title": "Cell3 central face-plane system",
+      "data_basis": "Authoritative Cell3 basis and 27-node registry",
+      "description": "The ab, ac, and bc central planes each contain nine labeled half-step nodes.",
+      "sha256": "cc76952451cf84739d8fa9a8f1d4d8fd730c92472a0406b430356115b8d51526"
+    },
+    {
+      "id": 8,
+      "filename": "figure_cell3_seven_sheet_registry.png",
+      "title": "Cell3 seven-sheet node registry",
+      "data_basis": "Authoritative Cell3 (111) family and node sheet indices",
+      "description": "All 27 nodes projected into the (111) sheet plane and colored by integer sheet index.",
+      "sha256": "8bedfd2f31fd98aa5ee0551029a118c10f6e68ab22453822d7e013c496269a55"
+    },
+    {
+      "id": 9,
+      "filename": "figure_cover_composite.png",
+      "title": "Data-derived title composite",
+      "data_basis": "D101 archive, crossing ledgers, CMB event profile, authoritative Cell3 geometry",
+      "description": "Four-panel archival overview generated only from the source data and exact geometry ledgers.",
+      "sha256": "80a750313a59848aeb30621231ee76330a2ef07fe6c2299be69801481131e3da"
+    },
+    {
+      "id": 10,
+      "filename": "03_moving_std.png",
+      "title": "Multiscale moving-standard-deviation envelopes",
+      "data_basis": "D101 raw pulse-width archive",
+      "description": "Moving standard deviations across short through long windows.",
+      "sha256": "3e45b44913b7e8ea80b944cc76f5f8232bd7ff3fea9941bcfa3e09ef634c5aee"
+    },
+    {
+      "id": 11,
+      "filename": "04_high_frequency_psd.png",
+      "title": "High-frequency spectral structure and carrier ladder",
+      "data_basis": "D101 one-second pulse-width archive",
+      "description": "Power spectral density showing the 26.84 s carrier and harmonic ladder.",
+      "sha256": "bfe5403288fbc07f14fa2a22074852d7fd627881d04328cdf211df30ce47a283"
+    },
+    {
+      "id": 12,
+      "filename": "08_lunar_local_r2.png",
+      "title": "Scale-dependent local lunar covariance",
+      "data_basis": "D101 lunar-coordinate regression ledger",
+      "description": "Local partial R-squared over sliding windows, demonstrating nonstationary lunar covariance.",
+      "sha256": "a8feafd35f5bbce41c577c3076f44236e36f983e66bbfd7e4c869c558adb1286"
+    },
+    {
+      "id": 13,
+      "filename": "15_solar_noon_midnight_comparison.png",
+      "title": "Solar upper and lower culmination comparison",
+      "data_basis": "D101 event-centered moving-standard-deviation templates",
+      "description": "Direct comparison of noon and midnight variance-envelope morphology.",
+      "sha256": "7933a978a1a2ff7a06c8cc94428c2107b428600ea7c65708a0cab303e8dfd7c9"
+    },
+    {
+      "id": 14,
+      "filename": "04_lunar_minimum_exact_profile.png",
+      "title": "Lunar lower-culmination palindrome",
+      "data_basis": "D101 event-centered moving-standard-deviation profiles",
+      "description": "Broad mirror envelope around lunar altitude minimum.",
+      "sha256": "ee233acb60902e31744a7610771c8daf896764ed0e4197a5e98442b9c96e83e2"
+    },
+    {
+      "id": 15,
+      "filename": "16_cmb_retreating_exact_profile.png",
+      "title": "CMB retreating palindrome",
+      "data_basis": "D101 fixed-vector event profiles",
+      "description": "Strong stable broad palindrome at the retreating CMB crossing.",
+      "sha256": "c4b07e9718f31827ac185908fd474c988835ce6a77f05b9195885e2984cc33cb"
+    },
+    {
+      "id": 16,
+      "filename": "16_galactic_anticenter_exact_profile.png",
+      "title": "Galactic anticenter palindrome",
+      "data_basis": "D101 fixed-vector event profiles",
+      "description": "Broad and short-scale symmetry at the Galactic anticenter crossing.",
+      "sha256": "b16dcf0fe44f9a2779e1f52ee3c38c3129cc53e337d14d3e2b42d8fde6504415"
+    },
+    {
+      "id": 17,
+      "filename": "19_planetary_crossing_metric_matrix.png",
+      "title": "Planetary crossing metric matrix",
+      "data_basis": "D101 planetary transit ledger",
+      "description": "Advancing and retreating planetary palindrome and recurrence metrics.",
+      "sha256": "1c22fa42e62c3dc27a815b454d1100a8b5bf47bdc39c480bbe2196862f355f61"
+    },
+    {
+      "id": 18,
+      "filename": "20_planetary_opposite_side_templates.png",
+      "title": "Planetary advancing-retreating template relations",
+      "data_basis": "D101 planetary opposite-side ledger",
+      "description": "Direct and time-reversed template comparisons for all planets.",
+      "sha256": "0ffd0d9c04d36663345891cb296a4354cf1a832b3c40133cc9915c403b98ec9e"
+    },
+    {
+      "id": 19,
+      "filename": "scalogram_solar_midnight_high.png",
+      "title": "Solar-midnight fast chirp scalogram",
+      "data_basis": "D101 one-second pulse-width spectrogram",
+      "description": "Fast power-notch chirp structure around lower solar culmination.",
+      "sha256": "e68e85620b24d13a1ba6ccac5feb6929b0cbd383da706359acfa140b4b6c8011"
+    },
+    {
+      "id": 20,
+      "filename": "scalogram_uranus_advancing_low.png",
+      "title": "Uranus-advancing long-period chirp scalogram",
+      "data_basis": "D101 minute-resampled spectrogram",
+      "description": "Controlled long-period angular chirp at Uranus advancing.",
+      "sha256": "909b2805ee175b486d678d002eb5f2ed887c770b27ca68aea192845c9beea3e4"
+    },
+    {
+      "id": 21,
+      "filename": "solar_evening_quadrature_low.png",
+      "title": "Solar evening quadrature chirp",
+      "data_basis": "D101 orthogonal-event spectrogram",
+      "description": "Controlled long-period downward notch chirp at the solar evening quadrature.",
+      "sha256": "8ca46cea855ed792a4f271481521a32df8eecde58bb0a16a62f40049a898cc9a"
+    },
+    {
+      "id": 22,
+      "filename": "saturn_orthogonal_sector_low.png",
+      "title": "Saturn orthogonal-sector chirp",
+      "data_basis": "D101 orthogonal-event spectrogram",
+      "description": "Controlled long-period upward notch chirp at the Saturn quadrature.",
+      "sha256": "b78f04d75e9617fe0f217a638eb26b1e6ccf192da84b7a678140413bcb3c1f25"
+    },
+    {
+      "id": 23,
+      "filename": "low_tier_orthogonal_pair_correlations.png",
+      "title": "Orthogonal pair correlations across all event classes",
+      "data_basis": "D101 orthogonal template ledger",
+      "description": "Negative long-period correlation for every direct parent class.",
+      "sha256": "bfd30ee10007b823a60ed16c4cd5faf1a7ddf39e2d9c4b54940fb1a8eb68306d"
+    },
+    {
+      "id": 24,
+      "filename": "latitude_cone_unwind_geometry.png",
+      "title": "Analytical latitude-cone flattening",
+      "data_basis": "Exact laboratory latitude geometry",
+      "description": "Local zenith cone and its flattened equatorial unit circle.",
+      "sha256": "e2b8335a8dbf1f4c4e5fffaca2b98cf2e9c34617b20d85fc6e163c3f2bae0fd6"
+    },
+    {
+      "id": 25,
+      "filename": "01_palindrome_unwind_comparison.png",
+      "title": "UTC versus latitude-unwound palindrome comparison",
+      "data_basis": "D101 time and hour-angle profile matrices",
+      "description": "Crossing-by-crossing comparison before and after phase registration.",
+      "sha256": "971a782e414b7bcf0cc5b1e0a6c351ca6452c1a65998f1f4f2eec32f38271480"
+    },
+    {
+      "id": 26,
+      "filename": "04_cwt_mixed_derivative.png",
+      "title": "CWT mixed derivative at a crossing",
+      "data_basis": "D101 latitude-unwound CWT product",
+      "description": "Scale-phase derivative structure that isolates branching chirps and reversals.",
+      "sha256": "113f9d47d9a6ec2ac745a2201dfff55f13218fd330b136625ade9659463a97ac"
+    },
+    {
+      "id": 27,
+      "filename": "03_fft2_strongest_palindrome.png",
+      "title": "Two-dimensional FFT of event profiles",
+      "data_basis": "D101 event-by-phase matrix",
+      "description": "Within-event angular order and across-event recurrence frequency.",
+      "sha256": "3117d07d5079e55be52281c66ae218c6f061126687e7a99340e9be8ffe2b42db"
+    },
+    {
+      "id": 28,
+      "filename": "figure_repeat_signal_overlays.png",
+      "title": "Explicit episodic repeat-signal overlays",
+      "data_basis": "D101 minute feature matrix and archived top-pair ledger",
+      "description": "Eight high-similarity pairs separated by one day through several weeks, aligned by the best common lag within plus or minus 60 minutes.",
+      "sha256": "8142672ed00d258138ebc4f039303cee6166a7fa5faa69e463a0d0aec8f39f5b"
+    },
+    {
+      "id": 29,
+      "filename": "figure_repeat_signal_residuals.png",
+      "title": "Repeated profile overlays and residuals",
+      "data_basis": "D101 minute feature matrix and high-similarity event pairs",
+      "description": "The residual panels show that the recurrence includes internal peaks, valleys, and broad envelope shape rather than only the mean level.",
+      "sha256": "f6d04d0a7a33374921cbdbad40e268864ffe3c8855d0020edf6876a0fab1d8e8"
+    },
+    {
+      "id": 30,
+      "filename": "figure_repeat_correlation_vs_separation.png",
+      "title": "Pair correlation versus temporal separation",
+      "data_basis": "Complete high-similarity pair geometry ledger",
+      "description": "Every plotted point is an actual D101 profile pair with archived correlation at or above 0.90.",
+      "sha256": "f4931cdd0352fdc902380097d60006da92115cf0afb217babf87bdf7480aa8d9"
+    },
+    {
+      "id": 31,
+      "filename": "figure_april_12_13_common_state.png",
+      "title": "April 12-13 common-state cluster",
+      "data_basis": "D101 Venus, Galactic-anticenter, and Mars event profiles",
+      "description": "Three independently defined celestial events reproduce during the same approximately three-hour sector on consecutive dates.",
+      "sha256": "a01a3b81e6c0d0537c1f34bde35e19ea6174d7b3d62502291d2fa7fd13f514fe"
+    },
+    {
+      "id": 32,
+      "filename": "figure_volume_filling_cell3_context.png",
+      "title": "Volume-filling Cell3 lattice and celestial-direction context",
+      "data_basis": "Authoritative Cell3 basis plus measured CMB, Galactic, solar, Mars, and Uranus ICRS directions",
+      "description": "The lattice dimensions are native nanometres; arrow lengths are normalized only for visibility while their ICRS directions are exact.",
+      "sha256": "530d0a8dc710d05c76011718093221ad7726af88b237b30e57bc78681bd08714"
+    },
+    {
+      "id": 33,
+      "filename": "figure_actual_emb_orbit.png",
+      "title": "Actual Earth-Moon barycentric paths during the D101 archive",
+      "data_basis": "D101 one-minute Swiss-Ephemeris lunar vectors and measured lunar distance",
+      "description": "Both paths are expressed relative to the EMB: r_Earth/EMB = -mu r_Moon/Earth and r_Moon/EMB = (1-mu) r_Moon/Earth.",
+      "sha256": "e56c9a38d62014533c9fa383aca82a8b3ef8fda82983d04fc9d19389eb3633a1"
+    },
+    {
+      "id": 34,
+      "filename": "figure_nested_observer_motion.png",
+      "title": "Nested Earth-Moon barycentric and laboratory motion",
+      "data_basis": "D101 one-minute lunar ephemeris and geodetic laboratory ICRS position",
+      "description": "The laboratory traces daily loops around an Earth center that is itself moving opposite the Moon about the EMB.",
+      "sha256": "962b98c16d5ad32fb29d8c6aae4cbc241dba266c17932e80c4e61708e6f569f8"
+    },
+    {
+      "id": 35,
+      "filename": "figure_actual_boundary_crossing_context.png",
+      "title": "Local boundary-crossing geometry at an episodic Galactic-center anchor",
+      "data_basis": "Actual D101 lunar vector, Earth reflex offset, geodetic laboratory vector, and authoritative Cell3 (110) normal",
+      "description": "The left panel preserves detector-scale offsets; the right panel shows the full Earth-Moon scale without compressing the local geometry.",
+      "sha256": "717b76902b23c45d14d78ec6a2b40630f8be7fed82396f65d2104a29a5559a52"
+    },
+    {
+      "id": 36,
+      "filename": "figure_three_gate_closure_comparison.png",
+      "title": "Three-level closure comparison for representative returns",
+      "data_basis": "D101 EMB reanalysis representative-pair ledger",
+      "description": "Some returns improve when Earth reflex is removed; others are completed by deterministic reflex compensation.",
+      "sha256": "24aa90ae6a6ea16df0f2e2c8aa1ec450b119764954d82385c69c37b8e422cb99"
+    },
+    {
+      "id": 37,
+      "filename": "episodic_anchor_icrs_sky_map.png",
+      "title": "High-similarity ICRS anchor sky map",
+      "data_basis": "D101 episodic anchor ledger and authoritative Cell3 axes",
+      "description": "All unique high-similarity anchors plotted with the Cell3 reciprocal-plane and projected symmetry directions.",
+      "sha256": "e9cd05fd5990c8105e25f9c1c86550847d0542278c4bb1aa379b2c7fd6350848"
+    },
+    {
+      "id": 38,
+      "filename": "cell3_primary_plane_anchor_projections.png",
+      "title": "Cell3 primary-plane anchor projections",
+      "data_basis": "D101 anchor vectors and authoritative projected Cell3 node rays",
+      "description": "Projected event vectors compared directly with discrete node rays in the principal Cell3 planes.",
+      "sha256": "39eff5a8c10b8a02c359c80c5bdb6c0341ff38f16e40e2a060490b51db8954b3"
+    },
+    {
+      "id": 39,
+      "filename": "recursive_lattice_closure_improvement.png",
+      "title": "Recursive lattice-closure improvement",
+      "data_basis": "D101 high-pair and matched-control closure ledgers",
+      "description": "Recursive-order comparison of high-similarity pairs and matched controls.",
+      "sha256": "b898a2671e5086bd557380508ed71c921091bf5bb0e1c56c5938e4adb0fa8bef"
+    },
+    {
+      "id": 40,
+      "filename": "emb_phase_modulation_by_order.png",
+      "title": "EMB reflex and laboratory phase modulation versus recursive order",
+      "data_basis": "D101 EMB modulation ledger",
+      "description": "Peak-to-peak plane-phase modulation caused by monthly Earth reflex and daily laboratory rotation.",
+      "sha256": "ea2ee8859b1ed66fc615ede92b40bd06e2e6dce8c92fe7821076265a0f288853"
+    },
+    {
+      "id": 41,
+      "filename": "representative_pair_emb_correction.png",
+      "title": "Representative pair closure with and without Earth reflex",
+      "data_basis": "D101 EMB representative-pair ledger",
+      "description": "Full detector closure compared with the EMB-plus-lab and EMB-only decompositions.",
+      "sha256": "77b2a04c425dc170a11a9c1670f64c338761c67fc4e8880d10b179662de6e6cd"
+    },
+    {
+      "id": 42,
+      "filename": "figure_cover_composite_expanded.png",
+      "title": "Expanded data-derived title composite",
+      "data_basis": "D101 repeated profiles, authoritative Cell3 lattice, and actual EMB ephemeris",
+      "description": "The paper begins with observed repeat states, then places them in the oriented spatial and barycentric geometry.",
+      "sha256": "b55a443d0f938f02c5e51edc94efe90fd5f2765a7c157ba3c454b82a564fa922"
     }
   ]
 }
