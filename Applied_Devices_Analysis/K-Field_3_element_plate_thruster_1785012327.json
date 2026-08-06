@@ -1,0 +1,1370 @@
+{
+  "cell3": {
+    "address_coupling_W_nm2": [
+      [
+        0.08335330263345708,
+        0.13750057660358808,
+        0.10255921122195821
+      ],
+      [
+        0.1375005766035881,
+        0.6924000428485476,
+        0.5508009044534695
+      ],
+      [
+        0.10255921122195823,
+        0.5508009044534695,
+        0.5877476523533913
+      ]
+    ],
+    "basis_B_nm": [
+      [
+        0.327501242069651,
+        0.035330775844051,
+        -0.010129317626665
+      ],
+      [
+        -0.054897007886313,
+        0.207319850441498,
+        -0.389787702363804
+      ],
+      [
+        -0.037487502896305,
+        -0.547401085391957,
+        -0.689734408362922
+      ]
+    ],
+    "cell_volume_nm3": 0.11791489191669897,
+    "centered_nodes": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "kind": "corner",
+        "lambda": -3,
+        "polarity": -1,
+        "position_nm": [
+          -0.17635135014351846,
+          0.1186824299043095,
+          0.637311498325592
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "kind": "edge center",
+        "lambda": -2,
+        "polarity": 1,
+        "position_nm": [
+          -0.18141600895685098,
+          -0.0762114212775925,
+          0.292444294144131
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "kind": "edge center",
+        "lambda": -2,
+        "polarity": 1,
+        "position_nm": [
+          -0.15868596222149298,
+          0.2223423551250585,
+          0.3636109556296135
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "kind": "edge center",
+        "lambda": -2,
+        "polarity": 1,
+        "position_nm": [
+          -0.012600729108692999,
+          0.091233925961153,
+          0.6185677468774395
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "kind": "corner",
+        "lambda": -1,
+        "polarity": -1,
+        "position_nm": [
+          -0.1864806677701835,
+          -0.2711052724594945,
+          -0.05242291003733002
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "kind": "face center",
+        "lambda": -1,
+        "polarity": -1,
+        "position_nm": [
+          -0.1637506210348255,
+          0.0274485039431565,
+          0.0187437514481525
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "kind": "corner",
+        "lambda": -1,
+        "polarity": -1,
+        "position_nm": [
+          -0.1410205742994675,
+          0.32600228034580747,
+          0.089910412933635
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "kind": "face center",
+        "lambda": -1,
+        "polarity": -1,
+        "position_nm": [
+          -0.0176653879220255,
+          -0.103659925220749,
+          0.2737005426959785
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "kind": "face center",
+        "lambda": -1,
+        "polarity": -1,
+        "position_nm": [
+          0.0050646588133325,
+          0.194893851181902,
+          0.344867204181461
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "kind": "corner",
+        "lambda": -1,
+        "polarity": -1,
+        "position_nm": [
+          0.1511498919261325,
+          0.0637854220179965,
+          0.599823995429287
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "kind": "edge center",
+        "lambda": 0,
+        "polarity": 1,
+        "position_nm": [
+          -0.168815279848158,
+          -0.1674453472387455,
+          -0.3261234527333085
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "kind": "edge center",
+        "lambda": 0,
+        "polarity": 1,
+        "position_nm": [
+          -0.1460852331128,
+          0.1311084291639055,
+          -0.254956791247826
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "kind": "edge center",
+        "lambda": 0,
+        "polarity": 1,
+        "position_nm": [
+          -0.022730046735358,
+          -0.298553776402651,
+          -0.07116666148548251
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "kind": "body center",
+        "lambda": 0,
+        "polarity": 1,
+        "position_nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "kind": "edge center",
+        "lambda": 0,
+        "polarity": 1,
+        "position_nm": [
+          0.022730046735358,
+          0.298553776402651,
+          0.07116666148548251
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "kind": "edge center",
+        "lambda": 0,
+        "polarity": 1,
+        "position_nm": [
+          0.1460852331128,
+          -0.1311084291639055,
+          0.254956791247826
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "kind": "edge center",
+        "lambda": 0,
+        "polarity": 1,
+        "position_nm": [
+          0.168815279848158,
+          0.1674453472387455,
+          0.3261234527333085
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "kind": "corner",
+        "lambda": 1,
+        "polarity": -1,
+        "position_nm": [
+          -0.1511498919261325,
+          -0.0637854220179965,
+          -0.599823995429287
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "kind": "face center",
+        "lambda": 1,
+        "polarity": -1,
+        "position_nm": [
+          -0.0050646588133325,
+          -0.194893851181902,
+          -0.344867204181461
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "kind": "face center",
+        "lambda": 1,
+        "polarity": -1,
+        "position_nm": [
+          0.0176653879220255,
+          0.103659925220749,
+          -0.2737005426959785
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "kind": "corner",
+        "lambda": 1,
+        "polarity": -1,
+        "position_nm": [
+          0.1410205742994675,
+          -0.32600228034580747,
+          -0.089910412933635
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "kind": "face center",
+        "lambda": 1,
+        "polarity": -1,
+        "position_nm": [
+          0.1637506210348255,
+          -0.0274485039431565,
+          -0.0187437514481525
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "kind": "corner",
+        "lambda": 1,
+        "polarity": -1,
+        "position_nm": [
+          0.1864806677701835,
+          0.2711052724594945,
+          0.05242291003733002
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "kind": "edge center",
+        "lambda": 2,
+        "polarity": 1,
+        "position_nm": [
+          0.012600729108692999,
+          -0.091233925961153,
+          -0.6185677468774395
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "kind": "edge center",
+        "lambda": 2,
+        "polarity": 1,
+        "position_nm": [
+          0.15868596222149298,
+          -0.2223423551250585,
+          -0.3636109556296135
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "kind": "edge center",
+        "lambda": 2,
+        "polarity": 1,
+        "position_nm": [
+          0.18141600895685098,
+          0.0762114212775925,
+          -0.292444294144131
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "kind": "corner",
+        "lambda": 3,
+        "polarity": -1,
+        "position_nm": [
+          0.17635135014351846,
+          -0.1186824299043095,
+          -0.637311498325592
+        ]
+      }
+    ],
+    "direct_metric_M_nm2": [
+      [
+        0.11167605790543453,
+        0.020710333281606465,
+        0.04393723509778903
+      ],
+      [
+        0.020710333281606465,
+        0.3438777323971203,
+        0.2963927589615229
+      ],
+      [
+        0.04393723509778903,
+        0.2963927589615229,
+        0.6277706100693854
+      ]
+    ],
+    "edge_lengths_nm": [
+      0.3341796790731515,
+      0.5864108904148355,
+      0.7923197650376932
+    ],
+    "face_areas_nm2": {
+      "ab": 0.19486916546989957,
+      "ac": 0.2611062357995309,
+      "bc": 0.3578095391285615
+    },
+    "identity": "G_phase = 4 B^(-T) W B^(-1)",
+    "included_angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.4481300183379,
+      "bc": 50.36323181375619
+    },
+    "physical_response_G_phase": [
+      [
+        2.9764106378,
+        1.2431507795,
+        -2.0803600354
+      ],
+      [
+        1.2431507795,
+        2.5922286635,
+        -2.3178839937
+      ],
+      [
+        -2.0803600354,
+        -2.3178839937,
+        6.7735709133
+      ]
+    ],
+    "plane_families": [
+      {
+        "adjacent_halfstep_spacing_nm": 0.16477326485464652,
+        "channel": "a",
+        "face_area_nm2": 0.3578095391285615,
+        "face_family": "bc",
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              1,
+              1
+            ]
+          ],
+          "0": [
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "1": [
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        "primitive_boundary_spacing_nm": 0.32954652970929305,
+        "source_face_spacing_nm": 0.3295465297092931,
+        "source_normal_error": 1.1527756336890508e-16,
+        "unit_normal_icrs": [
+          -0.9959651903089611,
+          0.08360216250737744,
+          -0.032619290564400015
+        ]
+      },
+      {
+        "adjacent_halfstep_spacing_nm": 0.22579868986206494,
+        "channel": "b",
+        "face_area_nm2": 0.2611062357995309,
+        "face_family": "ac",
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              -1,
+              1
+            ]
+          ],
+          "0": [
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "1": [
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        "primitive_boundary_spacing_nm": 0.4515973797241299,
+        "source_face_spacing_nm": 0.45159737972412994,
+        "source_normal_error": 2.0062885096040707e-16,
+        "unit_normal_icrs": [
+          0.08905259410160497,
+          0.8665767692910323,
+          -0.49103394832627567
+        ]
+      },
+      {
+        "adjacent_halfstep_spacing_nm": 0.3025488707573715,
+        "channel": "c",
+        "face_area_nm2": 0.19486916546989957,
+        "face_family": "ab",
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              1,
+              -1
+            ]
+          ],
+          "0": [
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "1": [
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              1,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        "primitive_boundary_spacing_nm": 0.605097741514743,
+        "source_face_spacing_nm": 0.605097741514743,
+        "source_normal_error": 2.7755575615628914e-17,
+        "unit_normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212287,
+          0.3583792347908047
+        ]
+      }
+    ],
+    "reciprocal_metric_R_per_nm2": [
+      [
+        9.208025528683773,
+        0.00153480242811831,
+        -0.6451880356768953
+      ],
+      [
+        0.0015348024281183128,
+        4.903398312306197,
+        -2.3151755844163877
+      ],
+      [
+        -0.6451880356768953,
+        -2.3151755844163877,
+        2.7311712747461088
+      ]
+    ]
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "derived_orientation": {
+    "angle_V_E_to_g_deg": 31.64086127110403,
+    "angle_V_E_to_plate_normal_deg": 58.35913872889594,
+    "drive_axis_e1_dec_deg": 16.626277960029793,
+    "drive_axis_e1_g_unit": [
+      -0.9456361573618158,
+      -0.15460629330993783,
+      0.2861278594596136
+    ],
+    "drive_axis_e1_ra_deg": 189.2853911762633,
+    "drive_axis_e2_dec_deg": 41.2899223342786,
+    "drive_axis_e2_lateral": [
+      0.0774695854215153,
+      0.7473758633624182,
+      0.659869519070171
+    ],
+    "drive_axis_e2_ra_deg": 84.08211431391791,
+    "plate_normal_dec_deg": -44.00876089867738,
+    "plate_normal_n_opt": [
+      -0.31586503640732017,
+      0.6461626830235878,
+      -0.6947683540887285
+    ],
+    "plate_normal_ra_deg": 116.05086737662391,
+    "relations": [
+      "e1 x e2 = n_opt",
+      "n_opt x g = |g| e2",
+      "e2 is parallel to V_E x g",
+      "e2 is perpendicular to V_E"
+    ]
+  },
+  "device": {
+    "balance_tolerance": {
+      "evaluation": {
+        "A_m": 1e-06,
+        "epsilon_fraction": 0.0006831099092396394,
+        "epsilon_percent": 0.06831099092396394,
+        "equivalent_phase_error_deg": 0.039139314742996055,
+        "frequency_Hz": 10000.0
+      },
+      "formula": "epsilon < 6.8310991e-6/(A f), A in metres, f in hertz"
+    },
+    "force_scaling": {
+      "acceleration_coefficient_m_s2_per_Hz": 8.989366088879062e-05,
+      "acceleration_vector_coefficient_m_s2_per_Hz": [
+        6.964024641076894e-06,
+        6.718435241756834e-05,
+        5.931808677814331e-05
+      ],
+      "evaluations": [
+        {
+          "acceleration_m_s2": 0.08989366088879062,
+          "force_three_plate_N": 0.004314895722661951,
+          "frequency_Hz": 1000.0
+        },
+        {
+          "acceleration_m_s2": 0.8989366088879062,
+          "force_three_plate_N": 0.04314895722661951,
+          "frequency_Hz": 10000.0
+        },
+        {
+          "acceleration_m_s2": 8.989366088879063,
+          "force_three_plate_N": 0.43148957226619516,
+          "frequency_Hz": 100000.0
+        }
+      ],
+      "force_coefficient_three_plate_N_per_Hz": 4.3148957226619515e-06,
+      "frequency_for_1_standard_g_Hz": 109091.67457460673
+    },
+    "frequency_selection": "highest frequency at which matched rigid translation, orthogonal quadrature, phase stability, and structural limits remain satisfied; the strict field equation has no finite intrinsic maximum",
+    "plate_geometry": {
+      "density_design_kg_m3": 1600.0,
+      "length_m": 0.1,
+      "mass_per_plate_kg": 0.016000000000000004,
+      "plate_count": 3,
+      "thickness_m": 0.001,
+      "total_active_mass_kg": 0.048000000000000015,
+      "volume_m3": 1.0000000000000003e-05,
+      "width_m": 0.1
+    },
+    "single_module_kinematics": {
+      "circular_case": {
+        "A_x_equals_A_y": true,
+        "C_pol": 1.0,
+        "delta_deg": 90.0
+      },
+      "x": "A_x cos(omega t + psi_k)",
+      "y": "A_y cos(omega t + psi_k - delta)"
+    },
+    "structural_load": {
+      "evaluation": {
+        "A_m": 1e-06,
+        "force_N": 63.16546816697191,
+        "frequency_Hz": 10000.0,
+        "mass_kg": 0.016000000000000004
+      },
+      "formula": "F_carrier_peak = m_p A (2 pi f)^2"
+    },
+    "three_module_phases": {
+      "carrier_phase_deg": [
+        0.0,
+        120.0,
+        240.0
+      ],
+      "electrical_example_positive_chirality": [
+        {
+          "module": 1,
+          "x_phase_deg": 0.0,
+          "y_phase_deg": 270.0
+        },
+        {
+          "module": 2,
+          "x_phase_deg": 120.0,
+          "y_phase_deg": 30.0
+        },
+        {
+          "module": 3,
+          "x_phase_deg": 240.0,
+          "y_phase_deg": 150.0
+        }
+      ],
+      "same_chirality": true,
+      "same_internal_quadrature_deg": 90.0
+    },
+    "torque_balanced_assignment": {
+      "carrier_phase_deg": [
+        0.0,
+        240.0,
+        120.0
+      ],
+      "law": "psi_k = psi_0 - Theta_k",
+      "physical_position_azimuth_deg": [
+        0.0,
+        120.0,
+        240.0
+      ]
+    }
+  },
+  "document_contract": {
+    "cell3_length_unit": "nm",
+    "coordinate_frame": "ICRS Cartesian",
+    "device_length_unit": "m",
+    "force_status": "deterministic evaluation of supplied strict linear-inertia law and stated design inputs",
+    "pdf_generation": "Python ReportLab with built-in core fonts only",
+    "unknown_field_transfer_factor": null
+  },
+  "earth_cmb": {
+    "G_phase_V_E_m_s": [
+      -880221.9816350914,
+      -143911.43656159946,
+      266335.0269486193
+    ],
+    "G_phase_V_E_magnitude_m_s": 930825.2172704348,
+    "V_E_icrs_m_s": [
+      -359003.19906581304,
+      76679.88603400199,
+      -44701.060100687995
+    ],
+    "g_unit": [
+      -0.9456361573618158,
+      -0.15460629330993783,
+      0.2861278594596136
+    ],
+    "kappa_F": 3.0740508997020345e-11,
+    "qdot_E_s^-1": [
+      -2217734842862322.0,
+      249906586311223.9,
+      51817517757132.555
+    ],
+    "speed_m_s": 369812.50200040644,
+    "unit_direction": [
+      -0.9707708558360704,
+      0.20734800911062146,
+      -0.12087492948153188
+    ]
+  },
+  "epoch": 1785012327,
+  "figures": [
+    {
+      "caption": "Three matched two-axis plate modules. Each plate executes the same in-plane circular translation. The global carrier phases are separated by 120 degrees; the spatially counter-wound assignment shown cancels ideal first-harmonic force and moment while preserving common chirality.",
+      "data_keys": [
+        "device.plate_geometry",
+        "device.three_module_phases",
+        "device.torque_balanced_assignment"
+      ],
+      "filename": "figure_01_three_module_frontispiece.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_01_three_module_frontispiece.png",
+      "sha256": "2b5200c9983e67d91237a9df767faec05af0c143422a054dee1f215b449139f2",
+      "size_bytes": 91451
+    },
+    {
+      "caption": "All 27 centered Cell3 nodes computed from p_L = B L / 2 for L in {-1,0,1}^3. Neighbor lines connect addresses differing by one unit in exactly one channel. Blue and maroon denote the supplied node polarities.",
+      "data_keys": [
+        "cell3.basis_B_nm",
+        "cell3.centered_nodes",
+        "frame_contract.node_rule"
+      ],
+      "filename": "figure_02_cell3_all_27_nodes_equal_scale.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_02_cell3_all_27_nodes_equal_scale.png",
+      "sha256": "ce500901e17ca4eade33c750fd83e0e30e4bdaff402f87cb55687308c54c3e01",
+      "size_bytes": 267973
+    },
+    {
+      "caption": "Orthographic x-y, x-z, and y-z projections of the same 27-node registry. Every panel uses equal physical scaling in nanometres, preventing perspective enlargement or axis distortion.",
+      "data_keys": [
+        "cell3.centered_nodes"
+      ],
+      "filename": "figure_03_cell3_orthographic_views.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_03_cell3_orthographic_views.png",
+      "sha256": "f0daf04cea7ba7db84f4f40063312db93766b2b558fa92baa804468f4fccd14e",
+      "size_bytes": 228302
+    },
+    {
+      "caption": "All three centered half-step planes for channel a, parallel to the bc face family. Each panel contains the complete nine-node plane membership at true relative scale.",
+      "data_keys": [
+        "cell3.plane_families.a",
+        "cell3.centered_nodes"
+      ],
+      "filename": "figure_04_plane_family_a.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_04_plane_family_a.png",
+      "sha256": "8919a3b25f39e35ce320987ed00e794f91eaa401321f221d76a1aa6da4e74b5b",
+      "size_bytes": 275225
+    },
+    {
+      "caption": "All three centered half-step planes for channel b, parallel to the ac face family. Each panel contains the complete nine-node plane membership at true relative scale.",
+      "data_keys": [
+        "cell3.plane_families.b",
+        "cell3.centered_nodes"
+      ],
+      "filename": "figure_05_plane_family_b.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_05_plane_family_b.png",
+      "sha256": "998cfd65e0f9ff4d05424f25a1f084585f53e1366b1ec6e482614829bfd2a724",
+      "size_bytes": 267846
+    },
+    {
+      "caption": "All three centered half-step planes for channel c, parallel to the ab face family. Each panel contains the complete nine-node plane membership at true relative scale.",
+      "data_keys": [
+        "cell3.plane_families.c",
+        "cell3.centered_nodes"
+      ],
+      "filename": "figure_06_plane_family_c.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_06_plane_family_c.png",
+      "sha256": "df649b91ba0b81df9da80a730732c2c545624810b32bbb07b832df69e2bc8e02",
+      "size_bytes": 265878
+    },
+    {
+      "caption": "The strict orientation triad derived from the supplied Earth-CMB velocity and G_phase. The plate normal n_opt is perpendicular to g and lies in the V_E-g plane; the output direction ell = n_opt x g_hat is perpendicular to V_E.",
+      "data_keys": [
+        "earth_cmb.V_E_icrs_m_s",
+        "earth_cmb.G_phase_V_E_m_s",
+        "derived.orientation"
+      ],
+      "filename": "figure_07_earth_cmb_orientation_triad.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_07_earth_cmb_orientation_triad.png",
+      "sha256": "084c7790e41740e354c76a401d0607b9407acdfefd975066d9949657e4434257",
+      "size_bytes": 238308
+    },
+    {
+      "caption": "Dimensioned plate geometry and the direct two-coordinate circular translation. The plate orientation remains fixed; only its center of mass translates in the e1-e2 plane.",
+      "data_keys": [
+        "device.plate_geometry",
+        "device.single_module_kinematics"
+      ],
+      "filename": "figure_08_plate_dimensions_and_circular_motion.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_08_plate_dimensions_and_circular_motion.png",
+      "sha256": "29cb726a2e768dd9eba781ba9347a60e1341e4a31578f3b8bb45717fa08fc5a5",
+      "size_bytes": 98327
+    },
+    {
+      "caption": "The e1 and e2 displacement components of the three circularly translating modules. At every instant, the three component sums are zero; velocity and acceleration sums therefore vanish as well.",
+      "data_keys": [
+        "device.three_module_phases",
+        "verification.phase_cancellation"
+      ],
+      "filename": "figure_09_three_phase_translation_cancellation.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_09_three_phase_translation_cancellation.png",
+      "sha256": "902dee94a9480df9edac799f781d750991132bcc0ec13bcaf0d8aee523987acb",
+      "size_bytes": 238004
+    },
+    {
+      "caption": "Twelve representative carrier phases are shown. The three individual reaction-force vectors rotate, but their vector sum remains at the origin for ideal matched modules.",
+      "data_keys": [
+        "device.carrier_force",
+        "verification.phase_cancellation"
+      ],
+      "filename": "figure_10_carrier_force_vector_cancellation.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_10_carrier_force_vector_cancellation.png",
+      "sha256": "a39c35ce411d28eea99c770d606a48a9e3d7a103a905bbf605912f982ea67e2e",
+      "size_bytes": 274866
+    },
+    {
+      "caption": "The second-harmonic terms carry phase 2 psi_k and sum to zero for psi_k = 0, 120, 240 degrees. The phase-invariant mean contribution is identical in all modules and sums to three.",
+      "data_keys": [
+        "device.instantaneous_response",
+        "verification.second_harmonic_cancellation"
+      ],
+      "filename": "figure_11_second_harmonic_cancellation_dc_addition.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_11_second_harmonic_cancellation_dc_addition.png",
+      "sha256": "e2417b537602ebce72bbbf05d139d720c72aa327720f4ca982b846f210db6b96",
+      "size_bytes": 160872
+    },
+    {
+      "caption": "Deterministic evaluation of |a_K| = pi kappa_F |g| f and F_K = M_active |a_K| for the 48 g three-plate design value. The field equation is linear in frequency and contains no finite internal optimum.",
+      "data_keys": [
+        "derived.coef_acceleration_per_hz",
+        "device.force_scaling"
+      ],
+      "filename": "figure_12_frequency_force_scaling.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_12_frequency_force_scaling.png",
+      "sha256": "a4bc32a01fdf46242ab5deb60aeee3c68cdb62ef971f204f99cb29e1b125e5e6",
+      "size_bytes": 101851
+    },
+    {
+      "caption": "Peak ordinary inertial force for one 16 g plate at three commanded translation amplitudes, compared with the calculated total mean force of all three plates. Ideal vector cancellation does not remove these internal cyclic loads from actuators and flexures.",
+      "data_keys": [
+        "device.structural_load_scaling",
+        "device.force_scaling"
+      ],
+      "filename": "figure_13_structural_load_scaling.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_13_structural_load_scaling.png",
+      "sha256": "b94c290f0fe7326ae13897c9e372a002aa19f61fc8c910dc66bfded617e138c4",
+      "size_bytes": 168156
+    },
+    {
+      "caption": "Approximate allowable residual carrier-force phasor mismatch epsilon < 6.8310991e-6/(A f), with A in metres. This is a structural balancing criterion, not an additional K-field coefficient.",
+      "data_keys": [
+        "device.balance_tolerance"
+      ],
+      "filename": "figure_14_balance_tolerance_surface.png",
+      "path": "/mnt/data/_K-Field_3_element_plate_thruster_1785012327_work/assets/figure_14_balance_tolerance_surface.png",
+      "sha256": "cad5e0deb53697c2a0c771995c7f27bf2d1348f3531ba939f6822a60a5d04bea",
+      "size_bytes": 103830
+    }
+  ],
+  "generated_utc": "2026-07-25T20:45:27Z",
+  "json_filename": "K-Field_3_element_plate_thruster_1785012327.json",
+  "json_sha256_excluding_sha256": "bc69bd75e52ecc532a9db89733c3adbf1c2e4ffed71583b16146955e522a66be",
+  "pdf_filename": "K-Field_3_element_plate_thruster_1785012327.pdf",
+  "pdf_sha256": "26d46dbe5cfdf1ee0885b2237939b729edb66cb504ff41d5e06e9c1c26ec6e1b",
+  "pdf_size_bytes": 2763215,
+  "principal_investigator": {
+    "credentials": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "name": "P. Dwayne Esterline",
+    "organization": "Krytronx, LLC"
+  },
+  "schema": "K-Field.three_element_plate_thruster.strict_linear_inertia.v1",
+  "source_files": [
+    {
+      "name": "K-Field_linear_inertia_derivation_1784989727(1).json",
+      "path": "/mnt/data/K-Field_linear_inertia_derivation_1784989727(1).json",
+      "role": "Authoritative Cell3 geometry, linear-inertia equations, Earth-CMB state, G_phase, W, B, kappa_F, node and plane ledgers",
+      "sha256": "4651a532fe43e8091748ef4f7e28bb899e1a2ea798d689ba1724e99530cd55ab"
+    }
+  ],
+  "strict_linear_composition": {
+    "address_rate": "qdot = 2 B^(-1) v",
+    "circularity": "C_pol = 2 A_x A_y sin(delta)/(A_x^2 + A_y^2)",
+    "configuration_current": "J_xy = <x ydot - y xdot> = A_x A_y omega sin(delta)",
+    "maximum_orientation": "n perpendicular to g",
+    "mean_acceleration": "a_K = [kappa_F/(2 rho_c^2)] Omega x g = pi kappa_F f C_pol n x g",
+    "mean_square_radius": "rho_c^2 = <r^2> = (A_x^2 + A_y^2)/2",
+    "mixed_scalar": "epsilon_cross = kappa_F qdot_R^T W qdot_E = kappa_F v_R^T G_phase V_E",
+    "no_unknown_H": true,
+    "physical_current": "Omega = <r x rdot> = J_xy n"
+  },
+  "subtitle": "Strict linear-inertia realization using three phase-balanced two-axis planar masses",
+  "title": "K-Field Three-Element Plate Thruster",
+  "verification": {
+    "G_identity_max_abs_error": 1.7763568394002505e-15,
+    "M_identity_max_abs_error_nm2": 0.0,
+    "node_rule_max_abs_error_nm": 0.0,
+    "orthogonality_l_V": 3.9765269424252406e-17,
+    "orthogonality_n_g": 3.096431058848034e-16,
+    "phase_sum_1f_complex_abs": 4.002966042486721e-16,
+    "phase_sum_2f_complex_abs": 8.455206652451151e-16,
+    "qdot_E_max_abs_error_s^-1": 0.0,
+    "right_handed_e1_e2_n_error": 2.9893669801409083e-16,
+    "sampled_2f_sum_max_abs": 2.3869795029440866e-15,
+    "sampled_displacement_sum_max_abs": 1.2212453270876722e-15
+  }
+}

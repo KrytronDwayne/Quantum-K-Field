@@ -1,0 +1,1193 @@
+{
+  "document": {
+    "title": "K-Field Galaxy-Plane Intersection Distribution Analysis",
+    "epoch": 1784734340,
+    "pdf_filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+    "machine_readable_filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+    "principal_investigator": "P. Dwayne Esterline",
+    "education": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx, LLC",
+    "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute."
+  },
+  "coordinate_contract": {
+    "frame": "ICRS/J2000.0 orthonormal Cartesian unit sphere",
+    "radec_to_cartesian": "n=(cos(dec)cos(ra), cos(dec)sin(ra), sin(dec))",
+    "projective_rule": "n and -n represent the same plane; p and -p represent the same projective crossing",
+    "angle_internal_unit": "radian",
+    "reported_angle_unit": "degree"
+  },
+  "cell3": {
+    "basis_B_columns_a_b_c": [
+      [
+        0.6678671239739935,
+        0.07204938674924988,
+        -0.020656526944410756
+      ],
+      [
+        -0.11195043579105618,
+        0.42278347215438716,
+        -0.7948867310945349
+      ],
+      [
+        -0.0764475596675675,
+        -1.1163047390312395,
+        -1.406562407849678
+      ]
+    ],
+    "plane_normal_matrix_N_rows_a_b_c": [
+      [
+        0.9959651903089612,
+        -0.08360216250737673,
+        0.03261929056439985
+      ],
+      [
+        0.08905259410160504,
+        0.8665767692910322,
+        -0.49103394832627595
+      ],
+      [
+        -0.1940922008077677,
+        -0.9131771688212287,
+        -0.35837923479080414
+      ]
+    ],
+    "plane_spacings_delta": [
+      0.6720380405938968,
+      0.9209340437444871,
+      1.233964444820833
+    ],
+    "det_B": -1.0,
+    "volume": 1.0,
+    "edge_lengths": {
+      "a": 0.681486334960744,
+      "b": 1.195856700797159,
+      "c": 1.6157627964993637
+    },
+    "angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.44813001833784,
+      "bc": 50.36323181375617
+    },
+    "face_areas": {
+      "bc": 1.4880110047286534,
+      "ac": 1.0858540921497848,
+      "ab": 0.8103961213770599
+    },
+    "body_diagonal_a_plus_b_plus_c": 2.74008756198186,
+    "lucas_node_law": "p(i,j,k)=B(i,j,k)^T/2 for i,j,k in {-1,0,+1}",
+    "lucas_nodes": [
+      {
+        "node_id": "000",
+        "i": -1,
+        "j": -1,
+        "k": -1,
+        "lambda": -3,
+        "parity": 1,
+        "x": -0.3596299918894163,
+        "y": 0.24202684736560195,
+        "z": 1.2996573532742426
+      },
+      {
+        "node_id": "001",
+        "i": -1,
+        "j": -1,
+        "k": 0,
+        "lambda": -2,
+        "parity": 0,
+        "x": -0.3699582553616217,
+        "y": -0.1554165181816655,
+        "z": 0.5963761493494035
+      },
+      {
+        "node_id": "002",
+        "i": -1,
+        "j": -1,
+        "k": 1,
+        "lambda": -1,
+        "parity": 1,
+        "x": -0.3802865188338271,
+        "y": -0.5528598837289329,
+        "z": -0.10690505457543542
+      },
+      {
+        "node_id": "010",
+        "i": -1,
+        "j": 0,
+        "k": -1,
+        "lambda": -2,
+        "parity": 0,
+        "x": -0.32360529851479136,
+        "y": 0.4534185834427955,
+        "z": 0.7415049837586227
+      },
+      {
+        "node_id": "011",
+        "i": -1,
+        "j": 0,
+        "k": 0,
+        "lambda": -1,
+        "parity": 1,
+        "x": -0.33393356198699675,
+        "y": 0.05597521789552809,
+        "z": 0.03822377983378375
+      },
+      {
+        "node_id": "012",
+        "i": -1,
+        "j": 0,
+        "k": 1,
+        "lambda": 0,
+        "parity": 0,
+        "x": -0.34426182545920214,
+        "y": -0.3414681476517394,
+        "z": -0.6650574240910552
+      },
+      {
+        "node_id": "020",
+        "i": -1,
+        "j": 1,
+        "k": -1,
+        "lambda": -1,
+        "parity": 1,
+        "x": -0.2875806051401664,
+        "y": 0.6648103195199891,
+        "z": 0.18335261424300298
+      },
+      {
+        "node_id": "021",
+        "i": -1,
+        "j": 1,
+        "k": 0,
+        "lambda": 0,
+        "parity": 0,
+        "x": -0.2979088686123718,
+        "y": 0.2673669539727217,
+        "z": -0.519928589681836
+      },
+      {
+        "node_id": "022",
+        "i": -1,
+        "j": 1,
+        "k": 1,
+        "lambda": 1,
+        "parity": 1,
+        "x": -0.3082371320845772,
+        "y": -0.13007641157454575,
+        "z": -1.2232097936066748
+      },
+      {
+        "node_id": "100",
+        "i": 0,
+        "j": -1,
+        "k": -1,
+        "lambda": -2,
+        "parity": 0,
+        "x": -0.025696429902419562,
+        "y": 0.18605162947007386,
+        "z": 1.2614335734404587
+      },
+      {
+        "node_id": "101",
+        "i": 0,
+        "j": -1,
+        "k": 0,
+        "lambda": -1,
+        "parity": 1,
+        "x": -0.03602469337462494,
+        "y": -0.21139173607719358,
+        "z": 0.5581523695156198
+      },
+      {
+        "node_id": "102",
+        "i": 0,
+        "j": -1,
+        "k": 1,
+        "lambda": 0,
+        "parity": 0,
+        "x": -0.046352956846830315,
+        "y": -0.6088351016244611,
+        "z": -0.1451288344092192
+      },
+      {
+        "node_id": "110",
+        "i": 0,
+        "j": 0,
+        "k": -1,
+        "lambda": -1,
+        "parity": 1,
+        "x": 0.010328263472205378,
+        "y": 0.39744336554726745,
+        "z": 0.703281203924839
+      },
+      {
+        "node_id": "111",
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "lambda": 0,
+        "parity": 0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "node_id": "112",
+        "i": 0,
+        "j": 0,
+        "k": 1,
+        "lambda": 1,
+        "parity": 1,
+        "x": -0.010328263472205378,
+        "y": -0.39744336554726745,
+        "z": -0.703281203924839
+      },
+      {
+        "node_id": "120",
+        "i": 0,
+        "j": 1,
+        "k": -1,
+        "lambda": 0,
+        "parity": 0,
+        "x": 0.046352956846830315,
+        "y": 0.6088351016244611,
+        "z": 0.1451288344092192
+      },
+      {
+        "node_id": "121",
+        "i": 0,
+        "j": 1,
+        "k": 0,
+        "lambda": 1,
+        "parity": 1,
+        "x": 0.03602469337462494,
+        "y": 0.21139173607719358,
+        "z": -0.5581523695156198
+      },
+      {
+        "node_id": "122",
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "lambda": 2,
+        "parity": 0,
+        "x": 0.025696429902419562,
+        "y": -0.18605162947007386,
+        "z": -1.2614335734404587
+      },
+      {
+        "node_id": "200",
+        "i": 1,
+        "j": -1,
+        "k": -1,
+        "lambda": -1,
+        "parity": 1,
+        "x": 0.3082371320845772,
+        "y": 0.13007641157454575,
+        "z": 1.2232097936066748
+      },
+      {
+        "node_id": "201",
+        "i": 1,
+        "j": -1,
+        "k": 0,
+        "lambda": 0,
+        "parity": 0,
+        "x": 0.2979088686123718,
+        "y": -0.2673669539727217,
+        "z": 0.519928589681836
+      },
+      {
+        "node_id": "202",
+        "i": 1,
+        "j": -1,
+        "k": 1,
+        "lambda": 1,
+        "parity": 1,
+        "x": 0.2875806051401664,
+        "y": -0.6648103195199891,
+        "z": -0.18335261424300298
+      },
+      {
+        "node_id": "210",
+        "i": 1,
+        "j": 0,
+        "k": -1,
+        "lambda": 0,
+        "parity": 0,
+        "x": 0.34426182545920214,
+        "y": 0.3414681476517394,
+        "z": 0.6650574240910552
+      },
+      {
+        "node_id": "211",
+        "i": 1,
+        "j": 0,
+        "k": 0,
+        "lambda": 1,
+        "parity": 1,
+        "x": 0.33393356198699675,
+        "y": -0.05597521789552809,
+        "z": -0.03822377983378375
+      },
+      {
+        "node_id": "212",
+        "i": 1,
+        "j": 0,
+        "k": 1,
+        "lambda": 2,
+        "parity": 0,
+        "x": 0.32360529851479136,
+        "y": -0.4534185834427955,
+        "z": -0.7415049837586227
+      },
+      {
+        "node_id": "220",
+        "i": 1,
+        "j": 1,
+        "k": -1,
+        "lambda": 1,
+        "parity": 1,
+        "x": 0.3802865188338271,
+        "y": 0.5528598837289329,
+        "z": 0.10690505457543542
+      },
+      {
+        "node_id": "221",
+        "i": 1,
+        "j": 1,
+        "k": 0,
+        "lambda": 2,
+        "parity": 0,
+        "x": 0.3699582553616217,
+        "y": 0.1554165181816655,
+        "z": -0.5963761493494035
+      },
+      {
+        "node_id": "222",
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "lambda": 3,
+        "parity": 1,
+        "x": 0.3596299918894163,
+        "y": -0.24202684736560195,
+        "z": -1.2996573532742426
+      }
+    ]
+  },
+  "phase_cost": {
+    "G_phase": [
+      [
+        2.976411,
+        1.243151,
+        -2.08036
+      ],
+      [
+        1.243151,
+        2.592229,
+        -2.317884
+      ],
+      [
+        -2.08036,
+        -2.317884,
+        6.773571
+      ]
+    ],
+    "eigenvalues": [
+      1.4293289131801121,
+      2.1125454401765564,
+      8.800336646643327
+    ],
+    "formula": "q(n)=n^T G_phase n",
+    "intersection_cost_min": 1.429331284078275,
+    "intersection_cost_max": 8.800318782104647
+  },
+  "crossing_analysis": {
+    "galaxy_group_planes": 1000,
+    "unordered_plane_pairs": 499500,
+    "antipodal_surface_intersections": 999000,
+    "projective_intersections": 499500,
+    "degenerate_pairs_skipped": 0,
+    "intersection_formula": "p_ij=normalize(n_i cross n_j)",
+    "window_diameter_deg": 0.5,
+    "window_radius_deg": 0.25,
+    "window_radius_rad": 0.004363323129985824,
+    "window_chord": 0.004363319668673539,
+    "window_solid_angle_sr": 5.981139561601051e-05,
+    "window_fraction_of_sphere": 4.759639632756496e-06,
+    "multiplicity_definition": "number of unique plane IDs represented by actual pairwise intersections within angular radius 0.25 degree of an actual projective intersection center",
+    "nonmaximum_suppression": "sort by unique-plane multiplicity then local pairwise-intersection count descending; retain center; suppress later centers within 0.25 degree",
+    "observed_total_projective_windows": 130553,
+    "observed_maximum_planes": 23
+  },
+  "observed_distribution": [
+    {
+      "unique_planes_in_0p5deg_diameter_window": 2,
+      "projective_windows": 33696,
+      "surface_windows_including_antipodes": 67392,
+      "fraction_of_projective_windows": 0.2581020734873959
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 3,
+      "projective_windows": 20140,
+      "surface_windows_including_antipodes": 40280,
+      "fraction_of_projective_windows": 0.1542668494787557
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 4,
+      "projective_windows": 18053,
+      "surface_windows_including_antipodes": 36106,
+      "fraction_of_projective_windows": 0.1382810046494527
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 5,
+      "projective_windows": 15102,
+      "surface_windows_including_antipodes": 30204,
+      "fraction_of_projective_windows": 0.1156771579358574
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 6,
+      "projective_windows": 12295,
+      "surface_windows_including_antipodes": 24590,
+      "fraction_of_projective_windows": 0.0941763115363109
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 7,
+      "projective_windows": 9420,
+      "surface_windows_including_antipodes": 18840,
+      "fraction_of_projective_windows": 0.0721546038773525
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 8,
+      "projective_windows": 6979,
+      "surface_windows_including_antipodes": 13958,
+      "fraction_of_projective_windows": 0.0534572166093463
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 9,
+      "projective_windows": 5026,
+      "surface_windows_including_antipodes": 10052,
+      "fraction_of_projective_windows": 0.0384977748500608
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 10,
+      "projective_windows": 3562,
+      "surface_windows_including_antipodes": 7124,
+      "fraction_of_projective_windows": 0.0272839383238991
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 11,
+      "projective_windows": 2354,
+      "surface_windows_including_antipodes": 4708,
+      "fraction_of_projective_windows": 0.018030991244935
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 12,
+      "projective_windows": 1619,
+      "surface_windows_including_antipodes": 3238,
+      "fraction_of_projective_windows": 0.0124010938086447
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 13,
+      "projective_windows": 1030,
+      "surface_windows_including_antipodes": 2060,
+      "fraction_of_projective_windows": 0.0078895161352094
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 14,
+      "projective_windows": 619,
+      "surface_windows_including_antipodes": 1238,
+      "fraction_of_projective_windows": 0.0047413694055287
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 15,
+      "projective_windows": 314,
+      "surface_windows_including_antipodes": 628,
+      "fraction_of_projective_windows": 0.0024051534625784
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 16,
+      "projective_windows": 178,
+      "surface_windows_including_antipodes": 356,
+      "fraction_of_projective_windows": 0.0013634309437546
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 17,
+      "projective_windows": 85,
+      "surface_windows_including_antipodes": 170,
+      "fraction_of_projective_windows": 0.0006510765742648
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 18,
+      "projective_windows": 61,
+      "surface_windows_including_antipodes": 122,
+      "fraction_of_projective_windows": 0.00046724318859
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 19,
+      "projective_windows": 13,
+      "surface_windows_including_antipodes": 26,
+      "fraction_of_projective_windows": 9.957641724050768e-05
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 20,
+      "projective_windows": 3,
+      "surface_windows_including_antipodes": 6,
+      "fraction_of_projective_windows": 2.2979173209347928e-05
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 21,
+      "projective_windows": 1,
+      "surface_windows_including_antipodes": 2,
+      "fraction_of_projective_windows": 7.659724403115976e-06
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 22,
+      "projective_windows": 2,
+      "surface_windows_including_antipodes": 4,
+      "fraction_of_projective_windows": 1.5319448806231952e-05
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 23,
+      "projective_windows": 1,
+      "surface_windows_including_antipodes": 2,
+      "fraction_of_projective_windows": 7.659724403115976e-06
+    }
+  ],
+  "high_multiplicity_windows_projective_branch": [
+    {
+      "cluster_id": 1,
+      "antipodal_branch": 1,
+      "center_pair_group_rank_i": 244,
+      "center_pair_group_rank_j": 481,
+      "ra_deg": 357.50661797709535,
+      "dec_deg": -23.921187102925,
+      "phase_cost_q": 4.975776397483071,
+      "unique_plane_count_within_0p25deg": 23,
+      "actual_pairwise_intersections_within_0p25deg": 76,
+      "circle_diameter_deg": 0.5,
+      "circle_radius_deg": 0.25,
+      "plane_ids": "5;9;94;144;163;191;195;201;219;233;243;244;251;344;451;471;481;553;554;568;603;876;967"
+    },
+    {
+      "cluster_id": 2,
+      "antipodal_branch": 1,
+      "center_pair_group_rank_i": 119,
+      "center_pair_group_rank_j": 200,
+      "ra_deg": 180.4747948206989,
+      "dec_deg": 44.32037867205132,
+      "phase_cost_q": 6.939392032208381,
+      "unique_plane_count_within_0p25deg": 22,
+      "actual_pairwise_intersections_within_0p25deg": 64,
+      "circle_diameter_deg": 0.5,
+      "circle_radius_deg": 0.25,
+      "plane_ids": "12;59;85;119;125;200;252;276;285;336;414;484;490;523;570;584;703;845;879;936;978;999"
+    },
+    {
+      "cluster_id": 3,
+      "antipodal_branch": 1,
+      "center_pair_group_rank_i": 471,
+      "center_pair_group_rank_j": 553,
+      "ra_deg": 177.6261676513037,
+      "dec_deg": 23.96109889085484,
+      "phase_cost_q": 4.987738947418,
+      "unique_plane_count_within_0p25deg": 22,
+      "actual_pairwise_intersections_within_0p25deg": 53,
+      "circle_diameter_deg": 0.5,
+      "circle_radius_deg": 0.25,
+      "plane_ids": "5;9;94;144;163;191;195;201;219;233;244;251;344;451;471;481;553;554;568;603;967;999"
+    },
+    {
+      "cluster_id": 4,
+      "antipodal_branch": 1,
+      "center_pair_group_rank_i": 92,
+      "center_pair_group_rank_j": 302,
+      "ra_deg": 356.3537292654049,
+      "dec_deg": -12.8585078601027,
+      "phase_cost_q": 3.8499385955304097,
+      "unique_plane_count_within_0p25deg": 21,
+      "actual_pairwise_intersections_within_0p25deg": 94,
+      "circle_diameter_deg": 0.5,
+      "circle_radius_deg": 0.25,
+      "plane_ids": "8;92;163;259;292;302;342;360;384;406;424;468;492;581;611;619;747;801;878;973;980"
+    },
+    {
+      "cluster_id": 5,
+      "antipodal_branch": 1,
+      "center_pair_group_rank_i": 163,
+      "center_pair_group_rank_j": 251,
+      "ra_deg": 357.7459131521173,
+      "dec_deg": -23.788548725295872,
+      "phase_cost_q": 4.979108018040074,
+      "unique_plane_count_within_0p25deg": 20,
+      "actual_pairwise_intersections_within_0p25deg": 75,
+      "circle_diameter_deg": 0.5,
+      "circle_radius_deg": 0.25,
+      "plane_ids": "5;9;144;163;191;195;201;203;219;243;244;251;344;451;471;481;553;568;603;876"
+    },
+    {
+      "cluster_id": 6,
+      "antipodal_branch": 1,
+      "center_pair_group_rank_i": 276,
+      "center_pair_group_rank_j": 978,
+      "ra_deg": 180.6497029073953,
+      "dec_deg": 44.09185788360858,
+      "phase_cost_q": 6.934783449126557,
+      "unique_plane_count_within_0p25deg": 20,
+      "actual_pairwise_intersections_within_0p25deg": 68,
+      "circle_diameter_deg": 0.5,
+      "circle_radius_deg": 0.25,
+      "plane_ids": "12;59;119;125;200;252;276;285;336;414;484;490;523;584;629;703;809;845;978;999"
+    },
+    {
+      "cluster_id": 7,
+      "antipodal_branch": 1,
+      "center_pair_group_rank_i": 17,
+      "center_pair_group_rank_j": 503,
+      "ra_deg": 3.8039810839765575,
+      "dec_deg": -20.42917402739384,
+      "phase_cost_q": 5.040641613204681,
+      "unique_plane_count_within_0p25deg": 20,
+      "actual_pairwise_intersections_within_0p25deg": 59,
+      "circle_diameter_deg": 0.5,
+      "circle_radius_deg": 0.25,
+      "plane_ids": "2;17;104;141;147;201;221;387;394;399;464;480;503;584;593;601;678;847;861;891"
+    }
+  ],
+  "random_controls": {
+    "realizations": 30,
+    "planes_per_realization": 1000,
+    "generation": "draw g~N(0,I3), normalize n=g/||g||; n and -n are one plane",
+    "master_generator_identifier": 20260722,
+    "same_analysis_pipeline": true,
+    "maximum_mean": 17.633333333333333,
+    "maximum_sd": 1.1885468767200225,
+    "maximum_min": 16,
+    "maximum_max": 21,
+    "realizations_with_maximum_ge_20": 3,
+    "total_windows_mean": 96840.9,
+    "total_windows_sd": 174.6443380919811,
+    "per_realization_summary": [
+      {
+        "replicate": 1,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96643
+      },
+      {
+        "replicate": 2,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 96865
+      },
+      {
+        "replicate": 3,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 97223
+      },
+      {
+        "replicate": 4,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 96786
+      },
+      {
+        "replicate": 5,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96837
+      },
+      {
+        "replicate": 6,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96998
+      },
+      {
+        "replicate": 7,
+        "maximum_planes_in_window": 20,
+        "total_projective_windows": 96593
+      },
+      {
+        "replicate": 8,
+        "maximum_planes_in_window": 16,
+        "total_projective_windows": 96969
+      },
+      {
+        "replicate": 9,
+        "maximum_planes_in_window": 20,
+        "total_projective_windows": 97050
+      },
+      {
+        "replicate": 10,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96814
+      },
+      {
+        "replicate": 11,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 96598
+      },
+      {
+        "replicate": 12,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 96779
+      },
+      {
+        "replicate": 13,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96989
+      },
+      {
+        "replicate": 14,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96752
+      },
+      {
+        "replicate": 15,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 97139
+      },
+      {
+        "replicate": 16,
+        "maximum_planes_in_window": 16,
+        "total_projective_windows": 96805
+      },
+      {
+        "replicate": 17,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 97040
+      },
+      {
+        "replicate": 18,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96762
+      },
+      {
+        "replicate": 19,
+        "maximum_planes_in_window": 21,
+        "total_projective_windows": 96547
+      },
+      {
+        "replicate": 20,
+        "maximum_planes_in_window": 19,
+        "total_projective_windows": 96882
+      },
+      {
+        "replicate": 21,
+        "maximum_planes_in_window": 16,
+        "total_projective_windows": 96807
+      },
+      {
+        "replicate": 22,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 96773
+      },
+      {
+        "replicate": 23,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96624
+      },
+      {
+        "replicate": 24,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96915
+      },
+      {
+        "replicate": 25,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96572
+      },
+      {
+        "replicate": 26,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96938
+      },
+      {
+        "replicate": 27,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96898
+      },
+      {
+        "replicate": 28,
+        "maximum_planes_in_window": 17,
+        "total_projective_windows": 96980
+      },
+      {
+        "replicate": 29,
+        "maximum_planes_in_window": 19,
+        "total_projective_windows": 97010
+      },
+      {
+        "replicate": 30,
+        "maximum_planes_in_window": 18,
+        "total_projective_windows": 96639
+      }
+    ]
+  },
+  "observed_vs_random_distribution": [
+    {
+      "unique_planes": 2,
+      "observed_windows": 33696,
+      "random_mean_windows": 12064.3,
+      "random_sd_windows": 100.6715896642,
+      "random_5th_percentile": 11905.0,
+      "random_95th_percentile": 12202.85,
+      "observed_to_random_ratio": 2.7930339929,
+      "z_score": 214.8739289024,
+      "observed_windows_ge_k": 130553,
+      "random_mean_windows_ge_k": 96840.9,
+      "random_sd_windows_ge_k": 174.644338092,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 3,
+      "observed_windows": 20140,
+      "random_mean_windows": 13919.3333333333,
+      "random_sd_windows": 138.3846048178,
+      "random_5th_percentile": 13714.8,
+      "random_95th_percentile": 14179.3,
+      "observed_to_random_ratio": 1.4469083768,
+      "z_score": 44.9520138086,
+      "observed_windows_ge_k": 96857,
+      "random_mean_windows_ge_k": 84776.6,
+      "random_sd_windows_ge_k": 187.7128401171,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 4,
+      "observed_windows": 18053,
+      "random_mean_windows": 15849.4333333333,
+      "random_sd_windows": 129.9704696787,
+      "random_5th_percentile": 15654.6,
+      "random_95th_percentile": 16017.45,
+      "observed_to_random_ratio": 1.1390312587,
+      "z_score": 16.9543641114,
+      "observed_windows_ge_k": 76717,
+      "random_mean_windows_ge_k": 70857.2666666667,
+      "random_sd_windows_ge_k": 164.2924082309,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 5,
+      "observed_windows": 15102,
+      "random_mean_windows": 15936.2666666667,
+      "random_sd_windows": 151.9675403938,
+      "random_5th_percentile": 15783.7,
+      "random_95th_percentile": 16143.85,
+      "observed_to_random_ratio": 0.9476498051,
+      "z_score": -5.4897688316,
+      "observed_windows_ge_k": 58664,
+      "random_mean_windows_ge_k": 55007.8333333333,
+      "random_sd_windows_ge_k": 132.430094333,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 6,
+      "observed_windows": 12295,
+      "random_mean_windows": 13838.1666666667,
+      "random_sd_windows": 121.0360685294,
+      "random_5th_percentile": 13640.05,
+      "random_95th_percentile": 14006.95,
+      "observed_to_random_ratio": 0.8884847463,
+      "z_score": -12.7496430231,
+      "observed_windows_ge_k": 43562,
+      "random_mean_windows_ge_k": 39071.5666666667,
+      "random_sd_windows_ge_k": 128.0244274464,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 7,
+      "observed_windows": 9420,
+      "random_mean_windows": 10413.7333333333,
+      "random_sd_windows": 93.1731548334,
+      "random_5th_percentile": 10278.75,
+      "random_95th_percentile": 10538.7,
+      "observed_to_random_ratio": 0.9045747282,
+      "z_score": -10.665446878,
+      "observed_windows_ge_k": 31267,
+      "random_mean_windows_ge_k": 25233.4,
+      "random_sd_windows_ge_k": 123.8396070563,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 8,
+      "observed_windows": 6979,
+      "random_mean_windows": 6884.4666666667,
+      "random_sd_windows": 83.0000969394,
+      "random_5th_percentile": 6752.7,
+      "random_95th_percentile": 7023.25,
+      "observed_to_random_ratio": 1.0137313953,
+      "z_score": 1.1389544931,
+      "observed_windows_ge_k": 21847,
+      "random_mean_windows_ge_k": 14819.6666666667,
+      "random_sd_windows_ge_k": 117.6793812935,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 9,
+      "observed_windows": 5026,
+      "random_mean_windows": 4051.5,
+      "random_sd_windows": 77.1700987296,
+      "random_5th_percentile": 3938.05,
+      "random_95th_percentile": 4184.6,
+      "observed_to_random_ratio": 1.2405281994,
+      "z_score": 12.6279480789,
+      "observed_windows_ge_k": 14868,
+      "random_mean_windows_ge_k": 7935.2,
+      "random_sd_windows_ge_k": 129.3216785838,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 10,
+      "observed_windows": 3562,
+      "random_mean_windows": 2138.7333333333,
+      "random_sd_windows": 51.9588254316,
+      "random_5th_percentile": 2070.3,
+      "random_95th_percentile": 2231.6,
+      "observed_to_random_ratio": 1.6654717746,
+      "z_score": 27.3922024766,
+      "observed_windows_ge_k": 9842,
+      "random_mean_windows_ge_k": 3883.7,
+      "random_sd_windows_ge_k": 90.7102815144,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 11,
+      "observed_windows": 2354,
+      "random_mean_windows": 1028.6666666667,
+      "random_sd_windows": 37.3560070721,
+      "random_5th_percentile": 969.95,
+      "random_95th_percentile": 1086.5,
+      "observed_to_random_ratio": 2.2883992223,
+      "z_score": 35.4784527901,
+      "observed_windows_ge_k": 6280,
+      "random_mean_windows_ge_k": 1744.9666666667,
+      "random_sd_windows_ge_k": 66.6351275971,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 12,
+      "observed_windows": 1619,
+      "random_mean_windows": 443.3333333333,
+      "random_sd_windows": 20.877860462,
+      "random_5th_percentile": 412.45,
+      "random_95th_percentile": 472.55,
+      "observed_to_random_ratio": 3.6518796992,
+      "z_score": 56.3116449986,
+      "observed_windows_ge_k": 3926,
+      "random_mean_windows_ge_k": 716.3,
+      "random_sd_windows_ge_k": 40.3050009732,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 13,
+      "observed_windows": 1030,
+      "random_mean_windows": 174.8333333333,
+      "random_sd_windows": 13.9607413432,
+      "random_5th_percentile": 152.45,
+      "random_95th_percentile": 194.55,
+      "observed_to_random_ratio": 5.8913250715,
+      "z_score": 61.2551042704,
+      "observed_windows_ge_k": 2307,
+      "random_mean_windows_ge_k": 272.9666666667,
+      "random_sd_windows_ge_k": 24.4095562594,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 14,
+      "observed_windows": 619,
+      "random_mean_windows": 65.7666666667,
+      "random_sd_windows": 9.1073419921,
+      "random_5th_percentile": 54.0,
+      "random_95th_percentile": 79.4,
+      "observed_to_random_ratio": 9.4120628485,
+      "z_score": 60.7458612857,
+      "observed_windows_ge_k": 1277,
+      "random_mean_windows_ge_k": 98.1333333333,
+      "random_sd_windows_ge_k": 14.4287388828,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 15,
+      "observed_windows": 314,
+      "random_mean_windows": 22.5333333333,
+      "random_sd_windows": 5.9057735242,
+      "random_5th_percentile": 14.0,
+      "random_95th_percentile": 31.55,
+      "observed_to_random_ratio": 13.9349112426,
+      "z_score": 49.352835064,
+      "observed_windows_ge_k": 658,
+      "random_mean_windows_ge_k": 32.3666666667,
+      "random_sd_windows_ge_k": 8.0020830621,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 16,
+      "observed_windows": 178,
+      "random_mean_windows": 6.8333333333,
+      "random_sd_windows": 2.8777785174,
+      "random_5th_percentile": 1.0,
+      "random_95th_percentile": 10.55,
+      "observed_to_random_ratio": 26.0487804878,
+      "z_score": 59.4787491913,
+      "observed_windows_ge_k": 344,
+      "random_mean_windows_ge_k": 9.8333333333,
+      "random_sd_windows_ge_k": 3.8063769844,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 17,
+      "observed_windows": 85,
+      "random_mean_windows": 2.2666666667,
+      "random_sd_windows": 1.8181713688,
+      "random_5th_percentile": 0.0,
+      "random_95th_percentile": 6.55,
+      "observed_to_random_ratio": 37.5,
+      "z_score": 45.503594849,
+      "observed_windows_ge_k": 166,
+      "random_mean_windows_ge_k": 3.0,
+      "random_sd_windows_ge_k": 2.5051670741,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 18,
+      "observed_windows": 61,
+      "random_mean_windows": 0.5,
+      "random_sd_windows": 0.7768193328,
+      "random_5th_percentile": 0.0,
+      "random_95th_percentile": 2.0,
+      "observed_to_random_ratio": 122.0,
+      "z_score": 77.881686826,
+      "observed_windows_ge_k": 81,
+      "random_mean_windows_ge_k": 0.7333333333,
+      "random_sd_windows_ge_k": 1.1121068335,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 19,
+      "observed_windows": 13,
+      "random_mean_windows": 0.1333333333,
+      "random_sd_windows": 0.3457459036,
+      "random_5th_percentile": 0.0,
+      "random_95th_percentile": 1.0,
+      "observed_to_random_ratio": 97.5,
+      "z_score": 37.2142273593,
+      "observed_windows_ge_k": 20,
+      "random_mean_windows_ge_k": 0.2333333333,
+      "random_sd_windows_ge_k": 0.5683207772,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 20,
+      "observed_windows": 3,
+      "random_mean_windows": 0.0666666667,
+      "random_sd_windows": 0.2537081317,
+      "random_5th_percentile": 0.0,
+      "random_95th_percentile": 0.55,
+      "observed_to_random_ratio": 45.0,
+      "z_score": 11.5618420019,
+      "observed_windows_ge_k": 7,
+      "random_mean_windows_ge_k": 0.1,
+      "random_sd_windows_ge_k": 0.3051285766,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 21,
+      "observed_windows": 1,
+      "random_mean_windows": 0.0333333333,
+      "random_sd_windows": 0.1825741858,
+      "random_5th_percentile": 0.0,
+      "random_95th_percentile": 0.0,
+      "observed_to_random_ratio": 30.0,
+      "z_score": 5.2946513892,
+      "observed_windows_ge_k": 4,
+      "random_mean_windows_ge_k": 0.0333333333,
+      "random_sd_windows_ge_k": 0.1825741858,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 22,
+      "observed_windows": 2,
+      "random_mean_windows": 0.0,
+      "random_sd_windows": 0.0,
+      "random_5th_percentile": 0.0,
+      "random_95th_percentile": 0.0,
+      "observed_to_random_ratio": null,
+      "z_score": null,
+      "observed_windows_ge_k": 3,
+      "random_mean_windows_ge_k": 0.0,
+      "random_sd_windows_ge_k": 0.0,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    },
+    {
+      "unique_planes": 23,
+      "observed_windows": 1,
+      "random_mean_windows": 0.0,
+      "random_sd_windows": 0.0,
+      "random_5th_percentile": 0.0,
+      "random_95th_percentile": 0.0,
+      "observed_to_random_ratio": null,
+      "z_score": null,
+      "observed_windows_ge_k": 1,
+      "random_mean_windows_ge_k": 0.0,
+      "random_sd_windows_ge_k": 0.0,
+      "empirical_p_ge_observed_tail": 0.0322580645
+    }
+  ],
+  "canonical_findings": {
+    "exact_high_order_observed": {
+      "20": 3,
+      "21": 1,
+      "22": 2,
+      "23": 1
+    },
+    "observed_windows_ge_20": 7,
+    "random_mean_windows_ge_20": 0.1,
+    "observed_windows_ge_14": 1277,
+    "random_mean_windows_ge_14": 98.13333333333334,
+    "observed_windows_ge_18": 81,
+    "random_mean_windows_ge_18": 0.7333333333333333,
+    "statement": "The galaxy-group equatorial planes produce more retained crossing concentrations and a substantially heavier high-order multiplicity tail than isotropic 1,000-plane controls."
+  },
+  "input_files": [
+    {
+      "filename": "K-Field_galaxy_plane_great_circle_intersections.csv",
+      "size_bytes": 125067172,
+      "sha256": "5cd6a2c604ac435888ff921858b86db592a2adba343605ba7823244d21504e80"
+    },
+    {
+      "filename": "K-Field_galaxy_plane_great_circle_intersections_summary.json",
+      "size_bytes": 436,
+      "sha256": "55c66dbba25eebbf45cb78c8b5b011216fff59b5ff0ed764e28d3cd928949723"
+    },
+    {
+      "filename": "K-Field_galaxy_occupancy_vs_phase_cost_curvature_1784645681(1).json",
+      "size_bytes": 28474,
+      "sha256": "ee810570605e90e4f59b03f0565df35be01556a1ec3aa4f197d8521ca849dbfc"
+    },
+    {
+      "filename": "K-Field_all_galaxy_plane_crossing_window_distribution_0p5deg.csv",
+      "size_bytes": 843,
+      "sha256": "8f8c8b93f6b2a4e37f0ae80b9ac719a9ebf316ca47a24e57fb5f31fa88ec5a85"
+    },
+    {
+      "filename": "K-Field_galaxy_vs_1000_random_great_circles_0p5deg_distribution.csv",
+      "size_bytes": 3349,
+      "sha256": "677dc9f9f2f8791ef4f4b88e3129f43d87b3abeb0d491fee745530783d63ccb3"
+    },
+    {
+      "filename": "K-Field_1000_random_great_circle_controls_30_runs.csv",
+      "size_bytes": 411,
+      "sha256": "e4717bd545f7365546b3dbe1923e84ab7b7353ecc621acbf26292b3059674681"
+    },
+    {
+      "filename": "K-Field_galaxy_plane_crossings_threshold20_diameter0p5deg.csv",
+      "size_bytes": 2522,
+      "sha256": "c68c42e8749835c20ed15260b8dd5634c31eb12f848917776d828e2b75b21e5c"
+    }
+  ],
+  "pdf": {
+    "size_bytes": 5283885,
+    "sha256": "21bc410dcc8f18c0e733837875665951f7e547ac84cddb738398b8aa2ca740bd",
+    "page_count": 25
+  }
+}

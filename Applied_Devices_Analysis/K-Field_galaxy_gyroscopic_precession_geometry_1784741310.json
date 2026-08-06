@@ -1,0 +1,1908 @@
+{
+  "schema": "K-Field.galaxy_gyroscopic_precession_geometry.v1.0",
+  "title": "K-Field Galaxy Gyroscopic Precession Geometry",
+  "unix_epoch": 1784741310,
+  "generated_utc": "2026-07-22T17:28:30+00:00",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "role": "Principal Investigator",
+    "organization": "Krytronx, LLC",
+    "education": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ]
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "pdf": {
+    "filename": "K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf",
+    "bytes": 7499723,
+    "sha256": "38dfc454457e81bb93a29213b75e92be8e439148080b72658cc717205d148a5a"
+  },
+  "coordinate_contract": {
+    "frame": "ICRS orthonormal Cartesian",
+    "x": "RA=0 deg, Dec=0 deg",
+    "y": "RA=90 deg, Dec=0 deg",
+    "z": "north celestial pole",
+    "display_ra": "0 to 360 deg increasing left-to-right",
+    "display_dec": "-90 to +90 deg increasing upward",
+    "projective_equivalence": "n equivalent to -n"
+  },
+  "quadratic_phase_cost": {
+    "formula": "q(n)=n^T G_phase n",
+    "G_phase": [
+      [
+        2.976411,
+        1.243151,
+        -2.08036
+      ],
+      [
+        1.243151,
+        2.592229,
+        -2.317884
+      ],
+      [
+        -2.08036,
+        -2.317884,
+        6.773571
+      ]
+    ],
+    "critical_axes_positive_branch": [
+      {
+        "type": "minimum / soft axis",
+        "ra_deg": 114.813091,
+        "dec_deg": 12.9698922,
+        "eigenvalue": 1.42932891
+      },
+      {
+        "type": "saddle / intermediate axis",
+        "ra_deg": 197.222221,
+        "dec_deg": -29.8366912,
+        "eigenvalue": 2.11254544
+      },
+      {
+        "type": "maximum / hard axis",
+        "ra_deg": 225.519007,
+        "dec_deg": 56.9199678,
+        "eigenvalue": 8.80033665
+      }
+    ],
+    "precession_equation": "n_dot=-(2/L) n x (G_phase n)",
+    "conservation_law": "dq/dt=0",
+    "angular_speed": "||n_dot||=(2/L)||n x G_phase n||"
+  },
+  "cell3": {
+    "basis_B_columns_abc": [
+      [
+        0.667867124,
+        0.0720493867,
+        -0.0206565269
+      ],
+      [
+        -0.111950436,
+        0.422783472,
+        -0.794886731
+      ],
+      [
+        -0.0764475597,
+        -1.11630474,
+        -1.40656241
+      ]
+    ],
+    "determinant": -1.0000000009770296,
+    "absolute_volume": 1.0000000009770296,
+    "edge_lengths": {
+      "a": 0.681486335024193,
+      "b": 1.1958567016439254,
+      "c": 1.6157627983241987
+    },
+    "angles_deg": {
+      "ab": 83.93348301661229,
+      "ac": 80.44813000930138,
+      "bc": 50.363231749642836
+    },
+    "face_areas": {
+      "bc": 1.4880110060835776,
+      "ac": 1.0858540934484224,
+      "ab": 0.8103961220328021
+    },
+    "plane_records": [
+      {
+        "family": "a",
+        "opposite": "bc",
+        "normal": [
+          0.995965,
+          -0.0836022,
+          0.0326193
+        ],
+        "ra_deg": 355.202,
+        "dec_deg": 1.86928,
+        "delta": 0.672038,
+        "area": 1.488011
+      },
+      {
+        "family": "b",
+        "opposite": "ac",
+        "normal": [
+          0.0890526,
+          0.866577,
+          -0.491034
+        ],
+        "ra_deg": 84.1327,
+        "dec_deg": -29.4086,
+        "delta": 0.920934,
+        "area": 1.08585409
+      },
+      {
+        "family": "c",
+        "opposite": "ab",
+        "normal": [
+          -0.194092,
+          -0.913177,
+          -0.358379
+        ],
+        "ra_deg": 258.001,
+        "dec_deg": -21.0007,
+        "delta": 1.23396,
+        "area": 0.810396121
+      }
+    ],
+    "nodes": [
+      {
+        "node_id": "000",
+        "i": -1,
+        "j": -1,
+        "k": -1,
+        "lambda_": -3,
+        "parity": 1,
+        "x": -0.35962999190000006,
+        "y": 0.24202684749999998,
+        "z": 1.29965735485
+      },
+      {
+        "node_id": "001",
+        "i": -1,
+        "j": -1,
+        "k": 0,
+        "lambda_": -2,
+        "parity": 0,
+        "x": -0.36995825535000004,
+        "y": -0.155416518,
+        "z": 0.59637614985
+      },
+      {
+        "node_id": "002",
+        "i": -1,
+        "j": -1,
+        "k": 1,
+        "lambda_": -1,
+        "parity": 1,
+        "x": -0.38028651880000003,
+        "y": -0.5528598835,
+        "z": -0.10690505515000004
+      },
+      {
+        "node_id": "010",
+        "i": -1,
+        "j": 0,
+        "k": -1,
+        "lambda_": -2,
+        "parity": 0,
+        "x": -0.32360529855000003,
+        "y": 0.45341858349999997,
+        "z": 0.74150498485
+      },
+      {
+        "node_id": "011",
+        "i": -1,
+        "j": 0,
+        "k": 0,
+        "lambda_": -1,
+        "parity": 1,
+        "x": -0.333933562,
+        "y": 0.055975218,
+        "z": 0.03822377985
+      },
+      {
+        "node_id": "012",
+        "i": -1,
+        "j": 0,
+        "k": 1,
+        "lambda_": 0,
+        "parity": 0,
+        "x": -0.34426182545,
+        "y": -0.3414681475,
+        "z": -0.66505742515
+      },
+      {
+        "node_id": "020",
+        "i": -1,
+        "j": 1,
+        "k": -1,
+        "lambda_": -1,
+        "parity": 1,
+        "x": -0.2875806052,
+        "y": 0.6648103194999999,
+        "z": 0.1833526148500001
+      },
+      {
+        "node_id": "021",
+        "i": -1,
+        "j": 1,
+        "k": 0,
+        "lambda_": 0,
+        "parity": 0,
+        "x": -0.29790886865,
+        "y": 0.267366954,
+        "z": -0.5199285901499999
+      },
+      {
+        "node_id": "022",
+        "i": -1,
+        "j": 1,
+        "k": 1,
+        "lambda_": 1,
+        "parity": 1,
+        "x": -0.3082371321,
+        "y": -0.1300764115,
+        "z": -1.2232097951499998
+      },
+      {
+        "node_id": "100",
+        "i": 0,
+        "j": -1,
+        "k": -1,
+        "lambda_": -2,
+        "parity": 0,
+        "x": -0.025696429899999998,
+        "y": 0.18605162949999998,
+        "z": 1.2614335749999999
+      },
+      {
+        "node_id": "101",
+        "i": 0,
+        "j": -1,
+        "k": 0,
+        "lambda_": -1,
+        "parity": 1,
+        "x": -0.03602469335,
+        "y": -0.211391736,
+        "z": 0.55815237
+      },
+      {
+        "node_id": "102",
+        "i": 0,
+        "j": -1,
+        "k": 1,
+        "lambda_": 0,
+        "parity": 0,
+        "x": -0.0463529568,
+        "y": -0.6088351015,
+        "z": -0.14512883500000007
+      },
+      {
+        "node_id": "110",
+        "i": 0,
+        "j": 0,
+        "k": -1,
+        "lambda_": -1,
+        "parity": 1,
+        "x": 0.01032826345,
+        "y": 0.3974433655,
+        "z": 0.703281205
+      },
+      {
+        "node_id": "111",
+        "i": 0,
+        "j": 0,
+        "k": 0,
+        "lambda_": 0,
+        "parity": 0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "node_id": "112",
+        "i": 0,
+        "j": 0,
+        "k": 1,
+        "lambda_": 1,
+        "parity": 1,
+        "x": -0.01032826345,
+        "y": -0.3974433655,
+        "z": -0.703281205
+      },
+      {
+        "node_id": "120",
+        "i": 0,
+        "j": 1,
+        "k": -1,
+        "lambda_": 0,
+        "parity": 0,
+        "x": 0.0463529568,
+        "y": 0.6088351015,
+        "z": 0.14512883500000007
+      },
+      {
+        "node_id": "121",
+        "i": 0,
+        "j": 1,
+        "k": 0,
+        "lambda_": 1,
+        "parity": 1,
+        "x": 0.03602469335,
+        "y": 0.211391736,
+        "z": -0.55815237
+      },
+      {
+        "node_id": "122",
+        "i": 0,
+        "j": 1,
+        "k": 1,
+        "lambda_": 2,
+        "parity": 0,
+        "x": 0.025696429899999998,
+        "y": -0.18605162949999998,
+        "z": -1.2614335749999999
+      },
+      {
+        "node_id": "200",
+        "i": 1,
+        "j": -1,
+        "k": -1,
+        "lambda_": -1,
+        "parity": 1,
+        "x": 0.3082371321,
+        "y": 0.1300764115,
+        "z": 1.2232097951499998
+      },
+      {
+        "node_id": "201",
+        "i": 1,
+        "j": -1,
+        "k": 0,
+        "lambda_": 0,
+        "parity": 0,
+        "x": 0.29790886865,
+        "y": -0.267366954,
+        "z": 0.5199285901499999
+      },
+      {
+        "node_id": "202",
+        "i": 1,
+        "j": -1,
+        "k": 1,
+        "lambda_": 1,
+        "parity": 1,
+        "x": 0.2875806052,
+        "y": -0.6648103194999999,
+        "z": -0.1833526148500001
+      },
+      {
+        "node_id": "210",
+        "i": 1,
+        "j": 0,
+        "k": -1,
+        "lambda_": 0,
+        "parity": 0,
+        "x": 0.34426182545,
+        "y": 0.3414681475,
+        "z": 0.66505742515
+      },
+      {
+        "node_id": "211",
+        "i": 1,
+        "j": 0,
+        "k": 0,
+        "lambda_": 1,
+        "parity": 1,
+        "x": 0.333933562,
+        "y": -0.055975218,
+        "z": -0.03822377985
+      },
+      {
+        "node_id": "212",
+        "i": 1,
+        "j": 0,
+        "k": 1,
+        "lambda_": 2,
+        "parity": 0,
+        "x": 0.32360529855000003,
+        "y": -0.45341858349999997,
+        "z": -0.74150498485
+      },
+      {
+        "node_id": "220",
+        "i": 1,
+        "j": 1,
+        "k": -1,
+        "lambda_": 1,
+        "parity": 1,
+        "x": 0.38028651880000003,
+        "y": 0.5528598835,
+        "z": 0.10690505515000004
+      },
+      {
+        "node_id": "221",
+        "i": 1,
+        "j": 1,
+        "k": 0,
+        "lambda_": 2,
+        "parity": 0,
+        "x": 0.36995825535000004,
+        "y": 0.155416518,
+        "z": -0.59637614985
+      },
+      {
+        "node_id": "222",
+        "i": 1,
+        "j": 1,
+        "k": 1,
+        "lambda_": 3,
+        "parity": 1,
+        "x": 0.35962999190000006,
+        "y": -0.24202684749999998,
+        "z": -1.29965735485
+      }
+    ]
+  },
+  "galaxy_population": {
+    "independent_projective_axes": 1000,
+    "antipodal_display_points": 2000,
+    "source_member_rows": 126006
+  },
+  "curvature_occupancy": {
+    "RA_chart_deciles": [
+      {
+        "bin": 1,
+        "lower": null,
+        "upper": -3.934839e-05,
+        "median": -4.266322e-05,
+        "observed": 125,
+        "expected": 100,
+        "ratio": 1.25,
+        "ci95_low": 1.04048899,
+        "ci95_high": 1.48931857
+      },
+      {
+        "bin": 2,
+        "lower": -3.934839e-05,
+        "upper": -3.340872e-05,
+        "median": -3.630052e-05,
+        "observed": 125,
+        "expected": 100,
+        "ratio": 1.25,
+        "ci95_low": 1.04048899,
+        "ci95_high": 1.48931857
+      },
+      {
+        "bin": 3,
+        "lower": -3.340872e-05,
+        "upper": -2.79211e-05,
+        "median": -3.057116e-05,
+        "observed": 91,
+        "expected": 100,
+        "ratio": 0.91,
+        "ci95_low": 0.732675235,
+        "ci95_high": 1.11727835
+      },
+      {
+        "bin": 4,
+        "lower": -2.79211e-05,
+        "upper": -2.181344e-05,
+        "median": -2.499774e-05,
+        "observed": 87,
+        "expected": 100,
+        "ratio": 0.87,
+        "ci95_low": 0.696834335,
+        "ci95_high": 1.07314179
+      },
+      {
+        "bin": 5,
+        "lower": -2.181344e-05,
+        "upper": -1.55718e-05,
+        "median": -1.892052e-05,
+        "observed": 92,
+        "expected": 100,
+        "ratio": 0.92,
+        "ci95_low": 0.741649848,
+        "ci95_high": 1.12829833
+      },
+      {
+        "bin": 6,
+        "lower": -1.55718e-05,
+        "upper": -7.82172e-06,
+        "median": -1.207227e-05,
+        "observed": 101,
+        "expected": 100,
+        "ratio": 1.01,
+        "ci95_low": 0.822661588,
+        "ci95_high": 1.22724156
+      },
+      {
+        "bin": 7,
+        "lower": -7.82172e-06,
+        "upper": 2.405453e-06,
+        "median": -2.959675e-06,
+        "observed": 94,
+        "expected": 100,
+        "ratio": 0.94,
+        "ci95_low": 0.759615684,
+        "ci95_high": 1.15032194
+      },
+      {
+        "bin": 8,
+        "lower": 2.405453e-06,
+        "upper": 1.565086e-05,
+        "median": 8.627023e-06,
+        "observed": 91,
+        "expected": 100,
+        "ratio": 0.91,
+        "ci95_low": 0.732675235,
+        "ci95_high": 1.11727835
+      },
+      {
+        "bin": 9,
+        "lower": 1.565086e-05,
+        "upper": 3.271058e-05,
+        "median": 2.333049e-05,
+        "observed": 115,
+        "expected": 100,
+        "ratio": 1.15,
+        "ci95_low": 0.949442943,
+        "ci95_high": 1.38040084
+      },
+      {
+        "bin": 10,
+        "lower": 3.271058e-05,
+        "upper": null,
+        "median": 6.511217e-05,
+        "observed": 79,
+        "expected": 100,
+        "ratio": 0.79,
+        "ci95_low": 0.62545044,
+        "ci95_high": 0.984575712
+      }
+    ],
+    "Dec_chart_deciles": [
+      {
+        "bin": 1,
+        "lower": null,
+        "upper": -0.000132656029,
+        "median": -0.000138062428,
+        "observed": 59,
+        "expected": 100,
+        "ratio": 0.59,
+        "ci95_low": 0.449135336,
+        "ci95_high": 0.761057014
+      },
+      {
+        "bin": 2,
+        "lower": -0.000132656029,
+        "upper": -0.000126001404,
+        "median": -0.00012861995,
+        "observed": 76,
+        "expected": 100,
+        "ratio": 0.76,
+        "ci95_low": 0.598793559,
+        "ci95_high": 0.95125333
+      },
+      {
+        "bin": 3,
+        "lower": -0.000126001404,
+        "upper": -0.000118718815,
+        "median": -0.000122941212,
+        "observed": 108,
+        "expected": 100,
+        "ratio": 1.08,
+        "ci95_low": 0.885944933,
+        "ci95_high": 1.3039271
+      },
+      {
+        "bin": 4,
+        "lower": -0.000118718815,
+        "upper": -0.000107463877,
+        "median": -0.000113520024,
+        "observed": 107,
+        "expected": 100,
+        "ratio": 1.07,
+        "ci95_low": 0.876890822,
+        "ci95_high": 1.29298547
+      },
+      {
+        "bin": 5,
+        "lower": -0.000107463877,
+        "upper": -9.281216e-05,
+        "median": -0.000100569344,
+        "observed": 94,
+        "expected": 100,
+        "ratio": 0.94,
+        "ci95_low": 0.759615684,
+        "ci95_high": 1.15032194
+      },
+      {
+        "bin": 6,
+        "lower": -9.281216e-05,
+        "upper": -7.457331e-05,
+        "median": -8.418281e-05,
+        "observed": 117,
+        "expected": 100,
+        "ratio": 1.17,
+        "ci95_low": 0.967621877,
+        "ci95_high": 1.40221429
+      },
+      {
+        "bin": 7,
+        "lower": -7.457331e-05,
+        "upper": -5.146031e-05,
+        "median": -6.379158e-05,
+        "observed": 111,
+        "expected": 100,
+        "ratio": 1.11,
+        "ci95_low": 0.913133279,
+        "ci95_high": 1.33672632
+      },
+      {
+        "bin": 8,
+        "lower": -5.146031e-05,
+        "upper": -1.656871e-05,
+        "median": -3.66831e-05,
+        "observed": 117,
+        "expected": 100,
+        "ratio": 1.17,
+        "ci95_low": 0.967621877,
+        "ci95_high": 1.40221429
+      },
+      {
+        "bin": 9,
+        "lower": -1.656871e-05,
+        "upper": 0.000127477533,
+        "median": 2.180767e-05,
+        "observed": 108,
+        "expected": 100,
+        "ratio": 1.08,
+        "ci95_low": 0.885944933,
+        "ci95_high": 1.3039271
+      },
+      {
+        "bin": 10,
+        "lower": 0.000127477533,
+        "upper": null,
+        "median": 0.000434682858,
+        "observed": 103,
+        "expected": 100,
+        "ratio": 1.03,
+        "ci95_low": 0.840719383,
+        "ci95_high": 1.24917455
+      }
+    ],
+    "quadrants": [
+      {
+        "ra_sign": "negative",
+        "dec_sign": "negative",
+        "area_fraction": 0.629791667,
+        "observed": 634,
+        "expected": 629.791667,
+        "ratio": 1.0066821,
+        "ci95_low": 0.929836439,
+        "ci95_high": 1.08818487
+      },
+      {
+        "ra_sign": "negative",
+        "dec_sign": "positive",
+        "area_fraction": 0.04875,
+        "observed": 62,
+        "expected": 48.75,
+        "ratio": 1.27179487,
+        "ci95_low": 0.975077836,
+        "ci95_high": 1.63038363
+      },
+      {
+        "ra_sign": "positive",
+        "dec_sign": "negative",
+        "area_fraction": 0.197445988,
+        "observed": 185,
+        "expected": 197.445988,
+        "ratio": 0.936965102,
+        "ci95_low": 0.806808094,
+        "ci95_high": 1.0821417
+      },
+      {
+        "ra_sign": "positive",
+        "dec_sign": "positive",
+        "area_fraction": 0.124012346,
+        "observed": 119,
+        "expected": 124.012346,
+        "ratio": 0.959581882,
+        "ci95_low": 0.794934026,
+        "ci95_high": 1.14828279
+      }
+    ],
+    "likelihood_tests": {
+      "RA_deciles": {
+        "G": 22.9474,
+        "p": 0.00632
+      },
+      "Dec_deciles": {
+        "G": 34.8533,
+        "p": 6.324e-05
+      },
+      "full_cubic_vs_additive_cubic": {
+        "Delta_G": 79.5962,
+        "df": 3,
+        "p": 3.747e-17
+      },
+      "condition_M": {
+        "Delta_G": 65.0276721,
+        "df": 10,
+        "p": 4.004188e-10
+      },
+      "condition_q_and_M": {
+        "Delta_G": 32.9748532,
+        "df": 8,
+        "p": 6.223412e-05
+      },
+      "covariant_east": {
+        "G": 70.8216,
+        "p": 1.0506e-11
+      }
+    },
+    "models": [
+      {
+        "model": "full polynomial degree 0",
+        "degree": 0,
+        "interaction": "no",
+        "parameters": 1,
+        "deviance": 332.192877,
+        "residual_df": 137,
+        "AIC": 781.102018,
+        "log_likelihood": -389.551009
+      },
+      {
+        "model": "full polynomial degree 1",
+        "degree": 1,
+        "interaction": "no",
+        "parameters": 3,
+        "deviance": 297.148471,
+        "residual_df": 135,
+        "AIC": 750.057612,
+        "log_likelihood": -372.028806
+      },
+      {
+        "model": "full polynomial degree 2",
+        "degree": 2,
+        "interaction": "yes",
+        "parameters": 6,
+        "deviance": 288.413466,
+        "residual_df": 132,
+        "AIC": 747.322607,
+        "log_likelihood": -367.661303
+      },
+      {
+        "model": "full polynomial degree 3",
+        "degree": 3,
+        "interaction": "yes",
+        "parameters": 10,
+        "deviance": 200.0238,
+        "residual_df": 128,
+        "AIC": 666.932941,
+        "log_likelihood": -323.466471
+      },
+      {
+        "model": "full polynomial degree 4",
+        "degree": 4,
+        "interaction": "yes",
+        "parameters": 15,
+        "deviance": 176.613215,
+        "residual_df": 123,
+        "AIC": 653.522356,
+        "log_likelihood": -311.761178
+      },
+      {
+        "model": "additive polynomial degree 1",
+        "degree": 1,
+        "interaction": "no",
+        "parameters": 3,
+        "deviance": 297.148471,
+        "residual_df": 135,
+        "AIC": 750.057612,
+        "log_likelihood": -372.028806
+      },
+      {
+        "model": "additive polynomial degree 2",
+        "degree": 2,
+        "interaction": "no",
+        "parameters": 5,
+        "deviance": 288.514349,
+        "residual_df": 133,
+        "AIC": 745.42349,
+        "log_likelihood": -367.711745
+      },
+      {
+        "model": "additive polynomial degree 3",
+        "degree": 3,
+        "interaction": "no",
+        "parameters": 7,
+        "deviance": 279.620015,
+        "residual_df": 131,
+        "AIC": 740.529156,
+        "log_likelihood": -363.264578
+      },
+      {
+        "model": "additive polynomial degree 4",
+        "degree": 4,
+        "interaction": "no",
+        "parameters": 9,
+        "deviance": 277.770131,
+        "residual_df": 129,
+        "AIC": 742.679272,
+        "log_likelihood": -362.339636
+      }
+    ],
+    "conditioning": [
+      {
+        "design": "M only vs M + curvatures",
+        "base_deviance": 251.577193,
+        "curvature_deviance": 186.549521,
+        "base_AIC": 556.701312,
+        "curvature_AIC": 511.67364,
+        "Delta_G": 65.0276721,
+        "df": 10,
+        "p": 4.004188e-10
+      },
+      {
+        "design": "q + M vs q + M + curvatures",
+        "base_deviance": 276.17797,
+        "curvature_deviance": 243.203117,
+        "base_AIC": 683.789517,
+        "curvature_AIC": 666.814664,
+        "Delta_G": 32.9748532,
+        "df": 8,
+        "p": 6.223412e-05
+      }
+    ],
+    "topology": [
+      {
+        "frame": "RA/Dec chart",
+        "topology": "concave",
+        "area_fraction": 0.414606481,
+        "observed": 409,
+        "expected": 414.606481,
+        "ratio": 0.986477584
+      },
+      {
+        "frame": "RA/Dec chart",
+        "topology": "saddle",
+        "area_fraction": 0.541280864,
+        "observed": 538,
+        "expected": 541.280864,
+        "ratio": 0.993938703
+      },
+      {
+        "frame": "RA/Dec chart",
+        "topology": "convex",
+        "area_fraction": 0.0441126543,
+        "observed": 53,
+        "expected": 44.1126543,
+        "ratio": 1.2014693
+      },
+      {
+        "frame": "orthonormal tangent",
+        "topology": "concave",
+        "area_fraction": 0.526851852,
+        "observed": 573,
+        "expected": 526.851852,
+        "ratio": 1.08759227
+      },
+      {
+        "frame": "orthonormal tangent",
+        "topology": "saddle",
+        "area_fraction": 0.445925926,
+        "observed": 413,
+        "expected": 445.925926,
+        "ratio": 0.926162791
+      },
+      {
+        "frame": "orthonormal tangent",
+        "topology": "convex",
+        "area_fraction": 0.0272222222,
+        "observed": 14,
+        "expected": 27.2222222,
+        "ratio": 0.514285714
+      }
+    ]
+  },
+  "crossing_statistics": {
+    "plane_count": 1000,
+    "unordered_projective_pairs": 499500,
+    "antipodal_surface_points": 999000,
+    "window_diameter_deg": 0.5,
+    "window_radius_deg": 0.25,
+    "observed_retained_windows": 130553,
+    "random_control_mean_windows": 96840.9,
+    "random_control_sd_windows": 174.644,
+    "observed_maximum_multiplicity": 23,
+    "random_maximum_mean": 17.63,
+    "random_maximum_sd": 1.19,
+    "random_maximum_range": [
+      16,
+      21
+    ],
+    "exact_and_tail_distribution": [
+      {
+        "k": 2,
+        "observed_exact": 33696,
+        "random_mean_exact": 12064.3,
+        "random_sd_exact": 100.672,
+        "random_p05_exact": 11905.0,
+        "random_p95_exact": 12202.85,
+        "observed_random_ratio": 2.79303,
+        "observed_tail": 130553,
+        "random_mean_tail": 96840.9,
+        "random_sd_tail": 174.644
+      },
+      {
+        "k": 3,
+        "observed_exact": 20140,
+        "random_mean_exact": 13919.333,
+        "random_sd_exact": 138.385,
+        "random_p05_exact": 13714.8,
+        "random_p95_exact": 14179.3,
+        "observed_random_ratio": 1.44691,
+        "observed_tail": 96857,
+        "random_mean_tail": 84776.6,
+        "random_sd_tail": 187.713
+      },
+      {
+        "k": 4,
+        "observed_exact": 18053,
+        "random_mean_exact": 15849.433,
+        "random_sd_exact": 129.97,
+        "random_p05_exact": 15654.6,
+        "random_p95_exact": 16017.45,
+        "observed_random_ratio": 1.13903,
+        "observed_tail": 76717,
+        "random_mean_tail": 70857.267,
+        "random_sd_tail": 164.292
+      },
+      {
+        "k": 5,
+        "observed_exact": 15102,
+        "random_mean_exact": 15936.267,
+        "random_sd_exact": 151.968,
+        "random_p05_exact": 15783.7,
+        "random_p95_exact": 16143.85,
+        "observed_random_ratio": 0.94765,
+        "observed_tail": 58664,
+        "random_mean_tail": 55007.833,
+        "random_sd_tail": 132.43
+      },
+      {
+        "k": 6,
+        "observed_exact": 12295,
+        "random_mean_exact": 13838.167,
+        "random_sd_exact": 121.036,
+        "random_p05_exact": 13640.05,
+        "random_p95_exact": 14006.95,
+        "observed_random_ratio": 0.888485,
+        "observed_tail": 43562,
+        "random_mean_tail": 39071.567,
+        "random_sd_tail": 128.024
+      },
+      {
+        "k": 7,
+        "observed_exact": 9420,
+        "random_mean_exact": 10413.733,
+        "random_sd_exact": 93.1732,
+        "random_p05_exact": 10278.75,
+        "random_p95_exact": 10538.7,
+        "observed_random_ratio": 0.904575,
+        "observed_tail": 31267,
+        "random_mean_tail": 25233.4,
+        "random_sd_tail": 123.84
+      },
+      {
+        "k": 8,
+        "observed_exact": 6979,
+        "random_mean_exact": 6884.467,
+        "random_sd_exact": 83.0001,
+        "random_p05_exact": 6752.7,
+        "random_p95_exact": 7023.25,
+        "observed_random_ratio": 1.01373,
+        "observed_tail": 21847,
+        "random_mean_tail": 14819.667,
+        "random_sd_tail": 117.679
+      },
+      {
+        "k": 9,
+        "observed_exact": 5026,
+        "random_mean_exact": 4051.5,
+        "random_sd_exact": 77.1701,
+        "random_p05_exact": 3938.05,
+        "random_p95_exact": 4184.6,
+        "observed_random_ratio": 1.24053,
+        "observed_tail": 14868,
+        "random_mean_tail": 7935.2,
+        "random_sd_tail": 129.322
+      },
+      {
+        "k": 10,
+        "observed_exact": 3562,
+        "random_mean_exact": 2138.733,
+        "random_sd_exact": 51.9588,
+        "random_p05_exact": 2070.3,
+        "random_p95_exact": 2231.6,
+        "observed_random_ratio": 1.66547,
+        "observed_tail": 9842,
+        "random_mean_tail": 3883.7,
+        "random_sd_tail": 90.7103
+      },
+      {
+        "k": 11,
+        "observed_exact": 2354,
+        "random_mean_exact": 1028.667,
+        "random_sd_exact": 37.356,
+        "random_p05_exact": 969.95,
+        "random_p95_exact": 1086.5,
+        "observed_random_ratio": 2.2884,
+        "observed_tail": 6280,
+        "random_mean_tail": 1744.967,
+        "random_sd_tail": 66.6351
+      },
+      {
+        "k": 12,
+        "observed_exact": 1619,
+        "random_mean_exact": 443.333,
+        "random_sd_exact": 20.8779,
+        "random_p05_exact": 412.45,
+        "random_p95_exact": 472.55,
+        "observed_random_ratio": 3.65188,
+        "observed_tail": 3926,
+        "random_mean_tail": 716.3,
+        "random_sd_tail": 40.305
+      },
+      {
+        "k": 13,
+        "observed_exact": 1030,
+        "random_mean_exact": 174.833,
+        "random_sd_exact": 13.9607,
+        "random_p05_exact": 152.45,
+        "random_p95_exact": 194.55,
+        "observed_random_ratio": 5.89133,
+        "observed_tail": 2307,
+        "random_mean_tail": 272.967,
+        "random_sd_tail": 24.4096
+      },
+      {
+        "k": 14,
+        "observed_exact": 619,
+        "random_mean_exact": 65.7667,
+        "random_sd_exact": 9.10734,
+        "random_p05_exact": 54.0,
+        "random_p95_exact": 79.4,
+        "observed_random_ratio": 9.41206,
+        "observed_tail": 1277,
+        "random_mean_tail": 98.1333,
+        "random_sd_tail": 14.4287
+      },
+      {
+        "k": 15,
+        "observed_exact": 314,
+        "random_mean_exact": 22.5333,
+        "random_sd_exact": 5.90577,
+        "random_p05_exact": 14.0,
+        "random_p95_exact": 31.55,
+        "observed_random_ratio": 13.9349,
+        "observed_tail": 658,
+        "random_mean_tail": 32.3667,
+        "random_sd_tail": 8.00208
+      },
+      {
+        "k": 16,
+        "observed_exact": 178,
+        "random_mean_exact": 6.83333,
+        "random_sd_exact": 2.87778,
+        "random_p05_exact": 1.0,
+        "random_p95_exact": 10.55,
+        "observed_random_ratio": 26.0488,
+        "observed_tail": 344,
+        "random_mean_tail": 9.83333,
+        "random_sd_tail": 3.80638
+      },
+      {
+        "k": 17,
+        "observed_exact": 85,
+        "random_mean_exact": 2.26667,
+        "random_sd_exact": 1.81817,
+        "random_p05_exact": 0.0,
+        "random_p95_exact": 6.55,
+        "observed_random_ratio": 37.5,
+        "observed_tail": 166,
+        "random_mean_tail": 3.0,
+        "random_sd_tail": 2.50517
+      },
+      {
+        "k": 18,
+        "observed_exact": 61,
+        "random_mean_exact": 0.5,
+        "random_sd_exact": 0.776819,
+        "random_p05_exact": 0.0,
+        "random_p95_exact": 2.0,
+        "observed_random_ratio": 122.0,
+        "observed_tail": 81,
+        "random_mean_tail": 0.733333,
+        "random_sd_tail": 1.11211
+      },
+      {
+        "k": 19,
+        "observed_exact": 13,
+        "random_mean_exact": 0.133333,
+        "random_sd_exact": 0.345746,
+        "random_p05_exact": 0.0,
+        "random_p95_exact": 1.0,
+        "observed_random_ratio": 97.5,
+        "observed_tail": 20,
+        "random_mean_tail": 0.233333,
+        "random_sd_tail": 0.568321
+      },
+      {
+        "k": 20,
+        "observed_exact": 3,
+        "random_mean_exact": 0.0666667,
+        "random_sd_exact": 0.253708,
+        "random_p05_exact": 0.0,
+        "random_p95_exact": 0.55,
+        "observed_random_ratio": 45.0,
+        "observed_tail": 7,
+        "random_mean_tail": 0.1,
+        "random_sd_tail": 0.305129
+      },
+      {
+        "k": 21,
+        "observed_exact": 1,
+        "random_mean_exact": 0.0333333,
+        "random_sd_exact": 0.182574,
+        "random_p05_exact": 0.0,
+        "random_p95_exact": 0.0,
+        "observed_random_ratio": 30.0,
+        "observed_tail": 4,
+        "random_mean_tail": 0.0333333,
+        "random_sd_tail": 0.182574
+      },
+      {
+        "k": 22,
+        "observed_exact": 2,
+        "random_mean_exact": 0.0,
+        "random_sd_exact": 0.0,
+        "random_p05_exact": 0.0,
+        "random_p95_exact": 0.0,
+        "observed_random_ratio": null,
+        "observed_tail": 3,
+        "random_mean_tail": 0.0,
+        "random_sd_tail": 0.0
+      },
+      {
+        "k": 23,
+        "observed_exact": 1,
+        "random_mean_exact": 0.0,
+        "random_sd_exact": 0.0,
+        "random_p05_exact": 0.0,
+        "random_p95_exact": 0.0,
+        "observed_random_ratio": null,
+        "observed_tail": 1,
+        "random_mean_tail": 0.0,
+        "random_sd_tail": 0.0
+      }
+    ],
+    "control_runs": [
+      {
+        "replicate": 1,
+        "maximum_multiplicity": 17,
+        "total_windows": 96643
+      },
+      {
+        "replicate": 2,
+        "maximum_multiplicity": 18,
+        "total_windows": 96865
+      },
+      {
+        "replicate": 3,
+        "maximum_multiplicity": 17,
+        "total_windows": 97223
+      },
+      {
+        "replicate": 4,
+        "maximum_multiplicity": 18,
+        "total_windows": 96786
+      },
+      {
+        "replicate": 5,
+        "maximum_multiplicity": 17,
+        "total_windows": 96837
+      },
+      {
+        "replicate": 6,
+        "maximum_multiplicity": 17,
+        "total_windows": 96998
+      },
+      {
+        "replicate": 7,
+        "maximum_multiplicity": 20,
+        "total_windows": 96593
+      },
+      {
+        "replicate": 8,
+        "maximum_multiplicity": 16,
+        "total_windows": 96969
+      },
+      {
+        "replicate": 9,
+        "maximum_multiplicity": 20,
+        "total_windows": 97050
+      },
+      {
+        "replicate": 10,
+        "maximum_multiplicity": 17,
+        "total_windows": 96814
+      },
+      {
+        "replicate": 11,
+        "maximum_multiplicity": 18,
+        "total_windows": 96598
+      },
+      {
+        "replicate": 12,
+        "maximum_multiplicity": 18,
+        "total_windows": 96779
+      },
+      {
+        "replicate": 13,
+        "maximum_multiplicity": 17,
+        "total_windows": 96989
+      },
+      {
+        "replicate": 14,
+        "maximum_multiplicity": 17,
+        "total_windows": 96752
+      },
+      {
+        "replicate": 15,
+        "maximum_multiplicity": 18,
+        "total_windows": 97139
+      },
+      {
+        "replicate": 16,
+        "maximum_multiplicity": 16,
+        "total_windows": 96805
+      },
+      {
+        "replicate": 17,
+        "maximum_multiplicity": 18,
+        "total_windows": 97040
+      },
+      {
+        "replicate": 18,
+        "maximum_multiplicity": 17,
+        "total_windows": 96762
+      },
+      {
+        "replicate": 19,
+        "maximum_multiplicity": 21,
+        "total_windows": 96547
+      },
+      {
+        "replicate": 20,
+        "maximum_multiplicity": 19,
+        "total_windows": 96882
+      },
+      {
+        "replicate": 21,
+        "maximum_multiplicity": 16,
+        "total_windows": 96807
+      },
+      {
+        "replicate": 22,
+        "maximum_multiplicity": 18,
+        "total_windows": 96773
+      },
+      {
+        "replicate": 23,
+        "maximum_multiplicity": 17,
+        "total_windows": 96624
+      },
+      {
+        "replicate": 24,
+        "maximum_multiplicity": 17,
+        "total_windows": 96915
+      },
+      {
+        "replicate": 25,
+        "maximum_multiplicity": 17,
+        "total_windows": 96572
+      },
+      {
+        "replicate": 26,
+        "maximum_multiplicity": 17,
+        "total_windows": 96938
+      },
+      {
+        "replicate": 27,
+        "maximum_multiplicity": 17,
+        "total_windows": 96898
+      },
+      {
+        "replicate": 28,
+        "maximum_multiplicity": 17,
+        "total_windows": 96980
+      },
+      {
+        "replicate": 29,
+        "maximum_multiplicity": 19,
+        "total_windows": 97010
+      },
+      {
+        "replicate": 30,
+        "maximum_multiplicity": 18,
+        "total_windows": 96639
+      }
+    ],
+    "high_multiplicity_clusters": [
+      {
+        "cluster": 1,
+        "ra_deg": 357.507,
+        "dec_deg": -23.9212,
+        "unique_planes": 23,
+        "local_intersections": 76,
+        "plane_ids": [
+          5,
+          9,
+          94,
+          144,
+          163,
+          191,
+          195,
+          201,
+          219,
+          233,
+          243,
+          244,
+          251,
+          344,
+          451,
+          471,
+          481,
+          553,
+          554,
+          568,
+          603,
+          876,
+          967
+        ],
+        "q_cost": 4.9758035253633635
+      },
+      {
+        "cluster": 2,
+        "ra_deg": 180.475,
+        "dec_deg": 44.3204,
+        "unique_planes": 22,
+        "local_intersections": 64,
+        "plane_ids": [
+          12,
+          59,
+          85,
+          119,
+          125,
+          200,
+          252,
+          276,
+          285,
+          336,
+          414,
+          484,
+          490,
+          523,
+          570,
+          584,
+          703,
+          845,
+          879,
+          936,
+          978,
+          999
+        ],
+        "q_cost": 6.93940625590345
+      },
+      {
+        "cluster": 3,
+        "ra_deg": 177.626,
+        "dec_deg": 23.9611,
+        "unique_planes": 22,
+        "local_intersections": 53,
+        "plane_ids": [
+          5,
+          9,
+          94,
+          144,
+          163,
+          191,
+          195,
+          201,
+          219,
+          233,
+          244,
+          251,
+          344,
+          451,
+          471,
+          481,
+          553,
+          554,
+          568,
+          603,
+          967,
+          999
+        ],
+        "q_cost": 4.9877277059671155
+      },
+      {
+        "cluster": 4,
+        "ra_deg": 356.354,
+        "dec_deg": -12.8585,
+        "unique_planes": 21,
+        "local_intersections": 94,
+        "plane_ids": [
+          8,
+          92,
+          163,
+          259,
+          292,
+          302,
+          342,
+          360,
+          384,
+          406,
+          424,
+          468,
+          492,
+          581,
+          611,
+          619,
+          747,
+          801,
+          878,
+          973,
+          980
+        ],
+        "q_cost": 3.849954192601941
+      },
+      {
+        "cluster": 5,
+        "ra_deg": 357.746,
+        "dec_deg": -23.7885,
+        "unique_planes": 20,
+        "local_intersections": 75,
+        "plane_ids": [
+          5,
+          9,
+          144,
+          163,
+          191,
+          195,
+          201,
+          203,
+          219,
+          243,
+          244,
+          251,
+          344,
+          451,
+          471,
+          481,
+          553,
+          568,
+          603,
+          876
+        ],
+        "q_cost": 4.979109159258807
+      },
+      {
+        "cluster": 6,
+        "ra_deg": 180.65,
+        "dec_deg": 44.0919,
+        "unique_planes": 20,
+        "local_intersections": 68,
+        "plane_ids": [
+          12,
+          59,
+          119,
+          125,
+          200,
+          252,
+          276,
+          285,
+          336,
+          414,
+          484,
+          490,
+          523,
+          584,
+          629,
+          703,
+          809,
+          845,
+          978,
+          999
+        ],
+        "q_cost": 6.934804831396551
+      },
+      {
+        "cluster": 7,
+        "ra_deg": 3.80398,
+        "dec_deg": -20.4292,
+        "unique_planes": 20,
+        "local_intersections": 59,
+        "plane_ids": [
+          2,
+          17,
+          104,
+          141,
+          147,
+          201,
+          221,
+          387,
+          394,
+          399,
+          464,
+          480,
+          503,
+          584,
+          593,
+          601,
+          678,
+          847,
+          861,
+          891
+        ],
+        "q_cost": 5.040644152733148
+      }
+    ]
+  },
+  "plane_family_summary": [
+    {
+      "family": "A",
+      "quantity": "RA peak-to-peak through k",
+      "value": "28.3 deg"
+    },
+    {
+      "family": "A",
+      "quantity": "Dec peak-to-peak through k",
+      "value": "4.37 deg"
+    },
+    {
+      "family": "B",
+      "quantity": "RA peak-to-peak through k",
+      "value": "14.5 deg"
+    },
+    {
+      "family": "B",
+      "quantity": "Dec peak-to-peak through k",
+      "value": "5.59 deg"
+    },
+    {
+      "family": "C",
+      "quantity": "RA peak-to-peak through k",
+      "value": "24.1 deg"
+    },
+    {
+      "family": "C",
+      "quantity": "Dec peak-to-peak through k",
+      "value": "9.91 deg"
+    },
+    {
+      "family": "A",
+      "quantity": "best simple angular term for RA",
+      "value": "cos(2l), corr=0.698, R2=0.529"
+    },
+    {
+      "family": "A",
+      "quantity": "best simple angular term for Dec",
+      "value": "sin(l) sin(b), corr=-0.510, R2=0.623"
+    },
+    {
+      "family": "B",
+      "quantity": "best simple angular term for RA",
+      "value": "cos(b), corr=-0.455, R2=0.416"
+    },
+    {
+      "family": "B",
+      "quantity": "best simple angular term for Dec",
+      "value": "cos(b), corr=0.643, R2=0.653"
+    },
+    {
+      "family": "C",
+      "quantity": "best simple angular term for RA",
+      "value": "sin(l), corr=0.540, R2=0.621"
+    },
+    {
+      "family": "C",
+      "quantity": "best simple angular term for Dec",
+      "value": "cos(b), corr=-0.533, R2=0.616"
+    }
+  ],
+  "canonical_integrated_interpretation_html": "Then the galaxy-plane statistics become an <b>ensemble phase portrait of gyroscopic angular momentum</b> on the K-Field Quadratic Phase-Transition Cost Surface.\n\nFor galaxy i, let n_i = L_i / ||L_i|| be its spin axis. Its observed equatorial plane is the rotor plane perpendicular to n_i. Because n_i and -n_i define the same plane, the galaxy data naturally occupy projective orientation space.\n\nFor the quadratic phase cost C(n) = n^T Q n, the K-Field torque gives n_dot = -(2/L) n x Qn. Therefore dC/dt = 0.\n\nAn undamped galaxy gyro precesses along a constant-cost contour. The eigenvectors of Q are stationary spin directions, while the intermediate orientations form anisotropic precession trajectories. The angular speed is ||n_dot|| = (2/L)||n x Qn||.\n\nConsequently, a population snapshot is weighted by dwell time: galaxy axes accumulate where precession is slow, dynamically focused, or stabilized by the local tangent Hessian.\n\nThis is exactly where the curvature statistics become physically important. The archived analysis shows that galaxy-axis occupancy is a nonlinear function of the two signed local curvature components, and that the relationship remains after controlling for both phase cost and slope magnitude. Thus the galaxies are not merely accumulating at cost minima. Their spin states are organized by the <b>local geometry of the precession flow</b> - its focusing, defocusing, saddle structure, and directional stiffness.\n\nThe plane-crossing statistic supplies the collective component. For two galaxy gyros, p_ij = (n_i x n_j) / ||n_i x n_j||.\n\nA high-multiplicity crossing near p means that many galaxy axes satisfy n_i dot p approximately 0.\n\nTherefore, the galaxies are not colocated at p. Their angular-momentum vectors occupy a common orientation plane whose pole is p. In gyro language, the crossing is a <b>collective precession-plane node</b>: many independent rotors share the same angular-momentum manifold.\n\nThe observed 1,000-plane population contains 130,553 retained crossing windows, compared with 96,840.9 +/- 174.6 for isotropic controls. It has 1,277 windows containing at least 14 planes versus 98.13 randomly, 81 windows containing at least 18 planes versus 0.733 randomly, and seven windows containing at least 20 planes, with a maximum multiplicity of 23. The high-order distribution is 20:3, 21:1, 22:2, 23:1; none of the thirty matched random controls reached 22 or 23.\n\nInterpreted gyroscopically, this heavy tail means that the K-Field does not produce one universal preferred spin axis. It produces a discrete network of preferred <b>precessional planes, nodal directions, and curvature channels</b>. The three galaxy plane families then represent three non-equivalent gyroscopic response families. Their axis orientations evolve coherently through stack index, possess different harmonic mixtures, and occupy different axis-to-plane-normal regimes.\n\nThe combined interpretation is therefore:\n\n<b>Galaxy axes are distributed gyroscope states, while galaxy-plane crossings map the shared precession geometry.</b>\n\nThe individual-axis occupancy measures where gyroscopes dwell on the quadratic cost surface. The crossing multiplicity measures how strongly those gyro states organize into common orientation manifolds. The Cell3 plane families are the discrete geometric skeleton of that ensemble precession field.",
+  "expanded_sections": {
+    "1": [
+      "A rotating galaxy carries angular momentum. At the scale used here, the internal details of its stellar, gaseous, and dark components are compressed into an orientation state: the direction of the net spin axis. This compression does not claim that every galaxy is a rigid rotor. It uses the gyroscope as a proxy for the directional persistence of angular momentum. A proxy is sufficient because the observational statistics concern orientation, not the detailed distribution of internal orbital radii.",
+      "Let L_i be the angular-momentum vector of galaxy group i and let n_i=L_i/||L_i||. The observable equatorial plane is perpendicular to n_i. Reversing the axis does not change that plane; n_i and -n_i therefore represent the same projective state. The correct state space is the unit sphere with antipodal identification, written S^2/{+/-1}. Figures may display both antipodes to expose the full geometry, but statistical inference counts one representative of each pair.",
+      "This separation between display and inference is essential. Counting both antipodes would double every cost and curvature value without adding an independent galaxy. The archived analysis therefore displays 2,000 antipodal points while retaining an inferential population of 1,000 independent projective axes."
+    ],
+    "2": [
+      "The K-Field directional energy geometry is represented by the symmetric quadratic form q(n)=n^T G_phase n, with ||n||=1. The matrix is fixed in the orthonormal ICRS Cartesian frame. Its x axis points to RA=0 deg, Dec=0 deg; its y axis points to RA=90 deg, Dec=0 deg; and its z axis is the north celestial pole. Right ascension increases from 0 to 360 degrees in the figures, left-to-right, while declination increases upward from -90 to +90 degrees.",
+      "A symmetric quadratic form has three mutually orthogonal eigenvectors. Restricted to the unit sphere, these are the stationary directions of q. The smallest eigenvalue defines the soft direction, the largest defines the hard direction, and the intermediate eigenvalue defines the saddle direction. Each direction is projective and therefore has an antipodal partner with the same cost.",
+      "The eigenvalue spread is the source of anisotropy. Motion that turns the spin axis toward the hard direction traverses a steeper directional cost geometry than motion toward the soft direction. The surface is not a physical ellipsoid drawn in ordinary position space; it is a scalar field on orientation space. Every point represents a possible angular-momentum direction."
+    ],
+    "3": [
+      "For fixed spin magnitude L, the directional torque generated by the cost gradient is tangent to the unit sphere. With C(n)=n^T Qn and Q symmetric, the unconstrained gradient is 2Qn. Its torque about the spin axis is tau_K=-n x 2Qn. Since L=L n, the orientation equation is n_dot=-(2/L)n x Qn.",
+      "The cross product makes n_dot perpendicular to n, so the unit norm is conserved. It also makes the torque perpendicular to Qn in the scalar-product sense needed to conserve the quadratic cost. Direct differentiation gives dC/dt=2(Qn) dot n_dot=-(4/L)(Qn) dot [n x Qn]=0. The ideal undamped trajectory therefore remains on one constant-cost contour.",
+      "The angular speed is ||n_dot||=(2/L)||n x Qn||. It vanishes exactly at the eigenvectors, where Qn is parallel to n. Away from those points the speed varies with both direction and spin magnitude. A high-angular-momentum galaxy traverses the same geometric orbit more slowly than a low-angular-momentum proxy under the same normalized field, while the orbit shape is determined by Q.",
+      "This flow is the orientation-space analog of free precession in an anisotropic body. The spin axis does not move radially through the scalar surface; it moves tangentially along a contour. The direction of motion is a ninety-degree rotation of the local gradient within the tangent plane. Cost gradient determines contour spacing, while the cross product converts that gradient into precession."
+    ],
+    "4": [
+      "A catalog is an instantaneous ensemble sample, not a time series of one galaxy. The conversion from single-gyro dynamics to population statistics is therefore made through dwell time and phase-space transport. Along a periodic orbit, the fraction of time spent in a small arc is inversely proportional to angular speed. Slow sectors receive greater snapshot occupancy than fast sectors when phases are otherwise mixed.",
+      "The quadratic cost value alone does not determine this dwell-time structure. Two positions on the same isoline can have different tangent curvature, different local turning rate, and different convergence of neighboring trajectories. The first derivative gives the local slope magnitude. The second derivative gives the local bending and focusing geometry. That is why the archived occupancy analysis evaluates two signed curvature coordinates rather than reducing the sky to cost minima and maxima.",
+      "The local Hessian divides the slope-magnitude surface into concave, saddle-like, and convex regions. This sign topology is useful, but it discards magnitude and principal direction. The stronger result is the complete two-axis curvature state, because the occupancy response depends on the joint value of the two signed components."
+    ],
+    "5": [
+      "The one-axis decile tests already reject uniform occupancy. Signed RA-chart curvature gives likelihood-ratio G=22.9474 with p=0.00632. Signed Dec-chart curvature gives G=34.8533 with p=6.324e-5. The RA response is non-monotonic: the first two deciles are enriched to 1.25, middle deciles are depleted or near unity, the ninth rises to 1.15, and the most-positive decile falls to 0.79. The Dec response begins with strong depletion to 0.59 and 0.76, then rises above unity through several middle and upper deciles.",
+      "The joint result is more informative. A full cubic model reduces deviance far beyond an additive cubic model, with Delta G=79.5962 for three interaction degrees of freedom and p=3.747e-17. Therefore the RA-curvature effect changes with Dec curvature and the Dec-curvature effect changes with RA curvature. The occupancy field cannot be reconstructed by multiplying two one-dimensional curves.",
+      "Conditioning separates curvature from simpler scalar descriptions. Adding the curvature coordinates to a slope-magnitude model reduces deviance by 65.0277 for ten degrees of freedom, p=4.004e-10. Adding curvature after conditioning jointly on quadratic cost and slope magnitude reduces deviance by 32.9749 for eight degrees of freedom, p=6.223e-5. Curvature therefore carries independent organization information.",
+      "The covariant east-north analysis corrects the convergence of RA coordinate lines near the poles. East-curvature deciles produce G=70.8216 with p=1.051e-11, and the nonlinear joint structure persists. The result belongs to the spherical tangent geometry rather than being only a rectangular-chart artifact."
+    ],
+    "6": [
+      "Each galaxy equatorial plane passes through the origin. With unit normal n_i, its great circle is the set of unit vectors x satisfying n_i dot x=0. Two nonparallel planes intersect along a line through the origin. The two unit-sphere directions on that line are p_ij=normalize(n_i x n_j) and -p_ij.",
+      "The point p_ij is not the position of either galaxy. It is the pole of the two-axis orientation plane: both n_i and n_j are perpendicular to p_ij. If many great-circle crossings fall inside a small angular aperture centered near p, then many galaxy axes lie close to the common great circle n dot p=0 in dual normal space. High crossing multiplicity is therefore a direct coplanarity statistic for the generating angular-momentum axes.",
+      "In gyroscopic language, the crossing center is a collective precession-plane node. The member galaxies need not share one spin axis. They share an orientation manifold: their angular-momentum directions occupy one common plane in projective state space. This distinction explains why the statistic detects structured families without collapsing the population onto a single preferred direction."
+    ],
+    "7": [
+      "The 1,000 observed galaxy planes generate 499,500 unordered projective intersections and 999,000 antipodal surface points. Candidate centers are actual intersections. A geodesic radius of 0.25 degree defines each 0.5-degree-diameter neighborhood. Every nearby pair contributes its two plane identifiers, and the identifiers are deduplicated. The multiplicity is therefore the number of unique participating planes, not the raw number of pairwise points.",
+      "Candidates are ordered by unique-plane multiplicity and local pair count. The strongest is retained, and later candidates within 0.25 degree are suppressed. The identical process is applied to thirty complete isotropic sets of 1,000 random plane normals. This control construction preserves the combinatorial dependence among pairwise intersections because the points are generated from full random plane sets rather than randomized independently.",
+      "The observed distribution contains 130,553 retained projective windows. The control mean is 96,840.9 +/- 174.6. At multiplicity 14 the galaxy system contains 619 exact windows versus a control mean of 65.7667. At multiplicity 18 it contains 61 versus 0.5. The cumulative tail contains 1,277 observed windows with at least 14 planes versus 98.1333 controls, and 81 with at least 18 planes versus 0.7333 controls.",
+      "The highest-order distribution is 20:3, 21:1, 22:2, and 23:1. Seven observed windows reach at least 20 planes. Only three of thirty controls reach 20 or more, two stopping at 20 and one at 21. No control reaches 22 or 23. The observed maximum is 23, while the control maximum mean is 17.63 +/- 1.19 with range 16 through 21."
+    ],
+    "8": [
+      "The three recovered galaxy plane families are not redundant copies. Their mean axis orientations vary coherently through translated stack index k. Family A has an RA peak-to-peak excursion of approximately 28.3 degrees and a Dec excursion of 4.37 degrees. Family B has 14.5 degrees in RA and 5.59 degrees in Dec. Family C has 24.1 degrees in RA and the largest Dec excursion, 9.91 degrees.",
+      "Low-order Galactic angular terms capture substantial parts of the family-specific modulation. Family A RA is associated with cos(2l), correlation 0.698 and R2=0.529. Family B Dec is associated with cos(b), correlation 0.643 and R2=0.653. Family C RA and Dec each have R2 near 0.62 under their best simple terms. The harmonic spectra differ by family, and Family C occupies a distinct axis-to-plane-normal regime.",
+      "In the gyroscope interpretation, these are three response channels of one anisotropic orientation field. Each family samples a different projection of the precession geometry. Their distinct excursions and harmonics are expected when a non-orthogonal Cell3 basis resolves the field into three independent reciprocal directions."
+    ],
+    "9": [
+      "The canonical Cell3 basis is B=N^-1 D in the fixed ICRS frame, with det(B)=-1 and absolute native volume one. The columns a, b, and c are labelled and left-handed. Their lengths are 0.681486335, 1.1958567, and 1.6157628 native units. Their mutual angles are 83.933483, 80.448130, and 50.3632318 degrees. The face areas opposite a, b, and c are 1.488011, 1.08585409, and 0.810396121 native area units.",
+      "The 27 Lucas nodes are p(i,j,k)=B[i,j,k]^T/2 for i,j,k in {-1,0,+1}. The constant-sum index lambda=i+j+k divides them into seven sheets from -3 through +3. The eight nodes with all three intrinsic coordinates equal to +/-1 are the boundary vertices of the centered base cell. Each of the six primitive faces contains exactly nine nodes.",
+      "The three plane normals and spacings define the face equations n_a dot x=+/-delta_a/2, n_b dot x=+/-delta_b/2, and n_c dot x=+/-delta_c/2. Since the native volume is one, each opposing face area is 1/delta. The Cell3 geometry therefore converts the three independent orientation families into a complete oblique volume with explicit edges, faces, nodes, handedness, and ICRS orientation.",
+      "Within the gyro synthesis, Cell3 is not an added drawing. It is the reciprocal-to-primal closure of the plane-family organization. The plane families describe shared angular-momentum manifolds; their intersections define line directions; the three independent families close into the rhombohedral cell. Cell3 is the discrete skeleton of the continuous precession phase portrait."
+    ],
+    "11": [
+      "The combined model supplies a sequence of direct investigations. First, the seven high-multiplicity nodes can be stratified by quadratic cost, slope magnitude, signed curvature, Hessian eigenvectors, and Cell3 address. The result will determine whether the strongest collective plane nodes occupy one derivative-state class or several distinct transport classes.",
+      "Second, the analysis can be repeated by galaxy scale, morphology, angular-momentum magnitude proxy, redshift shell, group membership, and environmental density. A genuine gyroscopic transport law predicts systematic changes in dwell-time weighting with L while retaining the same normalized contour geometry.",
+      "Third, member-level orientation distributions can replace plane-level summaries. This permits within-family variance decomposition, confidence intervals on each k-index trajectory, and direct estimation of how sharply each galaxy population occupies its assigned precession manifold.",
+      "Fourth, the phase-surface vector field can be integrated from every measured axis. The resulting orbit labels, periods, separatrix distances, and local stability exponents provide dynamical coordinates that can be compared with occupancy and crossing multiplicity without reducing the data to RA/Dec bins.",
+      "Fifth, the three Cell3 response families can be used as a basis for a tensor transport model. The observed family-specific harmonics then become measured projections of one underlying orientation-flow tensor rather than unrelated sinusoidal fits.",
+      "The paradigm change is methodological as well as physical: galaxy orientation is no longer treated only as a position-dependent alignment statistic. It becomes a sampled flow on a directional energy geometry, with measurable conservation law, speed field, curvature field, collective nodes, and discrete reciprocal closure."
+    ],
+    "12": [
+      "Reproduction begins with the 1,000 labelled projective galaxy axes in the fixed ICRS frame and the exact phase-cost matrix. Each axis is normalized, extended antipodally for display, and counted once for inference. Cost, slope magnitude, and signed curvatures are evaluated in 64-bit arithmetic. Equal-area reference samples are uniform in right ascension and sin(declination), not in rectangular RA/Dec pixels.",
+      "For plane statistics, compute every unordered pair cross product, choose one canonical projective branch, and construct a spherical neighbor index at chord radius 2 sin(0.25 deg/2). At every actual intersection, pool and deduplicate both plane identifiers from all local pairs. Sort by multiplicity and local pair count, retain the strongest center, and suppress later centers within the same 0.25-degree radius.",
+      "For the null model, generate complete sets of 1,000 independent isotropic plane normals and repeat the entire pairwise and suppression pipeline. Do not randomize pairwise intersections independently. For Cell3, use the exact labelled B matrix, generate all 27 nodes from the intrinsic half-step law, and preserve the stated left-handed ICRS embedding without reflection or axis relabelling."
+    ]
+  },
+  "formula_ledger": [
+    {
+      "concept": "ICRS direction",
+      "formula": "n=(cos(delta)cos(alpha), cos(delta)sin(alpha), sin(delta))^T"
+    },
+    {
+      "concept": "projective equivalence",
+      "formula": "n equivalent to -n"
+    },
+    {
+      "concept": "quadratic phase cost",
+      "formula": "q(n)=n^T G_phase n"
+    },
+    {
+      "concept": "K-Field torque",
+      "formula": "tau_K=-2 n x G_phase n"
+    },
+    {
+      "concept": "precession equation",
+      "formula": "n_dot=-(2/L)n x G_phase n"
+    },
+    {
+      "concept": "cost conservation",
+      "formula": "d q/dt=0"
+    },
+    {
+      "concept": "angular speed",
+      "formula": "||n_dot||=(2/L)||n x G_phase n||"
+    },
+    {
+      "concept": "galaxy great circle",
+      "formula": "n_i dot x=0"
+    },
+    {
+      "concept": "pair crossing",
+      "formula": "p_ij=(n_i x n_j)/||n_i x n_j||"
+    },
+    {
+      "concept": "crossing coplanarity",
+      "formula": "n_i dot p approximately 0 for participating axes"
+    },
+    {
+      "concept": "occupancy ratio",
+      "formula": "R=observed/expected"
+    },
+    {
+      "concept": "likelihood-ratio statistic",
+      "formula": "G=2 sum O log(O/E)"
+    },
+    {
+      "concept": "Cell3 basis",
+      "formula": "B=N^-1 D; det(B)=-1"
+    },
+    {
+      "concept": "Lucas node",
+      "formula": "p(i,j,k)=B[i,j,k]^T/2"
+    },
+    {
+      "concept": "sheet index",
+      "formula": "lambda=i+j+k"
+    },
+    {
+      "concept": "primitive faces",
+      "formula": "n_f dot x=+/-delta_f/2"
+    },
+    {
+      "concept": "unit-volume face area",
+      "formula": "A_f=1/delta_f"
+    }
+  ],
+  "figures": [
+    {
+      "role": "precession_phase_portrait",
+      "kind": "generated_from_exact_G",
+      "filename": "01_precession_phase_portrait.png",
+      "sha256": "c31325adc1d00ba8327a1cc52b264504c208e73a1e63d5cb101c57be581af9fa",
+      "bytes": 324735
+    },
+    {
+      "role": "cell3_base_all_nodes",
+      "kind": "generated_from_exact_B",
+      "filename": "02_cell3_base_all_nodes.png",
+      "sha256": "2550d67f982c56e2b63235e17ce31ee22b033bee2737ceb69969a343c2a4ad02",
+      "bytes": 432779
+    },
+    {
+      "role": "cell3_six_planes_all_nodes",
+      "kind": "generated_from_exact_B_and_planes",
+      "filename": "03_cell3_six_planes_all_nodes.png",
+      "sha256": "74b398bf4895fe894ee1d0f91443ed4bcbe9515365dede4b93f50d8b5fa380cc",
+      "bytes": 375810
+    },
+    {
+      "role": "cell3_six_face_panels",
+      "kind": "generated_from_exact_B",
+      "filename": "04_cell3_six_face_panels.png",
+      "sha256": "4dc11e7ea9b6674438be1ca9caee70ced62c1699051704a92246f04ad1e9ef3e",
+      "bytes": 259564
+    },
+    {
+      "role": "crossing_exact_multiplicity",
+      "kind": "generated_from_archived_table",
+      "filename": "05_crossing_exact_multiplicity.png",
+      "sha256": "0c1acd51a1753c5c3498863fe53d3e54fde1c9e819ceac3c4ec50d242e9074bf",
+      "bytes": 142976
+    },
+    {
+      "role": "crossing_cumulative_tail",
+      "kind": "generated_from_archived_table",
+      "filename": "06_crossing_cumulative_tail.png",
+      "sha256": "575d08a1dde5fa1b42a5841eb3b040ff74e444c3bed356a532da64f34dae1898",
+      "bytes": 128931
+    },
+    {
+      "role": "high_multiplicity_windows_phase_cost",
+      "kind": "generated_from_archived_clusters_and_exact_G",
+      "filename": "07_high_multiplicity_windows_phase_cost.png",
+      "sha256": "f9924e8d432dc1aa689bbc58d168f22ff8caa74e57f8f3210a7eb285e6c10734",
+      "bytes": 174291
+    },
+    {
+      "role": "curvature_decile_occupancy",
+      "kind": "generated_from_archived_table",
+      "filename": "08_curvature_decile_occupancy.png",
+      "sha256": "0ff8cdbc7461d09c8a8e5cf7b68fab076a1c73ed311d1ed65e2ddbfb19f122ca",
+      "bytes": 138328
+    },
+    {
+      "role": "normals_and_cost_axes",
+      "kind": "generated_from_exact_B_plane_normals_and_G_eigenvectors",
+      "filename": "09_normals_and_cost_axes.png",
+      "sha256": "8f6a1fbd0ff99bc98f7085c90ceb4c37e42e92e44ff59660415052d647eaf21e",
+      "bytes": 421274
+    },
+    {
+      "role": "axis_cost_overlay",
+      "kind": "archived_actual_data_figure",
+      "filename": "img-002.png",
+      "sha256": "85768f2bf6c09347b8ca1d7cade9dcc5c7e7734c56af061f1091300748ae6a40",
+      "bytes": 873509
+    },
+    {
+      "role": "joint_curvature_occupancy",
+      "kind": "archived_actual_data_figure",
+      "filename": "img-030.png",
+      "sha256": "8242717c5dcf4f66df0db44e269f384756df4b26fc30656f1afba583ded5d85b",
+      "bytes": 104524
+    },
+    {
+      "role": "joint_spherical_curvature",
+      "kind": "archived_actual_data_figure",
+      "filename": "img-038.png",
+      "sha256": "4d5f7220fd2d2ef6b9fa199858f036ed06c34a25b4996d5f0c00f6c1da216059",
+      "bytes": 99298
+    },
+    {
+      "role": "hessian_topology_map",
+      "kind": "archived_actual_data_figure",
+      "filename": "img-040.png",
+      "sha256": "82081e81c692866cebf20539ce01d33d86845786dc5ee8cc7c95989230b6e9a3",
+      "bytes": 196087
+    },
+    {
+      "role": "plane_stack_trajectories",
+      "kind": "archived_actual_data_figure",
+      "filename": "img-002.png",
+      "sha256": "8958252f4984acd2ba91741d11e08882f70b9bf862211893eb29ae6abf1f2fc1",
+      "bytes": 770363
+    },
+    {
+      "role": "plane_stack_harmonics",
+      "kind": "archived_actual_data_figure",
+      "filename": "img-008.png",
+      "sha256": "226a0dbbfc16f817bfa2281fbdac9ce589acdec60974758ccb8678d0929eb217",
+      "bytes": 278836
+    },
+    {
+      "role": "threshold20_phase_cost_overlay",
+      "kind": "archived_actual_data_figure",
+      "filename": "K-Field_galaxy_plane_crossings_threshold20_diameter0p5deg_over_phase_cost.png",
+      "sha256": "02c7ee4c0324ed5a3c789b59b038cfcea88771db8ae3fafc79825a0cde034730",
+      "bytes": 1561864
+    }
+  ],
+  "source_files": [
+    {
+      "filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+      "bytes": 5283885,
+      "sha256": "21bc410dcc8f18c0e733837875665951f7e547ac84cddb738398b8aa2ca740bd"
+    },
+    {
+      "filename": "K-Field_galaxy_occupancy_vs_phase_cost_curvature_1784643318.pdf",
+      "bytes": 9106337,
+      "sha256": "96c77b991e377bb67d0651463cec76db7a8d9781550f42e6eaa55a84c630dc67"
+    },
+    {
+      "filename": "galaxy_axis_radec_plane_stack_subreport.pdf",
+      "bytes": 4642748,
+      "sha256": "f7af6054a6372dca13dae66b4fd402d51e18421aebac4bad1b5f120c812d9ed4"
+    },
+    {
+      "filename": "K-field_galaxy_sky_rectilinear_projection_analysis_1783781974.pdf",
+      "bytes": 2630107,
+      "sha256": "b8bd2763ddd7798f7b364553f46c13f4f6eb8a625da0b3371db127b5a4c7fbc9"
+    },
+    {
+      "filename": "K-Field_galaxy_plane_crossings_threshold20_diameter0p5deg_over_phase_cost.png",
+      "bytes": 1561864,
+      "sha256": "02c7ee4c0324ed5a3c789b59b038cfcea88771db8ae3fafc79825a0cde034730"
+    }
+  ]
+}

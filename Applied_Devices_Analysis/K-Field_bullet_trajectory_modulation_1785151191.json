@@ -1,0 +1,898 @@
+{
+  "schema": "K-Field.bullet_trajectory_modulation.v1",
+  "epoch": 1785151191,
+  "generated_utc": "2026-07-27T11:19:51Z",
+  "title": "K-Field Bullet Trajectory Modulation",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "education": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx"
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "sources": {
+    "k_field_spin_reversal_json": {
+      "filename": "K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.json",
+      "sha256": "5548ab14e1014fbd4588f407f2b8a9dd618acb1beac1f26577df9752f69ebd34",
+      "schema": "K-Field.apparent_weight_modulation.spin_reversal_experiment.v1",
+      "epoch": 1784913657
+    },
+    "ballistic_table": "User-supplied 5.56 mm 90-grain trajectory table from muzzle through 500 yd."
+  },
+  "assumptions": {
+    "optimal_orientation": true,
+    "spin_axis_condition": "n dot g = 0",
+    "force_direction": "n x g",
+    "constant_lateral_acceleration_m_s2": 0.52318,
+    "initial_lateral_velocity_fps": 0.0,
+    "integration_model": [
+      "v_perp = a_perp t",
+      "d_perp = 0.5 a_perp t^2"
+    ],
+    "spin_reversal": "reverses force, lateral velocity, and displacement signs"
+  },
+  "cell3": {
+    "basis_matrix_columns_abc": [
+      [
+        0.02038143851694645,
+        0.0021987459683233553,
+        -0.000630379485347372
+      ],
+      [
+        -0.0034164144964105494,
+        0.01290217025869254,
+        -0.024257722017127867
+      ],
+      [
+        -0.0023329659167289608,
+        -0.03406650153605571,
+        -0.042924354571093816
+      ]
+    ],
+    "lengths_native": {
+      "a": 0.02079705878243295,
+      "b": 0.03649420513072719,
+      "c": 0.04930856589985942
+    },
+    "primitive_volume_native3": 2.8420669378096486e-05,
+    "faces": [
+      {
+        "name": "ab",
+        "area_native2": 0.000754721789672624,
+        "included_angle_deg": 83.93348301231273,
+        "unit_normal_icrs": [
+          0.1940922008077677,
+          0.9131771688212287,
+          0.35837923479080414
+        ]
+      },
+      {
+        "name": "ac",
+        "area_native2": 0.0010112557576880653,
+        "included_angle_deg": 80.44813001833784,
+        "unit_normal_icrs": [
+          0.08905259410160503,
+          0.8665767692910322,
+          -0.49103394832627584
+        ]
+      },
+      {
+        "name": "bc",
+        "area_native2": 0.001385784431733287,
+        "included_angle_deg": 50.363231813756165,
+        "unit_normal_icrs": [
+          -0.9959651903089612,
+          0.08360216250737672,
+          -0.03261929056439985
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "integer_index": [
+          -1,
+          -1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.010974902499961216,
+          0.007385983127422938,
+          0.03966191101193925
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -3
+      },
+      {
+        "integer_index": [
+          -1,
+          -1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.011290092242634902,
+          -0.004742877881140996,
+          0.018199733726392338
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": -2
+      },
+      {
+        "integer_index": [
+          -1,
+          -1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.011605281985308587,
+          -0.01687173888970493,
+          -0.00326244355915457
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          -1,
+          0,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.00987552951579954,
+          0.013837068256769208,
+          0.02262866024391139
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": -2
+      },
+      {
+        "integer_index": [
+          -1,
+          0,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.010190719258473225,
+          0.0017082072482052747,
+          0.0011664829583644804
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          -1,
+          0,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.01050590900114691,
+          -0.01042065376035866,
+          -0.020295694327182427
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          -1,
+          1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.008776156531637862,
+          0.020288153386115476,
+          0.005595409475883533
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          -1,
+          1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.009091346274311548,
+          0.008159292377551544,
+          -0.015866767809663375
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          -1,
+          1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.009406536016985233,
+          -0.00396956863101239,
+          -0.037328945095210286
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          0,
+          -1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.0007841832414879916,
+          0.0056777758792176634,
+          0.03849542805357477
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": -2
+      },
+      {
+        "integer_index": [
+          0,
+          -1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.0010993729841616777,
+          -0.00645108512934627,
+          0.017033250768027856
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          0,
+          -1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.0014145627268353637,
+          -0.018579946137910204,
+          -0.004428926517519052
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          0,
+          0,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.000315189742673686,
+          0.012128861008563934,
+          0.021462177285546908
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          0,
+          0,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "node_class": "body center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          0,
+          0,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.000315189742673686,
+          -0.012128861008563934,
+          -0.021462177285546908
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          0,
+          1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.0014145627268353637,
+          0.018579946137910204,
+          0.004428926517519052
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          0,
+          1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.0010993729841616777,
+          0.00645108512934627,
+          -0.017033250768027856
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          0,
+          1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.0007841832414879916,
+          -0.0056777758792176634,
+          -0.03849542805357477
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 2
+      },
+      {
+        "integer_index": [
+          1,
+          -1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.009406536016985233,
+          0.00396956863101239,
+          0.037328945095210286
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          1,
+          -1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.009091346274311548,
+          -0.008159292377551544,
+          0.015866767809663375
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          1,
+          -1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.008776156531637862,
+          -0.020288153386115476,
+          -0.005595409475883533
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          1,
+          0,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.01050590900114691,
+          0.01042065376035866,
+          0.020295694327182427
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          1,
+          0,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.010190719258473225,
+          -0.0017082072482052747,
+          -0.0011664829583644804
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          1,
+          0,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.00987552951579954,
+          -0.013837068256769208,
+          -0.02262866024391139
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 2
+      },
+      {
+        "integer_index": [
+          1,
+          1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.011605281985308587,
+          0.01687173888970493,
+          0.00326244355915457
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          1,
+          1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.011290092242634902,
+          0.004742877881140996,
+          -0.018199733726392338
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 2
+      },
+      {
+        "integer_index": [
+          1,
+          1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.010974902499961216,
+          -0.007385983127422938,
+          -0.03966191101193925
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 3
+      }
+    ]
+  },
+  "coordinate_lock": {
+    "frame": "ICRS/J2000 Cartesian",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "earth_CMB_unit_vector": [
+      -0.9707708558359351,
+      0.20734800911098614,
+      -0.12087492948199192
+    ],
+    "earth_CMB_ra_dec_deg": [
+      167.94329987982758,
+      -6.942599922129508
+    ],
+    "optimal_tube_axis_unit_vector": [
+      -0.3158650364073233,
+      0.6461626830235584,
+      -0.6947683540887543
+    ],
+    "optimal_tube_axis_ra_dec_deg": [
+      116.05086737662515,
+      -44.00876089867944
+    ],
+    "force_acceleration_unit_vector": [
+      0.07746958542150294,
+      0.7473758633624434,
+      0.6598695190701438
+    ],
+    "force_acceleration_ra_dec_deg": [
+      84.08211431391904,
+      41.289922334276525
+    ],
+    "orthogonality_checks": {
+      "Fhat_dot_chat": 1.4668023673069506e-18,
+      "nopt_dot_g": 4.121419811407919e-10
+    }
+  },
+  "field_model": {
+    "G_phase": [
+      [
+        2.9764106378,
+        1.2431507795,
+        -2.0803600354
+      ],
+      [
+        1.2431507795,
+        2.5922286635,
+        -2.3178839937
+      ],
+      [
+        -2.0803600354,
+        -2.3178839937,
+        6.7735709133
+      ]
+    ],
+    "V_E_icrs_m_s": [
+      -359003.19906581304,
+      76679.88603400199,
+      -44701.060100687995
+    ],
+    "g_vector_icrs_m_s": [
+      -880221.9816350914,
+      -143911.43656159946,
+      266335.0269486193
+    ],
+    "g_magnitude_m_s": 930825.2172704348,
+    "kappa_F_recommended": 3.0740508997020345e-11,
+    "kappa_F_interval": [
+      3.04273994475465e-11,
+      3.10536185464942e-11
+    ],
+    "q_g_N_per_kg_per_rad_s": 1.430702048307761e-05,
+    "force_equation": "F_K = (kappa_F m omega / 2) (n x g)",
+    "maximum_scalar_equation": "F_max = q_g m omega"
+  },
+  "projectile": {
+    "cartridge_class": "5.56 mm NATO",
+    "bullet_mass_grain": 90.0,
+    "bullet_mass_kg": 0.0058319018999999995,
+    "muzzle_velocity_fps": 2910.0,
+    "muzzle_velocity_m_s": 886.9680000000001,
+    "barrel_twist_in_per_rev": 6.0,
+    "barrel_twist_m_per_rev": 0.15239999999999998,
+    "spin_frequency_rev_s": 5820.000000000001,
+    "spin_rpm": 349200.00000000006,
+    "omega_rad_s": 36568.138487785196
+  },
+  "maximum_force_state": {
+    "force_N": 0.0030511408882994092,
+    "force_mN": 3.0511408882994093,
+    "force_interval_N": [
+      0.003020063284834572,
+      0.0030822184917642472
+    ],
+    "force_fraction_of_weight": 0.053349625649203494,
+    "force_fraction_of_weight_percent": 5.33496256492035,
+    "force_derived_acceleration_m_s2": 0.5231811063727614,
+    "trajectory_acceleration_m_s2": 0.52318,
+    "trajectory_acceleration_ft_s2": 1.7164698162729657,
+    "trajectory_acceleration_standard_g": 0.05334951283057925,
+    "full_spin_reversal_force_separation_N": 0.0061022817765988184
+  },
+  "trajectory": [
+    {
+      "range_label": "Muzzle",
+      "range_yd": 0,
+      "forward_velocity_fps": 2910,
+      "energy_ft_lbf": 1410,
+      "drop_in": null,
+      "time_of_flight_s": 0.0,
+      "lateral_velocity_fps": 0.0,
+      "lateral_distance_ft": 0.0,
+      "lateral_distance_in": 0.0,
+      "full_spin_reversal_track_separation_in": 0.0,
+      "instantaneous_lateral_velocity_angle_deg": 0.0
+    },
+    {
+      "range_label": "25 yds",
+      "range_yd": 25,
+      "forward_velocity_fps": 2843,
+      "energy_ft_lbf": 1346,
+      "drop_in": -0.7,
+      "time_of_flight_s": 0.026,
+      "lateral_velocity_fps": 0.04462821522309711,
+      "lateral_distance_ft": 0.0005801667979002624,
+      "lateral_distance_in": 0.0069620015748031484,
+      "full_spin_reversal_track_separation_in": 0.013924003149606297,
+      "instantaneous_lateral_velocity_angle_deg": 0.0008994049874340234
+    },
+    {
+      "range_label": "50 yds",
+      "range_yd": 50,
+      "forward_velocity_fps": 2777,
+      "energy_ft_lbf": 1285,
+      "drop_in": -0.2,
+      "time_of_flight_s": 0.053,
+      "lateral_velocity_fps": 0.09097290026246718,
+      "lateral_distance_ft": 0.00241078185695538,
+      "lateral_distance_in": 0.02892938228346456,
+      "full_spin_reversal_track_separation_in": 0.05785876456692912,
+      "instantaneous_lateral_velocity_angle_deg": 0.0018769763173350192
+    },
+    {
+      "range_label": "75 yds",
+      "range_yd": 75,
+      "forward_velocity_fps": 2713,
+      "energy_ft_lbf": 1226,
+      "drop_in": 0.1,
+      "time_of_flight_s": 0.08,
+      "lateral_velocity_fps": 0.13731758530183727,
+      "lateral_distance_ft": 0.005492703412073491,
+      "lateral_distance_in": 0.06591244094488188,
+      "full_spin_reversal_track_separation_in": 0.13182488188976377,
+      "instantaneous_lateral_velocity_angle_deg": 0.0029000066656853373
+    },
+    {
+      "range_label": "100 yds (zero)",
+      "range_yd": 100,
+      "forward_velocity_fps": 2649,
+      "energy_ft_lbf": 1169,
+      "drop_in": -0.0,
+      "time_of_flight_s": 0.108,
+      "lateral_velocity_fps": 0.1853787401574803,
+      "lateral_distance_ft": 0.010010451968503935,
+      "lateral_distance_in": 0.12012542362204723,
+      "full_spin_reversal_track_separation_in": 0.24025084724409446,
+      "instantaneous_lateral_velocity_angle_deg": 0.004009595849428932
+    },
+    {
+      "range_label": "125 yds",
+      "range_yd": 125,
+      "forward_velocity_fps": 2587,
+      "energy_ft_lbf": 1115,
+      "drop_in": -0.4,
+      "time_of_flight_s": 0.137,
+      "lateral_velocity_fps": 0.2351563648293963,
+      "lateral_distance_ft": 0.01610821099081365,
+      "lateral_distance_in": 0.1932985318897638,
+      "full_spin_reversal_track_separation_in": 0.3865970637795276,
+      "instantaneous_lateral_velocity_angle_deg": 0.005208143484056468
+    },
+    {
+      "range_label": "150 yds",
+      "range_yd": 150,
+      "forward_velocity_fps": 2525,
+      "energy_ft_lbf": 1062,
+      "drop_in": -1.1,
+      "time_of_flight_s": 0.166,
+      "lateral_velocity_fps": 0.2849339895013123,
+      "lateral_distance_ft": 0.023649521128608925,
+      "lateral_distance_in": 0.2837942535433071,
+      "full_spin_reversal_track_separation_in": 0.5675885070866142,
+      "instantaneous_lateral_velocity_angle_deg": 0.006465550482753897
+    },
+    {
+      "range_label": "175 yds",
+      "range_yd": 175,
+      "forward_velocity_fps": 2464,
+      "energy_ft_lbf": 1011,
+      "drop_in": -2.1,
+      "time_of_flight_s": 0.196,
+      "lateral_velocity_fps": 0.3364280839895013,
+      "lateral_distance_ft": 0.03296995223097113,
+      "lateral_distance_in": 0.39563942677165354,
+      "full_spin_reversal_track_separation_in": 0.7912788535433071,
+      "instantaneous_lateral_velocity_angle_deg": 0.007823015098412253
+    },
+    {
+      "range_label": "200 yds",
+      "range_yd": 200,
+      "forward_velocity_fps": 2404,
+      "energy_ft_lbf": 963,
+      "drop_in": -3.5,
+      "time_of_flight_s": 0.227,
+      "lateral_velocity_fps": 0.3896386482939632,
+      "lateral_distance_ft": 0.04422398658136483,
+      "lateral_distance_in": 0.530687838976378,
+      "full_spin_reversal_track_separation_in": 1.061375677952756,
+      "instantaneous_lateral_velocity_angle_deg": 0.009286460019525397
+    },
+    {
+      "range_label": "225 yds",
+      "range_yd": 225,
+      "forward_velocity_fps": 2345,
+      "energy_ft_lbf": 916,
+      "drop_in": -5.2,
+      "time_of_flight_s": 0.259,
+      "lateral_velocity_fps": 0.4445656824146981,
+      "lateral_distance_ft": 0.057571255872703404,
+      "lateral_distance_in": 0.6908550704724409,
+      "full_spin_reversal_track_separation_in": 1.3817101409448818,
+      "instantaneous_lateral_velocity_angle_deg": 0.01086214798019549
+    },
+    {
+      "range_label": "250 yds",
+      "range_yd": 250,
+      "forward_velocity_fps": 2286,
+      "energy_ft_lbf": 871,
+      "drop_in": -7.4,
+      "time_of_flight_s": 0.291,
+      "lateral_velocity_fps": 0.499492716535433,
+      "lateral_distance_ft": 0.07267619025590549,
+      "lateral_distance_in": 0.8721142830708659,
+      "full_spin_reversal_track_separation_in": 1.7442285661417318,
+      "instantaneous_lateral_velocity_angle_deg": 0.012519170647226257
+    },
+    {
+      "range_label": "275 yds",
+      "range_yd": 275,
+      "forward_velocity_fps": 2229,
+      "energy_ft_lbf": 827,
+      "drop_in": -10.0,
+      "time_of_flight_s": 0.324,
+      "lateral_velocity_fps": 0.5561362204724409,
+      "lateral_distance_ft": 0.09009406771653543,
+      "lateral_distance_in": 1.081128812598425,
+      "full_spin_reversal_track_separation_in": 2.16225762519685,
+      "instantaneous_lateral_velocity_angle_deg": 0.014295315211413286
+    },
+    {
+      "range_label": "300 yds",
+      "range_yd": 300,
+      "forward_velocity_fps": 2172,
+      "energy_ft_lbf": 785,
+      "drop_in": -13.0,
+      "time_of_flight_s": 0.359,
+      "lateral_velocity_fps": 0.6162126640419947,
+      "lateral_distance_ft": 0.11061017319553804,
+      "lateral_distance_in": 1.3273220783464565,
+      "full_spin_reversal_track_separation_in": 2.654644156692913,
+      "instantaneous_lateral_velocity_angle_deg": 0.01625524124532673
+    },
+    {
+      "range_label": "325 yds",
+      "range_yd": 325,
+      "forward_velocity_fps": 2116,
+      "energy_ft_lbf": 745,
+      "drop_in": -16.5,
+      "time_of_flight_s": 0.394,
+      "lateral_velocity_fps": 0.6762891076115485,
+      "lateral_distance_ft": 0.13322895419947506,
+      "lateral_distance_in": 1.5987474503937007,
+      "full_spin_reversal_track_separation_in": 3.1974949007874014,
+      "instantaneous_lateral_velocity_angle_deg": 0.018312150414668556
+    },
+    {
+      "range_label": "350 yds",
+      "range_yd": 350,
+      "forward_velocity_fps": 2060,
+      "energy_ft_lbf": 707,
+      "drop_in": -20.4,
+      "time_of_flight_s": 0.429,
+      "lateral_velocity_fps": 0.7363655511811023,
+      "lateral_distance_ft": 0.15795041072834642,
+      "lateral_distance_in": 1.895404928740157,
+      "full_spin_reversal_track_separation_in": 3.790809857480314,
+      "instantaneous_lateral_velocity_angle_deg": 0.020480891487623797
+    },
+    {
+      "range_label": "375 yds",
+      "range_yd": 375,
+      "forward_velocity_fps": 2006,
+      "energy_ft_lbf": 670,
+      "drop_in": -24.9,
+      "time_of_flight_s": 0.466,
+      "lateral_velocity_fps": 0.799874934383202,
+      "lateral_distance_ft": 0.18637085971128609,
+      "lateral_distance_in": 2.236450316535433,
+      "full_spin_reversal_track_separation_in": 4.472900633070866,
+      "instantaneous_lateral_velocity_angle_deg": 0.022846189157319494
+    },
+    {
+      "range_label": "400 yds",
+      "range_yd": 400,
+      "forward_velocity_fps": 1953,
+      "energy_ft_lbf": 635,
+      "drop_in": -29.9,
+      "time_of_flight_s": 0.504,
+      "lateral_velocity_fps": 0.8651007874015747,
+      "lateral_distance_ft": 0.21800539842519684,
+      "lateral_distance_in": 2.616064781102362,
+      "full_spin_reversal_track_separation_in": 5.232129562204724,
+      "instantaneous_lateral_velocity_angle_deg": 0.025379734116576718
+    },
+    {
+      "range_label": "425 yds",
+      "range_yd": 425,
+      "forward_velocity_fps": 1900,
+      "energy_ft_lbf": 601,
+      "drop_in": -35.5,
+      "time_of_flight_s": 0.543,
+      "lateral_velocity_fps": 0.9320431102362204,
+      "lateral_distance_ft": 0.2530497044291338,
+      "lateral_distance_in": 3.036596453149606,
+      "full_spin_reversal_track_separation_in": 6.073192906299212,
+      "instantaneous_lateral_velocity_angle_deg": 0.0281063853985521
+    },
+    {
+      "range_label": "450 yds",
+      "range_yd": 450,
+      "forward_velocity_fps": 1848,
+      "energy_ft_lbf": 569,
+      "drop_in": -41.6,
+      "time_of_flight_s": 0.583,
+      "lateral_velocity_fps": 1.000701902887139,
+      "lateral_distance_ft": 0.291704604691601,
+      "lateral_distance_in": 3.5004552562992117,
+      "full_spin_reversal_track_separation_in": 7.0009105125984235,
+      "instantaneous_lateral_velocity_angle_deg": 0.03102596860496228
+    },
+    {
+      "range_label": "475 yds",
+      "range_yd": 475,
+      "forward_velocity_fps": 1798,
+      "energy_ft_lbf": 538,
+      "drop_in": -48.5,
+      "time_of_flight_s": 0.624,
+      "lateral_velocity_fps": 1.0710771653543305,
+      "lateral_distance_ft": 0.3341760755905511,
+      "lateral_distance_in": 4.010112907086613,
+      "full_spin_reversal_track_separation_in": 8.020225814173227,
+      "instantaneous_lateral_velocity_angle_deg": 0.03413136476558138
+    },
+    {
+      "range_label": "500 yds",
+      "range_yd": 500,
+      "forward_velocity_fps": 1748,
+      "energy_ft_lbf": 509,
+      "drop_in": -55.9,
+      "time_of_flight_s": 0.667,
+      "lateral_velocity_fps": 1.1448853674540682,
+      "lateral_distance_ft": 0.38181927004593175,
+      "lateral_distance_in": 4.581831240551181,
+      "full_spin_reversal_track_separation_in": 9.163662481102362,
+      "instantaneous_lateral_velocity_angle_deg": 0.03752693947446699
+    }
+  ],
+  "endpoint_500_yd": {
+    "range_label": "500 yds",
+    "range_yd": 500,
+    "forward_velocity_fps": 1748,
+    "energy_ft_lbf": 509,
+    "drop_in": -55.9,
+    "time_of_flight_s": 0.667,
+    "lateral_velocity_fps": 1.1448853674540682,
+    "lateral_distance_ft": 0.38181927004593175,
+    "lateral_distance_in": 4.581831240551181,
+    "full_spin_reversal_track_separation_in": 9.163662481102362,
+    "instantaneous_lateral_velocity_angle_deg": 0.03752693947446699
+  },
+  "validation_checks": {
+    "all_27_nodes_present": true,
+    "basis_lengths_recomputed": [
+      0.02079705878243295,
+      0.03649420513072719,
+      0.04930856589985942
+    ],
+    "g_reconstruction_error": 0.0,
+    "n_dot_g_unit": 4.338034107410549e-16,
+    "fhat_dot_n": -1.0064332282504934e-16,
+    "fhat_dot_g_unit": -7.190361242181559e-18,
+    "trajectory_row_count": 21
+  },
+  "figures": [
+    "figure_title_composite.png",
+    "figure_cell3_all_nodes.png",
+    "figure_cell3_planes.png",
+    "figure_vector_geometry.png",
+    "figure_lateral_kinematics.png",
+    "figure_trajectory_3d.png"
+  ],
+  "output_pdf": {
+    "filename": "K-Field_bullet_trajectory_modulation_1785151191.pdf",
+    "sha256": "290525f9dc21bf8504ca7052dee08af6c5a14919401bf7de1aa6ef384c8e8d4e",
+    "size_bytes": 1097461,
+    "page_count": 14,
+    "generation": "Python ReportLab using core fonts only",
+    "page_size": "US Letter portrait with one landscape matrix appendix",
+    "margins_in": 0.65,
+    "table_width_policy": "dynamic available-width allocation",
+    "table_cell_policy": "every text cell is a ReportLab Paragraph",
+    "long_table_repeat_rows": 1
+  }
+}

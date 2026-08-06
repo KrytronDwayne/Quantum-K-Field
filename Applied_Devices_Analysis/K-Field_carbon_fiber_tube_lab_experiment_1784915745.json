@@ -1,0 +1,3951 @@
+{
+  "schema": "K-Field.carbon_fiber_tube_lab_experiment.v1",
+  "epoch": 1784915745,
+  "generated_utc": "2026-07-24T17:55:45Z",
+  "title": "K-Field Carbon-Fiber Tube Laboratory Experiment",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "education": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx"
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "source": {
+    "filename": "K-Field_tubular_rotor_free_space_forces_1784904809(1).json",
+    "sha256": "205a825782a75d3ff51a70cf926b3220e687e8bcd11afcce9952d68f7d66f264",
+    "schema": "K-Field.tubular_rotor.free_space_forces.v1",
+    "epoch": 1784904809,
+    "title": "K-Field Tubular Rotor Free-Space Forces"
+  },
+  "material": {
+    "supplier_or_record": "Goodfellow Carbon/Epoxy Composite Tube",
+    "database": "MatWeb",
+    "density_original": "1.60 g/cc",
+    "density_kg_m3": 1600.0,
+    "reference_url": "https://www.matweb.com/search/DataSheet.aspx?MatGUID=51313a82bc67483abf4f52c0e2934c88",
+    "retrieved_utc": "2026-07-24T17:55:45Z"
+  },
+  "geometry": {
+    "outer_diameter_m": 0.01,
+    "inner_diameter_m": 0.008,
+    "wall_thickness_m": 0.001,
+    "outer_radius_m": 0.005,
+    "inner_radius_m": 0.004,
+    "length_m": 0.1,
+    "annular_area_m2": 2.8274333882308144e-05,
+    "volume_m3": 2.8274333882308146e-06,
+    "mass_kg": 0.004523893421169304
+  },
+  "operating_state": {
+    "outer_rim_velocity_ft_s": 1600.0,
+    "outer_rim_velocity_m_s": 487.68,
+    "inner_surface_velocity_m_s": 390.144,
+    "omega_rad_s": 97536.0,
+    "rpm": 931400.1917646662,
+    "frequency_hz": 15523.336529411104,
+    "period_s": 6.44191406986096e-05,
+    "outer_centripetal_acceleration_m_s2": 47566356.48,
+    "inner_centripetal_acceleration_m_s2": 38053085.184,
+    "outer_centripetal_acceleration_standard_g": 4850418.489494374,
+    "inner_centripetal_acceleration_standard_g": 3880334.791595499
+  },
+  "spin_mechanics": {
+    "axial_moment_of_inertia_kg_m2": 9.273981513397073e-08,
+    "specific_axial_inertia_m2": 2.05e-05,
+    "angular_momentum_kg_m2_s": 0.009045470608906968,
+    "specific_angular_momentum_m2_s": 1.999488,
+    "stored_rotational_energy_J": 441.12951065517507,
+    "specific_rotational_energy_J_kg": 97511.030784
+  },
+  "field_inputs": {
+    "G_phase": [
+      [
+        2.9764106378,
+        1.2431507795,
+        -2.0803600354
+      ],
+      [
+        1.2431507795,
+        2.5922286635,
+        -2.3178839937
+      ],
+      [
+        -2.0803600354,
+        -2.3178839937,
+        6.7735709133
+      ]
+    ],
+    "V_E_icrs_m_s": [
+      -359003.19906581304,
+      76679.88603400199,
+      -44701.060100687995
+    ],
+    "G_phase_V_E": [
+      -880221.9816350914,
+      -143911.43656159946,
+      266335.0269486193
+    ],
+    "G_phase_V_E_norm": 930825.2172704348,
+    "equatorial_response_norm": 891908.7613241784,
+    "fixed_scale_projection_factor": 0.9581914464453642,
+    "kappa_F_recommended": 3.0740508997020345e-11,
+    "kappa_F_interval": [
+      3.04273994475465e-11,
+      3.10536185464942e-11
+    ]
+  },
+  "force_results": {
+    "maximum_acceleration_m_s2": 1.3954495498374577,
+    "maximum_acceleration_interval_m_s2": [
+      1.3812361033422993,
+      1.4096629963326166
+    ],
+    "maximum_force_N": 0.006312865038083341,
+    "maximum_force_interval_N": [
+      0.006248564920991752,
+      0.0063771651551749325
+    ],
+    "force_unit_vector_icrs": [
+      0.07746958542150294,
+      0.7473758633624434,
+      0.6598695190701438
+    ],
+    "force_vector_icrs_N": [
+      0.0004890550373222168,
+      0.004718082958128121,
+      0.004165667216634779
+    ],
+    "acceleration_vector_icrs_m_s2": [
+      0.10810489810253075,
+      1.042925312088503,
+      0.9208146233378919
+    ],
+    "maximum_scale_normal_acceleration_m_s2": 1.337107822600286,
+    "maximum_scale_normal_force_N": 0.006048933282055446,
+    "maximum_scale_normal_force_interval_N": [
+      0.00598732145985285,
+      0.006110545104258044
+    ],
+    "one_direction_apparent_mass_amplitude_g": 0.616819533893373,
+    "one_direction_apparent_mass_interval_g": [
+      0.610536876492263,
+      0.6231021912944833
+    ],
+    "full_spin_reversal_force_N": 0.012097866564110892,
+    "full_spin_reversal_apparent_mass_g": 1.233639067786746
+  },
+  "normalized_results": {
+    "rotor_gravitational_weight_N": 0.04436423941870995,
+    "maximum_complete_force_percent_rotor_weight": 14.229625303620072,
+    "maximum_scale_normal_force_percent_rotor_weight": 13.63470525205127,
+    "full_spin_reversal_percent_rotor_weight": 27.26941050410254
+  },
+  "reference_comparison": {
+    "steel_source_mass_kg": 0.022619467105846516,
+    "steel_source_rpm": 50000.0,
+    "steel_source_omega_rad_s": 5235.987755982988,
+    "steel_source_maximum_force_N": 0.0016944555879151008,
+    "carbon_to_steel_mass_ratio": 0.2,
+    "carbon_to_steel_omega_ratio": 18.628003835293324,
+    "carbon_to_steel_force_ratio": 3.725600767058665
+  },
+  "cell3": {
+    "basis_matrix_columns_abc": [
+      [
+        0.02038143851694645,
+        0.0021987459683233553,
+        -0.000630379485347372
+      ],
+      [
+        -0.0034164144964105494,
+        0.01290217025869254,
+        -0.024257722017127867
+      ],
+      [
+        -0.0023329659167289608,
+        -0.03406650153605571,
+        -0.042924354571093816
+      ]
+    ],
+    "lengths_native": {
+      "a": 0.02079705878243295,
+      "b": 0.03649420513072719,
+      "c": 0.04930856589985942
+    },
+    "primitive_volume_native3": 2.8420669378096486e-05,
+    "faces": [
+      {
+        "name": "ab",
+        "area_native2": 0.000754721789672624,
+        "included_angle_deg": 83.93348301231273,
+        "unit_normal_icrs": [
+          0.1940922008077677,
+          0.9131771688212287,
+          0.35837923479080414
+        ]
+      },
+      {
+        "name": "ac",
+        "area_native2": 0.0010112557576880653,
+        "included_angle_deg": 80.44813001833784,
+        "unit_normal_icrs": [
+          0.08905259410160503,
+          0.8665767692910322,
+          -0.49103394832627584
+        ]
+      },
+      {
+        "name": "bc",
+        "area_native2": 0.001385784431733287,
+        "included_angle_deg": 50.363231813756165,
+        "unit_normal_icrs": [
+          -0.9959651903089612,
+          0.08360216250737672,
+          -0.03261929056439985
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "integer_index": [
+          -1,
+          -1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.010974902499961216,
+          0.007385983127422938,
+          0.03966191101193925
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -3
+      },
+      {
+        "integer_index": [
+          -1,
+          -1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.011290092242634902,
+          -0.004742877881140996,
+          0.018199733726392338
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": -2
+      },
+      {
+        "integer_index": [
+          -1,
+          -1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.011605281985308587,
+          -0.01687173888970493,
+          -0.00326244355915457
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          -1,
+          0,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.00987552951579954,
+          0.013837068256769208,
+          0.02262866024391139
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": -2
+      },
+      {
+        "integer_index": [
+          -1,
+          0,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.010190719258473225,
+          0.0017082072482052747,
+          0.0011664829583644804
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          -1,
+          0,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.01050590900114691,
+          -0.01042065376035866,
+          -0.020295694327182427
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          -1,
+          1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.008776156531637862,
+          0.020288153386115476,
+          0.005595409475883533
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          -1,
+          1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.009091346274311548,
+          0.008159292377551544,
+          -0.015866767809663375
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          -1,
+          1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.009406536016985233,
+          -0.00396956863101239,
+          -0.037328945095210286
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          0,
+          -1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          -0.0007841832414879916,
+          0.0056777758792176634,
+          0.03849542805357477
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": -2
+      },
+      {
+        "integer_index": [
+          0,
+          -1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          -0.0010993729841616777,
+          -0.00645108512934627,
+          0.017033250768027856
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          0,
+          -1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.0014145627268353637,
+          -0.018579946137910204,
+          -0.004428926517519052
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          0,
+          0,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.000315189742673686,
+          0.012128861008563934,
+          0.021462177285546908
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          0,
+          0,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "node_class": "body center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          0,
+          0,
+          1
+        ],
+        "coordinate_icrs_native": [
+          -0.000315189742673686,
+          -0.012128861008563934,
+          -0.021462177285546908
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          0,
+          1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.0014145627268353637,
+          0.018579946137910204,
+          0.004428926517519052
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          0,
+          1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.0010993729841616777,
+          0.00645108512934627,
+          -0.017033250768027856
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          0,
+          1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.0007841832414879916,
+          -0.0056777758792176634,
+          -0.03849542805357477
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 2
+      },
+      {
+        "integer_index": [
+          1,
+          -1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.009406536016985233,
+          0.00396956863101239,
+          0.037328945095210286
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": -1
+      },
+      {
+        "integer_index": [
+          1,
+          -1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.009091346274311548,
+          -0.008159292377551544,
+          0.015866767809663375
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          1,
+          -1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.008776156531637862,
+          -0.020288153386115476,
+          -0.005595409475883533
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          1,
+          0,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.01050590900114691,
+          0.01042065376035866,
+          0.020295694327182427
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 0
+      },
+      {
+        "integer_index": [
+          1,
+          0,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.010190719258473225,
+          -0.0017082072482052747,
+          -0.0011664829583644804
+        ],
+        "node_class": "face center",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          1,
+          0,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.00987552951579954,
+          -0.013837068256769208,
+          -0.02262866024391139
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 2
+      },
+      {
+        "integer_index": [
+          1,
+          1,
+          -1
+        ],
+        "coordinate_icrs_native": [
+          0.011605281985308587,
+          0.01687173888970493,
+          0.00326244355915457
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 1
+      },
+      {
+        "integer_index": [
+          1,
+          1,
+          0
+        ],
+        "coordinate_icrs_native": [
+          0.011290092242634902,
+          0.004742877881140996,
+          -0.018199733726392338
+        ],
+        "node_class": "edge center",
+        "lambda_index_sum": 2
+      },
+      {
+        "integer_index": [
+          1,
+          1,
+          1
+        ],
+        "coordinate_icrs_native": [
+          0.010974902499961216,
+          -0.007385983127422938,
+          -0.03966191101193925
+        ],
+        "node_class": "corner",
+        "lambda_index_sum": 3
+      }
+    ]
+  },
+  "equations": {
+    "mass": "m=rho*pi*(r_o^2-r_i^2)*L",
+    "angular_speed": "omega=v_outer/r_o",
+    "rpm": "RPM=omega*60/(2*pi)",
+    "inertia": "I=(m/2)*(r_o^2+r_i^2)",
+    "angular_momentum": "H=I*omega",
+    "spin_energy": "E=0.5*I*omega^2",
+    "field_response": "g=G_phase*V_E",
+    "tube_force": "F=(kappa_F*m*omega/2)*(n_hat cross g)",
+    "maximum_acceleration": "a_max=(kappa_F*omega/2)*|g|",
+    "fixed_scale_force": "F_U,max=F_max*|g_xy|/|g|",
+    "apparent_mass": "Delta_m=F_U/g0",
+    "force_percent_weight": "100*F/(m*g0)",
+    "spin_reversal": "Delta_F=2*F_U"
+  },
+  "velocity_sweep": [
+    {
+      "rim_velocity_ft_s": 0.0,
+      "rim_velocity_m_s": 0.0,
+      "omega_rad_s": 0.0,
+      "rpm": 0.0,
+      "maximum_acceleration_m_s2": 0.0,
+      "maximum_force_N": 0.0,
+      "maximum_scale_normal_force_N": 0.0,
+      "apparent_mass_amplitude_g": 0.0,
+      "scale_force_percent_rotor_weight": 0.0,
+      "spin_energy_J": 0.0
+    },
+    {
+      "rim_velocity_ft_s": 10.0,
+      "rim_velocity_m_s": 3.048,
+      "omega_rad_s": 609.6,
+      "rpm": 5821.251198529164,
+      "maximum_acceleration_m_s2": 0.008721559686484111,
+      "maximum_force_N": 3.9455406488020883e-05,
+      "maximum_scale_normal_force_N": 3.780583301284654e-05,
+      "apparent_mass_amplitude_g": 0.0038551220868335814,
+      "scale_force_percent_rotor_weight": 0.08521690782532046,
+      "spin_energy_J": 0.01723162150996778
+    },
+    {
+      "rim_velocity_ft_s": 20.0,
+      "rim_velocity_m_s": 6.096,
+      "omega_rad_s": 1219.2,
+      "rpm": 11642.502397058328,
+      "maximum_acceleration_m_s2": 0.017443119372968222,
+      "maximum_force_N": 7.891081297604177e-05,
+      "maximum_scale_normal_force_N": 7.561166602569308e-05,
+      "apparent_mass_amplitude_g": 0.007710244173667163,
+      "scale_force_percent_rotor_weight": 0.17043381565064092,
+      "spin_energy_J": 0.06892648603987112
+    },
+    {
+      "rim_velocity_ft_s": 30.0,
+      "rim_velocity_m_s": 9.144,
+      "omega_rad_s": 1828.8,
+      "rpm": 17463.753595587492,
+      "maximum_acceleration_m_s2": 0.02616467905945233,
+      "maximum_force_N": 0.00011836621946406264,
+      "maximum_scale_normal_force_N": 0.0001134174990385396,
+      "apparent_mass_amplitude_g": 0.011565366260500743,
+      "scale_force_percent_rotor_weight": 0.2556507234759613,
+      "spin_energy_J": 0.15508459358970997
+    },
+    {
+      "rim_velocity_ft_s": 40.0,
+      "rim_velocity_m_s": 12.192,
+      "omega_rad_s": 2438.4,
+      "rpm": 23285.004794116656,
+      "maximum_acceleration_m_s2": 0.034886238745936445,
+      "maximum_force_N": 0.00015782162595208353,
+      "maximum_scale_normal_force_N": 0.00015122333205138617,
+      "apparent_mass_amplitude_g": 0.015420488347334326,
+      "scale_force_percent_rotor_weight": 0.34086763130128184,
+      "spin_energy_J": 0.27570594415948446
+    },
+    {
+      "rim_velocity_ft_s": 50.0,
+      "rim_velocity_m_s": 15.24,
+      "omega_rad_s": 3048.0,
+      "rpm": 29106.25599264582,
+      "maximum_acceleration_m_s2": 0.043607798432420554,
+      "maximum_force_N": 0.0001972770324401044,
+      "maximum_scale_normal_force_N": 0.0001890291650642327,
+      "apparent_mass_amplitude_g": 0.019275610434167905,
+      "scale_force_percent_rotor_weight": 0.4260845391266022,
+      "spin_energy_J": 0.4307905377491944
+    },
+    {
+      "rim_velocity_ft_s": 60.0,
+      "rim_velocity_m_s": 18.288,
+      "omega_rad_s": 3657.6,
+      "rpm": 34927.507191174984,
+      "maximum_acceleration_m_s2": 0.05232935811890466,
+      "maximum_force_N": 0.0002367324389281253,
+      "maximum_scale_normal_force_N": 0.0002268349980770792,
+      "apparent_mass_amplitude_g": 0.023130732521001486,
+      "scale_force_percent_rotor_weight": 0.5113014469519226,
+      "spin_energy_J": 0.6203383743588399
+    },
+    {
+      "rim_velocity_ft_s": 70.0,
+      "rim_velocity_m_s": 21.336000000000002,
+      "omega_rad_s": 4267.200000000001,
+      "rpm": 40748.758389704155,
+      "maximum_acceleration_m_s2": 0.06105091780538879,
+      "maximum_force_N": 0.0002761878454161462,
+      "maximum_scale_normal_force_N": 0.0002646408310899258,
+      "apparent_mass_amplitude_g": 0.02698585460783507,
+      "scale_force_percent_rotor_weight": 0.5965183547772432,
+      "spin_energy_J": 0.8443494539884213
+    },
+    {
+      "rim_velocity_ft_s": 80.0,
+      "rim_velocity_m_s": 24.384,
+      "omega_rad_s": 4876.8,
+      "rpm": 46570.00958823331,
+      "maximum_acceleration_m_s2": 0.06977247749187289,
+      "maximum_force_N": 0.00031564325190416707,
+      "maximum_scale_normal_force_N": 0.00030244666410277234,
+      "apparent_mass_amplitude_g": 0.03084097669466865,
+      "scale_force_percent_rotor_weight": 0.6817352626025637,
+      "spin_energy_J": 1.1028237766379378
+    },
+    {
+      "rim_velocity_ft_s": 90.0,
+      "rim_velocity_m_s": 27.432000000000002,
+      "omega_rad_s": 5486.400000000001,
+      "rpm": 52391.26078676248,
+      "maximum_acceleration_m_s2": 0.07849403717835701,
+      "maximum_force_N": 0.000355098658392188,
+      "maximum_scale_normal_force_N": 0.00034025249711561894,
+      "apparent_mass_amplitude_g": 0.03469609878150224,
+      "scale_force_percent_rotor_weight": 0.7669521704278843,
+      "spin_energy_J": 1.39576134230739
+    },
+    {
+      "rim_velocity_ft_s": 100.0,
+      "rim_velocity_m_s": 30.48,
+      "omega_rad_s": 6096.0,
+      "rpm": 58212.51198529164,
+      "maximum_acceleration_m_s2": 0.08721559686484111,
+      "maximum_force_N": 0.0003945540648802088,
+      "maximum_scale_normal_force_N": 0.0003780583301284654,
+      "apparent_mass_amplitude_g": 0.03855122086833581,
+      "scale_force_percent_rotor_weight": 0.8521690782532044,
+      "spin_energy_J": 1.7231621509967776
+    },
+    {
+      "rim_velocity_ft_s": 110.0,
+      "rim_velocity_m_s": 33.528,
+      "omega_rad_s": 6705.599999999999,
+      "rpm": 64033.763183820796,
+      "maximum_acceleration_m_s2": 0.09593715655132522,
+      "maximum_force_N": 0.0004340094713682297,
+      "maximum_scale_normal_force_N": 0.00041586416314131193,
+      "apparent_mass_amplitude_g": 0.042406342955169395,
+      "scale_force_percent_rotor_weight": 0.9373859860785251,
+      "spin_energy_J": 2.0850262027061004
+    },
+    {
+      "rim_velocity_ft_s": 120.0,
+      "rim_velocity_m_s": 36.576,
+      "omega_rad_s": 7315.2,
+      "rpm": 69855.01438234997,
+      "maximum_acceleration_m_s2": 0.10465871623780933,
+      "maximum_force_N": 0.0004734648778562506,
+      "maximum_scale_normal_force_N": 0.0004536699961541584,
+      "apparent_mass_amplitude_g": 0.04626146504200297,
+      "scale_force_percent_rotor_weight": 1.0226028939038452,
+      "spin_energy_J": 2.4813534974353595
+    },
+    {
+      "rim_velocity_ft_s": 130.0,
+      "rim_velocity_m_s": 39.624,
+      "omega_rad_s": 7924.8,
+      "rpm": 75676.26558087913,
+      "maximum_acceleration_m_s2": 0.11338027592429344,
+      "maximum_force_N": 0.0005129202843442715,
+      "maximum_scale_normal_force_N": 0.000491475829167005,
+      "apparent_mass_amplitude_g": 0.050116587128836564,
+      "scale_force_percent_rotor_weight": 1.1078198017291658,
+      "spin_energy_J": 2.9121440351845544
+    },
+    {
+      "rim_velocity_ft_s": 140.0,
+      "rim_velocity_m_s": 42.672000000000004,
+      "omega_rad_s": 8534.400000000001,
+      "rpm": 81497.51677940831,
+      "maximum_acceleration_m_s2": 0.12210183561077757,
+      "maximum_force_N": 0.0005523756908322924,
+      "maximum_scale_normal_force_N": 0.0005292816621798516,
+      "apparent_mass_amplitude_g": 0.05397170921567014,
+      "scale_force_percent_rotor_weight": 1.1930367095544865,
+      "spin_energy_J": 3.3773978159536853
+    },
+    {
+      "rim_velocity_ft_s": 150.0,
+      "rim_velocity_m_s": 45.72,
+      "omega_rad_s": 9144.0,
+      "rpm": 87318.76797793746,
+      "maximum_acceleration_m_s2": 0.13082339529726167,
+      "maximum_force_N": 0.0005918310973203133,
+      "maximum_scale_normal_force_N": 0.0005670874951926981,
+      "apparent_mass_amplitude_g": 0.057826831302503726,
+      "scale_force_percent_rotor_weight": 1.278253617379807,
+      "spin_energy_J": 3.8771148397427497
+    },
+    {
+      "rim_velocity_ft_s": 160.0,
+      "rim_velocity_m_s": 48.768,
+      "omega_rad_s": 9753.6,
+      "rpm": 93140.01917646662,
+      "maximum_acceleration_m_s2": 0.13954495498374578,
+      "maximum_force_N": 0.0006312865038083341,
+      "maximum_scale_normal_force_N": 0.0006048933282055447,
+      "apparent_mass_amplitude_g": 0.0616819533893373,
+      "scale_force_percent_rotor_weight": 1.3634705252051273,
+      "spin_energy_J": 4.411295106551751
+    },
+    {
+      "rim_velocity_ft_s": 170.0,
+      "rim_velocity_m_s": 51.816,
+      "omega_rad_s": 10363.2,
+      "rpm": 98961.27037499579,
+      "maximum_acceleration_m_s2": 0.14826651467022992,
+      "maximum_force_N": 0.0006707419102963552,
+      "maximum_scale_normal_force_N": 0.0006426991612183913,
+      "apparent_mass_amplitude_g": 0.06553707547617091,
+      "scale_force_percent_rotor_weight": 1.448687433030448,
+      "spin_energy_J": 4.979938616380688
+    },
+    {
+      "rim_velocity_ft_s": 180.0,
+      "rim_velocity_m_s": 54.864000000000004,
+      "omega_rad_s": 10972.800000000001,
+      "rpm": 104782.52157352497,
+      "maximum_acceleration_m_s2": 0.15698807435671402,
+      "maximum_force_N": 0.000710197316784376,
+      "maximum_scale_normal_force_N": 0.0006805049942312379,
+      "apparent_mass_amplitude_g": 0.06939219756300448,
+      "scale_force_percent_rotor_weight": 1.5339043408557687,
+      "spin_energy_J": 5.58304536922956
+    },
+    {
+      "rim_velocity_ft_s": 190.0,
+      "rim_velocity_m_s": 57.912000000000006,
+      "omega_rad_s": 11582.400000000001,
+      "rpm": 110603.77277205413,
+      "maximum_acceleration_m_s2": 0.16570963404319813,
+      "maximum_force_N": 0.0007496527232723969,
+      "maximum_scale_normal_force_N": 0.0007183108272440843,
+      "apparent_mass_amplitude_g": 0.07324731964983805,
+      "scale_force_percent_rotor_weight": 1.6191212486810886,
+      "spin_energy_J": 6.220615365098369
+    },
+    {
+      "rim_velocity_ft_s": 200.0,
+      "rim_velocity_m_s": 60.96,
+      "omega_rad_s": 12192.0,
+      "rpm": 116425.02397058328,
+      "maximum_acceleration_m_s2": 0.17443119372968222,
+      "maximum_force_N": 0.0007891081297604176,
+      "maximum_scale_normal_force_N": 0.0007561166602569308,
+      "apparent_mass_amplitude_g": 0.07710244173667162,
+      "scale_force_percent_rotor_weight": 1.7043381565064089,
+      "spin_energy_J": 6.89264860398711
+    },
+    {
+      "rim_velocity_ft_s": 210.0,
+      "rim_velocity_m_s": 64.00800000000001,
+      "omega_rad_s": 12801.600000000002,
+      "rpm": 122246.27516911246,
+      "maximum_acceleration_m_s2": 0.18315275341616638,
+      "maximum_force_N": 0.0008285635362484388,
+      "maximum_scale_normal_force_N": 0.0007939224932697775,
+      "apparent_mass_amplitude_g": 0.08095756382350523,
+      "scale_force_percent_rotor_weight": 1.7895550643317297,
+      "spin_energy_J": 7.599145085895792
+    },
+    {
+      "rim_velocity_ft_s": 220.0,
+      "rim_velocity_m_s": 67.056,
+      "omega_rad_s": 13411.199999999999,
+      "rpm": 128067.52636764159,
+      "maximum_acceleration_m_s2": 0.19187431310265043,
+      "maximum_force_N": 0.0008680189427364594,
+      "maximum_scale_normal_force_N": 0.0008317283262826239,
+      "apparent_mass_amplitude_g": 0.08481268591033879,
+      "scale_force_percent_rotor_weight": 1.8747719721570502,
+      "spin_energy_J": 8.340104810824402
+    },
+    {
+      "rim_velocity_ft_s": 230.0,
+      "rim_velocity_m_s": 70.104,
+      "omega_rad_s": 14020.8,
+      "rpm": 133888.7775661708,
+      "maximum_acceleration_m_s2": 0.20059587278913454,
+      "maximum_force_N": 0.0009074743492244803,
+      "maximum_scale_normal_force_N": 0.0008695341592954704,
+      "apparent_mass_amplitude_g": 0.08866780799717239,
+      "scale_force_percent_rotor_weight": 1.9599888799823704,
+      "spin_energy_J": 9.115527778772952
+    },
+    {
+      "rim_velocity_ft_s": 240.0,
+      "rim_velocity_m_s": 73.152,
+      "omega_rad_s": 14630.4,
+      "rpm": 139710.02876469993,
+      "maximum_acceleration_m_s2": 0.20931743247561865,
+      "maximum_force_N": 0.0009469297557125011,
+      "maximum_scale_normal_force_N": 0.0009073399923083169,
+      "apparent_mass_amplitude_g": 0.09252293008400594,
+      "scale_force_percent_rotor_weight": 2.0452057878076904,
+      "spin_energy_J": 9.925413989741438
+    },
+    {
+      "rim_velocity_ft_s": 250.0,
+      "rim_velocity_m_s": 76.2,
+      "omega_rad_s": 15240.0,
+      "rpm": 145531.2799632291,
+      "maximum_acceleration_m_s2": 0.2180389921621028,
+      "maximum_force_N": 0.000986385162200522,
+      "maximum_scale_normal_force_N": 0.0009451458253211635,
+      "apparent_mass_amplitude_g": 0.09637805217083954,
+      "scale_force_percent_rotor_weight": 2.1304226956330115,
+      "spin_energy_J": 10.76976344372986
+    },
+    {
+      "rim_velocity_ft_s": 260.0,
+      "rim_velocity_m_s": 79.248,
+      "omega_rad_s": 15849.6,
+      "rpm": 151352.53116175826,
+      "maximum_acceleration_m_s2": 0.22676055184858687,
+      "maximum_force_N": 0.001025840568688543,
+      "maximum_scale_normal_force_N": 0.00098295165833401,
+      "apparent_mass_amplitude_g": 0.10023317425767313,
+      "scale_force_percent_rotor_weight": 2.2156396034583317,
+      "spin_energy_J": 11.648576140738218
+    },
+    {
+      "rim_velocity_ft_s": 270.0,
+      "rim_velocity_m_s": 82.296,
+      "omega_rad_s": 16459.2,
+      "rpm": 157173.78236028744,
+      "maximum_acceleration_m_s2": 0.235482111535071,
+      "maximum_force_N": 0.001065295975176564,
+      "maximum_scale_normal_force_N": 0.0010207574913468568,
+      "apparent_mass_amplitude_g": 0.10408829634450673,
+      "scale_force_percent_rotor_weight": 2.300856511283653,
+      "spin_energy_J": 12.56185208076651
+    },
+    {
+      "rim_velocity_ft_s": 280.0,
+      "rim_velocity_m_s": 85.34400000000001,
+      "omega_rad_s": 17068.800000000003,
+      "rpm": 162995.03355881662,
+      "maximum_acceleration_m_s2": 0.24420367122155515,
+      "maximum_force_N": 0.0011047513816645849,
+      "maximum_scale_normal_force_N": 0.0010585633243597032,
+      "apparent_mass_amplitude_g": 0.10794341843134028,
+      "scale_force_percent_rotor_weight": 2.386073419108973,
+      "spin_energy_J": 13.509591263814741
+    },
+    {
+      "rim_velocity_ft_s": 290.0,
+      "rim_velocity_m_s": 88.39200000000001,
+      "omega_rad_s": 17678.4,
+      "rpm": 168816.28475734577,
+      "maximum_acceleration_m_s2": 0.2529252309080392,
+      "maximum_force_N": 0.0011442067881526055,
+      "maximum_scale_normal_force_N": 0.0010963691573725495,
+      "apparent_mass_amplitude_g": 0.11179854051817384,
+      "scale_force_percent_rotor_weight": 2.4712903269342927,
+      "spin_energy_J": 14.491793689882902
+    },
+    {
+      "rim_velocity_ft_s": 300.0,
+      "rim_velocity_m_s": 91.44,
+      "omega_rad_s": 18288.0,
+      "rpm": 174637.53595587492,
+      "maximum_acceleration_m_s2": 0.26164679059452334,
+      "maximum_force_N": 0.0011836621946406266,
+      "maximum_scale_normal_force_N": 0.0011341749903853963,
+      "apparent_mass_amplitude_g": 0.11565366260500745,
+      "scale_force_percent_rotor_weight": 2.556507234759614,
+      "spin_energy_J": 15.508459358970999
+    },
+    {
+      "rim_velocity_ft_s": 310.0,
+      "rim_velocity_m_s": 94.488,
+      "omega_rad_s": 18897.6,
+      "rpm": 180458.7871544041,
+      "maximum_acceleration_m_s2": 0.2703683502810074,
+      "maximum_force_N": 0.0012231176011286472,
+      "maximum_scale_normal_force_N": 0.0011719808233982426,
+      "apparent_mass_amplitude_g": 0.11950878469184101,
+      "scale_force_percent_rotor_weight": 2.6417241425849336,
+      "spin_energy_J": 16.55958827107903
+    },
+    {
+      "rim_velocity_ft_s": 320.0,
+      "rim_velocity_m_s": 97.536,
+      "omega_rad_s": 19507.2,
+      "rpm": 186280.03835293325,
+      "maximum_acceleration_m_s2": 0.27908990996749156,
+      "maximum_force_N": 0.0012625730076166683,
+      "maximum_scale_normal_force_N": 0.0012097866564110894,
+      "apparent_mass_amplitude_g": 0.1233639067786746,
+      "scale_force_percent_rotor_weight": 2.7269410504102547,
+      "spin_energy_J": 17.645180426207006
+    },
+    {
+      "rim_velocity_ft_s": 330.0,
+      "rim_velocity_m_s": 100.584,
+      "omega_rad_s": 20116.8,
+      "rpm": 192101.28955146243,
+      "maximum_acceleration_m_s2": 0.2878114696539757,
+      "maximum_force_N": 0.0013020284141046893,
+      "maximum_scale_normal_force_N": 0.001247592489423936,
+      "apparent_mass_amplitude_g": 0.12721902886550818,
+      "scale_force_percent_rotor_weight": 2.812157958235575,
+      "spin_energy_J": 18.765235824354907
+    },
+    {
+      "rim_velocity_ft_s": 340.0,
+      "rim_velocity_m_s": 103.632,
+      "omega_rad_s": 20726.4,
+      "rpm": 197922.54074999157,
+      "maximum_acceleration_m_s2": 0.29653302934045983,
+      "maximum_force_N": 0.0013414838205927104,
+      "maximum_scale_normal_force_N": 0.0012853983224367827,
+      "apparent_mass_amplitude_g": 0.13107415095234182,
+      "scale_force_percent_rotor_weight": 2.897374866060896,
+      "spin_energy_J": 19.91975446552275
+    },
+    {
+      "rim_velocity_ft_s": 350.0,
+      "rim_velocity_m_s": 106.68,
+      "omega_rad_s": 21336.0,
+      "rpm": 203743.79194852075,
+      "maximum_acceleration_m_s2": 0.3052545890269439,
+      "maximum_force_N": 0.001380939227080731,
+      "maximum_scale_normal_force_N": 0.001323204155449629,
+      "apparent_mass_amplitude_g": 0.13492927303917535,
+      "scale_force_percent_rotor_weight": 2.982591773886216,
+      "spin_energy_J": 21.108736349710526
+    },
+    {
+      "rim_velocity_ft_s": 360.0,
+      "rim_velocity_m_s": 109.72800000000001,
+      "omega_rad_s": 21945.600000000002,
+      "rpm": 209565.04314704993,
+      "maximum_acceleration_m_s2": 0.31397614871342805,
+      "maximum_force_N": 0.001420394633568752,
+      "maximum_scale_normal_force_N": 0.0013610099884624758,
+      "apparent_mass_amplitude_g": 0.13878439512600896,
+      "scale_force_percent_rotor_weight": 3.0678086817115373,
+      "spin_energy_J": 22.33218147691824
+    },
+    {
+      "rim_velocity_ft_s": 370.0,
+      "rim_velocity_m_s": 112.77600000000001,
+      "omega_rad_s": 22555.2,
+      "rpm": 215386.29434557908,
+      "maximum_acceleration_m_s2": 0.32269770839991213,
+      "maximum_force_N": 0.0014598500400567727,
+      "maximum_scale_normal_force_N": 0.001398815821475322,
+      "apparent_mass_amplitude_g": 0.14263951721284254,
+      "scale_force_percent_rotor_weight": 3.153025589536857,
+      "spin_energy_J": 23.590089847145887
+    },
+    {
+      "rim_velocity_ft_s": 380.0,
+      "rim_velocity_m_s": 115.82400000000001,
+      "omega_rad_s": 23164.800000000003,
+      "rpm": 221207.54554410826,
+      "maximum_acceleration_m_s2": 0.33141926808639627,
+      "maximum_force_N": 0.0014993054465447938,
+      "maximum_scale_normal_force_N": 0.0014366216544881686,
+      "apparent_mass_amplitude_g": 0.1464946392996761,
+      "scale_force_percent_rotor_weight": 3.2382424973621773,
+      "spin_energy_J": 24.882461460393476
+    },
+    {
+      "rim_velocity_ft_s": 390.0,
+      "rim_velocity_m_s": 118.872,
+      "omega_rad_s": 23774.399999999998,
+      "rpm": 227028.79674263735,
+      "maximum_acceleration_m_s2": 0.3401408277728803,
+      "maximum_force_N": 0.0015387608530328142,
+      "maximum_scale_normal_force_N": 0.0014744274875010148,
+      "apparent_mass_amplitude_g": 0.15034976138650966,
+      "scale_force_percent_rotor_weight": 3.323459405187497,
+      "spin_energy_J": 26.209296316660982
+    },
+    {
+      "rim_velocity_ft_s": 400.0,
+      "rim_velocity_m_s": 121.92,
+      "omega_rad_s": 24384.0,
+      "rpm": 232850.04794116656,
+      "maximum_acceleration_m_s2": 0.34886238745936443,
+      "maximum_force_N": 0.0015782162595208353,
+      "maximum_scale_normal_force_N": 0.0015122333205138615,
+      "apparent_mass_amplitude_g": 0.15420488347334324,
+      "scale_force_percent_rotor_weight": 3.4086763130128177,
+      "spin_energy_J": 27.57059441594844
+    },
+    {
+      "rim_velocity_ft_s": 410.0,
+      "rim_velocity_m_s": 124.968,
+      "omega_rad_s": 24993.6,
+      "rpm": 238671.29913969574,
+      "maximum_acceleration_m_s2": 0.35758394714584857,
+      "maximum_force_N": 0.0016176716660088564,
+      "maximum_scale_normal_force_N": 0.0015500391535267083,
+      "apparent_mass_amplitude_g": 0.15806000556017685,
+      "scale_force_percent_rotor_weight": 3.493893220838139,
+      "spin_energy_J": 28.966355758255826
+    },
+    {
+      "rim_velocity_ft_s": 420.0,
+      "rim_velocity_m_s": 128.01600000000002,
+      "omega_rad_s": 25603.200000000004,
+      "rpm": 244492.55033822492,
+      "maximum_acceleration_m_s2": 0.36630550683233276,
+      "maximum_force_N": 0.0016571270724968776,
+      "maximum_scale_normal_force_N": 0.001587844986539555,
+      "apparent_mass_amplitude_g": 0.16191512764701047,
+      "scale_force_percent_rotor_weight": 3.5791101286634595,
+      "spin_energy_J": 30.396580343583167
+    },
+    {
+      "rim_velocity_ft_s": 430.0,
+      "rim_velocity_m_s": 131.064,
+      "omega_rad_s": 26212.8,
+      "rpm": 250313.80153675406,
+      "maximum_acceleration_m_s2": 0.3750270665188168,
+      "maximum_force_N": 0.001696582478984898,
+      "maximum_scale_normal_force_N": 0.0016256508195524012,
+      "apparent_mass_amplitude_g": 0.165770249733844,
+      "scale_force_percent_rotor_weight": 3.664327036488779,
+      "spin_energy_J": 31.861268171930412
+    },
+    {
+      "rim_velocity_ft_s": 440.0,
+      "rim_velocity_m_s": 134.112,
+      "omega_rad_s": 26822.399999999998,
+      "rpm": 256135.05273528319,
+      "maximum_acceleration_m_s2": 0.38374862620530087,
+      "maximum_force_N": 0.001736037885472919,
+      "maximum_scale_normal_force_N": 0.0016634566525652477,
+      "apparent_mass_amplitude_g": 0.16962537182067758,
+      "scale_force_percent_rotor_weight": 3.7495439443141003,
+      "spin_energy_J": 33.360419243297606
+    },
+    {
+      "rim_velocity_ft_s": 450.0,
+      "rim_velocity_m_s": 137.16,
+      "omega_rad_s": 27432.0,
+      "rpm": 261956.3039338124,
+      "maximum_acceleration_m_s2": 0.392470185891785,
+      "maximum_force_N": 0.0017754932919609397,
+      "maximum_scale_normal_force_N": 0.0017012624855780943,
+      "apparent_mass_amplitude_g": 0.17348049390751116,
+      "scale_force_percent_rotor_weight": 3.8347608521394205,
+      "spin_energy_J": 34.89403355768474
+    },
+    {
+      "rim_velocity_ft_s": 460.0,
+      "rim_velocity_m_s": 140.208,
+      "omega_rad_s": 28041.6,
+      "rpm": 267777.5551323416,
+      "maximum_acceleration_m_s2": 0.4011917455782691,
+      "maximum_force_N": 0.0018149486984489606,
+      "maximum_scale_normal_force_N": 0.0017390683185909408,
+      "apparent_mass_amplitude_g": 0.17733561599434478,
+      "scale_force_percent_rotor_weight": 3.9199777599647407,
+      "spin_energy_J": 36.46211111509181
+    },
+    {
+      "rim_velocity_ft_s": 470.0,
+      "rim_velocity_m_s": 143.256,
+      "omega_rad_s": 28651.2,
+      "rpm": 273598.8063308707,
+      "maximum_acceleration_m_s2": 0.4099133052647532,
+      "maximum_force_N": 0.0018544041049369817,
+      "maximum_scale_normal_force_N": 0.0017768741516037876,
+      "apparent_mass_amplitude_g": 0.18119073808117836,
+      "scale_force_percent_rotor_weight": 4.005194667790062,
+      "spin_energy_J": 38.064651915518816
+    },
+    {
+      "rim_velocity_ft_s": 480.0,
+      "rim_velocity_m_s": 146.304,
+      "omega_rad_s": 29260.8,
+      "rpm": 279420.05752939987,
+      "maximum_acceleration_m_s2": 0.4186348649512373,
+      "maximum_force_N": 0.0018938595114250023,
+      "maximum_scale_normal_force_N": 0.0018146799846166337,
+      "apparent_mass_amplitude_g": 0.1850458601680119,
+      "scale_force_percent_rotor_weight": 4.090411575615381,
+      "spin_energy_J": 39.70165595896575
+    },
+    {
+      "rim_velocity_ft_s": 490.0,
+      "rim_velocity_m_s": 149.352,
+      "omega_rad_s": 29870.4,
+      "rpm": 285241.308727929,
+      "maximum_acceleration_m_s2": 0.42735642463772144,
+      "maximum_force_N": 0.0019333149179130234,
+      "maximum_scale_normal_force_N": 0.0018524858176294805,
+      "apparent_mass_amplitude_g": 0.1889009822548455,
+      "scale_force_percent_rotor_weight": 4.175628483440702,
+      "spin_energy_J": 41.37312324543263
+    },
+    {
+      "rim_velocity_ft_s": 500.0,
+      "rim_velocity_m_s": 152.4,
+      "omega_rad_s": 30480.0,
+      "rpm": 291062.5599264582,
+      "maximum_acceleration_m_s2": 0.4360779843242056,
+      "maximum_force_N": 0.001972770324401044,
+      "maximum_scale_normal_force_N": 0.001890291650642327,
+      "apparent_mass_amplitude_g": 0.19275610434167909,
+      "scale_force_percent_rotor_weight": 4.260845391266023,
+      "spin_energy_J": 43.07905377491944
+    },
+    {
+      "rim_velocity_ft_s": 510.0,
+      "rim_velocity_m_s": 155.448,
+      "omega_rad_s": 31089.600000000002,
+      "rpm": 296883.8111249874,
+      "maximum_acceleration_m_s2": 0.44479954401068966,
+      "maximum_force_N": 0.0020122257308890653,
+      "maximum_scale_normal_force_N": 0.0019280974836551738,
+      "apparent_mass_amplitude_g": 0.19661122642851267,
+      "scale_force_percent_rotor_weight": 4.346062299091344,
+      "spin_energy_J": 44.819447547426186
+    },
+    {
+      "rim_velocity_ft_s": 520.0,
+      "rim_velocity_m_s": 158.496,
+      "omega_rad_s": 31699.2,
+      "rpm": 302705.0623235165,
+      "maximum_acceleration_m_s2": 0.45352110369717374,
+      "maximum_force_N": 0.002051681137377086,
+      "maximum_scale_normal_force_N": 0.00196590331666802,
+      "apparent_mass_amplitude_g": 0.20046634851534625,
+      "scale_force_percent_rotor_weight": 4.431279206916663,
+      "spin_energy_J": 46.59430456295287
+    },
+    {
+      "rim_velocity_ft_s": 530.0,
+      "rim_velocity_m_s": 161.544,
+      "omega_rad_s": 32308.800000000003,
+      "rpm": 308526.31352204573,
+      "maximum_acceleration_m_s2": 0.46224266338365794,
+      "maximum_force_N": 0.002091136543865107,
+      "maximum_scale_normal_force_N": 0.002003709149680867,
+      "apparent_mass_amplitude_g": 0.20432147060217984,
+      "scale_force_percent_rotor_weight": 4.516496114741984,
+      "spin_energy_J": 48.40362482149949
+    },
+    {
+      "rim_velocity_ft_s": 540.0,
+      "rim_velocity_m_s": 164.592,
+      "omega_rad_s": 32918.4,
+      "rpm": 314347.5647205749,
+      "maximum_acceleration_m_s2": 0.470964223070142,
+      "maximum_force_N": 0.002130591950353128,
+      "maximum_scale_normal_force_N": 0.0020415149826937136,
+      "apparent_mass_amplitude_g": 0.20817659268901345,
+      "scale_force_percent_rotor_weight": 4.601713022567306,
+      "spin_energy_J": 50.24740832306604
+    },
+    {
+      "rim_velocity_ft_s": 550.0,
+      "rim_velocity_m_s": 167.64000000000001,
+      "omega_rad_s": 33528.0,
+      "rpm": 320168.81591910403,
+      "maximum_acceleration_m_s2": 0.4796857827566261,
+      "maximum_force_N": 0.0021700473568411487,
+      "maximum_scale_normal_force_N": 0.0020793208157065595,
+      "apparent_mass_amplitude_g": 0.21203171477584698,
+      "scale_force_percent_rotor_weight": 4.686929930392624,
+      "spin_energy_J": 52.125655067652524
+    },
+    {
+      "rim_velocity_ft_s": 560.0,
+      "rim_velocity_m_s": 170.68800000000002,
+      "omega_rad_s": 34137.600000000006,
+      "rpm": 325990.06711763324,
+      "maximum_acceleration_m_s2": 0.4884073424431103,
+      "maximum_force_N": 0.0022095027633291697,
+      "maximum_scale_normal_force_N": 0.0021171266487194063,
+      "apparent_mass_amplitude_g": 0.21588683686268056,
+      "scale_force_percent_rotor_weight": 4.772146838217946,
+      "spin_energy_J": 54.038365055258964
+    },
+    {
+      "rim_velocity_ft_s": 570.0,
+      "rim_velocity_m_s": 173.73600000000002,
+      "omega_rad_s": 34747.200000000004,
+      "rpm": 331811.3183161624,
+      "maximum_acceleration_m_s2": 0.4971289021295944,
+      "maximum_force_N": 0.002248958169817191,
+      "maximum_scale_normal_force_N": 0.002154932481732253,
+      "apparent_mass_amplitude_g": 0.21974195894951418,
+      "scale_force_percent_rotor_weight": 4.857363746043267,
+      "spin_energy_J": 55.98553828588532
+    },
+    {
+      "rim_velocity_ft_s": 580.0,
+      "rim_velocity_m_s": 176.78400000000002,
+      "omega_rad_s": 35356.8,
+      "rpm": 337632.56951469154,
+      "maximum_acceleration_m_s2": 0.5058504618160784,
+      "maximum_force_N": 0.002288413576305211,
+      "maximum_scale_normal_force_N": 0.002192738314745099,
+      "apparent_mass_amplitude_g": 0.22359708103634768,
+      "scale_force_percent_rotor_weight": 4.9425806538685855,
+      "spin_energy_J": 57.96717475953161
+    },
+    {
+      "rim_velocity_ft_s": 590.0,
+      "rim_velocity_m_s": 179.83200000000002,
+      "omega_rad_s": 35966.4,
+      "rpm": 343453.8207132207,
+      "maximum_acceleration_m_s2": 0.5145720215025625,
+      "maximum_force_N": 0.002327868982793232,
+      "maximum_scale_normal_force_N": 0.0022305441477579457,
+      "apparent_mass_amplitude_g": 0.22745220312318132,
+      "scale_force_percent_rotor_weight": 5.027797561693906,
+      "spin_energy_J": 59.98327447619783
+    },
+    {
+      "rim_velocity_ft_s": 600.0,
+      "rim_velocity_m_s": 182.88,
+      "omega_rad_s": 36576.0,
+      "rpm": 349275.07191174984,
+      "maximum_acceleration_m_s2": 0.5232935811890467,
+      "maximum_force_N": 0.002367324389281253,
+      "maximum_scale_normal_force_N": 0.0022683499807707925,
+      "apparent_mass_amplitude_g": 0.2313073252100149,
+      "scale_force_percent_rotor_weight": 5.113014469519228,
+      "spin_energy_J": 62.033837435883996
+    },
+    {
+      "rim_velocity_ft_s": 610.0,
+      "rim_velocity_m_s": 185.928,
+      "omega_rad_s": 37185.6,
+      "rpm": 355096.323110279,
+      "maximum_acceleration_m_s2": 0.5320151408755307,
+      "maximum_force_N": 0.0024067797957692738,
+      "maximum_scale_normal_force_N": 0.002306155813783639,
+      "apparent_mass_amplitude_g": 0.23516244729684846,
+      "scale_force_percent_rotor_weight": 5.198231377344547,
+      "spin_energy_J": 64.11886363859008
+    },
+    {
+      "rim_velocity_ft_s": 620.0,
+      "rim_velocity_m_s": 188.976,
+      "omega_rad_s": 37795.2,
+      "rpm": 360917.5743088082,
+      "maximum_acceleration_m_s2": 0.5407367005620148,
+      "maximum_force_N": 0.0024462352022572944,
+      "maximum_scale_normal_force_N": 0.002343961646796485,
+      "apparent_mass_amplitude_g": 0.23901756938368202,
+      "scale_force_percent_rotor_weight": 5.283448285169867,
+      "spin_energy_J": 66.23835308431612
+    },
+    {
+      "rim_velocity_ft_s": 630.0,
+      "rim_velocity_m_s": 192.024,
+      "omega_rad_s": 38404.8,
+      "rpm": 366738.82550733734,
+      "maximum_acceleration_m_s2": 0.5494582602484991,
+      "maximum_force_N": 0.002485690608745316,
+      "maximum_scale_normal_force_N": 0.0023817674798093324,
+      "apparent_mass_amplitude_g": 0.24287269147051568,
+      "scale_force_percent_rotor_weight": 5.36866519299519,
+      "spin_energy_J": 68.3923057730621
+    },
+    {
+      "rim_velocity_ft_s": 640.0,
+      "rim_velocity_m_s": 195.072,
+      "omega_rad_s": 39014.4,
+      "rpm": 372560.0767058665,
+      "maximum_acceleration_m_s2": 0.5581798199349831,
+      "maximum_force_N": 0.0025251460152333365,
+      "maximum_scale_normal_force_N": 0.0024195733128221787,
+      "apparent_mass_amplitude_g": 0.2467278135573492,
+      "scale_force_percent_rotor_weight": 5.453882100820509,
+      "spin_energy_J": 70.58072170482802
+    },
+    {
+      "rim_velocity_ft_s": 650.0,
+      "rim_velocity_m_s": 198.12,
+      "omega_rad_s": 39624.0,
+      "rpm": 378381.32790439564,
+      "maximum_acceleration_m_s2": 0.5669013796214672,
+      "maximum_force_N": 0.0025646014217213576,
+      "maximum_scale_normal_force_N": 0.002457379145835025,
+      "apparent_mass_amplitude_g": 0.2505829356441828,
+      "scale_force_percent_rotor_weight": 5.539099008645829,
+      "spin_energy_J": 72.80360087961385
+    },
+    {
+      "rim_velocity_ft_s": 660.0,
+      "rim_velocity_m_s": 201.168,
+      "omega_rad_s": 40233.6,
+      "rpm": 384202.57910292485,
+      "maximum_acceleration_m_s2": 0.5756229393079514,
+      "maximum_force_N": 0.0026040568282093787,
+      "maximum_scale_normal_force_N": 0.002495184978847872,
+      "apparent_mass_amplitude_g": 0.25443805773101635,
+      "scale_force_percent_rotor_weight": 5.62431591647115,
+      "spin_energy_J": 75.06094329741963
+    },
+    {
+      "rim_velocity_ft_s": 670.0,
+      "rim_velocity_m_s": 204.216,
+      "omega_rad_s": 40843.200000000004,
+      "rpm": 390023.83030145406,
+      "maximum_acceleration_m_s2": 0.5843444989944355,
+      "maximum_force_N": 0.0026435122346973997,
+      "maximum_scale_normal_force_N": 0.0025329908118607186,
+      "apparent_mass_amplitude_g": 0.25829317981785,
+      "scale_force_percent_rotor_weight": 5.709532824296471,
+      "spin_energy_J": 77.35274895824536
+    },
+    {
+      "rim_velocity_ft_s": 680.0,
+      "rim_velocity_m_s": 207.264,
+      "omega_rad_s": 41452.8,
+      "rpm": 395845.08149998315,
+      "maximum_acceleration_m_s2": 0.5930660586809197,
+      "maximum_force_N": 0.002682967641185421,
+      "maximum_scale_normal_force_N": 0.0025707966448735653,
+      "apparent_mass_amplitude_g": 0.26214830190468363,
+      "scale_force_percent_rotor_weight": 5.794749732121792,
+      "spin_energy_J": 79.679017862091
+    },
+    {
+      "rim_velocity_ft_s": 690.0,
+      "rim_velocity_m_s": 210.312,
+      "omega_rad_s": 42062.4,
+      "rpm": 401666.3326985123,
+      "maximum_acceleration_m_s2": 0.6017876183674037,
+      "maximum_force_N": 0.002722423047673441,
+      "maximum_scale_normal_force_N": 0.0026086024778864112,
+      "apparent_mass_amplitude_g": 0.26600342399151716,
+      "scale_force_percent_rotor_weight": 5.879966639947112,
+      "spin_energy_J": 82.03975000895659
+    },
+    {
+      "rim_velocity_ft_s": 700.0,
+      "rim_velocity_m_s": 213.36,
+      "omega_rad_s": 42672.0,
+      "rpm": 407487.5838970415,
+      "maximum_acceleration_m_s2": 0.6105091780538878,
+      "maximum_force_N": 0.002761878454161462,
+      "maximum_scale_normal_force_N": 0.002646408310899258,
+      "apparent_mass_amplitude_g": 0.2698585460783507,
+      "scale_force_percent_rotor_weight": 5.965183547772432,
+      "spin_energy_J": 84.4349453988421
+    },
+    {
+      "rim_velocity_ft_s": 710.0,
+      "rim_velocity_m_s": 216.40800000000002,
+      "omega_rad_s": 43281.600000000006,
+      "rpm": 413308.8350955707,
+      "maximum_acceleration_m_s2": 0.619230737740372,
+      "maximum_force_N": 0.002801333860649483,
+      "maximum_scale_normal_force_N": 0.0026842141439121048,
+      "apparent_mass_amplitude_g": 0.27371366816518433,
+      "scale_force_percent_rotor_weight": 6.050400455597753,
+      "spin_energy_J": 86.86460403174758
+    },
+    {
+      "rim_velocity_ft_s": 720.0,
+      "rim_velocity_m_s": 219.45600000000002,
+      "omega_rad_s": 43891.200000000004,
+      "rpm": 419130.08629409986,
+      "maximum_acceleration_m_s2": 0.6279522974268561,
+      "maximum_force_N": 0.002840789267137504,
+      "maximum_scale_normal_force_N": 0.0027220199769249515,
+      "apparent_mass_amplitude_g": 0.2775687902520179,
+      "scale_force_percent_rotor_weight": 6.135617363423075,
+      "spin_energy_J": 89.32872590767296
+    },
+    {
+      "rim_velocity_ft_s": 730.0,
+      "rim_velocity_m_s": 222.50400000000002,
+      "omega_rad_s": 44500.8,
+      "rpm": 424951.33749262895,
+      "maximum_acceleration_m_s2": 0.6366738571133401,
+      "maximum_force_N": 0.002880244673625525,
+      "maximum_scale_normal_force_N": 0.002759825809937798,
+      "apparent_mass_amplitude_g": 0.2814239123388515,
+      "scale_force_percent_rotor_weight": 6.220834271248394,
+      "spin_energy_J": 91.82731102661829
+    },
+    {
+      "rim_velocity_ft_s": 740.0,
+      "rim_velocity_m_s": 225.55200000000002,
+      "omega_rad_s": 45110.4,
+      "rpm": 430772.58869115816,
+      "maximum_acceleration_m_s2": 0.6453954167998243,
+      "maximum_force_N": 0.0029197000801135455,
+      "maximum_scale_normal_force_N": 0.002797631642950644,
+      "apparent_mass_amplitude_g": 0.2852790344256851,
+      "scale_force_percent_rotor_weight": 6.306051179073714,
+      "spin_energy_J": 94.36035938858355
+    },
+    {
+      "rim_velocity_ft_s": 750.0,
+      "rim_velocity_m_s": 228.60000000000002,
+      "omega_rad_s": 45720.0,
+      "rpm": 436593.8398896873,
+      "maximum_acceleration_m_s2": 0.6541169764863083,
+      "maximum_force_N": 0.002959155486601566,
+      "maximum_scale_normal_force_N": 0.0028354374759634905,
+      "apparent_mass_amplitude_g": 0.2891341565125186,
+      "scale_force_percent_rotor_weight": 6.391268086899034,
+      "spin_energy_J": 96.92787099356873
+    },
+    {
+      "rim_velocity_ft_s": 760.0,
+      "rim_velocity_m_s": 231.64800000000002,
+      "omega_rad_s": 46329.600000000006,
+      "rpm": 442415.0910882165,
+      "maximum_acceleration_m_s2": 0.6628385361727925,
+      "maximum_force_N": 0.0029986108930895876,
+      "maximum_scale_normal_force_N": 0.0028732433089763373,
+      "apparent_mass_amplitude_g": 0.2929892785993522,
+      "scale_force_percent_rotor_weight": 6.476484994724355,
+      "spin_energy_J": 99.5298458415739
+    },
+    {
+      "rim_velocity_ft_s": 770.0,
+      "rim_velocity_m_s": 234.696,
+      "omega_rad_s": 46939.2,
+      "rpm": 448236.3422867456,
+      "maximum_acceleration_m_s2": 0.6715600958592765,
+      "maximum_force_N": 0.003038066299577608,
+      "maximum_scale_normal_force_N": 0.002911049141989183,
+      "apparent_mass_amplitude_g": 0.2968444006861857,
+      "scale_force_percent_rotor_weight": 6.561701902549674,
+      "spin_energy_J": 102.16628393259893
+    },
+    {
+      "rim_velocity_ft_s": 780.0,
+      "rim_velocity_m_s": 237.744,
+      "omega_rad_s": 47548.799999999996,
+      "rpm": 454057.5934852747,
+      "maximum_acceleration_m_s2": 0.6802816555457606,
+      "maximum_force_N": 0.0030775217060656284,
+      "maximum_scale_normal_force_N": 0.0029488549750020295,
+      "apparent_mass_amplitude_g": 0.3006995227730193,
+      "scale_force_percent_rotor_weight": 6.646918810374994,
+      "spin_energy_J": 104.83718526664393
+    },
+    {
+      "rim_velocity_ft_s": 790.0,
+      "rim_velocity_m_s": 240.792,
+      "omega_rad_s": 48158.4,
+      "rpm": 459878.84468380397,
+      "maximum_acceleration_m_s2": 0.6890032152322447,
+      "maximum_force_N": 0.0031169771125536495,
+      "maximum_scale_normal_force_N": 0.0029866608080148763,
+      "apparent_mass_amplitude_g": 0.3045546448598529,
+      "scale_force_percent_rotor_weight": 6.732135718200315,
+      "spin_energy_J": 107.54254984370888
+    },
+    {
+      "rim_velocity_ft_s": 800.0,
+      "rim_velocity_m_s": 243.84,
+      "omega_rad_s": 48768.0,
+      "rpm": 465700.0958823331,
+      "maximum_acceleration_m_s2": 0.6977247749187289,
+      "maximum_force_N": 0.0031564325190416706,
+      "maximum_scale_normal_force_N": 0.003024466641027723,
+      "apparent_mass_amplitude_g": 0.3084097669466865,
+      "scale_force_percent_rotor_weight": 6.817352626025635,
+      "spin_energy_J": 110.28237766379377
+    },
+    {
+      "rim_velocity_ft_s": 810.0,
+      "rim_velocity_m_s": 246.888,
+      "omega_rad_s": 49377.6,
+      "rpm": 471521.34708086227,
+      "maximum_acceleration_m_s2": 0.7064463346052129,
+      "maximum_force_N": 0.003195887925529691,
+      "maximum_scale_normal_force_N": 0.0030622724740405694,
+      "apparent_mass_amplitude_g": 0.31226488903352007,
+      "scale_force_percent_rotor_weight": 6.902569533850957,
+      "spin_energy_J": 113.05666872689856
+    },
+    {
+      "rim_velocity_ft_s": 820.0,
+      "rim_velocity_m_s": 249.936,
+      "omega_rad_s": 49987.2,
+      "rpm": 477342.5982793915,
+      "maximum_acceleration_m_s2": 0.7151678942916971,
+      "maximum_force_N": 0.0032353433320177127,
+      "maximum_scale_normal_force_N": 0.0031000783070534166,
+      "apparent_mass_amplitude_g": 0.3161200111203537,
+      "scale_force_percent_rotor_weight": 6.987786441676278,
+      "spin_energy_J": 115.8654230330233
+    },
+    {
+      "rim_velocity_ft_s": 830.0,
+      "rim_velocity_m_s": 252.984,
+      "omega_rad_s": 50596.8,
+      "rpm": 483163.8494779206,
+      "maximum_acceleration_m_s2": 0.7238894539781813,
+      "maximum_force_N": 0.0032747987385057338,
+      "maximum_scale_normal_force_N": 0.0031378841400662633,
+      "apparent_mass_amplitude_g": 0.3199751332071873,
+      "scale_force_percent_rotor_weight": 7.073003349501598,
+      "spin_energy_J": 118.70864058216802
+    },
+    {
+      "rim_velocity_ft_s": 840.0,
+      "rim_velocity_m_s": 256.03200000000004,
+      "omega_rad_s": 51206.40000000001,
+      "rpm": 488985.10067644983,
+      "maximum_acceleration_m_s2": 0.7326110136646655,
+      "maximum_force_N": 0.0033142541449937553,
+      "maximum_scale_normal_force_N": 0.00317568997307911,
+      "apparent_mass_amplitude_g": 0.32383025529402093,
+      "scale_force_percent_rotor_weight": 7.158220257326919,
+      "spin_energy_J": 121.58632137433267
+    },
+    {
+      "rim_velocity_ft_s": 850.0,
+      "rim_velocity_m_s": 259.08000000000004,
+      "omega_rad_s": 51816.00000000001,
+      "rpm": 494806.35187497904,
+      "maximum_acceleration_m_s2": 0.7413325733511495,
+      "maximum_force_N": 0.0033537095514817755,
+      "maximum_scale_normal_force_N": 0.003213495806091956,
+      "apparent_mass_amplitude_g": 0.32768537738085446,
+      "scale_force_percent_rotor_weight": 7.243437165152239,
+      "spin_energy_J": 124.49846540951722
+    },
+    {
+      "rim_velocity_ft_s": 860.0,
+      "rim_velocity_m_s": 262.128,
+      "omega_rad_s": 52425.6,
+      "rpm": 500627.60307350813,
+      "maximum_acceleration_m_s2": 0.7500541330376336,
+      "maximum_force_N": 0.003393164957969796,
+      "maximum_scale_normal_force_N": 0.0032513016391048023,
+      "apparent_mass_amplitude_g": 0.331540499467688,
+      "scale_force_percent_rotor_weight": 7.328654072977558,
+      "spin_energy_J": 127.44507268772165
+    },
+    {
+      "rim_velocity_ft_s": 870.0,
+      "rim_velocity_m_s": 265.176,
+      "omega_rad_s": 53035.2,
+      "rpm": 506448.8542720373,
+      "maximum_acceleration_m_s2": 0.7587756927241176,
+      "maximum_force_N": 0.0034326203644578167,
+      "maximum_scale_normal_force_N": 0.0032891074721176487,
+      "apparent_mass_amplitude_g": 0.3353956215545216,
+      "scale_force_percent_rotor_weight": 7.413870980802879,
+      "spin_energy_J": 130.42614320894606
+    },
+    {
+      "rim_velocity_ft_s": 880.0,
+      "rim_velocity_m_s": 268.224,
+      "omega_rad_s": 53644.799999999996,
+      "rpm": 512270.10547056637,
+      "maximum_acceleration_m_s2": 0.7674972524106017,
+      "maximum_force_N": 0.003472075770945838,
+      "maximum_scale_normal_force_N": 0.0033269133051304954,
+      "apparent_mass_amplitude_g": 0.33925074364135516,
+      "scale_force_percent_rotor_weight": 7.499087888628201,
+      "spin_energy_J": 133.44167697319043
+    },
+    {
+      "rim_velocity_ft_s": 890.0,
+      "rim_velocity_m_s": 271.272,
+      "omega_rad_s": 54254.399999999994,
+      "rpm": 518091.3566690955,
+      "maximum_acceleration_m_s2": 0.7762188120970858,
+      "maximum_force_N": 0.003511531177433858,
+      "maximum_scale_normal_force_N": 0.0033647191381433413,
+      "apparent_mass_amplitude_g": 0.3431058657281887,
+      "scale_force_percent_rotor_weight": 7.584304796453519,
+      "spin_energy_J": 136.49167398045472
+    },
+    {
+      "rim_velocity_ft_s": 900.0,
+      "rim_velocity_m_s": 274.32,
+      "omega_rad_s": 54864.0,
+      "rpm": 523912.6078676248,
+      "maximum_acceleration_m_s2": 0.78494037178357,
+      "maximum_force_N": 0.0035509865839218795,
+      "maximum_scale_normal_force_N": 0.0034025249711561885,
+      "apparent_mass_amplitude_g": 0.3469609878150223,
+      "scale_force_percent_rotor_weight": 7.669521704278841,
+      "spin_energy_J": 139.57613423073897
+    },
+    {
+      "rim_velocity_ft_s": 910.0,
+      "rim_velocity_m_s": 277.368,
+      "omega_rad_s": 55473.6,
+      "rpm": 529733.8590661539,
+      "maximum_acceleration_m_s2": 0.793661931470054,
+      "maximum_force_N": 0.0035904419904099,
+      "maximum_scale_normal_force_N": 0.003440330804169035,
+      "apparent_mass_amplitude_g": 0.3508161099018559,
+      "scale_force_percent_rotor_weight": 7.75473861210416,
+      "spin_energy_J": 142.69505772404315
+    },
+    {
+      "rim_velocity_ft_s": 920.0,
+      "rim_velocity_m_s": 280.416,
+      "omega_rad_s": 56083.2,
+      "rpm": 535555.1102646831,
+      "maximum_acceleration_m_s2": 0.8023834911565382,
+      "maximum_force_N": 0.003629897396897921,
+      "maximum_scale_normal_force_N": 0.0034781366371818816,
+      "apparent_mass_amplitude_g": 0.35467123198868955,
+      "scale_force_percent_rotor_weight": 7.8399555199294815,
+      "spin_energy_J": 145.84844446036723
+    },
+    {
+      "rim_velocity_ft_s": 930.0,
+      "rim_velocity_m_s": 283.464,
+      "omega_rad_s": 56692.799999999996,
+      "rpm": 541376.3614632122,
+      "maximum_acceleration_m_s2": 0.8111050508430222,
+      "maximum_force_N": 0.003669352803385942,
+      "maximum_scale_normal_force_N": 0.003515942470194728,
+      "apparent_mass_amplitude_g": 0.358526354075523,
+      "scale_force_percent_rotor_weight": 7.925172427754802,
+      "spin_energy_J": 149.03629443971127
+    },
+    {
+      "rim_velocity_ft_s": 940.0,
+      "rim_velocity_m_s": 286.512,
+      "omega_rad_s": 57302.4,
+      "rpm": 547197.6126617414,
+      "maximum_acceleration_m_s2": 0.8198266105295064,
+      "maximum_force_N": 0.0037088082098739633,
+      "maximum_scale_normal_force_N": 0.003553748303207575,
+      "apparent_mass_amplitude_g": 0.3623814761623567,
+      "scale_force_percent_rotor_weight": 8.010389335580124,
+      "spin_energy_J": 152.25860766207526
+    },
+    {
+      "rim_velocity_ft_s": 950.0,
+      "rim_velocity_m_s": 289.56,
+      "omega_rad_s": 57912.0,
+      "rpm": 553018.8638602706,
+      "maximum_acceleration_m_s2": 0.8285481702159905,
+      "maximum_force_N": 0.0037482636163619835,
+      "maximum_scale_normal_force_N": 0.003591554136220421,
+      "apparent_mass_amplitude_g": 0.36623659824919025,
+      "scale_force_percent_rotor_weight": 8.095606243405443,
+      "spin_energy_J": 155.51538412745919
+    },
+    {
+      "rim_velocity_ft_s": 960.0,
+      "rim_velocity_m_s": 292.608,
+      "omega_rad_s": 58521.6,
+      "rpm": 558840.1150587997,
+      "maximum_acceleration_m_s2": 0.8372697299024746,
+      "maximum_force_N": 0.0037877190228500046,
+      "maximum_scale_normal_force_N": 0.0036293599692332674,
+      "apparent_mass_amplitude_g": 0.3700917203360238,
+      "scale_force_percent_rotor_weight": 8.180823151230761,
+      "spin_energy_J": 158.806623835863
+    },
+    {
+      "rim_velocity_ft_s": 970.0,
+      "rim_velocity_m_s": 295.656,
+      "omega_rad_s": 59131.2,
+      "rpm": 564661.3662573289,
+      "maximum_acceleration_m_s2": 0.8459912895889586,
+      "maximum_force_N": 0.0038271744293380252,
+      "maximum_scale_normal_force_N": 0.0036671658022461137,
+      "apparent_mass_amplitude_g": 0.3739468424228573,
+      "scale_force_percent_rotor_weight": 8.266040059056083,
+      "spin_energy_J": 162.1323267872868
+    },
+    {
+      "rim_velocity_ft_s": 980.0,
+      "rim_velocity_m_s": 298.704,
+      "omega_rad_s": 59740.8,
+      "rpm": 570482.617455858,
+      "maximum_acceleration_m_s2": 0.8547128492754429,
+      "maximum_force_N": 0.0038666298358260467,
+      "maximum_scale_normal_force_N": 0.003704971635258961,
+      "apparent_mass_amplitude_g": 0.377801964509691,
+      "scale_force_percent_rotor_weight": 8.351256966881405,
+      "spin_energy_J": 165.49249298173052
+    },
+    {
+      "rim_velocity_ft_s": 990.0,
+      "rim_velocity_m_s": 301.752,
+      "omega_rad_s": 60350.4,
+      "rpm": 576303.8686543872,
+      "maximum_acceleration_m_s2": 0.863434408961927,
+      "maximum_force_N": 0.003906085242314068,
+      "maximum_scale_normal_force_N": 0.0037427774682718077,
+      "apparent_mass_amplitude_g": 0.3816570865965246,
+      "scale_force_percent_rotor_weight": 8.436473874706724,
+      "spin_energy_J": 168.88712241919418
+    },
+    {
+      "rim_velocity_ft_s": 1000.0,
+      "rim_velocity_m_s": 304.8,
+      "omega_rad_s": 60960.0,
+      "rpm": 582125.1198529165,
+      "maximum_acceleration_m_s2": 0.8721559686484112,
+      "maximum_force_N": 0.003945540648802088,
+      "maximum_scale_normal_force_N": 0.003780583301284654,
+      "apparent_mass_amplitude_g": 0.38551220868335817,
+      "scale_force_percent_rotor_weight": 8.521690782532046,
+      "spin_energy_J": 172.31621509967775
+    },
+    {
+      "rim_velocity_ft_s": 1010.0,
+      "rim_velocity_m_s": 307.848,
+      "omega_rad_s": 61569.6,
+      "rpm": 587946.3710514456,
+      "maximum_acceleration_m_s2": 0.8808775283348952,
+      "maximum_force_N": 0.0039849960552901095,
+      "maximum_scale_normal_force_N": 0.003818389134297501,
+      "apparent_mass_amplitude_g": 0.38936733077019176,
+      "scale_force_percent_rotor_weight": 8.606907690357367,
+      "spin_energy_J": 175.77977102318127
+    },
+    {
+      "rim_velocity_ft_s": 1020.0,
+      "rim_velocity_m_s": 310.896,
+      "omega_rad_s": 62179.200000000004,
+      "rpm": 593767.6222499748,
+      "maximum_acceleration_m_s2": 0.8895990880213793,
+      "maximum_force_N": 0.0040244514617781306,
+      "maximum_scale_normal_force_N": 0.0038561949673103476,
+      "apparent_mass_amplitude_g": 0.39322245285702534,
+      "scale_force_percent_rotor_weight": 8.692124598182687,
+      "spin_energy_J": 179.27779018970475
+    },
+    {
+      "rim_velocity_ft_s": 1030.0,
+      "rim_velocity_m_s": 313.944,
+      "omega_rad_s": 62788.8,
+      "rpm": 599588.8734485039,
+      "maximum_acceleration_m_s2": 0.8983206477078634,
+      "maximum_force_N": 0.004063906868266151,
+      "maximum_scale_normal_force_N": 0.0038940008003231935,
+      "apparent_mass_amplitude_g": 0.39707757494385887,
+      "scale_force_percent_rotor_weight": 8.777341506008005,
+      "spin_energy_J": 182.81027259924815
+    },
+    {
+      "rim_velocity_ft_s": 1040.0,
+      "rim_velocity_m_s": 316.992,
+      "omega_rad_s": 63398.4,
+      "rpm": 605410.124647033,
+      "maximum_acceleration_m_s2": 0.9070422073943475,
+      "maximum_force_N": 0.004103362274754172,
+      "maximum_scale_normal_force_N": 0.00393180663333604,
+      "apparent_mass_amplitude_g": 0.4009326970306925,
+      "scale_force_percent_rotor_weight": 8.862558413833327,
+      "spin_energy_J": 186.37721825181148
+    },
+    {
+      "rim_velocity_ft_s": 1050.0,
+      "rim_velocity_m_s": 320.04,
+      "omega_rad_s": 64008.0,
+      "rpm": 611231.3758455622,
+      "maximum_acceleration_m_s2": 0.9157637670808315,
+      "maximum_force_N": 0.004142817681242192,
+      "maximum_scale_normal_force_N": 0.003969612466348886,
+      "apparent_mass_amplitude_g": 0.404787819117526,
+      "scale_force_percent_rotor_weight": 8.947775321658645,
+      "spin_energy_J": 189.97862714739472
+    },
+    {
+      "rim_velocity_ft_s": 1060.0,
+      "rim_velocity_m_s": 323.088,
+      "omega_rad_s": 64617.600000000006,
+      "rpm": 617052.6270440915,
+      "maximum_acceleration_m_s2": 0.9244853267673159,
+      "maximum_force_N": 0.004182273087730214,
+      "maximum_scale_normal_force_N": 0.004007418299361734,
+      "apparent_mass_amplitude_g": 0.4086429412043597,
+      "scale_force_percent_rotor_weight": 9.032992229483968,
+      "spin_energy_J": 193.61449928599797
+    },
+    {
+      "rim_velocity_ft_s": 1070.0,
+      "rim_velocity_m_s": 326.136,
+      "omega_rad_s": 65227.200000000004,
+      "rpm": 622873.8782426206,
+      "maximum_acceleration_m_s2": 0.9332068864537999,
+      "maximum_force_N": 0.004221728494218235,
+      "maximum_scale_normal_force_N": 0.00404522413237458,
+      "apparent_mass_amplitude_g": 0.41249806329119326,
+      "scale_force_percent_rotor_weight": 9.11820913730929,
+      "spin_energy_J": 197.28483466762108
+    },
+    {
+      "rim_velocity_ft_s": 1080.0,
+      "rim_velocity_m_s": 329.184,
+      "omega_rad_s": 65836.8,
+      "rpm": 628695.1294411498,
+      "maximum_acceleration_m_s2": 0.941928446140284,
+      "maximum_force_N": 0.004261183900706256,
+      "maximum_scale_normal_force_N": 0.004083029965387427,
+      "apparent_mass_amplitude_g": 0.4163531853780269,
+      "scale_force_percent_rotor_weight": 9.203426045134613,
+      "spin_energy_J": 200.98963329226416
+    },
+    {
+      "rim_velocity_ft_s": 1090.0,
+      "rim_velocity_m_s": 332.232,
+      "omega_rad_s": 66446.40000000001,
+      "rpm": 634516.3806396789,
+      "maximum_acceleration_m_s2": 0.9506500058267683,
+      "maximum_force_N": 0.004300639307194277,
+      "maximum_scale_normal_force_N": 0.004120835798400274,
+      "apparent_mass_amplitude_g": 0.4202083074648605,
+      "scale_force_percent_rotor_weight": 9.28864295295993,
+      "spin_energy_J": 204.7288951599272
+    },
+    {
+      "rim_velocity_ft_s": 1100.0,
+      "rim_velocity_m_s": 335.28000000000003,
+      "omega_rad_s": 67056.0,
+      "rpm": 640337.6318382081,
+      "maximum_acceleration_m_s2": 0.9593715655132522,
+      "maximum_force_N": 0.004340094713682297,
+      "maximum_scale_normal_force_N": 0.004158641631413119,
+      "apparent_mass_amplitude_g": 0.42406342955169396,
+      "scale_force_percent_rotor_weight": 9.373859860785249,
+      "spin_energy_J": 208.5026202706101
+    },
+    {
+      "rim_velocity_ft_s": 1110.0,
+      "rim_velocity_m_s": 338.32800000000003,
+      "omega_rad_s": 67665.6,
+      "rpm": 646158.8830367373,
+      "maximum_acceleration_m_s2": 0.9680931251997364,
+      "maximum_force_N": 0.004379550120170318,
+      "maximum_scale_normal_force_N": 0.004196447464425966,
+      "apparent_mass_amplitude_g": 0.42791855163852754,
+      "scale_force_percent_rotor_weight": 9.45907676861057,
+      "spin_energy_J": 212.31080862431298
+    },
+    {
+      "rim_velocity_ft_s": 1120.0,
+      "rim_velocity_m_s": 341.37600000000003,
+      "omega_rad_s": 68275.20000000001,
+      "rpm": 651980.1342352665,
+      "maximum_acceleration_m_s2": 0.9768146848862206,
+      "maximum_force_N": 0.0044190055266583395,
+      "maximum_scale_normal_force_N": 0.004234253297438813,
+      "apparent_mass_amplitude_g": 0.43177367372536113,
+      "scale_force_percent_rotor_weight": 9.544293676435892,
+      "spin_energy_J": 216.15346022103586
+    },
+    {
+      "rim_velocity_ft_s": 1130.0,
+      "rim_velocity_m_s": 344.42400000000004,
+      "omega_rad_s": 68884.8,
+      "rpm": 657801.3854337955,
+      "maximum_acceleration_m_s2": 0.9855362445727046,
+      "maximum_force_N": 0.0044584609331463606,
+      "maximum_scale_normal_force_N": 0.00427205913045166,
+      "apparent_mass_amplitude_g": 0.4356287958121948,
+      "scale_force_percent_rotor_weight": 9.629510584261213,
+      "spin_energy_J": 220.03057506077852
+    },
+    {
+      "rim_velocity_ft_s": 1140.0,
+      "rim_velocity_m_s": 347.47200000000004,
+      "omega_rad_s": 69494.40000000001,
+      "rpm": 663622.6366323248,
+      "maximum_acceleration_m_s2": 0.9942578042591887,
+      "maximum_force_N": 0.004497916339634382,
+      "maximum_scale_normal_force_N": 0.004309864963464506,
+      "apparent_mass_amplitude_g": 0.43948391789902835,
+      "scale_force_percent_rotor_weight": 9.714727492086533,
+      "spin_energy_J": 223.94215314354128
+    },
+    {
+      "rim_velocity_ft_s": 1150.0,
+      "rim_velocity_m_s": 350.52000000000004,
+      "omega_rad_s": 70104.0,
+      "rpm": 669443.8878308538,
+      "maximum_acceleration_m_s2": 1.0029793639456728,
+      "maximum_force_N": 0.004537371746122402,
+      "maximum_scale_normal_force_N": 0.0043476707964773525,
+      "apparent_mass_amplitude_g": 0.4433390399858619,
+      "scale_force_percent_rotor_weight": 9.799944399911853,
+      "spin_energy_J": 227.88819446932382
+    },
+    {
+      "rim_velocity_ft_s": 1160.0,
+      "rim_velocity_m_s": 353.56800000000004,
+      "omega_rad_s": 70713.6,
+      "rpm": 675265.1390293831,
+      "maximum_acceleration_m_s2": 1.0117009236321568,
+      "maximum_force_N": 0.004576827152610422,
+      "maximum_scale_normal_force_N": 0.004385476629490198,
+      "apparent_mass_amplitude_g": 0.44719416207269536,
+      "scale_force_percent_rotor_weight": 9.885161307737171,
+      "spin_energy_J": 231.86869903812644
+    },
+    {
+      "rim_velocity_ft_s": 1170.0,
+      "rim_velocity_m_s": 356.61600000000004,
+      "omega_rad_s": 71323.20000000001,
+      "rpm": 681086.3902279123,
+      "maximum_acceleration_m_s2": 1.0204224833186413,
+      "maximum_force_N": 0.004616282559098445,
+      "maximum_scale_normal_force_N": 0.004423282462503047,
+      "apparent_mass_amplitude_g": 0.4510492841595292,
+      "scale_force_percent_rotor_weight": 9.970378215562498,
+      "spin_energy_J": 235.88366684994895
+    },
+    {
+      "rim_velocity_ft_s": 1180.0,
+      "rim_velocity_m_s": 359.66400000000004,
+      "omega_rad_s": 71932.8,
+      "rpm": 686907.6414264414,
+      "maximum_acceleration_m_s2": 1.029144043005125,
+      "maximum_force_N": 0.004655737965586464,
+      "maximum_scale_normal_force_N": 0.0044610882955158915,
+      "apparent_mass_amplitude_g": 0.45490440624636264,
+      "scale_force_percent_rotor_weight": 10.055595123387812,
+      "spin_energy_J": 239.9330979047913
+    },
+    {
+      "rim_velocity_ft_s": 1190.0,
+      "rim_velocity_m_s": 362.71200000000005,
+      "omega_rad_s": 72542.40000000001,
+      "rpm": 692728.8926249706,
+      "maximum_acceleration_m_s2": 1.0378656026916093,
+      "maximum_force_N": 0.004695193372074486,
+      "maximum_scale_normal_force_N": 0.004498894128528739,
+      "apparent_mass_amplitude_g": 0.4587595283331962,
+      "scale_force_percent_rotor_weight": 10.140812031213136,
+      "spin_energy_J": 244.01699220265374
+    },
+    {
+      "rim_velocity_ft_s": 1200.0,
+      "rim_velocity_m_s": 365.76,
+      "omega_rad_s": 73152.0,
+      "rpm": 698550.1438234997,
+      "maximum_acceleration_m_s2": 1.0465871623780933,
+      "maximum_force_N": 0.004734648778562506,
+      "maximum_scale_normal_force_N": 0.004536699961541585,
+      "apparent_mass_amplitude_g": 0.4626146504200298,
+      "scale_force_percent_rotor_weight": 10.226028939038455,
+      "spin_energy_J": 248.13534974353598
+    },
+    {
+      "rim_velocity_ft_s": 1210.0,
+      "rim_velocity_m_s": 368.808,
+      "omega_rad_s": 73761.59999999999,
+      "rpm": 704371.3950220287,
+      "maximum_acceleration_m_s2": 1.0553087220645774,
+      "maximum_force_N": 0.0047741041850505265,
+      "maximum_scale_normal_force_N": 0.0045745057945544305,
+      "apparent_mass_amplitude_g": 0.4664697725068633,
+      "scale_force_percent_rotor_weight": 10.311245846863773,
+      "spin_energy_J": 252.28817052743813
+    },
+    {
+      "rim_velocity_ft_s": 1220.0,
+      "rim_velocity_m_s": 371.856,
+      "omega_rad_s": 74371.2,
+      "rpm": 710192.646220558,
+      "maximum_acceleration_m_s2": 1.0640302817510614,
+      "maximum_force_N": 0.0048135595915385476,
+      "maximum_scale_normal_force_N": 0.004612311627567278,
+      "apparent_mass_amplitude_g": 0.4703248945936969,
+      "scale_force_percent_rotor_weight": 10.396462754689095,
+      "spin_energy_J": 256.47545455436034
+    },
+    {
+      "rim_velocity_ft_s": 1230.0,
+      "rim_velocity_m_s": 374.904,
+      "omega_rad_s": 74980.8,
+      "rpm": 716013.8974190871,
+      "maximum_acceleration_m_s2": 1.0727518414375457,
+      "maximum_force_N": 0.004853014998026569,
+      "maximum_scale_normal_force_N": 0.004650117460580124,
+      "apparent_mass_amplitude_g": 0.4741800166805305,
+      "scale_force_percent_rotor_weight": 10.481679662514415,
+      "spin_energy_J": 260.6972018243025
+    },
+    {
+      "rim_velocity_ft_s": 1240.0,
+      "rim_velocity_m_s": 377.952,
+      "omega_rad_s": 75590.4,
+      "rpm": 721835.1486176164,
+      "maximum_acceleration_m_s2": 1.0814734011240297,
+      "maximum_force_N": 0.004892470404514589,
+      "maximum_scale_normal_force_N": 0.00468792329359297,
+      "apparent_mass_amplitude_g": 0.47803513876736403,
+      "scale_force_percent_rotor_weight": 10.566896570339734,
+      "spin_energy_J": 264.95341233726447
+    },
+    {
+      "rim_velocity_ft_s": 1250.0,
+      "rim_velocity_m_s": 381.0,
+      "omega_rad_s": 76200.0,
+      "rpm": 727656.3998161455,
+      "maximum_acceleration_m_s2": 1.090194960810514,
+      "maximum_force_N": 0.004931925811002611,
+      "maximum_scale_normal_force_N": 0.0047257291266058175,
+      "apparent_mass_amplitude_g": 0.48189026085419767,
+      "scale_force_percent_rotor_weight": 10.652113478165056,
+      "spin_energy_J": 269.2440860932465
+    },
+    {
+      "rim_velocity_ft_s": 1260.0,
+      "rim_velocity_m_s": 384.048,
+      "omega_rad_s": 76809.6,
+      "rpm": 733477.6510146747,
+      "maximum_acceleration_m_s2": 1.0989165204969982,
+      "maximum_force_N": 0.004971381217490632,
+      "maximum_scale_normal_force_N": 0.004763534959618665,
+      "apparent_mass_amplitude_g": 0.48574538294103137,
+      "scale_force_percent_rotor_weight": 10.73733038599038,
+      "spin_energy_J": 273.5692230922484
+    },
+    {
+      "rim_velocity_ft_s": 1270.0,
+      "rim_velocity_m_s": 387.096,
+      "omega_rad_s": 77419.2,
+      "rpm": 739298.9022132038,
+      "maximum_acceleration_m_s2": 1.107638080183482,
+      "maximum_force_N": 0.005010836623978652,
+      "maximum_scale_normal_force_N": 0.00480134079263151,
+      "apparent_mass_amplitude_g": 0.4896005050278648,
+      "scale_force_percent_rotor_weight": 10.822547293815697,
+      "spin_energy_J": 277.92882333427025
+    },
+    {
+      "rim_velocity_ft_s": 1280.0,
+      "rim_velocity_m_s": 390.144,
+      "omega_rad_s": 78028.8,
+      "rpm": 745120.153411733,
+      "maximum_acceleration_m_s2": 1.1163596398699662,
+      "maximum_force_N": 0.005050292030466673,
+      "maximum_scale_normal_force_N": 0.004839146625644357,
+      "apparent_mass_amplitude_g": 0.4934556271146984,
+      "scale_force_percent_rotor_weight": 10.907764201641019,
+      "spin_energy_J": 282.3228868193121
+    },
+    {
+      "rim_velocity_ft_s": 1290.0,
+      "rim_velocity_m_s": 393.192,
+      "omega_rad_s": 78638.4,
+      "rpm": 750941.4046102621,
+      "maximum_acceleration_m_s2": 1.1250811995564503,
+      "maximum_force_N": 0.005089747436954694,
+      "maximum_scale_normal_force_N": 0.004876952458657204,
+      "apparent_mass_amplitude_g": 0.497310749201532,
+      "scale_force_percent_rotor_weight": 10.992981109466339,
+      "spin_energy_J": 286.7514135473737
+    },
+    {
+      "rim_velocity_ft_s": 1300.0,
+      "rim_velocity_m_s": 396.24,
+      "omega_rad_s": 79248.0,
+      "rpm": 756762.6558087913,
+      "maximum_acceleration_m_s2": 1.1338027592429345,
+      "maximum_force_N": 0.005129202843442715,
+      "maximum_scale_normal_force_N": 0.00491475829167005,
+      "apparent_mass_amplitude_g": 0.5011658712883656,
+      "scale_force_percent_rotor_weight": 11.078198017291658,
+      "spin_energy_J": 291.2144035184554
+    },
+    {
+      "rim_velocity_ft_s": 1310.0,
+      "rim_velocity_m_s": 399.288,
+      "omega_rad_s": 79857.6,
+      "rpm": 762583.9070073204,
+      "maximum_acceleration_m_s2": 1.1425243189294185,
+      "maximum_force_N": 0.005168658249930735,
+      "maximum_scale_normal_force_N": 0.004952564124682896,
+      "apparent_mass_amplitude_g": 0.5050209933751991,
+      "scale_force_percent_rotor_weight": 11.16341492511698,
+      "spin_energy_J": 295.71185673255707
+    },
+    {
+      "rim_velocity_ft_s": 1320.0,
+      "rim_velocity_m_s": 402.336,
+      "omega_rad_s": 80467.2,
+      "rpm": 768405.1582058497,
+      "maximum_acceleration_m_s2": 1.1512458786159028,
+      "maximum_force_N": 0.005208113656418757,
+      "maximum_scale_normal_force_N": 0.004990369957695744,
+      "apparent_mass_amplitude_g": 0.5088761154620327,
+      "scale_force_percent_rotor_weight": 11.2486318329423,
+      "spin_energy_J": 300.2437731896785
+    },
+    {
+      "rim_velocity_ft_s": 1330.0,
+      "rim_velocity_m_s": 405.384,
+      "omega_rad_s": 81076.8,
+      "rpm": 774226.4094043789,
+      "maximum_acceleration_m_s2": 1.1599674383023868,
+      "maximum_force_N": 0.0052475690629067775,
+      "maximum_scale_normal_force_N": 0.00502817579070859,
+      "apparent_mass_amplitude_g": 0.5127312375488663,
+      "scale_force_percent_rotor_weight": 11.333848740767621,
+      "spin_energy_J": 304.81015288982
+    },
+    {
+      "rim_velocity_ft_s": 1340.0,
+      "rim_velocity_m_s": 408.432,
+      "omega_rad_s": 81686.40000000001,
+      "rpm": 780047.6606029081,
+      "maximum_acceleration_m_s2": 1.168688997988871,
+      "maximum_force_N": 0.0052870244693947995,
+      "maximum_scale_normal_force_N": 0.005065981623721437,
+      "apparent_mass_amplitude_g": 0.5165863596357,
+      "scale_force_percent_rotor_weight": 11.419065648592943,
+      "spin_energy_J": 309.4109958329814
+    },
+    {
+      "rim_velocity_ft_s": 1350.0,
+      "rim_velocity_m_s": 411.48,
+      "omega_rad_s": 82296.0,
+      "rpm": 785868.9118014371,
+      "maximum_acceleration_m_s2": 1.1774105576753549,
+      "maximum_force_N": 0.005326479875882819,
+      "maximum_scale_normal_force_N": 0.005103787456734283,
+      "apparent_mass_amplitude_g": 0.5204414817225335,
+      "scale_force_percent_rotor_weight": 11.50428255641826,
+      "spin_energy_J": 314.04630201916274
+    },
+    {
+      "rim_velocity_ft_s": 1360.0,
+      "rim_velocity_m_s": 414.528,
+      "omega_rad_s": 82905.6,
+      "rpm": 791690.1629999663,
+      "maximum_acceleration_m_s2": 1.1861321173618393,
+      "maximum_force_N": 0.005365935282370842,
+      "maximum_scale_normal_force_N": 0.005141593289747131,
+      "apparent_mass_amplitude_g": 0.5242966038093673,
+      "scale_force_percent_rotor_weight": 11.589499464243584,
+      "spin_energy_J": 318.716071448364
+    },
+    {
+      "rim_velocity_ft_s": 1370.0,
+      "rim_velocity_m_s": 417.576,
+      "omega_rad_s": 83515.2,
+      "rpm": 797511.4141984954,
+      "maximum_acceleration_m_s2": 1.1948536770483231,
+      "maximum_force_N": 0.005405390688858861,
+      "maximum_scale_normal_force_N": 0.005179399122759976,
+      "apparent_mass_amplitude_g": 0.5281517258962007,
+      "scale_force_percent_rotor_weight": 11.674716372068902,
+      "spin_energy_J": 323.4203041205852
+    },
+    {
+      "rim_velocity_ft_s": 1380.0,
+      "rim_velocity_m_s": 420.624,
+      "omega_rad_s": 84124.8,
+      "rpm": 803332.6653970246,
+      "maximum_acceleration_m_s2": 1.2035752367348074,
+      "maximum_force_N": 0.005444846095346882,
+      "maximum_scale_normal_force_N": 0.0052172049557728225,
+      "apparent_mass_amplitude_g": 0.5320068479830343,
+      "scale_force_percent_rotor_weight": 11.759933279894224,
+      "spin_energy_J": 328.15900003582635
+    },
+    {
+      "rim_velocity_ft_s": 1390.0,
+      "rim_velocity_m_s": 423.672,
+      "omega_rad_s": 84734.40000000001,
+      "rpm": 809153.916595554,
+      "maximum_acceleration_m_s2": 1.2122967964212914,
+      "maximum_force_N": 0.005484301501834903,
+      "maximum_scale_normal_force_N": 0.00525501078878567,
+      "apparent_mass_amplitude_g": 0.5358619700698679,
+      "scale_force_percent_rotor_weight": 11.845150187719543,
+      "spin_energy_J": 332.9321591940875
+    },
+    {
+      "rim_velocity_ft_s": 1400.0,
+      "rim_velocity_m_s": 426.72,
+      "omega_rad_s": 85344.0,
+      "rpm": 814975.167794083,
+      "maximum_acceleration_m_s2": 1.2210183561077756,
+      "maximum_force_N": 0.005523756908322924,
+      "maximum_scale_normal_force_N": 0.005292816621798516,
+      "apparent_mass_amplitude_g": 0.5397170921567014,
+      "scale_force_percent_rotor_weight": 11.930367095544865,
+      "spin_energy_J": 337.7397815953684
+    },
+    {
+      "rim_velocity_ft_s": 1410.0,
+      "rim_velocity_m_s": 429.76800000000003,
+      "omega_rad_s": 85953.6,
+      "rpm": 820796.4189926122,
+      "maximum_acceleration_m_s2": 1.2297399157942597,
+      "maximum_force_N": 0.005563212314810944,
+      "maximum_scale_normal_force_N": 0.0053306224548113615,
+      "apparent_mass_amplitude_g": 0.5435722142435349,
+      "scale_force_percent_rotor_weight": 12.015584003370183,
+      "spin_energy_J": 342.5818672396694
+    },
+    {
+      "rim_velocity_ft_s": 1420.0,
+      "rim_velocity_m_s": 432.81600000000003,
+      "omega_rad_s": 86563.20000000001,
+      "rpm": 826617.6701911414,
+      "maximum_acceleration_m_s2": 1.238461475480744,
+      "maximum_force_N": 0.005602667721298966,
+      "maximum_scale_normal_force_N": 0.0053684282878242095,
+      "apparent_mass_amplitude_g": 0.5474273363303687,
+      "scale_force_percent_rotor_weight": 12.100800911195506,
+      "spin_energy_J": 347.4584161269903
+    },
+    {
+      "rim_velocity_ft_s": 1430.0,
+      "rim_velocity_m_s": 435.86400000000003,
+      "omega_rad_s": 87172.8,
+      "rpm": 832438.9213896705,
+      "maximum_acceleration_m_s2": 1.2471830351672277,
+      "maximum_force_N": 0.005642123127786986,
+      "maximum_scale_normal_force_N": 0.005406234120837054,
+      "apparent_mass_amplitude_g": 0.551282458417202,
+      "scale_force_percent_rotor_weight": 12.186017819020822,
+      "spin_energy_J": 352.36942825733104
+    },
+    {
+      "rim_velocity_ft_s": 1440.0,
+      "rim_velocity_m_s": 438.91200000000003,
+      "omega_rad_s": 87782.40000000001,
+      "rpm": 838260.1725881997,
+      "maximum_acceleration_m_s2": 1.2559045948537122,
+      "maximum_force_N": 0.005681578534275008,
+      "maximum_scale_normal_force_N": 0.005444039953849903,
+      "apparent_mass_amplitude_g": 0.5551375805040358,
+      "scale_force_percent_rotor_weight": 12.27123472684615,
+      "spin_energy_J": 357.31490363069184
+    },
+    {
+      "rim_velocity_ft_s": 1450.0,
+      "rim_velocity_m_s": 441.96000000000004,
+      "omega_rad_s": 88392.0,
+      "rpm": 844081.4237867288,
+      "maximum_acceleration_m_s2": 1.2646261545401962,
+      "maximum_force_N": 0.005721033940763029,
+      "maximum_scale_normal_force_N": 0.0054818457868627485,
+      "apparent_mass_amplitude_g": 0.5589927025908693,
+      "scale_force_percent_rotor_weight": 12.356451634671467,
+      "spin_energy_J": 362.2948422470725
+    },
+    {
+      "rim_velocity_ft_s": 1460.0,
+      "rim_velocity_m_s": 445.00800000000004,
+      "omega_rad_s": 89001.6,
+      "rpm": 849902.6749852579,
+      "maximum_acceleration_m_s2": 1.2733477142266802,
+      "maximum_force_N": 0.00576048934725105,
+      "maximum_scale_normal_force_N": 0.005519651619875596,
+      "apparent_mass_amplitude_g": 0.562847824677703,
+      "scale_force_percent_rotor_weight": 12.441668542496789,
+      "spin_energy_J": 367.30924410647316
+    },
+    {
+      "rim_velocity_ft_s": 1470.0,
+      "rim_velocity_m_s": 448.05600000000004,
+      "omega_rad_s": 89611.20000000001,
+      "rpm": 855723.9261837873,
+      "maximum_acceleration_m_s2": 1.2820692739131645,
+      "maximum_force_N": 0.005799944753739071,
+      "maximum_scale_normal_force_N": 0.005557457452888442,
+      "apparent_mass_amplitude_g": 0.5667029467645366,
+      "scale_force_percent_rotor_weight": 12.526885450322109,
+      "spin_energy_J": 372.3581092088938
+    },
+    {
+      "rim_velocity_ft_s": 1480.0,
+      "rim_velocity_m_s": 451.10400000000004,
+      "omega_rad_s": 90220.8,
+      "rpm": 861545.1773823163,
+      "maximum_acceleration_m_s2": 1.2907908335996485,
+      "maximum_force_N": 0.005839400160227091,
+      "maximum_scale_normal_force_N": 0.005595263285901288,
+      "apparent_mass_amplitude_g": 0.5705580688513702,
+      "scale_force_percent_rotor_weight": 12.612102358147428,
+      "spin_energy_J": 377.4414375543342
+    },
+    {
+      "rim_velocity_ft_s": 1490.0,
+      "rim_velocity_m_s": 454.15200000000004,
+      "omega_rad_s": 90830.40000000001,
+      "rpm": 867366.4285808456,
+      "maximum_acceleration_m_s2": 1.2995123932861328,
+      "maximum_force_N": 0.005878855566715113,
+      "maximum_scale_normal_force_N": 0.005633069118914136,
+      "apparent_mass_amplitude_g": 0.5744131909382038,
+      "scale_force_percent_rotor_weight": 12.697319265972752,
+      "spin_energy_J": 382.55922914279466
+    },
+    {
+      "rim_velocity_ft_s": 1500.0,
+      "rim_velocity_m_s": 457.20000000000005,
+      "omega_rad_s": 91440.0,
+      "rpm": 873187.6797793746,
+      "maximum_acceleration_m_s2": 1.3082339529726166,
+      "maximum_force_N": 0.005918310973203132,
+      "maximum_scale_normal_force_N": 0.005670874951926981,
+      "apparent_mass_amplitude_g": 0.5782683130250372,
+      "scale_force_percent_rotor_weight": 12.782536173798068,
+      "spin_energy_J": 387.7114839742749
+    },
+    {
+      "rim_velocity_ft_s": 1510.0,
+      "rim_velocity_m_s": 460.24800000000005,
+      "omega_rad_s": 92049.6,
+      "rpm": 879008.9309779038,
+      "maximum_acceleration_m_s2": 1.3169555126591008,
+      "maximum_force_N": 0.005957766379691154,
+      "maximum_scale_normal_force_N": 0.005708680784939828,
+      "apparent_mass_amplitude_g": 0.5821234351118708,
+      "scale_force_percent_rotor_weight": 12.86775308162339,
+      "spin_energy_J": 392.8982020487753
+    },
+    {
+      "rim_velocity_ft_s": 1520.0,
+      "rim_velocity_m_s": 463.29600000000005,
+      "omega_rad_s": 92659.20000000001,
+      "rpm": 884830.182176433,
+      "maximum_acceleration_m_s2": 1.325677072345585,
+      "maximum_force_N": 0.005997221786179175,
+      "maximum_scale_normal_force_N": 0.005746486617952675,
+      "apparent_mass_amplitude_g": 0.5859785571987044,
+      "scale_force_percent_rotor_weight": 12.95296998944871,
+      "spin_energy_J": 398.1193833662956
+    },
+    {
+      "rim_velocity_ft_s": 1530.0,
+      "rim_velocity_m_s": 466.34400000000005,
+      "omega_rad_s": 93268.8,
+      "rpm": 890651.4333749621,
+      "maximum_acceleration_m_s2": 1.334398632032069,
+      "maximum_force_N": 0.006036677192667195,
+      "maximum_scale_normal_force_N": 0.005784292450965521,
+      "apparent_mass_amplitude_g": 0.589833679285538,
+      "scale_force_percent_rotor_weight": 13.038186897274029,
+      "spin_energy_J": 403.3750279268357
+    },
+    {
+      "rim_velocity_ft_s": 1540.0,
+      "rim_velocity_m_s": 469.392,
+      "omega_rad_s": 93878.4,
+      "rpm": 896472.6845734912,
+      "maximum_acceleration_m_s2": 1.343120191718553,
+      "maximum_force_N": 0.006076132599155216,
+      "maximum_scale_normal_force_N": 0.005822098283978366,
+      "apparent_mass_amplitude_g": 0.5936888013723715,
+      "scale_force_percent_rotor_weight": 13.123403805099349,
+      "spin_energy_J": 408.6651357303957
+    },
+    {
+      "rim_velocity_ft_s": 1550.0,
+      "rim_velocity_m_s": 472.44,
+      "omega_rad_s": 94488.0,
+      "rpm": 902293.9357720204,
+      "maximum_acceleration_m_s2": 1.3518417514050372,
+      "maximum_force_N": 0.006115588005643237,
+      "maximum_scale_normal_force_N": 0.005859904116991214,
+      "apparent_mass_amplitude_g": 0.5975439234592052,
+      "scale_force_percent_rotor_weight": 13.20862071292467,
+      "spin_energy_J": 413.9897067769758
+    },
+    {
+      "rim_velocity_ft_s": 1560.0,
+      "rim_velocity_m_s": 475.488,
+      "omega_rad_s": 95097.59999999999,
+      "rpm": 908115.1869705494,
+      "maximum_acceleration_m_s2": 1.3605633110915212,
+      "maximum_force_N": 0.006155043412131257,
+      "maximum_scale_normal_force_N": 0.005897709950004059,
+      "apparent_mass_amplitude_g": 0.6013990455460386,
+      "scale_force_percent_rotor_weight": 13.293837620749988,
+      "spin_energy_J": 419.3487410665757
+    },
+    {
+      "rim_velocity_ft_s": 1570.0,
+      "rim_velocity_m_s": 478.536,
+      "omega_rad_s": 95707.2,
+      "rpm": 913936.4381690788,
+      "maximum_acceleration_m_s2": 1.3692848707780054,
+      "maximum_force_N": 0.006194498818619279,
+      "maximum_scale_normal_force_N": 0.005935515783016907,
+      "apparent_mass_amplitude_g": 0.6052541676328724,
+      "scale_force_percent_rotor_weight": 13.379054528575313,
+      "spin_energy_J": 424.74223859919573
+    },
+    {
+      "rim_velocity_ft_s": 1580.0,
+      "rim_velocity_m_s": 481.584,
+      "omega_rad_s": 96316.8,
+      "rpm": 919757.6893676079,
+      "maximum_acceleration_m_s2": 1.3780064304644895,
+      "maximum_force_N": 0.006233954225107299,
+      "maximum_scale_normal_force_N": 0.005973321616029753,
+      "apparent_mass_amplitude_g": 0.6091092897197058,
+      "scale_force_percent_rotor_weight": 13.46427143640063,
+      "spin_energy_J": 430.17019937483553
+    },
+    {
+      "rim_velocity_ft_s": 1590.0,
+      "rim_velocity_m_s": 484.632,
+      "omega_rad_s": 96926.4,
+      "rpm": 925578.9405661371,
+      "maximum_acceleration_m_s2": 1.3867279901509735,
+      "maximum_force_N": 0.00627340963159532,
+      "maximum_scale_normal_force_N": 0.0060111274490426,
+      "apparent_mass_amplitude_g": 0.6129644118065394,
+      "scale_force_percent_rotor_weight": 13.549488344225951,
+      "spin_energy_J": 435.6326233934953
+    },
+    {
+      "rim_velocity_ft_s": 1600.0,
+      "rim_velocity_m_s": 487.68,
+      "omega_rad_s": 97536.0,
+      "rpm": 931400.1917646662,
+      "maximum_acceleration_m_s2": 1.3954495498374577,
+      "maximum_force_N": 0.006312865038083341,
+      "maximum_scale_normal_force_N": 0.006048933282055446,
+      "apparent_mass_amplitude_g": 0.616819533893373,
+      "scale_force_percent_rotor_weight": 13.63470525205127,
+      "spin_energy_J": 441.12951065517507
+    }
+  ],
+  "sidereal_sweep": [
+    {
+      "local_sidereal_hour": 0.0,
+      "vertical_force_up_N_positive_spin": 0.0009760086637039649,
+      "apparent_mass_shift_g_positive_spin": -0.09952518583858555,
+      "apparent_mass_shift_g_negative_spin": 0.09952518583858555,
+      "full_reversal_difference_g": -0.1990503716771711
+    },
+    {
+      "local_sidereal_hour": 0.125,
+      "vertical_force_up_N_positive_spin": 0.0007801638568525806,
+      "apparent_mass_shift_g_positive_spin": -0.07955457336119681,
+      "apparent_mass_shift_g_negative_spin": 0.07955457336119681,
+      "full_reversal_difference_g": -0.15910914672239362
+    },
+    {
+      "local_sidereal_hour": 0.25,
+      "vertical_force_up_N_positive_spin": 0.0005834836310023046,
+      "apparent_mass_shift_g_positive_spin": -0.0594987718540281,
+      "apparent_mass_shift_g_negative_spin": 0.0594987718540281,
+      "full_reversal_difference_g": -0.1189975437080562
+    },
+    {
+      "local_sidereal_hour": 0.375,
+      "vertical_force_up_N_positive_spin": 0.00038617859626528003,
+      "apparent_mass_shift_g_positive_spin": -0.03937925757167637,
+      "apparent_mass_shift_g_negative_spin": 0.03937925757167637,
+      "full_reversal_difference_g": -0.07875851514335273
+    },
+    {
+      "local_sidereal_hour": 0.5,
+      "vertical_force_up_N_positive_spin": 0.0001884600318146557,
+      "apparent_mass_shift_g_positive_spin": -0.01921757499397406,
+      "apparent_mass_shift_g_negative_spin": 0.01921757499397406,
+      "full_reversal_difference_g": -0.03843514998794812
+    },
+    {
+      "local_sidereal_hour": 0.625,
+      "vertical_force_up_N_positive_spin": -9.46034035844502e-06,
+      "apparent_mass_shift_g_positive_spin": 0.0009646862443795812,
+      "apparent_mass_shift_g_negative_spin": -0.0009646862443795812,
+      "full_reversal_difference_g": 0.0019293724887591624
+    },
+    {
+      "local_sidereal_hour": 0.75,
+      "vertical_force_up_N_positive_spin": -0.00020737058216213408,
+      "apparent_mass_shift_g_positive_spin": 0.02114591447253997,
+      "apparent_mass_shift_g_negative_spin": -0.02114591447253997,
+      "full_reversal_difference_g": 0.04229182894507994
+    },
+    {
+      "local_sidereal_hour": 0.875,
+      "vertical_force_up_N_positive_spin": -0.00040505876635237714,
+      "apparent_mass_shift_g_positive_spin": 0.04130449912583575,
+      "apparent_mass_shift_g_negative_spin": -0.04130449912583575,
+      "full_reversal_difference_g": 0.0826089982516715
+    },
+    {
+      "local_sidereal_hour": 1.0,
+      "vertical_force_up_N_positive_spin": -0.0006023132034699945,
+      "apparent_mass_shift_g_positive_spin": 0.06141885388690271,
+      "apparent_mass_shift_g_negative_spin": -0.06141885388690271,
+      "full_reversal_difference_g": 0.12283770777380543
+    },
+    {
+      "local_sidereal_hour": 1.125,
+      "vertical_force_up_N_positive_spin": -0.0007989226685230354,
+      "apparent_mass_shift_g_positive_spin": 0.08146743980085304,
+      "apparent_mass_shift_g_negative_spin": -0.08146743980085304,
+      "full_reversal_difference_g": 0.16293487960170608
+    },
+    {
+      "local_sidereal_hour": 1.25,
+      "vertical_force_up_N_positive_spin": -0.0009946766271717916,
+      "apparent_mass_shift_g_positive_spin": 0.1014287883397278,
+      "apparent_mass_shift_g_negative_spin": -0.1014287883397278,
+      "full_reversal_difference_g": 0.2028575766794556
+    },
+    {
+      "local_sidereal_hour": 1.375,
+      "vertical_force_up_N_positive_spin": -0.0011893654611742385,
+      "apparent_mass_shift_g_positive_spin": 0.12128152439153418,
+      "apparent_mass_shift_g_negative_spin": -0.12128152439153418,
+      "full_reversal_difference_g": 0.24256304878306836
+    },
+    {
+      "local_sidereal_hour": 1.5,
+      "vertical_force_up_N_positive_spin": -0.0013827806928505047,
+      "apparent_mass_shift_g_positive_spin": 0.14100438914925126,
+      "apparent_mass_shift_g_negative_spin": -0.14100438914925126,
+      "full_reversal_difference_g": 0.2820087782985025
+    },
+    {
+      "local_sidereal_hour": 1.625,
+      "vertical_force_up_N_positive_spin": -0.0015747152083259864,
+      "apparent_mass_shift_g_positive_spin": 0.16057626287529242,
+      "apparent_mass_shift_g_negative_spin": -0.16057626287529242,
+      "full_reversal_difference_g": 0.32115252575058484
+    },
+    {
+      "local_sidereal_hour": 1.75,
+      "vertical_force_up_N_positive_spin": -0.0017649634793140778,
+      "apparent_mass_shift_g_positive_spin": 0.17997618751704994,
+      "apparent_mass_shift_g_negative_spin": -0.17997618751704994,
+      "full_reversal_difference_g": 0.3599523750340999
+    },
+    {
+      "local_sidereal_hour": 1.875,
+      "vertical_force_up_N_positive_spin": -0.001953321783201005,
+      "apparent_mass_shift_g_positive_spin": 0.19918338914930225,
+      "apparent_mass_shift_g_negative_spin": -0.19918338914930225,
+      "full_reversal_difference_g": 0.3983667782986045
+    },
+    {
+      "local_sidereal_hour": 2.0,
+      "vertical_force_up_N_positive_spin": -0.0021395884211971054,
+      "apparent_mass_shift_g_positive_spin": 0.2181773002194537,
+      "apparent_mass_shift_g_negative_spin": -0.2181773002194537,
+      "full_reversal_difference_g": 0.4363546004389074
+    },
+    {
+      "local_sidereal_hour": 2.125,
+      "vertical_force_up_N_positive_spin": -0.002323563934320942,
+      "apparent_mass_shift_g_positive_spin": 0.23693758157178468,
+      "apparent_mass_shift_g_negative_spin": -0.23693758157178468,
+      "full_reversal_difference_g": 0.47387516314356937
+    },
+    {
+      "local_sidereal_hour": 2.25,
+      "vertical_force_up_N_positive_spin": -0.002505051316984977,
+      "apparent_mass_shift_g_positive_spin": 0.25544414422712924,
+      "apparent_mass_shift_g_negative_spin": -0.25544414422712924,
+      "full_reversal_difference_g": 0.5108882884542585
+    },
+    {
+      "local_sidereal_hour": 2.375,
+      "vertical_force_up_N_positive_spin": -0.0026838562279540906,
+      "apparent_mass_shift_g_positive_spin": 0.27367717089465726,
+      "apparent_mass_shift_g_negative_spin": -0.27367717089465726,
+      "full_reversal_difference_g": 0.5473543417893145
+    },
+    {
+      "local_sidereal_hour": 2.5,
+      "vertical_force_up_N_positive_spin": -0.002859787198451044,
+      "apparent_mass_shift_g_positive_spin": 0.2916171371927258,
+      "apparent_mass_shift_g_negative_spin": -0.2916171371927258,
+      "full_reversal_difference_g": 0.5832342743854516
+    },
+    {
+      "local_sidereal_hour": 2.625,
+      "vertical_force_up_N_positive_spin": -0.003032655837186036,
+      "apparent_mass_shift_g_positive_spin": 0.3092448325560754,
+      "apparent_mass_shift_g_negative_spin": -0.3092448325560754,
+      "full_reversal_difference_g": 0.6184896651121508
+    },
+    {
+      "local_sidereal_hour": 2.75,
+      "vertical_force_up_N_positive_spin": -0.0032022770320908247,
+      "apparent_mass_shift_g_positive_spin": 0.3265413808069856,
+      "apparent_mass_shift_g_negative_spin": -0.3265413808069856,
+      "full_reversal_difference_g": 0.6530827616139712
+    },
+    {
+      "local_sidereal_hour": 2.875,
+      "vertical_force_up_N_positive_spin": -0.003368469148541357,
+      "apparent_mass_shift_g_positive_spin": 0.34348826036835794,
+      "apparent_mass_shift_g_negative_spin": -0.34348826036835794,
+      "full_reversal_difference_g": 0.6869765207367159
+    },
+    {
+      "local_sidereal_hour": 3.0,
+      "vertical_force_up_N_positive_spin": -0.0035310542238566798,
+      "apparent_mass_shift_g_positive_spin": 0.36006732409708514,
+      "apparent_mass_shift_g_negative_spin": -0.36006732409708514,
+      "full_reversal_difference_g": 0.7201346481941703
+    },
+    {
+      "local_sidereal_hour": 3.125,
+      "vertical_force_up_N_positive_spin": -0.0036898581578658327,
+      "apparent_mass_shift_g_positive_spin": 0.37626081871646616,
+      "apparent_mass_shift_g_negative_spin": -0.37626081871646616,
+      "full_reversal_difference_g": 0.7525216374329323
+    },
+    {
+      "local_sidereal_hour": 3.25,
+      "vertical_force_up_N_positive_spin": -0.0038447108993386737,
+      "apparent_mass_shift_g_positive_spin": 0.3920514038268597,
+      "apparent_mass_shift_g_negative_spin": -0.3920514038268597,
+      "full_reversal_difference_g": 0.7841028076537194
+    },
+    {
+      "local_sidereal_hour": 3.375,
+      "vertical_force_up_N_positive_spin": -0.003995446628080996,
+      "apparent_mass_shift_g_positive_spin": 0.40742217047421864,
+      "apparent_mass_shift_g_negative_spin": -0.40742217047421864,
+      "full_reversal_difference_g": 0.8148443409484373
+    },
+    {
+      "local_sidereal_hour": 3.5,
+      "vertical_force_up_N_positive_spin": -0.004141903932498944,
+      "apparent_mass_shift_g_positive_spin": 0.42235665925662125,
+      "apparent_mass_shift_g_negative_spin": -0.42235665925662125,
+      "full_reversal_difference_g": 0.8447133185132425
+    },
+    {
+      "local_sidereal_hour": 3.625,
+      "vertical_force_up_N_positive_spin": -0.004283925982442591,
+      "apparent_mass_shift_g_positive_spin": 0.43683887794941095,
+      "apparent_mass_shift_g_negative_spin": -0.43683887794941095,
+      "full_reversal_difference_g": 0.8736777558988219
+    },
+    {
+      "local_sidereal_hour": 3.75,
+      "vertical_force_up_N_positive_spin": -0.004421360697143591,
+      "apparent_mass_shift_g_positive_spin": 0.45085331863007155,
+      "apparent_mass_shift_g_negative_spin": -0.45085331863007155,
+      "full_reversal_difference_g": 0.9017066372601431
+    },
+    {
+      "local_sidereal_hour": 3.875,
+      "vertical_force_up_N_positive_spin": -0.004554060908067085,
+      "apparent_mass_shift_g_positive_spin": 0.4643849742844993,
+      "apparent_mass_shift_g_negative_spin": -0.4643849742844993,
+      "full_reversal_difference_g": 0.9287699485689986
+    },
+    {
+      "local_sidereal_hour": 4.0,
+      "vertical_force_up_N_positive_spin": -0.00468188451650343,
+      "apparent_mass_shift_g_positive_spin": 0.4774193548768877,
+      "apparent_mass_shift_g_negative_spin": -0.4774193548768877,
+      "full_reversal_difference_g": 0.9548387097537754
+    },
+    {
+      "local_sidereal_hour": 4.125,
+      "vertical_force_up_N_positive_spin": -0.004804694645731086,
+      "apparent_mass_shift_g_positive_spin": 0.4899425028660232,
+      "apparent_mass_shift_g_negative_spin": -0.4899425028660232,
+      "full_reversal_difference_g": 0.9798850057320464
+    },
+    {
+      "local_sidereal_hour": 4.25,
+      "vertical_force_up_N_positive_spin": -0.0049223597875876135,
+      "apparent_mass_shift_g_positive_spin": 0.501941008151368,
+      "apparent_mass_shift_g_negative_spin": -0.501941008151368,
+      "full_reversal_difference_g": 1.003882016302736
+    },
+    {
+      "local_sidereal_hour": 4.375,
+      "vertical_force_up_N_positive_spin": -0.005034753943291924,
+      "apparent_mass_shift_g_positive_spin": 0.5134020224329332,
+      "apparent_mass_shift_g_negative_spin": -0.5134020224329332,
+      "full_reversal_difference_g": 1.0268040448658664
+    },
+    {
+      "local_sidereal_hour": 4.5,
+      "vertical_force_up_N_positive_spin": -0.005141756758366923,
+      "apparent_mass_shift_g_positive_spin": 0.5243132729695588,
+      "apparent_mass_shift_g_negative_spin": -0.5243132729695588,
+      "full_reversal_difference_g": 1.0486265459391175
+    },
+    {
+      "local_sidereal_hour": 4.625,
+      "vertical_force_up_N_positive_spin": -0.0052432536515181,
+      "apparent_mass_shift_g_positive_spin": 0.534663075720873,
+      "apparent_mass_shift_g_negative_spin": -0.534663075720873,
+      "full_reversal_difference_g": 1.069326151441746
+    },
+    {
+      "local_sidereal_hour": 4.75,
+      "vertical_force_up_N_positive_spin": -0.005339135937330047,
+      "apparent_mass_shift_g_positive_spin": 0.5444403478588558,
+      "apparent_mass_shift_g_negative_spin": -0.5444403478588558,
+      "full_reversal_difference_g": 1.0888806957177115
+    },
+    {
+      "local_sidereal_hour": 4.875,
+      "vertical_force_up_N_positive_spin": -0.005429300942649529,
+      "apparent_mass_shift_g_positive_spin": 0.5536346196356075,
+      "apparent_mass_shift_g_negative_spin": -0.5536346196356075,
+      "full_reversal_difference_g": 1.107269239271215
+    },
+    {
+      "local_sidereal_hour": 5.0,
+      "vertical_force_up_N_positive_spin": -0.005513652116530463,
+      "apparent_mass_shift_g_positive_spin": 0.5622360455946183,
+      "apparent_mass_shift_g_negative_spin": -0.5622360455946183,
+      "full_reversal_difference_g": 1.1244720911892365
+    },
+    {
+      "local_sidereal_hour": 5.125,
+      "vertical_force_up_N_positive_spin": -0.005592099133623089,
+      "apparent_mass_shift_g_positive_spin": 0.570235415113529,
+      "apparent_mass_shift_g_negative_spin": -0.570235415113529,
+      "full_reversal_difference_g": 1.140470830227058
+    },
+    {
+      "local_sidereal_hour": 5.25,
+      "vertical_force_up_N_positive_spin": -0.005664557990896622,
+      "apparent_mass_shift_g_positive_spin": 0.5776241622670966,
+      "apparent_mass_shift_g_negative_spin": -0.5776241622670966,
+      "full_reversal_difference_g": 1.1552483245341931
+    },
+    {
+      "local_sidereal_hour": 5.375,
+      "vertical_force_up_N_positive_spin": -0.005730951097591797,
+      "apparent_mass_shift_g_positive_spin": 0.5843943749998008,
+      "apparent_mass_shift_g_negative_spin": -0.5843943749998008,
+      "full_reversal_difference_g": 1.1687887499996017
+    },
+    {
+      "local_sidereal_hour": 5.5,
+      "vertical_force_up_N_positive_spin": -0.005791207358306999,
+      "apparent_mass_shift_g_positive_spin": 0.5905388035982725,
+      "apparent_mass_shift_g_negative_spin": -0.5905388035982725,
+      "full_reversal_difference_g": 1.181077607196545
+    },
+    {
+      "local_sidereal_hour": 5.625,
+      "vertical_force_up_N_positive_spin": -0.005845262249128999,
+      "apparent_mass_shift_g_positive_spin": 0.5960508684544671,
+      "apparent_mass_shift_g_negative_spin": -0.5960508684544671,
+      "full_reversal_difference_g": 1.1921017369089342
+    },
+    {
+      "local_sidereal_hour": 5.75,
+      "vertical_force_up_N_positive_spin": -0.005893057886726776,
+      "apparent_mass_shift_g_positive_spin": 0.6009246671112741,
+      "apparent_mass_shift_g_negative_spin": -0.6009246671112741,
+      "full_reversal_difference_g": 1.2018493342225482
+    },
+    {
+      "local_sidereal_hour": 5.875,
+      "vertical_force_up_N_positive_spin": -0.005934543090334444,
+      "apparent_mass_shift_g_positive_spin": 0.6051549805830171,
+      "apparent_mass_shift_g_negative_spin": -0.6051549805830171,
+      "full_reversal_difference_g": 1.2103099611660342
+    },
+    {
+      "local_sidereal_hour": 6.0,
+      "vertical_force_up_N_positive_spin": -0.005969673436556884,
+      "apparent_mass_shift_g_positive_spin": 0.608737278944072,
+      "apparent_mass_shift_g_negative_spin": -0.608737278944072,
+      "full_reversal_difference_g": 1.217474557888144
+    },
+    {
+      "local_sidereal_hour": 6.125,
+      "vertical_force_up_N_positive_spin": -0.005998411306939446,
+      "apparent_mass_shift_g_positive_spin": 0.6116677261796277,
+      "apparent_mass_shift_g_negative_spin": -0.6116677261796277,
+      "full_reversal_difference_g": 1.2233354523592554
+    },
+    {
+      "local_sidereal_hour": 6.25,
+      "vertical_force_up_N_positive_spin": -0.006020725928250716,
+      "apparent_mass_shift_g_positive_spin": 0.6139431842933842,
+      "apparent_mass_shift_g_negative_spin": -0.6139431842933842,
+      "full_reversal_difference_g": 1.2278863685867685
+    },
+    {
+      "local_sidereal_hour": 6.375,
+      "vertical_force_up_N_positive_spin": -0.006036593405435276,
+      "apparent_mass_shift_g_positive_spin": 0.6155612166677996,
+      "apparent_mass_shift_g_negative_spin": -0.6155612166677996,
+      "full_reversal_difference_g": 1.2311224333355992
+    },
+    {
+      "local_sidereal_hour": 6.5,
+      "vertical_force_up_N_positive_spin": -0.0060459967472011175,
+      "apparent_mass_shift_g_positive_spin": 0.6165200906732796,
+      "apparent_mass_shift_g_negative_spin": -0.6165200906732796,
+      "full_reversal_difference_g": 1.2330401813465592
+    },
+    {
+      "local_sidereal_hour": 6.625,
+      "vertical_force_up_N_positive_spin": -0.006048925884214352,
+      "apparent_mass_shift_g_positive_spin": 0.6168187795235226,
+      "apparent_mass_shift_g_negative_spin": -0.6168187795235226,
+      "full_reversal_difference_g": 1.2336375590470452
+    },
+    {
+      "local_sidereal_hour": 6.75,
+      "vertical_force_up_N_positive_spin": -0.006045377679881697,
+      "apparent_mass_shift_g_positive_spin": 0.6164569633750259,
+      "apparent_mass_shift_g_negative_spin": -0.6164569633750259,
+      "full_reversal_difference_g": 1.2329139267500517
+    },
+    {
+      "local_sidereal_hour": 6.875,
+      "vertical_force_up_N_positive_spin": -0.006035355933709226,
+      "apparent_mass_shift_g_positive_spin": 0.6154350296695841,
+      "apparent_mass_shift_g_negative_spin": -0.6154350296695841,
+      "full_reversal_difference_g": 1.2308700593391682
+    },
+    {
+      "local_sidereal_hour": 7.0,
+      "vertical_force_up_N_positive_spin": -0.0060188713772337575,
+      "apparent_mass_shift_g_positive_spin": 0.6137540727194055,
+      "apparent_mass_shift_g_negative_spin": -0.6137540727194055,
+      "full_reversal_difference_g": 1.227508145438811
+    },
+    {
+      "local_sidereal_hour": 7.125,
+      "vertical_force_up_N_positive_spin": -0.0059959416625312584,
+      "apparent_mass_shift_g_positive_spin": 0.6114158925352958,
+      "apparent_mass_shift_g_negative_spin": -0.6114158925352958,
+      "full_reversal_difference_g": 1.2228317850705916
+    },
+    {
+      "local_sidereal_hour": 7.25,
+      "vertical_force_up_N_positive_spin": -0.0059665913433145585,
+      "apparent_mass_shift_g_positive_spin": 0.6084229928991611,
+      "apparent_mass_shift_g_negative_spin": -0.6084229928991611,
+      "full_reversal_difference_g": 1.2168459857983223
+    },
+    {
+      "local_sidereal_hour": 7.375,
+      "vertical_force_up_N_positive_spin": -0.005930851848640621,
+      "apparent_mass_shift_g_positive_spin": 0.6047785786828959,
+      "apparent_mass_shift_g_negative_spin": -0.6047785786828959,
+      "full_reversal_difference_g": 1.2095571573657917
+    },
+    {
+      "local_sidereal_hour": 7.5,
+      "vertical_force_up_N_positive_spin": -0.005888761449255519,
+      "apparent_mass_shift_g_positive_spin": 0.6004865524165255,
+      "apparent_mass_shift_g_negative_spin": -0.6004865524165255,
+      "full_reversal_difference_g": 1.200973104833051
+    },
+    {
+      "local_sidereal_hour": 7.625,
+      "vertical_force_up_N_positive_spin": -0.005840365216613164,
+      "apparent_mass_shift_g_positive_spin": 0.5955515101092794,
+      "apparent_mass_shift_g_negative_spin": -0.5955515101092794,
+      "full_reversal_difference_g": 1.1911030202185589
+    },
+    {
+      "local_sidereal_hour": 7.75,
+      "vertical_force_up_N_positive_spin": -0.005785714974611662,
+      "apparent_mass_shift_g_positive_spin": 0.5899787363280695,
+      "apparent_mass_shift_g_negative_spin": -0.5899787363280695,
+      "full_reversal_difference_g": 1.179957472656139
+    },
+    {
+      "local_sidereal_hour": 7.875,
+      "vertical_force_up_N_positive_spin": -0.005724869244098989,
+      "apparent_mass_shift_g_positive_spin": 0.5837741985386435,
+      "apparent_mass_shift_g_negative_spin": -0.5837741985386435,
+      "full_reversal_difference_g": 1.167548397077287
+    },
+    {
+      "local_sidereal_hour": 8.0,
+      "vertical_force_up_N_positive_spin": -0.005657893180207396,
+      "apparent_mass_shift_g_positive_spin": 0.5769445407154733,
+      "apparent_mass_shift_g_negative_spin": -0.5769445407154733,
+      "full_reversal_difference_g": 1.1538890814309466
+    },
+    {
+      "local_sidereal_hour": 8.125,
+      "vertical_force_up_N_positive_spin": -0.0055848585025836655,
+      "apparent_mass_shift_g_positive_spin": 0.5694970762272199,
+      "apparent_mass_shift_g_negative_spin": -0.5694970762272199,
+      "full_reversal_difference_g": 1.1389941524544398
+    },
+    {
+      "local_sidereal_hour": 8.25,
+      "vertical_force_up_N_positive_spin": -0.005505843418589917,
+      "apparent_mass_shift_g_positive_spin": 0.5614397800053961,
+      "apparent_mass_shift_g_negative_spin": -0.5614397800053961,
+      "full_reversal_difference_g": 1.1228795600107921
+    },
+    {
+      "local_sidereal_hour": 8.375,
+      "vertical_force_up_N_positive_spin": -0.005420932539557204,
+      "apparent_mass_shift_g_positive_spin": 0.5527812800046096,
+      "apparent_mass_shift_g_negative_spin": -0.5527812800046096,
+      "full_reversal_difference_g": 1.1055625600092192
+    },
+    {
+      "local_sidereal_hour": 8.5,
+      "vertical_force_up_N_positive_spin": -0.005330216790181579,
+      "apparent_mass_shift_g_positive_spin": 0.5435308479635328,
+      "apparent_mass_shift_g_negative_spin": -0.5435308479635328,
+      "full_reversal_difference_g": 1.0870616959270656
+    },
+    {
+      "local_sidereal_hour": 8.625,
+      "vertical_force_up_N_positive_spin": -0.005233793311159655,
+      "apparent_mass_shift_g_positive_spin": 0.5336983894764936,
+      "apparent_mass_shift_g_negative_spin": -0.5336983894764936,
+      "full_reversal_difference_g": 1.0673967789529872
+    },
+    {
+      "local_sidereal_hour": 8.75,
+      "vertical_force_up_N_positive_spin": -0.005131765355167912,
+      "apparent_mass_shift_g_positive_spin": 0.5232944333863156,
+      "apparent_mass_shift_g_negative_spin": -0.5232944333863156,
+      "full_reversal_difference_g": 1.0465888667726313
+    },
+    {
+      "local_sidereal_hour": 8.875,
+      "vertical_force_up_N_positive_spin": -0.005024242176297152,
+      "apparent_mass_shift_g_positive_spin": 0.5123301205097718,
+      "apparent_mass_shift_g_negative_spin": -0.5123301205097718,
+      "full_reversal_difference_g": 1.0246602410195436
+    },
+    {
+      "local_sidereal_hour": 9.0,
+      "vertical_force_up_N_positive_spin": -0.004911338913060469,
+      "apparent_mass_shift_g_positive_spin": 0.5008171917077155,
+      "apparent_mass_shift_g_negative_spin": -0.5008171917077155,
+      "full_reversal_difference_g": 1.001634383415431
+    },
+    {
+      "local_sidereal_hour": 9.125,
+      "vertical_force_up_N_positive_spin": -0.004793176465100055,
+      "apparent_mass_shift_g_positive_spin": 0.4887679753126762,
+      "apparent_mass_shift_g_negative_spin": -0.4887679753126762,
+      "full_reversal_difference_g": 0.9775359506253524
+    },
+    {
+      "local_sidereal_hour": 9.25,
+      "vertical_force_up_N_positive_spin": -0.004669881363724831,
+      "apparent_mass_shift_g_positive_spin": 0.4761953739273688,
+      "apparent_mass_shift_g_negative_spin": -0.4761953739273688,
+      "full_reversal_difference_g": 0.9523907478547377
+    },
+    {
+      "local_sidereal_hour": 9.375,
+      "vertical_force_up_N_positive_spin": -0.004541585636417559,
+      "apparent_mass_shift_g_positive_spin": 0.4631128506082668,
+      "apparent_mass_shift_g_negative_spin": -0.4631128506082668,
+      "full_reversal_difference_g": 0.9262257012165336
+    },
+    {
+      "local_sidereal_hour": 9.5,
+      "vertical_force_up_N_positive_spin": -0.0044084266654564955,
+      "apparent_mass_shift_g_positive_spin": 0.4495344144490214,
+      "apparent_mass_shift_g_negative_spin": -0.4495344144490214,
+      "full_reversal_difference_g": 0.8990688288980428
+    },
+    {
+      "local_sidereal_hour": 9.625,
+      "vertical_force_up_N_positive_spin": -0.0042705470408030115,
+      "apparent_mass_shift_g_positive_spin": 0.4354746055791745,
+      "apparent_mass_shift_g_negative_spin": -0.4354746055791745,
+      "full_reversal_difference_g": 0.870949211158349
+    },
+    {
+      "local_sidereal_hour": 9.75,
+      "vertical_force_up_N_positive_spin": -0.0041280944074127005,
+      "apparent_mass_shift_g_positive_spin": 0.4209484795942244,
+      "apparent_mass_shift_g_negative_spin": -0.4209484795942244,
+      "full_reversal_difference_g": 0.8418969591884488
+    },
+    {
+      "local_sidereal_hour": 9.875,
+      "vertical_force_up_N_positive_spin": -0.0039812213071334385,
+      "apparent_mass_shift_g_positive_spin": 0.40597159143371475,
+      "apparent_mass_shift_g_negative_spin": -0.40597159143371475,
+      "full_reversal_difference_g": 0.8119431828674295
+    },
+    {
+      "local_sidereal_hour": 10.0,
+      "vertical_force_up_N_positive_spin": -0.003830085015359778,
+      "apparent_mass_shift_g_positive_spin": 0.39055997872461834,
+      "apparent_mass_shift_g_negative_spin": -0.39055997872461834,
+      "full_reversal_difference_g": 0.7811199574492367
+    },
+    {
+      "local_sidereal_hour": 10.125,
+      "vertical_force_up_N_positive_spin": -0.003674847372618505,
+      "apparent_mass_shift_g_positive_spin": 0.37473014460784315,
+      "apparent_mass_shift_g_negative_spin": -0.37473014460784315,
+      "full_reversal_difference_g": 0.7494602892156863
+    },
+    {
+      "local_sidereal_hour": 10.25,
+      "vertical_force_up_N_positive_spin": -0.003515674611265742,
+      "apparent_mass_shift_g_positive_spin": 0.35849904006625527,
+      "apparent_mass_shift_g_negative_spin": -0.35849904006625527,
+      "full_reversal_difference_g": 0.7169980801325105
+    },
+    {
+      "local_sidereal_hour": 10.375,
+      "vertical_force_up_N_positive_spin": -0.003352737177481184,
+      "apparent_mass_shift_g_positive_spin": 0.34188404577314213,
+      "apparent_mass_shift_g_negative_spin": -0.34188404577314213,
+      "full_reversal_difference_g": 0.6837680915462843
+    },
+    {
+      "local_sidereal_hour": 10.5,
+      "vertical_force_up_N_positive_spin": -0.003186209548750075,
+      "apparent_mass_shift_g_positive_spin": 0.32490295348055404,
+      "apparent_mass_shift_g_negative_spin": -0.32490295348055404,
+      "full_reversal_difference_g": 0.6498059069611081
+    },
+    {
+      "local_sidereal_hour": 10.625,
+      "vertical_force_up_N_positive_spin": -0.003016270047028315,
+      "apparent_mass_shift_g_positive_spin": 0.3075739469674471,
+      "apparent_mass_shift_g_negative_spin": -0.3075739469674471,
+      "full_reversal_difference_g": 0.6151478939348942
+    },
+    {
+      "local_sidereal_hour": 10.75,
+      "vertical_force_up_N_positive_spin": -0.0028431006477908733,
+      "apparent_mass_shift_g_positive_spin": 0.28991558256804045,
+      "apparent_mass_shift_g_negative_spin": -0.28991558256804045,
+      "full_reversal_difference_g": 0.5798311651360809
+    },
+    {
+      "local_sidereal_hour": 10.875,
+      "vertical_force_up_N_positive_spin": -0.0026668867851678715,
+      "apparent_mass_shift_g_positive_spin": 0.27194676930122635,
+      "apparent_mass_shift_g_negative_spin": -0.27194676930122635,
+      "full_reversal_difference_g": 0.5438935386024527
+    },
+    {
+      "local_sidereal_hour": 11.0,
+      "vertical_force_up_N_positive_spin": -0.0024878171533770795,
+      "apparent_mass_shift_g_positive_spin": 0.25368674862232055,
+      "apparent_mass_shift_g_negative_spin": -0.25368674862232055,
+      "full_reversal_difference_g": 0.5073734972446411
+    },
+    {
+      "local_sidereal_hour": 11.125,
+      "vertical_force_up_N_positive_spin": -0.0023060835046654266,
+      "apparent_mass_shift_g_positive_spin": 0.23515507381882975,
+      "apparent_mass_shift_g_negative_spin": -0.23515507381882975,
+      "full_reversal_difference_g": 0.4703101476376595
+    },
+    {
+      "local_sidereal_hour": 11.25,
+      "vertical_force_up_N_positive_spin": -0.0021218804439758843,
+      "apparent_mass_shift_g_positive_spin": 0.2163715890723014,
+      "apparent_mass_shift_g_negative_spin": -0.2163715890723014,
+      "full_reversal_difference_g": 0.4327431781446028
+    },
+    {
+      "local_sidereal_hour": 11.375,
+      "vertical_force_up_N_positive_spin": -0.001935405220559626,
+      "apparent_mass_shift_g_positive_spin": 0.19735640820867736,
+      "apparent_mass_shift_g_negative_spin": -0.19735640820867736,
+      "full_reversal_difference_g": 0.39471281641735473
+    },
+    {
+      "local_sidereal_hour": 11.5,
+      "vertical_force_up_N_positive_spin": -0.0017468575167565777,
+      "apparent_mass_shift_g_positive_spin": 0.17812989315990452,
+      "apparent_mass_shift_g_negative_spin": -0.17812989315990452,
+      "full_reversal_difference_g": 0.35625978631980904
+    },
+    {
+      "local_sidereal_hour": 11.625,
+      "vertical_force_up_N_positive_spin": -0.0015564392341705742,
+      "apparent_mass_shift_g_positive_spin": 0.1587126321598685,
+      "apparent_mass_shift_g_negative_spin": -0.1587126321598685,
+      "full_reversal_difference_g": 0.317425264319737
+    },
+    {
+      "local_sidereal_hour": 11.75,
+      "vertical_force_up_N_positive_spin": -0.001364354277468069,
+      "apparent_mass_shift_g_positive_spin": 0.1391254176979977,
+      "apparent_mass_shift_g_negative_spin": -0.1391254176979977,
+      "full_reversal_difference_g": 0.2782508353959954
+    },
+    {
+      "local_sidereal_hour": 11.875,
+      "vertical_force_up_N_positive_spin": -0.0011708083360319032,
+      "apparent_mass_shift_g_positive_spin": 0.11938922425414421,
+      "apparent_mass_shift_g_negative_spin": -0.11938922425414421,
+      "full_reversal_difference_g": 0.23877844850828842
+    },
+    {
+      "local_sidereal_hour": 12.0,
+      "vertical_force_up_N_positive_spin": -0.0009760086637039657,
+      "apparent_mass_shift_g_positive_spin": 0.09952518583858563,
+      "apparent_mass_shift_g_negative_spin": -0.09952518583858563,
+      "full_reversal_difference_g": 0.19905037167717127
+    },
+    {
+      "local_sidereal_hour": 12.125,
+      "vertical_force_up_N_positive_spin": -0.0007801638568525829,
+      "apparent_mass_shift_g_positive_spin": 0.07955457336119703,
+      "apparent_mass_shift_g_negative_spin": -0.07955457336119703,
+      "full_reversal_difference_g": 0.15910914672239407
+    },
+    {
+      "local_sidereal_hour": 12.25,
+      "vertical_force_up_N_positive_spin": -0.0005834836310023058,
+      "apparent_mass_shift_g_positive_spin": 0.05949877185402822,
+      "apparent_mass_shift_g_negative_spin": -0.05949877185402822,
+      "full_reversal_difference_g": 0.11899754370805644
+    },
+    {
+      "local_sidereal_hour": 12.375,
+      "vertical_force_up_N_positive_spin": -0.00038617859626528014,
+      "apparent_mass_shift_g_positive_spin": 0.03937925757167638,
+      "apparent_mass_shift_g_negative_spin": -0.03937925757167638,
+      "full_reversal_difference_g": 0.07875851514335276
+    },
+    {
+      "local_sidereal_hour": 12.5,
+      "vertical_force_up_N_positive_spin": -0.0001884600318146546,
+      "apparent_mass_shift_g_positive_spin": 0.01921757499397395,
+      "apparent_mass_shift_g_negative_spin": -0.01921757499397395,
+      "full_reversal_difference_g": 0.0384351499879479
+    },
+    {
+      "local_sidereal_hour": 12.625,
+      "vertical_force_up_N_positive_spin": 9.460340358444427e-06,
+      "apparent_mass_shift_g_positive_spin": -0.0009646862443795208,
+      "apparent_mass_shift_g_negative_spin": 0.0009646862443795208,
+      "full_reversal_difference_g": -0.0019293724887590416
+    },
+    {
+      "local_sidereal_hour": 12.75,
+      "vertical_force_up_N_positive_spin": 0.0002073705821621319,
+      "apparent_mass_shift_g_positive_spin": -0.02114591447253975,
+      "apparent_mass_shift_g_negative_spin": 0.02114591447253975,
+      "full_reversal_difference_g": -0.0422918289450795
+    },
+    {
+      "local_sidereal_hour": 12.875,
+      "vertical_force_up_N_positive_spin": 0.00040505876635237617,
+      "apparent_mass_shift_g_positive_spin": -0.04130449912583565,
+      "apparent_mass_shift_g_negative_spin": 0.04130449912583565,
+      "full_reversal_difference_g": -0.0826089982516713
+    },
+    {
+      "local_sidereal_hour": 13.0,
+      "vertical_force_up_N_positive_spin": 0.0006023132034699947,
+      "apparent_mass_shift_g_positive_spin": -0.06141885388690274,
+      "apparent_mass_shift_g_negative_spin": 0.06141885388690274,
+      "full_reversal_difference_g": -0.12283770777380548
+    },
+    {
+      "local_sidereal_hour": 13.125,
+      "vertical_force_up_N_positive_spin": 0.0007989226685230368,
+      "apparent_mass_shift_g_positive_spin": -0.08146743980085318,
+      "apparent_mass_shift_g_negative_spin": 0.08146743980085318,
+      "full_reversal_difference_g": -0.16293487960170636
+    },
+    {
+      "local_sidereal_hour": 13.25,
+      "vertical_force_up_N_positive_spin": 0.0009946766271717912,
+      "apparent_mass_shift_g_positive_spin": -0.10142878833972775,
+      "apparent_mass_shift_g_negative_spin": 0.10142878833972775,
+      "full_reversal_difference_g": -0.2028575766794555
+    },
+    {
+      "local_sidereal_hour": 13.375,
+      "vertical_force_up_N_positive_spin": 0.001189365461174237,
+      "apparent_mass_shift_g_positive_spin": -0.12128152439153402,
+      "apparent_mass_shift_g_negative_spin": 0.12128152439153402,
+      "full_reversal_difference_g": -0.24256304878306803
+    },
+    {
+      "local_sidereal_hour": 13.5,
+      "vertical_force_up_N_positive_spin": 0.001382780692850504,
+      "apparent_mass_shift_g_positive_spin": -0.1410043891492512,
+      "apparent_mass_shift_g_negative_spin": 0.1410043891492512,
+      "full_reversal_difference_g": -0.2820087782985024
+    },
+    {
+      "local_sidereal_hour": 13.625,
+      "vertical_force_up_N_positive_spin": 0.0015747152083259843,
+      "apparent_mass_shift_g_positive_spin": -0.1605762628752922,
+      "apparent_mass_shift_g_negative_spin": 0.1605762628752922,
+      "full_reversal_difference_g": -0.3211525257505844
+    },
+    {
+      "local_sidereal_hour": 13.75,
+      "vertical_force_up_N_positive_spin": 0.0017649634793140791,
+      "apparent_mass_shift_g_positive_spin": -0.17997618751705008,
+      "apparent_mass_shift_g_negative_spin": 0.17997618751705008,
+      "full_reversal_difference_g": -0.35995237503410016
+    },
+    {
+      "local_sidereal_hour": 13.875,
+      "vertical_force_up_N_positive_spin": 0.0019533217832010054,
+      "apparent_mass_shift_g_positive_spin": -0.1991833891493023,
+      "apparent_mass_shift_g_negative_spin": 0.1991833891493023,
+      "full_reversal_difference_g": -0.3983667782986046
+    },
+    {
+      "local_sidereal_hour": 14.0,
+      "vertical_force_up_N_positive_spin": 0.0021395884211971037,
+      "apparent_mass_shift_g_positive_spin": -0.2181773002194535,
+      "apparent_mass_shift_g_negative_spin": 0.2181773002194535,
+      "full_reversal_difference_g": -0.436354600438907
+    },
+    {
+      "local_sidereal_hour": 14.125,
+      "vertical_force_up_N_positive_spin": 0.002323563934320941,
+      "apparent_mass_shift_g_positive_spin": -0.2369375815717846,
+      "apparent_mass_shift_g_negative_spin": 0.2369375815717846,
+      "full_reversal_difference_g": -0.4738751631435692
+    },
+    {
+      "local_sidereal_hour": 14.25,
+      "vertical_force_up_N_positive_spin": 0.0025050513169849746,
+      "apparent_mass_shift_g_positive_spin": -0.255444144227129,
+      "apparent_mass_shift_g_negative_spin": 0.255444144227129,
+      "full_reversal_difference_g": -0.510888288454258
+    },
+    {
+      "local_sidereal_hour": 14.375,
+      "vertical_force_up_N_positive_spin": 0.0026838562279540923,
+      "apparent_mass_shift_g_positive_spin": -0.27367717089465743,
+      "apparent_mass_shift_g_negative_spin": 0.27367717089465743,
+      "full_reversal_difference_g": -0.5473543417893149
+    },
+    {
+      "local_sidereal_hour": 14.5,
+      "vertical_force_up_N_positive_spin": 0.002859787198451044,
+      "apparent_mass_shift_g_positive_spin": -0.2916171371927258,
+      "apparent_mass_shift_g_negative_spin": 0.2916171371927258,
+      "full_reversal_difference_g": -0.5832342743854516
+    },
+    {
+      "local_sidereal_hour": 14.625,
+      "vertical_force_up_N_positive_spin": 0.003032655837186035,
+      "apparent_mass_shift_g_positive_spin": -0.3092448325560752,
+      "apparent_mass_shift_g_negative_spin": 0.3092448325560752,
+      "full_reversal_difference_g": -0.6184896651121504
+    },
+    {
+      "local_sidereal_hour": 14.75,
+      "vertical_force_up_N_positive_spin": 0.0032022770320908247,
+      "apparent_mass_shift_g_positive_spin": -0.3265413808069856,
+      "apparent_mass_shift_g_negative_spin": 0.3265413808069856,
+      "full_reversal_difference_g": -0.6530827616139712
+    },
+    {
+      "local_sidereal_hour": 14.875,
+      "vertical_force_up_N_positive_spin": 0.0033684691485413557,
+      "apparent_mass_shift_g_positive_spin": -0.3434882603683578,
+      "apparent_mass_shift_g_negative_spin": 0.3434882603683578,
+      "full_reversal_difference_g": -0.6869765207367156
+    },
+    {
+      "local_sidereal_hour": 15.0,
+      "vertical_force_up_N_positive_spin": 0.0035310542238566763,
+      "apparent_mass_shift_g_positive_spin": -0.36006732409708475,
+      "apparent_mass_shift_g_negative_spin": 0.36006732409708475,
+      "full_reversal_difference_g": -0.7201346481941695
+    },
+    {
+      "local_sidereal_hour": 15.125,
+      "vertical_force_up_N_positive_spin": 0.0036898581578658327,
+      "apparent_mass_shift_g_positive_spin": -0.37626081871646616,
+      "apparent_mass_shift_g_negative_spin": 0.37626081871646616,
+      "full_reversal_difference_g": -0.7525216374329323
+    },
+    {
+      "local_sidereal_hour": 15.25,
+      "vertical_force_up_N_positive_spin": 0.003844710899338672,
+      "apparent_mass_shift_g_positive_spin": -0.39205140382685955,
+      "apparent_mass_shift_g_negative_spin": 0.39205140382685955,
+      "full_reversal_difference_g": -0.7841028076537191
+    },
+    {
+      "local_sidereal_hour": 15.375,
+      "vertical_force_up_N_positive_spin": 0.003995446628080994,
+      "apparent_mass_shift_g_positive_spin": -0.40742217047421847,
+      "apparent_mass_shift_g_negative_spin": 0.40742217047421847,
+      "full_reversal_difference_g": -0.8148443409484369
+    },
+    {
+      "local_sidereal_hour": 15.5,
+      "vertical_force_up_N_positive_spin": 0.004141903932498942,
+      "apparent_mass_shift_g_positive_spin": -0.422356659256621,
+      "apparent_mass_shift_g_negative_spin": 0.422356659256621,
+      "full_reversal_difference_g": -0.844713318513242
+    },
+    {
+      "local_sidereal_hour": 15.625,
+      "vertical_force_up_N_positive_spin": 0.00428392598244259,
+      "apparent_mass_shift_g_positive_spin": -0.43683887794941084,
+      "apparent_mass_shift_g_negative_spin": 0.43683887794941084,
+      "full_reversal_difference_g": -0.8736777558988217
+    },
+    {
+      "local_sidereal_hour": 15.75,
+      "vertical_force_up_N_positive_spin": 0.004421360697143593,
+      "apparent_mass_shift_g_positive_spin": -0.4508533186300717,
+      "apparent_mass_shift_g_negative_spin": 0.4508533186300717,
+      "full_reversal_difference_g": -0.9017066372601434
+    },
+    {
+      "local_sidereal_hour": 15.875,
+      "vertical_force_up_N_positive_spin": 0.004554060908067085,
+      "apparent_mass_shift_g_positive_spin": -0.4643849742844993,
+      "apparent_mass_shift_g_negative_spin": 0.4643849742844993,
+      "full_reversal_difference_g": -0.9287699485689986
+    },
+    {
+      "local_sidereal_hour": 16.0,
+      "vertical_force_up_N_positive_spin": 0.004681884516503429,
+      "apparent_mass_shift_g_positive_spin": -0.4774193548768876,
+      "apparent_mass_shift_g_negative_spin": 0.4774193548768876,
+      "full_reversal_difference_g": -0.9548387097537752
+    },
+    {
+      "local_sidereal_hour": 16.125,
+      "vertical_force_up_N_positive_spin": 0.004804694645731084,
+      "apparent_mass_shift_g_positive_spin": -0.489942502866023,
+      "apparent_mass_shift_g_negative_spin": 0.489942502866023,
+      "full_reversal_difference_g": -0.979885005732046
+    },
+    {
+      "local_sidereal_hour": 16.25,
+      "vertical_force_up_N_positive_spin": 0.004922359787587613,
+      "apparent_mass_shift_g_positive_spin": -0.501941008151368,
+      "apparent_mass_shift_g_negative_spin": 0.501941008151368,
+      "full_reversal_difference_g": -1.003882016302736
+    },
+    {
+      "local_sidereal_hour": 16.375,
+      "vertical_force_up_N_positive_spin": 0.005034753943291925,
+      "apparent_mass_shift_g_positive_spin": -0.5134020224329333,
+      "apparent_mass_shift_g_negative_spin": 0.5134020224329333,
+      "full_reversal_difference_g": -1.0268040448658666
+    },
+    {
+      "local_sidereal_hour": 16.5,
+      "vertical_force_up_N_positive_spin": 0.005141756758366925,
+      "apparent_mass_shift_g_positive_spin": -0.524313272969559,
+      "apparent_mass_shift_g_negative_spin": 0.524313272969559,
+      "full_reversal_difference_g": -1.048626545939118
+    },
+    {
+      "local_sidereal_hour": 16.625,
+      "vertical_force_up_N_positive_spin": 0.005243253651518098,
+      "apparent_mass_shift_g_positive_spin": -0.5346630757208729,
+      "apparent_mass_shift_g_negative_spin": 0.5346630757208729,
+      "full_reversal_difference_g": -1.0693261514417458
+    },
+    {
+      "local_sidereal_hour": 16.75,
+      "vertical_force_up_N_positive_spin": 0.005339135937330047,
+      "apparent_mass_shift_g_positive_spin": -0.5444403478588558,
+      "apparent_mass_shift_g_negative_spin": 0.5444403478588558,
+      "full_reversal_difference_g": -1.0888806957177115
+    },
+    {
+      "local_sidereal_hour": 16.875,
+      "vertical_force_up_N_positive_spin": 0.005429300942649529,
+      "apparent_mass_shift_g_positive_spin": -0.5536346196356075,
+      "apparent_mass_shift_g_negative_spin": 0.5536346196356075,
+      "full_reversal_difference_g": -1.107269239271215
+    },
+    {
+      "local_sidereal_hour": 17.0,
+      "vertical_force_up_N_positive_spin": 0.005513652116530464,
+      "apparent_mass_shift_g_positive_spin": -0.5622360455946184,
+      "apparent_mass_shift_g_negative_spin": 0.5622360455946184,
+      "full_reversal_difference_g": -1.1244720911892367
+    },
+    {
+      "local_sidereal_hour": 17.125,
+      "vertical_force_up_N_positive_spin": 0.00559209913362309,
+      "apparent_mass_shift_g_positive_spin": -0.570235415113529,
+      "apparent_mass_shift_g_negative_spin": 0.570235415113529,
+      "full_reversal_difference_g": -1.140470830227058
+    },
+    {
+      "local_sidereal_hour": 17.25,
+      "vertical_force_up_N_positive_spin": 0.005664557990896621,
+      "apparent_mass_shift_g_positive_spin": -0.5776241622670963,
+      "apparent_mass_shift_g_negative_spin": 0.5776241622670963,
+      "full_reversal_difference_g": -1.1552483245341927
+    },
+    {
+      "local_sidereal_hour": 17.375,
+      "vertical_force_up_N_positive_spin": 0.005730951097591797,
+      "apparent_mass_shift_g_positive_spin": -0.5843943749998008,
+      "apparent_mass_shift_g_negative_spin": 0.5843943749998008,
+      "full_reversal_difference_g": -1.1687887499996017
+    },
+    {
+      "local_sidereal_hour": 17.5,
+      "vertical_force_up_N_positive_spin": 0.005791207358306999,
+      "apparent_mass_shift_g_positive_spin": -0.5905388035982725,
+      "apparent_mass_shift_g_negative_spin": 0.5905388035982725,
+      "full_reversal_difference_g": -1.181077607196545
+    },
+    {
+      "local_sidereal_hour": 17.625,
+      "vertical_force_up_N_positive_spin": 0.005845262249128997,
+      "apparent_mass_shift_g_positive_spin": -0.5960508684544669,
+      "apparent_mass_shift_g_negative_spin": 0.5960508684544669,
+      "full_reversal_difference_g": -1.1921017369089337
+    },
+    {
+      "local_sidereal_hour": 17.75,
+      "vertical_force_up_N_positive_spin": 0.005893057886726777,
+      "apparent_mass_shift_g_positive_spin": -0.6009246671112742,
+      "apparent_mass_shift_g_negative_spin": 0.6009246671112742,
+      "full_reversal_difference_g": -1.2018493342225485
+    },
+    {
+      "local_sidereal_hour": 17.875,
+      "vertical_force_up_N_positive_spin": 0.0059345430903344435,
+      "apparent_mass_shift_g_positive_spin": -0.605154980583017,
+      "apparent_mass_shift_g_negative_spin": 0.605154980583017,
+      "full_reversal_difference_g": -1.210309961166034
+    },
+    {
+      "local_sidereal_hour": 18.0,
+      "vertical_force_up_N_positive_spin": 0.005969673436556884,
+      "apparent_mass_shift_g_positive_spin": -0.608737278944072,
+      "apparent_mass_shift_g_negative_spin": 0.608737278944072,
+      "full_reversal_difference_g": -1.217474557888144
+    },
+    {
+      "local_sidereal_hour": 18.125,
+      "vertical_force_up_N_positive_spin": 0.005998411306939446,
+      "apparent_mass_shift_g_positive_spin": -0.6116677261796277,
+      "apparent_mass_shift_g_negative_spin": 0.6116677261796277,
+      "full_reversal_difference_g": -1.2233354523592554
+    },
+    {
+      "local_sidereal_hour": 18.25,
+      "vertical_force_up_N_positive_spin": 0.006020725928250715,
+      "apparent_mass_shift_g_positive_spin": -0.6139431842933841,
+      "apparent_mass_shift_g_negative_spin": 0.6139431842933841,
+      "full_reversal_difference_g": -1.2278863685867683
+    },
+    {
+      "local_sidereal_hour": 18.375,
+      "vertical_force_up_N_positive_spin": 0.0060365934054352755,
+      "apparent_mass_shift_g_positive_spin": -0.6155612166677995,
+      "apparent_mass_shift_g_negative_spin": 0.6155612166677995,
+      "full_reversal_difference_g": -1.231122433335599
+    },
+    {
+      "local_sidereal_hour": 18.5,
+      "vertical_force_up_N_positive_spin": 0.006045996747201118,
+      "apparent_mass_shift_g_positive_spin": -0.6165200906732797,
+      "apparent_mass_shift_g_negative_spin": 0.6165200906732797,
+      "full_reversal_difference_g": -1.2330401813465595
+    },
+    {
+      "local_sidereal_hour": 18.625,
+      "vertical_force_up_N_positive_spin": 0.006048925884214352,
+      "apparent_mass_shift_g_positive_spin": -0.6168187795235226,
+      "apparent_mass_shift_g_negative_spin": 0.6168187795235226,
+      "full_reversal_difference_g": -1.2336375590470452
+    },
+    {
+      "local_sidereal_hour": 18.75,
+      "vertical_force_up_N_positive_spin": 0.006045377679881697,
+      "apparent_mass_shift_g_positive_spin": -0.6164569633750259,
+      "apparent_mass_shift_g_negative_spin": 0.6164569633750259,
+      "full_reversal_difference_g": -1.2329139267500517
+    },
+    {
+      "local_sidereal_hour": 18.875,
+      "vertical_force_up_N_positive_spin": 0.006035355933709227,
+      "apparent_mass_shift_g_positive_spin": -0.6154350296695842,
+      "apparent_mass_shift_g_negative_spin": 0.6154350296695842,
+      "full_reversal_difference_g": -1.2308700593391684
+    },
+    {
+      "local_sidereal_hour": 19.0,
+      "vertical_force_up_N_positive_spin": 0.006018871377233758,
+      "apparent_mass_shift_g_positive_spin": -0.6137540727194056,
+      "apparent_mass_shift_g_negative_spin": 0.6137540727194056,
+      "full_reversal_difference_g": -1.2275081454388113
+    },
+    {
+      "local_sidereal_hour": 19.125,
+      "vertical_force_up_N_positive_spin": 0.0059959416625312584,
+      "apparent_mass_shift_g_positive_spin": -0.6114158925352958,
+      "apparent_mass_shift_g_negative_spin": 0.6114158925352958,
+      "full_reversal_difference_g": -1.2228317850705916
+    },
+    {
+      "local_sidereal_hour": 19.25,
+      "vertical_force_up_N_positive_spin": 0.0059665913433145585,
+      "apparent_mass_shift_g_positive_spin": -0.6084229928991611,
+      "apparent_mass_shift_g_negative_spin": 0.6084229928991611,
+      "full_reversal_difference_g": -1.2168459857983223
+    },
+    {
+      "local_sidereal_hour": 19.375,
+      "vertical_force_up_N_positive_spin": 0.0059308518486406205,
+      "apparent_mass_shift_g_positive_spin": -0.6047785786828959,
+      "apparent_mass_shift_g_negative_spin": 0.6047785786828959,
+      "full_reversal_difference_g": -1.2095571573657917
+    },
+    {
+      "local_sidereal_hour": 19.5,
+      "vertical_force_up_N_positive_spin": 0.00588876144925552,
+      "apparent_mass_shift_g_positive_spin": -0.6004865524165256,
+      "apparent_mass_shift_g_negative_spin": 0.6004865524165256,
+      "full_reversal_difference_g": -1.2009731048330512
+    },
+    {
+      "local_sidereal_hour": 19.625,
+      "vertical_force_up_N_positive_spin": 0.005840365216613165,
+      "apparent_mass_shift_g_positive_spin": -0.5955515101092794,
+      "apparent_mass_shift_g_negative_spin": 0.5955515101092794,
+      "full_reversal_difference_g": -1.1911030202185589
+    },
+    {
+      "local_sidereal_hour": 19.75,
+      "vertical_force_up_N_positive_spin": 0.005785714974611662,
+      "apparent_mass_shift_g_positive_spin": -0.5899787363280695,
+      "apparent_mass_shift_g_negative_spin": 0.5899787363280695,
+      "full_reversal_difference_g": -1.179957472656139
+    },
+    {
+      "local_sidereal_hour": 19.875,
+      "vertical_force_up_N_positive_spin": 0.005724869244098988,
+      "apparent_mass_shift_g_positive_spin": -0.5837741985386435,
+      "apparent_mass_shift_g_negative_spin": 0.5837741985386435,
+      "full_reversal_difference_g": -1.167548397077287
+    },
+    {
+      "local_sidereal_hour": 20.0,
+      "vertical_force_up_N_positive_spin": 0.005657893180207396,
+      "apparent_mass_shift_g_positive_spin": -0.5769445407154733,
+      "apparent_mass_shift_g_negative_spin": 0.5769445407154733,
+      "full_reversal_difference_g": -1.1538890814309466
+    },
+    {
+      "local_sidereal_hour": 20.125,
+      "vertical_force_up_N_positive_spin": 0.005584858502583667,
+      "apparent_mass_shift_g_positive_spin": -0.56949707622722,
+      "apparent_mass_shift_g_negative_spin": 0.56949707622722,
+      "full_reversal_difference_g": -1.13899415245444
+    },
+    {
+      "local_sidereal_hour": 20.25,
+      "vertical_force_up_N_positive_spin": 0.005505843418589919,
+      "apparent_mass_shift_g_positive_spin": -0.5614397800053963,
+      "apparent_mass_shift_g_negative_spin": 0.5614397800053963,
+      "full_reversal_difference_g": -1.1228795600107926
+    },
+    {
+      "local_sidereal_hour": 20.375,
+      "vertical_force_up_N_positive_spin": 0.005420932539557204,
+      "apparent_mass_shift_g_positive_spin": -0.5527812800046096,
+      "apparent_mass_shift_g_negative_spin": 0.5527812800046096,
+      "full_reversal_difference_g": -1.1055625600092192
+    },
+    {
+      "local_sidereal_hour": 20.5,
+      "vertical_force_up_N_positive_spin": 0.005330216790181581,
+      "apparent_mass_shift_g_positive_spin": -0.543530847963533,
+      "apparent_mass_shift_g_negative_spin": 0.543530847963533,
+      "full_reversal_difference_g": -1.087061695927066
+    },
+    {
+      "local_sidereal_hour": 20.625,
+      "vertical_force_up_N_positive_spin": 0.0052337933111596575,
+      "apparent_mass_shift_g_positive_spin": -0.5336983894764938,
+      "apparent_mass_shift_g_negative_spin": 0.5336983894764938,
+      "full_reversal_difference_g": -1.0673967789529877
+    },
+    {
+      "local_sidereal_hour": 20.75,
+      "vertical_force_up_N_positive_spin": 0.0051317653551679115,
+      "apparent_mass_shift_g_positive_spin": -0.5232944333863155,
+      "apparent_mass_shift_g_negative_spin": 0.5232944333863155,
+      "full_reversal_difference_g": -1.046588866772631
+    },
+    {
+      "local_sidereal_hour": 20.875,
+      "vertical_force_up_N_positive_spin": 0.00502424217629715,
+      "apparent_mass_shift_g_positive_spin": -0.5123301205097716,
+      "apparent_mass_shift_g_negative_spin": 0.5123301205097716,
+      "full_reversal_difference_g": -1.0246602410195431
+    },
+    {
+      "local_sidereal_hour": 21.0,
+      "vertical_force_up_N_positive_spin": 0.00491133891306047,
+      "apparent_mass_shift_g_positive_spin": -0.5008171917077157,
+      "apparent_mass_shift_g_negative_spin": 0.5008171917077157,
+      "full_reversal_difference_g": -1.0016343834154313
+    },
+    {
+      "local_sidereal_hour": 21.125,
+      "vertical_force_up_N_positive_spin": 0.0047931764651000545,
+      "apparent_mass_shift_g_positive_spin": -0.4887679753126761,
+      "apparent_mass_shift_g_negative_spin": 0.4887679753126761,
+      "full_reversal_difference_g": -0.9775359506253521
+    },
+    {
+      "local_sidereal_hour": 21.25,
+      "vertical_force_up_N_positive_spin": 0.0046698813637248305,
+      "apparent_mass_shift_g_positive_spin": -0.4761953739273687,
+      "apparent_mass_shift_g_negative_spin": 0.4761953739273687,
+      "full_reversal_difference_g": -0.9523907478547374
+    },
+    {
+      "local_sidereal_hour": 21.375,
+      "vertical_force_up_N_positive_spin": 0.004541585636417561,
+      "apparent_mass_shift_g_positive_spin": -0.46311285060826696,
+      "apparent_mass_shift_g_negative_spin": 0.46311285060826696,
+      "full_reversal_difference_g": -0.9262257012165339
+    },
+    {
+      "local_sidereal_hour": 21.5,
+      "vertical_force_up_N_positive_spin": 0.0044084266654564955,
+      "apparent_mass_shift_g_positive_spin": -0.4495344144490214,
+      "apparent_mass_shift_g_negative_spin": 0.4495344144490214,
+      "full_reversal_difference_g": -0.8990688288980428
+    },
+    {
+      "local_sidereal_hour": 21.625,
+      "vertical_force_up_N_positive_spin": 0.004270547040803012,
+      "apparent_mass_shift_g_positive_spin": -0.4354746055791746,
+      "apparent_mass_shift_g_negative_spin": 0.4354746055791746,
+      "full_reversal_difference_g": -0.8709492111583492
+    },
+    {
+      "local_sidereal_hour": 21.75,
+      "vertical_force_up_N_positive_spin": 0.004128094407412702,
+      "apparent_mass_shift_g_positive_spin": -0.42094847959422454,
+      "apparent_mass_shift_g_negative_spin": 0.42094847959422454,
+      "full_reversal_difference_g": -0.8418969591884491
+    },
+    {
+      "local_sidereal_hour": 21.875,
+      "vertical_force_up_N_positive_spin": 0.003981221307133441,
+      "apparent_mass_shift_g_positive_spin": -0.40597159143371503,
+      "apparent_mass_shift_g_negative_spin": 0.40597159143371503,
+      "full_reversal_difference_g": -0.8119431828674301
+    },
+    {
+      "local_sidereal_hour": 22.0,
+      "vertical_force_up_N_positive_spin": 0.0038300850153597816,
+      "apparent_mass_shift_g_positive_spin": -0.3905599787246187,
+      "apparent_mass_shift_g_negative_spin": 0.3905599787246187,
+      "full_reversal_difference_g": -0.7811199574492373
+    },
+    {
+      "local_sidereal_hour": 22.125,
+      "vertical_force_up_N_positive_spin": 0.003674847372618501,
+      "apparent_mass_shift_g_positive_spin": -0.37473014460784276,
+      "apparent_mass_shift_g_negative_spin": 0.37473014460784276,
+      "full_reversal_difference_g": -0.7494602892156855
+    },
+    {
+      "local_sidereal_hour": 22.25,
+      "vertical_force_up_N_positive_spin": 0.0035156746112657397,
+      "apparent_mass_shift_g_positive_spin": -0.35849904006625505,
+      "apparent_mass_shift_g_negative_spin": 0.35849904006625505,
+      "full_reversal_difference_g": -0.7169980801325101
+    },
+    {
+      "local_sidereal_hour": 22.375,
+      "vertical_force_up_N_positive_spin": 0.0033527371774811844,
+      "apparent_mass_shift_g_positive_spin": -0.34188404577314213,
+      "apparent_mass_shift_g_negative_spin": 0.34188404577314213,
+      "full_reversal_difference_g": -0.6837680915462843
+    },
+    {
+      "local_sidereal_hour": 22.5,
+      "vertical_force_up_N_positive_spin": 0.003186209548750073,
+      "apparent_mass_shift_g_positive_spin": -0.3249029534805538,
+      "apparent_mass_shift_g_negative_spin": 0.3249029534805538,
+      "full_reversal_difference_g": -0.6498059069611076
+    },
+    {
+      "local_sidereal_hour": 22.625,
+      "vertical_force_up_N_positive_spin": 0.0030162700470283185,
+      "apparent_mass_shift_g_positive_spin": -0.30757394696744744,
+      "apparent_mass_shift_g_negative_spin": 0.30757394696744744,
+      "full_reversal_difference_g": -0.6151478939348949
+    },
+    {
+      "local_sidereal_hour": 22.75,
+      "vertical_force_up_N_positive_spin": 0.002843100647790874,
+      "apparent_mass_shift_g_positive_spin": -0.2899155825680405,
+      "apparent_mass_shift_g_negative_spin": 0.2899155825680405,
+      "full_reversal_difference_g": -0.579831165136081
+    },
+    {
+      "local_sidereal_hour": 22.875,
+      "vertical_force_up_N_positive_spin": 0.0026668867851678698,
+      "apparent_mass_shift_g_positive_spin": -0.2719467693012262,
+      "apparent_mass_shift_g_negative_spin": 0.2719467693012262,
+      "full_reversal_difference_g": -0.5438935386024524
+    },
+    {
+      "local_sidereal_hour": 23.0,
+      "vertical_force_up_N_positive_spin": 0.002487817153377083,
+      "apparent_mass_shift_g_positive_spin": -0.25368674862232093,
+      "apparent_mass_shift_g_negative_spin": 0.25368674862232093,
+      "full_reversal_difference_g": -0.5073734972446419
+    },
+    {
+      "local_sidereal_hour": 23.125,
+      "vertical_force_up_N_positive_spin": 0.0023060835046654297,
+      "apparent_mass_shift_g_positive_spin": -0.23515507381883005,
+      "apparent_mass_shift_g_negative_spin": 0.23515507381883005,
+      "full_reversal_difference_g": -0.4703101476376601
+    },
+    {
+      "local_sidereal_hour": 23.25,
+      "vertical_force_up_N_positive_spin": 0.0021218804439758878,
+      "apparent_mass_shift_g_positive_spin": -0.21637158907230175,
+      "apparent_mass_shift_g_negative_spin": 0.21637158907230175,
+      "full_reversal_difference_g": -0.4327431781446035
+    },
+    {
+      "local_sidereal_hour": 23.375,
+      "vertical_force_up_N_positive_spin": 0.0019354052205596216,
+      "apparent_mass_shift_g_positive_spin": -0.19735640820867695,
+      "apparent_mass_shift_g_negative_spin": 0.19735640820867695,
+      "full_reversal_difference_g": -0.3947128164173539
+    },
+    {
+      "local_sidereal_hour": 23.5,
+      "vertical_force_up_N_positive_spin": 0.0017468575167565758,
+      "apparent_mass_shift_g_positive_spin": -0.17812989315990435,
+      "apparent_mass_shift_g_negative_spin": 0.17812989315990435,
+      "full_reversal_difference_g": -0.3562597863198087
+    },
+    {
+      "local_sidereal_hour": 23.625,
+      "vertical_force_up_N_positive_spin": 0.0015564392341705722,
+      "apparent_mass_shift_g_positive_spin": -0.1587126321598683,
+      "apparent_mass_shift_g_negative_spin": 0.1587126321598683,
+      "full_reversal_difference_g": -0.3174252643197366
+    },
+    {
+      "local_sidereal_hour": 23.75,
+      "vertical_force_up_N_positive_spin": 0.0013643542774680673,
+      "apparent_mass_shift_g_positive_spin": -0.13912541769799752,
+      "apparent_mass_shift_g_negative_spin": 0.13912541769799752,
+      "full_reversal_difference_g": -0.27825083539599504
+    },
+    {
+      "local_sidereal_hour": 23.875,
+      "vertical_force_up_N_positive_spin": 0.0011708083360319067,
+      "apparent_mass_shift_g_positive_spin": -0.11938922425414455,
+      "apparent_mass_shift_g_negative_spin": 0.11938922425414455,
+      "full_reversal_difference_g": -0.2387784485082891
+    },
+    {
+      "local_sidereal_hour": 24.0,
+      "vertical_force_up_N_positive_spin": 0.0009760086637039663,
+      "apparent_mass_shift_g_positive_spin": -0.0995251858385857,
+      "apparent_mass_shift_g_negative_spin": 0.0995251858385857,
+      "full_reversal_difference_g": -0.1990503716771714
+    }
+  ],
+  "figures": [
+    {
+      "name": "00_title_composite.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/00_title_composite.png"
+    },
+    {
+      "name": "01_cell3_all_nodes.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/01_cell3_all_nodes.png"
+    },
+    {
+      "name": "02_cell3_face_planes.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/02_cell3_face_planes.png"
+    },
+    {
+      "name": "03_tube_geometry.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/03_tube_geometry.png"
+    },
+    {
+      "name": "04_speed_and_energy.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/04_speed_and_energy.png"
+    },
+    {
+      "name": "05_force_response.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/05_force_response.png"
+    },
+    {
+      "name": "06_spin_reversal_envelope.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/06_spin_reversal_envelope.png"
+    },
+    {
+      "name": "07_sidereal_spin_states.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/07_sidereal_spin_states.png"
+    },
+    {
+      "name": "08_reference_comparison.png",
+      "path": "/mnt/data/K-Field_carbon_fiber_tube_lab_experiment_1784915745_assets/08_reference_comparison.png"
+    }
+  ],
+  "companion_pdf": {
+    "filename": "K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf",
+    "sha256": "597156de5f80d8169cc129d622abcd48be38bb6ae3cbc9e1c08f37bf5ed1c930",
+    "size_bytes": 1766480,
+    "page_count": 27
+  },
+  "layout_contract": {
+    "library": "Python ReportLab",
+    "fonts": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman",
+      "Courier"
+    ],
+    "page_size": "US Letter",
+    "margins_in": 0.68,
+    "table_width_policy": "sum of dynamic colWidths equals available page width",
+    "table_cell_policy": "every text cell is a Paragraph",
+    "repeat_rows": 1
+  }
+}

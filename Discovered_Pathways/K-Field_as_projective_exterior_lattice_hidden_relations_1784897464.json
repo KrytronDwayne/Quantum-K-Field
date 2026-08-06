@@ -1,0 +1,3483 @@
+{
+  "schema": "kfield.projective_exterior_lattice_hidden_relations.v1",
+  "epoch": 1784897464,
+  "title": "K-Field as a Projective Exterior Lattice: Hidden Geometric Derivatives and Eigen-Like Dimensions",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "organization": "Krytronx, LLC",
+    "credentials": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ]
+  },
+  "confidentiality": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "cell3": {
+    "basis_nm": [
+      [
+        0.327501242069651,
+        0.035330775844051,
+        -0.010129317626665
+      ],
+      [
+        -0.054897007886313,
+        0.207319850441498,
+        -0.389787702363804
+      ],
+      [
+        -0.037487502896305,
+        -0.547401085391957,
+        -0.689734408362922
+      ]
+    ],
+    "direct_gram_nm2": [
+      [
+        0.11167605790543453,
+        0.020710333281606465,
+        0.04393723509778903
+      ],
+      [
+        0.020710333281606465,
+        0.3438777323971203,
+        0.2963927589615229
+      ],
+      [
+        0.04393723509778903,
+        0.2963927589615229,
+        0.6277706100693854
+      ]
+    ],
+    "reciprocal_gram_nm-2": [
+      [
+        9.208025528683773,
+        0.00153480242811831,
+        -0.6451880356768953
+      ],
+      [
+        0.0015348024281183128,
+        4.903398312306197,
+        -2.3151755844163877
+      ],
+      [
+        -0.6451880356768953,
+        -2.3151755844163877,
+        2.7311712747461088
+      ]
+    ],
+    "signed_determinant_nm3": -0.11791489191669897,
+    "volume_nm3": 0.11791489191669897,
+    "edge_lengths_nm": [
+      0.3341796790731515,
+      0.5864108904148355,
+      0.7923197650376932
+    ],
+    "included_angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.4481300183379,
+      "bc": 50.36323181375619
+    },
+    "face_areas_nm2": {
+      "A_ab": 0.19486916546989957,
+      "A_ac": 0.2611062357995309,
+      "A_bc": 0.3578095391285615
+    },
+    "vertices": [
+      {
+        "label": "v000",
+        "u": [
+          0,
+          0,
+          0
+        ],
+        "x_nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "norm_nm": 0.0
+      },
+      {
+        "label": "v001",
+        "u": [
+          0,
+          0,
+          1
+        ],
+        "x_nm": [
+          -0.010129317626665,
+          -0.389787702363804,
+          -0.689734408362922
+        ],
+        "norm_nm": 0.7923197650376932
+      },
+      {
+        "label": "v010",
+        "u": [
+          0,
+          1,
+          0
+        ],
+        "x_nm": [
+          0.035330775844051,
+          0.207319850441498,
+          -0.547401085391957
+        ],
+        "norm_nm": 0.5864108904148355
+      },
+      {
+        "label": "v011",
+        "u": [
+          0,
+          1,
+          1
+        ],
+        "x_nm": [
+          0.025201458217385998,
+          -0.182467851922306,
+          -1.237135493754879
+        ],
+        "norm_nm": 1.250773304955599
+      },
+      {
+        "label": "v100",
+        "u": [
+          1,
+          0,
+          0
+        ],
+        "x_nm": [
+          0.327501242069651,
+          -0.054897007886313,
+          -0.037487502896305
+        ],
+        "norm_nm": 0.3341796790731515
+      },
+      {
+        "label": "v101",
+        "u": [
+          1,
+          0,
+          1
+        ],
+        "x_nm": [
+          0.31737192444298595,
+          -0.444684710250117,
+          -0.727221911259227
+        ],
+        "norm_nm": 0.9095719532672486
+      },
+      {
+        "label": "v110",
+        "u": [
+          1,
+          1,
+          0
+        ],
+        "x_nm": [
+          0.36283201791370195,
+          0.152422842555185,
+          -0.584888588288262
+        ],
+        "norm_nm": 0.7049641528941508
+      },
+      {
+        "label": "v111",
+        "u": [
+          1,
+          1,
+          1
+        ],
+        "x_nm": [
+          0.35270270028703693,
+          -0.237364859808619,
+          -1.274622996651184
+        ],
+        "norm_nm": 1.3436536216799986
+      }
+    ],
+    "reciprocal_families": [
+      {
+        "family": "u / constant a-coordinate",
+        "unit_normal": [
+          0.9959651903089611,
+          -0.08360216250737744,
+          0.032619290564400015
+        ],
+        "spacing_nm": 0.32954652970929305,
+        "lucas_span_nm": 0.9886395891278792
+      },
+      {
+        "family": "v / constant b-coordinate",
+        "unit_normal": [
+          0.08905259410160497,
+          0.8665767692910323,
+          -0.49103394832627567
+        ],
+        "spacing_nm": 0.4515973797241299,
+        "lucas_span_nm": 1.3547921391723896
+      },
+      {
+        "family": "w / constant c-coordinate",
+        "unit_normal": [
+          -0.19409220080776704,
+          -0.9131771688212287,
+          -0.3583792347908047
+        ],
+        "spacing_nm": 0.605097741514743,
+        "lucas_span_nm": 1.815293224544229
+      }
+    ],
+    "lucas_nodes": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "label": "(-1,-1,-1)",
+        "lambda": -3,
+        "xi1": 0,
+        "xi2": 0,
+        "polarity": -1.0,
+        "x_nm": [
+          -0.17635135014351846,
+          0.1186824299043095,
+          0.637311498325592
+        ],
+        "norm_nm": 0.6718268108399993
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "label": "(-1,-1,0)",
+        "lambda": -2,
+        "xi1": 0,
+        "xi2": -1,
+        "polarity": 1.0,
+        "x_nm": [
+          -0.18141600895685098,
+          -0.0762114212775925,
+          0.292444294144131
+        ],
+        "norm_nm": 0.3524820764470754
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "label": "(-1,0,-1)",
+        "lambda": -2,
+        "xi1": -1,
+        "xi2": 1,
+        "polarity": 1.0,
+        "x_nm": [
+          -0.15868596222149298,
+          0.2223423551250585,
+          0.3636109556296135
+        ],
+        "norm_nm": 0.4547859766336243
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "label": "(0,-1,-1)",
+        "lambda": -2,
+        "xi1": 1,
+        "xi2": 0,
+        "polarity": 1.0,
+        "x_nm": [
+          -0.012600729108692999,
+          0.091233925961153,
+          0.6185677468774395
+        ],
+        "norm_nm": 0.6253866524777995
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "label": "(-1,-1,1)",
+        "lambda": -1,
+        "xi1": 0,
+        "xi2": -2,
+        "polarity": -1.0,
+        "x_nm": [
+          -0.1864806677701835,
+          -0.2711052724594945,
+          -0.05242291003733002
+        ],
+        "norm_nm": 0.33319854397060666
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "label": "(-1,0,0)",
+        "lambda": -1,
+        "xi1": -1,
+        "xi2": 0,
+        "polarity": -1.0,
+        "x_nm": [
+          -0.1637506210348255,
+          0.0274485039431565,
+          0.0187437514481525
+        ],
+        "norm_nm": 0.16708983953657575
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "label": "(-1,1,-1)",
+        "lambda": -1,
+        "xi1": -2,
+        "xi2": 2,
+        "polarity": -1.0,
+        "x_nm": [
+          -0.1410205742994675,
+          0.32600228034580747,
+          0.089910412933635
+        ],
+        "norm_nm": 0.366398924016317
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "label": "(0,-1,0)",
+        "lambda": -1,
+        "xi1": 1,
+        "xi2": -1,
+        "polarity": -1.0,
+        "x_nm": [
+          -0.0176653879220255,
+          -0.103659925220749,
+          0.2737005426959785
+        ],
+        "norm_nm": 0.29320544520741776
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "label": "(0,0,-1)",
+        "lambda": -1,
+        "xi1": 0,
+        "xi2": 1,
+        "polarity": -1.0,
+        "x_nm": [
+          0.0050646588133325,
+          0.194893851181902,
+          0.344867204181461
+        ],
+        "norm_nm": 0.3961598825188466
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "label": "(1,-1,-1)",
+        "lambda": -1,
+        "xi1": 2,
+        "xi2": 0,
+        "polarity": -1.0,
+        "x_nm": [
+          0.1511498919261325,
+          0.0637854220179965,
+          0.599823995429287
+        ],
+        "norm_nm": 0.6218550437071719
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "label": "(-1,0,1)",
+        "lambda": 0,
+        "xi1": -1,
+        "xi2": -1,
+        "polarity": 1,
+        "x_nm": [
+          -0.168815279848158,
+          -0.1674453472387455,
+          -0.3261234527333085
+        ],
+        "norm_nm": 0.4036001108087192
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "label": "(-1,1,0)",
+        "lambda": 0,
+        "xi1": -2,
+        "xi2": 1,
+        "polarity": 1,
+        "x_nm": [
+          -0.1460852331128,
+          0.1311084291639055,
+          -0.254956791247826
+        ],
+        "norm_nm": 0.32176587907178017
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "label": "(0,-1,1)",
+        "lambda": 0,
+        "xi1": 1,
+        "xi2": -2,
+        "polarity": 1,
+        "x_nm": [
+          -0.022730046735358,
+          -0.298553776402651,
+          -0.07116666148548251
+        ],
+        "norm_nm": 0.307759169052467
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "label": "(0,0,0)",
+        "lambda": 0,
+        "xi1": 0,
+        "xi2": 0,
+        "polarity": 1,
+        "x_nm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "norm_nm": 0.0
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "label": "(0,1,-1)",
+        "lambda": 0,
+        "xi1": -1,
+        "xi2": 2,
+        "polarity": 1,
+        "x_nm": [
+          0.022730046735358,
+          0.298553776402651,
+          0.07116666148548251
+        ],
+        "norm_nm": 0.307759169052467
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "label": "(1,-1,0)",
+        "lambda": 0,
+        "xi1": 2,
+        "xi2": -1,
+        "polarity": 1,
+        "x_nm": [
+          0.1460852331128,
+          -0.1311084291639055,
+          0.254956791247826
+        ],
+        "norm_nm": 0.32176587907178017
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "label": "(1,0,-1)",
+        "lambda": 0,
+        "xi1": 1,
+        "xi2": 1,
+        "polarity": 1,
+        "x_nm": [
+          0.168815279848158,
+          0.1674453472387455,
+          0.3261234527333085
+        ],
+        "norm_nm": 0.4036001108087192
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "label": "(-1,1,1)",
+        "lambda": 1,
+        "xi1": -2,
+        "xi2": 0,
+        "polarity": -1,
+        "x_nm": [
+          -0.1511498919261325,
+          -0.0637854220179965,
+          -0.599823995429287
+        ],
+        "norm_nm": 0.6218550437071719
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "label": "(0,0,1)",
+        "lambda": 1,
+        "xi1": 0,
+        "xi2": -1,
+        "polarity": -1,
+        "x_nm": [
+          -0.0050646588133325,
+          -0.194893851181902,
+          -0.344867204181461
+        ],
+        "norm_nm": 0.3961598825188466
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "label": "(0,1,0)",
+        "lambda": 1,
+        "xi1": -1,
+        "xi2": 1,
+        "polarity": -1,
+        "x_nm": [
+          0.0176653879220255,
+          0.103659925220749,
+          -0.2737005426959785
+        ],
+        "norm_nm": 0.29320544520741776
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "label": "(1,-1,1)",
+        "lambda": 1,
+        "xi1": 2,
+        "xi2": -2,
+        "polarity": -1,
+        "x_nm": [
+          0.1410205742994675,
+          -0.32600228034580747,
+          -0.089910412933635
+        ],
+        "norm_nm": 0.366398924016317
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "label": "(1,0,0)",
+        "lambda": 1,
+        "xi1": 1,
+        "xi2": 0,
+        "polarity": -1,
+        "x_nm": [
+          0.1637506210348255,
+          -0.0274485039431565,
+          -0.0187437514481525
+        ],
+        "norm_nm": 0.16708983953657575
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "label": "(1,1,-1)",
+        "lambda": 1,
+        "xi1": 0,
+        "xi2": 2,
+        "polarity": -1,
+        "x_nm": [
+          0.1864806677701835,
+          0.2711052724594945,
+          0.05242291003733002
+        ],
+        "norm_nm": 0.33319854397060666
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "label": "(0,1,1)",
+        "lambda": 2,
+        "xi1": -1,
+        "xi2": 0,
+        "polarity": 1,
+        "x_nm": [
+          0.012600729108692999,
+          -0.091233925961153,
+          -0.6185677468774395
+        ],
+        "norm_nm": 0.6253866524777995
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "label": "(1,0,1)",
+        "lambda": 2,
+        "xi1": 1,
+        "xi2": -1,
+        "polarity": 1,
+        "x_nm": [
+          0.15868596222149298,
+          -0.2223423551250585,
+          -0.3636109556296135
+        ],
+        "norm_nm": 0.4547859766336243
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "label": "(1,1,0)",
+        "lambda": 2,
+        "xi1": 0,
+        "xi2": 1,
+        "polarity": 1,
+        "x_nm": [
+          0.18141600895685098,
+          0.0762114212775925,
+          -0.292444294144131
+        ],
+        "norm_nm": 0.3524820764470754
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "label": "(1,1,1)",
+        "lambda": 3,
+        "xi1": 0,
+        "xi2": 0,
+        "polarity": -1,
+        "x_nm": [
+          0.17635135014351846,
+          -0.1186824299043095,
+          -0.637311498325592
+        ],
+        "norm_nm": 0.6718268108399993
+      }
+    ]
+  },
+  "projective_shell": {
+    "count": 13,
+    "quotient": "({-1,0,1}^3 minus zero)/antipodal equivalence",
+    "states": [
+      {
+        "code": "001",
+        "h": [
+          0,
+          0,
+          1
+        ],
+        "class": "axial",
+        "reported": 1.0,
+        "computed": 1.0,
+        "difference": 0.0,
+        "reciprocal_unit": [
+          -0.19409220080776704,
+          -0.9131771688212287,
+          -0.3583792347908047
+        ],
+        "direct_unit": [
+          -0.012784380844245526,
+          -0.49195756506877064,
+          -0.870525309096775
+        ],
+        "reciprocal_radec": [
+          258.0005762033866,
+          -21.000692600680146
+        ],
+        "direct_radec": [
+          268.51140362847354,
+          -60.519741293966746
+        ]
+      },
+      {
+        "code": "011",
+        "h": [
+          0,
+          1,
+          1
+        ],
+        "class": "face diagonal",
+        "reported": 1.048796632266,
+        "computed": 1.0487966322545481,
+        "difference": -1.145195049900849e-11,
+        "reciprocal_unit": [
+          -0.07129137523398878,
+          0.23641730527981208,
+          -0.9690327123381742
+        ],
+        "direct_unit": [
+          0.020148701701209255,
+          -0.14588403126239044,
+          -0.9890964964261018
+        ],
+        "reciprocal_radec": [
+          106.7806266219484,
+          -75.7039395580092
+        ],
+        "direct_radec": [
+          277.8636292344056,
+          -81.53131327793989
+        ]
+      },
+      {
+        "code": "010",
+        "h": [
+          0,
+          1,
+          0
+        ],
+        "class": "axial",
+        "reported": 1.339905341993,
+        "computed": 1.339905341976038,
+        "difference": -1.6961987370223142e-11,
+        "reciprocal_unit": [
+          0.08905259410160497,
+          0.8665767692910323,
+          -0.49103394832627567
+        ],
+        "direct_unit": [
+          0.060249180943855764,
+          0.3535402459781007,
+          -0.9334770113234383
+        ],
+        "reciprocal_radec": [
+          84.13267228715412,
+          -29.408562675994975
+        ],
+        "direct_radec": [
+          80.32874876490128,
+          -68.98347221736664
+        ]
+      },
+      {
+        "code": "100",
+        "h": [
+          1,
+          0,
+          0
+        ],
+        "class": "axial",
+        "reported": 1.836152673426,
+        "computed": 1.8361526733372835,
+        "difference": -8.871658963016671e-11,
+        "reciprocal_unit": [
+          0.9959651903089611,
+          -0.08360216250737744,
+          0.032619290564400015
+        ],
+        "direct_unit": [
+          0.9800154305551337,
+          -0.16427392604652097,
+          -0.11217768537056688
+        ],
+        "reciprocal_radec": [
+          355.20179208863834,
+          1.8692792712093214
+        ],
+        "direct_radec": [
+          350.4843276589441,
+          -6.440864866050625
+        ]
+      },
+      {
+        "code": "101",
+        "h": [
+          1,
+          0,
+          1
+        ],
+        "class": "face diagonal",
+        "reported": 1.974587075075,
+        "computed": 1.9745870749986227,
+        "difference": -7.63773488898778e-11,
+        "reciprocal_unit": [
+          0.8278449538266367,
+          -0.5402058569671695,
+          -0.15116337030557345
+        ],
+        "direct_unit": [
+          0.3489244839871798,
+          -0.48889448344661157,
+          -0.799521036952594
+        ],
+        "reciprocal_radec": [
+          326.8737546207323,
+          -8.694351580379472
+        ],
+        "direct_radec": [
+          305.5154882995271,
+          -53.08438906219548
+        ]
+      },
+      {
+        "code": "111",
+        "h": [
+          1,
+          1,
+          1
+        ],
+        "class": "body diagonal",
+        "reported": 2.000023101888,
+        "computed": 2.0000231018067267,
+        "difference": -8.127321038386981e-11,
+        "reciprocal_unit": [
+          0.8769768663662011,
+          0.047223124229987076,
+          -0.4782066001180636
+        ],
+        "direct_unit": [
+          0.262495255173015,
+          -0.17665628699146188,
+          -0.9486246872594262
+        ],
+        "reciprocal_radec": [
+          3.08226505389907,
+          -28.568337610689877
+        ],
+        "direct_radec": [
+          326.0598999665981,
+          -71.55443472196453
+        ]
+      },
+      {
+        "code": "01-1",
+        "h": [
+          0,
+          1,
+          -1
+        ],
+        "class": "face diagonal",
+        "reported": 2.119131490765,
+        "computed": 2.1191314907488317,
+        "difference": -1.616839995222108e-11,
+        "reciprocal_unit": [
+          0.14789749891856924,
+          0.9788481839291753,
+          -0.14135969238855647
+        ],
+        "direct_unit": [
+          0.07385660289290347,
+          0.9700889735368157,
+          0.23124140120533654
+        ],
+        "reciprocal_radec": [
+          81.40797565188319,
+          -8.126533422016024
+        ],
+        "direct_radec": [
+          85.64625104772848,
+          13.370169238610412
+        ]
+      },
+      {
+        "code": "10-1",
+        "h": [
+          1,
+          0,
+          -1
+        ],
+        "class": "face diagonal",
+        "reported": 2.200890538669,
+        "computed": 2.2008905385901607,
+        "difference": -7.883915742468162e-11,
+        "reciprocal_unit": [
+          0.9190990247248844,
+          0.3451652053187329,
+          0.1900472672443444
+        ],
+        "direct_unit": [
+          0.4182736211590529,
+          0.4148793391142153,
+          0.8080360832404981
+        ],
+        "reciprocal_radec": [
+          20.583534830060323,
+          10.95554267323839
+        ],
+        "direct_radec": [
+          44.76657712452432,
+          53.90449284799447
+        ]
+      },
+      {
+        "code": "1-1-1",
+        "h": [
+          1,
+          -1,
+          -1
+        ],
+        "class": "body diagonal",
+        "reported": 2.223234046131,
+        "computed": 2.2232340460472595,
+        "difference": -8.374057003379676e-11,
+        "reciprocal_unit": [
+          0.856191593671922,
+          -0.18057478405506905,
+          0.4840750998440219
+        ],
+        "direct_unit": [
+          0.24306290260999822,
+          0.10257281445807924,
+          0.9645720517975581
+        ],
+        "reciprocal_radec": [
+          348.0905868457121,
+          28.95189322567413
+        ],
+        "direct_radec": [
+          22.879798738050045,
+          74.70317771597503
+        ]
+      },
+      {
+        "code": "1-10",
+        "h": [
+          1,
+          -1,
+          0
+        ],
+        "class": "face diagonal",
+        "reported": 2.272813025845,
+        "computed": 2.2728130257632446,
+        "difference": -8.175549126576698e-11,
+        "reciprocal_unit": [
+          0.752117345688417,
+          -0.5784185331957147,
+          0.3158346066698963
+        ],
+        "direct_unit": [
+          0.45401095210661235,
+          -0.4074652960162304,
+          0.7923673945270926
+        ],
+        "reciprocal_radec": [
+          322.43778685782416,
+          18.411205581904266
+        ],
+        "direct_radec": [
+          318.09269013693967,
+          52.407301840467426
+        ]
+      },
+      {
+        "code": "110",
+        "h": [
+          1,
+          1,
+          0
+        ],
+        "class": "face diagonal",
+        "reported": 2.273307476082,
+        "computed": 2.273307476000569,
+        "difference": -8.143086205336658e-11,
+        "reciprocal_unit": [
+          0.8569303597758248,
+          0.44324162870981537,
+          -0.2630726459994381
+        ],
+        "direct_unit": [
+          0.5146815145481313,
+          0.2162136073578071,
+          -0.8296713895125983
+        ],
+        "reciprocal_radec": [
+          27.349970066363905,
+          -15.252460507412485
+        ],
+        "direct_radec": [
+          22.786888326461437,
+          -56.064996547082195
+        ]
+      },
+      {
+        "code": "1-11",
+        "h": [
+          1,
+          -1,
+          1
+        ],
+        "class": "body diagonal",
+        "reported": 2.718195812855,
+        "computed": 2.718195812787313,
+        "difference": -6.7686745097717e-11,
+        "reciprocal_unit": [
+          0.5574763570184015,
+          -0.819593031131505,
+          0.13223983774250347
+        ],
+        "direct_unit": [
+          0.3848826103353605,
+          -0.8897468277807755,
+          -0.24538940220695346
+        ],
+        "reciprocal_radec": [
+          304.22301998895506,
+          7.599043206918221
+        ],
+        "direct_radec": [
+          293.3921227765292,
+          -14.204847348806359
+        ]
+      },
+      {
+        "code": "11-1",
+        "h": [
+          1,
+          1,
+          -1
+        ],
+        "class": "body diagonal",
+        "reported": 2.887171860755,
+        "computed": 2.8871718606829684,
+        "difference": -7.203171392689e-11,
+        "reciprocal_unit": [
+          0.7419573539315645,
+          0.665288306248437,
+          -0.0830105687003598
+        ],
+        "direct_unit": [
+          0.5596683153172303,
+          0.8136448293825985,
+          0.15733235029368717
+        ],
+        "reciprocal_radec": [
+          41.881515161558795,
+          -4.7616344985719214
+        ],
+        "direct_radec": [
+          55.477731997613915,
+          9.05209006185567
+        ]
+      }
+    ],
+    "normalized_reciprocal_metric_authoritative": [
+      [
+        3.371456639803652,
+        0.0005619575902507198,
+        -0.23623126152601776
+      ],
+      [
+        0.0005619575902507209,
+        1.7953463254559237,
+        -0.8476859748137208
+      ],
+      [
+        -0.23623126152601776,
+        -0.8476859748137208,
+        1.0
+      ]
+    ],
+    "normalized_reciprocal_metric_reconstructed": [
+      [
+        3.3714566401294475,
+        0.0005619575897436446,
+        -0.2362312615381017
+      ],
+      [
+        0.0005619575897436446,
+        1.7953463255013784,
+        -0.8476859748244375
+      ],
+      [
+        -0.2362312615381017,
+        -0.8476859748244375,
+        1.0
+      ]
+    ],
+    "max_abs_reconstruction_error": 3.2579539066546204e-10
+  },
+  "mass_bridge": {
+    "A_ac_over_A_ab": 1.3399053419760378,
+    "A_bc_over_A_ab": 1.8361526733372833,
+    "A_bc_over_A_ac": 1.370359991721057,
+    "closure_error": 0.0
+  },
+  "phase_metric": {
+    "matrix": [
+      [
+        2.9764106378,
+        1.2431507795,
+        -2.0803600354
+      ],
+      [
+        1.2431507795,
+        2.5922286635,
+        -2.3178839937
+      ],
+      [
+        -2.0803600354,
+        -2.3178839937,
+        6.7735709133
+      ]
+    ],
+    "eigenvalues": [
+      1.4293287534874834,
+      2.1125450264474788,
+      8.800336434665038
+    ],
+    "costs": [
+      1.1955453791000505,
+      1.4534596748611497,
+      2.9665361003475144
+    ],
+    "eigenvectors_columns": [
+      [
+        -0.4089530672843345,
+        -0.8285538959646047,
+        -0.3824340861385266
+      ],
+      [
+        0.8845250094313242,
+        -0.2568323054783916,
+        -0.38942608355523645
+      ],
+      [
+        0.2244390706834493,
+        -0.4975295049989798,
+        0.8379090017455477
+      ]
+    ],
+    "eigenaxes_radec_deg": [
+      {
+        "ra": 114.81308365087226,
+        "dec": 12.969895703630478
+      },
+      {
+        "ra": 197.22221211867645,
+        "dec": -29.836687522331825
+      },
+      {
+        "ra": 225.51900719935855,
+        "dec": 56.91996962268213
+      }
+    ],
+    "zero_modulation_coefficients": {
+      "a": 0.30444978315733356,
+      "b": 0.9525283877845597
+    },
+    "zero_plane_normals": {
+      "m_plus": [
+        -0.4887849961596342,
+        -0.10164595221151956,
+        0.866462536944466
+      ],
+      "m_minus": [
+        0.23977365084715008,
+        0.6402328468487297,
+        -0.7298016841412468
+      ]
+    },
+    "intersection_nodes": [
+      {
+        "name": "e2",
+        "vector": [
+          -0.8285538959646047,
+          -0.2568323054783916,
+          -0.4975295049989798
+        ],
+        "ra_deg": 197.22221211867645,
+        "dec_deg": -29.836687522331825,
+        "antipode_ra_deg": 17.222212118676453,
+        "antipode_dec_deg": 29.836687522331825
+      },
+      {
+        "name": "w_plus",
+        "vector": [
+          -0.2731074312630503,
+          0.9610958678829432,
+          -0.04131662773303905
+        ],
+        "ra_deg": 105.86316319704204,
+        "dec_deg": -2.3679424237219577,
+        "antipode_ra_deg": 285.863163197042,
+        "antipode_dec_deg": 2.3679424237219577
+      },
+      {
+        "name": "w_minus",
+        "vector": [
+          -0.5059713804567452,
+          0.7239744944945403,
+          0.4688858000409807
+        ],
+        "ra_deg": 124.94893412405776,
+        "dec_deg": 27.961995685217694,
+        "antipode_ra_deg": 304.94893412405776,
+        "antipode_dec_deg": -27.961995685217694
+      }
+    ],
+    "zero_plane_projective_angle_deg": 35.45012922884199,
+    "soft_axis_direct_111bar_lock_deg": 1.8527560992696173
+  },
+  "scale_algebra": {
+    "basis_law": "B_(p,n)=3^p 2^-n B",
+    "ratio_decomposition": "r=2^sigma (2/3)^nu",
+    "examples": [
+      {
+        "ratio": "2/3",
+        "nu": 1,
+        "sigma": 0
+      },
+      {
+        "ratio": "4/9",
+        "nu": 2,
+        "sigma": 0
+      },
+      {
+        "ratio": "3/2",
+        "nu": -1,
+        "sigma": 0
+      },
+      {
+        "ratio": "4/3",
+        "nu": 1,
+        "sigma": 1
+      },
+      {
+        "ratio": "8/3",
+        "nu": 1,
+        "sigma": 2
+      }
+    ]
+  },
+  "solar_system": {
+    "rotation_summary": {
+      "schema": "kfield.solar_system_rotation_period_quantization_mod.v1",
+      "epoch": 1784839005,
+      "body_count": 31,
+      "branches": {
+        "synchronous_or_mutual_synchronous": 20,
+        "mercury_spin_orbit_3_2": 1,
+        "free_rotators": 10
+      },
+      "reference_period": {
+        "body": "Haumea",
+        "days": 0.1631,
+        "hours": 3.9143999999999997
+      },
+      "mercury_spin_frequency_to_orbital_frequency": 1.5000006534353192,
+      "cell3_mod": {
+        "radial_count": 13,
+        "denominator_range": [
+          1,
+          16
+        ],
+        "coarse_envelope_ppm": 10.0,
+        "periods_within_envelope": 9,
+        "modulus": 81,
+        "q_class_counts": {
+          "-2": 1,
+          "-1": 4,
+          "0": 20,
+          "1": 4,
+          "2": 1,
+          "3": 1
+        },
+        "rho_rms": 0.003296814272329107,
+        "rho_max_abs": 0.0060955060658106075
+      },
+      "three_halves_ladder": {
+        "reference_body": "Saturn",
+        "reference_period_days": 0.4440092592388495,
+        "key_relations": [
+          {
+            "relation": "Neptune:Saturn",
+            "numerator_body": "Neptune",
+            "denominator_body": "Saturn",
+            "observed_period_ratio": 1.4983077179111157,
+            "target_ratio": 1.5,
+            "signed_ratio_residual": -0.0016922820888842782,
+            "relative_residual_percent": -0.11281880592561855,
+            "mod81_q": 0,
+            "mod81_rho": -0.0016922820888842782
+          },
+          {
+            "relation": "Earth:Neptune",
+            "numerator_body": "Earth",
+            "denominator_body": "Neptune",
+            "observed_period_ratio": 1.4990618475419701,
+            "target_ratio": 1.5,
+            "signed_ratio_residual": -0.0009381524580298617,
+            "relative_residual_percent": -0.06254349720199077,
+            "mod81_q": 0,
+            "mod81_rho": -0.0009381524580298617
+          },
+          {
+            "relation": "Earth:Saturn",
+            "numerator_body": "Earth",
+            "denominator_body": "Saturn",
+            "observed_period_ratio": 2.24605593579823,
+            "target_ratio": 2.25,
+            "signed_ratio_residual": -0.003944064201769848,
+            "relative_residual_percent": -0.17529174230088213,
+            "mod81_q": 0,
+            "mod81_rho": -0.003944064201769848
+          }
+        ]
+      },
+      "resonance_relations": [
+        {
+          "relation": "Europa:Io",
+          "numerator_body": "Europa",
+          "denominator_body": "Io",
+          "observed_period_ratio": 2.0072947848780074,
+          "target_ratio": 2.0,
+          "signed_ratio_residual": 0.007294784878007388,
+          "relative_residual_percent": 0.3647392439003694,
+          "mod81_q": 1,
+          "mod81_rho": -0.005050894134338291
+        },
+        {
+          "relation": "Ganymede:Europa",
+          "numerator_body": "Ganymede",
+          "denominator_body": "Europa",
+          "observed_period_ratio": 2.0146967896115076,
+          "target_ratio": 2.0,
+          "signed_ratio_residual": 0.014696789611507555,
+          "relative_residual_percent": 0.7348394805753777,
+          "mod81_q": 1,
+          "mod81_rho": 0.0023511105991618764
+        },
+        {
+          "relation": "Ganymede:Io",
+          "numerator_body": "Ganymede",
+          "denominator_body": "Io",
+          "observed_period_ratio": 4.044090358897644,
+          "target_ratio": 4.0,
+          "signed_ratio_residual": 0.04409035889764379,
+          "relative_residual_percent": 1.1022589724410947,
+          "mod81_q": 4,
+          "mod81_rho": -0.0052923571517389245
+        },
+        {
+          "relation": "Tethys:Mimas",
+          "numerator_body": "Tethys",
+          "denominator_body": "Mimas",
+          "observed_period_ratio": 2.00313971980453,
+          "target_ratio": 2.0,
+          "signed_ratio_residual": 0.0031397198045302055,
+          "relative_residual_percent": 0.15698599022651027,
+          "mod81_q": 0,
+          "mod81_rho": 0.0031397198045302055
+        },
+        {
+          "relation": "Dione:Enceladus",
+          "numerator_body": "Dione",
+          "denominator_body": "Enceladus",
+          "observed_period_ratio": 1.9974306171304537,
+          "target_ratio": 2.0,
+          "signed_ratio_residual": -0.0025693828695463328,
+          "relative_residual_percent": -0.12846914347731664,
+          "mod81_q": 0,
+          "mod81_rho": -0.0025693828695463328
+        },
+        {
+          "relation": "Pluto:Charon",
+          "numerator_body": "Pluto",
+          "denominator_body": "Charon",
+          "observed_period_ratio": 1.0,
+          "target_ratio": 1.0,
+          "signed_ratio_residual": 0.0,
+          "relative_residual_percent": 0.0,
+          "mod81_q": 0,
+          "mod81_rho": 0.0
+        },
+        {
+          "relation": "Neptune:Saturn",
+          "numerator_body": "Neptune",
+          "denominator_body": "Saturn",
+          "observed_period_ratio": 1.4983077179111157,
+          "target_ratio": 1.5,
+          "signed_ratio_residual": -0.0016922820888842782,
+          "relative_residual_percent": -0.11281880592561855,
+          "mod81_q": 0,
+          "mod81_rho": -0.0016922820888842782
+        },
+        {
+          "relation": "Earth:Neptune",
+          "numerator_body": "Earth",
+          "denominator_body": "Neptune",
+          "observed_period_ratio": 1.4990618475419701,
+          "target_ratio": 1.5,
+          "signed_ratio_residual": -0.0009381524580298617,
+          "relative_residual_percent": -0.06254349720199077,
+          "mod81_q": 0,
+          "mod81_rho": -0.0009381524580298617
+        },
+        {
+          "relation": "Earth:Saturn",
+          "numerator_body": "Earth",
+          "denominator_body": "Saturn",
+          "observed_period_ratio": 2.24605593579823,
+          "target_ratio": 2.25,
+          "signed_ratio_residual": -0.003944064201769848,
+          "relative_residual_percent": -0.17529174230088213,
+          "mod81_q": 0,
+          "mod81_rho": -0.003944064201769848
+        }
+      ]
+    },
+    "rotation_period_ledger": [
+      {
+        "body": "Sun",
+        "prime_meridian_rate_deg_per_day": 14.1844,
+        "rotation_period_days": 25.379994924001014,
+        "rotation_period_hours": 609.1198781760244,
+        "branch": "free",
+        "period_ratio_to_Haumea": 155.61002405886583,
+        "cell3_radial": "1-10",
+        "coarse_harmonic_p": 1027,
+        "subharmonic_d": 15,
+        "coarse_reconstructed_ratio": 155.61193183618767,
+        "coarse_residual_ppm": 12.259989890628376,
+        "within_10ppm": false,
+        "address_u": 1026.9874091447462,
+        "signed_address_residual_delta": -0.012590855253847621,
+        "modulus_N": 81,
+        "mod_class_q": -1,
+        "within_class_remainder_rho": -0.00024517624150194317,
+        "three_halves_rung_n": 10.0,
+        "three_halves_log_residual": -0.021654036300544632,
+        "three_halves_period_residual_percent": -0.8741524911574206
+      },
+      {
+        "body": "Mercury",
+        "prime_meridian_rate_deg_per_day": 6.1385108,
+        "rotation_period_days": 58.64614590235795,
+        "rotation_period_hours": 1407.5075016565909,
+        "branch": "spin-orbit 3:2",
+        "period_ratio_to_Haumea": 359.5717100083259,
+        "cell3_radial": "001",
+        "coarse_harmonic_p": 2517,
+        "subharmonic_d": 7,
+        "coarse_reconstructed_ratio": 359.57142857142856,
+        "coarse_residual_ppm": -0.7827003335458826,
+        "within_10ppm": true,
+        "address_u": 2517.0019700582816,
+        "signed_address_residual_delta": 0.001970058281585807,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.001970058281585807,
+        "three_halves_rung_n": 12.0,
+        "three_halves_log_residual": 0.044024564373964736,
+        "three_halves_period_residual_percent": 1.8010695800411591
+      },
+      {
+        "body": "Venus",
+        "prime_meridian_rate_deg_per_day": -1.4813688,
+        "rotation_period_days": 243.01848398589195,
+        "rotation_period_hours": 5832.4436156614065,
+        "branch": "free retrograde",
+        "period_ratio_to_Haumea": 1489.996836210251,
+        "cell3_radial": "001",
+        "coarse_harmonic_p": 1490,
+        "subharmonic_d": 1,
+        "coarse_reconstructed_ratio": 1490.0,
+        "coarse_residual_ppm": 2.1233533333830934,
+        "within_10ppm": true,
+        "address_u": 1489.996836210251,
+        "signed_address_residual_delta": -0.0031637897488963063,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.0031637897488963063,
+        "three_halves_rung_n": 16.0,
+        "three_halves_log_residual": -0.4498398437354876,
+        "three_halves_period_residual_percent": -16.6727334522885
+      },
+      {
+        "body": "Earth",
+        "prime_meridian_rate_deg_per_day": 360.9856235,
+        "rotation_period_days": 0.997269632262793,
+        "rotation_period_hours": 23.93447117430703,
+        "branch": "free",
+        "period_ratio_to_Haumea": 6.114467395847903,
+        "cell3_radial": "1-1-1",
+        "coarse_harmonic_p": 11,
+        "subharmonic_d": 4,
+        "coarse_reconstructed_ratio": 6.11389362686025,
+        "coarse_residual_ppm": -93.83793395367768,
+        "within_10ppm": false,
+        "address_u": 11.001032314143716,
+        "signed_address_residual_delta": 0.0010323141437158512,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.0010323141437158512,
+        "three_halves_rung_n": 2.0,
+        "three_halves_log_residual": -0.0043270198728377895,
+        "three_halves_period_residual_percent": -0.17529174230088707
+      },
+      {
+        "body": "Moon",
+        "prime_meridian_rate_deg_per_day": 13.17635815,
+        "rotation_period_days": 27.321661714242335,
+        "rotation_period_hours": 655.719881141816,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 167.51478672128962,
+        "cell3_radial": "100",
+        "coarse_harmonic_p": 1186,
+        "subharmonic_d": 13,
+        "coarse_reconstructed_ratio": 167.51362082178738,
+        "coarse_residual_ppm": -6.959979623633039,
+        "within_10ppm": true,
+        "address_u": 1186.0082545932853,
+        "signed_address_residual_delta": 0.00825459328530087,
+        "modulus_N": 81,
+        "mod_class_q": 1,
+        "within_class_remainder_rho": -0.0040910857270448076,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Mars",
+        "prime_meridian_rate_deg_per_day": 350.891982443297,
+        "rotation_period_days": 1.0259567559602898,
+        "rotation_period_hours": 24.622962143046955,
+        "branch": "free",
+        "period_ratio_to_Haumea": 6.290354113796995,
+        "cell3_radial": "10-1",
+        "coarse_harmonic_p": 20,
+        "subharmonic_d": 7,
+        "coarse_reconstructed_ratio": 6.288258681911429,
+        "coarse_residual_ppm": -333.1182708729008,
+        "within_10ppm": false,
+        "address_u": 20.006664585512663,
+        "signed_address_residual_delta": 0.006664585512663024,
+        "modulus_N": 81,
+        "mod_class_q": 1,
+        "within_class_remainder_rho": -0.0056810934996826545,
+        "three_halves_rung_n": 2.0,
+        "three_halves_log_residual": 0.06561660559912807,
+        "three_halves_period_residual_percent": 2.6962323282330614
+      },
+      {
+        "body": "Jupiter",
+        "prime_meridian_rate_deg_per_day": 870.536,
+        "rotation_period_days": 0.4135383258130623,
+        "rotation_period_hours": 9.924919819513496,
+        "branch": "free",
+        "period_ratio_to_Haumea": 2.5354894286515166,
+        "cell3_radial": "011",
+        "coarse_harmonic_p": 29,
+        "subharmonic_d": 12,
+        "coarse_reconstructed_ratio": 2.5345918613095,
+        "coarse_residual_ppm": -354.0016108424249,
+        "within_10ppm": false,
+        "address_u": 29.010269682198473,
+        "signed_address_residual_delta": 0.010269682198472907,
+        "modulus_N": 81,
+        "mod_class_q": 1,
+        "within_class_remainder_rho": -0.0020759968138727714,
+        "three_halves_rung_n": 0.0,
+        "three_halves_log_residual": -0.1753423868003775,
+        "three_halves_period_residual_percent": -6.862679728351273
+      },
+      {
+        "body": "Io",
+        "prime_meridian_rate_deg_per_day": 203.4889538,
+        "rotation_period_days": 1.769137799754121,
+        "rotation_period_hours": 42.459307194098905,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 10.846951561950467,
+        "cell3_radial": "10-1",
+        "coarse_harmonic_p": 69,
+        "subharmonic_d": 14,
+        "coarse_reconstructed_ratio": 10.847246226297214,
+        "coarse_residual_ppm": 27.165636820924988,
+        "within_10ppm": false,
+        "address_u": 68.99812562197803,
+        "signed_address_residual_delta": -0.0018743780219665496,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.0018743780219665496,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Europa",
+        "prime_meridian_rate_deg_per_day": 101.3747235,
+        "rotation_period_days": 3.551181079177,
+        "rotation_period_hours": 85.228345900248,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 21.77302930212753,
+        "cell3_radial": "010",
+        "coarse_harmonic_p": 65,
+        "subharmonic_d": 4,
+        "coarse_reconstructed_ratio": 21.77346180738625,
+        "coarse_residual_ppm": 19.86426659894569,
+        "within_10ppm": false,
+        "address_u": 64.99870884831886,
+        "signed_address_residual_delta": -0.0012911516811442425,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.0012911516811442425,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Ganymede",
+        "prime_meridian_rate_deg_per_day": 50.3176081,
+        "rotation_period_days": 7.154553119547032,
+        "rotation_period_hours": 171.70927486912876,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 43.86605223511362,
+        "cell3_radial": "01-1",
+        "coarse_harmonic_p": 207,
+        "subharmonic_d": 10,
+        "coarse_reconstructed_ratio": 43.8660218588355,
+        "coarse_residual_ppm": -0.6924780455719315,
+        "within_10ppm": true,
+        "address_u": 207.0001433430547,
+        "signed_address_residual_delta": 0.00014334305470242725,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.00014334305470242725,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Callisto",
+        "prime_meridian_rate_deg_per_day": 21.5710715,
+        "rotation_period_days": 16.689017974837274,
+        "rotation_period_hours": 400.5364313960946,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 102.32383798183491,
+        "cell3_radial": "01-1",
+        "coarse_harmonic_p": 338,
+        "subharmonic_d": 7,
+        "coarse_reconstructed_ratio": 102.32377769693858,
+        "coarse_residual_ppm": -0.589157888586378,
+        "within_10ppm": true,
+        "address_u": 338.0001991354837,
+        "signed_address_residual_delta": 0.00019913548368322154,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.00019913548368322154,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Saturn",
+        "prime_meridian_rate_deg_per_day": 810.7939024,
+        "rotation_period_days": 0.4440092592388495,
+        "rotation_period_hours": 10.656222221732389,
+        "branch": "free",
+        "period_ratio_to_Haumea": 2.722313054805944,
+        "cell3_radial": "01-1",
+        "coarse_harmonic_p": 9,
+        "subharmonic_d": 7,
+        "coarse_reconstructed_ratio": 2.7245976309835718,
+        "coarse_residual_ppm": 839.2040634690456,
+        "within_10ppm": false,
+        "address_u": 8.992453496485194,
+        "signed_address_residual_delta": -0.007546503514806346,
+        "modulus_N": 81,
+        "mod_class_q": -1,
+        "within_class_remainder_rho": 0.004799175497539332,
+        "three_halves_rung_n": 0.0,
+        "three_halves_log_residual": 0.0,
+        "three_halves_period_residual_percent": 0.0
+      },
+      {
+        "body": "Mimas",
+        "prime_meridian_rate_deg_per_day": 381.994555,
+        "rotation_period_days": 0.942421810174755,
+        "rotation_period_hours": 22.61812344419412,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 5.778183998618976,
+        "cell3_radial": "010",
+        "coarse_harmonic_p": 69,
+        "subharmonic_d": 16,
+        "coarse_reconstructed_ratio": 5.778341787344813,
+        "coarse_residual_ppm": 27.307667231468713,
+        "within_10ppm": false,
+        "address_u": 68.99811582241352,
+        "signed_address_residual_delta": -0.0018841775864757437,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.0018841775864757437,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Enceladus",
+        "prime_meridian_rate_deg_per_day": 262.7318996,
+        "rotation_period_days": 1.3702180837122833,
+        "rotation_period_hours": 32.8852340090948,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 8.401091868254342,
+        "cell3_radial": "1-11",
+        "coarse_harmonic_p": 34,
+        "subharmonic_d": 11,
+        "coarse_reconstructed_ratio": 8.401696148824545,
+        "coarse_residual_ppm": 71.92881350182034,
+        "within_10ppm": false,
+        "address_u": 33.99755459623593,
+        "signed_address_residual_delta": -0.002445403764070875,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.002445403764070875,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Tethys",
+        "prime_meridian_rate_deg_per_day": 190.6979085,
+        "rotation_period_days": 1.887802560771137,
+        "rotation_period_hours": 45.30726145850729,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 11.574509875972637,
+        "cell3_radial": "01-1",
+        "coarse_harmonic_p": 71,
+        "subharmonic_d": 13,
+        "coarse_reconstructed_ratio": 11.573718141870385,
+        "coarse_residual_ppm": -68.40325082757559,
+        "within_10ppm": false,
+        "address_u": 71.00485696304082,
+        "signed_address_residual_delta": 0.004856963040822393,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.004856963040822393,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Dione",
+        "prime_meridian_rate_deg_per_day": 131.5349316,
+        "rotation_period_days": 2.7369155525527336,
+        "rotation_period_hours": 65.6859732612656,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 16.780598114976907,
+        "cell3_radial": "011",
+        "coarse_harmonic_p": 16,
+        "subharmonic_d": 1,
+        "coarse_reconstructed_ratio": 16.780746116256,
+        "coarse_residual_ppm": 8.819785688229942,
+        "within_10ppm": true,
+        "address_u": 15.999858884673596,
+        "signed_address_residual_delta": -0.00014111532640370683,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.00014111532640370683,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Rhea",
+        "prime_meridian_rate_deg_per_day": 79.6900478,
+        "rotation_period_days": 4.517502623458083,
+        "rotation_period_hours": 108.420062962994,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 27.697747538063048,
+        "cell3_radial": "1-10",
+        "coarse_harmonic_p": 195,
+        "subharmonic_d": 16,
+        "coarse_reconstructed_ratio": 27.69990875248594,
+        "coarse_residual_ppm": 78.02852632399215,
+        "within_10ppm": false,
+        "address_u": 194.98478562452212,
+        "signed_address_residual_delta": -0.015214375477881958,
+        "modulus_N": 81,
+        "mod_class_q": -1,
+        "within_class_remainder_rho": -0.00286869646553628,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Titan",
+        "prime_meridian_rate_deg_per_day": 22.5769768,
+        "rotation_period_days": 15.945447576488629,
+        "rotation_period_hours": 382.69074183572707,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 97.76485331997934,
+        "cell3_radial": "011",
+        "coarse_harmonic_p": 1305,
+        "subharmonic_d": 14,
+        "coarse_reconstructed_ratio": 97.76282893622357,
+        "coarse_residual_ppm": -20.706661821967565,
+        "within_10ppm": false,
+        "address_u": 1305.0270227532285,
+        "signed_address_residual_delta": 0.027022753228493457,
+        "modulus_N": 81,
+        "mod_class_q": 2,
+        "within_class_remainder_rho": 0.0023313952038021,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Iapetus",
+        "prime_meridian_rate_deg_per_day": 4.5379572,
+        "rotation_period_days": 79.3308495725786,
+        "rotation_period_hours": 1903.9403897418865,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 486.3939274836211,
+        "cell3_radial": "10-1",
+        "coarse_harmonic_p": 221,
+        "subharmonic_d": 1,
+        "coarse_reconstructed_ratio": 486.39680904584895,
+        "coarse_residual_ppm": 5.924338411844587,
+        "within_10ppm": true,
+        "address_u": 220.99869072896755,
+        "signed_address_residual_delta": -0.0013092710324542622,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.0013092710324542622,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Uranus",
+        "prime_meridian_rate_deg_per_day": -501.1600928,
+        "rotation_period_days": 0.7183333333439753,
+        "rotation_period_hours": 17.240000000255407,
+        "branch": "free retrograde",
+        "period_ratio_to_Haumea": 4.404250970839824,
+        "cell3_radial": "110",
+        "coarse_harmonic_p": 31,
+        "subharmonic_d": 16,
+        "coarse_reconstructed_ratio": 4.404533234908875,
+        "coarse_residual_ppm": 64.08900648957605,
+        "within_10ppm": false,
+        "address_u": 30.99801336812009,
+        "signed_address_residual_delta": -0.0019866318799088845,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.0019866318799088845,
+        "three_halves_rung_n": 1.0,
+        "three_halves_log_residual": 0.18650973390263226,
+        "three_halves_period_residual_percent": 7.855608623326238
+      },
+      {
+        "body": "Miranda",
+        "prime_meridian_rate_deg_per_day": -254.6906892,
+        "rotation_period_days": 1.4134792329110395,
+        "rotation_period_hours": 33.92350158986495,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 8.666334965732922,
+        "cell3_radial": "10-1",
+        "coarse_harmonic_p": 63,
+        "subharmonic_d": 16,
+        "coarse_reconstructed_ratio": 8.666006496009187,
+        "coarse_residual_ppm": -37.90180336138427,
+        "within_10ppm": false,
+        "address_u": 63.00238790411764,
+        "signed_address_residual_delta": 0.002387904117640005,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.002387904117640005,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Ariel",
+        "prime_meridian_rate_deg_per_day": -142.8356681,
+        "rotation_period_days": 2.52037887166924,
+        "rotation_period_hours": 60.48909292006176,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 15.452966717775842,
+        "cell3_radial": "010",
+        "coarse_harmonic_p": 173,
+        "subharmonic_d": 15,
+        "coarse_reconstructed_ratio": 15.453574944319268,
+        "coarse_residual_ppm": 39.35985591208002,
+        "within_10ppm": false,
+        "address_u": 172.99319101292798,
+        "signed_address_residual_delta": -0.006808987072020045,
+        "modulus_N": 81,
+        "mod_class_q": -1,
+        "within_class_remainder_rho": 0.005536691940325633,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Umbriel",
+        "prime_meridian_rate_deg_per_day": -86.8688923,
+        "rotation_period_days": 4.144176246161251,
+        "rotation_period_hours": 99.46022990787003,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 25.408805923735446,
+        "cell3_radial": "1-1-1",
+        "coarse_harmonic_p": 80,
+        "subharmonic_d": 7,
+        "coarse_reconstructed_ratio": 25.40838909864,
+        "coarse_residual_ppm": -16.404749467402446,
+        "within_10ppm": false,
+        "address_u": 80.00131240148701,
+        "signed_address_residual_delta": 0.0013124014870129486,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.0013124014870129486,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Titania",
+        "prime_meridian_rate_deg_per_day": -41.3514316,
+        "rotation_period_days": 8.70586545787208,
+        "rotation_period_hours": 208.94077098892996,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 53.3774706184677,
+        "cell3_radial": "01-1",
+        "coarse_harmonic_p": 403,
+        "subharmonic_d": 16,
+        "coarse_reconstructed_ratio": 53.37562442364344,
+        "coarse_residual_ppm": -34.587529211704826,
+        "within_10ppm": false,
+        "address_u": 403.0139392563967,
+        "signed_address_residual_delta": 0.013939256396724886,
+        "modulus_N": 81,
+        "mod_class_q": 1,
+        "within_class_remainder_rho": 0.0015935773843792078,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Oberon",
+        "prime_meridian_rate_deg_per_day": -26.7394932,
+        "rotation_period_days": 13.46323198077666,
+        "rotation_period_hours": 323.11756753863983,
+        "branch": "synchronous 1:1",
+        "period_ratio_to_Haumea": 82.54587357925604,
+        "cell3_radial": "001",
+        "coarse_harmonic_p": 908,
+        "subharmonic_d": 11,
+        "coarse_reconstructed_ratio": 82.54545454545455,
+        "coarse_residual_ppm": -5.076374909207537,
+        "within_10ppm": true,
+        "address_u": 908.0046093718164,
+        "signed_address_residual_delta": 0.0046093718164001984,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.0046093718164001984,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Neptune",
+        "prime_meridian_rate_deg_per_day": 541.1397757,
+        "rotation_period_days": 0.6652624999415655,
+        "rotation_period_hours": 15.966299998597572,
+        "branch": "free",
+        "period_ratio_to_Haumea": 4.078862660585932,
+        "cell3_radial": "011",
+        "coarse_harmonic_p": 35,
+        "subharmonic_d": 9,
+        "coarse_reconstructed_ratio": 4.0786535699233335,
+        "coarse_residual_ppm": -51.262001199203766,
+        "within_10ppm": false,
+        "address_u": 35.00179426201943,
+        "signed_address_residual_delta": 0.0017942620194304482,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.0017942620194304482,
+        "three_halves_rung_n": 1.0,
+        "three_halves_log_residual": -0.002784024864020296,
+        "three_halves_period_residual_percent": -0.11281880592562965
+      },
+      {
+        "body": "Triton",
+        "prime_meridian_rate_deg_per_day": -61.2572637,
+        "rotation_period_days": 5.876854078286229,
+        "rotation_period_hours": 141.0444978788695,
+        "branch": "synchronous 1:1 retrograde",
+        "period_ratio_to_Haumea": 36.03221384602225,
+        "cell3_radial": "011",
+        "coarse_harmonic_p": 481,
+        "subharmonic_d": 14,
+        "coarse_reconstructed_ratio": 36.03365572285328,
+        "coarse_residual_ppm": 40.016326423586435,
+        "within_10ppm": false,
+        "address_u": 480.9807529171877,
+        "signed_address_residual_delta": -0.019247082812285043,
+        "modulus_N": 81,
+        "mod_class_q": -2,
+        "within_class_remainder_rho": 0.005444275212406313,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Ceres",
+        "prime_meridian_rate_deg_per_day": 952.1532,
+        "rotation_period_days": 0.3780904165422119,
+        "rotation_period_hours": 9.074169997013087,
+        "branch": "free",
+        "period_ratio_to_Haumea": 2.318150929136799,
+        "cell3_radial": "010",
+        "coarse_harmonic_p": 19,
+        "subharmonic_d": 11,
+        "coarse_reconstructed_ratio": 2.3143819543515454,
+        "coarse_residual_ppm": -1625.8539242987035,
+        "within_10ppm": false,
+        "address_u": 19.030941530971226,
+        "signed_address_residual_delta": 0.030941530971226427,
+        "modulus_N": 81,
+        "mod_class_q": 3,
+        "within_class_remainder_rho": -0.0060955060658106075,
+        "three_halves_rung_n": 0.0,
+        "three_halves_log_residual": -0.3963646906341039,
+        "three_halves_period_residual_percent": -14.846276586582919
+      },
+      {
+        "body": "Pluto",
+        "prime_meridian_rate_deg_per_day": 56.3625225,
+        "rotation_period_days": 6.387222999112575,
+        "rotation_period_hours": 153.29335197870182,
+        "branch": "mutual synchronous 1:1",
+        "period_ratio_to_Haumea": 39.1613917787405,
+        "cell3_radial": "1-10",
+        "coarse_harmonic_p": 224,
+        "subharmonic_d": 13,
+        "coarse_reconstructed_ratio": 39.162316753021535,
+        "coarse_residual_ppm": 23.619545655106933,
+        "within_10ppm": false,
+        "address_u": 223.99470934673607,
+        "signed_address_residual_delta": -0.00529065326392697,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.00529065326392697,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Charon",
+        "prime_meridian_rate_deg_per_day": 56.3625225,
+        "rotation_period_days": 6.387222999112575,
+        "rotation_period_hours": 153.29335197870182,
+        "branch": "mutual synchronous 1:1",
+        "period_ratio_to_Haumea": 39.1613917787405,
+        "cell3_radial": "1-10",
+        "coarse_harmonic_p": 224,
+        "subharmonic_d": 13,
+        "coarse_reconstructed_ratio": 39.162316753021535,
+        "coarse_residual_ppm": 23.619545655106933,
+        "within_10ppm": false,
+        "address_u": 223.99470934673607,
+        "signed_address_residual_delta": -0.00529065326392697,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": -0.00529065326392697,
+        "three_halves_rung_n": NaN,
+        "three_halves_log_residual": NaN,
+        "three_halves_period_residual_percent": NaN
+      },
+      {
+        "body": "Haumea",
+        "prime_meridian_rate_deg_per_day": 2207.2348252605766,
+        "rotation_period_days": 0.1631,
+        "rotation_period_hours": 3.9143999999999997,
+        "branch": "free",
+        "period_ratio_to_Haumea": 1.0,
+        "cell3_radial": "001",
+        "coarse_harmonic_p": 1,
+        "subharmonic_d": 1,
+        "coarse_reconstructed_ratio": 1.0,
+        "coarse_residual_ppm": 0.0,
+        "within_10ppm": true,
+        "address_u": 1.0,
+        "signed_address_residual_delta": 0.0,
+        "modulus_N": 81,
+        "mod_class_q": 0,
+        "within_class_remainder_rho": 0.0,
+        "three_halves_rung_n": -2.0,
+        "three_halves_log_residual": -0.46995829407398304,
+        "three_halves_period_residual_percent": -17.349696574100005
+      }
+    ],
+    "resonances": [
+      {
+        "relation": "Europa:Io",
+        "numerator_body": "Europa",
+        "denominator_body": "Io",
+        "observed_period_ratio": 2.0072947848780074,
+        "target_ratio": 2.0,
+        "signed_ratio_residual": 0.0072947848780073,
+        "relative_residual_percent": 0.3647392439003694,
+        "mod81_q": 1,
+        "mod81_rho": -0.0050508941343382
+      },
+      {
+        "relation": "Ganymede:Europa",
+        "numerator_body": "Ganymede",
+        "denominator_body": "Europa",
+        "observed_period_ratio": 2.014696789611508,
+        "target_ratio": 2.0,
+        "signed_ratio_residual": 0.0146967896115075,
+        "relative_residual_percent": 0.7348394805753777,
+        "mod81_q": 1,
+        "mod81_rho": 0.0023511105991618
+      },
+      {
+        "relation": "Ganymede:Io",
+        "numerator_body": "Ganymede",
+        "denominator_body": "Io",
+        "observed_period_ratio": 4.044090358897644,
+        "target_ratio": 4.0,
+        "signed_ratio_residual": 0.0440903588976437,
+        "relative_residual_percent": 1.1022589724410947,
+        "mod81_q": 4,
+        "mod81_rho": -0.0052923571517389
+      },
+      {
+        "relation": "Tethys:Mimas",
+        "numerator_body": "Tethys",
+        "denominator_body": "Mimas",
+        "observed_period_ratio": 2.00313971980453,
+        "target_ratio": 2.0,
+        "signed_ratio_residual": 0.0031397198045302,
+        "relative_residual_percent": 0.1569859902265102,
+        "mod81_q": 0,
+        "mod81_rho": 0.0031397198045302
+      },
+      {
+        "relation": "Dione:Enceladus",
+        "numerator_body": "Dione",
+        "denominator_body": "Enceladus",
+        "observed_period_ratio": 1.9974306171304537,
+        "target_ratio": 2.0,
+        "signed_ratio_residual": -0.0025693828695463,
+        "relative_residual_percent": -0.1284691434773166,
+        "mod81_q": 0,
+        "mod81_rho": -0.0025693828695463
+      },
+      {
+        "relation": "Pluto:Charon",
+        "numerator_body": "Pluto",
+        "denominator_body": "Charon",
+        "observed_period_ratio": 1.0,
+        "target_ratio": 1.0,
+        "signed_ratio_residual": 0.0,
+        "relative_residual_percent": 0.0,
+        "mod81_q": 0,
+        "mod81_rho": 0.0
+      },
+      {
+        "relation": "Neptune:Saturn",
+        "numerator_body": "Neptune",
+        "denominator_body": "Saturn",
+        "observed_period_ratio": 1.4983077179111155,
+        "target_ratio": 1.5,
+        "signed_ratio_residual": -0.0016922820888842,
+        "relative_residual_percent": -0.1128188059256185,
+        "mod81_q": 0,
+        "mod81_rho": -0.0016922820888842
+      },
+      {
+        "relation": "Earth:Neptune",
+        "numerator_body": "Earth",
+        "denominator_body": "Neptune",
+        "observed_period_ratio": 1.49906184754197,
+        "target_ratio": 1.5,
+        "signed_ratio_residual": -0.0009381524580298,
+        "relative_residual_percent": -0.0625434972019907,
+        "mod81_q": 0,
+        "mod81_rho": -0.0009381524580298
+      },
+      {
+        "relation": "Earth:Saturn",
+        "numerator_body": "Earth",
+        "denominator_body": "Saturn",
+        "observed_period_ratio": 2.24605593579823,
+        "target_ratio": 2.25,
+        "signed_ratio_residual": -0.0039440642017698,
+        "relative_residual_percent": -0.1752917423008821,
+        "mod81_q": 0,
+        "mod81_rho": -0.0039440642017698
+      }
+    ],
+    "mass_orbit_bodies": [
+      {
+        "body": "Haumea",
+        "parent": "Sun",
+        "mass_kg": 4.006e+21,
+        "orbital_semimajor_axis_m": 6452000000000.0,
+        "orbital_eccentricity": 0.191,
+        "orbital_period_days": 103774.0,
+        "mean_orbital_speed_m_s": 4521.389563646086,
+        "centripetal_acceleration_m_s2": 3.1684692477135373e-06,
+        "specific_orbital_angular_momentum_m2_s": 2.863494991244331e+16,
+        "total_orbital_angular_momentum_kg_m2_s": 1.1471160934924789e+38,
+        "mean_orbital_kinetic_energy_J": 4.094725606325422e+28,
+        "rotation_period_days": 0.1631,
+        "branch": "free"
+      },
+      {
+        "body": "Ceres",
+        "parent": "Sun",
+        "mass_kg": 9.38416e+20,
+        "orbital_semimajor_axis_m": 413690250000.0,
+        "orbital_eccentricity": 0.0785,
+        "orbital_period_days": 1681.63,
+        "mean_orbital_speed_m_s": 17890.025713886902,
+        "centripetal_acceleration_m_s2": 0.0007736537664195,
+        "specific_orbital_angular_momentum_m2_s": 7378090783677758.0,
+        "total_orbital_angular_momentum_kg_m2_s": 6.923718440855748e+36,
+        "mean_orbital_kinetic_energy_J": 1.5017143742858675e+29,
+        "rotation_period_days": 0.3780904165422119,
+        "branch": "free"
+      },
+      {
+        "body": "Jupiter",
+        "parent": "Sun",
+        "mass_kg": 1.898125e+27,
+        "orbital_semimajor_axis_m": 778570000000.0,
+        "orbital_eccentricity": 0.0489,
+        "orbital_period_days": 4332.589,
+        "mean_orbital_speed_m_s": 13068.215830123216,
+        "centripetal_acceleration_m_s2": 0.0002193486327275,
+        "specific_orbital_angular_momentum_m2_s": 1.0162348810118928e+16,
+        "total_orbital_angular_momentum_kg_m2_s": 1.9289408335206988e+43,
+        "mean_orbital_kinetic_energy_J": 1.620792471101276e+35,
+        "rotation_period_days": 0.4135383258130623,
+        "branch": "free"
+      },
+      {
+        "body": "Saturn",
+        "parent": "Sun",
+        "mass_kg": 5.68317e+26,
+        "orbital_semimajor_axis_m": 1433530000000.0,
+        "orbital_eccentricity": 0.0565,
+        "orbital_period_days": 10759.22,
+        "mean_orbital_speed_m_s": 9689.293781718654,
+        "centripetal_acceleration_m_s2": 6.549037270824592e-05,
+        "specific_orbital_angular_momentum_m2_s": 1.3867705587592708e+16,
+        "total_orbital_angular_momentum_kg_m2_s": 7.881252836423924e+42,
+        "mean_orbital_kinetic_energy_J": 2.6677485935337475e+34,
+        "rotation_period_days": 0.4440092592388495,
+        "branch": "free"
+      },
+      {
+        "body": "Neptune",
+        "parent": "Sun",
+        "mass_kg": 1.024092e+26,
+        "orbital_semimajor_axis_m": 4495060000000.0,
+        "orbital_eccentricity": 0.0113,
+        "orbital_period_days": 60182.0,
+        "mean_orbital_speed_m_s": 5431.690336167536,
+        "centripetal_acceleration_m_s2": 6.563485227786904e-06,
+        "specific_orbital_angular_momentum_m2_s": 2.441421508763984e+16,
+        "total_orbital_angular_momentum_kg_m2_s": 2.500240235753125e+42,
+        "mean_orbital_kinetic_energy_J": 1.5107026222859856e+33,
+        "rotation_period_days": 0.6652624999415655,
+        "branch": "free"
+      },
+      {
+        "body": "Uranus",
+        "parent": "Sun",
+        "mass_kg": 8.68099e+25,
+        "orbital_semimajor_axis_m": 2872460000000.0,
+        "orbital_eccentricity": 0.0457,
+        "orbital_period_days": 30688.5,
+        "mean_orbital_speed_m_s": 6806.822945598015,
+        "centripetal_acceleration_m_s2": 1.6130020474687073e-05,
+        "specific_orbital_angular_momentum_m2_s": 1.953189854744141e+16,
+        "total_orbital_angular_momentum_kg_m2_s": 1.6955621597135338e+42,
+        "mean_orbital_kinetic_energy_J": 2.011074543343165e+33,
+        "rotation_period_days": 0.7183333333439753,
+        "branch": "free retrograde"
+      },
+      {
+        "body": "Mimas",
+        "parent": "Saturn",
+        "mass_kg": 3.750940173501342e+19,
+        "orbital_semimajor_axis_m": 186000000.0,
+        "orbital_eccentricity": 0.02,
+        "orbital_period_days": 0.942422,
+        "mean_orbital_speed_m_s": 14352.701552973142,
+        "centripetal_acceleration_m_s2": 1.1075271068210626,
+        "specific_orbital_angular_momentum_m2_s": 2669068514952.503,
+        "total_orbital_angular_momentum_kg_m2_s": 1.001151631856291e+32,
+        "mean_orbital_kinetic_energy_J": 3.863469163941657e+27,
+        "rotation_period_days": 0.942421810174755,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Earth",
+        "parent": "Sun",
+        "mass_kg": 5.97217e+24,
+        "orbital_semimajor_axis_m": 149598023000.0,
+        "orbital_eccentricity": 0.0167086,
+        "orbital_period_days": 365.25636,
+        "mean_orbital_speed_m_s": 29784.76605472621,
+        "centripetal_acceleration_m_s2": 0.0059301070371415,
+        "specific_orbital_angular_momentum_m2_s": 4455120102830433.5,
+        "total_orbital_angular_momentum_kg_m2_s": 2.660673462452082e+40,
+        "mean_orbital_kinetic_energy_J": 2.649052421003785e+33,
+        "rotation_period_days": 0.997269632262793,
+        "branch": "free"
+      },
+      {
+        "body": "Mars",
+        "parent": "Sun",
+        "mass_kg": 6.41691e+23,
+        "orbital_semimajor_axis_m": 227939200000.0,
+        "orbital_eccentricity": 0.0934,
+        "orbital_period_days": 686.98,
+        "mean_orbital_speed_m_s": 24129.096033617298,
+        "centripetal_acceleration_m_s2": 0.002554248130201,
+        "specific_orbital_angular_momentum_m2_s": 5475924653001024.0,
+        "total_orbital_angular_momentum_kg_m2_s": 3.5138515665088803e+39,
+        "mean_orbital_kinetic_energy_J": 1.868005094521986e+32,
+        "rotation_period_days": 1.0259567559602898,
+        "branch": "free"
+      },
+      {
+        "body": "Enceladus",
+        "parent": "Saturn",
+        "mass_kg": 1.0803185352771078e+20,
+        "orbital_semimajor_axis_m": 238400000.0,
+        "orbital_eccentricity": 0.005,
+        "orbital_period_days": 1.370218,
+        "mean_orbital_speed_m_s": 12652.685365742536,
+        "centripetal_acceleration_m_s2": 0.6715203312268261,
+        "specific_orbital_angular_momentum_m2_s": 3016362485954.971,
+        "total_orbital_angular_momentum_kg_m2_s": 3.25863230269169e+32,
+        "mean_orbital_kinetic_energy_J": 8.647433858825975e+27,
+        "rotation_period_days": 1.3702180837122833,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Miranda",
+        "parent": "Uranus",
+        "mass_kg": 6.442623196440077e+19,
+        "orbital_semimajor_axis_m": 129846000.0,
+        "orbital_eccentricity": 0.001,
+        "orbital_period_days": 1.413479,
+        "mean_orbital_speed_m_s": 6680.44419874814,
+        "centripetal_acceleration_m_s2": 0.3437020369713944,
+        "specific_orbital_angular_momentum_m2_s": 867428523716.0637,
+        "total_orbital_angular_momentum_kg_m2_s": 5.588515128146883e+31,
+        "mean_orbital_kinetic_energy_J": 1.4376177215447838e+27,
+        "rotation_period_days": 1.4134792329110395,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Io",
+        "parent": "Jupiter",
+        "mass_kg": 8.929648757173038e+22,
+        "orbital_semimajor_axis_m": 421800000.0,
+        "orbital_eccentricity": 0.004,
+        "orbital_period_days": 1.762732,
+        "mean_orbital_speed_m_s": 17401.489054377147,
+        "centripetal_acceleration_m_s2": 0.7179037963717584,
+        "specific_orbital_angular_momentum_m2_s": 7339889363316.734,
+        "total_orbital_angular_momentum_kg_m2_s": 6.554263393092888e+35,
+        "mean_orbital_kinetic_energy_J": 1.352001601907321e+31,
+        "rotation_period_days": 1.769137799754121,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Tethys",
+        "parent": "Saturn",
+        "mass_kg": 6.174959171748349e+20,
+        "orbital_semimajor_axis_m": 295000000.0,
+        "orbital_eccentricity": 0.001,
+        "orbital_period_days": 1.887802,
+        "mean_orbital_speed_m_s": 11364.01242773181,
+        "centripetal_acceleration_m_s2": 0.4377653507038747,
+        "specific_orbital_angular_momentum_m2_s": 3352381989988.632,
+        "total_orbital_angular_momentum_kg_m2_s": 2.0700821916284283e+33,
+        "mean_orbital_kinetic_energy_J": 3.987195171918721e+28,
+        "rotation_period_days": 1.887802560771137,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Ariel",
+        "parent": "Uranus",
+        "mass_kg": 1.2510675276808056e+21,
+        "orbital_semimajor_axis_m": 190929000.0,
+        "orbital_eccentricity": 0.001,
+        "orbital_period_days": 2.520379,
+        "mean_orbital_speed_m_s": 5508.992376973617,
+        "centripetal_acceleration_m_s2": 0.158954360047732,
+        "specific_orbital_angular_momentum_m2_s": 1051825879629.8616,
+        "total_orbital_angular_momentum_kg_m2_s": 1.3159052027792193e+33,
+        "mean_orbital_kinetic_energy_J": 1.898432232816708e+28,
+        "rotation_period_days": 2.52037887166924,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Dione",
+        "parent": "Saturn",
+        "mass_kg": 1.0954867177082242e+21,
+        "orbital_semimajor_axis_m": 377700000.0,
+        "orbital_eccentricity": 0.002,
+        "orbital_period_days": 2.736916,
+        "mean_orbital_speed_m_s": 10035.791782890215,
+        "centripetal_acceleration_m_s2": 0.2666590328555118,
+        "specific_orbital_angular_momentum_m2_s": 3790510975352.941,
+        "total_orbital_angular_momentum_kg_m2_s": 4.152454426826393e+33,
+        "mean_orbital_kinetic_energy_J": 5.516713180057783e+28,
+        "rotation_period_days": 2.7369155525527336,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Europa",
+        "parent": "Jupiter",
+        "mass_kg": 4.7985737830184444e+22,
+        "orbital_semimajor_axis_m": 671100000.0,
+        "orbital_eccentricity": 0.009,
+        "orbital_period_days": 3.525463,
+        "mean_orbital_speed_m_s": 13843.222637393004,
+        "centripetal_acceleration_m_s2": 0.2855532901034571,
+        "specific_orbital_angular_momentum_m2_s": 9289810451773.188,
+        "total_orbital_angular_momentum_kg_m2_s": 4.457784088308955e+35,
+        "mean_orbital_kinetic_energy_J": 4.597868947599615e+30,
+        "rotation_period_days": 3.551181079177,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Umbriel",
+        "parent": "Uranus",
+        "mass_kg": 1.27504007910942e+21,
+        "orbital_semimajor_axis_m": 265986000.0,
+        "orbital_eccentricity": 0.004,
+        "orbital_period_days": 4.144177,
+        "mean_orbital_speed_m_s": 4667.524521163106,
+        "centripetal_acceleration_m_s2": 0.0819057587830144,
+        "specific_orbital_angular_momentum_m2_s": 1241486245276.9436,
+        "total_orbital_angular_momentum_kg_m2_s": 1.582944720391171e+33,
+        "mean_orbital_kinetic_energy_J": 1.3888874614166066e+28,
+        "rotation_period_days": 4.144176246161251,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Rhea",
+        "parent": "Saturn",
+        "mass_kg": 2.3064853243036723e+21,
+        "orbital_semimajor_axis_m": 527200000.0,
+        "orbital_eccentricity": 0.001,
+        "orbital_period_days": 4.517503,
+        "mean_orbital_speed_m_s": 8486.782610247765,
+        "centripetal_acceleration_m_s2": 0.1366188905038009,
+        "specific_orbital_angular_momentum_m2_s": 4474229555006.166,
+        "total_orbital_angular_momentum_kg_m2_s": 1.0319744806187474e+34,
+        "mean_orbital_kinetic_energy_J": 8.306285522960429e+28,
+        "rotation_period_days": 4.517502623458083,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Triton",
+        "parent": "Neptune",
+        "mass_kg": 2.140292555024497e+22,
+        "orbital_semimajor_axis_m": 354800000.0,
+        "orbital_eccentricity": 0.0,
+        "orbital_period_days": 5.876994,
+        "mean_orbital_speed_m_s": 4390.302952265989,
+        "centripetal_acceleration_m_s2": 0.054325704658048,
+        "specific_orbital_angular_momentum_m2_s": 1557679487463.973,
+        "total_orbital_angular_momentum_kg_m2_s": 3.333889810133516e+34,
+        "mean_orbital_kinetic_energy_J": 2.0626812677506584e+29,
+        "rotation_period_days": 5.876854078286229,
+        "branch": "synchronous 1:1 retrograde"
+      },
+      {
+        "body": "Charon",
+        "parent": "Pluto",
+        "mass_kg": 1.5896798166099818e+21,
+        "orbital_semimajor_axis_m": 19600000.0,
+        "orbital_eccentricity": 0.0,
+        "orbital_period_days": 6.387222,
+        "mean_orbital_speed_m_s": 223.15683132072687,
+        "centripetal_acceleration_m_s2": 0.0025407638451585,
+        "specific_orbital_angular_momentum_m2_s": 4373873893.886247,
+        "total_orbital_angular_momentum_kg_m2_s": 6.953059049508276e+30,
+        "mean_orbital_kinetic_energy_J": 3.958220983352479e+25,
+        "rotation_period_days": 6.387222999112575,
+        "branch": "mutual synchronous 1:1"
+      },
+      {
+        "body": "Pluto",
+        "parent": "Sun",
+        "mass_kg": 1.3024586848058974e+22,
+        "orbital_semimajor_axis_m": 5906380000000.0,
+        "orbital_eccentricity": 0.2488,
+        "orbital_period_days": 90560.0,
+        "mean_orbital_speed_m_s": 4742.9778541824335,
+        "centripetal_acceleration_m_s2": 3.8087354564496368e-06,
+        "specific_orbital_angular_momentum_m2_s": 2.713293137093088e+16,
+        "total_orbital_angular_momentum_kg_m2_s": 3.533952210831131e+38,
+        "mean_orbital_kinetic_energy_J": 1.4649950390102982e+29,
+        "rotation_period_days": 6.387222999112575,
+        "branch": "mutual synchronous 1:1"
+      },
+      {
+        "body": "Ganymede",
+        "parent": "Jupiter",
+        "mass_kg": 1.4814786194806948e+23,
+        "orbital_semimajor_axis_m": 1070400000.0,
+        "orbital_eccentricity": 0.001,
+        "orbital_period_days": 7.155588,
+        "mean_orbital_speed_m_s": 10878.446975838617,
+        "centripetal_acceleration_m_s2": 0.1105573697740399,
+        "specific_orbital_angular_momentum_m2_s": 11644283820791.38,
+        "total_orbital_angular_momentum_kg_m2_s": 1.72507575196674e+36,
+        "mean_orbital_kinetic_energy_J": 8.765954073315909e+30,
+        "rotation_period_days": 7.154553119547032,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Titania",
+        "parent": "Uranus",
+        "mass_kg": 3.3996074494703567e+21,
+        "orbital_semimajor_axis_m": 436298000.0,
+        "orbital_eccentricity": 0.002,
+        "orbital_period_days": 8.705869,
+        "mean_orbital_speed_m_s": 3644.493836986204,
+        "centripetal_acceleration_m_s2": 0.0304432643006166,
+        "specific_orbital_angular_momentum_m2_s": 1590082191915.483,
+        "total_orbital_angular_momentum_kg_m2_s": 5.405655264906029e+33,
+        "mean_orbital_kinetic_energy_J": 2.2577363063427804e+28,
+        "rotation_period_days": 8.70586545787208,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Oberon",
+        "parent": "Uranus",
+        "mass_kg": 3.075978005184065e+21,
+        "orbital_semimajor_axis_m": 583511000.0,
+        "orbital_eccentricity": 0.002,
+        "orbital_period_days": 13.463237,
+        "mean_orbital_speed_m_s": 3151.851028224933,
+        "centripetal_acceleration_m_s2": 0.0170248117072729,
+        "specific_orbital_angular_momentum_m2_s": 1839136067047.39,
+        "total_orbital_angular_momentum_kg_m2_s": 5.657142090778497e+33,
+        "mean_orbital_kinetic_energy_J": 1.527863637247624e+28,
+        "rotation_period_days": 13.46323198077666,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Titan",
+        "parent": "Saturn",
+        "mass_kg": 1.345180333518122e+23,
+        "orbital_semimajor_axis_m": 1221900000.0,
+        "orbital_eccentricity": 0.029,
+        "orbital_period_days": 15.945448,
+        "mean_orbital_speed_m_s": 5572.692315835923,
+        "centripetal_acceleration_m_s2": 0.025415254641932,
+        "specific_orbital_angular_momentum_m2_s": 6806408839270.51,
+        "total_orbital_angular_momentum_kg_m2_s": 9.155847312470596e+35,
+        "mean_orbital_kinetic_energy_J": 2.088722013224599e+30,
+        "rotation_period_days": 15.945447576488627,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Callisto",
+        "parent": "Jupiter",
+        "mass_kg": 1.075660878294353e+23,
+        "orbital_semimajor_axis_m": 1882700000.0,
+        "orbital_eccentricity": 0.007,
+        "orbital_period_days": 16.69044,
+        "mean_orbital_speed_m_s": 8203.127515735867,
+        "centripetal_acceleration_m_s2": 0.0357419137618435,
+        "specific_orbital_angular_momentum_m2_s": 15443649790550.404,
+        "total_orbital_angular_momentum_kg_m2_s": 1.661212989777385e+36,
+        "mean_orbital_kinetic_energy_J": 3.619130998881767e+30,
+        "rotation_period_days": 16.689017974837274,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Sun",
+        "parent": null,
+        "mass_kg": 1.98840987e+30,
+        "orbital_semimajor_axis_m": null,
+        "orbital_eccentricity": null,
+        "orbital_period_days": null,
+        "mean_orbital_speed_m_s": null,
+        "centripetal_acceleration_m_s2": null,
+        "specific_orbital_angular_momentum_m2_s": null,
+        "total_orbital_angular_momentum_kg_m2_s": null,
+        "mean_orbital_kinetic_energy_J": null,
+        "rotation_period_days": 25.37999492400101,
+        "branch": "free"
+      },
+      {
+        "body": "Moon",
+        "parent": "Earth",
+        "mass_kg": 7.345789248310685e+22,
+        "orbital_semimajor_axis_m": 384399000.0,
+        "orbital_eccentricity": 0.0549,
+        "orbital_period_days": 27.321582,
+        "mean_orbital_speed_m_s": 1023.1575950003072,
+        "centripetal_acceleration_m_s2": 0.0027233459613755,
+        "specific_orbital_angular_momentum_m2_s": 392707602874.2684,
+        "total_orbital_angular_momentum_kg_m2_s": 2.884747286923663e+34,
+        "mean_orbital_kinetic_energy_J": 3.844975115174351e+28,
+        "rotation_period_days": 27.32166171424233,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Mercury",
+        "parent": "Sun",
+        "mass_kg": 3.30103e+23,
+        "orbital_semimajor_axis_m": 57909050000.0,
+        "orbital_eccentricity": 0.20563,
+        "orbital_period_days": 87.9691,
+        "mean_orbital_speed_m_s": 47872.09321237146,
+        "centripetal_acceleration_m_s2": 0.0395747695486971,
+        "specific_orbital_angular_momentum_m2_s": 2712984409615481.0,
+        "total_orbital_angular_momentum_kg_m2_s": 8.955642925672993e+38,
+        "mean_orbital_kinetic_energy_J": 3.7825468037949645e+32,
+        "rotation_period_days": 58.64614590235795,
+        "branch": "spin-orbit 3:2"
+      },
+      {
+        "body": "Iapetus",
+        "parent": "Saturn",
+        "mass_kg": 1.805659170250064e+21,
+        "orbital_semimajor_axis_m": 3561700000.0,
+        "orbital_eccentricity": 0.028,
+        "orbital_period_days": 79.331002,
+        "mean_orbital_speed_m_s": 3264.979978460062,
+        "centripetal_acceleration_m_s2": 0.0029929792682553,
+        "specific_orbital_angular_momentum_m2_s": 11624319774818.549,
+        "total_orbital_angular_momentum_kg_m2_s": 2.0989559599320265e+34,
+        "mean_orbital_kinetic_energy_J": 9.624248477919372e+27,
+        "rotation_period_days": 79.3308495725786,
+        "branch": "synchronous 1:1"
+      },
+      {
+        "body": "Venus",
+        "parent": "Sun",
+        "mass_kg": 4.86731e+24,
+        "orbital_semimajor_axis_m": 108208000000.0,
+        "orbital_eccentricity": 0.006772,
+        "orbital_period_days": 224.701,
+        "mean_orbital_speed_m_s": 35020.350691919935,
+        "centripetal_acceleration_m_s2": 0.0113339583264181,
+        "specific_orbital_angular_momentum_m2_s": 3789395213880611.0,
+        "total_orbital_angular_momentum_kg_m2_s": 1.844416121847324e+40,
+        "mean_orbital_kinetic_energy_J": 2.984695242319937e+33,
+        "rotation_period_days": 243.01848398589195,
+        "branch": "free retrograde"
+      }
+    ],
+    "mod_summaries": {
+      "mass_kg": {
+        "count": 31,
+        "reference_body": "Mimas",
+        "reference_value": 3.750940174e+19,
+        "within_10ppm": 21,
+        "rho_rms": 0.0008634585,
+        "rho_max_abs": 0.0034465759,
+        "q_counts": {
+          "-1": 1,
+          "0": 30
+        }
+      },
+      "orbital_period_days": {
+        "count": 30,
+        "reference_body": "Mimas",
+        "reference_value": 0.942422,
+        "within_10ppm": 15,
+        "rho_rms": 0.0014086386,
+        "rho_max_abs": 0.0046372183,
+        "q_counts": {
+          "-1": 3,
+          "0": 27
+        }
+      },
+      "orbital_semimajor_axis_m": {
+        "count": 30,
+        "reference_body": "Charon",
+        "reference_value": 19600000.0,
+        "within_10ppm": 15,
+        "rho_rms": 0.0005012696,
+        "rho_max_abs": 0.0015177406,
+        "q_counts": {
+          "0": 30
+        }
+      },
+      "mean_orbital_speed_m_s": {
+        "count": 30,
+        "reference_body": "Charon",
+        "reference_value": 223.1568313207,
+        "within_10ppm": 11,
+        "rho_rms": 0.0004060539,
+        "rho_max_abs": 0.001129389,
+        "q_counts": {
+          "0": 30
+        }
+      },
+      "centripetal_acceleration_m_s2": {
+        "count": 30,
+        "reference_body": "Haumea",
+        "reference_value": 3.1685e-06,
+        "within_10ppm": 26,
+        "rho_rms": 0.000656104,
+        "rho_max_abs": 0.0032217083,
+        "q_counts": {
+          "0": 29,
+          "1": 1
+        }
+      },
+      "total_orbital_angular_momentum_kg_m2_s": {
+        "count": 30,
+        "reference_body": "Charon",
+        "reference_value": 6.95305905e+30,
+        "within_10ppm": 27,
+        "rho_rms": 0.0001176255,
+        "rho_max_abs": 0.0005740471,
+        "q_counts": {
+          "0": 30
+        }
+      },
+      "mean_orbital_kinetic_energy_J": {
+        "count": 30,
+        "reference_body": "Charon",
+        "reference_value": 3.958220983e+25,
+        "within_10ppm": 29,
+        "rho_rms": 0.000217878,
+        "rho_max_abs": 0.0011831947,
+        "q_counts": {
+          "0": 30
+        }
+      }
+    },
+    "log_metric_correlations": {
+      "mass_kg": {
+        "mass_kg": 1.0,
+        "orbital_period_days": 0.6322466430246264,
+        "orbital_semimajor_axis_m": 0.6645419981706715,
+        "mean_orbital_speed_m_s": 0.2511509249257687,
+        "centripetal_acceleration_m_s2": -0.5503164169609611,
+        "total_orbital_angular_momentum_kg_m2_s": 0.9155932558431192,
+        "mean_orbital_kinetic_energy_J": 0.9314843435381588
+      },
+      "orbital_period_days": {
+        "mass_kg": 0.6322466430246264,
+        "orbital_period_days": 1.0,
+        "orbital_semimajor_axis_m": 0.9638134631810612,
+        "mean_orbital_speed_m_s": 0.070694697063622,
+        "centripetal_acceleration_m_s2": -0.9609742779511348,
+        "total_orbital_angular_momentum_kg_m2_s": 0.8261637414811709,
+        "mean_orbital_kinetic_energy_J": 0.5558194674597096
+      },
+      "orbital_semimajor_axis_m": {
+        "mass_kg": 0.6645419981706715,
+        "orbital_period_days": 0.9638134631810612,
+        "orbital_semimajor_axis_m": 1.0,
+        "mean_orbital_speed_m_s": 0.3340471074761992,
+        "centripetal_acceleration_m_s2": -0.8524545275399102,
+        "total_orbital_angular_momentum_kg_m2_s": 0.895243889655209,
+        "mean_orbital_kinetic_energy_J": 0.6818288128263641
+      },
+      "mean_orbital_speed_m_s": {
+        "mass_kg": 0.2511509249257687,
+        "orbital_period_days": 0.070694697063622,
+        "orbital_semimajor_axis_m": 0.3340471074761992,
+        "mean_orbital_speed_m_s": 1.0,
+        "centripetal_acceleration_m_s2": 0.2080098031386899,
+        "total_orbital_angular_momentum_kg_m2_s": 0.4287610459970583,
+        "mean_orbital_kinetic_energy_J": 0.5860646251768948
+      },
+      "centripetal_acceleration_m_s2": {
+        "mass_kg": -0.5503164169609611,
+        "orbital_period_days": -0.9609742779511348,
+        "orbital_semimajor_axis_m": -0.8524545275399102,
+        "mean_orbital_speed_m_s": 0.2080098031386899,
+        "centripetal_acceleration_m_s2": 1.0,
+        "total_orbital_angular_momentum_kg_m2_s": -0.6912107723953819,
+        "mean_orbital_kinetic_energy_J": -0.3824912864195554
+      },
+      "total_orbital_angular_momentum_kg_m2_s": {
+        "mass_kg": 0.9155932558431192,
+        "orbital_period_days": 0.8261637414811709,
+        "orbital_semimajor_axis_m": 0.895243889655209,
+        "mean_orbital_speed_m_s": 0.4287610459970583,
+        "centripetal_acceleration_m_s2": -0.6912107723953819,
+        "total_orbital_angular_momentum_kg_m2_s": 1.0,
+        "mean_orbital_kinetic_energy_J": 0.927578646551389
+      },
+      "mean_orbital_kinetic_energy_J": {
+        "mass_kg": 0.9314843435381588,
+        "orbital_period_days": 0.5558194674597096,
+        "orbital_semimajor_axis_m": 0.6818288128263641,
+        "mean_orbital_speed_m_s": 0.5860646251768948,
+        "centripetal_acceleration_m_s2": -0.3824912864195554,
+        "total_orbital_angular_momentum_kg_m2_s": 0.927578646551389,
+        "mean_orbital_kinetic_energy_J": 1.0
+      }
+    },
+    "pca": {
+      "variables": [
+        "Mass",
+        "Orbital period",
+        "Semimajor axis",
+        "Mean orbital speed",
+        "Centripetal acceleration",
+        "Orbital angular momentum",
+        "Mean orbital kinetic energy"
+      ],
+      "eigenvalues": [
+        4.9257148286408095,
+        1.5006173458521683,
+        0.5736674875212695,
+        3.379857535252484e-07,
+        9.095867182879488e-16,
+        4.393021591219409e-16,
+        -7.100309511332999e-16
+      ],
+      "explained_variance_ratio": [
+        0.7036735469486871,
+        0.21437390655030977,
+        0.08195249821732421,
+        4.8283679075035483e-08,
+        1.2994095975542127e-16,
+        6.275745130313442e-17,
+        -1.0143299301904285e-16
+      ],
+      "eigenvectors_columns": [
+        [
+          -0.3931521097995374,
+          -0.13699418422070203,
+          -0.6057197215066085,
+          -0.2748500014766605,
+          0.4829050668085095,
+          -0.38128320654277925,
+          0.07517260521785009
+        ],
+        [
+          -0.40616750652408906,
+          0.31549905311088033,
+          0.25745289322509335,
+          -0.13992395765157087,
+          -0.2755828252420092,
+          -0.20813204254495613,
+          0.7282600890293173
+        ],
+        [
+          -0.4256036556737067,
+          0.11516269434400914,
+          0.3913538662451563,
+          -0.16148400740464147,
+          0.5459125870576761,
+          0.5661766287519769,
+          -0.0882474995858405
+        ],
+        [
+          -0.15643858705765354,
+          -0.6846077813358623,
+          0.5541007221721735,
+          -0.10951316427254267,
+          0.0029634040816517884,
+          -0.4149357342540981,
+          -0.12505185095929264
+        ],
+        [
+          0.35489442883742445,
+          -0.49923549476613804,
+          -0.09878354646391747,
+          0.10683519319591259,
+          0.2450194488949669,
+          0.333333180637457,
+          0.6576445680897046
+        ],
+        [
+          -0.44545679034980434,
+          -0.1101987960543641,
+          -0.08716278417683436,
+          0.884209885906034,
+          1.2740197688551367e-10,
+          1.4755316316018112e-10,
+          -4.4925685043886e-10
+        ],
+        [
+          -0.3878995543593315,
+          -0.3719715401148809,
+          -0.29879864091689357,
+          -0.27123359697460797,
+          -0.5768820833357128,
+          0.4554838322648742,
+          -0.08980176837000742
+        ]
+      ]
+    },
+    "closure_residuals": [
+      {
+        "body": "Haumea",
+        "Pv_over_a_minus_2pi": -8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": 0.0,
+        "Pac_over_v_minus_2pi": 0.0,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": -1.1102230246251565e-16
+      },
+      {
+        "body": "Ceres",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -1.2363443602225743e-12,
+        "Pac_over_v_minus_2pi": -1.9628743075372768e-13,
+        "K_over_half_mv2_minus_1": -1.1102230246251565e-16,
+        "L_over_mavsqrt_minus_1": -2.220446049250313e-16
+      },
+      {
+        "body": "Jupiter",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -7.702283255639486e-12,
+        "Pac_over_v_minus_2pi": -1.2256862191861728e-12,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Saturn",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": 7.105427357601002e-15,
+        "Pac_over_v_minus_2pi": 8.881784197001252e-16,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Neptune",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": 1.4210854715202004e-14,
+        "Pac_over_v_minus_2pi": 8.881784197001252e-16,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": -1.1102230246251565e-16
+      },
+      {
+        "body": "Uranus",
+        "Pv_over_a_minus_2pi": 1.7763568394002505e-15,
+        "P2ac_over_a_minus_4pi2": 7.105427357601002e-15,
+        "Pac_over_v_minus_2pi": -8.881784197001252e-16,
+        "K_over_half_mv2_minus_1": -1.1102230246251565e-16,
+        "L_over_mavsqrt_minus_1": -2.220446049250313e-16
+      },
+      {
+        "body": "Mimas",
+        "Pv_over_a_minus_2pi": 8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": 7.105427357601002e-15,
+        "Pac_over_v_minus_2pi": 8.881784197001252e-16,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Earth",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -6.465938895416912e-13,
+        "Pac_over_v_minus_2pi": -1.0391687510491465e-13,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": -3.3306690738754696e-16
+      },
+      {
+        "body": "Mars",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -9.663381206337363e-13,
+        "Pac_over_v_minus_2pi": -1.5365486660812167e-13,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Enceladus",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -7.105427357601002e-15,
+        "Pac_over_v_minus_2pi": 0.0,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": -2.220446049250313e-16
+      },
+      {
+        "body": "Miranda",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": 0.0,
+        "Pac_over_v_minus_2pi": 0.0,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": -1.1102230246251565e-16
+      },
+      {
+        "body": "Io",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": 0.0,
+        "Pac_over_v_minus_2pi": 0.0,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Tethys",
+        "Pv_over_a_minus_2pi": -8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": -7.105427357601002e-15,
+        "Pac_over_v_minus_2pi": -8.881784197001252e-16,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Ariel",
+        "Pv_over_a_minus_2pi": 8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": 0.0,
+        "Pac_over_v_minus_2pi": 0.0,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": -2.220446049250313e-16
+      },
+      {
+        "body": "Dione",
+        "Pv_over_a_minus_2pi": -8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": 7.105427357601002e-15,
+        "Pac_over_v_minus_2pi": 8.881784197001252e-16,
+        "K_over_half_mv2_minus_1": 4.440892098500626e-16,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Europa",
+        "Pv_over_a_minus_2pi": 8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": 7.105427357601002e-15,
+        "Pac_over_v_minus_2pi": -1.7763568394002505e-15,
+        "K_over_half_mv2_minus_1": -3.3306690738754696e-16,
+        "L_over_mavsqrt_minus_1": -1.1102230246251565e-16
+      },
+      {
+        "body": "Umbriel",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -2.842170943040401e-14,
+        "Pac_over_v_minus_2pi": -4.440892098500626e-15,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Rhea",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -1.4210854715202004e-14,
+        "Pac_over_v_minus_2pi": -1.7763568394002505e-15,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Triton",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -6.394884621840902e-14,
+        "Pac_over_v_minus_2pi": -8.881784197001252e-15,
+        "K_over_half_mv2_minus_1": 2.220446049250313e-16,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Charon",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -5.897504706808832e-13,
+        "Pac_over_v_minus_2pi": -9.325873406851315e-14,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Pluto",
+        "Pv_over_a_minus_2pi": 8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": 1.4210854715202004e-14,
+        "Pac_over_v_minus_2pi": 8.881784197001252e-16,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Ganymede",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -1.4210854715202004e-14,
+        "Pac_over_v_minus_2pi": -1.7763568394002505e-15,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": -2.220446049250313e-16
+      },
+      {
+        "body": "Titania",
+        "Pv_over_a_minus_2pi": -8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": -2.1316282072803006e-14,
+        "Pac_over_v_minus_2pi": -1.7763568394002505e-15,
+        "K_over_half_mv2_minus_1": 2.220446049250313e-16,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Oberon",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -2.0605739337042905e-13,
+        "Pac_over_v_minus_2pi": -3.197442310920451e-14,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Titan",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -4.973799150320701e-14,
+        "Pac_over_v_minus_2pi": -7.993605777301127e-15,
+        "K_over_half_mv2_minus_1": -1.1102230246251565e-16,
+        "L_over_mavsqrt_minus_1": -4.440892098500626e-16
+      },
+      {
+        "body": "Callisto",
+        "Pv_over_a_minus_2pi": 8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": -7.105427357601002e-14,
+        "Pac_over_v_minus_2pi": -1.2434497875801753e-14,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Moon",
+        "Pv_over_a_minus_2pi": 8.881784197001252e-16,
+        "P2ac_over_a_minus_4pi2": -1.1866063687193673e-12,
+        "Pac_over_v_minus_2pi": -1.900701818158268e-13,
+        "K_over_half_mv2_minus_1": -1.1102230246251565e-16,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Mercury",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -6.394884621840902e-14,
+        "Pac_over_v_minus_2pi": -1.0658141036401503e-14,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      },
+      {
+        "body": "Iapetus",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -6.039613253960852e-13,
+        "Pac_over_v_minus_2pi": -9.681144774731365e-14,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 0.0
+      },
+      {
+        "body": "Venus",
+        "Pv_over_a_minus_2pi": 0.0,
+        "P2ac_over_a_minus_4pi2": -2.3447910280083306e-13,
+        "Pac_over_v_minus_2pi": -3.6415315207705135e-14,
+        "K_over_half_mv2_minus_1": 0.0,
+        "L_over_mavsqrt_minus_1": 2.220446049250313e-16
+      }
+    ],
+    "closure_max_abs": {
+      "Pv_over_a_minus_2pi": 1.7763568394002505e-15,
+      "P2ac_over_a_minus_4pi2": 7.702283255639486e-12,
+      "Pac_over_v_minus_2pi": 1.2256862191861728e-12,
+      "K_over_half_mv2_minus_1": 4.440892098500626e-16,
+      "L_over_mavsqrt_minus_1": 4.440892098500626e-16
+    }
+  },
+  "corpus_graph": {
+    "source_file_count": 26,
+    "randomized_reentry_passes_in_source": 100,
+    "node_count": 45,
+    "directed_edge_count": 635,
+    "top_bridge_nodes": [
+      {
+        "concept": "Cell3",
+        "betweenness": 0.5417547568710359
+      },
+      {
+        "concept": "K-Field",
+        "betweenness": 0.37684989429175475
+      },
+      {
+        "concept": "Observer-dependent rendering",
+        "betweenness": 0.10676532769556026
+      },
+      {
+        "concept": "Polarity",
+        "betweenness": 0.08033826638477802
+      },
+      {
+        "concept": "Anisotropy",
+        "betweenness": 0.06712473572938689
+      },
+      {
+        "concept": "Global orientation",
+        "betweenness": 0.06342494714587738
+      },
+      {
+        "concept": "Fine-structure branch",
+        "betweenness": 0.06245595489781536
+      },
+      {
+        "concept": "Mass Bridge",
+        "betweenness": 0.05884425651867513
+      },
+      {
+        "concept": "Direct geometry",
+        "betweenness": 0.055849189570119806
+      },
+      {
+        "concept": "Interaction hierarchy",
+        "betweenness": 0.05391120507399577
+      },
+      {
+        "concept": "Cross-domain convergence",
+        "betweenness": 0.045454545454545456
+      },
+      {
+        "concept": "Methodological convergence",
+        "betweenness": 0.04439746300211417
+      }
+    ],
+    "top_central_nodes": [
+      {
+        "concept": "Cell3",
+        "pagerank": 0.07831811393474591,
+        "visits": 380
+      },
+      {
+        "concept": "K-Field",
+        "pagerank": 0.07344728707921067,
+        "visits": 371
+      },
+      {
+        "concept": "Observer-dependent rendering",
+        "pagerank": 0.03362338846903863,
+        "visits": 202
+      },
+      {
+        "concept": "Anisotropy",
+        "pagerank": 0.03187884101771983,
+        "visits": 197
+      },
+      {
+        "concept": "Seven-sheet system",
+        "pagerank": 0.03420829723750813,
+        "visits": 194
+      },
+      {
+        "concept": "Global orientation",
+        "pagerank": 0.0368578134204926,
+        "visits": 149
+      },
+      {
+        "concept": "Polarity",
+        "pagerank": 0.028027879648511562,
+        "visits": 130
+      },
+      {
+        "concept": "Lucas limit",
+        "pagerank": 0.026009219354986183,
+        "visits": 174
+      },
+      {
+        "concept": "Direct geometry",
+        "pagerank": 0.03202188104706272,
+        "visits": 115
+      },
+      {
+        "concept": "Registry",
+        "pagerank": 0.026097520832634377,
+        "visits": 151
+      },
+      {
+        "concept": "Cross-domain convergence",
+        "pagerank": 0.021071382289896103,
+        "visits": 114
+      },
+      {
+        "concept": "Recursion",
+        "pagerank": 0.027035192653788006,
+        "visits": 133
+      },
+      {
+        "concept": "Scale bridge",
+        "pagerank": 0.018028812860133775,
+        "visits": 109
+      },
+      {
+        "concept": "Fine-structure branch",
+        "pagerank": 0.023933426044794016,
+        "visits": 76
+      },
+      {
+        "concept": "Three plane families",
+        "pagerank": 0.019827373613648187,
+        "visits": 104
+      }
+    ],
+    "stable_modes": [
+      {
+        "mode": 1,
+        "eigenvalue": 0.73124,
+        "content": "Mass Bridge, carrier triangle, proton/electron relation, fine structure, reduced-mass chain",
+        "median_alignment": 0.99859
+      },
+      {
+        "mode": 2,
+        "eigenvalue": 0.64696,
+        "content": "Registry, holonomy, phase, polarity, stiffness, seven-sheet memory",
+        "median_alignment": 0.99839
+      },
+      {
+        "mode": 3,
+        "eigenvalue": 0.54861,
+        "content": "Direct-reciprocal duality, interaction hierarchy, structure-interaction mapping",
+        "median_alignment": 0.99603
+      },
+      {
+        "mode": 4,
+        "eigenvalue": 0.4948,
+        "content": "Fixed global orientation versus sidereal, lunar, and oscillator modulation",
+        "median_alignment": 0.99516
+      }
+    ]
+  },
+  "minimal_state": {
+    "expression": "S=(g,[z],p,n,lambda,xi1,xi2,chi,phi,mu)",
+    "coordinates": {
+      "g": "exterior grade 0..3",
+      "[z]": "projective integer direction",
+      "p,n": "rank-two scale address",
+      "lambda": "sheet coordinate",
+      "xi1,xi2": "A2 tangential coordinates",
+      "chi": "polarity or chirality",
+      "phi": "phase registry",
+      "mu": "occupation or amplitude"
+    }
+  },
+  "predictions": [
+    "High-multiplicity galaxy crossings back-project through B^-1 to low-complexity integer rays.",
+    "Spin/occupancy axes follow direct shell families; plane/gradient axes follow reciprocal shell families.",
+    "All valid 13-state radial assignments reconstruct one normalized reciprocal metric and satisfy redundant signed closures.",
+    "Binary-ternary observables occupy a rank-two (nu,sigma) scale lattice rather than one universal line.",
+    "Orbital MOD residuals satisfy Jack closure-null relations when derived observables are predicted from primitive addresses.",
+    "Parallel astrophysical reciprocal-plane structures converge toward common great circles with angular offset proportional to 1/r.",
+    "Dynamical axes and plane crossings occupy the six-node phase-metric intersection skeleton where branch conditions permit."
+  ],
+  "source_files": [
+    {
+      "path": "/mnt/data/kfield_discovery/K-Field_Foundational_Description_and_Derivative_Architecture_1784245726.pdf",
+      "name": "K-Field_Foundational_Description_and_Derivative_Architecture_1784245726.pdf",
+      "sha256": "64ccbcaa1ba3fe51e0e7b1e7ce63dcc6ccf27d3620c107b1fcbed3997b030cf6",
+      "size_bytes": 3400429
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/K-Field_great_ircle_phase_cost_modulation_1784642570.pdf",
+      "name": "K-Field_great_ircle_phase_cost_modulation_1784642570.pdf",
+      "sha256": "7fd4c9489ba1c8936f5a0b3020b0d6ad513c9fabab1fbbe3a47a8e0038319a82",
+      "size_bytes": 1436703
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/K_Field_recursive_graph_assimilation_100_passes_v1.json",
+      "name": "K_Field_recursive_graph_assimilation_100_passes_v1.json",
+      "sha256": "9022232ac9c9581308729557bb33e48385e5b30267ea2d63b764b4a77f9c6024",
+      "size_bytes": 128673
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/rot/K_Field_solar_system_rotation_period_quantization_MOD_1784839005.json",
+      "name": "K_Field_solar_system_rotation_period_quantization_MOD_1784839005.json",
+      "sha256": "022572c9e74680287b2708a57b15ccb264c0835b99e09e57ec88d2f9bacba2e7",
+      "size_bytes": 31930
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/rot/K_Field_solar_system_rotation_period_quantization_MOD_1784839005_ledger.csv",
+      "name": "K_Field_solar_system_rotation_period_quantization_MOD_1784839005_ledger.csv",
+      "sha256": "47fb11e327c15b8fb23216952a3b670e3f836ab259014725ae1a991a793ee7cd",
+      "size_bytes": 7255
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/rot/K_Field_solar_system_rotation_period_quantization_MOD_1784839005_resonances.csv",
+      "name": "K_Field_solar_system_rotation_period_quantization_MOD_1784839005_resonances.csv",
+      "sha256": "2d71514d98224bce5a8dd49c8df3a9daee2b401e5e4efbd2ec0e55d328d61b3f",
+      "size_bytes": 1120
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/orbit/K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627.json",
+      "name": "K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627.json",
+      "sha256": "37ea68d27870535553d2670d195f224306adc77c0210df8d1c1c4b5c5d314dbd",
+      "size_bytes": 137345
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/orbit/K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627_ledger.csv",
+      "name": "K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627_ledger.csv",
+      "sha256": "a215a07b26f0bcebaec5ea4a1650ff71203feaf27ea2035abf67a9a76c5de8cf",
+      "size_bytes": 6195
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/orbit/K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627_mod_ledger.csv",
+      "name": "K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627_mod_ledger.csv",
+      "sha256": "3099d7d3a2d68046eddb51560699b33c49d6c25e9d12501232484f3f79e77e4c",
+      "size_bytes": 43583
+    },
+    {
+      "path": "/mnt/data/kfield_discovery/orbit/K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627_log_metric_correlations.csv",
+      "name": "K_Field_solar_system_mass_orbit_kinematics_MOD_1784893627_log_metric_correlations.csv",
+      "sha256": "26add6904a260f9e6c966c7eb9702d949d7ed678d7513ec3679de8ba5705f89c",
+      "size_bytes": 1191
+    }
+  ],
+  "figures": [
+    "figure_01_cover_composite.png",
+    "figure_02_cell3_all_vertices_faces.png",
+    "figure_03_reciprocal_planes_all_27_nodes.png",
+    "figure_04_seven_sheets_a2.png",
+    "figure_05_direct_reciprocal_shell_radec.png",
+    "figure_06_plane_convergence.png",
+    "figure_07_exterior_duality_intersections.png",
+    "figure_08_radial_shell_spectrum.png",
+    "figure_09_mass_bridge_triangle.png",
+    "figure_10_metric_reconstruction.png",
+    "figure_11_rank_two_scale_lattice.png",
+    "figure_12_phase_metric_skeleton.png",
+    "figure_13_orbital_pca.png",
+    "figure_14_orbital_closure_residuals.png",
+    "figure_15_corpus_graph.png",
+    "figure_16_soft_axis_lock.png"
+  ]
+}

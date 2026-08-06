@@ -1,0 +1,1802 @@
+{
+  "schema": "K-Field.single_cell3_lateral_force_reduction.corrected.v2",
+  "epoch": 1784985105,
+  "generated_utc": "2026-07-25T13:11:45Z",
+  "title": "K-Field Single-Cell3 Lateral Force Reduction",
+  "subtitle": "Audited Cell3 coordinate reduction, true-scale geometry, and phase-ordered recovery of tubular-rotor lateral acceleration",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "credentials": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx"
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "supersedes": {
+    "pdf": "K-Field_single_cell3_lateral_force_reduction_1784915217.pdf",
+    "json": "K-Field_single_cell3_lateral_force_reduction_1784915217.json",
+    "corrections": [
+      {
+        "item": "Cell3 geometry rendering",
+        "correction": "All 3D Cell3 and plane figures use orthographic projection, one common physical scale on x/y/z, and equal-axis limits. Orthographic x-y, x-z, and y-z views are included to remove perspective ambiguity."
+      },
+      {
+        "item": "Face-plane spacing",
+        "correction": "The source face-plane spacing is the full primitive boundary-to-boundary spacing. Adjacent planes of the centered half-step registry are separated by exactly one half of that value. Both values are now printed and plotted."
+      },
+      {
+        "item": "Absolute trajectory figure",
+        "correction": "The earlier mixed-unit 3D plot visually enlarged millimetre transverse motion relative to hundreds of metres of translation. The corrected report separates axial advance, true local cross-section, and an explicitly magnified diagnostic path. No combined view is presented as metric aspect."
+      },
+      {
+        "item": "Trajectory classification",
+        "correction": "Because V_E is not parallel to the optimal spin axis, the absolute material path is a translated circular or generalized screw/trochoidal path, not a simple circular helix about the spin axis."
+      },
+      {
+        "item": "Differential event terminology",
+        "correction": "Positive and negative variation of q_R is an exact differential address-modulation measure. It is not a count of actual reverse face crossings. The total address rates remain one-signed in all three channels for the defined experiment."
+      },
+      {
+        "item": "Inertia-equivalent radius",
+        "correction": "R_I is retained only as an exact inertia/energy surrogate. Cell traversal and radial-invariance calculations are resolved across the actual 4-5 mm tube wall."
+      },
+      {
+        "item": "Discrete localization boundary",
+        "correction": "The source data establish an exact coordinate-differential kernel. Localizing the impulse exclusively at nodes or plane crossings requires an additional physical interaction rule and is not asserted as already closed."
+      },
+      {
+        "item": "Pairwise channel interpretation",
+        "correction": "The 3 x 3 W_ij ledger is an ordered decomposition in the authoritative Cell3 address basis. Individual entries are basis components whose nonlateral parts cancel; they are not independent invariant forces."
+      },
+      {
+        "item": "Numerical rendering",
+        "correction": "All vector and scalar tables now contain plain numeric values rather than Python object representations such as np.float64(...)."
+      }
+    ]
+  },
+  "source_files": [
+    {
+      "path": "/mnt/data/cell_level_sources/K-Field_quantum_discrete_gravity_states_1784549003(1).json",
+      "name": "K-Field_quantum_discrete_gravity_states_1784549003(1).json",
+      "role": "Physical nanometre Cell3 basis, nodes, planes, W, G_phase, metrics",
+      "sha256": "ba81032bb185d3ff1984e42acefd7270b8424b78eb7f335b01d3aa985283cf1e",
+      "size_bytes": 39803
+    },
+    {
+      "path": "/mnt/data/K-Field_cell_level_lateral_acceleration_event_reduction.json",
+      "name": "K-Field_cell_level_lateral_acceleration_event_reduction.json",
+      "role": "Prior exact numerical event reduction used as independent comparison",
+      "sha256": "b55298c36c81a590b13572f69b5dc0c9c1b0db460a24e49eded220bdfca893de",
+      "size_bytes": 13072
+    },
+    {
+      "path": "/mnt/data/cell_level_sources/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+      "name": "K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+      "role": "Absolute Earth-CMB translation plus local rotational path formulation",
+      "sha256": "bac88436eb33aa988ed66b6f61f2a2896696fc4c4e7603e9b611211306ecb13b",
+      "size_bytes": 517036
+    },
+    {
+      "path": "/mnt/data/K-Native_Cell3_antipodal_sphere_theorem1784492216(2).json",
+      "name": "K-Native_Cell3_antipodal_sphere_theorem1784492216(2).json",
+      "role": "Antipodal and centered-node structural reference",
+      "sha256": "2c6331de64d582f58b287f8bda04ca2cf90e70e7eae1c1d463b5f1ec8cfa5005",
+      "size_bytes": 14664
+    },
+    {
+      "path": "/mnt/data/K-Field_Consequences_of_the_Native_Cell3_Antipodal_Sphere_Theorem_1784494389(2).json",
+      "name": "K-Field_Consequences_of_the_Native_Cell3_Antipodal_Sphere_Theorem_1784494389(2).json",
+      "role": "Antipodal consequences and projective/cell registry reference",
+      "sha256": "6e7004c122f1c9e96424e7f55b931236e37e08be36ca3239718b11c1d6ffed07",
+      "size_bytes": 85312
+    },
+    {
+      "path": "/mnt/data/K-Field_single_cell3_lateral_force_reduction_1784915217.pdf",
+      "name": "K-Field_single_cell3_lateral_force_reduction_1784915217.pdf",
+      "role": "Superseded report under audit",
+      "sha256": "2cb06fce8411dd07c1978598a3c1df6a7bda9c8b493e3453f03b052dc69b8169",
+      "size_bytes": 2893056
+    },
+    {
+      "path": "/mnt/data/K-Field_single_cell3_lateral_force_reduction_1784915217.json",
+      "name": "K-Field_single_cell3_lateral_force_reduction_1784915217.json",
+      "role": "Superseded machine-readable report under audit",
+      "sha256": "854ea3b694e8a26bfcb6fed30f5d2933c9e64bf9121e54547f470d428f135b77",
+      "size_bytes": 30084
+    }
+  ],
+  "frame_contract": {
+    "coordinate_frame": "ICRS",
+    "physical_length_unit": "nm",
+    "address_space": "Z^3",
+    "node_rule": "p_L = B L / 2",
+    "primitive_translation_rule": "x_L = B L"
+  },
+  "cell3": {
+    "basis_B_nm": [
+      [
+        0.327501242069651,
+        0.035330775844051,
+        -0.010129317626665
+      ],
+      [
+        -0.054897007886313,
+        0.207319850441498,
+        -0.389787702363804
+      ],
+      [
+        -0.037487502896305,
+        -0.547401085391957,
+        -0.689734408362922
+      ]
+    ],
+    "direct_metric_M_nm2": [
+      [
+        0.11167605790543453,
+        0.020710333281606465,
+        0.04393723509778903
+      ],
+      [
+        0.020710333281606465,
+        0.3438777323971203,
+        0.2963927589615229
+      ],
+      [
+        0.04393723509778903,
+        0.2963927589615229,
+        0.6277706100693854
+      ]
+    ],
+    "reciprocal_metric_R_per_nm2": [
+      [
+        9.208025528683773,
+        0.00153480242811831,
+        -0.6451880356768953
+      ],
+      [
+        0.0015348024281183128,
+        4.903398312306197,
+        -2.3151755844163877
+      ],
+      [
+        -0.6451880356768953,
+        -2.3151755844163877,
+        2.7311712747461088
+      ]
+    ],
+    "address_coupling_W_nm2": [
+      [
+        0.08335330263345708,
+        0.13750057660358808,
+        0.10255921122195821
+      ],
+      [
+        0.1375005766035881,
+        0.6924000428485476,
+        0.5508009044534695
+      ],
+      [
+        0.10255921122195823,
+        0.5508009044534695,
+        0.5877476523533913
+      ]
+    ],
+    "physical_response_G_phase": [
+      [
+        2.9764106378,
+        1.2431507795,
+        -2.0803600354
+      ],
+      [
+        1.2431507795,
+        2.5922286635,
+        -2.3178839937
+      ],
+      [
+        -2.0803600354,
+        -2.3178839937,
+        6.7735709133
+      ]
+    ],
+    "identity": "G_phase = 4 B^(-T) W B^(-1)",
+    "edge_lengths_nm": [
+      0.3341796790731515,
+      0.5864108904148355,
+      0.7923197650376932
+    ],
+    "included_angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.4481300183379,
+      "bc": 50.36323181375619
+    },
+    "cell_volume_nm3": 0.11791489191669897,
+    "face_areas_nm2": {
+      "ab": 0.19486916546989957,
+      "ac": 0.2611062357995309,
+      "bc": 0.3578095391285615
+    },
+    "plane_families": [
+      {
+        "channel": "a",
+        "face_family": "bc",
+        "unit_normal_icrs": [
+          -0.9959651903089611,
+          0.08360216250737744,
+          -0.032619290564400015
+        ],
+        "primitive_boundary_spacing_nm": 0.32954652970929305,
+        "adjacent_halfstep_spacing_nm": 0.16477326485464652,
+        "face_area_nm2": 0.3578095391285615,
+        "source_face_spacing_nm": 0.3295465297092931,
+        "source_normal_error": 1.1527756336890508e-16,
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              1,
+              1
+            ]
+          ],
+          "0": [
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "1": [
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "channel": "b",
+        "face_family": "ac",
+        "unit_normal_icrs": [
+          0.08905259410160497,
+          0.8665767692910323,
+          -0.49103394832627567
+        ],
+        "primitive_boundary_spacing_nm": 0.4515973797241299,
+        "adjacent_halfstep_spacing_nm": 0.22579868986206494,
+        "face_area_nm2": 0.2611062357995309,
+        "source_face_spacing_nm": 0.45159737972412994,
+        "source_normal_error": 2.0062885096040707e-16,
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              -1,
+              1
+            ]
+          ],
+          "0": [
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "1": [
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "channel": "c",
+        "face_family": "ab",
+        "unit_normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212287,
+          0.3583792347908047
+        ],
+        "primitive_boundary_spacing_nm": 0.605097741514743,
+        "adjacent_halfstep_spacing_nm": 0.3025488707573715,
+        "face_area_nm2": 0.19486916546989957,
+        "source_face_spacing_nm": 0.605097741514743,
+        "source_normal_error": 2.7755575615628914e-17,
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              1,
+              -1
+            ]
+          ],
+          "0": [
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "1": [
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              1,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "centered_nodes": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "lambda": -3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.17635135014351846,
+          0.1186824299043095,
+          0.637311498325592
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.18141600895685098,
+          -0.0762114212775925,
+          0.292444294144131
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.15868596222149298,
+          0.2223423551250585,
+          0.3636109556296135
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.012600729108692999,
+          0.091233925961153,
+          0.6185677468774395
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1864806677701835,
+          -0.2711052724594945,
+          -0.05242291003733002
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.1637506210348255,
+          0.0274485039431565,
+          0.0187437514481525
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1410205742994675,
+          0.32600228034580747,
+          0.089910412933635
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.0176653879220255,
+          -0.103659925220749,
+          0.2737005426959785
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.0050646588133325,
+          0.194893851181902,
+          0.344867204181461
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1511498919261325,
+          0.0637854220179965,
+          0.599823995429287
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.168815279848158,
+          -0.1674453472387455,
+          -0.3261234527333085
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1460852331128,
+          0.1311084291639055,
+          -0.254956791247826
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.022730046735358,
+          -0.298553776402651,
+          -0.07116666148548251
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "body center",
+        "position_nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.022730046735358,
+          0.298553776402651,
+          0.07116666148548251
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1460852331128,
+          -0.1311084291639055,
+          0.254956791247826
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.168815279848158,
+          0.1674453472387455,
+          0.3261234527333085
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1511498919261325,
+          -0.0637854220179965,
+          -0.599823995429287
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.0050646588133325,
+          -0.194893851181902,
+          -0.344867204181461
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.0176653879220255,
+          0.103659925220749,
+          -0.2737005426959785
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1410205742994675,
+          -0.32600228034580747,
+          -0.089910412933635
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.1637506210348255,
+          -0.0274485039431565,
+          -0.0187437514481525
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1864806677701835,
+          0.2711052724594945,
+          0.05242291003733002
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.012600729108692999,
+          -0.091233925961153,
+          -0.6185677468774395
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.15868596222149298,
+          -0.2223423551250585,
+          -0.3636109556296135
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.18141600895685098,
+          0.0762114212775925,
+          -0.292444294144131
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "lambda": 3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.17635135014351846,
+          -0.1186824299043095,
+          -0.637311498325592
+        ]
+      }
+    ]
+  },
+  "tube": {
+    "material_density_kg_m3": 8000.0,
+    "outer_radius_m": 0.005,
+    "inner_radius_m": 0.004,
+    "wall_thickness_m": 0.001,
+    "length_m": 0.1,
+    "metal_cross_section_m2": 2.8274333882308144e-05,
+    "volume_m3": 2.8274333882308146e-06,
+    "mass_kg": 0.022619467105846516,
+    "axial_moment_of_inertia_kg_m2": 4.636990756698536e-07,
+    "inertia_equivalent_radius_m": 0.004527692569068709,
+    "spin_rpm": 50000.0,
+    "spin_hz": 833.3333333333334,
+    "omega_rad_s": 5235.987755982988,
+    "period_s": 0.0012,
+    "spin_energy_J": 6.356286719461464,
+    "spin_angular_momentum_kg_m2_s": 0.002427922682667983
+  },
+  "field": {
+    "V_E_icrs_m_s": [
+      -359003.19906581304,
+      76679.88603400199,
+      -44701.060100687995
+    ],
+    "V_E_speed_m_s": 369812.50200040644,
+    "V_E_ra_dec_deg": [
+      167.9432998798498,
+      -6.942599922102954
+    ],
+    "G_phase_V_E_m_s": [
+      -880221.9816350914,
+      -143911.43656159946,
+      266335.0269486193
+    ],
+    "G_phase_V_E_norm_m_s": 930825.2172704348,
+    "G_phase_V_E_ra_dec_deg": [
+      189.2853911762633,
+      16.62627796002979
+    ],
+    "kappa_F": 3.0740508997020345e-11,
+    "optimal_spin_axis_icrs": [
+      -0.31586503640732017,
+      0.6461626830235878,
+      -0.6947683540887285
+    ],
+    "optimal_spin_axis_ra_dec_deg": [
+      116.05086737662391,
+      -44.00876089867738
+    ],
+    "lateral_direction_icrs": [
+      0.07746958542151527,
+      0.7473758633624181,
+      0.6598695190701709
+    ],
+    "lateral_direction_ra_dec_deg": [
+      84.08211431391791,
+      41.2899223342786
+    ]
+  },
+  "trajectory": {
+    "formula": "r_sigma(t)=r_0+V_E t+rho[cos(omega t)e1+sigma sin(omega t)e2]",
+    "classification": "translated circular / generalized screw-trochoidal path; not a simple circular helix because V_E is not parallel to n_opt",
+    "translation_per_revolution_vector_m": [
+      -430.8038388789756,
+      92.01586324080237,
+      -53.64127212082559
+    ],
+    "translation_per_revolution_m": 443.7750024004878,
+    "translation_along_spin_axis_m": 232.8013456669409,
+    "translation_in_rotor_plane_m": 377.8091928622362,
+    "angle_VE_to_spin_axis_deg": 58.35913872889594
+  },
+  "address_rates": {
+    "qdot_E_s^-1": [
+      -2217734842862322.0,
+      249906586311223.9,
+      51817517757132.555
+    ],
+    "outer_radius_qdot_R_sin_coeff_s^-1": [
+      146104263638.24292,
+      41587626823.569244,
+      -19225626878.77335
+    ],
+    "outer_radius_qdot_R_cos_coeff_s^-1": [
+      5751503961.546312,
+      38323930192.74079,
+      -80820758038.87521
+    ],
+    "outer_radius_qdot_R_amplitude_s^-1": [
+      146217425948.8002,
+      56553110703.43103,
+      83075987257.8125
+    ],
+    "outer_radius_qR_address_amplitude": [
+      27925471.32710966,
+      10800848.538809069,
+      15866344.829184206
+    ],
+    "fractional_rate_modulation": [
+      6.593097746531525e-05,
+      0.0002262969997637517,
+      0.00160324135260951
+    ],
+    "qdot_total_min_s^-1": [
+      -2217881060288270.8,
+      249850033200520.47,
+      51734441769874.74
+    ],
+    "qdot_total_max_s^-1": [
+      -2217588625436373.2,
+      249963139421927.34,
+      51900593744390.37
+    ],
+    "actual_crossing_sign": [
+      -1,
+      1,
+      1
+    ],
+    "continuous_baseline_crossing_measure_per_revolution": [
+      2661281811434.786,
+      299887903573.4687,
+      62181021308.55906
+    ],
+    "positive_qR_total_variation_per_revolution": [
+      55850942.65421932,
+      21601697.077618137,
+      31732689.658368412
+    ],
+    "negative_qR_total_variation_per_revolution": [
+      55850942.65421932,
+      21601697.077618137,
+      31732689.658368412
+    ],
+    "max_first_order_crossing_time_shift_s": [
+      1.2591889159782339e-08,
+      4.321954334311987e-08,
+      3.061965434845679e-07
+    ],
+    "max_first_order_rotor_phase_shift_deg": [
+      0.0037775667479347016,
+      0.01296586300293596,
+      0.09185896304537036
+    ],
+    "interpretation": "q_R variation is differential address modulation. It is not an actual population of reverse plane crossings; qdot_total remains one-signed."
+  },
+  "exact_reduction": {
+    "halfstep_position": "x=(1/2)Bq",
+    "halfstep_velocity": "qdot=2B^(-1)v",
+    "mixed_scalar": "v_R^T G_phase V_E=qdot_R^T W qdot_E",
+    "mixed_energy_per_mass": "epsilon_cross=kappa_F qdot_R^T W qdot_E",
+    "coordinate_differential_acceleration": "a=-(kappa_F/rho)u(qdot_R^T W qdot_E)",
+    "coordinate_differential_impulse": "d v=-(kappa_F/rho)u[(Wqdot_E)^T d q_R]",
+    "cycle_impulse": "Delta v_rev=pi kappa_F n x (G_phase V_E)",
+    "localization_boundary": "Localizing the impulse exclusively at nodes or plane crossings requires an additional physical composition/localization rule."
+  },
+  "branch_ledger": [
+    {
+      "channel": "a",
+      "qdot_E_s^-1": -2217734842862322.0,
+      "outer_radius_qdot_R_amplitude_s^-1": 146217425948.8002,
+      "outer_radius_fractional_rate_modulation": 6.593097746531525e-05,
+      "outer_radius_qR_address_amplitude": 27925471.32710966,
+      "continuous_baseline_crossing_measure_per_revolution": 2661281811434.786,
+      "positive_qR_total_variation_per_revolution": 55850942.65421932,
+      "negative_qR_total_variation_per_revolution": 55850942.65421932,
+      "max_first_order_crossing_time_shift_s": 1.2591889159782339e-08,
+      "max_rotor_phase_shift_deg": 0.0037775667479347016,
+      "W_qdot_E_m2_s^-1": -0.00014517886005438653,
+      "outer_radius_velocity_increment_per_unit_dqR_m_s": 8.925744107358052e-13,
+      "mean_acceleration_vector_m_s2": [
+        0.0026240824677221854,
+        0.04833539527959471,
+        0.04376087744316427
+      ],
+      "mean_lateral_acceleration_m_s2": 0.06520446351144665,
+      "share_of_lateral_output": 0.8704212893335715,
+      "cycle_velocity_increment_vector_m_s": [
+        3.1488989612666193e-06,
+        5.8002474335513926e-05,
+        5.2513052931797085e-05
+      ]
+    },
+    {
+      "channel": "b",
+      "qdot_E_s^-1": 249906586311223.9,
+      "outer_radius_qdot_R_amplitude_s^-1": 56553110703.43103,
+      "outer_radius_fractional_rate_modulation": 0.0002262969997637517,
+      "outer_radius_qR_address_amplitude": 10800848.538809069,
+      "continuous_baseline_crossing_measure_per_revolution": 299887903573.4687,
+      "positive_qR_total_variation_per_revolution": 21601697.077618137,
+      "negative_qR_total_variation_per_revolution": 21601697.077618137,
+      "max_first_order_crossing_time_shift_s": 4.321954334311987e-08,
+      "max_rotor_phase_shift_deg": 0.01296586300293596,
+      "W_qdot_E_m2_s^-1": -0.00010336335293024913,
+      "outer_radius_velocity_increment_per_unit_dqR_m_s": 6.354884161429025e-13,
+      "mean_acceleration_vector_m_s2": [
+        -0.010491506362338669,
+        0.007993321910481339,
+        0.01220390410869629
+      ],
+      "mean_lateral_acceleration_m_s2": 0.01321422755062606,
+      "share_of_lateral_output": 0.17639812311535957,
+      "cycle_velocity_increment_vector_m_s": [
+        -1.2589807634806378e-05,
+        9.591986292577634e-06,
+        1.4644684930435547e-05
+      ]
+    },
+    {
+      "channel": "c",
+      "qdot_E_s^-1": 51817517757132.555,
+      "outer_radius_qdot_R_amplitude_s^-1": 83075987257.8125,
+      "outer_radius_fractional_rate_modulation": 0.00160324135260951,
+      "outer_radius_qR_address_amplitude": 15866344.829184206,
+      "continuous_baseline_crossing_measure_per_revolution": 62181021308.55906,
+      "positive_qR_total_variation_per_revolution": 31732689.658368412,
+      "negative_qR_total_variation_per_revolution": 31732689.658368412,
+      "max_first_order_crossing_time_shift_s": 3.061965434845679e-07,
+      "max_rotor_phase_shift_deg": 0.09185896304537036,
+      "W_qdot_E_m2_s^-1": -5.934473800177722e-05,
+      "outer_radius_velocity_increment_per_unit_dqR_m_s": 3.6485749049388954e-13,
+      "mean_acceleration_vector_m_s2": [
+        0.013670777762180522,
+        -0.0003417568421025371,
+        -0.0065330425700744045
+      ],
+      "mean_lateral_acceleration_m_s2": -0.0035073069880805522,
+      "share_of_lateral_output": -0.04681941244893142,
+      "cycle_velocity_increment_vector_m_s": [
+        1.6404933314616673e-05,
+        -4.1010821052305426e-07,
+        -7.83965108408931e-06
+      ]
+    }
+  ],
+  "ordered_pairwise_ledger": [
+    {
+      "rotation_channel": "a",
+      "earth_channel": "a",
+      "W_ij_nm2": 0.08335330263345708,
+      "mean_acceleration_vector_m_s2": [
+        0.0033412312105434486,
+        0.06154521943143262,
+        0.055720508525323925
+      ],
+      "signed_lateral_component_m_s2": 0.08302452046802551,
+      "lateral_share": 1.108303117000478,
+      "nonlateral_component_magnitude_m_s2": 0.003268322542315856
+    },
+    {
+      "rotation_channel": "a",
+      "earth_channel": "b",
+      "W_ij_nm2": 0.13750057660358808,
+      "mean_acceleration_vector_m_s2": [
+        -0.0006210925488636251,
+        -0.011440476518481343,
+        -0.010357736559734152
+      ],
+      "signed_lateral_component_m_s2": -0.015433206439873623,
+      "lateral_share": -0.20601950732387736,
+      "nonlateral_component_magnitude_m_s2": 0.0006075397511880783
+    },
+    {
+      "rotation_channel": "a",
+      "earth_channel": "c",
+      "W_ij_nm2": 0.10255921122195821,
+      "mean_acceleration_vector_m_s2": [
+        -9.605619395764681e-05,
+        -0.0017693476333564132,
+        -0.0016018945224256728
+      ],
+      "signed_lateral_component_m_s2": -0.002386850516705238,
+      "lateral_share": -0.03186232034302924,
+      "nonlateral_component_magnitude_m_s2": 9.396016146688145e-05
+    },
+    {
+      "rotation_channel": "b",
+      "earth_channel": "a",
+      "W_ij_nm2": 0.1375005766035881,
+      "mean_acceleration_vector_m_s2": [
+        -0.030951763533835986,
+        0.02358168608763039,
+        0.03600363390312739
+      ],
+      "signed_lateral_component_m_s2": 0.03898426329868841,
+      "lateral_share": 0.5204050596659983,
+      "nonlateral_component_magnitude_m_s2": 0.03592487235717059
+    },
+    {
+      "rotation_channel": "b",
+      "earth_channel": "b",
+      "W_ij_nm2": 0.6924000428485476,
+      "mean_acceleration_vector_m_s2": [
+        0.017563297100623362,
+        -0.013381213591849933,
+        -0.02042993505851256
+      ],
+      "signed_lateral_component_m_s2": -0.02212126613772108,
+      "lateral_share": -0.29529912457459406,
+      "nonlateral_component_magnitude_m_s2": 0.02038524253460404
+    },
+    {
+      "rotation_channel": "b",
+      "earth_channel": "c",
+      "W_ij_nm2": 0.5508009044534695,
+      "mean_acceleration_vector_m_s2": [
+        0.002896960070873863,
+        -0.0022071505852991526,
+        -0.00336979473591872
+      ],
+      "signed_lateral_component_m_s2": -0.003648769610341418,
+      "lateral_share": -0.04870781197604653,
+      "nonlateral_component_magnitude_m_s2": 0.0033624229732885087
+    },
+    {
+      "rotation_channel": "c",
+      "earth_channel": "a",
+      "W_ij_nm2": 0.10255921122195823,
+      "mean_acceleration_vector_m_s2": [
+        0.0523956579414046,
+        -0.0013098431493398666,
+        -0.02503903360679402
+      ],
+      "signed_lateral_component_m_s2": -0.01344237032009611,
+      "lateral_share": -0.17944362510801676,
+      "nonlateral_component_magnitude_m_s2": 0.05650908373286641
+    },
+    {
+      "rotation_channel": "c",
+      "earth_channel": "b",
+      "W_ij_nm2": 0.5508009044534695,
+      "mean_acceleration_vector_m_s2": [
+        -0.03170905894601301,
+        0.0007926972437085839,
+        0.015153244062264646
+      ],
+      "signed_lateral_component_m_s2": 0.008135119007967189,
+      "lateral_share": 0.10859656524209847,
+      "nonlateral_component_magnitude_m_s2": 0.03419844196010515
+    },
+    {
+      "rotation_channel": "c",
+      "earth_channel": "c",
+      "W_ij_nm2": 0.5877476523533913,
+      "mean_acceleration_vector_m_s2": [
+        -0.007015821233210835,
+        0.00017538906352872186,
+        0.0033527469744550546
+      ],
+      "signed_lateral_component_m_s2": 0.0017999443240484245,
+      "lateral_share": 0.024027647416987603,
+      "nonlateral_component_magnitude_m_s2": 0.007566612293822174
+    }
+  ],
+  "pairwise_matrix_lateral_m_s2": [
+    [
+      0.08302452046802551,
+      -0.015433206439873623,
+      -0.002386850516705238
+    ],
+    [
+      0.03898426329868841,
+      -0.02212126613772108,
+      -0.003648769610341418
+    ],
+    [
+      -0.01344237032009611,
+      0.008135119007967189,
+      0.0017999443240484245
+    ]
+  ],
+  "radial_wall_ledger": [
+    {
+      "material_radius_m": 0.004,
+      "qdot_R_amplitude_s^-1": [
+        116973940759.0402,
+        45242488562.74483,
+        66460789806.249985
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        1.1157180134197567e-12,
+        7.943605201786282e-13,
+        4.560718631173619e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.00580335386756411,
+        0.055986960347973576,
+        0.04943173898178606
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399214,
+      "mean_acceleration_error_m_s2": 4.785447810286878e-17
+    },
+    {
+      "material_radius_m": 0.004125,
+      "qdot_R_amplitude_s^-1": [
+        120629376407.76016,
+        46656316330.33061,
+        68537689487.6953
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        1.0819083766494608e-12,
+        7.702889892641242e-13,
+        4.42251503628957e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.005803353867564102,
+        0.05598696034797355,
+        0.04943173898178604
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399212,
+      "mean_acceleration_error_m_s2": 7.380733662959718e-17
+    },
+    {
+      "material_radius_m": 0.00425,
+      "qdot_R_amplitude_s^-1": [
+        124284812056.4802,
+        48070144097.91638,
+        70614589169.14061
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        1.0500875420421239e-12,
+        7.476334307563559e-13,
+        4.2924410646339947e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.005803353867564103,
+        0.05598696034797356,
+        0.04943173898178605
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399213,
+      "mean_acceleration_error_m_s2": 5.639852545747136e-17
+    },
+    {
+      "material_radius_m": 0.004375,
+      "qdot_R_amplitude_s^-1": [
+        127940247705.20021,
+        49483971865.50217,
+        72691488850.58594
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        1.0200850408409202e-12,
+        7.262724755918885e-13,
+        4.1697998913587376e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.0058033538675641054,
+        0.05598696034797357,
+        0.04943173898178605
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399213,
+      "mean_acceleration_error_m_s2": 5.285215923447232e-17
+    },
+    {
+      "material_radius_m": 0.0045000000000000005,
+      "qdot_R_amplitude_s^-1": [
+        131595683353.92021,
+        50897799633.087944,
+        74768388532.03123
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        9.91749345262006e-13,
+        7.060982401587805e-13,
+        4.0539721165987725e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.0058033538675641,
+        0.05598696034797357,
+        0.04943173898178605
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399213,
+      "mean_acceleration_error_m_s2": 5.022466363567369e-17
+    },
+    {
+      "material_radius_m": 0.004625,
+      "qdot_R_amplitude_s^-1": [
+        135251119002.6402,
+        52311627400.673706,
+        76845288213.47656
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        9.649453089035734e-13,
+        6.87014503938273e-13,
+        3.944405302636644e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.005803353867564106,
+        0.05598696034797357,
+        0.04943173898178605
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399213,
+      "mean_acceleration_error_m_s2": 5.332687815266592e-17
+    },
+    {
+      "material_radius_m": 0.00475,
+      "qdot_R_amplitude_s^-1": [
+        138906554651.3602,
+        53725455168.25948,
+        78922187894.92184
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        9.395520113008477e-13,
+        6.689351748872659e-13,
+        3.840605163093575e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.005803353867564102,
+        0.05598696034797357,
+        0.04943173898178605
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399213,
+      "mean_acceleration_error_m_s2": 5.1056598715381585e-17
+    },
+    {
+      "material_radius_m": 0.004875,
+      "qdot_R_amplitude_s^-1": [
+        142561990300.0802,
+        55139282935.84526,
+        80999087576.36717
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        9.154609340880055e-13,
+        6.517829909157975e-13,
+        3.7421281076296366e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.005803353867564101,
+        0.05598696034797357,
+        0.04943173898178605
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399213,
+      "mean_acceleration_error_m_s2": 5.063491126155459e-17
+    },
+    {
+      "material_radius_m": 0.005,
+      "qdot_R_amplitude_s^-1": [
+        146217425948.8002,
+        56553110703.43103,
+        83075987257.8125
+      ],
+      "velocity_increment_per_unit_dqR_m_s": [
+        8.925744107358052e-13,
+        6.354884161429025e-13,
+        3.6485749049388954e-13
+      ],
+      "mean_acceleration_vector_m_s2": [
+        0.0058033538675641054,
+        0.05598696034797357,
+        0.04943173898178605
+      ],
+      "mean_acceleration_magnitude_m_s2": 0.07491138407399213,
+      "mean_acceleration_error_m_s2": 5.285215923447232e-17
+    }
+  ],
+  "results": {
+    "mean_acceleration_vector_m_s2": [
+      0.005803353867564077,
+      0.055986960347973604,
+      0.04943173898178608
+    ],
+    "mean_acceleration_magnitude_m_s2": 0.07491138407399218,
+    "force_vector_N": [
+      0.0001312687719109528,
+      0.0012663952079473221,
+      0.0011181195938833011
+    ],
+    "force_magnitude_N": 0.0016944555879151006,
+    "cycle_velocity_increment_vector_m_s": [
+      6.964024641076892e-06,
+      6.718435241756831e-05,
+      5.931808677814329e-05
+    ],
+    "cycle_velocity_increment_magnitude_m_s": 8.98936608887906e-05,
+    "numerical_cycle_endpoint_m_s": [
+      6.964024641076915e-06,
+      6.71843524175685e-05,
+      5.931808677814333e-05
+    ]
+  },
+  "verification": {
+    "G_identity_max_abs_error": 1.7763568394002505e-15,
+    "direct_metric_max_abs_error": 0.0,
+    "reciprocal_metric_max_abs_error": 0.0,
+    "volume_error_nm3": 0.0,
+    "node_source_max_error_nm": 0.0,
+    "face_area_max_error_nm2": 0.0,
+    "face_spacing_max_error_nm": 5.551115123125783e-17,
+    "mean_acceleration_source_error_m_s2": 0.0,
+    "cycle_endpoint_error_m_s": 1.9548668967155818e-19,
+    "pairwise_sum_error_m_s2": 2.0461098328902598e-16,
+    "wall_integration_error_m_s2": 5.605063087764203e-17,
+    "total_rate_direction_reversal_count": 0
+  },
+  "figures": [
+    {
+      "id": 0,
+      "path": "/mnt/data/_correct_single_cell3/assets/00_title_mosaic.png",
+      "filename": "00_title_mosaic.png",
+      "sha256": "cf32222e30004d4465465ddd1af9488559cdb8d6e25f148dea4dbdbd6b42bfbb",
+      "size_bytes": 558533
+    },
+    {
+      "id": 1,
+      "path": "/mnt/data/_correct_single_cell3/assets/01_matrix_identity.png",
+      "filename": "01_matrix_identity.png",
+      "sha256": "51c5d2443e752aa58bd80a0ee98e3900b8ddfd00b2da16119e51f7a7192579c3",
+      "size_bytes": 170805
+    },
+    {
+      "id": 2,
+      "path": "/mnt/data/_correct_single_cell3/assets/02_cell3_equal_scale.png",
+      "filename": "02_cell3_equal_scale.png",
+      "sha256": "103ab6e7fb7f5d4735f2e9f18b9525ba764708048afb016ba46fc556db218518",
+      "size_bytes": 727668
+    },
+    {
+      "id": 3,
+      "path": "/mnt/data/_correct_single_cell3/assets/03_halfstep_planes_equal_scale.png",
+      "filename": "03_halfstep_planes_equal_scale.png",
+      "sha256": "0f275843037e0244a1fcbc048fd4c5206f11cf27ce6e366d47bf1c1f08f50f4c",
+      "size_bytes": 530305
+    },
+    {
+      "id": 4,
+      "path": "/mnt/data/_correct_single_cell3/assets/04_tube_cross_section.png",
+      "filename": "04_tube_cross_section.png",
+      "sha256": "4b31802af2de7201562b1343fdaca8340166a242ccb05a2252dc7f10b444f893",
+      "size_bytes": 155215
+    },
+    {
+      "id": 5,
+      "path": "/mnt/data/_correct_single_cell3/assets/05_vector_geometry_equal_scale.png",
+      "filename": "05_vector_geometry_equal_scale.png",
+      "sha256": "7183b79694514dc6ad82bf8a614ec0a872e951ad877e357d10bee02a1b7071ea",
+      "size_bytes": 593423
+    },
+    {
+      "id": 6,
+      "path": "/mnt/data/_correct_single_cell3/assets/06_absolute_path_dimensional_views.png",
+      "filename": "06_absolute_path_dimensional_views.png",
+      "sha256": "355d2186f28bff75d7ca7784d7564193b748dc3bd0405783e79e0535f94e5f6b",
+      "size_bytes": 384746
+    },
+    {
+      "id": 7,
+      "path": "/mnt/data/_correct_single_cell3/assets/07_rotational_address_rates.png",
+      "filename": "07_rotational_address_rates.png",
+      "sha256": "f15d4bf9b7a0628ce4031ffdbb5b19996451e84be58d79827f46d41ac97ad36f",
+      "size_bytes": 199205
+    },
+    {
+      "id": 8,
+      "path": "/mnt/data/_correct_single_cell3/assets/08_total_rate_signs.png",
+      "filename": "08_total_rate_signs.png",
+      "sha256": "17bf49971f6d9f04f8e1e4086b57db636def07c45261543bcbd16a252d48ad28",
+      "size_bytes": 240344
+    },
+    {
+      "id": 9,
+      "path": "/mnt/data/_correct_single_cell3/assets/09_crossing_phase_shift.png",
+      "filename": "09_crossing_phase_shift.png",
+      "sha256": "3e23f56cd8b95de26c81656c76a1718c93ebe577e58f4534d8d6b0673cd272dc",
+      "size_bytes": 187839
+    },
+    {
+      "id": 10,
+      "path": "/mnt/data/_correct_single_cell3/assets/10_radial_invariance.png",
+      "filename": "10_radial_invariance.png",
+      "sha256": "a7354570cce006060f7bdc72d12bd48d34976dbef888b1c8de89d9abf42ac37a",
+      "size_bytes": 192281
+    },
+    {
+      "id": 11,
+      "path": "/mnt/data/_correct_single_cell3/assets/11_phase_acceleration.png",
+      "filename": "11_phase_acceleration.png",
+      "sha256": "662065e1292077a85b047be638b5acb15a62c324ef873e51e27948e480f01456",
+      "size_bytes": 295184
+    },
+    {
+      "id": 12,
+      "path": "/mnt/data/_correct_single_cell3/assets/12_cumulative_impulse.png",
+      "filename": "12_cumulative_impulse.png",
+      "sha256": "7cc8032a2b8398636833e850b73cb0c1f48c2a9ec054ccc40adda12456cb1487",
+      "size_bytes": 173240
+    },
+    {
+      "id": 13,
+      "path": "/mnt/data/_correct_single_cell3/assets/13_pairwise_matrix.png",
+      "filename": "13_pairwise_matrix.png",
+      "sha256": "ed668445f4ffd6420c7d0040f8026bc84c44648a64c2f5d2f2134a86ddef5b2c",
+      "size_bytes": 111362
+    },
+    {
+      "id": 14,
+      "path": "/mnt/data/_correct_single_cell3/assets/14_node_centered_field.png",
+      "filename": "14_node_centered_field.png",
+      "sha256": "de90615834d61d328cca998dfaf734c19e6569657ae9926c3d43d82f8c4ac354",
+      "size_bytes": 233602
+    }
+  ],
+  "pdf_filename": "K-Field_single_cell3_lateral_force_reduction_1784985105.pdf",
+  "pdf_sha256": "b546139dad82059c56ab39314806e0528ba9c67fe9679986281796f54d803ad5",
+  "json_sha256_excluding_sha256": "830bba239bf0dc1a356fad5fe881bcf790078cdab6035bb0a1d31cb1fe0c0697"
+}

@@ -1,0 +1,557 @@
+{
+  "schema": "K-Field.galaxy_plane_intersection_distribution_analysis.v1.0",
+  "title": "K-Field Galaxy-Plane Intersection Distribution Analysis",
+  "generated_unix_epoch": 1784734315,
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "credentials": [
+      "BS 1999 Huntington University",
+      "MBA 2008 Indiana Wesleyan University"
+    ],
+    "organization": "Krytronx, LLC."
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "source": {
+    "filename": "K-Field_all_galaxy_plane_crossing_window_distribution_0p5deg(1).csv",
+    "sha256": "8f8c8b93f6b2a4e37f0ae80b9ac719a9ebf316ca47a24e57fb5f31fa88ec5a85",
+    "rows": 22,
+    "projective_windows_total": 130553,
+    "surface_windows_including_antipodes_total": 261106
+  },
+  "geometry": {
+    "sphere_radius": 1.0,
+    "sphere_radius_units": "dimensionless unit-sphere radius",
+    "number_of_planes": 512,
+    "window_diameter_deg": 0.5,
+    "window_radius_deg": 0.25,
+    "window_radius_rad": 0.004363323129985824,
+    "random_plane_orientation_rule": "independent isotropic unit normals; n and -n represent the same unoriented plane",
+    "great_circle_definition": "G_i = {x in S^2 : n_i dot x = 0}",
+    "acceptance_rule": "|n_k dot x_ij| <= sin(window_radius)",
+    "pairwise_projective_intersections_per_realization": 130816,
+    "remaining_independent_planes_at_pair_intersection": 510,
+    "base_incidence_sample": {
+      "rng_seed": 20260722,
+      "plane_normals": [
+        [
+          -0.9512473299418686,
+          0.308416300305604,
+          -0.0028112246920706098
+        ],
+        [
+          0.527413819491738,
+          -0.7987096228256014,
+          -0.28965082671195996
+        ],
+        [
+          0.2607963316986147,
+          0.023011567355203363,
+          0.9651195475900398
+        ]
+      ],
+      "projective_nodes_canonical": [
+        {
+          "planes": [
+            1,
+            2
+          ],
+          "positive_node": [
+            0.1377999801285803,
+            0.41682632476420595,
+            -0.898480372885311
+          ],
+          "negative_node": [
+            -0.1377999801285803,
+            -0.41682632476420595,
+            0.898480372885311
+          ]
+        },
+        {
+          "planes": [
+            1,
+            3
+          ],
+          "positive_node": [
+            0.3069783167535945,
+            0.9458504865282897,
+            -0.10550436093985639
+          ],
+          "negative_node": [
+            -0.3069783167535945,
+            -0.9458504865282897,
+            0.10550436093985639
+          ]
+        },
+        {
+          "planes": [
+            2,
+            3
+          ],
+          "positive_node": [
+            0.774206744374099,
+            0.5922233523756858,
+            -0.2233280498875204
+          ],
+          "negative_node": [
+            -0.774206744374099,
+            -0.5922233523756858,
+            0.2233280498875204
+          ]
+        }
+      ]
+    }
+  },
+  "analytic_null": {
+    "single_random_plane_hit_probability": 0.004363309284746571,
+    "distribution": "T = 2 + Binomial(510, p), p = sin(0.25 deg)",
+    "probability_exactly_20_per_intersection": 2.4012901548401124e-11,
+    "probability_20_or_more_per_intersection": 2.7064311788869282e-11,
+    "expected_exactly_20_windows_per_realization": 3.1412717289556415e-06,
+    "expected_20_or_more_windows_per_realization": 3.540445010972724e-06,
+    "whole_realization_probability_union_bound_20_or_more": 3.540445010972724e-06,
+    "reciprocal_union_bound_one_in": 282450.36906398775,
+    "threshold_ledger": [
+      {
+        "total_planes": 20,
+        "additional_planes": 18,
+        "per_intersection_exact": 2.4012901548401124e-11,
+        "per_intersection_tail": 2.7064311788869282e-11,
+        "whole_realization_union_bound": 3.540445010972724e-06,
+        "one_in_bound": 282450.36906398775
+      },
+      {
+        "total_planes": 21,
+        "additional_planes": 19,
+        "per_intersection_exact": 2.725029748110746e-12,
+        "per_intersection_tail": 3.051410240468255e-12,
+        "whole_realization_union_bound": 3.991732820170953e-07,
+        "one_in_bound": 2505177.688613872
+      },
+      {
+        "total_planes": 22,
+        "additional_planes": 20,
+        "per_intersection_exact": 2.931823689606531e-13,
+        "per_intersection_tail": 3.263804923574908e-13,
+        "whole_realization_union_bound": 4.269579048823752e-08,
+        "one_in_bound": 23421512.719749153
+      },
+      {
+        "total_planes": 23,
+        "additional_planes": 21,
+        "per_intersection_exact": 2.997986967125917e-14,
+        "per_intersection_tail": 3.3198123396836065e-14,
+        "whole_realization_union_bound": 4.342845710280507e-09,
+        "one_in_bound": 230263764.06437185
+      }
+    ]
+  },
+  "observed_distribution": [
+    {
+      "unique_planes_in_0p5deg_diameter_window": 2,
+      "projective_windows": 33696,
+      "surface_windows_including_antipodes": 67392,
+      "fraction_of_projective_windows": 0.2581020734873959
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 3,
+      "projective_windows": 20140,
+      "surface_windows_including_antipodes": 40280,
+      "fraction_of_projective_windows": 0.1542668494787557
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 4,
+      "projective_windows": 18053,
+      "surface_windows_including_antipodes": 36106,
+      "fraction_of_projective_windows": 0.1382810046494527
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 5,
+      "projective_windows": 15102,
+      "surface_windows_including_antipodes": 30204,
+      "fraction_of_projective_windows": 0.1156771579358574
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 6,
+      "projective_windows": 12295,
+      "surface_windows_including_antipodes": 24590,
+      "fraction_of_projective_windows": 0.0941763115363109
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 7,
+      "projective_windows": 9420,
+      "surface_windows_including_antipodes": 18840,
+      "fraction_of_projective_windows": 0.0721546038773525
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 8,
+      "projective_windows": 6979,
+      "surface_windows_including_antipodes": 13958,
+      "fraction_of_projective_windows": 0.0534572166093463
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 9,
+      "projective_windows": 5026,
+      "surface_windows_including_antipodes": 10052,
+      "fraction_of_projective_windows": 0.0384977748500608
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 10,
+      "projective_windows": 3562,
+      "surface_windows_including_antipodes": 7124,
+      "fraction_of_projective_windows": 0.0272839383238991
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 11,
+      "projective_windows": 2354,
+      "surface_windows_including_antipodes": 4708,
+      "fraction_of_projective_windows": 0.018030991244935
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 12,
+      "projective_windows": 1619,
+      "surface_windows_including_antipodes": 3238,
+      "fraction_of_projective_windows": 0.0124010938086447
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 13,
+      "projective_windows": 1030,
+      "surface_windows_including_antipodes": 2060,
+      "fraction_of_projective_windows": 0.0078895161352094
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 14,
+      "projective_windows": 619,
+      "surface_windows_including_antipodes": 1238,
+      "fraction_of_projective_windows": 0.0047413694055287
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 15,
+      "projective_windows": 314,
+      "surface_windows_including_antipodes": 628,
+      "fraction_of_projective_windows": 0.0024051534625784
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 16,
+      "projective_windows": 178,
+      "surface_windows_including_antipodes": 356,
+      "fraction_of_projective_windows": 0.0013634309437546
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 17,
+      "projective_windows": 85,
+      "surface_windows_including_antipodes": 170,
+      "fraction_of_projective_windows": 0.0006510765742648
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 18,
+      "projective_windows": 61,
+      "surface_windows_including_antipodes": 122,
+      "fraction_of_projective_windows": 0.00046724318859
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 19,
+      "projective_windows": 13,
+      "surface_windows_including_antipodes": 26,
+      "fraction_of_projective_windows": 9.957641724050768e-05
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 20,
+      "projective_windows": 3,
+      "surface_windows_including_antipodes": 6,
+      "fraction_of_projective_windows": 2.2979173209347928e-05
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 21,
+      "projective_windows": 1,
+      "surface_windows_including_antipodes": 2,
+      "fraction_of_projective_windows": 7.659724403115976e-06
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 22,
+      "projective_windows": 2,
+      "surface_windows_including_antipodes": 4,
+      "fraction_of_projective_windows": 1.5319448806231952e-05
+    },
+    {
+      "unique_planes_in_0p5deg_diameter_window": 23,
+      "projective_windows": 1,
+      "surface_windows_including_antipodes": 2,
+      "fraction_of_projective_windows": 7.659724403115976e-06
+    }
+  ],
+  "observed_summary": {
+    "exactly_20_projective_windows": 3,
+    "twenty_or_more_projective_windows": 7,
+    "maximum_multiplicity": 23,
+    "exactly_20_fraction": 2.2979173209347928e-05,
+    "twenty_or_more_fraction": 5.361807082181183e-05
+  },
+  "monte_carlo": {
+    "orientation_seed": 20260722,
+    "repetitions": 200,
+    "planes_per_realization": 512,
+    "intersections_per_realization": 130816,
+    "total_tested_pairwise_windows": 26163200,
+    "maximum_counts_by_realization": [
+      12,
+      11,
+      12,
+      12,
+      14,
+      13,
+      12,
+      12,
+      12,
+      12,
+      11,
+      12,
+      14,
+      11,
+      13,
+      12,
+      12,
+      12,
+      12,
+      12,
+      13,
+      12,
+      12,
+      12,
+      13,
+      13,
+      12,
+      12,
+      13,
+      14,
+      12,
+      12,
+      12,
+      12,
+      11,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      14,
+      13,
+      12,
+      11,
+      15,
+      13,
+      13,
+      12,
+      12,
+      14,
+      12,
+      13,
+      13,
+      12,
+      12,
+      11,
+      11,
+      11,
+      12,
+      12,
+      13,
+      11,
+      13,
+      12,
+      14,
+      11,
+      13,
+      12,
+      12,
+      14,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      13,
+      15,
+      11,
+      12,
+      12,
+      13,
+      12,
+      13,
+      12,
+      12,
+      12,
+      13,
+      12,
+      12,
+      12,
+      13,
+      12,
+      12,
+      12,
+      13,
+      12,
+      12,
+      13,
+      12,
+      12,
+      14,
+      14,
+      12,
+      14,
+      12,
+      12,
+      12,
+      13,
+      13,
+      11,
+      12,
+      14,
+      14,
+      12,
+      13,
+      12,
+      12,
+      13,
+      13,
+      11,
+      12,
+      13,
+      11,
+      12,
+      13,
+      12,
+      13,
+      13,
+      12,
+      14,
+      13,
+      12,
+      12,
+      12,
+      12,
+      12,
+      11,
+      13,
+      12,
+      12,
+      12,
+      13,
+      12,
+      12,
+      12,
+      12,
+      14,
+      13,
+      12,
+      13,
+      12,
+      13,
+      13,
+      12,
+      13,
+      12,
+      12,
+      12,
+      12,
+      13,
+      11,
+      13,
+      12,
+      12,
+      12,
+      13,
+      12,
+      11,
+      11,
+      13,
+      12,
+      13,
+      12,
+      12,
+      12,
+      12,
+      13,
+      13,
+      12,
+      11,
+      12,
+      12,
+      13,
+      12,
+      12,
+      14,
+      13,
+      12,
+      12,
+      11,
+      12
+    ],
+    "maximum_histogram": {
+      "11": 20,
+      "12": 116,
+      "13": 47,
+      "14": 15,
+      "15": 2
+    },
+    "mean_maximum": 12.315,
+    "median_maximum": 12.0,
+    "sample_standard_deviation_maximum": 0.7930445119852667,
+    "minimum_maximum": 11,
+    "maximum_maximum": 15,
+    "realizations_with_20_or_more": 0,
+    "windows_with_20_or_more": 0
+  },
+  "figures": [
+    {
+      "filename": "figure_01_base_incidence_cell.png",
+      "sha256": "6945889cb173308c0c3a45d1566e1f38c86cc98196b2a3d943c59ba13327b0ba",
+      "basis": "generated from attached data, exact geometry, or deterministic Monte Carlo output"
+    },
+    {
+      "filename": "figure_02_window_probability_belt.png",
+      "sha256": "8497f88fce465a3a9f055b1d553157eafe505a28974c205bca305b2515e6d5df",
+      "basis": "generated from attached data, exact geometry, or deterministic Monte Carlo output"
+    },
+    {
+      "filename": "figure_03_observed_distribution.png",
+      "sha256": "4d0461a3a56102bff50d947781be9702ac56047c2a6a47f1f738b5c867f0b55f",
+      "basis": "generated from attached data, exact geometry, or deterministic Monte Carlo output"
+    },
+    {
+      "filename": "figure_04_null_pmf.png",
+      "sha256": "752d2def0daa444826c12f4c80db56fc993b17a440331ac33bb8f1b0d40f0b6a",
+      "basis": "generated from attached data, exact geometry, or deterministic Monte Carlo output"
+    },
+    {
+      "filename": "figure_05_monte_carlo_maxima.png",
+      "sha256": "dad2c063727fb866a3b8ffaa6b64a8e9b8411241cc2a7fcae15d918be418a574",
+      "basis": "generated from attached data, exact geometry, or deterministic Monte Carlo output"
+    },
+    {
+      "filename": "figure_06_observed_vs_null.png",
+      "sha256": "0b782b60dde137b7fa61d99a1cbfbcb93a06e177afedffbea86af46c50336dbd",
+      "basis": "generated from attached data, exact geometry, or deterministic Monte Carlo output"
+    },
+    {
+      "filename": "figure_07_threshold_tail_bound.png",
+      "sha256": "f098e441aec11098b6c1c271979afe5b44a9fa2cc22259ff7bae1889953f30db",
+      "basis": "generated from attached data, exact geometry, or deterministic Monte Carlo output"
+    }
+  ],
+  "reproduction": {
+    "python_rng": "numpy.random.default_rng",
+    "seed": 20260722,
+    "normal_generation": "three independent standard-normal components followed by Euclidean normalization",
+    "pair_intersection": "normalize(cross(n_i,n_j))",
+    "counting_tolerance": "absolute dot product <= sin(0.25 deg)",
+    "antipodal_treatment": "projective intersections use one representative; surface count doubles projective count"
+  }
+}

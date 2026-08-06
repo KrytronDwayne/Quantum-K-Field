@@ -1,0 +1,762 @@
+{
+  "document": {
+    "title": "K-Field Rod Material Comparison",
+    "subtitle": "Force, density scaling, centrifugal stress, tensile-strength margins, and rotor-dynamic constraints for a 10 mm x 100 mm solid rod at 100,000 rpm",
+    "principal_investigator": {
+      "name": "P. Dwayne Esterline",
+      "education": [
+        "BS, Huntington University (1999)",
+        "MBA, Indiana Wesleyan University (2008)"
+      ]
+    },
+    "organization": "Krytronx",
+    "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+    "generation_utc": "2026-07-26T19:12:57Z",
+    "generation_epoch": 1785093177,
+    "output_pdf": "K-Field_rod_material_comparison_1785093177.pdf",
+    "machine_readable_companion": "K-Field_rod_material_comparison_1785093177.json",
+    "generation_method": "Python ReportLab; built-in core fonts only",
+    "coordinate_frame": "ICRS/J2000 Cartesian",
+    "mechanical_units": "SI",
+    "cell3_units": "native source units"
+  },
+  "rotor": {
+    "diameter_m": 0.01,
+    "radius_m": 0.005,
+    "length_m": 0.1,
+    "volume_m3": 7.853981633974484e-06,
+    "cross_section_area_m2": 7.853981633974483e-05,
+    "bending_second_moment_m4": 4.908738521234052e-10,
+    "polar_second_moment_m4": 9.817477042468103e-10,
+    "rpm": 100000.0,
+    "frequency_hz": 1666.6666666666667,
+    "omega_rad_s": 10471.975511965977,
+    "rim_speed_m_s": 52.35987755982988
+  },
+  "k_field": {
+    "kappa_F": 3.0740508997020345e-11,
+    "c_hat": [
+      -0.970770855836,
+      0.207348009111,
+      -0.120874929482
+    ],
+    "V_E_m_s": [
+      -359003.199066,
+      76679.886034,
+      -44701.060101
+    ],
+    "G_phase_rounded": [
+      [
+        2.97641063778,
+        1.24315077951,
+        -2.080360035411
+      ],
+      [
+        1.24315077951,
+        2.592228663515,
+        -2.317883993708
+      ],
+      [
+        -2.080360035411,
+        -2.317883993708,
+        6.773570913302
+      ]
+    ],
+    "g_m_s": [
+      -880221.981635,
+      -143911.436562,
+      266335.026949
+    ],
+    "g_magnitude_m_s": 930825.2172705192,
+    "g_hat": [
+      -0.945636157361632,
+      -0.1546062933103541,
+      0.2861278594599967
+    ],
+    "n_opt": [
+      -0.31586503640787833,
+      0.6461626830235203,
+      -0.6947683540885374
+    ],
+    "F_hat": [
+      0.07746958542148384,
+      0.7473758633623904,
+      0.6598695190702061
+    ],
+    "q_g_N_per_kg_per_rad_s": 1.4307020483078907e-05,
+    "specific_force_N_kg": 0.14982276814799794
+  },
+  "materials": [
+    {
+      "key": "wc_co_h10f",
+      "material": "WC-Co cemented carbide H10F",
+      "short": "WC-Co H10F",
+      "density": 14500.0,
+      "yield_mpa": null,
+      "uts_mpa": null,
+      "trs_mpa": 4500.0,
+      "compressive_mpa": 6300.0,
+      "modulus_gpa": null,
+      "poisson": null,
+      "strength_basis": "Typical transverse rupture strength (TRS); not a design tensile value",
+      "source_id": "S1,S6",
+      "mass_kg": 0.11388273369263001,
+      "mass_g": 113.88273369263001,
+      "force_N": 0.017062226406091098,
+      "force_mN": 17.0622264060911,
+      "apparent_gf": 1.7398628895791222,
+      "inertia_kg_m2": 1.4235341711578753e-06,
+      "angular_momentum_kg_m2_s": 0.014907214980812053,
+      "spin_energy_J": 78.05399511533808,
+      "ring_stress_Pa": 39752573.28216546,
+      "ring_stress_MPa": 39.75257328216546,
+      "solid_upper_stress_Pa": 17391750.81094739,
+      "solid_upper_stress_MPa": 17.39175081094739,
+      "force_per_mass_N_kg": 0.14982276814799794,
+      "force_per_energy_N_J": 0.0002185951709567044,
+      "force_per_ring_stress_N_Pa": 4.292106144923673e-10,
+      "trs_ratio_ring": 113.20021896592225,
+      "trs_ratio_solid_upper": 258.7433576363937,
+      "design_strength_label": "TRS comparison",
+      "ring_bound_allowable_rpm_sf1": 1063955.915279962,
+      "ring_bound_allowable_rpm_sf2": 752330.4425780011,
+      "ring_bound_allowable_rpm_sf3": 614275.2340927809
+    },
+    {
+      "key": "al_7075_t6",
+      "material": "7075-T6/T651 aluminum rod and bar",
+      "short": "7075-T6 Al",
+      "density": 2800.0,
+      "yield_mpa": 503.0,
+      "uts_mpa": 572.0,
+      "trs_mpa": null,
+      "compressive_mpa": null,
+      "modulus_gpa": 71.0,
+      "poisson": 0.33,
+      "strength_basis": "Typical 0.2% yield and ultimate tensile strengths",
+      "source_id": "S2",
+      "mass_kg": 0.021991148575128554,
+      "mass_g": 21.991148575128555,
+      "force_N": 0.0032947747542796607,
+      "force_mN": 3.294774754279661,
+      "apparent_gf": 0.335973523504934,
+      "inertia_kg_m2": 2.7488935718910693e-07,
+      "angular_momentum_kg_m2_s": 0.0028786346169843964,
+      "spin_energy_J": 15.072495608479079,
+      "ring_stress_Pa": 7676358.9786250545,
+      "ring_stress_MPa": 7.676358978625054,
+      "solid_upper_stress_Pa": 3358407.0531484615,
+      "solid_upper_stress_MPa": 3.3584070531484613,
+      "force_per_mass_N_kg": 0.14982276814799794,
+      "force_per_energy_N_J": 0.00021859517095670442,
+      "force_per_ring_stress_N_Pa": 4.2921061449236733e-10,
+      "yield_sf_ring": 65.52585690698047,
+      "uts_sf_ring": 74.51449334153644,
+      "yield_sf_solid_upper": 149.77338721595535,
+      "uts_sf_solid_upper": 170.31884192351183,
+      "design_strength_label": "yield",
+      "ring_bound_allowable_rpm_sf1": 809480.4315545894,
+      "ring_bound_allowable_rpm_sf2": 572389.1023900632,
+      "ring_bound_allowable_rpm_sf3": 467353.74506177666,
+      "simply_supported_first_bending_rad_s": 12424.814477824286,
+      "simply_supported_first_bending_rpm": 118648.23846872889,
+      "operating_to_bending_ratio": 0.8428275151034472
+    },
+    {
+      "key": "ti_6al4v",
+      "material": "Ti-6Al-4V Grade 5 annealed bar",
+      "short": "Ti-6Al-4V",
+      "density": 4430.0,
+      "yield_mpa": 862.0,
+      "uts_mpa": 931.0,
+      "trs_mpa": null,
+      "compressive_mpa": null,
+      "modulus_gpa": 110.0,
+      "poisson": 0.31,
+      "strength_basis": "Minimum bar yield and ultimate tensile strengths for diameter below 2 in",
+      "source_id": "S3,S4",
+      "mass_kg": 0.034793138638506964,
+      "mass_g": 34.79313863850697,
+      "force_N": 0.005212804343378178,
+      "force_mN": 5.212804343378178,
+      "apparent_gf": 0.5315581104024493,
+      "inertia_kg_m2": 4.349142329813371e-07,
+      "angular_momentum_kg_m2_s": 0.004554411197586028,
+      "spin_energy_J": 23.846841266272257,
+      "ring_stress_Pa": 12145096.526896069,
+      "ring_stress_MPa": 12.145096526896069,
+      "solid_upper_stress_Pa": 5313479.73051703,
+      "solid_upper_stress_MPa": 5.31347973051703,
+      "force_per_mass_N_kg": 0.14982276814799794,
+      "force_per_energy_N_J": 0.00021859517095670444,
+      "force_per_ring_stress_N_Pa": 4.2921061449236733e-10,
+      "yield_sf_ring": 70.97514606747238,
+      "uts_sf_ring": 76.65645126312853,
+      "yield_sf_solid_upper": 162.22890529707973,
+      "uts_sf_solid_upper": 175.21474574429377,
+      "design_strength_label": "yield",
+      "ring_bound_allowable_rpm_sf1": 842467.4834524615,
+      "ring_bound_allowable_rpm_sf2": 595714.470478401,
+      "ring_bound_allowable_rpm_sf3": 486398.8283547853,
+      "simply_supported_first_bending_rad_s": 12295.161382505048,
+      "simply_supported_first_bending_rpm": 117410.1426082956,
+      "operating_to_bending_ratio": 0.8517151736508879
+    },
+    {
+      "key": "steel_42crmo4",
+      "material": "42CrMo4 / AISI 4140 quenched and tempered steel",
+      "short": "42CrMo4 steel",
+      "density": 7720.0,
+      "yield_mpa": 900.0,
+      "uts_mpa": 1100.0,
+      "trs_mpa": null,
+      "compressive_mpa": null,
+      "modulus_gpa": 210.0,
+      "poisson": 0.29,
+      "strength_basis": "Minimum yield and lower-bound UTS for d <= 16 mm",
+      "source_id": "S5",
+      "mass_kg": 0.06063273821428301,
+      "mass_g": 60.632738214283016,
+      "force_N": 0.00908416467965678,
+      "force_mN": 9.08416467965678,
+      "apparent_gf": 0.9263270005207467,
+      "inertia_kg_m2": 7.579092276785378e-07,
+      "angular_momentum_kg_m2_s": 0.007936806872542694,
+      "spin_energy_J": 41.55702360623518,
+      "ring_stress_Pa": 21164818.32678051,
+      "ring_stress_MPa": 21.16481832678051,
+      "solid_upper_stress_Pa": 9259608.017966473,
+      "solid_upper_stress_MPa": 9.259608017966473,
+      "force_per_mass_N_kg": 0.14982276814799794,
+      "force_per_energy_N_J": 0.00021859517095670442,
+      "force_per_ring_stress_N_Pa": 4.292106144923673e-10,
+      "yield_sf_ring": 42.523398316214305,
+      "uts_sf_ring": 51.97304238648415,
+      "yield_sf_solid_upper": 97.19633900848984,
+      "uts_sf_solid_upper": 118.79552545482092,
+      "design_strength_label": "yield",
+      "ring_bound_allowable_rpm_sf1": 652099.6727204692,
+      "ring_bound_allowable_rpm_sf2": 461104.10059017205,
+      "ring_bound_allowable_rpm_sf3": 376489.9215836297,
+      "simply_supported_first_bending_rad_s": 12868.880002382106,
+      "simply_supported_first_bending_rpm": 122888.75186613324,
+      "operating_to_bending_ratio": 0.8137441261421003
+    },
+    {
+      "key": "bronze_c93200",
+      "material": "C93200 continuous-cast bearing bronze",
+      "short": "C93200 bronze",
+      "density": 8910.0,
+      "yield_mpa": 137.9,
+      "uts_mpa": 241.3,
+      "trs_mpa": null,
+      "compressive_mpa": null,
+      "modulus_gpa": 99.97,
+      "poisson": 0.34,
+      "strength_basis": "Minimum 0.5% extension yield and ultimate tensile strengths",
+      "source_id": "S7",
+      "mass_kg": 0.06997897635871266,
+      "mass_g": 69.97897635871266,
+      "force_N": 0.010484443950225636,
+      "force_mN": 10.484443950225636,
+      "apparent_gf": 1.0691157480103435,
+      "inertia_kg_m2": 8.747372044839083e-07,
+      "angular_momentum_kg_m2_s": 0.009160226584761063,
+      "spin_energy_J": 47.96283423983879,
+      "ring_stress_Pa": 24427270.892696157,
+      "ring_stress_MPa": 24.427270892696157,
+      "solid_upper_stress_Pa": 10686931.01555457,
+      "solid_upper_stress_MPa": 10.68693101555457,
+      "force_per_mass_N_kg": 0.14982276814799794,
+      "force_per_energy_N_J": 0.0002185951709567044,
+      "force_per_ring_stress_N_Pa": 4.2921061449236733e-10,
+      "yield_sf_ring": 5.645329787587225,
+      "uts_sf_ring": 9.878303681978228,
+      "yield_sf_solid_upper": 12.903610943056513,
+      "uts_sf_solid_upper": 22.57897984452166,
+      "design_strength_label": "yield",
+      "ring_bound_allowable_rpm_sf1": 237599.02751457598,
+      "ring_bound_allowable_rpm_sf2": 168007.88355888575,
+      "ring_bound_allowable_rpm_sf3": 137177.86249473374,
+      "simply_supported_first_bending_rad_s": 8264.864695239738,
+      "simply_supported_first_bending_rpm": 78923.64421398572,
+      "operating_to_bending_ratio": 1.2670474228086825
+    }
+  ],
+  "cell3": {
+    "basis_vectors": {
+      "a": [
+        0.020381438516,
+        -0.003416414496,
+        -0.002332965916
+      ],
+      "b": [
+        0.002198745968,
+        0.012902170258,
+        -0.034066501536
+      ],
+      "c": [
+        -0.000630379486,
+        -0.024257722018,
+        -0.042924354572
+      ]
+    },
+    "basis_matrix": [
+      [
+        0.020381438516,
+        0.002198745968,
+        -0.000630379486
+      ],
+      [
+        -0.003416414496,
+        0.012902170258,
+        -0.024257722018
+      ],
+      [
+        -0.002332965916,
+        -0.034066501536,
+        -0.042924354572
+      ]
+    ],
+    "face_families": {
+      "ab": {
+        "area_native2": 0.0007547217896292521,
+        "included_angle_deg": 83.93348301391636,
+        "unit_normal": [
+          0.19409220078553566,
+          0.9131771688326048,
+          0.35837923477385747
+        ]
+      },
+      "ac": {
+        "area_native2": 0.0010112557576683087,
+        "included_angle_deg": 80.44813002084678,
+        "unit_normal": [
+          0.08905259410445396,
+          0.8665767692871037,
+          -0.49103394833269226
+        ]
+      },
+      "bc": {
+        "area_native2": 0.0013857844317439773,
+        "included_angle_deg": 50.36323181316917,
+        "unit_normal": [
+          -0.995965190308728,
+          0.08360216251417184,
+          -0.032619290554110565
+        ]
+      }
+    },
+    "boundary_vertices": [
+      {
+        "index": 0,
+        "i": -0.5,
+        "j": -0.5,
+        "k": -0.5,
+        "x": -0.010974902499000001,
+        "y": 0.007385983128,
+        "z": 0.039661911012
+      },
+      {
+        "index": 1,
+        "i": -0.5,
+        "j": -0.5,
+        "k": 0.5,
+        "x": -0.011605281985000002,
+        "y": -0.01687173889,
+        "z": -0.0032624435600000015
+      },
+      {
+        "index": 2,
+        "i": -0.5,
+        "j": 0.5,
+        "k": -0.5,
+        "x": -0.008776156531,
+        "y": 0.020288153386,
+        "z": 0.005595409475999999
+      },
+      {
+        "index": 3,
+        "i": -0.5,
+        "j": 0.5,
+        "k": 0.5,
+        "x": -0.009406536017,
+        "y": -0.003969568631999999,
+        "z": -0.037328945096
+      },
+      {
+        "index": 4,
+        "i": 0.5,
+        "j": -0.5,
+        "k": -0.5,
+        "x": 0.009406536017,
+        "y": 0.003969568631999999,
+        "z": 0.037328945096
+      },
+      {
+        "index": 5,
+        "i": 0.5,
+        "j": -0.5,
+        "k": 0.5,
+        "x": 0.008776156531,
+        "y": -0.020288153386,
+        "z": -0.005595409475999999
+      },
+      {
+        "index": 6,
+        "i": 0.5,
+        "j": 0.5,
+        "k": -0.5,
+        "x": 0.011605281985000002,
+        "y": 0.01687173889,
+        "z": 0.0032624435600000015
+      },
+      {
+        "index": 7,
+        "i": 0.5,
+        "j": 0.5,
+        "k": 0.5,
+        "x": 0.010974902499000001,
+        "y": -0.007385983128,
+        "z": -0.039661911012
+      }
+    ],
+    "centered_half_step_nodes": [
+      {
+        "index": 0,
+        "2i": -1,
+        "2j": -1,
+        "2k": -1,
+        "lambda": -3,
+        "x": -0.010974902499000001,
+        "y": 0.007385983128,
+        "z": 0.039661911012
+      },
+      {
+        "index": 1,
+        "2i": -1,
+        "2j": -1,
+        "2k": 0,
+        "lambda": -2,
+        "x": -0.011290092242000001,
+        "y": -0.004742877881,
+        "z": 0.018199733726
+      },
+      {
+        "index": 2,
+        "2i": -1,
+        "2j": -1,
+        "2k": 1,
+        "lambda": -1,
+        "x": -0.011605281985000002,
+        "y": -0.01687173889,
+        "z": -0.0032624435600000015
+      },
+      {
+        "index": 3,
+        "2i": -1,
+        "2j": 0,
+        "2k": -1,
+        "lambda": -2,
+        "x": -0.009875529515,
+        "y": 0.013837068257,
+        "z": 0.022628660244
+      },
+      {
+        "index": 4,
+        "2i": -1,
+        "2j": 0,
+        "2k": 0,
+        "lambda": -1,
+        "x": -0.010190719258,
+        "y": 0.001708207248,
+        "z": 0.001166482958
+      },
+      {
+        "index": 5,
+        "2i": -1,
+        "2j": 0,
+        "2k": 1,
+        "lambda": 0,
+        "x": -0.010505909001000001,
+        "y": -0.010420653761,
+        "z": -0.020295694328
+      },
+      {
+        "index": 6,
+        "2i": -1,
+        "2j": 1,
+        "2k": -1,
+        "lambda": -1,
+        "x": -0.008776156531,
+        "y": 0.020288153386,
+        "z": 0.005595409475999999
+      },
+      {
+        "index": 7,
+        "2i": -1,
+        "2j": 1,
+        "2k": 0,
+        "lambda": 0,
+        "x": -0.009091346274,
+        "y": 0.008159292377000001,
+        "z": -0.01586676781
+      },
+      {
+        "index": 8,
+        "2i": -1,
+        "2j": 1,
+        "2k": 1,
+        "lambda": 1,
+        "x": -0.009406536017,
+        "y": -0.003969568631999999,
+        "z": -0.037328945096
+      },
+      {
+        "index": 9,
+        "2i": 0,
+        "2j": -1,
+        "2k": -1,
+        "lambda": -2,
+        "x": -0.0007841832409999998,
+        "y": 0.0056777758799999994,
+        "z": 0.038495428054
+      },
+      {
+        "index": 10,
+        "2i": 0,
+        "2j": -1,
+        "2k": 0,
+        "lambda": -1,
+        "x": -0.001099372984,
+        "y": -0.006451085129,
+        "z": 0.017033250768
+      },
+      {
+        "index": 11,
+        "2i": 0,
+        "2j": -1,
+        "2k": 1,
+        "lambda": 0,
+        "x": -0.001414562727,
+        "y": -0.018579946138,
+        "z": -0.004428926518
+      },
+      {
+        "index": 12,
+        "2i": 0,
+        "2j": 0,
+        "2k": -1,
+        "lambda": -1,
+        "x": 0.000315189743,
+        "y": 0.012128861009,
+        "z": 0.021462177286
+      },
+      {
+        "index": 13,
+        "2i": 0,
+        "2j": 0,
+        "2k": 0,
+        "lambda": 0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "index": 14,
+        "2i": 0,
+        "2j": 0,
+        "2k": 1,
+        "lambda": 1,
+        "x": -0.000315189743,
+        "y": -0.012128861009,
+        "z": -0.021462177286
+      },
+      {
+        "index": 15,
+        "2i": 0,
+        "2j": 1,
+        "2k": -1,
+        "lambda": 0,
+        "x": 0.001414562727,
+        "y": 0.018579946138,
+        "z": 0.004428926518
+      },
+      {
+        "index": 16,
+        "2i": 0,
+        "2j": 1,
+        "2k": 0,
+        "lambda": 1,
+        "x": 0.001099372984,
+        "y": 0.006451085129,
+        "z": -0.017033250768
+      },
+      {
+        "index": 17,
+        "2i": 0,
+        "2j": 1,
+        "2k": 1,
+        "lambda": 2,
+        "x": 0.0007841832409999998,
+        "y": -0.0056777758799999994,
+        "z": -0.038495428054
+      },
+      {
+        "index": 18,
+        "2i": 1,
+        "2j": -1,
+        "2k": -1,
+        "lambda": -1,
+        "x": 0.009406536017,
+        "y": 0.003969568631999999,
+        "z": 0.037328945096
+      },
+      {
+        "index": 19,
+        "2i": 1,
+        "2j": -1,
+        "2k": 0,
+        "lambda": 0,
+        "x": 0.009091346274,
+        "y": -0.008159292377000001,
+        "z": 0.01586676781
+      },
+      {
+        "index": 20,
+        "2i": 1,
+        "2j": -1,
+        "2k": 1,
+        "lambda": 1,
+        "x": 0.008776156531,
+        "y": -0.020288153386,
+        "z": -0.005595409475999999
+      },
+      {
+        "index": 21,
+        "2i": 1,
+        "2j": 0,
+        "2k": -1,
+        "lambda": 0,
+        "x": 0.010505909001000001,
+        "y": 0.010420653761,
+        "z": 0.020295694328
+      },
+      {
+        "index": 22,
+        "2i": 1,
+        "2j": 0,
+        "2k": 0,
+        "lambda": 1,
+        "x": 0.010190719258,
+        "y": -0.001708207248,
+        "z": -0.001166482958
+      },
+      {
+        "index": 23,
+        "2i": 1,
+        "2j": 0,
+        "2k": 1,
+        "lambda": 2,
+        "x": 0.009875529515,
+        "y": -0.013837068257,
+        "z": -0.022628660244
+      },
+      {
+        "index": 24,
+        "2i": 1,
+        "2j": 1,
+        "2k": -1,
+        "lambda": 1,
+        "x": 0.011605281985000002,
+        "y": 0.01687173889,
+        "z": 0.0032624435600000015
+      },
+      {
+        "index": 25,
+        "2i": 1,
+        "2j": 1,
+        "2k": 0,
+        "lambda": 2,
+        "x": 0.011290092242000001,
+        "y": 0.004742877881,
+        "z": -0.018199733726
+      },
+      {
+        "index": 26,
+        "2i": 1,
+        "2j": 1,
+        "2k": 1,
+        "lambda": 3,
+        "x": 0.010974902499000001,
+        "y": -0.007385983128,
+        "z": -0.039661911012
+      }
+    ]
+  },
+  "equations": {
+    "mass": "m = rho*pi*R^2*L",
+    "force": "F = (kappa_F*m*omega/2)*(n_hat cross g)",
+    "optimum_force": "F_max = m*(kappa_F*|g|/2)*omega",
+    "specific_force": "F_max/m = (kappa_F*|g|/2)*omega",
+    "rim_speed": "v = omega*R",
+    "thin_ring_stress_bound": "sigma_ring = rho*v^2",
+    "solid_body_upper_bound": "sigma_solid,max <= (7/16)*rho*v^2",
+    "solid_disk_plane_stress": "sigma_center = ((3+nu)/8)*rho*omega^2*R^2",
+    "polar_inertia": "I = 0.5*m*R^2",
+    "spin_energy": "E = 0.5*I*omega^2",
+    "force_energy_ratio": "F/E = 4*q_g/(R^2*omega), independent of density for equal geometry",
+    "simply_supported_bending": "omega_1 = pi^2*sqrt(E*I_b/(rho*A*L^4))"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "Hyperion Materials & Technologies",
+      "document": "Insert Blanks Grade Properties",
+      "data_used": "H10F density 14.5 g/cm^3; typical TRS 4500 MPa; compressive strength 6300 MPa",
+      "url": "https://www.hyperionmt.com/en-vn/products/Insert-Blanks/grade-properties/"
+    },
+    {
+      "id": "S2",
+      "organization": "Kaiser Aluminum",
+      "document": "Rod & Bar Alloy 7075 Technical Data",
+      "data_used": "T6/T651 UTS 572 MPa; yield 503 MPa; modulus 71.0 GPa; nominal density 2.80 Mg/m^3",
+      "url": "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1028/Kaiser_Aluminum_7075_Rod_and_Bar.pdf"
+    },
+    {
+      "id": "S3",
+      "organization": "Aircraft Materials",
+      "document": "Titanium Alloy Grade 5 / Ti-6Al-4V Technical Data Sheet",
+      "data_used": "Annealed bar below 2 in: minimum UTS 931 MPa; yield 862 MPa",
+      "url": "https://www.aircraftmaterials.com/data/titanium/ti6al4v.html"
+    },
+    {
+      "id": "S4",
+      "organization": "TIMET",
+      "document": "TIMETAL 6-4 alloy data family",
+      "data_used": "Grade identity and conservative cross-check; density near 4.42-4.43 g/cm^3; elastic modulus representative value",
+      "url": "https://www.timet.com/documents/datasheets/alpha-and-beta-alloys/"
+    },
+    {
+      "id": "S5",
+      "organization": "Swiss Steel Group",
+      "document": "1.7225 / 42CrMo4 Material Data Sheet",
+      "data_used": "Density 7.72 kg/dm^3; E=210 GPa; for d<=16 mm yield >=900 MPa and UTS 1100-1300 MPa",
+      "url": "https://swisssteel-group.com/en/services/download-center/1-7225-1-7227-42crmo4-42crmos4-werkstoffdatenblatt"
+    },
+    {
+      "id": "S6",
+      "organization": "ASTM International",
+      "document": "ASTM B406-96(2025), Transverse Rupture Strength of Cemented Carbides",
+      "data_used": "TRS is statistically flaw-sensitive and is not a design value",
+      "url": "https://store.astm.org/b0406-96r25.html"
+    },
+    {
+      "id": "S7",
+      "organization": "Copper Development Association",
+      "document": "C93200 Alloy Data",
+      "data_used": "Specific gravity 8.91; continuous-cast UTS 35 ksi and yield 20 ksi; tensile modulus 14500 ksi",
+      "url": "https://alloys.copper.org/alloy/C93200"
+    }
+  ]
+}

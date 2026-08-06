@@ -1,0 +1,1388 @@
+{
+  "metadata": {
+    "title": "Reaction-Wheel-Associated Periodic Drift Terms in Spacecraft Tracking and Orbit Determination",
+    "subtitle": "K-Field literature synthesis, orbital-harmonic interpretation, and archival test framework",
+    "principal_investigator": "P. Dwayne Esterline",
+    "principal_investigator_credentials": [
+      "B.S. 1999 Huntington University",
+      "M.B.A. 2008 Indiana Wesleyan University"
+    ],
+    "organization": "Krytronx, LLC",
+    "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+    "generated_utc": "2026-07-27T17:34:45Z",
+    "unix_epoch": 1785173685,
+    "pdf_filename": "K-Field_sattelite_literature_search_results_1785173685.pdf",
+    "json_filename": "K-Field_sattelite_literature_search_results_1785173685.json",
+    "coordinate_frame": "ICRS Cartesian for inertial vectors; RTN for local orbit components",
+    "native_kfield_length_unit": "L_K",
+    "reportlab_core_fonts": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman",
+      "Courier"
+    ]
+  },
+  "scope": {
+    "question": "Identify periodic or recurrent spacecraft tracking and trajectory terms associated with reaction-wheel operation and define a decisive signed-wheel K-Field test.",
+    "twelve_hour_constraint": "Approximately twelve hours is orbital only for a near-12-hour 1/rev orbit or a derived harmonic such as GEO 2/rev. Operational cadence and estimator spacing are separate.",
+    "evidence_layers": [
+      "published observation",
+      "published processing choice",
+      "derived orbital mapping",
+      "inferred mechanism",
+      "proposed K-Field test"
+    ]
+  },
+  "central_findings": [
+    "The literature contains wheel-speed structural disturbances, real momentum-unloading Delta-v events, and empirical orbital acceleration terms.",
+    "GRAIL provides the strongest direct published wheel-speed correlation in precision tracking near approximately 100 Hz.",
+    "Odyssey and RadioAstron report unloading Delta-v values of several millimeters per second.",
+    "GPS and GLONASS place 1/rev fundamentals near twelve hours; GEO places 2/rev near twelve hours while 1/rev is one sidereal day.",
+    "No reviewed publication performs a joint signed-wheel inertial-orientation translational regression with all required controls.",
+    "GRAIL is the strongest public archival test; telemetry-enabled GNSS and GEO are the strongest approximately twelve-hour orbital-harmonic tests."
+  ],
+  "effect_classes": [
+    {
+      "id": "structural_wheel_harmonics",
+      "pathway": "imbalance, bearings, motor ripple, cogging, resonance",
+      "signature": "wheel-angle lines and reference-point motion",
+      "center_of_mass": "not ordinarily sustained translation"
+    },
+    {
+      "id": "momentum_unloading",
+      "pathway": "external actuator removes stored momentum",
+      "signature": "event-synchronous finite burn or Delta-v",
+      "center_of_mass": "real change for thruster unloading"
+    },
+    {
+      "id": "empirical_orbit_acceleration",
+      "pathway": "estimator absorbs force deficiencies",
+      "signature": "constant, harmonic, or pseudo-stochastic coefficient",
+      "center_of_mass": "may contain real force, error, or candidate term"
+    }
+  ],
+  "orbital_periods": [
+    {
+      "label": "GRAIL 1/rev",
+      "h": 1.8333333333333333,
+      "kind": "orbital fundamental",
+      "source": "R1",
+      "x_amp_m_at_1e-9": 0.0011033876898650585,
+      "v_amp_mps_at_1e-9": 1.0504226244065094e-06
+    },
+    {
+      "label": "Mars Odyssey 1/rev",
+      "h": 1.96,
+      "kind": "orbital fundamental",
+      "source": "R3",
+      "x_amp_m_at_1e-9": 0.0012611228874205116,
+      "v_amp_mps_at_1e-9": 1.1229972784564137e-06
+    },
+    {
+      "label": "GLONASS 1/rev",
+      "h": 11.262222222222222,
+      "kind": "orbital fundamental",
+      "source": "R13",
+      "x_amp_m_at_1e-9": 0.04163834408141435,
+      "v_amp_mps_at_1e-9": 6.452778012717805e-06
+    },
+    {
+      "label": "GPS 1/rev",
+      "h": 11.967222222222222,
+      "kind": "orbital fundamental",
+      "source": "R11",
+      "x_amp_m_at_1e-9": 0.047014516706341776,
+      "v_amp_mps_at_1e-9": 6.8567132582850354e-06
+    },
+    {
+      "label": "GEO 2/rev",
+      "h": 11.967222222222222,
+      "kind": "second orbital harmonic",
+      "source": "R12",
+      "x_amp_m_at_1e-9": 0.047014516706341776,
+      "v_amp_mps_at_1e-9": 6.8567132582850354e-06
+    },
+    {
+      "label": "Galileo 1/rev",
+      "h": 14.079166666666666,
+      "kind": "orbital fundamental",
+      "source": "R14",
+      "x_amp_m_at_1e-9": 0.0650727506544348,
+      "v_amp_mps_at_1e-9": 8.066768290612716e-06
+    },
+    {
+      "label": "GEO 1/rev",
+      "h": 23.934444444444445,
+      "kind": "orbital fundamental",
+      "source": "R12",
+      "x_amp_m_at_1e-9": 0.1880580668253671,
+      "v_amp_mps_at_1e-9": 1.3713426516570071e-05
+    },
+    {
+      "label": "RadioAstron mean 1/rev",
+      "h": 211.20000000000002,
+      "kind": "approximate orbital fundamental",
+      "source": "R5",
+      "x_amp_m_at_1e-9": 14.64310216770679,
+      "v_amp_mps_at_1e-9": 0.00012100868633162989
+    }
+  ],
+  "twelve_hour_cases": [
+    {
+      "system": "GPS",
+      "period_h": 11.967222222222222,
+      "role": "1/rev orbital fundamental",
+      "orbital": true,
+      "source": "R11"
+    },
+    {
+      "system": "GLONASS",
+      "period_h": 11.262222222222222,
+      "role": "1/rev orbital fundamental",
+      "orbital": true,
+      "source": "R13"
+    },
+    {
+      "system": "GEO",
+      "period_h": 11.967222222222222,
+      "role": "2/rev harmonic",
+      "orbital": true,
+      "source": "derived from R12"
+    },
+    {
+      "system": "Mars Odyssey Feb-Mar 2015",
+      "period_h": 12.0,
+      "role": "commanded desaturation cadence",
+      "orbital": false,
+      "source": "R3"
+    },
+    {
+      "system": "BepiColombo baseline study",
+      "period_h": 12.0,
+      "role": "two-per-day maneuver assumption",
+      "orbital": false,
+      "source": "R10"
+    },
+    {
+      "system": "Former CODE",
+      "period_h": 12.0,
+      "role": "pseudo-stochastic spacing",
+      "orbital": false,
+      "source": "R7"
+    }
+  ],
+  "mission_metrics": [
+    {
+      "system": "GRAIL",
+      "metric": "Wheel-speed-associated KBRR disturbance",
+      "value": "approximately 100",
+      "unit_or_qualifier": "Hz wheel frequency",
+      "source": "R1"
+    },
+    {
+      "system": "GRAIL",
+      "metric": "Disturbance duration",
+      "value": "tens",
+      "unit_or_qualifier": "seconds",
+      "source": "R1"
+    },
+    {
+      "system": "GRAIL",
+      "metric": "Orbit period",
+      "value": "110",
+      "unit_or_qualifier": "minutes",
+      "source": "R1"
+    },
+    {
+      "system": "GRAIL",
+      "metric": "Primary empirical acceleration prior sigma",
+      "value": "1e-9",
+      "unit_or_qualifier": "m/s^2",
+      "source": "R1"
+    },
+    {
+      "system": "GRAIL",
+      "metric": "Extended empirical acceleration prior sigma",
+      "value": "5e-9",
+      "unit_or_qualifier": "m/s^2",
+      "source": "R1"
+    },
+    {
+      "system": "GRAIL",
+      "metric": "Empirical acceleration update spacing",
+      "value": "quarter orbit",
+      "unit_or_qualifier": "schedule",
+      "source": "R1"
+    },
+    {
+      "system": "Mars Odyssey",
+      "metric": "Orbit period",
+      "value": "1.96",
+      "unit_or_qualifier": "hours",
+      "source": "R3"
+    },
+    {
+      "system": "Mars Odyssey",
+      "metric": "Typical desaturation Delta-v",
+      "value": "3-4",
+      "unit_or_qualifier": "mm/s",
+      "source": "R3"
+    },
+    {
+      "system": "Mars Odyssey",
+      "metric": "Desaturation cadence, Feb-Mar 2015",
+      "value": "12",
+      "unit_or_qualifier": "hours",
+      "source": "R3"
+    },
+    {
+      "system": "Mars Odyssey",
+      "metric": "Desaturation cadence, Apr-May 2015",
+      "value": "20",
+      "unit_or_qualifier": "hours",
+      "source": "R3"
+    },
+    {
+      "system": "Mars Odyssey",
+      "metric": "Example telemetry Delta-v scale factor",
+      "value": "0.81",
+      "unit_or_qualifier": "dimensionless",
+      "source": "R3"
+    },
+    {
+      "system": "RadioAstron",
+      "metric": "Desaturation cadence",
+      "value": "1-2",
+      "unit_or_qualifier": "events/day",
+      "source": "R4"
+    },
+    {
+      "system": "RadioAstron",
+      "metric": "Desaturation duration",
+      "value": "2-3",
+      "unit_or_qualifier": "minutes",
+      "source": "R4"
+    },
+    {
+      "system": "RadioAstron",
+      "metric": "Desaturation Delta-v",
+      "value": "3-7",
+      "unit_or_qualifier": "mm/s",
+      "source": "R4-R5"
+    },
+    {
+      "system": "RadioAstron",
+      "metric": "Residual modulation near orbit period",
+      "value": "approximately 8.8",
+      "unit_or_qualifier": "days",
+      "source": "R5"
+    },
+    {
+      "system": "RadioAstron",
+      "metric": "Mean projected velocity residual before extra correction",
+      "value": "1.12",
+      "unit_or_qualifier": "mm/s",
+      "source": "R5"
+    },
+    {
+      "system": "GNSS Repro3",
+      "metric": "Mean orbit consistency GPS, 2020",
+      "value": "9",
+      "unit_or_qualifier": "mm",
+      "source": "R7"
+    },
+    {
+      "system": "GNSS Repro3",
+      "metric": "Mean orbit consistency GLONASS, 2020",
+      "value": "23",
+      "unit_or_qualifier": "mm",
+      "source": "R7"
+    },
+    {
+      "system": "GNSS Repro3",
+      "metric": "Mean orbit consistency Galileo, 2020",
+      "value": "15",
+      "unit_or_qualifier": "mm",
+      "source": "R7"
+    },
+    {
+      "system": "GNSS CODE",
+      "metric": "Former pseudo-stochastic spacing",
+      "value": "12",
+      "unit_or_qualifier": "hours",
+      "source": "R7"
+    },
+    {
+      "system": "GNSS CODE",
+      "metric": "Misclosure reduction after rescheduling, GPS",
+      "value": "10",
+      "unit_or_qualifier": "percent",
+      "source": "R7"
+    },
+    {
+      "system": "GNSS CODE",
+      "metric": "Misclosure reduction after rescheduling, Galileo",
+      "value": "15",
+      "unit_or_qualifier": "percent",
+      "source": "R7"
+    },
+    {
+      "system": "Tianwen-1",
+      "metric": "Relay-orbit position accuracy",
+      "value": "approximately 150",
+      "unit_or_qualifier": "m",
+      "source": "R8"
+    },
+    {
+      "system": "Tianwen-1",
+      "metric": "Remote-sensing-orbit position accuracy",
+      "value": "approximately 700",
+      "unit_or_qualifier": "m",
+      "source": "R8"
+    },
+    {
+      "system": "Tianwen-1",
+      "metric": "Two-way range-rate RMS",
+      "value": "0.18-0.35",
+      "unit_or_qualifier": "mm/s",
+      "source": "R9"
+    },
+    {
+      "system": "BepiColombo study",
+      "metric": "Desaturation baseline",
+      "value": "2",
+      "unit_or_qualifier": "events/day",
+      "source": "R10"
+    },
+    {
+      "system": "BepiColombo study",
+      "metric": "Semimajor-axis effect",
+      "value": "meters",
+      "unit_or_qualifier": "order of magnitude",
+      "source": "R10"
+    },
+    {
+      "system": "BepiColombo study",
+      "metric": "Range effect",
+      "value": "approximately 100",
+      "unit_or_qualifier": "m",
+      "source": "R10"
+    },
+    {
+      "system": "BepiColombo study",
+      "metric": "Range-rate effect",
+      "value": "some",
+      "unit_or_qualifier": "cm/s",
+      "source": "R10"
+    },
+    {
+      "system": "GEO",
+      "metric": "Orbital fundamental",
+      "value": "23 h 56 min 4 s",
+      "unit_or_qualifier": "sidereal day",
+      "source": "R12"
+    },
+    {
+      "system": "GEO",
+      "metric": "Second harmonic",
+      "value": "11 h 58 min 2 s",
+      "unit_or_qualifier": "2/rev",
+      "source": "derived from R12"
+    },
+    {
+      "system": "GPS",
+      "metric": "Orbital fundamental",
+      "value": "approximately 11 h 58 min",
+      "unit_or_qualifier": "1/rev",
+      "source": "R11"
+    },
+    {
+      "system": "GLONASS",
+      "metric": "Orbital fundamental",
+      "value": "11 h 15 min 44 s",
+      "unit_or_qualifier": "1/rev",
+      "source": "R13"
+    },
+    {
+      "system": "Galileo",
+      "metric": "Orbital fundamental",
+      "value": "14 h 4 min 45 s",
+      "unit_or_qualifier": "1/rev",
+      "source": "R14"
+    }
+  ],
+  "kfield_base_cell": {
+    "name": "K-Field Base Cell",
+    "shape": "right-handed parallelepiped",
+    "length_unit": "L_K",
+    "area_unit": "L_K^2",
+    "volume_unit": "L_K^3",
+    "edge_lengths": {
+      "a": 0.0207970587,
+      "b": 0.0364942052,
+      "c": 0.049308566
+    },
+    "pairwise_angles_deg": {
+      "a_b": 83.933483,
+      "a_c": 80.44813,
+      "b_c": 50.363232
+    },
+    "edge_vectors": {
+      "a": [
+        0.0207970587,
+        0.0,
+        0.0
+      ],
+      "b": [
+        0.0038568161200188576,
+        0.03628983304723335,
+        0.0
+      ],
+      "c": [
+        0.008182284383943805,
+        0.030762382380418438,
+        0.03765714717709702
+      ]
+    },
+    "gram_matrix_LK2": [
+      [
+        0.00043251765057124563,
+        8.021043124313843e-05,
+        0.00017016744863297266
+      ],
+      [
+        8.021043124313843e-05,
+        0.0013318270131797072,
+        0.001147919287031111
+      ],
+      [
+        0.00017016744863297266,
+        0.001147919287031111,
+        0.0024313346809763554
+      ]
+    ],
+    "nodes": {
+      "O": {
+        "x_LK": 0.0,
+        "y_LK": 0.0,
+        "z_LK": 0.0
+      },
+      "A": {
+        "x_LK": 0.0207970587,
+        "y_LK": 0.0,
+        "z_LK": 0.0
+      },
+      "B": {
+        "x_LK": 0.0038568161200188576,
+        "y_LK": 0.03628983304723335,
+        "z_LK": 0.0
+      },
+      "C": {
+        "x_LK": 0.008182284383943805,
+        "y_LK": 0.030762382380418438,
+        "z_LK": 0.03765714717709702
+      },
+      "AB": {
+        "x_LK": 0.024653874820018858,
+        "y_LK": 0.03628983304723335,
+        "z_LK": 0.0
+      },
+      "AC": {
+        "x_LK": 0.028979343083943804,
+        "y_LK": 0.030762382380418438,
+        "z_LK": 0.03765714717709702
+      },
+      "BC": {
+        "x_LK": 0.012039100503962664,
+        "y_LK": 0.06705221542765179,
+        "z_LK": 0.03765714717709702
+      },
+      "ABC": {
+        "x_LK": 0.03283615920396266,
+        "y_LK": 0.06705221542765179,
+        "z_LK": 0.03765714717709702
+      }
+    },
+    "face_areas_LK2": {
+      "A_ab": 0.0007547217880965119,
+      "A_ac": 0.00101125575567906,
+      "A_bc": 0.0013857844409095382
+    },
+    "volume_LK3": 2.8420669452112173e-05,
+    "planes": {
+      "P_ab": {
+        "spanning_vectors": [
+          "a",
+          "b"
+        ],
+        "unit_normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin_face_equation": "n_ab dot x = 0",
+        "opposite_face_offset": 0.03765714717709702,
+        "origin_face_nodes": [
+          "O",
+          "A",
+          "AB",
+          "B"
+        ],
+        "opposite_face_nodes": [
+          "C",
+          "AC",
+          "ABC",
+          "BC"
+        ]
+      },
+      "P_ac": {
+        "spanning_vectors": [
+          "a",
+          "c"
+        ],
+        "unit_normal": [
+          0.0,
+          -0.7744409818372149,
+          0.6326461614923548
+        ],
+        "origin_face_equation": "n_ac dot x = 0",
+        "opposite_face_offset": -0.028104333935808003,
+        "origin_face_nodes": [
+          "O",
+          "A",
+          "AC",
+          "C"
+        ],
+        "opposite_face_nodes": [
+          "B",
+          "AB",
+          "ABC",
+          "BC"
+        ]
+      },
+      "P_bc": {
+        "spanning_vectors": [
+          "b",
+          "c"
+        ],
+        "unit_normal": [
+          0.9861357536927008,
+          -0.10480467811518114,
+          -0.12865556627718105
+        ],
+        "origin_face_equation": "n_bc dot x = 0",
+        "opposite_face_offset": 0.02050872315571584,
+        "origin_face_nodes": [
+          "O",
+          "B",
+          "BC",
+          "C"
+        ],
+        "opposite_face_nodes": [
+          "A",
+          "AB",
+          "ABC",
+          "AC"
+        ]
+      }
+    }
+  },
+  "kfield_test_model": {
+    "field_direction_icrs": [
+      -0.945636157362,
+      -0.15460629331,
+      0.28612785946
+    ],
+    "per_wheel_angular_momentum": "H_i^I = R_I<-B I_i omega_i n_i,B",
+    "minimal_odd_lateral_proxy": "q_K^I = sum_i I_i omega_i [n_i^I x g_hat_K]",
+    "candidate_acceleration": "a_K^I = alpha_K q_K^I",
+    "required_properties": [
+      "continuous between unloads",
+      "odd in signed wheel speed",
+      "phase-locked to inertial orientation",
+      "stable across attitudes, arcs, and spacecraft"
+    ],
+    "mandatory_controls": [
+      "omega^2 wheel harmonics",
+      "wheel acceleration and motor current",
+      "structural modes",
+      "thruster unloads",
+      "SRP force and torque",
+      "thermal recoil",
+      "reference-point motion",
+      "restricted empirical harmonics"
+    ]
+  },
+  "derived_equations": {
+    "rtn_projection": [
+      "a_R = a_p cos(u) + a_q sin(u)",
+      "a_T = -a_p sin(u) + a_q cos(u)",
+      "a_N = a_h"
+    ],
+    "two_per_rev_identity": "cos^2(u) = [1 + cos(2u)]/2",
+    "velocity_amplitude": "v_amp = A T/(2 pi)",
+    "displacement_amplitude": "x_amp = A T^2/(4 pi^2)",
+    "parity": [
+      "q_K(-omega) = -q_K(omega)",
+      "q_imbalance(-omega) = q_imbalance(omega)"
+    ]
+  },
+  "recommended_archival_ranking": [
+    "GRAIL",
+    "GNSS with wheel telemetry",
+    "Mars Odyssey",
+    "RadioAstron",
+    "Tianwen-1",
+    "BepiColombo"
+  ],
+  "figures": [
+    {
+      "number": 1,
+      "title": "Odd signed-speed and even imbalance response",
+      "filename": "parity.png",
+      "width_pt": 508.31999999999994,
+      "height_pt": 236.50325047801144,
+      "caption": "The linear signed-speed curve changes sign under wheel reversal. The quadratic imbalance envelope does not. Mechanical disturbances can contain additional terms, but reversal parity remains central."
+    },
+    {
+      "number": 2,
+      "title": "Published unloading velocity increments",
+      "filename": "unload_dv.png",
+      "width_pt": 508.31999999999994,
+      "height_pt": 196.23974176888314,
+      "caption": "Mars Odyssey reports typical desaturation increments of 3-4 mm/s. RadioAstron reports 3-7 mm/s. Intervals are direct source ranges, not confidence intervals."
+    },
+    {
+      "number": 3,
+      "title": "Orbital fundamentals and harmonics near the twelve-hour band",
+      "filename": "period_map.png",
+      "width_pt": 508.32,
+      "height_pt": 273.7597993730408,
+      "caption": "The 11-13 h band contains GPS and GLONASS 1/rev periods and GEO 2/rev. GRAIL, Odyssey, Galileo, GEO 1/rev, and RadioAstron occupy different bands."
+    },
+    {
+      "number": 4,
+      "title": "Projection of a fixed inertial vector into RTN",
+      "filename": "rtn_projection.png",
+      "width_pt": 508.32000000000005,
+      "height_pt": 240.26187303582654,
+      "caption": "The normalized example uses a_p = 0.8, a_q = 0.6, and a_h = 0.3. Radial and along-track terms are 1/rev; the normal term is constant."
+    },
+    {
+      "number": 5,
+      "title": "Operational momentum-unloading cadence",
+      "filename": "unload_cadence.png",
+      "width_pt": 508.32,
+      "height_pt": 221.82412213740457,
+      "caption": "Published or study-defined intervals are shown. The same 12 h number appears in different operational contexts and is not thereby orbital."
+    },
+    {
+      "number": 6,
+      "title": "K-Field Base Cell: eight nodes and generating faces",
+      "filename": "base_cell_3d.png",
+      "width_pt": 354.75824175824175,
+      "height_pt": 367.2,
+      "caption": "Constructed directly from locked edge magnitudes and pairwise angles. All eight vertices are labeled; coordinates and plane equations appear below and in Appendix B."
+    },
+    {
+      "number": 7,
+      "title": "Generating planes on a common dimensional scale",
+      "filename": "base_cell_faces.png",
+      "width_pt": 508.32,
+      "height_pt": 238.80140350877193,
+      "caption": "The a-b, a-c, and b-c parallelograms are drawn without independent rescaling. Exact lengths, angles, and areas are printed above each face and every vertex is labeled."
+    },
+    {
+      "number": 8,
+      "title": "Orientation factor for a representative axis sweep",
+      "filename": "orientation_factor.png",
+      "width_pt": 508.31999999999994,
+      "height_pt": 236.20216422660724,
+      "caption": "Computed from |n x g_hat_K| for unit axes swept in a selected plane. A spacecraft envelope depends on actual wheel layout and attitude."
+    },
+    {
+      "number": 9,
+      "title": "Displacement scale from sinusoidal acceleration",
+      "filename": "accel_to_displacement.png",
+      "width_pt": 508.32,
+      "height_pt": 254.16,
+      "caption": "Calculated for A = 10^-9 m/s^2. Displacement grows as period squared. Mission points use the period ledger."
+    },
+    {
+      "number": 10,
+      "title": "Velocity scale from sinusoidal acceleration",
+      "filename": "accel_to_velocity.png",
+      "width_pt": 508.32,
+      "height_pt": 254.16,
+      "caption": "Calculated for A = 10^-9 m/s^2. Velocity grows linearly with period. Values precede orbit-fit absorption."
+    },
+    {
+      "number": 11,
+      "title": "GRAIL empirical acceleration prior scales",
+      "filename": "grail_priors.png",
+      "width_pt": 508.32,
+      "height_pt": 207.9174829001368,
+      "caption": "Bars reproduce the published prior scales. They show acceleration freedom allowed by the solution, not a measured unexplained acceleration."
+    },
+    {
+      "number": 12,
+      "title": "Published precision scales for GNSS and Tianwen-1",
+      "filename": "precision_scales.png",
+      "width_pt": 508.32000000000005,
+      "height_pt": 209.12297397769518,
+      "caption": "Left: mean 2020 IGS Repro3 orbit consistency for GPS, GLONASS, and Galileo. Right: Tianwen-1 mapping-phase two-way range-rate RMS. Panels retain native units."
+    }
+  ],
+  "tables": {
+    "names": [
+      "Document control",
+      "Evidence layers",
+      "Notation",
+      "Effect classes",
+      "Mission result matrix",
+      "Period classes",
+      "Orbital period ledger",
+      "Base Cell scalar geometry",
+      "Base Cell node coordinates",
+      "Base Cell planes",
+      "Signature comparison",
+      "Acceleration scaling",
+      "Source criteria",
+      "Data extraction fields",
+      "GRAIL event interpretation",
+      "GRAIL archival products",
+      "Odyssey arc partition",
+      "RadioAstron quantities",
+      "GNSS parameter families",
+      "Constellation discriminators",
+      "Tianwen modeling choices",
+      "Cross-mission evidence",
+      "Frequency synthesis",
+      "Archival ranking",
+      "Mandatory nuisance columns",
+      "Nested orbit solutions",
+      "Physical cross-validation",
+      "GRAIL program",
+      "GNSS/GEO program",
+      "Base Cell edge vectors",
+      "Base Cell Gram matrix",
+      "Base Cell node ledger",
+      "Base Cell face membership",
+      "Base Cell plane equations",
+      "Complete orbital period ledger",
+      "Derived frequency ledger",
+      "Twelve-hour classification",
+      "Published and derived metrics",
+      "Figure provenance",
+      "Defensive layout controls",
+      "Glossary"
+    ],
+    "layout_audit": [
+      {
+        "name": "Document control",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          137.2464,
+          371.0736
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Evidence layers",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          91.49759999999999,
+          193.1616,
+          223.6608
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Notation",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          81.3312,
+          279.576,
+          147.41279999999998
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Effect classes",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          91.49759999999999,
+          142.3296,
+          157.5792,
+          116.9136
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Mission result matrix",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          66.0816,
+          157.5792,
+          127.08,
+          157.5792
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Period classes",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          91.49759999999999,
+          106.74719999999999,
+          157.5792,
+          152.49599999999998
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Orbital period ledger",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          121.9968,
+          76.24799999999999,
+          106.74719999999999,
+          152.49599999999998,
+          50.832
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Base Cell scalar geometry",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          162.6624,
+          213.49439999999998,
+          132.1632
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Base Cell node coordinates",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          50.832,
+          106.74719999999999,
+          106.74719999999999,
+          106.74719999999999,
+          137.2464
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Base Cell planes",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          50.832,
+          81.3312,
+          157.5792,
+          96.5808,
+          121.9968
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Signature comparison",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          96.5808,
+          208.41119999999998,
+          203.328
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Acceleration scaling",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          101.664,
+          71.1648,
+          106.74719999999999,
+          106.74719999999999,
+          121.9968
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Source criteria",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          121.9968,
+          386.3232
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Data extraction fields",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          127.08,
+          381.24
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "GRAIL event interpretation",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          86.4144,
+          137.2464,
+          152.49599999999998,
+          132.1632
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "GRAIL archival products",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          162.6624,
+          345.6576
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Odyssey arc partition",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          101.664,
+          213.49439999999998,
+          193.1616
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "RadioAstron quantities",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          132.1632,
+          172.8288,
+          203.328
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "GNSS parameter families",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          101.664,
+          101.664,
+          172.8288,
+          132.1632
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Constellation discriminators",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          96.5808,
+          137.2464,
+          127.08,
+          147.41279999999998
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Tianwen modeling choices",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          111.8304,
+          193.1616,
+          203.328
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Cross-mission evidence",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          81.3312,
+          111.8304,
+          111.8304,
+          106.74719999999999,
+          96.5808
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Frequency synthesis",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          91.49759999999999,
+          152.49599999999998,
+          142.3296,
+          121.9968
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Archival ranking",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          40.6656,
+          101.664,
+          213.49439999999998,
+          152.49599999999998
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Mandatory nuisance columns",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          101.664,
+          213.49439999999998,
+          193.1616
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Nested orbit solutions",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          50.832,
+          249.0768,
+          208.41119999999998
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Physical cross-validation",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          167.7456,
+          340.5744
+        ],
+        "total_width_pt": 508.32000000000005
+      },
+      {
+        "name": "GRAIL program",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          40.665600000000005,
+          289.74240000000003,
+          177.912
+        ],
+        "total_width_pt": 508.32000000000005
+      },
+      {
+        "name": "GNSS/GEO program",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          40.665600000000005,
+          289.74240000000003,
+          177.912
+        ],
+        "total_width_pt": 508.32000000000005
+      },
+      {
+        "name": "Base Cell edge vectors",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          71.1648,
+          111.8304,
+          111.8304,
+          111.8304,
+          101.664
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Base Cell Gram matrix",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          50.832,
+          121.9968,
+          121.9968,
+          121.9968,
+          91.49759999999999
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Base Cell node ledger",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          50.832,
+          106.74719999999999,
+          106.74719999999999,
+          106.74719999999999,
+          137.2464
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Base Cell face membership",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          60.9984,
+          142.3296,
+          152.49599999999998,
+          152.49599999999998
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Base Cell plane equations",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          50.832,
+          81.3312,
+          157.5792,
+          96.5808,
+          121.9968
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Complete orbital period ledger",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          121.9968,
+          76.24799999999999,
+          106.74719999999999,
+          152.49599999999998,
+          50.832
+        ],
+        "total_width_pt": 508.31999999999994
+      },
+      {
+        "name": "Derived frequency ledger",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          106.74719999999999,
+          76.24799999999999,
+          86.4144,
+          121.9968,
+          116.9136
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Twelve-hour classification",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          137.2464,
+          116.9136,
+          254.16
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Published and derived metrics",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          86.4144,
+          188.0784,
+          81.3312,
+          101.664,
+          50.832
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Figure provenance",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          45.748799999999996,
+          121.9968,
+          218.5776,
+          121.9968
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Defensive layout controls",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          121.9968,
+          386.3232
+        ],
+        "total_width_pt": 508.32
+      },
+      {
+        "name": "Glossary",
+        "document_width_pt": 508.32,
+        "column_widths_pt": [
+          137.2464,
+          371.0736
+        ],
+        "total_width_pt": 508.32
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "R1",
+      "authors": "Goossens, S.; Sabaka, T. J.; Genova, A.; Mazarico, E.; Nicholas, J. B.; Neumann, G. A.; Lemoine, F. G.; Zuber, M. T.; Smith, D. E.",
+      "year": 2020,
+      "title": "High-Resolution Gravity Field Models from GRAIL Data and Implications for Models of the Density Structure of the Moon's Crust",
+      "publication": "Journal of Geophysical Research: Planets, 125(2)",
+      "doi": "10.1029/2019JE006086",
+      "url": "https://doi.org/10.1029/2019JE006086",
+      "role": "GRAIL wheel-speed-correlated KBRR disturbance and empirical acceleration parameterization."
+    },
+    {
+      "id": "R2",
+      "authors": "Jet Propulsion Laboratory / NASA Planetary Data System",
+      "year": 2016,
+      "title": "GRAIL Data Product Software Interface Specification, Version 1.8, JPL D-76383",
+      "publication": "NASA PDS Geosciences Node",
+      "doi": "",
+      "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-2-edr-v1/grail_0001/document/dpsis.htm",
+      "role": "Official archive definitions for wheel speed, attitude, thruster, KBRR, and DSN products."
+    },
+    {
+      "id": "R3",
+      "authors": "Esposito, P.; Jefferson, D. C.; Lee, J.",
+      "year": 2015,
+      "title": "Odyssey Mars Orbiter - Thirteen Years of On-Orbit Navigation",
+      "publication": "25th International Symposium on Space Flight Dynamics",
+      "doi": "",
+      "url": "https://issfd.org/2015/files/downloads/papers/020_Esposito.pdf",
+      "role": "Mars Odyssey orbit period, desaturation cadence, typical Delta-v, and 0.81 scale factor."
+    },
+    {
+      "id": "R4",
+      "authors": "Zakhvatkin, M. V.; Ponomarev, D. A.; Stepanyants, V. A.; Tuchin, A. G.; Zaslavskiy, G. S.",
+      "year": 2014,
+      "title": "Determination and Prediction of Orbital Parameters of the RadioAstron Mission",
+      "publication": "24th International Symposium on Space Flight Dynamics",
+      "doi": "",
+      "url": "https://issfd.org/ISSFD_2014/ISSFD24_Paper_S18-5_zakhvatkin.pdf",
+      "role": "RadioAstron wheel unloading frequency, Delta-v, impulse modeling, and SRP torque estimation."
+    },
+    {
+      "id": "R5",
+      "authors": "Zakhvatkin, M. V.; et al.",
+      "year": 2020,
+      "title": "RadioAstron Orbit Determination and Evaluation of Its Results Using Correlation of Space-VLBI Observations",
+      "publication": "Advances in Space Research, 65(2), 798-812",
+      "doi": "10.1016/j.asr.2019.10.012",
+      "url": "https://arxiv.org/abs/1812.01623",
+      "role": "Seven-year orbit assessment, unload effects, and delay-rate residual periodicities."
+    },
+    {
+      "id": "R6",
+      "authors": "Dennehy, C. J.",
+      "year": 2019,
+      "title": "A Survey of Reaction Wheel Disturbance Modeling Approaches for Spacecraft Line-of-Sight Jitter Performance Analysis",
+      "publication": "European Space Mechanisms and Tribology Symposium",
+      "doi": "",
+      "url": "https://esmats.eu/esmatspapers/pastpapers/pdfs/2019/dennehy.pdf",
+      "role": "Conventional wheel harmonics, imbalance, structural resonance, and jitter pathways."
+    },
+    {
+      "id": "R7",
+      "authors": "Zajdel, R.; et al.",
+      "year": 2023,
+      "title": "Combination and SLR Validation of IGS Repro3 Orbits for ITRF2020",
+      "publication": "Journal of Geodesy, 97, 87",
+      "doi": "10.1007/s00190-023-01777-3",
+      "url": "https://doi.org/10.1007/s00190-023-01777-3",
+      "role": "GNSS empirical harmonics, pseudo-stochastic parameters, former 12-hour spacing, and orbit consistency."
+    },
+    {
+      "id": "R8",
+      "authors": "Kong, J.; Zhang, Y.; Chen, M.; Duan, J.; Li, C.",
+      "year": 2024,
+      "title": "The Effect of Wheel Off-Loading on the Orbit of Tianwen-1",
+      "publication": "Journal of Deep Space Exploration, 11(4), 414-420",
+      "doi": "10.15982/j.issn.2096-9287.2024.20230010",
+      "url": "https://doi.org/10.15982/j.issn.2096-9287.2024.20230010",
+      "role": "Tianwen-1 orbit degradation attributed to wheel off-loading."
+    },
+    {
+      "id": "R9",
+      "authors": "Liu, S.; Kong, J.; Cao, J.; Huang, H.; Man, H.; Yan, J.; Li, X.",
+      "year": 2024,
+      "title": "Precise Orbit Determination for Tianwen-1 During Mapping Phase",
+      "publication": "Astrodynamics, 8, 471-481",
+      "doi": "10.1007/s42064-024-0226-4",
+      "url": "https://doi.org/10.1007/s42064-024-0226-4",
+      "role": "One-day versus three-day arcs, empirical acceleration aggregation, and range-rate residuals."
+    },
+    {
+      "id": "R10",
+      "authors": "Alessi, E. M.; Cicalo, S.; Milani, A.; Tommei, G.",
+      "year": 2012,
+      "title": "Desaturation Manoeuvres and Precise Orbit Determination for the BepiColombo Mission",
+      "publication": "Monthly Notices of the Royal Astronomical Society, 423(3), 2270-2278",
+      "doi": "10.1111/j.1365-2966.2012.21035.x",
+      "url": "https://doi.org/10.1111/j.1365-2966.2012.21035.x",
+      "role": "Twice-daily desaturation simulation and orbit/range effects."
+    },
+    {
+      "id": "R11",
+      "authors": "United States Space Force / GPS.gov",
+      "year": 2026,
+      "title": "GPS Space Segment",
+      "publication": "Official GPS public information site",
+      "doi": "",
+      "url": "https://www.gps.gov/space-segment",
+      "role": "GPS satellites circle Earth twice per sidereal day."
+    },
+    {
+      "id": "R12",
+      "authors": "European Space Agency",
+      "year": 2026,
+      "title": "Types of Orbits",
+      "publication": "ESA Space Transportation",
+      "doi": "",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+      "role": "Geostationary period of 23 h 56 min 4 s."
+    },
+    {
+      "id": "R13",
+      "authors": "GLONASS Information-Analytical Center",
+      "year": 2026,
+      "title": "About GLONASS",
+      "publication": "Official GLONASS information site",
+      "doi": "",
+      "url": "https://glonass-iac.ru/en/about_glonass/",
+      "role": "GLONASS nominal period of 11 h 15 min 44 s."
+    },
+    {
+      "id": "R14",
+      "authors": "European Space Agency",
+      "year": 2026,
+      "title": "ESA GNSS Book, TM-23, Volume I",
+      "publication": "ESA Navigation Support Office",
+      "doi": "",
+      "url": "https://gssc.esa.int/navipedia/GNSS_Book/ESA_GNSS-Book_TM-23_Vol_I.pdf",
+      "role": "Galileo nominal period of 14 h 4 min 45 s."
+    },
+    {
+      "id": "R15",
+      "authors": "Tapley, B. D.; Schutz, B. E.; Born, G. H.",
+      "year": 2004,
+      "title": "Statistical Orbit Determination",
+      "publication": "Elsevier Academic Press",
+      "doi": "",
+      "url": "",
+      "role": "Estimation and observation-model reference."
+    },
+    {
+      "id": "R16",
+      "authors": "Montenbruck, O.; Gill, E.",
+      "year": 2000,
+      "title": "Satellite Orbits: Models, Methods, and Applications",
+      "publication": "Springer",
+      "doi": "10.1007/978-3-642-58351-3",
+      "url": "https://doi.org/10.1007/978-3-642-58351-3",
+      "role": "Orbital frames, perturbations, and precise orbit determination reference."
+    }
+  ],
+  "integrity": {
+    "pdf_sha256": "9c0bd6cbb93ec3333a12e88c8af982210a5ad2b657c4bedcd742cdeeb95314e3",
+    "pdf_bytes": 1433806,
+    "json_schema_version": "1.0",
+    "data_statement": "Mission plots use cited values; analytic plots use printed equations; Base Cell plots use locked geometry."
+  }
+}

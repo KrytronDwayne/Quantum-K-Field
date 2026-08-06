@@ -1,0 +1,2179 @@
+{
+  "schema": "K-Field.apparent_weight_modulation.fixed_lab_rotor.v1",
+  "epoch": 1784912553,
+  "generated_utc": "2026-07-24T17:02:33Z",
+  "title": "K-Field Apparent-Weight Modulation from a Fixed-Laboratory Tubular Rotor",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "education": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx"
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "source": {
+    "filename": "K-Field_tubular_rotor_free_space_forces_1784904809(1).json",
+    "sha256": "205a825782a75d3ff51a70cf926b3220e687e8bcd11afcce9952d68f7d66f264",
+    "schema": "K-Field.tubular_rotor.free_space_forces.v1",
+    "epoch": 1784904809,
+    "title": "K-Field Tubular Rotor Free-Space Forces"
+  },
+  "coordinate_definitions": {
+    "inertial_frame": "ICRS/J2000 Cartesian",
+    "local_basis": {
+      "U": "(cos(phi) cos(theta), cos(phi) sin(theta), sin(phi))",
+      "E": "(-sin(theta), cos(theta), 0)",
+      "N": "(-sin(phi) cos(theta), -sin(phi) sin(theta), cos(phi))"
+    },
+    "horizontal_axis": "n = cos(alpha) N + sin(alpha) E; alpha measured east of true north",
+    "sidereal_day_s": 86164.0905
+  },
+  "source_snapshot": {
+    "cell3": {
+      "basis_matrix_columns_abc": [
+        [
+          0.02038143851694645,
+          0.0021987459683233553,
+          -0.000630379485347372
+        ],
+        [
+          -0.0034164144964105494,
+          0.01290217025869254,
+          -0.024257722017127867
+        ],
+        [
+          -0.0023329659167289608,
+          -0.03406650153605571,
+          -0.042924354571093816
+        ]
+      ],
+      "lengths_native": {
+        "a": 0.02079705878243295,
+        "b": 0.03649420513072719,
+        "c": 0.04930856589985942
+      },
+      "primitive_volume_native3": 2.8420669378096486e-05,
+      "faces": [
+        {
+          "name": "ab",
+          "area_native2": 0.000754721789672624,
+          "included_angle_deg": 83.93348301231273,
+          "unit_normal_icrs": [
+            0.1940922008077677,
+            0.9131771688212287,
+            0.35837923479080414
+          ]
+        },
+        {
+          "name": "ac",
+          "area_native2": 0.0010112557576880653,
+          "included_angle_deg": 80.44813001833784,
+          "unit_normal_icrs": [
+            0.08905259410160503,
+            0.8665767692910322,
+            -0.49103394832627584
+          ]
+        },
+        {
+          "name": "bc",
+          "area_native2": 0.001385784431733287,
+          "included_angle_deg": 50.363231813756165,
+          "unit_normal_icrs": [
+            -0.9959651903089612,
+            0.08360216250737672,
+            -0.03261929056439985
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "integer_index": [
+            -1,
+            -1,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            -0.010974902499961216,
+            0.007385983127422938,
+            0.03966191101193925
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": -3
+        },
+        {
+          "integer_index": [
+            -1,
+            -1,
+            0
+          ],
+          "coordinate_icrs_native": [
+            -0.011290092242634902,
+            -0.004742877881140996,
+            0.018199733726392338
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": -2
+        },
+        {
+          "integer_index": [
+            -1,
+            -1,
+            1
+          ],
+          "coordinate_icrs_native": [
+            -0.011605281985308587,
+            -0.01687173888970493,
+            -0.00326244355915457
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": -1
+        },
+        {
+          "integer_index": [
+            -1,
+            0,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            -0.00987552951579954,
+            0.013837068256769208,
+            0.02262866024391139
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": -2
+        },
+        {
+          "integer_index": [
+            -1,
+            0,
+            0
+          ],
+          "coordinate_icrs_native": [
+            -0.010190719258473225,
+            0.0017082072482052747,
+            0.0011664829583644804
+          ],
+          "node_class": "face center",
+          "lambda_index_sum": -1
+        },
+        {
+          "integer_index": [
+            -1,
+            0,
+            1
+          ],
+          "coordinate_icrs_native": [
+            -0.01050590900114691,
+            -0.01042065376035866,
+            -0.020295694327182427
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 0
+        },
+        {
+          "integer_index": [
+            -1,
+            1,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            -0.008776156531637862,
+            0.020288153386115476,
+            0.005595409475883533
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": -1
+        },
+        {
+          "integer_index": [
+            -1,
+            1,
+            0
+          ],
+          "coordinate_icrs_native": [
+            -0.009091346274311548,
+            0.008159292377551544,
+            -0.015866767809663375
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 0
+        },
+        {
+          "integer_index": [
+            -1,
+            1,
+            1
+          ],
+          "coordinate_icrs_native": [
+            -0.009406536016985233,
+            -0.00396956863101239,
+            -0.037328945095210286
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": 1
+        },
+        {
+          "integer_index": [
+            0,
+            -1,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            -0.0007841832414879916,
+            0.0056777758792176634,
+            0.03849542805357477
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": -2
+        },
+        {
+          "integer_index": [
+            0,
+            -1,
+            0
+          ],
+          "coordinate_icrs_native": [
+            -0.0010993729841616777,
+            -0.00645108512934627,
+            0.017033250768027856
+          ],
+          "node_class": "face center",
+          "lambda_index_sum": -1
+        },
+        {
+          "integer_index": [
+            0,
+            -1,
+            1
+          ],
+          "coordinate_icrs_native": [
+            -0.0014145627268353637,
+            -0.018579946137910204,
+            -0.004428926517519052
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 0
+        },
+        {
+          "integer_index": [
+            0,
+            0,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            0.000315189742673686,
+            0.012128861008563934,
+            0.021462177285546908
+          ],
+          "node_class": "face center",
+          "lambda_index_sum": -1
+        },
+        {
+          "integer_index": [
+            0,
+            0,
+            0
+          ],
+          "coordinate_icrs_native": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "node_class": "body center",
+          "lambda_index_sum": 0
+        },
+        {
+          "integer_index": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_icrs_native": [
+            -0.000315189742673686,
+            -0.012128861008563934,
+            -0.021462177285546908
+          ],
+          "node_class": "face center",
+          "lambda_index_sum": 1
+        },
+        {
+          "integer_index": [
+            0,
+            1,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            0.0014145627268353637,
+            0.018579946137910204,
+            0.004428926517519052
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 0
+        },
+        {
+          "integer_index": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_icrs_native": [
+            0.0010993729841616777,
+            0.00645108512934627,
+            -0.017033250768027856
+          ],
+          "node_class": "face center",
+          "lambda_index_sum": 1
+        },
+        {
+          "integer_index": [
+            0,
+            1,
+            1
+          ],
+          "coordinate_icrs_native": [
+            0.0007841832414879916,
+            -0.0056777758792176634,
+            -0.03849542805357477
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 2
+        },
+        {
+          "integer_index": [
+            1,
+            -1,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            0.009406536016985233,
+            0.00396956863101239,
+            0.037328945095210286
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": -1
+        },
+        {
+          "integer_index": [
+            1,
+            -1,
+            0
+          ],
+          "coordinate_icrs_native": [
+            0.009091346274311548,
+            -0.008159292377551544,
+            0.015866767809663375
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 0
+        },
+        {
+          "integer_index": [
+            1,
+            -1,
+            1
+          ],
+          "coordinate_icrs_native": [
+            0.008776156531637862,
+            -0.020288153386115476,
+            -0.005595409475883533
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": 1
+        },
+        {
+          "integer_index": [
+            1,
+            0,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            0.01050590900114691,
+            0.01042065376035866,
+            0.020295694327182427
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 0
+        },
+        {
+          "integer_index": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_icrs_native": [
+            0.010190719258473225,
+            -0.0017082072482052747,
+            -0.0011664829583644804
+          ],
+          "node_class": "face center",
+          "lambda_index_sum": 1
+        },
+        {
+          "integer_index": [
+            1,
+            0,
+            1
+          ],
+          "coordinate_icrs_native": [
+            0.00987552951579954,
+            -0.013837068256769208,
+            -0.02262866024391139
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 2
+        },
+        {
+          "integer_index": [
+            1,
+            1,
+            -1
+          ],
+          "coordinate_icrs_native": [
+            0.011605281985308587,
+            0.01687173888970493,
+            0.00326244355915457
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": 1
+        },
+        {
+          "integer_index": [
+            1,
+            1,
+            0
+          ],
+          "coordinate_icrs_native": [
+            0.011290092242634902,
+            0.004742877881140996,
+            -0.018199733726392338
+          ],
+          "node_class": "edge center",
+          "lambda_index_sum": 2
+        },
+        {
+          "integer_index": [
+            1,
+            1,
+            1
+          ],
+          "coordinate_icrs_native": [
+            0.010974902499961216,
+            -0.007385983127422938,
+            -0.03966191101193925
+          ],
+          "node_class": "corner",
+          "lambda_index_sum": 3
+        }
+      ]
+    },
+    "coordinate_lock": {
+      "frame": "ICRS/J2000 Cartesian",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "earth_CMB_unit_vector": [
+        -0.9707708558359351,
+        0.20734800911098614,
+        -0.12087492948199192
+      ],
+      "earth_CMB_ra_dec_deg": [
+        167.94329987982758,
+        -6.942599922129508
+      ],
+      "optimal_tube_axis_unit_vector": [
+        -0.3158650364073233,
+        0.6461626830235584,
+        -0.6947683540887543
+      ],
+      "optimal_tube_axis_ra_dec_deg": [
+        116.05086737662515,
+        -44.00876089867944
+      ],
+      "force_acceleration_unit_vector": [
+        0.07746958542150294,
+        0.7473758633624434,
+        0.6598695190701438
+      ],
+      "force_acceleration_ra_dec_deg": [
+        84.08211431391904,
+        41.289922334276525
+      ],
+      "orthogonality_checks": {
+        "Fhat_dot_chat": 1.4668023673069506e-18,
+        "nopt_dot_g": 4.121419811407919e-10
+      }
+    },
+    "field_inputs": {
+      "G_phase": [
+        [
+          2.9764106378,
+          1.2431507795,
+          -2.0803600354
+        ],
+        [
+          1.2431507795,
+          2.5922286635,
+          -2.3178839937
+        ],
+        [
+          -2.0803600354,
+          -2.3178839937,
+          6.7735709133
+        ]
+      ],
+      "V_E_icrs_m_s": [
+        -359003.19906581304,
+        76679.88603400199,
+        -44701.060100687995
+      ],
+      "G_phase_V_E": [
+        -880221.9816350914,
+        -143911.43656159946,
+        266335.0269486193
+      ],
+      "G_phase_V_E_norm": 930825.2172704348,
+      "G_phase_V_E_ra_dec_deg": [
+        189.2853911762633,
+        16.62627796002979
+      ],
+      "kappa_F_recommended": 3.0740508997020345e-11,
+      "kappa_F_interval": [
+        3.04273994475465e-11,
+        3.10536185464942e-11
+      ],
+      "q_g_N_per_kg_per_rad_s": 1.430702048307761e-05
+    },
+    "tube": {
+      "material_label": "surgical stainless steel; 316L/316LVM working density",
+      "density_kg_m3": 8000.0,
+      "outer_diameter_m": 0.01,
+      "wall_thickness_m": 0.001,
+      "inner_diameter_m": 0.008,
+      "outer_radius_m": 0.005,
+      "inner_radius_m": 0.004,
+      "length_m": 0.1,
+      "metal_cross_section_area_m2": 2.8274333882308144e-05,
+      "volume_m3": 2.8274333882308146e-06,
+      "raw_mass_kg": 0.022619467105846516
+    },
+    "spin_state": {
+      "rpm": 50000.0,
+      "frequency_hz": 833.3333333333334,
+      "period_s": 0.0012,
+      "omega_rad_s": 5235.987755982988,
+      "outer_surface_speed_m_s": 26.17993877991494,
+      "inner_surface_speed_m_s": 20.943951023931955,
+      "outer_centripetal_acceleration_m_s2": 137077.83890401886,
+      "inner_centripetal_acceleration_m_s2": 109662.27112321508,
+      "axial_moment_of_inertia_kg_m2": 4.636990756698536e-07,
+      "specific_axial_inertia_m2": 2.05e-05,
+      "angular_momentum_kg_m2_s": 0.002427922682667983,
+      "specific_angular_momentum_m2_s": 0.10733774899765128,
+      "stored_rotational_energy_J": 6.3562867194614645,
+      "specific_rotational_energy_J_kg": 281.0095697532387
+    },
+    "force_acceleration_result": {
+      "force_vector_icrs_N": [
+        0.00013126877191093188,
+        0.001266395207947365,
+        0.0011181195938832554
+      ],
+      "force_magnitude_N": 0.0016944555879151008,
+      "force_interval_N": [
+        0.0016771965950406835,
+        0.0017117145807895185
+      ],
+      "acceleration_vector_icrs_m_s2": [
+        0.005803353867563152,
+        0.055986960347975505,
+        0.04943173898178405
+      ],
+      "acceleration_magnitude_m_s2": 0.07491138407399218,
+      "acceleration_interval_m_s2": [
+        0.0741483690660057,
+        0.07567439908197868
+      ],
+      "acceleration_standard_g": 0.00763883528768664,
+      "force_to_spin_energy_N_per_J": 0.00026657947677644463
+    }
+  },
+  "derived_fixed_lab_model": {
+    "equations": {
+      "field_response": "g = G_phase V_E",
+      "force": "F_K = (kappa_F m_r omega / 2) (n x g)",
+      "scale_reading": "W_scale = M_assembly g0 - F_K dot U",
+      "vertical_force_general": "F_U = (kappa_F m_r omega / 2) (U x n) dot g",
+      "horizontal_harmonic_amplitude": "A(phi,alpha) = C g_perp sqrt(cos(alpha)^2 + sin(alpha)^2 sin(phi)^2)",
+      "horizontal_dc_term": "DC(phi,alpha) = C sin(alpha) cos(phi) g_z",
+      "north_south_waveform": "F_U(theta)=C[g_x sin(theta)-g_y cos(theta)]=C g_perp sin(theta-RA_g)",
+      "apparent_mass_shift": "Delta m = -F_U/g0",
+      "spin_odd_half_difference": "W_odd=[W(+omega)-W(-omega)]/2",
+      "full_reversal_difference": "W(+omega)-W(-omega)=-2F_U(+omega)"
+    },
+    "constants": {
+      "standard_gravity_m_s2": 9.80665,
+      "C_N_per_effective_response": 1.8203799773323146e-09,
+      "g_vector": [
+        -880221.9816350914,
+        -143911.43656159946,
+        266335.0269486193
+      ],
+      "g_magnitude": 930825.2172704348,
+      "g_equatorial_magnitude": 891908.7613241784,
+      "g_equatorial_fraction": 0.9581914464453642,
+      "g_ra_deg": 189.2853911762633,
+      "g_dec_deg": 16.62627796002979
+    },
+    "optimum_passive_axis": {
+      "description": "horizontal true north-south",
+      "local_unit_axis": "+/- N",
+      "latitude_independence": true,
+      "vertical_axis_direct_signal": 0.0,
+      "proof_expression": "cos(alpha)^2 + sin(alpha)^2 sin(phi)^2 is maximized at alpha=0 or 180 degrees for nonpolar latitude"
+    },
+    "nominal_prediction_50000_rpm": {
+      "total_free_space_force_max_N": 0.0016944555879151008,
+      "north_south_vertical_force_amplitude_N": 0.0016236128507218007,
+      "north_south_apparent_mass_amplitude_g": 0.16556243474803328,
+      "north_south_apparent_mass_peak_to_peak_g": 0.33112486949606657,
+      "amplitude_interval_g": [
+        0.16387608728518635,
+        0.16724878221088033
+      ],
+      "full_reversal_difference_amplitude_g": 0.33112486949606657,
+      "full_reversal_difference_peak_to_peak_g": 0.6622497389921331,
+      "positive_spin_apparent_mass_max_lst_h": 6.619026078417552,
+      "positive_spin_apparent_mass_min_lst_h": 18.61902607841755
+    },
+    "sidereal_sweep_quarter_hour": [
+      {
+        "local_sidereal_hour": 0.0,
+        "theta_deg": 0.0,
+        "vertical_force_up_N": 0.00026197349762586525,
+        "apparent_mass_shift_g_positive_spin": -0.02671386228996296,
+        "apparent_mass_shift_g_reversed_spin": 0.02671386228996296,
+        "full_reversal_difference_g": -0.05342772457992592
+      },
+      {
+        "local_sidereal_hour": 0.25,
+        "theta_deg": 3.75,
+        "vertical_force_up_N": 0.00015661464217030447,
+        "apparent_mass_shift_g_positive_spin": -0.01597024898107962,
+        "apparent_mass_shift_g_reversed_spin": 0.01597024898107962,
+        "full_reversal_difference_g": -0.03194049796215924
+      },
+      {
+        "local_sidereal_hour": 0.5,
+        "theta_deg": 7.5,
+        "vertical_force_up_N": 5.058513877305311e-05,
+        "apparent_mass_shift_g_positive_spin": -0.005158248614262069,
+        "apparent_mass_shift_g_reversed_spin": 0.005158248614262069,
+        "full_reversal_difference_g": -0.010316497228524138
+      },
+      {
+        "local_sidereal_hour": 0.75,
+        "theta_deg": 11.25,
+        "vertical_force_up_N": -5.566097795439624e-05,
+        "apparent_mass_shift_g_positive_spin": 0.005675840165030489,
+        "apparent_mass_shift_g_reversed_spin": -0.005675840165030489,
+        "full_reversal_difference_g": 0.011351680330060978
+      },
+      {
+        "local_sidereal_hour": 1.0,
+        "theta_deg": 15.0,
+        "vertical_force_up_N": -0.00016166874582901602,
+        "apparent_mass_shift_g_positive_spin": 0.016485624125365545,
+        "apparent_mass_shift_g_reversed_spin": -0.016485624125365545,
+        "full_reversal_difference_g": 0.03297124825073109
+      },
+      {
+        "local_sidereal_hour": 1.25,
+        "theta_deg": 18.75,
+        "vertical_force_up_N": -0.00026698422331415867,
+        "apparent_mass_shift_g_positive_spin": 0.02722481411227674,
+        "apparent_mass_shift_g_reversed_spin": -0.02722481411227674,
+        "full_reversal_difference_g": 0.05444962822455348
+      },
+      {
+        "local_sidereal_hour": 1.5,
+        "theta_deg": 22.5,
+        "vertical_force_up_N": -0.0003711564333669064,
+        "apparent_mass_shift_g_positive_spin": 0.03784742326552966,
+        "apparent_mass_shift_g_reversed_spin": -0.03784742326552966,
+        "full_reversal_difference_g": 0.07569484653105932
+      },
+      {
+        "local_sidereal_hour": 1.75,
+        "theta_deg": 26.25,
+        "vertical_force_up_N": -0.0004737392945910046,
+        "apparent_mass_shift_g_positive_spin": 0.04830796394191744,
+        "apparent_mass_shift_g_reversed_spin": -0.04830796394191744,
+        "full_reversal_difference_g": 0.09661592788383488
+      },
+      {
+        "local_sidereal_hour": 2.0,
+        "theta_deg": 30.0,
+        "vertical_force_up_N": -0.0005742935314258846,
+        "apparent_mass_shift_g_positive_spin": 0.05856164250033239,
+        "apparent_mass_shift_g_reversed_spin": -0.05856164250033239,
+        "full_reversal_difference_g": 0.11712328500066478
+      },
+      {
+        "local_sidereal_hour": 2.25,
+        "theta_deg": 33.75,
+        "vertical_force_up_N": -0.0006723885551920521,
+        "apparent_mass_shift_g_positive_spin": 0.068564551115014,
+        "apparent_mass_shift_g_reversed_spin": -0.068564551115014,
+        "full_reversal_difference_g": 0.137129102230028
+      },
+      {
+        "local_sidereal_hour": 2.5,
+        "theta_deg": 37.5,
+        "vertical_force_up_N": -0.0007676043079379183,
+        "apparent_mass_shift_g_positive_spin": 0.07827385579559976,
+        "apparent_mass_shift_g_reversed_spin": -0.07827385579559976,
+        "full_reversal_difference_g": 0.1565477115911995
+      },
+      {
+        "local_sidereal_hour": 2.75,
+        "theta_deg": 41.25,
+        "vertical_force_up_N": -0.0008595330611924367,
+        "apparent_mass_shift_g_positive_spin": 0.08764797980884775,
+        "apparent_mass_shift_g_reversed_spin": -0.08764797980884775,
+        "full_reversal_difference_g": 0.1752959596176955
+      },
+      {
+        "local_sidereal_hour": 3.0,
+        "theta_deg": 45.0,
+        "vertical_force_up_N": -0.0009477811619210132,
+        "apparent_mass_shift_g_positive_spin": 0.09664678171659163,
+        "apparent_mass_shift_g_reversed_spin": -0.09664678171659163,
+        "full_reversal_difference_g": 0.19329356343318327
+      },
+      {
+        "local_sidereal_hour": 3.25,
+        "theta_deg": 48.75,
+        "vertical_force_up_N": -0.0010319707182082328,
+        "apparent_mass_shift_g_positive_spin": 0.1052317272675412,
+        "apparent_mass_shift_g_reversed_spin": -0.1052317272675412,
+        "full_reversal_difference_g": 0.2104634545350824
+      },
+      {
+        "local_sidereal_hour": 3.5,
+        "theta_deg": 52.5,
+        "vertical_force_up_N": -0.0011117412174490577,
+        "apparent_mass_shift_g_positive_spin": 0.11336605440686247,
+        "apparent_mass_shift_g_reversed_spin": -0.11336605440686247,
+        "full_reversal_difference_g": 0.22673210881372494
+      },
+      {
+        "local_sidereal_hour": 3.75,
+        "theta_deg": 56.25,
+        "vertical_force_up_N": -0.0011867510701191485,
+        "apparent_mass_shift_g_positive_spin": 0.1210149306969402,
+        "apparent_mass_shift_g_reversed_spin": -0.1210149306969402,
+        "full_reversal_difference_g": 0.2420298613938804
+      },
+      {
+        "local_sidereal_hour": 4.0,
+        "theta_deg": 60.0,
+        "vertical_force_up_N": -0.001256679072513651,
+        "apparent_mass_shift_g_positive_spin": 0.12814560247522355,
+        "apparent_mass_shift_g_reversed_spin": -0.12814560247522355,
+        "full_reversal_difference_g": 0.2562912049504471
+      },
+      {
+        "local_sidereal_hour": 4.25,
+        "theta_deg": 63.75,
+        "vertical_force_up_N": -0.001321225782190769,
+        "apparent_mass_shift_g_positive_spin": 0.13472753511043722,
+        "apparent_mass_shift_g_reversed_spin": -0.13472753511043722,
+        "full_reversal_difference_g": 0.26945507022087445
+      },
+      {
+        "local_sidereal_hour": 4.5,
+        "theta_deg": 67.5,
+        "vertical_force_up_N": -0.0013801148002302733,
+        "apparent_mass_shift_g_positive_spin": 0.14073254375656044,
+        "apparent_mass_shift_g_reversed_spin": -0.14073254375656044,
+        "full_reversal_difference_g": 0.2814650875131209
+      },
+      {
+        "local_sidereal_hour": 4.75,
+        "theta_deg": 71.25,
+        "vertical_force_up_N": -0.0014330939548161132,
+        "apparent_mass_shift_g_positive_spin": 0.14613491404466492,
+        "apparent_mass_shift_g_reversed_spin": -0.14613491404466492,
+        "full_reversal_difference_g": 0.29226982808932983
+      },
+      {
+        "local_sidereal_hour": 5.0,
+        "theta_deg": 75.0,
+        "vertical_force_up_N": -0.0014799363810748438,
+        "apparent_mass_shift_g_positive_spin": 0.15091151219578997,
+        "apparent_mass_shift_g_reversed_spin": -0.15091151219578997,
+        "full_reversal_difference_g": 0.30182302439157993
+      },
+      {
+        "local_sidereal_hour": 5.25,
+        "theta_deg": 78.75,
+        "vertical_force_up_N": -0.0015204414925458452,
+        "apparent_mass_shift_g_positive_spin": 0.15504188408333583,
+        "apparent_mass_shift_g_reversed_spin": -0.15504188408333583,
+        "full_reversal_difference_g": 0.31008376816667166
+      },
+      {
+        "local_sidereal_hour": 5.5,
+        "theta_deg": 82.5,
+        "vertical_force_up_N": -0.001554435840123341,
+        "apparent_mass_shift_g_positive_spin": 0.15850834282077378,
+        "apparent_mass_shift_g_reversed_spin": -0.15850834282077378,
+        "full_reversal_difference_g": 0.31701668564154756
+      },
+      {
+        "local_sidereal_hour": 5.75,
+        "theta_deg": 86.25,
+        "vertical_force_up_N": -0.0015817738547920966,
+        "apparent_mass_shift_g_positive_spin": 0.16129604449960963,
+        "apparent_mass_shift_g_reversed_spin": -0.16129604449960963,
+        "full_reversal_difference_g": 0.32259208899921926
+      },
+      {
+        "local_sidereal_hour": 6.0,
+        "theta_deg": 90.0,
+        "vertical_force_up_N": -0.0016023384709762927,
+        "apparent_mass_shift_g_positive_spin": 0.16339305175327892,
+        "apparent_mass_shift_g_reversed_spin": -0.16339305175327892,
+        "full_reversal_difference_g": 0.32678610350655785
+      },
+      {
+        "local_sidereal_hour": 6.25,
+        "theta_deg": 93.75,
+        "vertical_force_up_N": -0.0016160416278322908,
+        "apparent_mass_shift_g_positive_spin": 0.16479038487478304,
+        "apparent_mass_shift_g_reversed_spin": -0.16479038487478304,
+        "full_reversal_difference_g": 0.32958076974956607
+      },
+      {
+        "local_sidereal_hour": 6.5,
+        "theta_deg": 97.5,
+        "vertical_force_up_N": -0.0016228246463386867,
+        "apparent_mass_shift_g_positive_spin": 0.16548206026917314,
+        "apparent_mass_shift_g_reversed_spin": -0.16548206026917314,
+        "full_reversal_difference_g": 0.3309641205383463
+      },
+      {
+        "local_sidereal_hour": 6.75,
+        "theta_deg": 101.25,
+        "vertical_force_up_N": -0.001622658480568888,
+        "apparent_mass_shift_g_positive_spin": 0.16546511607622258,
+        "apparent_mass_shift_g_reversed_spin": -0.16546511607622258,
+        "full_reversal_difference_g": 0.33093023215244516
+      },
+      {
+        "local_sidereal_hour": 7.0,
+        "theta_deg": 105.0,
+        "vertical_force_up_N": -0.0016155438420702316,
+        "apparent_mass_shift_g_positive_spin": 0.16473962485356689,
+        "apparent_mass_shift_g_reversed_spin": -0.16473962485356689,
+        "full_reversal_difference_g": 0.32947924970713377
+      },
+      {
+        "local_sidereal_hour": 7.25,
+        "theta_deg": 108.75,
+        "vertical_force_up_N": -0.0016015111968170276,
+        "apparent_mass_shift_g_positive_spin": 0.1633086932660009,
+        "apparent_mass_shift_g_reversed_spin": -0.1633086932660009,
+        "full_reversal_difference_g": 0.3266173865320018
+      },
+      {
+        "local_sidereal_hour": 7.5,
+        "theta_deg": 112.5,
+        "vertical_force_up_N": -0.0015806206347505811,
+        "apparent_mass_shift_g_positive_spin": 0.1611784487822632,
+        "apparent_mass_shift_g_reversed_spin": -0.1611784487822632,
+        "full_reversal_difference_g": 0.3223568975645264
+      },
+      {
+        "local_sidereal_hour": 7.75,
+        "theta_deg": 116.25,
+        "vertical_force_up_N": -0.001552961612464838,
+        "apparent_mass_shift_g_positive_spin": 0.15835801343627418,
+        "apparent_mass_shift_g_reversed_spin": -0.15835801343627418,
+        "full_reversal_difference_g": 0.31671602687254835
+      },
+      {
+        "local_sidereal_hour": 8.0,
+        "theta_deg": 120.0,
+        "vertical_force_up_N": -0.0015186525701395164,
+        "apparent_mass_shift_g_positive_spin": 0.15485946476518656,
+        "apparent_mass_shift_g_reversed_spin": -0.15485946476518656,
+        "full_reversal_difference_g": 0.3097189295303731
+      },
+      {
+        "local_sidereal_hour": 8.25,
+        "theta_deg": 123.75,
+        "vertical_force_up_N": -0.001477840424361073,
+        "apparent_mass_shift_g_positive_spin": 0.1506977840915168,
+        "apparent_mass_shift_g_reversed_spin": -0.1506977840915168,
+        "full_reversal_difference_g": 0.3013955681830336
+      },
+      {
+        "local_sidereal_hour": 8.5,
+        "theta_deg": 127.5,
+        "vertical_force_up_N": -0.0014306999390033266,
+        "apparent_mass_shift_g_positive_spin": 0.14589079237082253,
+        "apparent_mass_shift_g_reversed_spin": -0.14589079237082253,
+        "full_reversal_difference_g": 0.29178158474164506
+      },
+      {
+        "local_sidereal_hour": 8.75,
+        "theta_deg": 131.25,
+        "vertical_force_up_N": -0.0013774329768617168,
+        "apparent_mass_shift_g_positive_spin": 0.14045907387963444,
+        "apparent_mass_shift_g_reversed_spin": -0.14045907387963444,
+        "full_reversal_difference_g": 0.2809181477592689
+      },
+      {
+        "local_sidereal_hour": 9.0,
+        "theta_deg": 135.0,
+        "vertical_force_up_N": -0.0013182676352458279,
+        "apparent_mass_shift_g_positive_spin": 0.13442588807042447,
+        "apparent_mass_shift_g_reversed_spin": -0.13442588807042447,
+        "full_reversal_difference_g": 0.26885177614084893
+      },
+      {
+        "local_sidereal_hour": 9.25,
+        "theta_deg": 138.75,
+        "vertical_force_up_N": -0.0012534572692316868,
+        "apparent_mass_shift_g_positive_spin": 0.12781706997105913,
+        "apparent_mass_shift_g_reversed_spin": -0.12781706997105913,
+        "full_reversal_difference_g": 0.25563413994211825
+      },
+      {
+        "local_sidereal_hour": 9.5,
+        "theta_deg": 142.5,
+        "vertical_force_up_N": -0.0011832794067564347,
+        "apparent_mass_shift_g_positive_spin": 0.12066091955524412,
+        "apparent_mass_shift_g_reversed_spin": -0.12066091955524412,
+        "full_reversal_difference_g": 0.24132183911048824
+      },
+      {
+        "local_sidereal_hour": 9.75,
+        "theta_deg": 146.25,
+        "vertical_force_up_N": -0.0011080345602010925,
+        "apparent_mass_shift_g_positive_spin": 0.11298808055769223,
+        "apparent_mass_shift_g_reversed_spin": -0.11298808055769223,
+        "full_reversal_difference_g": 0.22597616111538446
+      },
+      {
+        "local_sidereal_hour": 10.0,
+        "theta_deg": 150.0,
+        "vertical_force_up_N": -0.0010280449395504078,
+        "apparent_mass_shift_g_positive_spin": 0.10483140925294651,
+        "apparent_mass_shift_g_reversed_spin": -0.10483140925294651,
+        "full_reversal_difference_g": 0.20966281850589302
+      },
+      {
+        "local_sidereal_hour": 10.25,
+        "theta_deg": 153.75,
+        "vertical_force_up_N": -0.0009436530726402393,
+        "apparent_mass_shift_g_positive_spin": 0.09622583375976908,
+        "apparent_mass_shift_g_reversed_spin": -0.09622583375976908,
+        "full_reversal_difference_g": 0.19245166751953816
+      },
+      {
+        "local_sidereal_hour": 10.5,
+        "theta_deg": 157.5,
+        "vertical_force_up_N": -0.0008552203384007687,
+        "apparent_mass_shift_g_positive_spin": 0.08720820447357341,
+        "apparent_mass_shift_g_reversed_spin": -0.08720820447357341,
+        "full_reversal_difference_g": 0.17441640894714683
+      },
+      {
+        "local_sidereal_hour": 10.75,
+        "theta_deg": 161.25,
+        "vertical_force_up_N": -0.0007631254193764516,
+        "apparent_mass_shift_g_positive_spin": 0.07781713626737485,
+        "apparent_mass_shift_g_reversed_spin": -0.07781713626737485,
+        "full_reversal_difference_g": 0.1556342725347497
+      },
+      {
+        "local_sidereal_hour": 11.0,
+        "theta_deg": 165.0,
+        "vertical_force_up_N": -0.0006677626801492189,
+        "apparent_mass_shift_g_positive_spin": 0.06809284313697532,
+        "apparent_mass_shift_g_reversed_spin": -0.06809284313697532,
+        "full_reversal_difference_g": 0.13618568627395064
+      },
+      {
+        "local_sidereal_hour": 11.25,
+        "theta_deg": 168.75,
+        "vertical_force_up_N": -0.0005695404786087945,
+        "apparent_mass_shift_g_positive_spin": 0.05807696599845968,
+        "apparent_mass_shift_g_reversed_spin": -0.05807696599845968,
+        "full_reversal_difference_g": 0.11615393199691935
+      },
+      {
+        "local_sidereal_hour": 11.5,
+        "theta_deg": 172.5,
+        "vertical_force_up_N": -0.000468879417301524,
+        "apparent_mass_shift_g_positive_spin": 0.04781239437540078,
+        "apparent_mass_shift_g_reversed_spin": -0.04781239437540078,
+        "full_reversal_difference_g": 0.09562478875080156
+      },
+      {
+        "local_sidereal_hour": 11.75,
+        "theta_deg": 176.25,
+        "vertical_force_up_N": -0.00036621054234568914,
+        "apparent_mass_shift_g_positive_spin": 0.037343082739333934,
+        "apparent_mass_shift_g_reversed_spin": -0.037343082739333934,
+        "full_reversal_difference_g": 0.07468616547866787
+      },
+      {
+        "local_sidereal_hour": 12.0,
+        "theta_deg": 180.0,
+        "vertical_force_up_N": -0.00026197349762586546,
+        "apparent_mass_shift_g_positive_spin": 0.026713862289962982,
+        "apparent_mass_shift_g_reversed_spin": -0.026713862289962982,
+        "full_reversal_difference_g": 0.053427724579925964
+      },
+      {
+        "local_sidereal_hour": 12.25,
+        "theta_deg": 183.75,
+        "vertical_force_up_N": -0.00015661464217030477,
+        "apparent_mass_shift_g_positive_spin": 0.01597024898107965,
+        "apparent_mass_shift_g_reversed_spin": -0.01597024898107965,
+        "full_reversal_difference_g": 0.0319404979621593
+      },
+      {
+        "local_sidereal_hour": 12.5,
+        "theta_deg": 187.5,
+        "vertical_force_up_N": -5.058513877305282e-05,
+        "apparent_mass_shift_g_positive_spin": 0.005158248614262039,
+        "apparent_mass_shift_g_reversed_spin": -0.005158248614262039,
+        "full_reversal_difference_g": 0.010316497228524077
+      },
+      {
+        "local_sidereal_hour": 12.75,
+        "theta_deg": 191.25,
+        "vertical_force_up_N": 5.566097795439566e-05,
+        "apparent_mass_shift_g_positive_spin": -0.005675840165030429,
+        "apparent_mass_shift_g_reversed_spin": 0.005675840165030429,
+        "full_reversal_difference_g": -0.011351680330060858
+      },
+      {
+        "local_sidereal_hour": 13.0,
+        "theta_deg": 195.0,
+        "vertical_force_up_N": 0.00016166874582901607,
+        "apparent_mass_shift_g_positive_spin": -0.016485624125365552,
+        "apparent_mass_shift_g_reversed_spin": 0.016485624125365552,
+        "full_reversal_difference_g": -0.032971248250731104
+      },
+      {
+        "local_sidereal_hour": 13.25,
+        "theta_deg": 198.75,
+        "vertical_force_up_N": 0.00026698422331415856,
+        "apparent_mass_shift_g_positive_spin": -0.02722481411227673,
+        "apparent_mass_shift_g_reversed_spin": 0.02722481411227673,
+        "full_reversal_difference_g": -0.05444962822455346
+      },
+      {
+        "local_sidereal_hour": 13.5,
+        "theta_deg": 202.5,
+        "vertical_force_up_N": 0.0003711564333669062,
+        "apparent_mass_shift_g_positive_spin": -0.03784742326552964,
+        "apparent_mass_shift_g_reversed_spin": 0.03784742326552964,
+        "full_reversal_difference_g": -0.07569484653105928
+      },
+      {
+        "local_sidereal_hour": 13.75,
+        "theta_deg": 206.25,
+        "vertical_force_up_N": 0.000473739294591005,
+        "apparent_mass_shift_g_positive_spin": -0.048307963941917484,
+        "apparent_mass_shift_g_reversed_spin": 0.048307963941917484,
+        "full_reversal_difference_g": -0.09661592788383497
+      },
+      {
+        "local_sidereal_hour": 14.0,
+        "theta_deg": 210.0,
+        "vertical_force_up_N": 0.0005742935314258842,
+        "apparent_mass_shift_g_positive_spin": -0.058561642500332356,
+        "apparent_mass_shift_g_reversed_spin": 0.058561642500332356,
+        "full_reversal_difference_g": -0.11712328500066471
+      },
+      {
+        "local_sidereal_hour": 14.25,
+        "theta_deg": 213.75,
+        "vertical_force_up_N": 0.0006723885551920515,
+        "apparent_mass_shift_g_positive_spin": -0.06856455111501396,
+        "apparent_mass_shift_g_reversed_spin": 0.06856455111501396,
+        "full_reversal_difference_g": -0.13712910223002792
+      },
+      {
+        "local_sidereal_hour": 14.5,
+        "theta_deg": 217.5,
+        "vertical_force_up_N": 0.0007676043079379183,
+        "apparent_mass_shift_g_positive_spin": -0.07827385579559976,
+        "apparent_mass_shift_g_reversed_spin": 0.07827385579559976,
+        "full_reversal_difference_g": -0.1565477115911995
+      },
+      {
+        "local_sidereal_hour": 14.75,
+        "theta_deg": 221.25,
+        "vertical_force_up_N": 0.0008595330611924367,
+        "apparent_mass_shift_g_positive_spin": -0.08764797980884775,
+        "apparent_mass_shift_g_reversed_spin": 0.08764797980884775,
+        "full_reversal_difference_g": -0.1752959596176955
+      },
+      {
+        "local_sidereal_hour": 15.0,
+        "theta_deg": 225.0,
+        "vertical_force_up_N": 0.0009477811619210124,
+        "apparent_mass_shift_g_positive_spin": -0.09664678171659155,
+        "apparent_mass_shift_g_reversed_spin": 0.09664678171659155,
+        "full_reversal_difference_g": -0.1932935634331831
+      },
+      {
+        "local_sidereal_hour": 15.25,
+        "theta_deg": 228.75,
+        "vertical_force_up_N": 0.0010319707182082324,
+        "apparent_mass_shift_g_positive_spin": -0.10523172726754115,
+        "apparent_mass_shift_g_reversed_spin": 0.10523172726754115,
+        "full_reversal_difference_g": -0.2104634545350823
+      },
+      {
+        "local_sidereal_hour": 15.5,
+        "theta_deg": 232.5,
+        "vertical_force_up_N": 0.0011117412174490573,
+        "apparent_mass_shift_g_positive_spin": -0.11336605440686243,
+        "apparent_mass_shift_g_reversed_spin": 0.11336605440686243,
+        "full_reversal_difference_g": -0.22673210881372485
+      },
+      {
+        "local_sidereal_hour": 15.75,
+        "theta_deg": 236.25,
+        "vertical_force_up_N": 0.001186751070119149,
+        "apparent_mass_shift_g_positive_spin": -0.12101493069694025,
+        "apparent_mass_shift_g_reversed_spin": 0.12101493069694025,
+        "full_reversal_difference_g": -0.2420298613938805
+      },
+      {
+        "local_sidereal_hour": 16.0,
+        "theta_deg": 240.0,
+        "vertical_force_up_N": 0.0012566790725136508,
+        "apparent_mass_shift_g_positive_spin": -0.12814560247522355,
+        "apparent_mass_shift_g_reversed_spin": 0.12814560247522355,
+        "full_reversal_difference_g": -0.2562912049504471
+      },
+      {
+        "local_sidereal_hour": 16.25,
+        "theta_deg": 243.75,
+        "vertical_force_up_N": 0.0013212257821907686,
+        "apparent_mass_shift_g_positive_spin": -0.13472753511043717,
+        "apparent_mass_shift_g_reversed_spin": 0.13472753511043717,
+        "full_reversal_difference_g": -0.26945507022087434
+      },
+      {
+        "local_sidereal_hour": 16.5,
+        "theta_deg": 247.5,
+        "vertical_force_up_N": 0.0013801148002302737,
+        "apparent_mass_shift_g_positive_spin": -0.14073254375656047,
+        "apparent_mass_shift_g_reversed_spin": 0.14073254375656047,
+        "full_reversal_difference_g": -0.28146508751312094
+      },
+      {
+        "local_sidereal_hour": 16.75,
+        "theta_deg": 251.25,
+        "vertical_force_up_N": 0.0014330939548161132,
+        "apparent_mass_shift_g_positive_spin": -0.14613491404466492,
+        "apparent_mass_shift_g_reversed_spin": 0.14613491404466492,
+        "full_reversal_difference_g": -0.29226982808932983
+      },
+      {
+        "local_sidereal_hour": 17.0,
+        "theta_deg": 255.0,
+        "vertical_force_up_N": 0.001479936381074844,
+        "apparent_mass_shift_g_positive_spin": -0.15091151219579,
+        "apparent_mass_shift_g_reversed_spin": 0.15091151219579,
+        "full_reversal_difference_g": -0.30182302439158
+      },
+      {
+        "local_sidereal_hour": 17.25,
+        "theta_deg": 258.75,
+        "vertical_force_up_N": 0.0015204414925458448,
+        "apparent_mass_shift_g_positive_spin": -0.15504188408333577,
+        "apparent_mass_shift_g_reversed_spin": 0.15504188408333577,
+        "full_reversal_difference_g": -0.31008376816667155
+      },
+      {
+        "local_sidereal_hour": 17.5,
+        "theta_deg": 262.5,
+        "vertical_force_up_N": 0.001554435840123341,
+        "apparent_mass_shift_g_positive_spin": -0.15850834282077378,
+        "apparent_mass_shift_g_reversed_spin": 0.15850834282077378,
+        "full_reversal_difference_g": -0.31701668564154756
+      },
+      {
+        "local_sidereal_hour": 17.75,
+        "theta_deg": 266.25,
+        "vertical_force_up_N": 0.0015817738547920968,
+        "apparent_mass_shift_g_positive_spin": -0.16129604449960963,
+        "apparent_mass_shift_g_reversed_spin": 0.16129604449960963,
+        "full_reversal_difference_g": -0.32259208899921926
+      },
+      {
+        "local_sidereal_hour": 18.0,
+        "theta_deg": 270.0,
+        "vertical_force_up_N": 0.0016023384709762927,
+        "apparent_mass_shift_g_positive_spin": -0.16339305175327892,
+        "apparent_mass_shift_g_reversed_spin": 0.16339305175327892,
+        "full_reversal_difference_g": -0.32678610350655785
+      },
+      {
+        "local_sidereal_hour": 18.25,
+        "theta_deg": 273.75,
+        "vertical_force_up_N": 0.0016160416278322906,
+        "apparent_mass_shift_g_positive_spin": -0.164790384874783,
+        "apparent_mass_shift_g_reversed_spin": 0.164790384874783,
+        "full_reversal_difference_g": -0.329580769749566
+      },
+      {
+        "local_sidereal_hour": 18.5,
+        "theta_deg": 277.5,
+        "vertical_force_up_N": 0.001622824646338687,
+        "apparent_mass_shift_g_positive_spin": -0.16548206026917317,
+        "apparent_mass_shift_g_reversed_spin": 0.16548206026917317,
+        "full_reversal_difference_g": -0.33096412053834634
+      },
+      {
+        "local_sidereal_hour": 18.75,
+        "theta_deg": 281.25,
+        "vertical_force_up_N": 0.001622658480568888,
+        "apparent_mass_shift_g_positive_spin": -0.16546511607622258,
+        "apparent_mass_shift_g_reversed_spin": 0.16546511607622258,
+        "full_reversal_difference_g": -0.33093023215244516
+      },
+      {
+        "local_sidereal_hour": 19.0,
+        "theta_deg": 285.0,
+        "vertical_force_up_N": 0.0016155438420702318,
+        "apparent_mass_shift_g_positive_spin": -0.1647396248535669,
+        "apparent_mass_shift_g_reversed_spin": 0.1647396248535669,
+        "full_reversal_difference_g": -0.3294792497071338
+      },
+      {
+        "local_sidereal_hour": 19.25,
+        "theta_deg": 288.75,
+        "vertical_force_up_N": 0.0016015111968170276,
+        "apparent_mass_shift_g_positive_spin": -0.1633086932660009,
+        "apparent_mass_shift_g_reversed_spin": 0.1633086932660009,
+        "full_reversal_difference_g": -0.3266173865320018
+      },
+      {
+        "local_sidereal_hour": 19.5,
+        "theta_deg": 292.5,
+        "vertical_force_up_N": 0.0015806206347505813,
+        "apparent_mass_shift_g_positive_spin": -0.1611784487822632,
+        "apparent_mass_shift_g_reversed_spin": 0.1611784487822632,
+        "full_reversal_difference_g": -0.3223568975645264
+      },
+      {
+        "local_sidereal_hour": 19.75,
+        "theta_deg": 296.25,
+        "vertical_force_up_N": 0.0015529616124648382,
+        "apparent_mass_shift_g_positive_spin": -0.1583580134362742,
+        "apparent_mass_shift_g_reversed_spin": 0.1583580134362742,
+        "full_reversal_difference_g": -0.3167160268725484
+      },
+      {
+        "local_sidereal_hour": 20.0,
+        "theta_deg": 300.0,
+        "vertical_force_up_N": 0.0015186525701395164,
+        "apparent_mass_shift_g_positive_spin": -0.15485946476518656,
+        "apparent_mass_shift_g_reversed_spin": 0.15485946476518656,
+        "full_reversal_difference_g": -0.3097189295303731
+      },
+      {
+        "local_sidereal_hour": 20.25,
+        "theta_deg": 303.75,
+        "vertical_force_up_N": 0.0014778404243610736,
+        "apparent_mass_shift_g_positive_spin": -0.15069778409151685,
+        "apparent_mass_shift_g_reversed_spin": 0.15069778409151685,
+        "full_reversal_difference_g": -0.3013955681830337
+      },
+      {
+        "local_sidereal_hour": 20.5,
+        "theta_deg": 307.5,
+        "vertical_force_up_N": 0.0014306999390033273,
+        "apparent_mass_shift_g_positive_spin": -0.14589079237082261,
+        "apparent_mass_shift_g_reversed_spin": 0.14589079237082261,
+        "full_reversal_difference_g": -0.29178158474164523
+      },
+      {
+        "local_sidereal_hour": 20.75,
+        "theta_deg": 311.25,
+        "vertical_force_up_N": 0.0013774329768617166,
+        "apparent_mass_shift_g_positive_spin": -0.1404590738796344,
+        "apparent_mass_shift_g_reversed_spin": 0.1404590738796344,
+        "full_reversal_difference_g": -0.2809181477592688
+      },
+      {
+        "local_sidereal_hour": 21.0,
+        "theta_deg": 315.0,
+        "vertical_force_up_N": 0.001318267635245828,
+        "apparent_mass_shift_g_positive_spin": -0.13442588807042447,
+        "apparent_mass_shift_g_reversed_spin": 0.13442588807042447,
+        "full_reversal_difference_g": -0.26885177614084893
+      },
+      {
+        "local_sidereal_hour": 21.25,
+        "theta_deg": 318.75,
+        "vertical_force_up_N": 0.0012534572692316866,
+        "apparent_mass_shift_g_positive_spin": -0.1278170699710591,
+        "apparent_mass_shift_g_reversed_spin": 0.1278170699710591,
+        "full_reversal_difference_g": -0.2556341399421182
+      },
+      {
+        "local_sidereal_hour": 21.5,
+        "theta_deg": 322.5,
+        "vertical_force_up_N": 0.0011832794067564347,
+        "apparent_mass_shift_g_positive_spin": -0.12066091955524412,
+        "apparent_mass_shift_g_reversed_spin": 0.12066091955524412,
+        "full_reversal_difference_g": -0.24132183911048824
+      },
+      {
+        "local_sidereal_hour": 21.75,
+        "theta_deg": 326.25,
+        "vertical_force_up_N": 0.001108034560201093,
+        "apparent_mass_shift_g_positive_spin": -0.11298808055769229,
+        "apparent_mass_shift_g_reversed_spin": 0.11298808055769229,
+        "full_reversal_difference_g": -0.22597616111538457
+      },
+      {
+        "local_sidereal_hour": 22.0,
+        "theta_deg": 330.0,
+        "vertical_force_up_N": 0.0010280449395504087,
+        "apparent_mass_shift_g_positive_spin": -0.1048314092529466,
+        "apparent_mass_shift_g_reversed_spin": 0.1048314092529466,
+        "full_reversal_difference_g": -0.2096628185058932
+      },
+      {
+        "local_sidereal_hour": 22.25,
+        "theta_deg": 333.75,
+        "vertical_force_up_N": 0.0009436530726402388,
+        "apparent_mass_shift_g_positive_spin": -0.09622583375976902,
+        "apparent_mass_shift_g_reversed_spin": 0.09622583375976902,
+        "full_reversal_difference_g": -0.19245166751953804
+      },
+      {
+        "local_sidereal_hour": 22.5,
+        "theta_deg": 337.5,
+        "vertical_force_up_N": 0.0008552203384007682,
+        "apparent_mass_shift_g_positive_spin": -0.08720820447357336,
+        "apparent_mass_shift_g_reversed_spin": 0.08720820447357336,
+        "full_reversal_difference_g": -0.17441640894714672
+      },
+      {
+        "local_sidereal_hour": 22.75,
+        "theta_deg": 341.25,
+        "vertical_force_up_N": 0.0007631254193764518,
+        "apparent_mass_shift_g_positive_spin": -0.07781713626737487,
+        "apparent_mass_shift_g_reversed_spin": 0.07781713626737487,
+        "full_reversal_difference_g": -0.15563427253474973
+      },
+      {
+        "local_sidereal_hour": 23.0,
+        "theta_deg": 345.0,
+        "vertical_force_up_N": 0.0006677626801492197,
+        "apparent_mass_shift_g_positive_spin": -0.06809284313697539,
+        "apparent_mass_shift_g_reversed_spin": 0.06809284313697539,
+        "full_reversal_difference_g": -0.13618568627395078
+      },
+      {
+        "local_sidereal_hour": 23.25,
+        "theta_deg": 348.75,
+        "vertical_force_up_N": 0.0005695404786087955,
+        "apparent_mass_shift_g_positive_spin": -0.058076965998459774,
+        "apparent_mass_shift_g_reversed_spin": 0.058076965998459774,
+        "full_reversal_difference_g": -0.11615393199691955
+      },
+      {
+        "local_sidereal_hour": 23.5,
+        "theta_deg": 352.5,
+        "vertical_force_up_N": 0.0004688794173015235,
+        "apparent_mass_shift_g_positive_spin": -0.047812394375400726,
+        "apparent_mass_shift_g_reversed_spin": 0.047812394375400726,
+        "full_reversal_difference_g": -0.09562478875080145
+      },
+      {
+        "local_sidereal_hour": 23.75,
+        "theta_deg": 356.25,
+        "vertical_force_up_N": 0.00036621054234568866,
+        "apparent_mass_shift_g_positive_spin": -0.03734308273933389,
+        "apparent_mass_shift_g_reversed_spin": 0.03734308273933389,
+        "full_reversal_difference_g": -0.07468616547866778
+      },
+      {
+        "local_sidereal_hour": 24.0,
+        "theta_deg": 360.0,
+        "vertical_force_up_N": 0.0002619734976258656,
+        "apparent_mass_shift_g_positive_spin": -0.026713862289962996,
+        "apparent_mass_shift_g_reversed_spin": 0.026713862289962996,
+        "full_reversal_difference_g": -0.05342772457992599
+      }
+    ],
+    "orientation_samples": [
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 1.4843666785909515e-20,
+        "dc_apparent_mass_shift_g": -1.5136327681633906e-18
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.099211488398028e-20,
+        "dc_apparent_mass_shift_g": -2.140599989188997e-18
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.5709985043817893e-20,
+        "dc_apparent_mass_shift_g": -2.6216888584601155e-18
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.968733357181903e-20,
+        "dc_apparent_mass_shift_g": -3.027265536326781e-18
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.0016236128507218005,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.5709985043817896e-20,
+        "dc_apparent_mass_shift_g": -2.621688858460116e-18
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.0992114883980285e-20,
+        "dc_apparent_mass_shift_g": -2.140599989188998e-18
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 1.4843666785909515e-20,
+        "dc_apparent_mass_shift_g": -1.5136327681633906e-18
+      },
+      {
+        "latitude_deg": -90,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 3.635649803394793e-36,
+        "dc_apparent_mass_shift_g": -3.707331049231688e-34
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0015720563828834709,
+        "harmonic_apparent_mass_amplitude_g": 0.1603051381341713,
+        "dc_vertical_force_N": 0.00012120773757988226,
+        "dc_apparent_mass_shift_g": -0.012359749514858007
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002854,
+        "dc_apparent_mass_shift_g": -0.017479325391446473
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.001463504846194928,
+        "harmonic_apparent_mass_amplitude_g": 0.14923596194367372,
+        "dc_vertical_force_N": 0.00020993795975883165,
+        "dc_apparent_mass_shift_g": -0.021407714128558852
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.0014060899746359508,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420032,
+        "dc_vertical_force_N": 0.00024241547515976454,
+        "dc_apparent_mass_shift_g": -0.024719499029716013
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.0014635048461949277,
+        "harmonic_apparent_mass_amplitude_g": 0.1492359619436737,
+        "dc_vertical_force_N": 0.00020993795975883167,
+        "dc_apparent_mass_shift_g": -0.021407714128558852
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002857,
+        "dc_apparent_mass_shift_g": -0.017479325391446476
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0015720563828834709,
+        "harmonic_apparent_mass_amplitude_g": 0.1603051381341713,
+        "dc_vertical_force_N": 0.00012120773757988226,
+        "dc_apparent_mass_shift_g": -0.012359749514858007
+      },
+      {
+        "latitude_deg": -60,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.9687333571819035e-20,
+        "dc_apparent_mass_shift_g": -3.027265536326782e-18
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002854,
+        "dc_apparent_mass_shift_g": -0.017479325391446473
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.0014060899746359508,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420032,
+        "dc_vertical_force_N": 0.00024241547515976446,
+        "dc_apparent_mass_shift_g": -0.024719499029716006
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.001283578661649962,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169768,
+        "dc_vertical_force_N": 0.0002968971099478767,
+        "dc_apparent_mass_shift_g": -0.030275079660014047
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.001148067656767007,
+        "harmonic_apparent_mass_amplitude_g": 0.11707032032008963,
+        "dc_vertical_force_N": 0.0003428272527000571,
+        "dc_apparent_mass_shift_g": -0.034958650782892946
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.0012835786616499617,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169763,
+        "dc_vertical_force_N": 0.00029689710994787677,
+        "dc_apparent_mass_shift_g": -0.03027507966001405
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0014060899746359508,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420032,
+        "dc_vertical_force_N": 0.0002424154751597645,
+        "dc_apparent_mass_shift_g": -0.024719499029716013
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002854,
+        "dc_apparent_mass_shift_g": -0.017479325391446473
+      },
+      {
+        "latitude_deg": -45,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 4.1984229767960564e-20,
+        "dc_apparent_mass_shift_g": -4.281199978377995e-18
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0014635048461949282,
+        "harmonic_apparent_mass_amplitude_g": 0.14923596194367375,
+        "dc_vertical_force_N": 0.00020993795975883157,
+        "dc_apparent_mass_shift_g": -0.021407714128558842
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.001283578661649962,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169768,
+        "dc_vertical_force_N": 0.0002968971099478767,
+        "dc_apparent_mass_shift_g": -0.030275079660014047
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.0010739189571146305,
+        "harmonic_apparent_mass_amplitude_g": 0.10950925719941372,
+        "dc_vertical_force_N": 0.0003636232127396467,
+        "dc_apparent_mass_shift_g": -0.037079248544574006
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.0008118064253609002,
+        "harmonic_apparent_mass_amplitude_g": 0.08278121737401664,
+        "dc_vertical_force_N": 0.0004198759195176632,
+        "dc_apparent_mass_shift_g": -0.04281542825711769
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.00107391895711463,
+        "harmonic_apparent_mass_amplitude_g": 0.10950925719941368,
+        "dc_vertical_force_N": 0.00036362321273964674,
+        "dc_apparent_mass_shift_g": -0.03707924854457401
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0012835786616499619,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169765,
+        "dc_vertical_force_N": 0.0002968971099478767,
+        "dc_apparent_mass_shift_g": -0.030275079660014047
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0014635048461949282,
+        "harmonic_apparent_mass_amplitude_g": 0.14923596194367375,
+        "dc_vertical_force_N": 0.00020993795975883157,
+        "dc_apparent_mass_shift_g": -0.021407714128558842
+      },
+      {
+        "latitude_deg": -30,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 5.141997008763579e-20,
+        "dc_apparent_mass_shift_g": -5.243377716920232e-18
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.001406089974635951,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420034,
+        "dc_vertical_force_N": 0.00024241547515976446,
+        "dc_apparent_mass_shift_g": -0.024719499029716006
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.0011480676567670071,
+        "harmonic_apparent_mass_amplitude_g": 0.11707032032008965,
+        "dc_vertical_force_N": 0.000342827252700057,
+        "dc_apparent_mass_shift_g": -0.03495865078289293
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.0008118064253609006,
+        "harmonic_apparent_mass_amplitude_g": 0.08278121737401667,
+        "dc_vertical_force_N": 0.00041987591951766313,
+        "dc_apparent_mass_shift_g": -0.042815428257117684
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 9.941761403454813e-20,
+        "harmonic_apparent_mass_amplitude_g": 1.0137775288661075e-17,
+        "dc_vertical_force_N": 0.00048483095031952897,
+        "dc_apparent_mass_shift_g": -0.04943899805943202
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.0008118064253609,
+        "harmonic_apparent_mass_amplitude_g": 0.08278121737401661,
+        "dc_vertical_force_N": 0.0004198759195176632,
+        "dc_apparent_mass_shift_g": -0.04281542825711769
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.001148067656767007,
+        "harmonic_apparent_mass_amplitude_g": 0.11707032032008963,
+        "dc_vertical_force_N": 0.0003428272527000571,
+        "dc_apparent_mass_shift_g": -0.034958650782892946
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.001406089974635951,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420034,
+        "dc_vertical_force_N": 0.00024241547515976446,
+        "dc_apparent_mass_shift_g": -0.024719499029716006
+      },
+      {
+        "latitude_deg": 0,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 5.937466714363806e-20,
+        "dc_apparent_mass_shift_g": -6.054531072653562e-18
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0014635048461949282,
+        "harmonic_apparent_mass_amplitude_g": 0.14923596194367375,
+        "dc_vertical_force_N": 0.00020993795975883157,
+        "dc_apparent_mass_shift_g": -0.021407714128558842
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.001283578661649962,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169768,
+        "dc_vertical_force_N": 0.0002968971099478767,
+        "dc_apparent_mass_shift_g": -0.030275079660014047
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.0010739189571146305,
+        "harmonic_apparent_mass_amplitude_g": 0.10950925719941372,
+        "dc_vertical_force_N": 0.0003636232127396467,
+        "dc_apparent_mass_shift_g": -0.037079248544574006
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.0008118064253609002,
+        "harmonic_apparent_mass_amplitude_g": 0.08278121737401664,
+        "dc_vertical_force_N": 0.0004198759195176632,
+        "dc_apparent_mass_shift_g": -0.04281542825711769
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.00107391895711463,
+        "harmonic_apparent_mass_amplitude_g": 0.10950925719941368,
+        "dc_vertical_force_N": 0.00036362321273964674,
+        "dc_apparent_mass_shift_g": -0.03707924854457401
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0012835786616499619,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169765,
+        "dc_vertical_force_N": 0.0002968971099478767,
+        "dc_apparent_mass_shift_g": -0.030275079660014047
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0014635048461949282,
+        "harmonic_apparent_mass_amplitude_g": 0.14923596194367375,
+        "dc_vertical_force_N": 0.00020993795975883157,
+        "dc_apparent_mass_shift_g": -0.021407714128558842
+      },
+      {
+        "latitude_deg": 30,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 5.141997008763579e-20,
+        "dc_apparent_mass_shift_g": -5.243377716920232e-18
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002854,
+        "dc_apparent_mass_shift_g": -0.017479325391446473
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.0014060899746359508,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420032,
+        "dc_vertical_force_N": 0.00024241547515976446,
+        "dc_apparent_mass_shift_g": -0.024719499029716006
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.001283578661649962,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169768,
+        "dc_vertical_force_N": 0.0002968971099478767,
+        "dc_apparent_mass_shift_g": -0.030275079660014047
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.001148067656767007,
+        "harmonic_apparent_mass_amplitude_g": 0.11707032032008963,
+        "dc_vertical_force_N": 0.0003428272527000571,
+        "dc_apparent_mass_shift_g": -0.034958650782892946
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.0012835786616499617,
+        "harmonic_apparent_mass_amplitude_g": 0.13088859719169763,
+        "dc_vertical_force_N": 0.00029689710994787677,
+        "dc_apparent_mass_shift_g": -0.03027507966001405
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0014060899746359508,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420032,
+        "dc_vertical_force_N": 0.0002424154751597645,
+        "dc_apparent_mass_shift_g": -0.024719499029716013
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002854,
+        "dc_apparent_mass_shift_g": -0.017479325391446473
+      },
+      {
+        "latitude_deg": 45,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 4.1984229767960564e-20,
+        "dc_apparent_mass_shift_g": -4.281199978377995e-18
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0015720563828834709,
+        "harmonic_apparent_mass_amplitude_g": 0.1603051381341713,
+        "dc_vertical_force_N": 0.00012120773757988226,
+        "dc_apparent_mass_shift_g": -0.012359749514858007
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002854,
+        "dc_apparent_mass_shift_g": -0.017479325391446473
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.001463504846194928,
+        "harmonic_apparent_mass_amplitude_g": 0.14923596194367372,
+        "dc_vertical_force_N": 0.00020993795975883165,
+        "dc_apparent_mass_shift_g": -0.021407714128558852
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.0014060899746359508,
+        "harmonic_apparent_mass_amplitude_g": 0.14338127440420032,
+        "dc_vertical_force_N": 0.00024241547515976454,
+        "dc_apparent_mass_shift_g": -0.024719499029716013
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.0014635048461949277,
+        "harmonic_apparent_mass_amplitude_g": 0.1492359619436737,
+        "dc_vertical_force_N": 0.00020993795975883167,
+        "dc_apparent_mass_shift_g": -0.021407714128558852
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0015187507540410806,
+        "harmonic_apparent_mass_amplitude_g": 0.1548694767368144,
+        "dc_vertical_force_N": 0.00017141362635002857,
+        "dc_apparent_mass_shift_g": -0.017479325391446476
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0015720563828834709,
+        "harmonic_apparent_mass_amplitude_g": 0.1603051381341713,
+        "dc_vertical_force_N": 0.00012120773757988226,
+        "dc_apparent_mass_shift_g": -0.012359749514858007
+      },
+      {
+        "latitude_deg": 60,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.9687333571819035e-20,
+        "dc_apparent_mass_shift_g": -3.027265536326782e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 0,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 0.0,
+        "dc_apparent_mass_shift_g": -0.0
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 30,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 1.4843666785909515e-20,
+        "dc_apparent_mass_shift_g": -1.5136327681633906e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 45,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.099211488398028e-20,
+        "dc_apparent_mass_shift_g": -2.140599989188997e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 60,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.5709985043817893e-20,
+        "dc_apparent_mass_shift_g": -2.6216888584601155e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 90,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.968733357181903e-20,
+        "dc_apparent_mass_shift_g": -3.027265536326781e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 120,
+        "harmonic_force_amplitude_N": 0.0016236128507218005,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.5709985043817896e-20,
+        "dc_apparent_mass_shift_g": -2.621688858460116e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 135,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 2.0992114883980285e-20,
+        "dc_apparent_mass_shift_g": -2.140599989188998e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 150,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 1.4843666785909515e-20,
+        "dc_apparent_mass_shift_g": -1.5136327681633906e-18
+      },
+      {
+        "latitude_deg": 90,
+        "azimuth_east_of_north_deg": 180,
+        "harmonic_force_amplitude_N": 0.0016236128507218007,
+        "harmonic_apparent_mass_amplitude_g": 0.16556243474803328,
+        "dc_vertical_force_N": 3.635649803394793e-36,
+        "dc_apparent_mass_shift_g": -3.707331049231688e-34
+      }
+    ],
+    "multi_rotor_same_sign_scaling": [
+      {
+        "count": 1,
+        "amplitude_g": 0.16556243474803328,
+        "peak_to_peak_g": 0.33112486949606657
+      },
+      {
+        "count": 2,
+        "amplitude_g": 0.33112486949606657,
+        "peak_to_peak_g": 0.6622497389921331
+      },
+      {
+        "count": 4,
+        "amplitude_g": 0.6622497389921331,
+        "peak_to_peak_g": 1.3244994779842663
+      },
+      {
+        "count": 8,
+        "amplitude_g": 1.3244994779842663,
+        "peak_to_peak_g": 2.6489989559685325
+      },
+      {
+        "count": 16,
+        "amplitude_g": 2.6489989559685325,
+        "peak_to_peak_g": 5.297997911937065
+      }
+    ]
+  },
+  "figures": [
+    {
+      "name": "00_title_mosaic.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/00_title_mosaic.png"
+    },
+    {
+      "name": "01_cell3_all_nodes.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/01_cell3_all_nodes.png"
+    },
+    {
+      "name": "02_face_planes.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/02_face_planes.png"
+    },
+    {
+      "name": "03_earth_fixed_basis_rotation.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/03_earth_fixed_basis_rotation.png"
+    },
+    {
+      "name": "04_local_projection_geometry.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/04_local_projection_geometry.png"
+    },
+    {
+      "name": "05_daily_weight_waveform.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/05_daily_weight_waveform.png"
+    },
+    {
+      "name": "06_spin_odd_differential.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/06_spin_odd_differential.png"
+    },
+    {
+      "name": "07_axis_azimuth_latitude_sensitivity.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/07_axis_azimuth_latitude_sensitivity.png"
+    },
+    {
+      "name": "08_weight_amplitude_vs_rpm.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/08_weight_amplitude_vs_rpm.png"
+    },
+    {
+      "name": "09_coupling_interval_envelope.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/09_coupling_interval_envelope.png"
+    },
+    {
+      "name": "10_multirotor_scaling.png",
+      "path": "/mnt/data/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553_assets/10_multirotor_scaling.png"
+    }
+  ],
+  "output_pdf": {
+    "filename": "K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf",
+    "sha256": "bf7ce5ff61e2266cb0d5c7b9f7fcedec632ca8bd9ed086caf4610ce5f74c9007",
+    "size_bytes": 2417326,
+    "page_count": 35,
+    "generation": "Python ReportLab; built-in core fonts only",
+    "page_size": "US Letter",
+    "margins_in": 0.68,
+    "table_width_policy": "normalized to available width",
+    "table_cell_policy": "all text cells are ReportLab Paragraph objects",
+    "long_table_repeat_rows": 1
+  },
+  "validation_checks": {
+    "source_g_recomputed_norm_error": 0.0,
+    "force_reconstruction_error_N": 2.168404344971009e-19,
+    "north_south_amplitude_ratio_error": 1.1102230246251565e-16,
+    "waveform_positive_negative_antisymmetry_max_error_g": 0.0,
+    "cell_basis_lengths_recomputed": [
+      0.02079705878243295,
+      0.03649420513072719,
+      0.04930856589985942
+    ],
+    "all_27_nodes_present": true,
+    "waveform_mean_g_excluding_duplicate_endpoint": 1.3733227518149722e-18,
+    "sidereal_sweep_endpoint_closure_error_g": 3.469446951953614e-17
+  }
+}

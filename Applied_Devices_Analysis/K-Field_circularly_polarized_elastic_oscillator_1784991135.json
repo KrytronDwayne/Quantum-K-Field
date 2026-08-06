@@ -1,0 +1,2379 @@
+{
+  "schema": "kfield.circularly_polarized_elastic_oscillator.v1",
+  "epoch": 1784991135,
+  "generated_utc": "2026-07-25T14:52:15Z",
+  "title": "K-Field Circularly Polarized Elastic Oscillator",
+  "subtitle": "A no-rotor bridge from tubular mass rotation to coherent mechanical chirality, balanced elastic modes, Fourier phase arrays, and high-frequency resonator architectures",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "credentials": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx, LLC"
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "document_contract": {
+    "document_class": "archival foundational education reference",
+    "pdf_generation": "Python ReportLab with built-in core fonts only",
+    "table_contract": "dynamic page-width colWidths; every text cell wrapped in Paragraph; repeatRows=1",
+    "coordinate_frame": "ICRS Cartesian",
+    "physical_units": "SI; Cell3 basis in nanometres"
+  },
+  "source_files": [
+    {
+      "path": "/mnt/data/K-Field_single_cell3_lateral_force_reduction_1784985105(1).json",
+      "filename": "K-Field_single_cell3_lateral_force_reduction_1784985105(1).json",
+      "schema": "K-Field.single_cell3_lateral_force_reduction.corrected.v2",
+      "epoch": 1784985105,
+      "sha256": "62e4472aacc7df503cc4b5120d7abce97589891e8d22843177ee547e35b71a6f",
+      "role": "audited Cell3 and rotating-tube force reduction"
+    },
+    {
+      "path": "/mnt/data/K-Field_fourier_geomery_hidden_architecture_1784910918(1).json",
+      "filename": "K-Field_fourier_geomery_hidden_architecture_1784910918(1).json",
+      "schema": "kfield.fourier_geometry_hidden_architecture.v1",
+      "epoch": 1784910918,
+      "sha256": "1e55b6ddff6ca08a51cf31ea8663e9ff383fd1c648695d0cb6802a8dce38b3d3",
+      "role": "Fourier geometry, projective modes, phase metric, and scale algebra"
+    }
+  ],
+  "status_conventions": {
+    "source_exact_identity": "carried directly from supplied source records",
+    "derived_identity": "algebraic consequence of source identities",
+    "engineering_continuation": "explicit added normalization, participation, material, or coherence model",
+    "established_transduction_method": "conventional actuator or measurement technology",
+    "unresolved_physical_transfer": "captured in H(rho,omega,k,material,temperature,boundary)"
+  },
+  "cell3": {
+    "basis_B_nm": [
+      [
+        0.327501242069651,
+        0.035330775844051,
+        -0.010129317626665
+      ],
+      [
+        -0.054897007886313,
+        0.207319850441498,
+        -0.389787702363804
+      ],
+      [
+        -0.037487502896305,
+        -0.547401085391957,
+        -0.689734408362922
+      ]
+    ],
+    "direct_metric_M_nm2": [
+      [
+        0.11167605790543453,
+        0.020710333281606465,
+        0.04393723509778903
+      ],
+      [
+        0.020710333281606465,
+        0.3438777323971203,
+        0.2963927589615229
+      ],
+      [
+        0.04393723509778903,
+        0.2963927589615229,
+        0.6277706100693854
+      ]
+    ],
+    "reciprocal_metric_R_per_nm2": [
+      [
+        9.208025528683773,
+        0.00153480242811831,
+        -0.6451880356768953
+      ],
+      [
+        0.0015348024281183128,
+        4.903398312306197,
+        -2.3151755844163877
+      ],
+      [
+        -0.6451880356768953,
+        -2.3151755844163877,
+        2.7311712747461088
+      ]
+    ],
+    "address_coupling_W_nm2": [
+      [
+        0.08335330263345708,
+        0.13750057660358808,
+        0.10255921122195821
+      ],
+      [
+        0.1375005766035881,
+        0.6924000428485476,
+        0.5508009044534695
+      ],
+      [
+        0.10255921122195823,
+        0.5508009044534695,
+        0.5877476523533913
+      ]
+    ],
+    "physical_response_G_phase": [
+      [
+        2.9764106378,
+        1.2431507795,
+        -2.0803600354
+      ],
+      [
+        1.2431507795,
+        2.5922286635,
+        -2.3178839937
+      ],
+      [
+        -2.0803600354,
+        -2.3178839937,
+        6.7735709133
+      ]
+    ],
+    "identity": "G_phase = 4 B^(-T) W B^(-1)",
+    "node_rule": "p_L = B L / 2",
+    "primitive_translation_rule": "x_L = B L",
+    "edge_lengths_nm": [
+      0.3341796790731515,
+      0.5864108904148355,
+      0.7923197650376932
+    ],
+    "included_angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.4481300183379,
+      "bc": 50.36323181375619
+    },
+    "cell_volume_nm3": 0.11791489191669897,
+    "face_areas_nm2": {
+      "ab": 0.19486916546989957,
+      "ac": 0.2611062357995309,
+      "bc": 0.3578095391285615
+    },
+    "plane_families": [
+      {
+        "channel": "a",
+        "face_family": "bc",
+        "unit_normal_icrs": [
+          -0.9959651903089611,
+          0.08360216250737744,
+          -0.032619290564400015
+        ],
+        "primitive_boundary_spacing_nm": 0.32954652970929305,
+        "adjacent_halfstep_spacing_nm": 0.16477326485464652,
+        "face_area_nm2": 0.3578095391285615,
+        "source_face_spacing_nm": 0.3295465297092931,
+        "source_normal_error": 1.1527756336890508e-16,
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              1,
+              1
+            ]
+          ],
+          "0": [
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "1": [
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "channel": "b",
+        "face_family": "ac",
+        "unit_normal_icrs": [
+          0.08905259410160497,
+          0.8665767692910323,
+          -0.49103394832627567
+        ],
+        "primitive_boundary_spacing_nm": 0.4515973797241299,
+        "adjacent_halfstep_spacing_nm": 0.22579868986206494,
+        "face_area_nm2": 0.2611062357995309,
+        "source_face_spacing_nm": 0.45159737972412994,
+        "source_normal_error": 2.0062885096040707e-16,
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              -1,
+              1
+            ]
+          ],
+          "0": [
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "1": [
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              -1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "channel": "c",
+        "face_family": "ab",
+        "unit_normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212287,
+          0.3583792347908047
+        ],
+        "primitive_boundary_spacing_nm": 0.605097741514743,
+        "adjacent_halfstep_spacing_nm": 0.3025488707573715,
+        "face_area_nm2": 0.19486916546989957,
+        "source_face_spacing_nm": 0.605097741514743,
+        "source_normal_error": 2.7755575615628914e-17,
+        "plane_node_addresses": {
+          "-1": [
+            [
+              -1,
+              -1,
+              -1
+            ],
+            [
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              0,
+              -1,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1
+            ],
+            [
+              1,
+              0,
+              -1
+            ],
+            [
+              1,
+              1,
+              -1
+            ]
+          ],
+          "0": [
+            [
+              -1,
+              -1,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "1": [
+            [
+              -1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              -1,
+              1,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "centered_nodes": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "lambda": -3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.17635135014351846,
+          0.1186824299043095,
+          0.637311498325592
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.18141600895685098,
+          -0.0762114212775925,
+          0.292444294144131
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.15868596222149298,
+          0.2223423551250585,
+          0.3636109556296135
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.012600729108692999,
+          0.091233925961153,
+          0.6185677468774395
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1864806677701835,
+          -0.2711052724594945,
+          -0.05242291003733002
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.1637506210348255,
+          0.0274485039431565,
+          0.0187437514481525
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1410205742994675,
+          0.32600228034580747,
+          0.089910412933635
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.0176653879220255,
+          -0.103659925220749,
+          0.2737005426959785
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.0050646588133325,
+          0.194893851181902,
+          0.344867204181461
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1511498919261325,
+          0.0637854220179965,
+          0.599823995429287
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.168815279848158,
+          -0.1674453472387455,
+          -0.3261234527333085
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1460852331128,
+          0.1311084291639055,
+          -0.254956791247826
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.022730046735358,
+          -0.298553776402651,
+          -0.07116666148548251
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "body center",
+        "position_nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.022730046735358,
+          0.298553776402651,
+          0.07116666148548251
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1460852331128,
+          -0.1311084291639055,
+          0.254956791247826
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.168815279848158,
+          0.1674453472387455,
+          0.3261234527333085
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1511498919261325,
+          -0.0637854220179965,
+          -0.599823995429287
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.0050646588133325,
+          -0.194893851181902,
+          -0.344867204181461
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.0176653879220255,
+          0.103659925220749,
+          -0.2737005426959785
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1410205742994675,
+          -0.32600228034580747,
+          -0.089910412933635
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.1637506210348255,
+          -0.0274485039431565,
+          -0.0187437514481525
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1864806677701835,
+          0.2711052724594945,
+          0.05242291003733002
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.012600729108692999,
+          -0.091233925961153,
+          -0.6185677468774395
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.15868596222149298,
+          -0.2223423551250585,
+          -0.3636109556296135
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.18141600895685098,
+          0.0762114212775925,
+          -0.292444294144131
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "lambda": 3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.17635135014351846,
+          -0.1186824299043095,
+          -0.637311498325592
+        ]
+      }
+    ]
+  },
+  "source_tube": {
+    "material_density_kg_m3": 8000.0,
+    "outer_radius_m": 0.005,
+    "inner_radius_m": 0.004,
+    "wall_thickness_m": 0.001,
+    "length_m": 0.1,
+    "metal_cross_section_m2": 2.8274333882308144e-05,
+    "volume_m3": 2.8274333882308146e-06,
+    "mass_kg": 0.022619467105846516,
+    "axial_moment_of_inertia_kg_m2": 4.636990756698536e-07,
+    "inertia_equivalent_radius_m": 0.004527692569068709,
+    "spin_rpm": 50000.0,
+    "spin_hz": 833.3333333333334,
+    "omega_rad_s": 5235.987755982988,
+    "period_s": 0.0012,
+    "spin_energy_J": 6.356286719461464,
+    "spin_angular_momentum_kg_m2_s": 0.002427922682667983
+  },
+  "field": {
+    "V_E_icrs_m_s": [
+      -359003.19906581304,
+      76679.88603400199,
+      -44701.060100687995
+    ],
+    "V_E_speed_m_s": 369812.50200040644,
+    "V_E_ra_dec_deg": [
+      167.9432998798498,
+      -6.942599922102954
+    ],
+    "G_phase_V_E_m_s": [
+      -880221.9816350914,
+      -143911.43656159946,
+      266335.0269486193
+    ],
+    "G_phase_V_E_norm_m_s": 930825.2172704348,
+    "G_phase_V_E_ra_dec_deg": [
+      189.2853911762633,
+      16.62627796002979
+    ],
+    "kappa_F": 3.0740508997020345e-11,
+    "optimal_spin_axis_icrs": [
+      -0.31586503640732017,
+      0.6461626830235878,
+      -0.6947683540887285
+    ],
+    "optimal_spin_axis_ra_dec_deg": [
+      116.05086737662391,
+      -44.00876089867738
+    ],
+    "lateral_direction_icrs": [
+      0.07746958542151527,
+      0.7473758633624181,
+      0.6598695190701709
+    ],
+    "lateral_direction_ra_dec_deg": [
+      84.08211431391791,
+      41.2899223342786
+    ]
+  },
+  "source_results": {
+    "mean_acceleration_vector_m_s2": [
+      0.005803353867564077,
+      0.055986960347973604,
+      0.04943173898178608
+    ],
+    "mean_acceleration_magnitude_m_s2": 0.07491138407399218,
+    "force_vector_N": [
+      0.0001312687719109528,
+      0.0012663952079473221,
+      0.0011181195938833011
+    ],
+    "force_magnitude_N": 0.0016944555879151006,
+    "cycle_velocity_increment_vector_m_s": [
+      6.964024641076892e-06,
+      6.718435241756831e-05,
+      5.931808677814329e-05
+    ],
+    "cycle_velocity_increment_magnitude_m_s": 8.98936608887906e-05,
+    "numerical_cycle_endpoint_m_s": [
+      6.964024641076915e-06,
+      6.71843524175685e-05,
+      5.931808677814333e-05
+    ]
+  },
+  "exact_source_reduction": {
+    "halfstep_position": "x=(1/2)Bq",
+    "halfstep_velocity": "qdot=2B^(-1)v",
+    "mixed_scalar": "v_R^T G_phase V_E=qdot_R^T W qdot_E",
+    "mixed_energy_per_mass": "epsilon_cross=kappa_F qdot_R^T W qdot_E",
+    "coordinate_differential_acceleration": "a=-(kappa_F/rho)u(qdot_R^T W qdot_E)",
+    "coordinate_differential_impulse": "d v=-(kappa_F/rho)u[(Wqdot_E)^T d q_R]",
+    "cycle_impulse": "Delta v_rev=pi kappa_F n x (G_phase V_E)",
+    "localization_boundary": "Localizing the impulse exclusively at nodes or plane crossings requires an additional physical composition/localization rule."
+  },
+  "central_bridge": {
+    "physical_differential_kernel": "d v_K = -(kappa_F/rho) u (g dot d r)",
+    "circular_trajectory": "r(t)=rho[e1 cos(omega t)+sigma e2 sin(omega t)]",
+    "cycle_increment": "Delta v_K = pi kappa_F sigma n x g",
+    "mean_acceleration": "<a_K> = pi kappa_F f sigma n x g",
+    "maximum_acceleration_per_hz_m_s2_per_hz": 8.989366088879062e-05,
+    "minimum_sufficient_geometry": "two independent displacement modes with nonzero oriented loop area",
+    "one_axis_result": "zero first-order cycle mean for a retraced path unless a second coupling state is introduced"
+  },
+  "polarization": {
+    "elliptical_trajectory": "r=A e1 cos(omega t)+B e2 cos(omega t-phi)",
+    "C_pol": "2 A B sin(phi)/(A^2+B^2)",
+    "normalized_continuation": "<a> ~= pi kappa_F f C_pol n x g",
+    "status": "engineering continuation; exact at C_pol = +/-1"
+  },
+  "balanced_architectures": {
+    "antipodal_pair": {
+      "relations": [
+        "r2=-r1",
+        "v2=-v1"
+      ],
+      "ordinary_result": "first-harmonic inertial force cancels",
+      "kfield_result": "instantaneous K-field terms add"
+    },
+    "three_phase": {
+      "carrier_phases_deg": [
+        0,
+        120,
+        240
+      ],
+      "ordinary_first_harmonic": "cancels",
+      "kfield_2f_ripple": "cancels",
+      "dc_mean": "adds"
+    },
+    "triangular_torque_balance": {
+      "positions_deg": [
+        0,
+        120,
+        240
+      ],
+      "phase_rule": "phi_j=2 theta_j",
+      "result": "resultant and first spatial moment cancel"
+    }
+  },
+  "fourier_array": {
+    "affine_space": "AG(3,3)",
+    "projective_space": "PG(2,3)",
+    "character": "psi_h(u)=exp(2*pi*i*h dot u/3)",
+    "phase_populations": [
+      9,
+      9,
+      9
+    ],
+    "moment_theorem": "sum P_d(u) psi_h(u)=0 for total degree d < support(h)",
+    "modes": [
+      {
+        "code": "001",
+        "h": [
+          0,
+          0,
+          1
+        ],
+        "class": "axial",
+        "q_mod_3": 1,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 1.0,
+        "support": 1
+      },
+      {
+        "code": "011",
+        "h": [
+          0,
+          1,
+          1
+        ],
+        "class": "face diagonal",
+        "q_mod_3": 2,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 1.0487966322545481,
+        "support": 2
+      },
+      {
+        "code": "010",
+        "h": [
+          0,
+          1,
+          0
+        ],
+        "class": "axial",
+        "q_mod_3": 1,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 1.339905341976038,
+        "support": 1
+      },
+      {
+        "code": "100",
+        "h": [
+          1,
+          0,
+          0
+        ],
+        "class": "axial",
+        "q_mod_3": 1,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 1.8361526733372833,
+        "support": 1
+      },
+      {
+        "code": "101",
+        "h": [
+          1,
+          0,
+          1
+        ],
+        "class": "face diagonal",
+        "q_mod_3": 2,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 1.9745870749986227,
+        "support": 2
+      },
+      {
+        "code": "111",
+        "h": [
+          1,
+          1,
+          1
+        ],
+        "class": "body diagonal",
+        "q_mod_3": 0,
+        "self_incident": true,
+        "reciprocal_gradient_radius": 2.0000231018067267,
+        "support": 3
+      },
+      {
+        "code": "01-1",
+        "h": [
+          0,
+          1,
+          -1
+        ],
+        "class": "face diagonal",
+        "q_mod_3": 2,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 2.1191314907488317,
+        "support": 2
+      },
+      {
+        "code": "10-1",
+        "h": [
+          1,
+          0,
+          -1
+        ],
+        "class": "face diagonal",
+        "q_mod_3": 2,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 2.2008905385901607,
+        "support": 2
+      },
+      {
+        "code": "1-1-1",
+        "h": [
+          1,
+          -1,
+          -1
+        ],
+        "class": "body diagonal",
+        "q_mod_3": 0,
+        "self_incident": true,
+        "reciprocal_gradient_radius": 2.22323404604726,
+        "support": 3
+      },
+      {
+        "code": "1-10",
+        "h": [
+          1,
+          -1,
+          0
+        ],
+        "class": "face diagonal",
+        "q_mod_3": 2,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 2.2728130257632446,
+        "support": 2
+      },
+      {
+        "code": "110",
+        "h": [
+          1,
+          1,
+          0
+        ],
+        "class": "face diagonal",
+        "q_mod_3": 2,
+        "self_incident": false,
+        "reciprocal_gradient_radius": 2.273307476000569,
+        "support": 2
+      },
+      {
+        "code": "1-11",
+        "h": [
+          1,
+          -1,
+          1
+        ],
+        "class": "body diagonal",
+        "q_mod_3": 0,
+        "self_incident": true,
+        "reciprocal_gradient_radius": 2.7181958127873127,
+        "support": 3
+      },
+      {
+        "code": "11-1",
+        "h": [
+          1,
+          1,
+          -1
+        ],
+        "class": "body diagonal",
+        "q_mod_3": 0,
+        "self_incident": true,
+        "reciprocal_gradient_radius": 2.8871718606829684,
+        "support": 3
+      }
+    ],
+    "preferred_first_mode": "11-1",
+    "local_prediction": "normalized response independent of h",
+    "nonlocal_gradient_prediction": "normalized response correlates with sqrt(h^T G^-1 h)"
+  },
+  "engineering_architectures": {
+    "whirling_tube": {
+      "mode_equation": "r(z,t)=A phi_n(z)[e1 cos(omega_n t)+sigma e2 sin(omega_n t)]",
+      "young_modulus_Pa": 200000000000.0,
+      "free_free_roots": [
+        4.730040744862704,
+        7.853204624095838,
+        10.995607838001671,
+        14.137165491257,
+        17.278759657399
+      ],
+      "frequencies_hz": [
+        5700.091566605072,
+        15712.521897342629,
+        30802.82532297663,
+        50918.63496851071,
+        76063.65604492671
+      ],
+      "ideal_full_mass_forces_N_H_equals_1": [
+        0.011590262407994047,
+        0.03194900463502872,
+        0.06263282339050863,
+        0.10353523866168268,
+        0.15466378442709397
+      ],
+      "status": "Euler-Bernoulli estimate using exact source tube geometry and stated E=200 GPa; actual response uses M_active and H"
+    },
+    "radial_torsional_ring": {
+      "equation": "r(theta,t)=A_r e_r cos(m theta-omega t)+sigma A_t e_theta sin(m theta-omega t)",
+      "uniform_loop_normal": "e_z",
+      "mechanical_balance_condition": "azimuthal order m >= 2"
+    },
+    "bulk_acoustic": {
+      "equation": "r(x,t)=A phi(x)[e1 cos(omega t)+sigma e2 sin(omega t)]",
+      "parity": "sign-changing scalar lobes add locally"
+    },
+    "surface_acoustic": "traveling Rayleigh or related guided wave with elliptical particle motion; preserve traveling-wave chirality"
+  },
+  "channel_synthesis": {
+    "target_basis": {
+      "e1": [
+        -0.9456361573618158,
+        -0.15460629330993783,
+        0.2861278594596136
+      ],
+      "e2": [
+        0.07746958542151529,
+        0.7473758633624182,
+        0.659869519070171
+      ],
+      "n": [
+        -0.31586503640732017,
+        0.6461626830235878,
+        -0.6947683540887285
+      ]
+    },
+    "complex_command_formula": "Q = 2 B^(-1) (e1 - i e2)",
+    "Q_real_per_nm": [
+      -5.580771783558678,
+      -1.5885303313037142,
+      0.7343648524313245
+    ],
+    "Q_imag_per_nm": [
+      -0.2196912685662512,
+      -1.4638663029320231,
+      3.087125555117046
+    ],
+    "Q_magnitude_per_nm": [
+      5.585094265421932,
+      2.1601697077618134,
+      3.1732689658368405
+    ],
+    "Q_phase_deg": [
+      -177.7456726511047,
+      -137.33873775745906,
+      76.61918353954982
+    ],
+    "relative_magnitudes": [
+      1.0,
+      0.3867740820662086,
+      0.568167485638152
+    ],
+    "relative_phases_deg": [
+      0.0,
+      40.406934893645655,
+      -105.63514380934544
+    ],
+    "physical_radius_nm_for_one_dominant_address": 0.17904800751370198
+  },
+  "metric_circular_planes": {
+    "m_plus": {
+      "normal": [
+        0.23977365084715,
+        0.6402328468487297,
+        -0.7298016841412466
+      ],
+      "basis_u": [
+        0.9708288192876378,
+        -0.15812361976833927,
+        0.18024517888678376
+      ],
+      "basis_v": [
+        1.387778780781446e-17,
+        -0.751730551918258,
+        -0.6594703763723367
+      ],
+      "restriction": [
+        [
+          2.112545026447478,
+          2.2256522520070427e-16
+        ],
+        [
+          2.5918124956202834e-16,
+          2.1125450264474797
+        ]
+      ],
+      "eigenvalues": [
+        2.112545026447478,
+        2.1125450264474797
+      ],
+      "circle_radius": 0.688013583930721,
+      "orientation_factor": 0.8451436475719543
+    },
+    "m_minus": {
+      "normal": [
+        0.48878499615963433,
+        0.10164595221151955,
+        -0.8664625369444658
+      ],
+      "basis_u": [
+        0.8724042798664081,
+        -0.0569495330409864,
+        0.4854559950780167
+      ],
+      "basis_v": [
+        0.0,
+        -0.9931892322641377,
+        -0.11651244102915757
+      ],
+      "restriction": [
+        [
+          2.112545026447478,
+          6.85595112235671e-16
+        ],
+        [
+          6.644947029325165e-16,
+          2.1125450264474805
+        ]
+      ],
+      "eigenvalues": [
+        2.112545026447478,
+        2.1125450264474805
+      ],
+      "circle_radius": 0.688013583930721,
+      "orientation_factor": 0.6878562488256103
+    }
+  },
+  "scaling": {
+    "force_per_kg_hz_N_per_kg_Hz": 8.989366088879062e-05,
+    "mass_frequency_for_1N_kg_Hz": 11124.254926463853,
+    "frequency_ledger": [
+      {
+        "frequency_hz": 833.3333333333334,
+        "acceleration_m_s2": 0.07491138407399218,
+        "force_N": 0.0016944555879151008,
+        "force_mN": 1.6944555879151009
+      },
+      {
+        "frequency_hz": 5000.0,
+        "acceleration_m_s2": 0.4494683044439531,
+        "force_N": 0.010166733527490604,
+        "force_mN": 10.166733527490605
+      },
+      {
+        "frequency_hz": 20000.0,
+        "acceleration_m_s2": 1.7978732177758123,
+        "force_N": 0.040666934109962416,
+        "force_mN": 40.66693410996242
+      },
+      {
+        "frequency_hz": 100000.0,
+        "acceleration_m_s2": 8.989366088879063,
+        "force_N": 0.2033346705498121,
+        "force_mN": 203.3346705498121
+      },
+      {
+        "frequency_hz": 1000000.0,
+        "acceleration_m_s2": 89.89366088879062,
+        "force_N": 2.033346705498121,
+        "force_mN": 2033.346705498121
+      }
+    ],
+    "inertial_ratio": "F_K/F_inertial = 2.277033030799e-06/[A(m) f(Hz)]",
+    "inertial_ratio_constant": 2.277033030798798e-06,
+    "general_force": "F_K = M_active pi kappa_F f C_pol H (n x g)"
+  },
+  "transfer_function": {
+    "symbol": "H",
+    "arguments": [
+      "amplitude/radius",
+      "frequency",
+      "wave vector",
+      "material",
+      "temperature",
+      "boundary state"
+    ],
+    "distributed_law": "F_K = pi kappa_F f integral H C_pol sigma (n x g) dm",
+    "purpose": "measurable unresolved coherence, localization, and dispersion surface"
+  },
+  "experimental_program": [
+    "Phase I: paired or three-phase piezoelectric whirling source tubes",
+    "Phase II: radial-torsional annular resonator",
+    "Phase III: reprogrammable 27-cell body-diagonal Fourier array",
+    "Phase IV: amplitude, overtone, material, and binary-ternary scale map"
+  ],
+  "decisive_controls": [
+    [
+      "relative phase +90 -> -90 degrees",
+      "complete force vector reverses",
+      "changes chirality while preserving nominal carrier energy"
+    ],
+    [
+      "add 180 degrees to both local axes",
+      "mean force unchanged",
+      "changes temporal phase but not chirality"
+    ],
+    [
+      "relative phase -> 0 or 180 degrees",
+      "mean tends to zero with C_pol",
+      "removes oriented area at comparable RMS motion"
+    ],
+    [
+      "n parallel g",
+      "mean tends to zero",
+      "vector null independent of frequency"
+    ],
+    [
+      "rotate n over sphere",
+      "force follows n x g and sin(beta)",
+      "tests full vector law"
+    ],
+    [
+      "frequency sweep at fixed mode geometry",
+      "F/(M C_pol sin beta) proportional to f H",
+      "maps high-frequency transfer"
+    ],
+    [
+      "amplitude sweep at fixed frequency",
+      "ideal plateau until H changes",
+      "locates small-radius transition"
+    ],
+    [
+      "spatial Fourier code sweep",
+      "local model constant; gradient model radius dependent",
+      "separates local and nonlocal mechanisms"
+    ],
+    [
+      "reverse traveling-wave direction",
+      "force reverses with particle chirality",
+      "separates chirality from standing energy"
+    ],
+    [
+      "linear equal-power control",
+      "mean tends to zero",
+      "holds heating and approximate carrier energy while removing loop area"
+    ],
+    [
+      "change material at matched kinematics",
+      "mass law constant unless H material dependent",
+      "maps material universality"
+    ]
+  ],
+  "references": [
+    "[1] P. Dwayne Esterline, K-Field Single-Cell3 Lateral Force Reduction: Audited Cell3 Coordinate Reduction, True-Scale Geometry, and Phase-Ordered Recovery of Tubular-Rotor Lateral Acceleration, corrected machine-readable edition, epoch 1784985105, Krytronx, LLC.",
+    "[2] P. Dwayne Esterline, K-Field Fourier Geometry Hidden Architecture, machine-readable archival edition, epoch 1784910918, Krytronx, LLC.",
+    "[3] H. Frayssignes and R. Briot, Traveling wave ultrasonic motor: coupling effects in free stator, Ultrasonics 41(2), 89-95 (2003), DOI 10.1016/S0041-624X(02)00437-7.",
+    "[4] A. Kumar and C. M. Krousgrill, Mode-splitting and quasi-degeneracies in circular plate vibration problems: the example of free vibrations of the stator of a traveling wave ultrasonic motor, Journal of Sound and Vibration 331(26), 5788-5802 (2012), DOI 10.1016/j.jsv.2012.07.032.",
+    "[5] H. Ogi, H. M. Ledbetter, S. Kim, and M. Hirao, Contactless mode-selective resonance ultrasound spectroscopy: electromagnetic acoustic resonance, Journal of the Acoustical Society of America 106(2), 660-665 (1999), DOI 10.1121/1.427607.",
+    "[6] V. J. Gokhale and J. J. Gorman, Optical knife-edge displacement measurement with sub-picometer resolution for RF-MEMS, Journal of Microelectromechanical Systems (2018), DOI 10.1109/JMEMS.2018.2861322.",
+    "[7] G. Zhai, Y. Xin, C. Kopas, E. Lachman, M. Field, J. Y. Mutus, K. Cicak, J. Aumentado, Z. Sung, and W. Halperin, Contactless excitation of acoustic resonance in thin wafers, Applied Physics Letters 121, 142201 (2022), DOI 10.1063/5.0116478.",
+    "[8] M. M. Sonner, F. Khosravi, L. Janker, D. Rudolph, G. Koblmuller, Z. Jacob, and H. J. Krenner, Ultrafast electron cycloids driven by the transverse spin of a surface acoustic wave, Science Advances 7, eabf7414 (2021), DOI 10.1126/sciadv.abf7414.",
+    "[9] E. Oishi, Y. Fujii, and A. Koreeda, Selective observation of enantiomeric chiral phonons in alpha-quartz, Physical Review B 109, 104306 (2024), DOI 10.1103/PhysRevB.109.104306.",
+    "[10] K. Ohe, H. Shishido, M. Kato, S. Utsumi, H. Matsuura, and Y. Togawa, Chirality-induced selectivity of phonon angular momenta in chiral quartz crystals, Physical Review Letters 132, 056302 (2024), DOI 10.1103/PhysRevLett.132.056302.",
+    "[11] Q. Sun, S. Hou, A. H. Said, Y. Pei, J. Ma, W. Tian, and C. Li, Momentum-resolved direct observation of chiral phonons in elemental tellurium, Physical Review Letters 136, 246101 (2026), DOI 10.1103/5cks-j4ht."
+  ],
+  "report_outline": [
+    {
+      "id": "document_contract",
+      "title": "Proprietary Notice and Document Contract",
+      "level": 1,
+      "paragraphs": [
+        "Owner: Krytronx, LLC. Principal Investigator: P. Dwayne Esterline. This document contains proprietary confidential information and trade secret material. Distribution, reproduction, disclosure, reverse engineering, or derivative use is prohibited except by explicit authorization of Krytronx, LLC.",
+        "This paper is a standalone educational and archival reference. It defines the Cell3 geometry, coordinate lock, source field state, and rotating-tube force reduction before deriving the complete bridge to nonrotating circularly polarized elastic oscillators. It then develops balanced paired oscillators, three-phase systems, ternary Fourier arrays, whirling beams, radial-torsional rings, bulk and surface acoustic modes, Cell3-native drive synthesis, high-frequency transduction methods, scaling laws, metrology, and decisive mechanism-discrimination experiments.",
+        "All numerical tables and plotted quantities are generated from the two supplied machine-readable source records or from equations and engineering parameters stated explicitly in this paper. The 200 GPa Young modulus used for the worked steel-beam modal estimate is an explicit engineering assumption, not a value contained in the source ledgers. Conventional resonator technologies are described separately from the K-Field coupling inference so that the source-exact structure, derived identities, engineering continuations, and established transduction methods remain distinguishable.",
+        "Rigid-body rotation is not the minimum kinematic structure required by the audited tubular-rotor force law. The source reduction can be rewritten as a differential line integral over the trajectory of each material element. A reciprocal one-dimensional displacement retraces its path and cancels over a cycle. A bounded two-dimensional displacement with nonzero oriented area does not. Two orthogonal mechanical modes driven in quadrature therefore reproduce the same closed local trajectory as a rotating material point while the body as a whole remains nonrotating. For a circular orbit with handedness sigma, plane normal n, frequency f, field-response vector g = G_phase V_E, and coupling coefficient kappa_F, the source-exact cycle increment and mean acceleration are Delta v = pi kappa_F sigma n x g and <a> = pi kappa_F f sigma n x g. The result is independent of circular orbit radius within the local differential model because the trajectory radius cancels between path length and radial normalization.",
+        "The minimum direct actuator is therefore a pair of orthogonal elastic modes with a controlled relative phase of plus or minus 90 degrees. An antipodal pair cancels ordinary center-of-mass vibration while its predicted lateral terms add. Three temporal phases separated by 120 degrees also cancel the second-harmonic K-field ripple, leaving a steady lateral output. Extending the phase code to the 27 Cell3 addresses produces a Z3^3 array in which every nonzero Fourier character divides the cells into three equal phase populations. Body-diagonal characters cancel conventional net force, first spatial moment, and every quadratic spatial moment while preserving one-signed local chirality.",
+        "The principal device pathways are a piezoelectrically driven whirling tube or beam, a radial-torsional annular resonator, a dual-shear bulk or high-overtone resonator, a 27-cell Fourier phase array, electromagnetic or magnetostrictive equivalents, electrostatic MEMS/NEMS arrays, and circularly polarized coherent phonons. For the source field state, the maximum-orientation coefficient is pi kappa_F |g| = 8.989366088879e-5 m/s^2 per hertz. The ideal force law is F = 8.989366088879e-5 M_active f C_pol H sin(beta), where C_pol is normalized mechanical circularity, H is the unresolved coherence and localization transfer factor, and beta is the angle between oscillator normal and g. The paper provides exact geometry, complete node and plane ledgers, quantitative designs, experimental controls, and a development path for locating the amplitude, scale, material, wave-vector, and high-frequency dependence contained in H.",
+        "The source tubular-rotor calculation begins with a material point moving on a circle about a fixed axis. The complete tube contains all circumferential phases simultaneously, so phase integration removes the rotating part of the local response and leaves a constant lateral vector. The decisive observation is that this calculation depends on the closed local path and its handedness rather than on a bearing, shaft, or continuously rotating rigid body. A circularly polarized elastic oscillator gives each participating material element the same local circular or elliptical trajectory while preserving a stationary mean geometry.",
+        "The bridge has four levels. First, the Cell3 address differential is converted into a physical-space path integral. Second, the path integral is reduced to an oriented vector area. Third, mechanical phase architectures are chosen to preserve local oriented area while canceling conventional reaction forces and torques. Fourth, practical transducers are selected to produce the required paired modes over a wide frequency, amplitude, material, and scale range.",
+        "The minimum physical state has two independent displacement coordinates. A single linear coordinate cannot generate a first-order cycle mean under the source kernel because its forward and return paths coincide. The addition of a second coordinate allows an ellipse; the sign of the enclosed area distinguishes the two chiralities. Equal amplitudes and a quarter-cycle phase difference yield a circle and the full source response. Unequal amplitudes or phase error reduce the response by the normalized Stokes-like circularity C_pol = 2AB sin(phi)/(A^2+B^2).",
+        "Mechanical balancing is mandatory. At high frequency the ordinary carrier force M A omega^2 can exceed the predicted mean by many orders of magnitude. Symmetry provides the required separation. Antipodal cells move oppositely, causing ordinary inertial reactions to cancel while the bilinear K-field term remains equal. Three-phase timing cancels both first-harmonic force and the 2f response ripple. The 27-cell Fourier construction extends this principle to spatial moments, permitting force-, torque-, and quadrupole-balanced arrays whose local chiral contributions add.",
+        "The strongest first implementation is a whirling tube. Four symmetric piezoelectric patches excite the two transverse bending polarizations in quadrature. This retains the source tube geometry and mass while eliminating motor, bearing, and rotor artifacts. The strongest monolithic implementation is a radial-torsional annular resonator in which every circumference point executes an ellipse in the local radial-tangential plane. The strongest high-frequency implementation is a bulk or high-overtone acoustic resonator with two degenerate shear polarizations. The strongest mechanism-discrimination platform is the 27-cell body-diagonal Fourier array because its phase code can be changed electronically without changing local mass, frequency, circularity, or orientation.",
+        "The central unresolved quantity is H(rho, omega, k, material, temperature, boundary state). The audited source establishes radius invariance across the 4 to 5 mm tube wall, but it does not establish the limit at micrometre, nanometre, picometre, or atomic amplitudes, nor the high-frequency limit. A systematic amplitude-frequency-wave-vector-material sweep normalized by M_active f C_pol sin(beta) therefore becomes a direct map of the coherence and localization structure."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "reading_conventions",
+      "title": "Reading and Status Conventions",
+      "level": 1,
+      "paragraphs": [
+        "This reference uses five status labels. The labels do not rank importance; they identify where each statement enters the construction.",
+        "Vectors are expressed in the ICRS Cartesian frame unless a local device basis is explicitly introduced. Cell3 physical lengths are nanometres. Mechanical calculations use SI units. The cross symbol in equations denotes the ordinary vector cross product; a centered dot denotes a scalar product. Address vectors belong to Z^3. The 27 centered nodes have addresses (i,j,k) with each coordinate in {-1,0,1}.",
+        "The term circular polarization refers to the trajectory of material displacement, not necessarily to an electromagnetic polarization. A proof mass, beam section, shell element, lattice ion, or finite-element integration point is circularly polarized when two orthogonal displacement components have equal amplitude and a plus or minus 90 degree temporal phase difference. Elliptical polarization is the general unequal-amplitude or nonquadrature case.",
+        "The word force in the K-field sections refers to the force calculated by the supplied coupling law. Ordinary elastic, inertial, electromagnetic, acoustic-radiation, thermal, gravitational, and support forces remain part of the experimental measurement model and are treated as backgrounds or controls rather than silently merged into the coupling term."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "frontispiece_geometry",
+      "title": "Frontispiece: Dimensionally Correct Cell3 Geometry",
+      "level": 1,
+      "paragraphs": [
+        "The Cell3 basis is the geometric carrier of the complete construction. The columns of B are the primitive physical vectors a, b, and c in ICRS nanometres. The centered node rule p_L = B L/2 produces the 27 half-step addresses. The full primitive boundary-to-boundary translation is B L. This distinction is essential: a node step changes one address by one and therefore advances one half of a primitive basis vector.",
+        "The base cell is skew. Its three edge lengths, face areas, plane normals, and plane spacings are therefore not interchangeable. Device commands written in Cell3 address coordinates must be transformed through B before their physical trajectory is known. The figures and ledgers on the following pages preserve one physical scale on all axes and display every node address."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "scope_objective",
+      "title": "1. Scope, Objective, and Minimum Sufficient Mechanism",
+      "level": 1,
+      "paragraphs": [
+        "The starting configuration is a thin-walled 100 mm steel tube rotating about its longitudinal axis. In the source state, every material element travels on a circle, and the complete circumference contains every phase of that circle simultaneously. The calculation yields a steady lateral acceleration after integrating the phase-resolved response around the wall. The present objective is to identify the minimum kinematic structure responsible for that result and then reproduce it without continuously rotating mass.",
+        "A successful bridge must preserve the part of the motion that enters the coupling law while removing the features that are merely one implementation. Bearings, shafts, rotor imbalance, gyroscopic torque, sliding contacts, commutation, and continuous material circulation are candidates for removal. The closed local displacement loop, its plane normal, its handedness, its frequency, and its coupling to g are candidates for preservation.",
+        "The central sufficiency test is therefore not whether a device resembles a rotor. It is whether each active material element executes a closed, oriented trajectory whose cycle integral under the source kernel is nonzero, and whether the assembly sums those local contributions without allowing ordinary support forces to dominate the measurement.",
+        "One scalar displacement coordinate produces a line segment in configuration space. Any bounded periodic motion on that line returns over the same geometric path. The differential impulse accumulated on the forward stroke is removed on the return stroke. Changing the waveform, making one stroke faster, introducing dwell, or using a sawtooth timing law changes the time history but not the closed path integral. A first-order mean requires either a second independent displacement coordinate or a separate internal state that changes the coupling between the outbound and return paths.",
+        "The minimum direct replacement therefore contains two orthogonal mechanical modes. Let their coordinates be x_1 = A cos(omega t) and x_2 = B cos(omega t - phi). Their trajectory is an ellipse. Its signed area is proportional to A B sin(phi), so it vanishes for phi = 0 or 180 degrees and reverses when phi changes sign. Equal amplitudes and phi = plus or minus 90 degrees create a circle and maximize the normalized oriented area.",
+        "This two-mode state can be realized as translation of a proof mass, whirling of a beam centerline, elliptical motion of a shell element, combined radial and tangential motion of an annulus, paired shear polarizations in a bulk acoustic resonator, elliptical Rayleigh-wave particle motion, or circular motion of atoms in a chiral phonon. These implementations differ in boundary conditions and transduction; they share the same local kinematic primitive.",
+        "The analysis separates five layers. The empirical or source layer contains the supplied Cell3, field, tube, and force ledgers. The statistical layer is not central here because no new dataset is fitted. The inferred structural layer identifies oriented displacement area as the rotor invariant. The mechanism layer compares physical architectures capable of generating that invariant. Established mechanics and transduction provide the actuators, resonances, balancing methods, and metrology used to test the K-field response.",
+        "No supporting evidence is invented. The calculated high-frequency forces are ideal continuations of the local source kernel with H = 1. They are not reported measurements. Whenever modal participation, material properties, high-overtone behavior, or microscopic coherence is not fixed by the source, the dependence is made explicit rather than hidden."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "coordinate_cell3",
+      "title": "2. Coordinate Lock and Cell3 Base Geometry",
+      "level": 1,
+      "paragraphs": [
+        "The ordered Cell3 basis B maps integer address coordinates into the ICRS physical frame. Its columns are a, b, and c. The source uses nanometres for B and Z^3 for the address space. The centered half-step node rule and primitive translation rule are",
+        "For the finite centered Cell3 registry, i, j, and k take the values -1, 0, and +1. The 27 points include eight corners, twelve edge centers, six face centers, and one body center. Antipodal addresses L and -L map to positions p and -p.",
+        "The basis is not orthogonal. Consequently, equal changes in address coordinates do not correspond to equal physical displacements or mutually perpendicular actuator directions. Any device that is commanded in address coordinates must use B or B^-1 explicitly.",
+        "The direct metric M = B^T B measures squared physical lengths of address vectors. The reciprocal metric R = M^-1 measures squared reciprocal-gradient lengths. The address coupling W and the physical response tensor G_phase are related exactly by a congruence transformation:",
+        "The factor four follows from the centered half-step convention. Since qdot = 2 B^-1 v, two physical velocity vectors contracted through G_phase are identical to their address-rate vectors contracted through W. This identity is the algebraic bridge that permits a Cell3 address differential to be rewritten as a physical displacement line integral.",
+        "The primitive edge lengths are 0.334179679073 nm, 0.586410890415 nm, and 0.792319765038 nm. The included angles are 83.933483012 degrees between a and b, 80.448130018 degrees between a and c, and 50.363231814 degrees between b and c. The signed determinant is negative in the ordered ICRS basis, while the physical cell volume is its absolute value, 0.117914891917 nm^3.",
+        "Each address channel is dual to the opposite face family. Channel a is normal to bc faces, channel b to ac faces, and channel c to ab faces. The source face-plane spacing is the full primitive boundary-to-boundary spacing. Adjacent planes in the centered half-step registry are separated by exactly one half of that value.",
+        "A physically circular trajectory is not generally circular in the three address coordinates. Likewise, three equal address amplitudes do not generally form a physical circle. The skew basis mixes channel amplitudes and phases. Section 14 derives the exact complex three-channel command that produces a physical unit circle in the maximum-output plane.",
+        "The plane families also provide natural fabrication and readout directions. A resonator aligned to a direct basis direction, a face normal, a reciprocal-gradient direction, or a circular section of the phase metric will have different actuator calibration and orientation factor. These alternatives are not interchangeable; they are measurable design choices."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "source_tube_field",
+      "title": "3. Source Rotating Tube and Field State",
+      "level": 1,
+      "paragraphs": [
+        "The source unit is a thin-walled steel tube with outside radius 5 mm, inside radius 4 mm, wall thickness 1 mm, and length 100 mm. The working density is 8000 kg/m^3. These values give a metal cross-sectional area of 2.827433388231e-5 m^2, volume 2.827433388231e-6 m^3, and mass 0.022619467106 kg.",
+        "At 50,000 revolutions per minute, the spin frequency is 833.333333333 Hz, the angular speed is 5235.987755983 rad/s, and the period is 1.2 ms. The axial moment of inertia is 4.636990756699e-7 kg m^2, the stored spin energy is 6.356286719461 J, and the axial angular momentum is 2.427922682668e-3 kg m^2/s. These quantities describe the mechanical cost of the rigid rotor, but the final lateral acceleration law depends on signed angular speed rather than moment of inertia independently.",
+        "The source Earth traversal vector V_E is transformed by G_phase to form the field-response vector g. The coupling law depends on g rather than on V_E alone. The numerical state is",
+        "The maximum-output oscillator normal is perpendicular to g. The source optimal normal is n_opt = (-0.315865036407, 0.646162683024, -0.694768354089). The resulting lateral unit vector is ell = (0.077469585422, 0.747375863362, 0.659869519070). With e1 = g/|g| and e2 = ell, the ordered triad satisfies e1 x e2 = n_opt to numerical precision. The material displacement loop should lie in span(e1,e2). Reversing loop handedness reverses the lateral vector.",
+        "For a general unit normal n, the orientation factor is |n x g|/|g| = sin(beta), where beta is the angle between n and g. The response is zero when n is parallel or antiparallel to g and reaches its maximum when n is orthogonal to g.",
+        "The audited source result at 50,000 rpm is a mean acceleration vector (0.005803353868, 0.055986960348, 0.049431738982) m/s^2 with magnitude 0.074911384074 m/s^2. Multiplication by the tube mass gives a force magnitude of 0.001694455588 N. The velocity increment accumulated during one cycle has magnitude 8.989366088879e-5 m/s.",
+        "The source radial wall ledger evaluates material radii from 4 to 5 mm and returns the same mean acceleration to approximately 1e-16 m/s^2. This establishes radius invariance over the physical wall under the coordinate-differential kernel. It does not, by itself, establish the continuation to arbitrarily small amplitudes or arbitrarily high frequencies."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "exact_kernel",
+      "title": "4. Exact Coordinate-Differential Coupling Kernel",
+      "level": 1,
+      "paragraphs": [
+        "Let q be the centered Cell3 address coordinate of a material point. The half-step position rule x = B q/2 gives the exact velocity relation qdot = 2 B^-1 v. Applying the matrix identity for G_phase yields an invariant mixed scalar in either physical or address coordinates:",
+        "The subscript R denotes the local rotor or oscillator velocity and E denotes the coherent Earth traversal state. The equality is exact under the supplied geometry. The address decomposition is useful for channel ledgers; the physical form is useful for device design.",
+        "For a circular path of radius rho, let u be the outward radial unit vector in the local motion plane. The source coordinate-differential acceleration and impulse are",
+        "Using dq_R = 2 B^-1 dr and G_phase = 4 B^-T W B^-1 converts the address differential to physical space. Define g = G_phase V_E. The result is",
+        "This is the decisive bridge. The impulse is a line integral along the material trajectory. Bearings, shafts, and rigid-body circulation do not appear. The local path direction dr, radial direction u, radius normalization rho, and field vector g contain the complete kinematic information.",
+        "The source explicitly separates this continuous coordinate-differential kernel from a discrete event-localization rule. Confining the interaction exclusively to Cell3 nodes or plane crossings would require an additional physical composition law. The oscillator architectures in this paper use the established continuous kernel and collect any unresolved localization behavior in H.",
+        "Within the source convention, G_phase and kappa_F are dimensionless, g has units of velocity, dr has units of length, and division by rho removes the length. The differential result dv_K therefore has units of velocity. Dividing a cycle increment by period gives acceleration. Multiplying by active mass gives force.",
+        "The source circular law has no explicit elastic modulus, density, or displacement amplitude. Material and boundary dependence can nevertheless enter through the amount of coherently participating mass, the attainable frequency and circularity, and the unresolved transfer factor H."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "path_vector_area",
+      "title": "5. Path Integral, Vector Area, and the No-Rotor Invariant",
+      "level": 1,
+      "paragraphs": [
+        "Choose orthonormal vectors e1 and e2 in the oscillator plane, with n = e1 x e2. A circular trajectory of radius rho and handedness sigma is",
+        "Substituting into dv_K and integrating theta from 0 to 2 pi gives",
+        "The circular radius cancels exactly. One factor of rho enters dr and the inverse factor enters the kernel. The remaining integral is geometric and depends on the loop normal and handedness. This is the same mean law obtained for the complete rotating tube.",
+        "At maximum orientation, |n x g| = |g|. The acceleration per hertz is therefore pi kappa_F |g| = 8.989366088879e-5 m/s^2/Hz. At the source frequency of 833.333333333 Hz, the result is 0.074911384074 m/s^2.",
+        "For a closed planar curve, define its oriented vector area by A_L = (1/2) integral r x dr. The vector points along the loop normal and has magnitude equal to the enclosed signed area. A circular loop has A_L = pi rho^2 sigma n.",
+        "The exact source kernel is written with the instantaneous circular radius. For engineering comparison among ellipses, define a reference squared radius rho_0^2 = (A^2+B^2)/2. The normalized continuation can then be written as",
+        "For a circle, rho_0 = rho and the expression is identical to the source result. For an ellipse it defines a controlled normalization by mean squared displacement. This continuation makes the response proportional to the fraction of displacement energy carried by circular polarization rather than to total amplitude alone.",
+        "A reciprocal path has zero oriented area because each segment is traversed once in each direction. Reparameterizing time does not change the line integral. A nonzero first-order mean therefore requires a path that is not self-retracing in the active state space.",
+        "A physical device can evade cancellation in two ways. The direct way is two-dimensional motion, which creates a geometric loop in displacement space. The indirect way is a one-dimensional displacement combined with a second internal coordinate - for example polarization state, stiffness state, domain state, charge state, or coupling gate - so that the outbound and return branches occupy different paths in an enlarged state space. The latter method is admissible only after specifying and testing an additional coupling law. The present reference prioritizes the direct two-mode route because it follows from the supplied kernel without adding a state-dependent coefficient."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "mechanical_polarization",
+      "title": "6. Circular and Elliptical Mechanical Polarization",
+      "level": 1,
+      "paragraphs": [
+        "Let two orthogonal modal coordinates be driven at the same angular frequency:",
+        "The trajectory is an ellipse except in the limiting linear or circular cases. Its signed area is pi A B sin(phi). The sign distinguishes clockwise from counterclockwise motion when viewed along n = e1 x e2. The normalized mechanical circularity is",
+        "C_pol is the mechanical analogue of the normalized third Stokes parameter S3/S0. It equals zero for linear polarization, plus or minus one for a perfect circle, and an intermediate signed value for an ellipse. Under the normalized vector-area continuation, the cycle and mean laws become",
+        "The approximation sign identifies the elliptical normalization as an engineering continuation. The exact source statement is recovered at C_pol = plus or minus one. This distinction is useful experimentally: force can be normalized by independently measured C_pol, making amplitude imbalance and phase error explicit rather than treating them as unexplained loss.",
+        "Write the amplitude ratio as r = B/A. Then C_pol = 2 r sin(phi)/(1+r^2). Near the circular operating point r = 1 and phi = 90 degrees, first-order amplitude-ratio error cancels because the function has an extremum at r = 1. Small phase error delta in radians reduces C_pol approximately by delta^2/2. This makes a quadrature oscillator relatively tolerant of small symmetric calibration errors but sensitive to large mode splitting or unequal damping.",
+        "A practical controller should measure both modal amplitudes and their phase. Two phase-locked loops or a complex modal estimator can hold the response at C_pol = plus or minus one despite temperature drift. Chirality reversal should change the sign of the 90 degree command while keeping frequency, RMS amplitude, and average drive power as constant as possible.",
+        "For a perfect circle oriented with g = |g| e1, the instantaneous source acceleration can be decomposed into the in-plane basis. With theta = omega t,",
+        "The e2 term is constant and is the desired mean. The remaining terms rotate at twice the mechanical carrier frequency. A single material point therefore has a 2f ripple even though the complete circular wall or a properly phased array can remove it. The waveform provides a useful diagnostic because an observed response at the chirality-modulation frequency should be accompanied by predictable carrier-harmonic structure before array cancellation."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "one_axis_cancellation",
+      "title": "7. Why a Reciprocal One-Axis Oscillator Cancels",
+      "level": 1,
+      "paragraphs": [
+        "Consider any bounded periodic displacement r(t) = x(t) e1. Its trajectory lies on one line. Over a complete period, every differential element dx traversed in the positive direction is traversed in the negative direction when the oscillator returns. Since the source impulse is a differential line integral, the complete integral is zero.",
+        "This conclusion does not require sinusoidal motion. A fast outbound stroke and slow return stroke, a sawtooth drive, asymmetric dwell, a nonsinusoidal resonance, or a mechanical stop changes the rate at which path segments are traversed but not the closed geometric path. If the coupling coefficient is unchanged on both branches, the first-order cycle mean remains zero.",
+        "A one-axis device can become nonreciprocal only if the outbound and return strokes differ in another physical coordinate. Candidate gate variables include ferroelectric domain state, magnetic bias, electrical charge, stiffness, temperature, optical population, contact state, or an explicitly time-modulated coupling coefficient. The effective trajectory then closes in a higher-dimensional state space rather than on a single line.",
+        "Such a state-gated oscillator is a valid mechanism class, but it is not a direct consequence of the supplied constant-kappa kernel. It requires an additional law kappa_eff(s) or g_eff(s) and a phase relation between s(t) and x(t). The minimum experimental burden is therefore higher than for a two-mode circular oscillator. A state-gated design becomes attractive only if it offers much greater active mass, frequency, or mechanical quietness.",
+        "Although a linear oscillator is not the primary device, it is an essential control. It can be driven at the same frequency, RMS displacement, electrical power, thermal load, and support-force spectrum as the circular device while C_pol is set to zero. Any force that survives this substitution is not proportional to mechanical chirality and should be separated before interpreting the lateral channel.",
+        "A complete polarization sweep from -90 through 0 to +90 degrees is more informative than a simple on-off comparison. The K-field continuation predicts a sin(phi) dependence after correcting for amplitude imbalance. Ordinary heating and many electromagnetic pickup effects depend mainly on RMS voltage or current and therefore do not follow this odd chirality law."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "antipodal_pair",
+      "title": "8. Antipodal Oscillator Pair: Vibration Cancels, Lateral Term Adds",
+      "level": 1,
+      "paragraphs": [
+        "Take two equal proof masses or identical resonator modules with displacements and velocities related by",
+        "Their conventional inertial accelerations are opposite because d^2 r_2/dt^2 = -d^2 r_1/dt^2. If the modules have equal mass and their supports are symmetric, the net first-harmonic center-of-mass reaction vanishes.",
+        "The K-field kernel contains the product of radial direction and velocity projection. Both change sign under the antipodal transformation, so their product does not:",
+        "The two K-field contributions are equal at every instant, not only after cycle averaging. Thus an antipodal pair doubles the response for a given module mass while canceling ordinary translational vibration. The pair does not require either proof mass to spin; each can maintain a fixed orientation while its center executes a small circle.",
+        "A practical antipodal module can use two moving frames on opposite sides of a central flexure. Each frame receives two orthogonal actuation components. The drive electronics apply a common 180 degree temporal phase shift to both axes of the second frame. This reverses its displacement vector without reversing local chirality.",
+        "The support should be placed at the mechanical symmetry center. Flexure stiffness, proof-mass values, electrode gaps, piezoelectric coefficients, and damping should be matched. Residual imbalance is measured at the carrier frequency and actively nulled without changing the quadrature sign. The desired force is then read at a much lower chirality-switching frequency.",
+        "An antipodal pair cancels net force but can produce a support torque if the module force lines are not collinear or if the two moving masses occupy different lever arms. Placing the modules symmetrically and orienting their local planes identically removes the leading torque. A four-module square or three-module triangular architecture provides additional cancellation degrees of freedom when package asymmetry is important."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "three_phase",
+      "title": "9. Three-Phase Cancellation and Torque-Balanced Geometry",
+      "level": 1,
+      "paragraphs": [
+        "Let three identical circular oscillators share the same plane normal and handedness but have carrier phases phi_j = 0, 2 pi/3, and 4 pi/3. Their ordinary first-harmonic displacement and inertial-force phasors sum to zero because the three cube roots of unity sum to zero.",
+        "The K-field ripple is at twice the carrier phase. The doubled phase set is 0, 4 pi/3, and 8 pi/3, which is the same three-root set in a different order. Its sum is also zero. The DC term is independent of carrier phase and therefore adds.",
+        "If the total active mass of the three modules equals the original tube mass, the three-module array produces the same ideal mean force as the source-mass circular oscillator while eliminating both the conventional carrier reaction and the K-field 2f ripple. Increasing the number of modules increases active mass without changing the normalized law.",
+        "Temporal balance alone cancels the resultant but does not guarantee zero torque. Place three modules at angular positions theta_j = 0, 2 pi/3, and 4 pi/3 on a triangle. Assign their carrier phases phi_j = 2 theta_j. Then the force phasors sum to zero and the first spatial moment also vanishes:",
+        "The first identity cancels conventional translational reaction. The second cancels the leading torque generated by the spatial lever arms. The phase-independent K-field DC term retains the same sign at all three locations and adds.",
+        "This construction is useful for a macroscopic proof device because it separates the measured low-frequency force from carrier-frequency support motion without requiring extremely precise passive matching. Residual first-harmonic and torque channels can be measured independently and minimized with complex gain trim.",
+        "More than three modules can cancel additional harmonics. An N-cell uniform phase set cancels every harmonic order not divisible by N. Because the desired K-field term is phase independent, it remains. The three-cell set is the smallest that cancels both first and second harmonics; larger sets are useful when actuator nonlinearities generate third, fourth, or higher support harmonics.",
+        "Temporal phase coding and spatial placement should be designed together. A mechanically quiet array is not defined only by zero center-of-mass displacement; it should also suppress net angular momentum exchange with the package, low-order stress multipoles, acoustic radiation into the mount, and electromagnetic force gradients."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "z3_array",
+      "title": "10. The Hidden Z3^3 Cell3 Oscillator Array",
+      "level": 1,
+      "paragraphs": [
+        "The 27 centered Cell3 addresses form the affine space AG(3,3) after reduction modulo three. A projective Fourier direction is represented by a nonzero vector h in Z3^3, with antipodal scalar multiples identified. There are 13 such projective directions, matching PG(2,3).",
+        "For a chosen h, define the character",
+        "Every nonzero character partitions the 27 addresses into three phase classes containing exactly nine cells each. Multiplication by psi_h changes only the temporal phase of a local circular oscillator; it does not change its amplitude, plane normal, or handedness. Therefore the local mean terms add over all cells while the character sums cancel conventional coherent motion.",
+        "Let s(h) be the number of nonzero coordinates of h. Because the address set is a Cartesian product of three ternary coordinates, a polynomial spatial moment of total degree d factors into one-dimensional ternary sums. At least one nonzero Fourier coordinate remains unpaired whenever d < s(h), causing the sum to vanish. Thus",
+        "This produces a mechanical hierarchy. Axial characters have support one and cancel the zero-order resultant. Face-diagonal characters have support two and cancel zero- and first-order moments. Body-diagonal characters have support three and cancel zero-, first-, and second-order moments. The second-order cancellation includes the complete quadratic tensor, not only its trace.",
+        "The same Fourier code cancels the K-field 2f ripple. The ripple at each cell carries phase psi_h^2 = psi_(2h). Since 2h is nonzero in Z3^3, its sum also vanishes. The DC term is phase invariant and survives.",
+        "The 11-1 mode has the largest reported reciprocal-gradient radius, 2.887171860683, and is the first candidate when testing for an added nonlocal gradient dependence. The 111 mode has radius 2.000023101807. All four modes provide the same low-order mechanical moment cancellation.",
+        "A local kinematic model predicts equal normalized force for all 13 modes when active mass, frequency, circularity, orientation, and coherence are held fixed. A nonlocal Fourier-gradient continuation predicts a mode dependence correlated with sqrt(h^T G^-1 h). An electronic phase-code sweep therefore distinguishes two mechanism classes without changing the local oscillator hardware.",
+        "For h = (1,1,-1), assign each cell u = (i,j,k) the phase 2 pi(i+j-k)/3 modulo 2 pi. The 27 nodes divide into nine cells at 0 degrees, nine at 120 degrees, and nine at 240 degrees. All cells use the same local plus or minus 90 degree phase between their two physical displacement axes.",
+        "The phase code should not be confused with local chirality. Temporal phase translates the circular trajectory in time; chirality reverses its orientation. A Fourier array requires different carrier phases but one common chirality. Reversing every local chirality reverses the total lateral force while preserving the array cancellation."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "whirling_tube",
+      "title": "11. Whirling Tube and Beam Architectures",
+      "level": 1,
+      "paragraphs": [
+        "The shortest experimental bridge retains the source tube and replaces its rigid axial spin with two orthogonal bending polarizations. For an ideal circular tube, transverse bending modes occur in orthogonal pairs. Drive the two members of a pair at the same frequency with a plus or minus 90 degree temporal phase. Each material cross section then moves on a small circle or ellipse while the tube retains a stationary mean orientation.",
+        "Let z be the axial coordinate and phi_n(z) the scalar bending mode shape. A circularly polarized standing mode is",
+        "The local loop normal is sigma n everywhere that phi_n is nonzero. When phi_n changes sign between modal lobes, displacement and velocity reverse together. The bilinear K-field kernel is even under this simultaneous reversal, so positive and negative bending lobes add rather than cancel. Conventional center-of-mass reactions can cancel strongly because the signed modal displacement integrates toward zero.",
+        "The result exposes a hidden high-frequency pathway: higher-order standing modes can raise frequency while alternating lobes remain additive under the local chiral kernel. The actual contribution near nodes and across rapidly varying strain fields is part of H and must be measured.",
+        "A transparent first estimate uses the Euler-Bernoulli free-free beam model with the exact source tube geometry and density. The added engineering parameter is Young modulus E = 200 GPa. For a uniform beam of area A_c, second moment I, density rho_m, and length L, the flexible free-free frequencies are",
+        "The first five nonrigid roots beta_n L are 4.730040745, 7.853204624, 10.995607838, 14.137165491, and 17.278759657. The resulting frequencies are 5.700, 15.713, 30.803, 50.919, and 76.064 kHz. Multiplying the full source tube mass by the ideal local-kernel coefficient gives upper-envelope forces from 11.59 to 154.66 mN. These force values assume every part of the tube contributes coherently with H = 1. A real resonator uses M_active = integral H dm and must be characterized by finite-element analysis and modal metrology.",
+        "Place four identical piezoelectric bending patches at 0, 90, 180, and 270 degrees around the tube or around a thin support sleeve. Opposed patches form one transverse bending channel; the orthogonal pair forms the second. Drive the channels with independently controlled complex voltages. The physical modal coordinates, not the raw voltages, must be held in quadrature.",
+        "Attachments break perfect cylindrical symmetry and split the two bending frequencies. A phase-locked dual-resonance controller can compensate moderate splitting by driving each mode at its measured complex response while maintaining a common carrier reference. An alternative is mechanical tuning by small trim masses or symmetric electrode patterning until the modal pair is nearly degenerate.",
+        "The tube should be supported at nodes or by a symmetric low-loss suspension. Carrier-frequency accelerometers or laser vibrometry measure residual package motion. The force sensor operates at the much lower chirality-switching frequency. A matched nonchiral control uses the same modes, amplitudes, and power with relative phase zero.",
+        "Two tubes can be operated antipodally so that their centerline displacements oppose at every instant. Three tubes can be operated at carrier phases 0, 120, and 240 degrees. The two-tube version is mechanically simple and cancels the first harmonic; the three-tube version also cancels the ideal 2f coupling ripple. A triangular three-tube package with phase-to-position relation phi_j = 2 theta_j cancels the leading torque.",
+        "Multiple bending orders can be tested on the same hardware. The normalized observable F/(M_active f C_pol sin(beta)) should remain constant under a scale-free local kernel. Departures versus mode order, nodal density, strain gradient, or wavelength map H."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "radial_torsional_ring",
+      "title": "12. Radial-Torsional Ring and Cylindrical-Shell Virtual Rotor",
+      "level": 1,
+      "paragraphs": [
+        "A ring or cylindrical shell permits the closed local trajectories to be distributed continuously around a stationary structure. In cylindrical coordinates, choose radial and circumferential displacement components in quadrature:",
+        "At every circumferential position, e_r x e_theta = e_z. The local ellipse therefore has the same axial normal throughout the ring. Reversing temporal propagation or the relative quadrature reverses sigma and hence the predicted lateral force. The mechanical phase travels around the ring, but each material element executes bounded motion. The structure is therefore a virtual acoustic rotor rather than a rotating mass.",
+        "The azimuthal order must be selected carefully. An m = 1 pattern can carry a nonzero first-harmonic translation because the local basis rotates once around the ring. Orders m >= 2 cancel the net first-harmonic displacement and support reaction for an ideal uniform ring. Higher m increases spatial gradient and nodal density, providing a direct test of wave-vector dependence in H.",
+        "The choice of displacement components determines whether local loop normals add. Radial plus circumferential motion gives a uniform axial normal. Radial plus axial motion gives a circumferential normal e_theta that rotates around the ring and tends to cancel. Circumferential plus axial motion gives a radial normal e_r that also rotates and tends to cancel. Thus the radial-torsional pair is the natural axisymmetric geometry for a net axial-normal response.",
+        "This geometric rule is independent of the actuator type. Piezoelectric electrodes, magnetostrictive sectors, electrostatic combs, Lorentz-force conductors, or optical forces can all excite the same modal pair. The decisive requirements are matched spatial order, controlled quadrature, and one-signed local loop normal.",
+        "A practical annulus uses two electrode systems. One drives an in-plane radial-extensional mode; the other drives a circumferential shear or torsional mode of the same azimuthal order. Their complex amplitudes are adjusted so the measured material trajectory is circular. Segmentation should respect the chosen m-fold symmetry and should be electrically routed in a way that cancels net cable force and magnetic moment.",
+        "The ring can be mounted at a central hub or at nodal radii. A double-ring arrangement with opposite carrier phase cancels residual hub motion while keeping the same local chirality. A three-ring or three-sector phase set can remove second-harmonic ripple. Laser Doppler vibrometry should map both radial and tangential components to reconstruct C_pol(theta) over the full circumference.",
+        "A cylindrical shell extends the ring along its axis. If the radial-torsional polarization is uniform in z, active mass increases approximately with shell length. Axial standing-wave structure can be introduced to raise frequency or reduce support coupling; sign-changing axial lobes remain locally additive under the parity rule when both displacement components share the same scalar shape.",
+        "A spherical shell requires a tangent-basis construction. Local circular motion in the tangent plane has a radial loop normal that changes over the sphere and cancels for uniform coverage. A net response therefore requires a vector spherical-harmonic weighting that aligns the integrated normal moment with a chosen global direction. The annulus is the simpler first geometry because its local normals are naturally parallel."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "acoustic_pathways",
+      "title": "13. Bulk, High-Overtone, Surface, and Guided Acoustic Pathways",
+      "level": 1,
+      "paragraphs": [
+        "A bulk resonator can support two orthogonal shear polarizations with nearly equal eigenfrequency. Let phi(x) be their common scalar mode shape. Driving them in quadrature gives",
+        "The sign of phi reverses both displacement and velocity, leaving the local K-field term unchanged. Alternating standing-wave lobes therefore cancel ordinary linear momentum while their chiral terms add. This makes bulk acoustic resonators especially important: high overtone number can increase frequency and retain substantial material mass without requiring a physically rotating body.",
+        "The unresolved issue is whether rapidly alternating lobes, nodes, and finite coherence length reduce the aggregate response. This is measured through H(k,omega). A mode-order sweep in one resonator is powerful because geometry, material, mounting, and readout remain nearly fixed.",
+        "A high-overtone bulk acoustic resonator uses a thin transducer to excite many thickness or shear overtones of a much thicker low-loss substrate. The active acoustic wavelength decreases with overtone number while the physical substrate mass can remain macroscopic. This directly improves the M_active f design product if coherence remains high.",
+        "Contactless Lorentz-force excitation of high harmonic acoustic overtones in thin wafers has been demonstrated using radio-frequency spectroscopy and a metallic film [7]. This established method is relevant because it separates the acoustic motion from bonded piezoelectric layers and permits controlled high-overtone sweeps. It does not itself establish the K-field response; it supplies a clean actuator and modal platform.",
+        "The preferred mode pair consists of two degenerate or near-degenerate shear polarizations. A crystal cut with suitable symmetry, a disk or square planform, or an engineered phononic cavity can provide the pair. The drive controller must compensate frequency splitting and measure the complex displacement vector rather than assuming that nominally orthogonal electrical ports produce circular mechanical motion.",
+        "Rayleigh surface acoustic waves have elliptical particle motion in a sagittal plane. Their propagation direction fixes the sign of transverse mechanical spin; reversing propagation reverses the local chirality. This established kinematic property has been observed through the cyclic fields generated by surface waves [8]. A Rayleigh-wave delay line or ring therefore supplies the required local ellipse without moving the substrate as a rigid body.",
+        "A single straight traveling wave has loop normals that are parallel over its aperture, but the active mass is concentrated within approximately one acoustic wavelength of the surface. A standing wave formed by equal counterpropagating waves can lose net chirality because the opposite traveling components have opposite spin. The device must therefore preserve a traveling-wave imbalance or synthesize two orthogonal standing modes in temporal quadrature.",
+        "Sezawa, Love, shear-horizontal, and Lamb modes offer different polarization ellipses and depth profiles. Their value is not merely higher frequency. By varying mode family and wave vector at fixed material, they provide controlled probes of whether H follows displacement chirality, strain chirality, energy flux, surface localization, or reciprocal-gradient magnitude.",
+        "Conventional traveling-wave ultrasonic motors generate an elastic traveling wave by exciting two spatially degenerate standing modes with electrical signals separated by approximately 90 degrees [3]. Circular plates similarly produce a traveling wave when a degenerate bending-mode pair is superposed with a quarter-period separation [4]. These systems demonstrate that paired-mode quadrature is a mature mechanical synthesis method.",
+        "The K-field oscillator removes the friction-driven rotor. The stator itself is the active mass. The design objective shifts from maximizing tangential surface speed at a contact interface to maximizing coherent local circularity, active mass, frequency, orientation factor, and mechanical balance. Teeth and friction layers that are useful in a motor may be unnecessary or detrimental in a force experiment because they split modes and increase acoustic radiation.",
+        "At the microscopic limit, two orthogonal lattice eigenvectors in quadrature produce circular or elliptical ionic motion. Chiral phonons in quartz have been selectively observed with circularly polarized Raman spectroscopy [9], and phonon angular-momentum selectivity has been studied in chiral quartz [10]. In 2026, momentum-resolved measurements in elemental tellurium directly identified acoustic branches with pronounced circular atomic motion produced by longitudinal-transverse mixing [11]. These works establish circular atomic motion and phonon angular momentum as real material excitations.",
+        "A chiral phonon is the atomic-scale realization of the same displacement-loop primitive. Oppositely displaced sublattices can have nearly zero conventional center-of-mass motion while their local loop contributions add under the simultaneous-reversal parity rule. The attainable frequency is extremely high, but coherent active mass, mode population, duty cycle, heating, and force readout are more difficult than in macroscopic resonators.",
+        "The phonon regime is therefore a later-stage scale test rather than the first force experiment. Its primary value is locating the small-amplitude and high-wave-vector behavior of H after the macroscopic law has been mapped."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "cell3_channel_synthesis",
+      "title": "14. Cell3-Native Three-Channel Synthesis",
+      "level": 1,
+      "paragraphs": [
+        "A device may couple naturally to the three Cell3 address channels rather than to an orthonormal physical pair. To synthesize a physical circle in the maximum-output plane, define the complex physical vector z = e1 - i e2. A real trajectory is obtained from Re[z exp(i omega t)]. Since x = B q/2, the required complex address command is",
+        "Using the audited basis and maximum-output plane gives the following commands per nanometre of physical orbit radius:",
+        "After removal of an arbitrary common temporal phase, the calibrated relative channel magnitudes are 1 : 0.386774 : 0.568167 and the relative phases are 0 degrees, +40.406935 degrees, and -105.635144 degrees. Equal address amplitudes or equal electrical voltages would not produce a physical circle because B is skew.",
+        "A 1 nm physical orbit requires address amplitudes 5.585094, 2.160170, and 3.173269. One unit on the dominant channel corresponds to a physical orbit radius of approximately 0.179048 nm. This places nanometre motion across several Cell3 address intervals, while picometre motion approaches a sub-address regime suitable for testing localization.",
+        "The matrix command is a target, not a substitute for modal calibration. A physical transducer maps electrical commands through an actuator matrix A_act(omega) before producing displacement. The complete complex calibration is q_meas = A_act v_drive. The drive vector should therefore be v_drive = A_act^-1 Q rho when the inverse is well conditioned.",
+        "Measure the three physical displacement components or a sufficient set of surface velocities, identify the complex actuator matrix at the operating frequency, and solve for the voltage vector that minimizes the difference between the reconstructed trajectory and the target circle. The measured C_pol and plane normal should be recorded for every force datum.",
+        "A three-channel implementation is useful for testing whether the source address basis has operational significance beyond its physical-space reconstruction. One experiment can compare a direct two-axis physical actuator with a calibrated three-address-channel actuator that produces the same physical orbit. Equal results support a purely physical local kernel; systematic channel-dependent residuals indicate additional address-localized structure."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "metric_circular_planes",
+      "title": "15. Metric-Circular Oscillator Planes",
+      "level": 1,
+      "paragraphs": [
+        "The phase metric G_phase defines an ellipsoid x^T G_phase x = 1. A generic central plane cuts this ellipsoid in an ellipse. The supplied Fourier geometry identifies two plane normals for which the in-plane restriction has equal eigenvalues and the section is exactly circular to residuals near 1e-15.",
+        "The normals are",
+        "Both plane restrictions have eigenvalue approximately 2.112545026447, giving circular-section radius 0.688013584 in the x^T G x = 1 normalization. The two plane normals are separated by 35.450129 degrees in projective angle.",
+        "These planes provide passive alternatives to the maximum-output plane. They can reduce electronic amplitude compensation when the resonator naturally follows the phase metric. Their force orientation factors are 0.845143648 for m_plus and 0.687856249 for m_minus. Thus m_plus retains approximately 84.5 percent of maximum ideal force.",
+        "The maximum-output plane is selected by the field vector: n perpendicular to g. A metric-circular plane is selected by equality of the restricted phase-metric eigenvalues. These objectives need not coincide. The engineering choice is therefore between maximum orientation factor and reduced modal anisotropy or drive calibration.",
+        "A resonator with severe mode splitting in the maximum-output plane may produce a smaller actual C_pol than a naturally degenerate resonator in m_plus. The relevant device objective is the product C_pol H sin(beta), not sin(beta) alone. The optimal physical orientation should be determined from measured modal circularity and coherence."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "actuation_technologies",
+      "title": "16. Actuation and Resonator Technologies",
+      "level": 1,
+      "paragraphs": [
+        "The coupling kernel specifies a motion primitive, not a unique actuator. The table compares the principal implementation classes. Priority reflects the shortest path to a mechanically balanced force test using the source geometry and scaling law.",
+        "Piezoelectric transduction is the preferred first method because it converts an electrical field directly into elastic strain and supports precise complex phase control. Suitable forms include bonded bending patches, tube quadrants, d31 bimorphs, d15 shear plates, thickness-shear films, segmented annular electrodes, and interdigital transducers for guided waves.",
+        "A piezoelectric design should treat the electrical-to-mechanical transfer as a complex matrix. Dielectric loss, electrode resistance, material nonlinearity, and cross-axis coupling alter amplitude and phase. Closed-loop modal control is superior to open-loop voltage quadrature. A reversal test should exchange plus and minus 90 degree mechanical phase without changing total RMS strain.",
+        "Piezoelectric stacks and patches exert ordinary reaction forces on their mounts. Symmetric electrode geometry, differential drive, paired modules, and low-force cable routing are required. The use of multiple transduction technologies is valuable because a lateral signal that follows mechanical chirality across piezoelectric and nonpiezoelectric devices is more structurally informative than a signal confined to one actuator family.",
+        "Two orthogonal voice coils can translate a proof mass on a circular path. Electromagnetic acoustic transducers can excite shear and other modes in conducting structures without contact. Electromagnetic acoustic resonance has demonstrated mode-selective contactless excitation by changing magnetic-field direction [5]. High-harmonic wafer resonances have also been excited by Lorentz forces [7].",
+        "These methods provide an independent replication path but introduce magnetic-field gradients, current-loop forces, eddy-current heating, and coupling to nearby ferromagnetic structures. Use symmetric return currents, bifilar routing, magnetic shielding where compatible, dummy loads, current-reversal controls, and force sensors insensitive to magnetic field. The mechanical trajectory must be measured directly because current quadrature alone does not guarantee displacement quadrature.",
+        "A purely oscillating electromagnetic field with negligible induced material motion is not sufficient under the supplied mass-based kernel. In the present framework the field is a transducer unless an additional direct electromagnetic coupling is specified and tested.",
+        "Magnetostrictive rods, rings, and laminated composites can generate large elastic forces. Two orthogonal bias-and-drive channels can synthesize a whirling or radial-torsional mode. The advantages are robustness and force density. The disadvantages are hysteresis, magnetic domain noise, nonlinear permeability, eddy-current loss, and strong sensitivity to bias-field gradients.",
+        "A magnetostrictive test should use closed-loop displacement control, magnetic shielding around the force sensor, matched nonchiral drive states, and a polarity matrix that separates mechanical chirality reversal from magnetic-field reversal. If the force follows mechanical chirality while remaining invariant under a common sign reversal of all magnetic fields that preserves motion, the result is less likely to be an ordinary magnetic force.",
+        "Electrostatic proof masses, disk resonators, rings, and wineglass modes permit accurate phase coding and large arrays. Orthogonal capacitive electrodes can drive a suspended mass in a circle. Degenerate wineglass modes can be combined in quadrature. The active mass is small, so the design objective is a large synchronized array and a high M_active f product rather than frequency alone.",
+        "Sub-picometre displacement metrology has been demonstrated on RF-MEMS resonators from tens to hundreds of megahertz, with measurements extending toward the gigahertz range [6]. This established capability is well suited to mapping H versus amplitude and frequency. The force sensor for an array must be isolated from electrostatic feedthrough, voltage-dependent package forces, and RF cable momentum.",
+        "A 27-cell MEMS implementation is particularly natural. Each cell contains two orthogonal modes and receives one of three temporal phases from a body-diagonal character. Lithographic symmetry provides consistent geometry, and electronic phase reprogramming enables rapid comparison of all 13 Fourier modes.",
+        "Radiation pressure, photothermal stress, electrostriction, and stimulated Brillouin processes can excite mechanical modes without direct wiring to the moving structure. Two optical modes or two modulated beams can drive orthogonal mechanical coordinates in quadrature. Optical readout can simultaneously measure the complex trajectory.",
+        "The principal backgrounds are radiation-pressure force on the package, thermal gradients, photophoretic effects, and optical momentum leakage. Counterpropagating beams, common-path interferometry, symmetric absorption, and nonchiral optical controls are required. Optical drive is most valuable at the microscopic or phonon scale after macroscopic mechanical artifacts have been characterized.",
+        "Select the actuator by maximizing the measurable product M_active f C_pol H sin(beta) while minimizing support-force leakage at the chirality-modulation frequency. High Q reduces drive power but does not directly multiply the ideal steady force once amplitude is established, because the source law is amplitude independent. Q matters through achievable motion, heat, mode purity, and active-mass coherence.",
+        "The most informative program uses at least two independent actuator families. A piezoelectric whirling tube establishes continuity with the source rotor. An electromagnetic or electrostatic resonator tests the same mechanical law with different electrical and thermal artifacts. A high-overtone or phonon platform then maps the small-scale limit."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "quantitative_scaling",
+      "title": "17. Quantitative Scaling and Design Figures of Merit",
+      "level": 1,
+      "paragraphs": [
+        "For unit circularity, unit coherence, and n perpendicular to g, the source law gives a fixed acceleration per hertz:",
+        "For active mass M_active, circularity C_pol, coherence factor H, and orientation angle beta, the engineering law is",
+        "The primary ideal design figure of merit is M_active f. Circularity, orientation, and coherence multiply it. One newton at maximum orientation and unit C_pol H requires M_active f = 1/(pi kappa_F |g|) = 11124.254926 kg Hz.",
+        "Mass controls absolute force but cancels from free acceleration. Frequency multiplies both force and acceleration linearly in the local continuation. Displacement amplitude does not appear in the circular source result; its practical role is to remain above the coherence or localization transition while allowing stable modal measurement.",
+        "At 20 kHz, the ideal source-mass force is approximately 40.667 mN. At 100 kHz it is 0.203335 N. At 1 MHz it is 2.03335 N. These values are exact evaluations of the continued equation, not measured device outputs. The factor H is expected to determine whether the linear frequency law persists across mode order, material, wavelength, and amplitude.",
+        "A high-frequency microscopic resonator can lose the advantage of frequency if its participating mass falls faster than frequency rises. Conversely, a macroscopic high-overtone substrate can combine large active mass with high frequency. The product M_active f therefore organizes architecture selection across scales.",
+        "Examples with the same ideal force include 1 kg at 11.124 kHz, 11.124 g at 1 MHz, 11.124 mg at 1 GHz, and 11.124 micrograms at 1 THz. Whether these examples are physically equivalent depends entirely on H and on the definition of coherently active mass.",
+        "A circular oscillator of displacement amplitude A has ordinary inertial-force amplitude M A omega^2. The ideal K-field mean is M kappa_F omega |g|/2. Their ratio is",
+        "At A = 1 micrometre and f = 100 kHz, the ordinary carrier force is approximately 43,900 times larger than the ideal K-field mean. Reducing amplitude improves this ratio linearly under the amplitude-invariant continuation, but only until the unresolved small-radius transfer begins to reduce H.",
+        "This calculation establishes why mechanical balancing is not optional. The desired signal should be translated from a DC carrier mean to a low chirality-modulation frequency, while carrier-frequency support force, torque, and acoustic radiation are canceled by symmetry and measured independently.",
+        "The source force law determines a force for a prescribed oscillatory state; it does not by itself specify the complete energy balance of a self-accelerating or load-driving system. A resonator requires drive power to replace elastic and electrical losses. The stored mechanical energy of a linear mode is proportional to M_eff omega^2 A^2, while dissipated power is approximately omega E_stored/Q.",
+        "Because the ideal K-field force is independent of amplitude but resonator loss decreases with A^2, the local continuation favors the smallest coherent amplitude. This unusual scaling is precisely why an amplitude sweep is decisive. If force remains constant while displacement falls, ordinary acoustic and inertial backgrounds decrease. If force turns over, the turnover locates the amplitude-dependent part of H.",
+        "For a constrained force experiment, no macroscopic work need be extracted; the sensor measures a reaction at nearly zero displacement. For a translating or loaded device, power is F dot v_load and the full source-field energy exchange must be tracked. The present report establishes the kinematic and force bridge; it does not silently add an unmeasured power law."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "transfer_function",
+      "title": "18. Coherence, Localization, and the Transfer Function H",
+      "level": 1,
+      "paragraphs": [
+        "The exact circular source law applies to a material trajectory with a defined radius and local normal. A real elastic resonator contains a spatially varying amplitude, phase, polarization ellipse, wave vector, strain state, and boundary environment. Introduce a dimensionless transfer factor H to represent the portion of local source response that survives these conditions. The distributed law is",
+        "When every active element has the same normal, handedness, frequency, and H, this reduces to the compact M_active f law. More generally, M_active is a vector-weighted coherent mass rather than the total physical mass. Regions with opposite loop normal or opposite chirality subtract. Regions with zero circularity or zero coherence do not contribute.",
+        "H is not a free fitting excuse. It is a measurable response surface. Each argument can be varied independently or in a designed factorial sequence, and the normalized force defines the measured H after correcting for mass, frequency, circularity, and orientation.",
+        "The source wall ledger demonstrates radial invariance over 4 to 5 mm for the rotating tube. It does not establish the limit rho -> 0. The continued local law would otherwise predict finite acceleration per hertz at arbitrarily small motion, while ordinary inertial force vanishes with amplitude. A finite coherence radius, address-scale transition, strain threshold, or high-frequency correction can regularize this limit.",
+        "The required experiment holds frequency and circularity fixed while sweeping orbit amplitude over as many decades as possible. At each point, directly measure both orthogonal displacement components and compute C_pol. Plot F/(M f C_pol sin(beta)) versus amplitude. A plateau indicates scale-independent local behavior; a roll-off locates the coherence transition; oscillatory or stepped structure indicates discrete localization or interference.",
+        "The source equation is linear in frequency. A frequency sweep should therefore be normalized by f. Departures may arise from incomplete modal participation, finite response time, dispersive coupling, wave-vector dependence, or material relaxation. A single resonator tested over several overtones separates frequency from gross geometry better than a set of unrelated devices.",
+        "A useful hierarchy begins with 1 to 100 kHz whirling beams, continues through 0.1 to 10 MHz annular and bulk modes, extends to 10 MHz to 1 GHz MEMS and HBAR modes, and finally reaches coherent phonons. At each stage, overlap in frequency between two technologies permits cross-calibration.",
+        "Two modes can have the same frequency and active mass but different spatial wave vector or nodal topology. If H is local and depends only on pointwise circular motion, normalized force is insensitive to the Fourier phase code and to scalar mode sign. If H includes gradients or nonlocal coherence, the response can vary with reciprocal-gradient radius, wavelength, boundary proximity, or nodal density.",
+        "The 13 Cell3 Fourier modes, beam mode-order sweep, annular azimuthal-order sweep, and bulk overtone sweep provide complementary probes. The normalized data should be analyzed together rather than as separate demonstrations. A common dependence on reciprocal-gradient magnitude across these geometries would identify a deeper nonlocal structure.",
+        "The source kernel is mass based, but material enters through density distribution, elastic eigenvectors, damping, internal microstructure, domain state, and possible microscopic localization. Test materials should include isotropic metals, piezoelectric crystals, nonpiezoelectric single crystals, amorphous solids, composites, and materials with strong chiral phonons.",
+        "Temperature sweeps vary damping, sound velocity, domain mobility, and phonon population. The mechanical state must be normalized by measured mode shape and C_pol at each temperature. A response that follows only active mass and frequency is materially universal; a response correlated with crystal symmetry, chirality, conductivity, or domain state identifies additional coupling structure."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "experimental_program",
+      "title": "19. Experimental Development and Metrology",
+      "level": 1,
+      "paragraphs": [
+        "Retain the source 10 mm outside diameter, 8 mm inside diameter, 100 mm length steel tube. Bond four matched piezoelectric patches symmetrically around the circumference near locations selected by finite-element modal analysis. Excite the two transverse bending polarizations in quadrature. Use either two antipodal tubes or three phase-coded tubes so ordinary package motion is canceled.",
+        "Begin at the lowest flexible mode because it is easiest to map and control. Align the common oscillator normal with n_opt for maximum output and then rotate through a controlled orientation sweep. Modulate chirality between plus and minus 90 degrees at a low frequency, typically below the structural resonances of the force balance but above the dominant drift band.",
+        "Measure complex displacement on both axes with laser vibrometry or calibrated strain sensing, support acceleration at the carrier and harmonics, piezoelectric current and voltage, temperature, acoustic emission, and the force-balance output. Use the linear-polarization state and the n parallel g orientation as nulls.",
+        "Construct a monolithic annulus with separate radial and circumferential-shear electrode systems. Select m >= 2. Tune the two mode frequencies by geometry, electrode trimming, or electronic compensation. Map the local trajectory around the ring and compute the mass-weighted circularity field.",
+        "The annulus removes translating proof masses, bearings, and large support motion. It is therefore the preferred high-Q macroscopic architecture after the tube bridge is established. A double annulus driven in antipodal package phase provides further rejection of hub force.",
+        "Fabricate or assemble 27 identical oscillator cells. Each cell contains a two-axis circular mode. Apply the 11-1 character first, then sweep the other three body diagonals and all 13 projective directions. Keep the local carrier amplitude, frequency, circularity, orientation, and total active mass fixed while only the temporal phase code changes.",
+        "Measure the normalized response R_h = F_h/[M_active f C_pol |n x g|]. Mode-independent R_h supports a local kinematic law. Correlation with the reciprocal-gradient radius supports an added nonlocal Fourier-gradient term. Because the low-order support moments differ by Fourier class, the same sweep also quantifies how mechanical quietness affects force metrology.",
+        "Use the binary-ternary scale law B_(p,n) = 3^p 2^-n B to select related dimensions or wavelengths while preserving geometric ratios. Combine macroscopic tubes, annuli, bulk acoustic plates, MEMS arrays, and phonon-scale platforms. Normalize every result by active mass, frequency, measured circularity, and orientation.",
+        "A collapse of the normalized data onto one plateau identifies a scale-invariant regime. A systematic transition locates the coherence or high-frequency boundary. Recurrence at binary-ternary related scales would identify a recursive geometric dependence rather than a single material cutoff.",
+        "The preferred observable is the force component along ell = n x g/|n x g|. A multi-axis force balance can simultaneously monitor the two null directions. The carrier frequency should be far above the force-balance bandwidth. Chirality is switched slowly, so the predicted force appears as an alternating low-frequency signal while carrier power remains nearly constant.",
+        "A square-wave chirality command produces a square-wave force under the ideal law. The lock-in reference is the measured C_pol sign rather than the electrical command alone. Demodulation should include in-phase and quadrature channels, harmonics of the modulation frequency, and coherence with temperature, current, support acceleration, and magnetic field.",
+        "The vector prediction is stronger than a scalar force claim. At each orientation, compute n from the measured displacement ellipse and predict n x g. Sweep the device normal over at least one great circle and preferably a two-axis angular grid. The magnitude should follow sin(beta), and the measured force direction should rotate with n x g.",
+        "Three orientations are especially important: maximum output with n perpendicular to g; null with n parallel to g; and sign reversal with either n -> -n at fixed chirality or sigma -> -sigma at fixed n. These transformations distinguish vector coupling from scalar heating or vibration backgrounds."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "mechanism_discrimination",
+      "title": "20. Mechanism Discrimination and Falsifiable Predictions",
+      "level": 1,
+      "paragraphs": [
+        "The local source kernel assigns the cycle mean from each material trajectory independently and then sums mass. Under this model, changing the spatial Fourier phase code while preserving each cell trajectory does not change normalized force. The code only changes ordinary support moments.",
+        "A nonlocal extension can couple to the Fourier gradient B^-T h. The supplied geometry gives gradient norm squared proportional to h^T G^-1 h. Such a mechanism predicts a reproducible mode dependence that follows the 13 reciprocal-gradient radii. The two predictions are not continuously interchangeable after normalization; a phase-code sweep separates them.",
+        "A strong mechanism compresses many observations into a small parameter set. After the source kappa_F and g are fixed, a local circular oscillator predicts magnitude and direction from M_active, f, C_pol, H, and n. In a demonstrated plateau where H = 1, only measured kinematics and mass remain. No architecture-specific force coefficient is introduced.",
+        "The most informative analysis fits one common transfer surface H to all architectures. A separate arbitrary coefficient for every device would forfeit explanatory compression. Residuals should be plotted against amplitude, frequency, wave vector, Fourier radius, material, temperature, and boundary state to discover the smallest additional structure needed.",
+        "A force measurement must include the complete mechanical boundary. Ordinary internal actuator forces cancel within a closed device, but the K-field construction couples the material trajectory to the external field-response state g. The measured reaction is therefore predicted to act on the complete device-force-balance system along n x g.",
+        "The experiment should record momentum exchange with cables, fields, acoustic radiation, and supports so that ordinary external forces are not mistaken for the target vector. A translating follow-on experiment must measure both device momentum and environmental reaction channels. A force signal that reverses with chirality and follows orientation is necessary; closure of energy and momentum accounting is the next level of mechanism reconstruction."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "conclusions",
+      "title": "21. Conclusions and New Discovery Pathways",
+      "level": 1,
+      "paragraphs": [
+        "The source rotating-tube law reduces to a physical-space differential line integral. Its nonzero cycle value is generated by a closed oriented displacement loop. Rigid-body rotation is one way to create that loop, but it is not the minimum requirement. Two orthogonal elastic modes in quadrature reproduce the same local circular trajectory while the mean body geometry remains stationary.",
+        "The exact circular result is Delta v = pi kappa_F sigma n x g per cycle and <a> = pi kappa_F f sigma n x g. The maximum source coefficient is 8.989366088879e-5 m/s^2 per hertz. The complete engineering force law multiplies this coefficient by active mass, normalized mechanical circularity, coherence, and orientation factor.",
+        "Reciprocal one-axis motion cancels. Antipodal motion cancels ordinary vibration while the lateral term adds. Three temporal phases cancel both first-harmonic reaction and the 2f coupling ripple. The Z3^3 Cell3 phase architecture extends cancellation to spatial moments: body-diagonal characters cancel resultant, torque, and all quadratic moments while preserving local chirality.",
+        "The strongest near-term experiment is a paired or three-phase piezoelectric whirling tube because it retains the source geometry and removes motor and bearing artifacts. The strongest monolithic geometry is a radial-torsional annular resonator because every local loop normal is parallel. The strongest high-frequency path is a dual-shear bulk or high-overtone resonator. The strongest mechanism-discrimination path is a reprogrammable 27-cell body-diagonal array.",
+        "The most important hidden design law is that temporal phase can cancel ordinary motion without canceling local chirality. The most important unresolved structure is H(rho,omega,k,material,temperature,boundary). Mapping H transforms the no-rotor bridge into a broad experimental program spanning macroscopic elastic modes, MEMS and NEMS, surface and bulk acoustic waves, and circularly polarized phonons.",
+        "The resulting research program does more than substitute an oscillator for a rotor. It separates local chirality from rigid rotation, mass from frequency, temporal phase from handedness, local coupling from Fourier-gradient coupling, and macroscopic coherence from microscopic localization. Each separation creates a falsifiable pathway and reduces the number of independent assumptions required to connect the source geometry to high-speed devices."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "appendix_a",
+      "title": "Appendix A. Authoritative Numerical Input Ledger",
+      "level": 1,
+      "paragraphs": [
+        "The first source supplies the corrected Cell3 basis, nodes, plane registries, address coupling, phase response, field state, source tube, exact differential reduction, radial wall integration, and audited rotor output. The second supplies the finite affine and projective geometry, 13 Fourier directions, reciprocal-gradient radii, phase-metric circular sections, and binary-ternary scale algebra."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "appendix_b",
+      "title": "Appendix B. Complete 27-Node Cell3 Ledger",
+      "level": 1,
+      "paragraphs": [
+        "Every centered address L = (i,j,k) is embedded by p_L = B L/2. Lambda is i+j+k. Polarity and node kind are carried from the audited source. Coordinates are ICRS nanometres."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "appendix_c",
+      "title": "Appendix C. Complete Plane Registry",
+      "level": 1,
+      "paragraphs": [
+        "Each address channel has three centered planes at coordinate -1, 0, and +1. Each plane contains nine nodes. The plane tables list all addresses exactly as supplied."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "appendix_d",
+      "title": "Appendix D. Complete Projective Fourier Mode Ledger",
+      "level": 1,
+      "paragraphs": [
+        "The 13 rows are the projective directions of PG(2,3). Support is the number of nonzero coordinates of h. The low-order cancellation column follows from the ternary moment theorem developed in Section 10.",
+        "The projective incidence matrix has row and column sums equal to four. Its spectrum is one eigenvalue 4, six eigenvalues +sqrt(3), and six eigenvalues -sqrt(3). The identity N N^T = 3 I + J closes exactly in the supplied ledger. These finite-geometry properties organize the 13 mode directions and their incidence relations but do not add a force coefficient."
+      ],
+      "subsections": []
+    },
+    {
+      "id": "appendix_e",
+      "title": "Appendix E. Compact Formula and Dimensional Index",
+      "level": 1,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "id": "appendix_f",
+      "title": "Appendix F. Experimental Protocol and Data Schema",
+      "level": 1,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "id": "appendix_g",
+      "title": "Appendix G. References",
+      "level": 1,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "id": "appendix_h",
+      "title": "Appendix H. Archival Record",
+      "level": 1,
+      "paragraphs": [
+        "The PDF hash is written to the machine-readable companion after document generation. The companion also records source hashes, figure hashes, numerical ledgers, formulas, architecture definitions, references, and the report outline."
+      ],
+      "subsections": []
+    }
+  ],
+  "figures": [
+    {
+      "filename": "figure_01_title_composite.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_01_title_composite.png",
+      "caption": "Title composite generated from the exact Cell3 geometry, source field vector, three-phase cancellation identity, and the source-calibrated mass-frequency law.",
+      "data_keys": [
+        "cell3",
+        "field",
+        "three_phase",
+        "scaling"
+      ],
+      "sha256": "7d8b3cebff5d02962589968fad83bbafa11682d8639f77333b0c8ffbcd49e684",
+      "size_bytes": 266047
+    },
+    {
+      "filename": "figure_02_cell3_equal_scale_all_nodes.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_02_cell3_equal_scale_all_nodes.png",
+      "caption": "Dimensionally correct Cell3 base cell reconstructed as p_L = B L/2. The rendering uses orthographic-equivalent equal physical scale on x, y, and z and labels all 27 addresses.",
+      "data_keys": [
+        "cell3.basis_B_nm",
+        "cell3.centered_nodes"
+      ],
+      "sha256": "f7654bf26cda40b3c0dd9c63c9a589d9da470f309cd98ad490d3d735a2a7b58d",
+      "size_bytes": 401027
+    },
+    {
+      "filename": "figure_03_cell3_orthographic_views.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_03_cell3_orthographic_views.png",
+      "caption": "Orthographic x-y, x-z, and y-z views remove perspective ambiguity while retaining the exact nanometre dimensions of every node and edge.",
+      "data_keys": [
+        "cell3.basis_B_nm",
+        "cell3.centered_nodes"
+      ],
+      "sha256": "834fc9f14bf7c400d70784bdad77fb182ffbdba4a05459f9e034ed71ecade8d5",
+      "size_bytes": 225663
+    },
+    {
+      "filename": "figure_04_a_plane_family.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_04_a_plane_family.png",
+      "caption": "The three a-address planes at -1, 0, and +1, each containing the exact nine-node registry. Plane normals, face areas, and spacings are taken directly from the audited Cell3 source.",
+      "data_keys": [
+        "cell3.plane_families.a",
+        "cell3.centered_nodes"
+      ],
+      "sha256": "d3dbd02af4e7f7eb0bdd0e658a2e256ce161e4d7b309d83aa0d6071913ba13c8",
+      "size_bytes": 353148
+    },
+    {
+      "filename": "figure_05_b_plane_family.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_05_b_plane_family.png",
+      "caption": "The three b-address planes at -1, 0, and +1, each containing the exact nine-node registry. Plane normals, face areas, and spacings are taken directly from the audited Cell3 source.",
+      "data_keys": [
+        "cell3.plane_families.b",
+        "cell3.centered_nodes"
+      ],
+      "sha256": "638b85824b4a0b42c41fb9c719e2a12f22efa59098fcc4da580bf7f672a5a6b5",
+      "size_bytes": 350818
+    },
+    {
+      "filename": "figure_06_c_plane_family.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_06_c_plane_family.png",
+      "caption": "The three c-address planes at -1, 0, and +1, each containing the exact nine-node registry. Plane normals, face areas, and spacings are taken directly from the audited Cell3 source.",
+      "data_keys": [
+        "cell3.plane_families.c",
+        "cell3.centered_nodes"
+      ],
+      "sha256": "a2316d8fcfbe6665be96ec2b6c365d277bcd84813ef621eb0dae4f70977ed1a4",
+      "size_bytes": 331622
+    },
+    {
+      "filename": "figure_07_field_triad_oscillator_plane.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_07_field_triad_oscillator_plane.png",
+      "caption": "The maximum-output plane is spanned by e1 = g/|g| and e2 = lateral. Its normal n is orthogonal to g, so |n x g| is maximal.",
+      "data_keys": [
+        "field.G_phase_V_E_m_s",
+        "field.optimal_spin_axis_icrs",
+        "field.lateral_direction_icrs"
+      ],
+      "sha256": "37a016bf75337eb347c7194557911e6b450af53a12b0bf7cdab8605a7002da82",
+      "size_bytes": 358268
+    },
+    {
+      "filename": "figure_08_path_integral_linear_vs_circular.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_08_path_integral_linear_vs_circular.png",
+      "caption": "A reciprocal line retraces itself and has zero vector area. A circular orbit has vector area pi rho^2 n and produces the source cycle increment pi kappa_F n x g.",
+      "data_keys": [
+        "exact_reduction",
+        "derived.loop_area"
+      ],
+      "sha256": "25e06e7b2abae6bfafafaa535d0ea3dc3825eb986e1e2183101c9a989633203d",
+      "size_bytes": 132610
+    },
+    {
+      "filename": "figure_09_polarization_circularity_surface.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_09_polarization_circularity_surface.png",
+      "caption": "The normalized oriented area C_pol = 2AB sin(phi)/(A^2+B^2). Circular polarization reaches +/-1 at equal amplitudes and +/-90 degree phase; linear polarization has C_pol = 0.",
+      "data_keys": [
+        "derived.polarization"
+      ],
+      "sha256": "a2379e075a82823f1329d8c190c9d66c03e9406442695c9069824a3f0f2d8e59",
+      "size_bytes": 140478
+    },
+    {
+      "filename": "figure_10_instantaneous_acceleration_source_frequency.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_10_instantaneous_acceleration_source_frequency.png",
+      "caption": "The local response contains a constant lateral term and a 2f ripple. Integration over one cycle gives the exact source mean acceleration.",
+      "data_keys": [
+        "field",
+        "tube.spin_hz",
+        "exact_reduction"
+      ],
+      "sha256": "dbd2290ad506b897e5c2c4f1297184b8079a2ac2a8bbca820fc03b4eb26e1f8c",
+      "size_bytes": 148919
+    },
+    {
+      "filename": "figure_11_antipodal_pair_parity.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_11_antipodal_pair_parity.png",
+      "caption": "For r2 = -r1 and v2 = -v1, conventional accelerations are opposite. The K-field kernel is invariant under simultaneous reversal of displacement and velocity, so the lateral contributions add.",
+      "data_keys": [
+        "derived.antipodal_pair"
+      ],
+      "sha256": "ab3e904658ac5283c0eea9ac341995be62facb94c2e1969cc6295568f1185361",
+      "size_bytes": 83937
+    },
+    {
+      "filename": "figure_12_three_phase_force_and_ripple_cancellation.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_12_three_phase_force_and_ripple_cancellation.png",
+      "caption": "A three-phase array cancels ordinary first-harmonic force and the K-field 2f ripple while retaining the same DC force as one source-mass oscillator. Individual module forces and their exact vector sum are shown. The conventional displacement amplitude used for the plotted support-force scale is 1 micrometre.",
+      "data_keys": [
+        "derived.three_phase",
+        "tube.mass_kg",
+        "tube.spin_hz"
+      ],
+      "sha256": "7616832067df9a1054a2a32affb231051c2a604c55a411bbb556023272b690b2",
+      "size_bytes": 324872
+    },
+    {
+      "filename": "figure_13_fourier_27_cell_body_diagonal_phase_map.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_13_fourier_27_cell_body_diagonal_phase_map.png",
+      "caption": "The 27 Cell3 addresses are partitioned by h dot u mod 3 into three equal populations. Local circularity is unchanged by the temporal phase code, so DC contributions add while ordinary low-order moments cancel.",
+      "data_keys": [
+        "finite_geometry",
+        "fourier_geometry"
+      ],
+      "sha256": "9a329bd1da933d8f18f567fc622d98238931265ce3adc143bf7b61b3cbc354cb",
+      "size_bytes": 337432
+    },
+    {
+      "filename": "figure_14_fourier_mode_radii.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_14_fourier_mode_radii.png",
+      "caption": "Reciprocal-gradient radii recomputed from the source metric. The four body-diagonal modes provide the strongest low-order mechanical moment cancellation; 11-1 also has the largest reported radius.",
+      "data_keys": [
+        "fourier_geometry.radii_recomputed",
+        "finite_geometry.states"
+      ],
+      "sha256": "e932ceab2f11c165aa2fbab889cb67535e6fdf3f23720ed7ad4efaf9d74ccc0a",
+      "size_bytes": 79711
+    },
+    {
+      "filename": "figure_15_whirling_tube_bending_modes.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_15_whirling_tube_bending_modes.png",
+      "caption": "First five flexible free-free bending modes computed from the exact tube geometry, density 8000 kg/m^3, and an explicitly stated steel modulus of 200 GPa. Orthogonal copies driven in quadrature form a whirling elastic oscillator.",
+      "data_keys": [
+        "tube",
+        "derived.beam_modes"
+      ],
+      "sha256": "6534ed8ec25008dc9d0dde129dce207475dfa0093d7eee3aca32b8a9f834cd44",
+      "size_bytes": 199628
+    },
+    {
+      "filename": "figure_16_radial_torsional_ring_virtual_rotor.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_16_radial_torsional_ring_virtual_rotor.png",
+      "caption": "Normalized analytical ring geometry. At each circumferential point the radial and tangential components are in quadrature, giving one-signed local chirality. Selecting azimuthal order m >= 2 removes net first-harmonic translation.",
+      "data_keys": [
+        "derived.ring_mode"
+      ],
+      "sha256": "99af3fefc42a8b533ceefba8dc8b84ef4e1c06088edfbd2b3c08073850052049",
+      "size_bytes": 327622
+    },
+    {
+      "filename": "figure_17_bulk_acoustic_mode_lobe_rectification.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_17_bulk_acoustic_mode_lobe_rectification.png",
+      "caption": "A common scalar mode shape multiplies both quadrature polarizations. When the scalar changes sign, displacement and velocity reverse together, leaving the local chiral contribution even. Modal nodes remain the unresolved localization boundary.",
+      "data_keys": [
+        "derived.bulk_mode"
+      ],
+      "sha256": "cddf83a0db31e493a58951642f57c846b578bc3599903cc751eca111e28a549a",
+      "size_bytes": 157831
+    },
+    {
+      "filename": "figure_18_cell3_three_channel_synthesis.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_18_cell3_three_channel_synthesis.png",
+      "caption": "The exact command Q = 2 B^-1 (e1 - i e2) compensates the skew Cell3 basis. Equal channel voltages would not generally produce a circular physical orbit.",
+      "data_keys": [
+        "cell3.basis_B_nm",
+        "derived.channel_synthesis"
+      ],
+      "sha256": "00988b497a07a359a681ae1311b297625628518c244f142a61ad60ba89383301",
+      "size_bytes": 151650
+    },
+    {
+      "filename": "figure_19_phase_metric_circular_sections.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_19_phase_metric_circular_sections.png",
+      "caption": "The source plane normals m_plus and m_minus restrict the phase metric to equal in-plane eigenvalues. Each central section is a true circle of radius 0.68801358 in the x^T G x = 1 normalization.",
+      "data_keys": [
+        "phase_metric"
+      ],
+      "sha256": "8832d4f3e75a836fdd91a2d67938c4e197e01e0c39d25c980d5d941d94cb85c8",
+      "size_bytes": 518172
+    },
+    {
+      "filename": "figure_20_source_mass_frequency_scaling.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_20_source_mass_frequency_scaling.png",
+      "caption": "The source-calibrated ideal law is F = M pi kappa_F f |g| for maximum orientation, unit circularity, and unit coherence.",
+      "data_keys": [
+        "derived.scaling",
+        "tube.mass_kg"
+      ],
+      "sha256": "3038398f3ac4e05c86309291085d9c512daf193a712b49a1bdf2e8af3dfaced6",
+      "size_bytes": 102587
+    },
+    {
+      "filename": "figure_21_mass_frequency_force_surface.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_21_mass_frequency_force_surface.png",
+      "caption": "The ideal force surface is controlled by the product M_active f. The one-newton contour corresponds to M_active f = 1.1124e4 kg Hz.",
+      "data_keys": [
+        "derived.scaling"
+      ],
+      "sha256": "83a8db58d5b3259046c7b92578ac0a194185e12d737df2a5df9391cb78d0cb25",
+      "size_bytes": 137429
+    },
+    {
+      "filename": "figure_22_inertial_to_k_force_ratio_surface.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_22_inertial_to_k_force_ratio_surface.png",
+      "caption": "For a single unbalanced circular oscillator, F_K/F_inertial = 2.27703e-6/(A f) with A in metres and f in hertz. High-frequency operation therefore requires symmetry-based cancellation rather than reliance on force magnitude alone.",
+      "data_keys": [
+        "derived.inertial_ratio"
+      ],
+      "sha256": "3d5a31caf66471d9486948ab7d1993c520275fc9b1822c422b952aef399f5ce0",
+      "size_bytes": 129510
+    },
+    {
+      "filename": "figure_23_fourier_mode_discrimination_predictions.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_23_fourier_mode_discrimination_predictions.png",
+      "caption": "Two model classes make distinct predictions when local circularity, mass, frequency, and orientation are held fixed: mode independence for a local kernel versus correlation with reciprocal-gradient radius for an added nonlocal coupling.",
+      "data_keys": [
+        "fourier_geometry.radii_recomputed",
+        "derived.mechanism_discrimination"
+      ],
+      "sha256": "5e7ec0179d520b655e3cdeb24618c9b05cd92b23812f558e69d49e5f53d8b933",
+      "size_bytes": 96553
+    },
+    {
+      "filename": "figure_24_chirality_lockin_protocol.png",
+      "path": "/mnt/data/_kfield_cpeo_work/assets/figure_24_chirality_lockin_protocol.png",
+      "caption": "Switching the relative phase between +90 and -90 degrees reverses the predicted force while preserving carrier frequency, nominal RMS amplitude, and average electrical loading.",
+      "data_keys": [
+        "derived.lockin_protocol"
+      ],
+      "sha256": "72c5b5b0616d5e23a659c8b3a128aec49629418c2d9b64b63d452fa35c86a7d7",
+      "size_bytes": 125817
+    }
+  ],
+  "pdf_filename": "K-Field_circularly_polarized_elastic_oscillator_1784991135.pdf",
+  "pdf_sha256": "b84c9f271686262c61f177bb0292283c2acfa315f690f4a6913bfdd8f3b338c8",
+  "json_sha256_excluding_self": "9f10451290d7a4dc1c30409012c09448711b2c13f3ae42f1760ffd35481e49db"
+}

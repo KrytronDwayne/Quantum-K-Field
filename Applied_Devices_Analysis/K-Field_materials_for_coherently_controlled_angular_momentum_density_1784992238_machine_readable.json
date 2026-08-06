@@ -1,0 +1,709 @@
+{
+  "candidates": {
+    "CH3F": {
+      "A_cm_1": 5.182,
+      "B_cm_1": 0.85179,
+      "C_cm_1": 0.85179,
+      "J0_to_1_GHz_rigid_rotor": 51.072043559964,
+      "J0_to_1_wavelength_mm": 5.8699914298125115,
+      "dipole_D": 1.847,
+      "material": "CH3F",
+      "molecular_weight_g_mol": 34.0329,
+      "point_group": "C3v",
+      "polarizability_A3": 2.54,
+      "source_ref": 3
+    },
+    "LiNbO3": {
+      "chiral_phonon_energies_meV": [
+        28.0,
+        76.0,
+        105.0
+      ],
+      "chiral_phonon_frequencies_THz": [
+        6.77036987783777,
+        18.376718239845378,
+        25.38888704189164
+      ],
+      "material": "LiNbO3",
+      "source_ref": 5
+    },
+    "RbCs": {
+      "magic_detuning_GHz": 186.0,
+      "material": "87Rb133Cs",
+      "molecular_frame_dipole_D": 1.23,
+      "peak_density_cm3": 60000000000.0,
+      "ramsey_coherence_s": 0.78,
+      "ramsey_uncertainty_s": 0.04,
+      "sample_molecules": 2400,
+      "source_ref": 6,
+      "spin_echo_lower_bound_s_95pct": 1.4,
+      "temperature_uK": 1.5,
+      "trap_wavelength_nm": 1145.0
+    },
+    "SrTiO3": {
+      "displacement_pm_O": 3.0,
+      "displacement_pm_Ti_Sr": 1.0,
+      "drive_bandwidth_THz": 0.5,
+      "drive_frequency_THz": 3.0,
+      "experimental_estimate_muB_per_cell": 0.1,
+      "material": "SrTiO3",
+      "mechanism": "circular infrared-active soft phonon; coherent ionic orbit",
+      "pump_field_kV_cm": 230.0,
+      "soft_mode_300K_THz": 2.7,
+      "soft_mode_5K_THz": 0.2,
+      "source_ref": 1,
+      "theory_moment_muN_per_cell": 0.01,
+      "wavelength_um": 99.93081933333333
+    },
+    "YIG": {
+      "cooperativity": 100000.0,
+      "demonstration_temperature": "millikelvin",
+      "magnetic_filling_factor_percent": 3.0,
+      "material": "Y3Fe5O12 (YIG)",
+      "mechanism": "collective electron-spin precession; magnon mode",
+      "normal_mode_splitting_GHz": 2.0,
+      "source_ref": 2
+    },
+    "optical_centrifuge_O2_N2": {
+      "acceleration_time_ps": 70.0,
+      "carrier_frequency_THz": 378.5258308080808,
+      "carrier_wavelength_nm": 792.0,
+      "materials": [
+        "O2",
+        "N2"
+      ],
+      "max_N_N2": 60,
+      "max_N_O2": 95,
+      "rotation_frequency_final_THz": 10.0,
+      "source_ref": 4
+    }
+  },
+  "constants": {
+    "amu_kg": 1.6605390666e-27,
+    "c_m_s": 299792458.0,
+    "e_C": 1.602176634e-19,
+    "h_J_s": 6.62607015e-34,
+    "hbar_J_s": 1.0545718176461565e-34
+  },
+  "control_model": {
+    "angular_momentum": "L_z=s*M_eff*omega*q0^2",
+    "coherent_density": "J_coh=(N/V)*M_eff*omega*q0^2*C_phi*C_pop",
+    "coordinates": [
+      "q_x=q0*cos(omega*t)",
+      "q_y=s*q0*sin(omega*t), s in {-1,+1}"
+    ],
+    "helicity_estimators": {
+      "even": "(S_plus+S_minus)/2",
+      "odd": "(S_plus-S_minus)/2"
+    }
+  },
+  "figures": [
+    {
+      "basis": "analytic orthogonal-drive equations",
+      "file": "fig01_orthogonal_drive.png",
+      "id": 1
+    },
+    {
+      "basis": "27 node coordinates from B_nm",
+      "file": "fig02_kfield_base_cell_27_nodes.png",
+      "id": 2
+    },
+    {
+      "basis": "g111 sheet-plane equations and node coordinates",
+      "file": "fig03_kfield_seven_sheet_planes.png",
+      "id": 3
+    },
+    {
+      "basis": "source frequencies and derived wavelength-frequency conversions",
+      "file": "fig05_candidate_frequency_map.png",
+      "id": 4
+    },
+    {
+      "basis": "reported SrTiO3 soft-mode points",
+      "file": "fig06_sto_soft_mode.png",
+      "id": 5
+    },
+    {
+      "basis": "NIST CH3F Cartesian coordinates",
+      "file": "fig04_ch3f_geometry.png",
+      "id": 6
+    },
+    {
+      "basis": "reported optical centrifuge endpoints",
+      "file": "fig07_optical_centrifuge.png",
+      "id": 7
+    },
+    {
+      "basis": "reported molecular coherence values",
+      "file": "fig08_rotational_coherence.png",
+      "id": 8
+    }
+  ],
+  "kfield_base_cell": {
+    "B_nm": [
+      [
+        0.33417967906,
+        0.06197364645,
+        0.131477878069
+      ],
+      [
+        0.0,
+        0.583126915466,
+        0.494308507783
+      ],
+      [
+        0.0,
+        0.0,
+        0.60509774152
+      ]
+    ],
+    "adjacent_sheet_spacing_nm": 0.15127268803771635,
+    "edge_angles_deg": {
+      "ab": 83.93348301228178,
+      "ac": 80.44813001830951,
+      "bc": 50.36323181373074
+    },
+    "edge_lengths_nm": {
+      "a": 0.33417967906,
+      "b": 0.5864108904131993,
+      "c": 0.7923197650448888
+    },
+    "edge_vectors_nm": {
+      "a": [
+        0.33417967906,
+        0.0,
+        0.0
+      ],
+      "b": [
+        0.06197364645,
+        0.583126915466,
+        0.0
+      ],
+      "c": [
+        0.131477878069,
+        0.494308507783,
+        0.60509774152
+      ]
+    },
+    "face_areas_nm2": {
+      "A_ab": 0.19486916546167565,
+      "A_ac": 0.26110623579160475,
+      "A_bc": 0.3578095391306809
+    },
+    "g111_nm_inv": [
+      2.9924021796084608,
+      1.3968655942313972,
+      -0.13868377057747283
+    ],
+    "g111_norm_nm_inv": 3.305289318818322,
+    "gram_matrix_nm2": [
+      [
+        0.11167605789664461,
+        0.02071033328083891,
+        0.04393723509658823
+      ],
+      [
+        0.02071033328083891,
+        0.34387773239520114,
+        0.2963927589635465
+      ],
+      [
+        0.04393723509658823,
+        0.2963927589635465,
+        0.6277706100807877
+      ]
+    ],
+    "node_rule": "x_L = 0.5 * B_nm * L; L in {-1,0,1}^3",
+    "nodes": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "label": "(-1,-1,-1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": -3,
+        "x_nm": -0.26381560178950003,
+        "y_nm": -0.5387177116245,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "label": "(-1,-1,0)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": -2,
+        "x_nm": -0.19807666275500002,
+        "y_nm": -0.291563457733,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "label": "(-1,0,-1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": -2,
+        "x_nm": -0.23282877856450002,
+        "y_nm": -0.2471542538915,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "label": "(0,-1,-1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": -2,
+        "x_nm": -0.0967257622595,
+        "y_nm": -0.5387177116245,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "label": "(-1,-1,1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": -1,
+        "x_nm": -0.1323377237205,
+        "y_nm": -0.04440920384150002,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "label": "(-1,0,0)",
+        "node_type": "face center",
+        "polarity": -1,
+        "sheet_index": -1,
+        "x_nm": -0.16708983953,
+        "y_nm": 0.0,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "label": "(-1,1,-1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": -1,
+        "x_nm": -0.2018419553395,
+        "y_nm": 0.04440920384150002,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "label": "(0,-1,0)",
+        "node_type": "face center",
+        "polarity": -1,
+        "sheet_index": -1,
+        "x_nm": -0.030986823225,
+        "y_nm": -0.291563457733,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "label": "(0,0,-1)",
+        "node_type": "face center",
+        "polarity": -1,
+        "sheet_index": -1,
+        "x_nm": -0.0657389390345,
+        "y_nm": -0.2471542538915,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "label": "(1,-1,-1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": -1,
+        "x_nm": 0.0703640772705,
+        "y_nm": -0.5387177116245,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "label": "(-1,0,1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 0,
+        "x_nm": -0.10135090049550001,
+        "y_nm": 0.2471542538915,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "label": "(-1,1,0)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 0,
+        "x_nm": -0.136103016305,
+        "y_nm": 0.291563457733,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "label": "(0,-1,1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 0,
+        "x_nm": 0.034752115809499995,
+        "y_nm": -0.04440920384150002,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "label": "(0,0,0)",
+        "node_type": "body center",
+        "polarity": 1,
+        "sheet_index": 0,
+        "x_nm": 0.0,
+        "y_nm": 0.0,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "label": "(0,1,-1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 0,
+        "x_nm": -0.034752115809499995,
+        "y_nm": 0.04440920384150002,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "label": "(1,-1,0)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 0,
+        "x_nm": 0.136103016305,
+        "y_nm": -0.291563457733,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "label": "(1,0,-1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 0,
+        "x_nm": 0.10135090049550001,
+        "y_nm": -0.2471542538915,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "label": "(-1,1,1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": 1,
+        "x_nm": -0.0703640772705,
+        "y_nm": 0.5387177116245,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "label": "(0,0,1)",
+        "node_type": "face center",
+        "polarity": -1,
+        "sheet_index": 1,
+        "x_nm": 0.0657389390345,
+        "y_nm": 0.2471542538915,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "label": "(0,1,0)",
+        "node_type": "face center",
+        "polarity": -1,
+        "sheet_index": 1,
+        "x_nm": 0.030986823225,
+        "y_nm": 0.291563457733,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "label": "(1,-1,1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": 1,
+        "x_nm": 0.2018419553395,
+        "y_nm": -0.04440920384150002,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "label": "(1,0,0)",
+        "node_type": "face center",
+        "polarity": -1,
+        "sheet_index": 1,
+        "x_nm": 0.16708983953,
+        "y_nm": 0.0,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "label": "(1,1,-1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": 1,
+        "x_nm": 0.1323377237205,
+        "y_nm": 0.04440920384150002,
+        "z_nm": -0.30254887076
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "label": "(0,1,1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 2,
+        "x_nm": 0.0967257622595,
+        "y_nm": 0.5387177116245,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "label": "(1,0,1)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 2,
+        "x_nm": 0.23282877856450002,
+        "y_nm": 0.2471542538915,
+        "z_nm": 0.30254887076
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "label": "(1,1,0)",
+        "node_type": "edge midpoint",
+        "polarity": 1,
+        "sheet_index": 2,
+        "x_nm": 0.19807666275500002,
+        "y_nm": 0.291563457733,
+        "z_nm": 0.0
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "label": "(1,1,1)",
+        "node_type": "corner",
+        "polarity": -1,
+        "sheet_index": 3,
+        "x_nm": 0.26381560178950003,
+        "y_nm": 0.5387177116245,
+        "z_nm": 0.30254887076
+      }
+    ],
+    "normalized_sheet_normal": [
+      0.9053374427985862,
+      0.4226152265335708,
+      -0.041958133524920546
+    ],
+    "polarity_rule": "chi=(-1)^lambda",
+    "reciprocal_wavelength_nm": 0.3025453760754327,
+    "sheet_counts": {
+      "-1": 6,
+      "-2": 3,
+      "-3": 1,
+      "0": 7,
+      "1": 6,
+      "2": 3,
+      "3": 1
+    },
+    "sheet_plane_rule": "g111 dot x = lambda/2",
+    "volume_nm3": 0.11791489191274711
+  },
+  "metadata": {
+    "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. Do Not Distribute.",
+    "epoch": 1784992238,
+    "organization": "Krytronx, LLC",
+    "pdf_filename": "K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238.pdf",
+    "principal_investigator": "P. Dwayne Esterline",
+    "title": "K-Field Materials for Coherently Controlled Angular Momentum Density",
+    "units_policy": "SI except K-Field Base Cell in nm and spectroscopy constants as explicitly labeled"
+  },
+  "ranking": [
+    {
+      "candidate": "SrTiO3",
+      "priority": 1,
+      "role": "solid-state ionic orbit"
+    },
+    {
+      "candidate": "YIG",
+      "priority": 2,
+      "role": "collective spin angular momentum"
+    },
+    {
+      "candidate": "CH3F",
+      "priority": 3,
+      "role": "ordinary polar molecular rotor"
+    },
+    {
+      "candidate": "O2/N2 optical centrifuge",
+      "priority": 4,
+      "role": "highest ordinary-gas rotation rate"
+    },
+    {
+      "candidate": "LiNbO3",
+      "priority": 5,
+      "role": "ferroelectrically reversible chiral phonons"
+    },
+    {
+      "candidate": "ultracold RbCs",
+      "priority": 6,
+      "role": "long-coherence molecular reference"
+    }
+  ],
+  "schema": "kfield.materials.coherent_angular_momentum.v1",
+  "sources": [
+    {
+      "citation": "M. Basini et al., Terahertz electric-field-driven dynamical multiferroicity in SrTiO3, Nature 628, 534-539 (2024).",
+      "doi": "10.1038/s41586-024-07175-9",
+      "evidence": "3 THz circular THz drive, 0.5 THz bandwidth, soft-mode frequencies, field amplitude, ionic displacement estimates and angular-momentum-linked magneto-optical response.",
+      "id": 1,
+      "url": "https://doi.org/10.1038/s41586-024-07175-9"
+    },
+    {
+      "citation": "M. Goryachev et al., High-Cooperativity Cavity QED with Magnons at Microwave Frequencies, Physical Review Applied 2, 054002 (2014).",
+      "doi": "10.1103/PhysRevApplied.2.054002",
+      "evidence": "YIG sphere, microwave photon-magnon coupling, 2 GHz splitting, cooperativity 10^5 and 3 percent magnetic filling factor.",
+      "id": 2,
+      "url": "https://doi.org/10.1103/PhysRevApplied.2.054002"
+    },
+    {
+      "citation": "NIST Computational Chemistry Comparison and Benchmark Database, experimental data for methyl fluoride (CH3F), accessed 2026-07-25.",
+      "doi": null,
+      "evidence": "Molecular mass, rotational constants, permanent dipole, polarizability and molecular geometry.",
+      "id": 3,
+      "url": "https://cccbdb.nist.gov/exp2x.asp?casno=593533&charge=0"
+    },
+    {
+      "citation": "A. Korobenko, A. A. Milner and V. Milner, Direct Observation, Study, and Control of Molecular Superrotors, Physical Review Letters 112, 113004 (2014).",
+      "doi": "10.1103/PhysRevLett.112.113004",
+      "evidence": "792 nm optical centrifuge carrier, rotating polarization accelerated from 0 to 10 THz in about 70 ps, rotational states up to N=95 in O2 and N=60 in N2.",
+      "id": 4,
+      "url": "https://doi.org/10.1103/PhysRevLett.112.113004"
+    },
+    {
+      "citation": "H. Ueda et al., Chiral phonons in polar LiNbO3, Nature Communications 17, 212 (2026).",
+      "doi": "10.1038/s41467-025-66911-5",
+      "evidence": "Direct observation of chiral phonons; reversible handedness; representative modes near 28, 76 and 105 meV.",
+      "id": 5,
+      "url": "https://doi.org/10.1038/s41467-025-66911-5"
+    },
+    {
+      "citation": "P. D. Gregory et al., Second-scale rotational coherence and dipolar interactions in a gas of ultracold polar molecules, Nature Physics 20, 415-421 (2024).",
+      "doi": "10.1038/s41567-023-02328-5",
+      "evidence": "RbCs Ramsey rotational coherence 0.78(4) s; spin-echo lower bound greater than 1.4 s; sample density and dipole data.",
+      "id": 6,
+      "url": "https://doi.org/10.1038/s41567-023-02328-5"
+    },
+    {
+      "citation": "Krytronx K-Field historical document library: authoritative K-Field Base Cell matrix and Lucas node/plane conventions.",
+      "doi": null,
+      "evidence": "B_nm matrix, 27-node centered address set, reciprocal plane family, sheet spacing and polarity rule.",
+      "id": 7,
+      "url": null
+    }
+  ]
+}

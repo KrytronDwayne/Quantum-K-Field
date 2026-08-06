@@ -1,0 +1,1079 @@
+{
+  "document": {
+    "title": "K-Field Solid Rod Versus Tube",
+    "subtitle": "Mass-linear force, specific-force invariance, polar inertia, stored energy, and hollowing laws for equal-diameter carbon-fiber rotors",
+    "principal_investigator": {
+      "name": "P. Dwayne Esterline",
+      "education": [
+        "BS, Huntington University (1999)",
+        "MBA, Indiana Wesleyan University (2008)"
+      ]
+    },
+    "organization": "Krytronx",
+    "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+    "generation_utc": "2026-07-26T18:42:23Z",
+    "generation_epoch": 1785091343,
+    "output_pdf": "K-Field_solid_rod_vs_tube_1785091343.pdf",
+    "machine_readable_companion": "K-Field_solid_rod_vs_tube_1785091343.json",
+    "report_generation": "Python ReportLab; built-in core fonts only",
+    "coordinate_frame": "ICRS/J2000 Cartesian",
+    "mechanical_units": "SI",
+    "cell3_units": "native source units"
+  },
+  "scope": {
+    "comparison": "10 mm outside diameter x 100 mm long carbon-fiber tube with 1 mm wall versus a solid carbon-fiber rod of the same outside diameter and length",
+    "spin_rate_rpm": 100000.0,
+    "orientation": "optimum pure-lateral orientation relative to the Earth CMB vector",
+    "working_density_kg_m3": 1600.0
+  },
+  "field_inputs": {
+    "kappa_F": 3.0740508997020345e-11,
+    "G_phase_rounded": [
+      [
+        2.97641063778,
+        1.24315077951,
+        -2.080360035411
+      ],
+      [
+        1.24315077951,
+        2.592228663515,
+        -2.317883993708
+      ],
+      [
+        -2.080360035411,
+        -2.317883993708,
+        6.773570913302
+      ]
+    ],
+    "earth_cmb_unit_vector_c_hat": [
+      -0.970770855836,
+      0.207348009111,
+      -0.120874929482
+    ],
+    "earth_velocity_V_E_m_s": [
+      -359003.199066,
+      76679.886034,
+      -44701.060101
+    ],
+    "locked_g_equals_G_phase_V_E_m_s": [
+      -880221.981635,
+      -143911.436562,
+      266335.026949
+    ],
+    "g_magnitude_m_s": 930825.2172705192,
+    "g_hat": [
+      -0.945636157361632,
+      -0.1546062933103541,
+      0.2861278594599967
+    ],
+    "optimum_spin_axis_n_opt": [
+      -0.31586503640787833,
+      0.6461626830235203,
+      -0.6947683540885374
+    ],
+    "force_unit_vector_F_hat": [
+      0.07746958542148384,
+      0.7473758633623904,
+      0.6598695190702061
+    ],
+    "q_g_N_per_kg_per_rad_s": 1.4307020483078907e-05
+  },
+  "rotor_inputs": {
+    "length_m": 0.1,
+    "outer_diameter_m": 0.01,
+    "outer_radius_m": 0.005,
+    "tube_wall_m": 0.001,
+    "tube_inner_radius_m": 0.004,
+    "rpm": 100000.0,
+    "spin_frequency_Hz": 1666.6666666666667,
+    "angular_speed_rad_s": 10471.975511965977,
+    "outer_rim_speed_m_s": 52.35987755982988,
+    "specific_force_N_kg": 0.14982276814799794
+  },
+  "tube": {
+    "volume_m3": 2.8274333882308146e-06,
+    "mass_kg": 0.004523893421169304,
+    "mass_g": 4.523893421169304,
+    "polar_moment_kg_m2": 9.273981513397073e-08,
+    "angular_momentum_kg_m2_s": 0.0009711690730671932,
+    "spin_energy_J": 5.085029375569172,
+    "force_N": 0.0006777822351661018,
+    "force_mN": 0.6777822351661018,
+    "apparent_weight_gf": 0.0691145534067293,
+    "force_per_mass_N_kg": 0.14982276814799794,
+    "force_per_energy_N_J": 0.0001332897383882344
+  },
+  "solid_rod": {
+    "volume_m3": 7.853981633974484e-06,
+    "mass_kg": 0.012566370614359173,
+    "mass_g": 12.566370614359172,
+    "polar_moment_kg_m2": 1.5707963267948966e-07,
+    "angular_momentum_kg_m2_s": 0.0016449340668482264,
+    "spin_energy_J": 8.612854633416616,
+    "force_N": 0.0018827284310169489,
+    "force_mN": 1.882728431016949,
+    "apparent_weight_gf": 0.19198487057424798,
+    "force_per_mass_N_kg": 0.14982276814799794,
+    "force_per_energy_N_J": 0.00021859517095670442
+  },
+  "comparisons": {
+    "solid_to_tube_mass_ratio": 2.777777777777777,
+    "solid_to_tube_force_ratio": 2.777777777777777,
+    "solid_to_tube_inertia_ratio": 1.693766937669376,
+    "solid_to_tube_energy_ratio": 1.693766937669376,
+    "tube_mass_fraction_of_solid": 0.3600000000000001,
+    "tube_force_fraction_of_solid": 0.3600000000000001,
+    "tube_inertia_fraction_of_solid": 0.5904000000000001,
+    "tube_energy_fraction_of_solid": 0.5904000000000003,
+    "specific_force_ratio_tube_to_solid": 1.0,
+    "solid_force_per_energy_advantage": 1.64,
+    "tube_spinup_time_fraction_at_same_constant_drive_torque": 0.5904000000000001
+  },
+  "cell3": {
+    "basis_vectors": {
+      "a": [
+        0.020381438516,
+        -0.003416414496,
+        -0.002332965916
+      ],
+      "b": [
+        0.002198745968,
+        0.012902170258,
+        -0.034066501536
+      ],
+      "c": [
+        -0.000630379486,
+        -0.024257722018,
+        -0.042924354572
+      ]
+    },
+    "basis_matrix_B_columns_a_b_c": [
+      [
+        0.020381438516,
+        0.002198745968,
+        -0.000630379486
+      ],
+      [
+        -0.003416414496,
+        0.012902170258,
+        -0.024257722018
+      ],
+      [
+        -0.002332965916,
+        -0.034066501536,
+        -0.042924354572
+      ]
+    ],
+    "edge_lengths": {
+      "a": 0.0207970587813562,
+      "b": 0.036494205130410864,
+      "c": 0.04930856590108568
+    },
+    "face_families": {
+      "ab": {
+        "area_native2": 0.0007547217896292521,
+        "included_angle_deg": 83.93348301391636,
+        "unit_normal_icrs": [
+          0.19409220078553566,
+          0.9131771688326048,
+          0.35837923477385747
+        ]
+      },
+      "ac": {
+        "area_native2": 0.0010112557576683087,
+        "included_angle_deg": 80.44813002084678,
+        "unit_normal_icrs": [
+          0.08905259410445396,
+          0.8665767692871037,
+          -0.49103394833269226
+        ]
+      },
+      "bc": {
+        "area_native2": 0.0013857844317439773,
+        "included_angle_deg": 50.36323181316917,
+        "unit_normal_icrs": [
+          -0.995965190308728,
+          0.08360216251417184,
+          -0.032619290554110565
+        ]
+      }
+    },
+    "boundary_vertices": [
+      {
+        "index": 0,
+        "i": -0.5,
+        "j": -0.5,
+        "k": -0.5,
+        "x": -0.010974902499000001,
+        "y": 0.007385983128,
+        "z": 0.039661911012
+      },
+      {
+        "index": 1,
+        "i": -0.5,
+        "j": -0.5,
+        "k": 0.5,
+        "x": -0.011605281985000002,
+        "y": -0.01687173889,
+        "z": -0.0032624435600000015
+      },
+      {
+        "index": 2,
+        "i": -0.5,
+        "j": 0.5,
+        "k": -0.5,
+        "x": -0.008776156531,
+        "y": 0.020288153386,
+        "z": 0.005595409475999999
+      },
+      {
+        "index": 3,
+        "i": -0.5,
+        "j": 0.5,
+        "k": 0.5,
+        "x": -0.009406536017,
+        "y": -0.003969568631999999,
+        "z": -0.037328945096
+      },
+      {
+        "index": 4,
+        "i": 0.5,
+        "j": -0.5,
+        "k": -0.5,
+        "x": 0.009406536017,
+        "y": 0.003969568631999999,
+        "z": 0.037328945096
+      },
+      {
+        "index": 5,
+        "i": 0.5,
+        "j": -0.5,
+        "k": 0.5,
+        "x": 0.008776156531,
+        "y": -0.020288153386,
+        "z": -0.005595409475999999
+      },
+      {
+        "index": 6,
+        "i": 0.5,
+        "j": 0.5,
+        "k": -0.5,
+        "x": 0.011605281985000002,
+        "y": 0.01687173889,
+        "z": 0.0032624435600000015
+      },
+      {
+        "index": 7,
+        "i": 0.5,
+        "j": 0.5,
+        "k": 0.5,
+        "x": 0.010974902499000001,
+        "y": -0.007385983128,
+        "z": -0.039661911012
+      }
+    ],
+    "centered_half_step_nodes": [
+      {
+        "index": 0,
+        "2i": -1,
+        "2j": -1,
+        "2k": -1,
+        "lambda": -3,
+        "x": -0.010974902499000001,
+        "y": 0.007385983128,
+        "z": 0.039661911012
+      },
+      {
+        "index": 1,
+        "2i": -1,
+        "2j": -1,
+        "2k": 0,
+        "lambda": -2,
+        "x": -0.011290092242000001,
+        "y": -0.004742877881,
+        "z": 0.018199733726
+      },
+      {
+        "index": 2,
+        "2i": -1,
+        "2j": -1,
+        "2k": 1,
+        "lambda": -1,
+        "x": -0.011605281985000002,
+        "y": -0.01687173889,
+        "z": -0.0032624435600000015
+      },
+      {
+        "index": 3,
+        "2i": -1,
+        "2j": 0,
+        "2k": -1,
+        "lambda": -2,
+        "x": -0.009875529515,
+        "y": 0.013837068257,
+        "z": 0.022628660244
+      },
+      {
+        "index": 4,
+        "2i": -1,
+        "2j": 0,
+        "2k": 0,
+        "lambda": -1,
+        "x": -0.010190719258,
+        "y": 0.001708207248,
+        "z": 0.001166482958
+      },
+      {
+        "index": 5,
+        "2i": -1,
+        "2j": 0,
+        "2k": 1,
+        "lambda": 0,
+        "x": -0.010505909001000001,
+        "y": -0.010420653761,
+        "z": -0.020295694328
+      },
+      {
+        "index": 6,
+        "2i": -1,
+        "2j": 1,
+        "2k": -1,
+        "lambda": -1,
+        "x": -0.008776156531,
+        "y": 0.020288153386,
+        "z": 0.005595409475999999
+      },
+      {
+        "index": 7,
+        "2i": -1,
+        "2j": 1,
+        "2k": 0,
+        "lambda": 0,
+        "x": -0.009091346274,
+        "y": 0.008159292377000001,
+        "z": -0.01586676781
+      },
+      {
+        "index": 8,
+        "2i": -1,
+        "2j": 1,
+        "2k": 1,
+        "lambda": 1,
+        "x": -0.009406536017,
+        "y": -0.003969568631999999,
+        "z": -0.037328945096
+      },
+      {
+        "index": 9,
+        "2i": 0,
+        "2j": -1,
+        "2k": -1,
+        "lambda": -2,
+        "x": -0.0007841832409999998,
+        "y": 0.0056777758799999994,
+        "z": 0.038495428054
+      },
+      {
+        "index": 10,
+        "2i": 0,
+        "2j": -1,
+        "2k": 0,
+        "lambda": -1,
+        "x": -0.001099372984,
+        "y": -0.006451085129,
+        "z": 0.017033250768
+      },
+      {
+        "index": 11,
+        "2i": 0,
+        "2j": -1,
+        "2k": 1,
+        "lambda": 0,
+        "x": -0.001414562727,
+        "y": -0.018579946138,
+        "z": -0.004428926518
+      },
+      {
+        "index": 12,
+        "2i": 0,
+        "2j": 0,
+        "2k": -1,
+        "lambda": -1,
+        "x": 0.000315189743,
+        "y": 0.012128861009,
+        "z": 0.021462177286
+      },
+      {
+        "index": 13,
+        "2i": 0,
+        "2j": 0,
+        "2k": 0,
+        "lambda": 0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "index": 14,
+        "2i": 0,
+        "2j": 0,
+        "2k": 1,
+        "lambda": 1,
+        "x": -0.000315189743,
+        "y": -0.012128861009,
+        "z": -0.021462177286
+      },
+      {
+        "index": 15,
+        "2i": 0,
+        "2j": 1,
+        "2k": -1,
+        "lambda": 0,
+        "x": 0.001414562727,
+        "y": 0.018579946138,
+        "z": 0.004428926518
+      },
+      {
+        "index": 16,
+        "2i": 0,
+        "2j": 1,
+        "2k": 0,
+        "lambda": 1,
+        "x": 0.001099372984,
+        "y": 0.006451085129,
+        "z": -0.017033250768
+      },
+      {
+        "index": 17,
+        "2i": 0,
+        "2j": 1,
+        "2k": 1,
+        "lambda": 2,
+        "x": 0.0007841832409999998,
+        "y": -0.0056777758799999994,
+        "z": -0.038495428054
+      },
+      {
+        "index": 18,
+        "2i": 1,
+        "2j": -1,
+        "2k": -1,
+        "lambda": -1,
+        "x": 0.009406536017,
+        "y": 0.003969568631999999,
+        "z": 0.037328945096
+      },
+      {
+        "index": 19,
+        "2i": 1,
+        "2j": -1,
+        "2k": 0,
+        "lambda": 0,
+        "x": 0.009091346274,
+        "y": -0.008159292377000001,
+        "z": 0.01586676781
+      },
+      {
+        "index": 20,
+        "2i": 1,
+        "2j": -1,
+        "2k": 1,
+        "lambda": 1,
+        "x": 0.008776156531,
+        "y": -0.020288153386,
+        "z": -0.005595409475999999
+      },
+      {
+        "index": 21,
+        "2i": 1,
+        "2j": 0,
+        "2k": -1,
+        "lambda": 0,
+        "x": 0.010505909001000001,
+        "y": 0.010420653761,
+        "z": 0.020295694328
+      },
+      {
+        "index": 22,
+        "2i": 1,
+        "2j": 0,
+        "2k": 0,
+        "lambda": 1,
+        "x": 0.010190719258,
+        "y": -0.001708207248,
+        "z": -0.001166482958
+      },
+      {
+        "index": 23,
+        "2i": 1,
+        "2j": 0,
+        "2k": 1,
+        "lambda": 2,
+        "x": 0.009875529515,
+        "y": -0.013837068257,
+        "z": -0.022628660244
+      },
+      {
+        "index": 24,
+        "2i": 1,
+        "2j": 1,
+        "2k": -1,
+        "lambda": 1,
+        "x": 0.011605281985000002,
+        "y": 0.01687173889,
+        "z": 0.0032624435600000015
+      },
+      {
+        "index": 25,
+        "2i": 1,
+        "2j": 1,
+        "2k": 0,
+        "lambda": 2,
+        "x": 0.011290092242000001,
+        "y": 0.004742877881,
+        "z": -0.018199733726
+      },
+      {
+        "index": 26,
+        "2i": 1,
+        "2j": 1,
+        "2k": 1,
+        "lambda": 3,
+        "x": 0.010974902499000001,
+        "y": -0.007385983128,
+        "z": -0.039661911012
+      }
+    ]
+  },
+  "equations": {
+    "tube_mass": "m_tube = rho*pi*(R_o^2-R_i^2)*L",
+    "solid_mass": "m_rod = rho*pi*R_o^2*L",
+    "angular_speed": "omega = 2*pi*RPM/60",
+    "field_response": "g = G_phase*V_E",
+    "force": "F = (kappa_F*m*omega/2)*(n_hat cross g)",
+    "optimum_magnitude": "|F| = m*(kappa_F*|g|/2)*omega",
+    "specific_force": "|F|/m = (kappa_F*|g|/2)*omega",
+    "tube_inertia": "I_tube = 0.5*m_tube*(R_o^2+R_i^2)",
+    "solid_inertia": "I_rod = 0.5*m_rod*R_o^2",
+    "spin_energy": "E = 0.5*I*omega^2",
+    "angular_momentum": "H = I*omega",
+    "force_ratio": "F_rod/F_tube = R_o^2/(R_o^2-R_i^2)",
+    "force_per_energy_ratio": "(F/E)_rod/(F/E)_tube = (R_o^2+R_i^2)/R_o^2"
+  },
+  "generated_sweeps": {
+    "force_vs_rpm": [
+      {
+        "rpm": 0.0,
+        "tube_force_N": 0.0,
+        "solid_force_N": 0.0
+      },
+      {
+        "rpm": 5000.0,
+        "tube_force_N": 3.388911175830509e-05,
+        "solid_force_N": 9.413642155084746e-05
+      },
+      {
+        "rpm": 10000.0,
+        "tube_force_N": 6.777822351661018e-05,
+        "solid_force_N": 0.00018827284310169492
+      },
+      {
+        "rpm": 15000.0,
+        "tube_force_N": 0.00010166733527491528,
+        "solid_force_N": 0.0002824092646525424
+      },
+      {
+        "rpm": 20000.0,
+        "tube_force_N": 0.00013555644703322037,
+        "solid_force_N": 0.00037654568620338984
+      },
+      {
+        "rpm": 25000.0,
+        "tube_force_N": 0.00016944555879152545,
+        "solid_force_N": 0.00047068210775423727
+      },
+      {
+        "rpm": 30000.0,
+        "tube_force_N": 0.00020333467054983056,
+        "solid_force_N": 0.0005648185293050848
+      },
+      {
+        "rpm": 35000.0,
+        "tube_force_N": 0.00023722378230813562,
+        "solid_force_N": 0.0006589549508559322
+      },
+      {
+        "rpm": 40000.0,
+        "tube_force_N": 0.00027111289406644073,
+        "solid_force_N": 0.0007530913724067797
+      },
+      {
+        "rpm": 45000.0,
+        "tube_force_N": 0.0003050020058247458,
+        "solid_force_N": 0.0008472277939576272
+      },
+      {
+        "rpm": 50000.0,
+        "tube_force_N": 0.0003388911175830509,
+        "solid_force_N": 0.0009413642155084745
+      },
+      {
+        "rpm": 55000.0,
+        "tube_force_N": 0.000372780229341356,
+        "solid_force_N": 0.001035500637059322
+      },
+      {
+        "rpm": 60000.0,
+        "tube_force_N": 0.0004066693410996611,
+        "solid_force_N": 0.0011296370586101696
+      },
+      {
+        "rpm": 65000.0,
+        "tube_force_N": 0.0004405584528579662,
+        "solid_force_N": 0.0012237734801610171
+      },
+      {
+        "rpm": 70000.0,
+        "tube_force_N": 0.00047444756461627124,
+        "solid_force_N": 0.0013179099017118644
+      },
+      {
+        "rpm": 75000.0,
+        "tube_force_N": 0.0005083366763745763,
+        "solid_force_N": 0.0014120463232627119
+      },
+      {
+        "rpm": 80000.0,
+        "tube_force_N": 0.0005422257881328815,
+        "solid_force_N": 0.0015061827448135594
+      },
+      {
+        "rpm": 85000.0,
+        "tube_force_N": 0.0005761148998911865,
+        "solid_force_N": 0.0016003191663644068
+      },
+      {
+        "rpm": 90000.0,
+        "tube_force_N": 0.0006100040116494916,
+        "solid_force_N": 0.0016944555879152543
+      },
+      {
+        "rpm": 95000.0,
+        "tube_force_N": 0.0006438931234077967,
+        "solid_force_N": 0.0017885920094661016
+      },
+      {
+        "rpm": 100000.0,
+        "tube_force_N": 0.0006777822351661018,
+        "solid_force_N": 0.001882728431016949
+      },
+      {
+        "rpm": 105000.0,
+        "tube_force_N": 0.0007116713469244069,
+        "solid_force_N": 0.001976864852567797
+      },
+      {
+        "rpm": 110000.0,
+        "tube_force_N": 0.000745560458682712,
+        "solid_force_N": 0.002071001274118644
+      },
+      {
+        "rpm": 115000.0,
+        "tube_force_N": 0.000779449570441017,
+        "solid_force_N": 0.0021651376956694913
+      },
+      {
+        "rpm": 120000.0,
+        "tube_force_N": 0.0008133386821993222,
+        "solid_force_N": 0.0022592741172203393
+      },
+      {
+        "rpm": 125000.0,
+        "tube_force_N": 0.0008472277939576272,
+        "solid_force_N": 0.0023534105387711863
+      },
+      {
+        "rpm": 130000.0,
+        "tube_force_N": 0.0008811169057159324,
+        "solid_force_N": 0.0024475469603220342
+      },
+      {
+        "rpm": 135000.0,
+        "tube_force_N": 0.0009150060174742374,
+        "solid_force_N": 0.0025416833818728817
+      },
+      {
+        "rpm": 140000.0,
+        "tube_force_N": 0.0009488951292325425,
+        "solid_force_N": 0.0026358198034237288
+      },
+      {
+        "rpm": 145000.0,
+        "tube_force_N": 0.0009827842409908477,
+        "solid_force_N": 0.0027299562249745763
+      },
+      {
+        "rpm": 150000.0,
+        "tube_force_N": 0.0010166733527491526,
+        "solid_force_N": 0.0028240926465254237
+      }
+    ],
+    "bore_ratio": [
+      {
+        "bore_radius_over_outer_radius": 0.0,
+        "force_fraction_of_solid": 1.0,
+        "energy_fraction_of_solid": 1.0,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 1.0
+      },
+      {
+        "bore_radius_over_outer_radius": 0.02,
+        "force_fraction_of_solid": 0.9996,
+        "energy_fraction_of_solid": 0.99999984,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9996001599360256
+      },
+      {
+        "bore_radius_over_outer_radius": 0.04,
+        "force_fraction_of_solid": 0.9984,
+        "energy_fraction_of_solid": 0.99999744,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.998402555910543
+      },
+      {
+        "bore_radius_over_outer_radius": 0.06,
+        "force_fraction_of_solid": 0.9964,
+        "energy_fraction_of_solid": 0.99998704,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9964129135113591
+      },
+      {
+        "bore_radius_over_outer_radius": 0.08,
+        "force_fraction_of_solid": 0.9936,
+        "energy_fraction_of_solid": 0.99995904,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9936406995230525
+      },
+      {
+        "bore_radius_over_outer_radius": 0.1,
+        "force_fraction_of_solid": 0.99,
+        "energy_fraction_of_solid": 0.9999,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9900990099009901
+      },
+      {
+        "bore_radius_over_outer_radius": 0.12,
+        "force_fraction_of_solid": 0.9856,
+        "energy_fraction_of_solid": 0.99979264,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9858044164037855
+      },
+      {
+        "bore_radius_over_outer_radius": 0.14,
+        "force_fraction_of_solid": 0.9804,
+        "energy_fraction_of_solid": 0.99961584,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9807767752059631
+      },
+      {
+        "bore_radius_over_outer_radius": 0.16,
+        "force_fraction_of_solid": 0.9744,
+        "energy_fraction_of_solid": 0.99934464,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9750390015600623
+      },
+      {
+        "bore_radius_over_outer_radius": 0.18,
+        "force_fraction_of_solid": 0.9676,
+        "energy_fraction_of_solid": 0.99895024,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9686168151879117
+      },
+      {
+        "bore_radius_over_outer_radius": 0.2,
+        "force_fraction_of_solid": 0.96,
+        "energy_fraction_of_solid": 0.9984,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9615384615384615
+      },
+      {
+        "bore_radius_over_outer_radius": 0.22,
+        "force_fraction_of_solid": 0.9516,
+        "energy_fraction_of_solid": 0.99765744,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9538344143456696
+      },
+      {
+        "bore_radius_over_outer_radius": 0.24,
+        "force_fraction_of_solid": 0.9424,
+        "energy_fraction_of_solid": 0.99668224,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.94553706505295
+      },
+      {
+        "bore_radius_over_outer_radius": 0.26,
+        "force_fraction_of_solid": 0.9324,
+        "energy_fraction_of_solid": 0.99543024,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9366804046459347
+      },
+      {
+        "bore_radius_over_outer_radius": 0.28,
+        "force_fraction_of_solid": 0.9216,
+        "energy_fraction_of_solid": 0.99385344,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9272997032640949
+      },
+      {
+        "bore_radius_over_outer_radius": 0.3,
+        "force_fraction_of_solid": 0.91,
+        "energy_fraction_of_solid": 0.9919,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9174311926605504
+      },
+      {
+        "bore_radius_over_outer_radius": 0.32,
+        "force_fraction_of_solid": 0.8976,
+        "energy_fraction_of_solid": 0.98951424,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.9071117561683599
+      },
+      {
+        "bore_radius_over_outer_radius": 0.34,
+        "force_fraction_of_solid": 0.8844,
+        "energy_fraction_of_solid": 0.98663664,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8963786303334529
+      },
+      {
+        "bore_radius_over_outer_radius": 0.36,
+        "force_fraction_of_solid": 0.8704000000000001,
+        "energy_fraction_of_solid": 0.98320384,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8852691218130312
+      },
+      {
+        "bore_radius_over_outer_radius": 0.38,
+        "force_fraction_of_solid": 0.8556,
+        "energy_fraction_of_solid": 0.97914864,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8738203425375742
+      },
+      {
+        "bore_radius_over_outer_radius": 0.4,
+        "force_fraction_of_solid": 0.84,
+        "energy_fraction_of_solid": 0.9744,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8620689655172413
+      },
+      {
+        "bore_radius_over_outer_radius": 0.42,
+        "force_fraction_of_solid": 0.8236,
+        "energy_fraction_of_solid": 0.96888304,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8500510030601837
+      },
+      {
+        "bore_radius_over_outer_radius": 0.44,
+        "force_fraction_of_solid": 0.8064,
+        "energy_fraction_of_solid": 0.96251904,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8378016085790885
+      },
+      {
+        "bore_radius_over_outer_radius": 0.46,
+        "force_fraction_of_solid": 0.7884,
+        "energy_fraction_of_solid": 0.95522544,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8253549026081215
+      },
+      {
+        "bore_radius_over_outer_radius": 0.48,
+        "force_fraction_of_solid": 0.7696000000000001,
+        "energy_fraction_of_solid": 0.94691584,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8127438231469442
+      },
+      {
+        "bore_radius_over_outer_radius": 0.5,
+        "force_fraction_of_solid": 0.75,
+        "energy_fraction_of_solid": 0.9375,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.8
+      },
+      {
+        "bore_radius_over_outer_radius": 0.52,
+        "force_fraction_of_solid": 0.7296,
+        "energy_fraction_of_solid": 0.92688384,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.7871536523929471
+      },
+      {
+        "bore_radius_over_outer_radius": 0.54,
+        "force_fraction_of_solid": 0.7083999999999999,
+        "energy_fraction_of_solid": 0.91496944,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.774233508826262
+      },
+      {
+        "bore_radius_over_outer_radius": 0.56,
+        "force_fraction_of_solid": 0.6863999999999999,
+        "energy_fraction_of_solid": 0.90165504,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.761266747868453
+      },
+      {
+        "bore_radius_over_outer_radius": 0.58,
+        "force_fraction_of_solid": 0.6636,
+        "energy_fraction_of_solid": 0.88683504,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.7482789583956899
+      },
+      {
+        "bore_radius_over_outer_radius": 0.6,
+        "force_fraction_of_solid": 0.64,
+        "energy_fraction_of_solid": 0.8704000000000001,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.7352941176470589
+      },
+      {
+        "bore_radius_over_outer_radius": 0.62,
+        "force_fraction_of_solid": 0.6155999999999999,
+        "energy_fraction_of_solid": 0.85223664,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.722334585379948
+      },
+      {
+        "bore_radius_over_outer_radius": 0.64,
+        "force_fraction_of_solid": 0.5904,
+        "energy_fraction_of_solid": 0.83222784,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.7094211123723042
+      },
+      {
+        "bore_radius_over_outer_radius": 0.66,
+        "force_fraction_of_solid": 0.5644,
+        "energy_fraction_of_solid": 0.81025264,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6965728615213151
+      },
+      {
+        "bore_radius_over_outer_radius": 0.68,
+        "force_fraction_of_solid": 0.5375999999999999,
+        "energy_fraction_of_solid": 0.7861862399999999,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6838074398249452
+      },
+      {
+        "bore_radius_over_outer_radius": 0.7000000000000001,
+        "force_fraction_of_solid": 0.5099999999999999,
+        "energy_fraction_of_solid": 0.7598999999999999,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6711409395973154
+      },
+      {
+        "bore_radius_over_outer_radius": 0.72,
+        "force_fraction_of_solid": 0.48160000000000003,
+        "energy_fraction_of_solid": 0.73126144,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6585879873551107
+      },
+      {
+        "bore_radius_over_outer_radius": 0.74,
+        "force_fraction_of_solid": 0.4524,
+        "energy_fraction_of_solid": 0.70013424,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6461617989144481
+      },
+      {
+        "bore_radius_over_outer_radius": 0.76,
+        "force_fraction_of_solid": 0.4224,
+        "energy_fraction_of_solid": 0.66637824,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6338742393509128
+      },
+      {
+        "bore_radius_over_outer_radius": 0.78,
+        "force_fraction_of_solid": 0.39159999999999995,
+        "energy_fraction_of_solid": 0.6298494399999999,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6217358865953743
+      },
+      {
+        "bore_radius_over_outer_radius": 0.8,
+        "force_fraction_of_solid": 0.3599999999999999,
+        "energy_fraction_of_solid": 0.5903999999999999,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.6097560975609756
+      },
+      {
+        "bore_radius_over_outer_radius": 0.8200000000000001,
+        "force_fraction_of_solid": 0.3275999999999999,
+        "energy_fraction_of_solid": 0.5478782399999998,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5979430758191819
+      },
+      {
+        "bore_radius_over_outer_radius": 0.84,
+        "force_fraction_of_solid": 0.2944000000000001,
+        "energy_fraction_of_solid": 0.50212864,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5863039399624765
+      },
+      {
+        "bore_radius_over_outer_radius": 0.86,
+        "force_fraction_of_solid": 0.2604000000000001,
+        "energy_fraction_of_solid": 0.45299184000000003,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5748447919061854
+      },
+      {
+        "bore_radius_over_outer_radius": 0.88,
+        "force_fraction_of_solid": 0.22560000000000002,
+        "energy_fraction_of_solid": 0.40030464,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.563570784490532
+      },
+      {
+        "bore_radius_over_outer_radius": 0.9,
+        "force_fraction_of_solid": 0.18999999999999995,
+        "energy_fraction_of_solid": 0.3439,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5524861878453039
+      },
+      {
+        "bore_radius_over_outer_radius": 0.92,
+        "force_fraction_of_solid": 0.15359999999999996,
+        "energy_fraction_of_solid": 0.2836070399999999,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5415944540727903
+      },
+      {
+        "bore_radius_over_outer_radius": 0.9400000000000001,
+        "force_fraction_of_solid": 0.11639999999999984,
+        "energy_fraction_of_solid": 0.21925103999999984,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5308982798895732
+      },
+      {
+        "bore_radius_over_outer_radius": 0.96,
+        "force_fraction_of_solid": 0.07840000000000003,
+        "energy_fraction_of_solid": 0.15065344000000014,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5203996669442131
+      },
+      {
+        "bore_radius_over_outer_radius": 0.98,
+        "force_fraction_of_solid": 0.03960000000000008,
+        "energy_fraction_of_solid": 0.07763184000000012,
+        "specific_force_fraction_of_solid": 1.0,
+        "force_per_energy_fraction_of_solid": 0.5100999795960008
+      }
+    ]
+  },
+  "source_lineage": [
+    "K-Field_tubular_rotor_free_space_forces_1784904809.pdf",
+    "K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf",
+    "K-Field_linear_inertia_derivation_1784989727.pdf"
+  ]
+}
