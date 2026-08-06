@@ -1,0 +1,448 @@
+{
+  "schema": "K-Field.D101.celestially_indexed_frequency_modulation.v1",
+  "title": "K-Field Celestially Indexed Frequency Modulation in the Dual-OCXO D101 Record",
+  "generation": {
+    "epoch": 1786028011,
+    "utc": "2026-08-06T14:53:31Z",
+    "pdf_filename": "K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf",
+    "json_filename": "K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+    "engine": "Python ReportLab",
+    "fonts": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman",
+      "Courier"
+    ],
+    "pdf_sha256": "3ecbd0135fbb1a37ce47da38363bb755494df98211f8463b8238435df29ad703",
+    "json_sha256_before_final_update": "58712d05e35d3235481c89e53dcb2fae232bef686811414525c6223dfe327d95"
+  },
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "degrees": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx, LLC."
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "instrument": {
+    "oscillators": 2,
+    "nominal_frequency_hz": 20000000,
+    "orientation": "orthogonal axes in one plane",
+    "thermal_environment": "common thermal chamber",
+    "heterodyne": "continuous dual flip-flop heterodyne",
+    "counter_clock": "OCXO A output",
+    "counter_gate": "heterodyne beat pulse",
+    "stored_observable": "pulse_w",
+    "interpretation": "gated count or pulse-width representation of fractional frequency differential",
+    "timestamp": "GPS UTC",
+    "storage": "local server",
+    "cadence_s": 1,
+    "relations": [
+      "Delta_f(t)=f_A(t)-f_B(t)",
+      "T_b=1/abs(Delta_f)",
+      "N=f_A*T_b",
+      "abs(Delta_f)/f_A=1/N"
+    ]
+  },
+  "archive_inventory": {
+    "archive_rows": 9136506,
+    "missing_record_ids": 14,
+    "utc_start": "2022-10-29 18:54:55",
+    "utc_end": "2023-03-02 21:58:21",
+    "span_days": 124.12738425925926,
+    "unique_timestamps": 9136506,
+    "covered_seconds": 9136506,
+    "coverage_fraction": 0.8519198885329784,
+    "one_second_steps": 9136477,
+    "gaps_gt_1s": 28,
+    "max_gap_s": 1473568,
+    "pulse_min": 1957074,
+    "pulse_max": 4724516,
+    "pulse_mean": 3022073.7119446974,
+    "pulse_std": 81697.77783064621,
+    "temp_min": 0.0,
+    "temp_max": 41.375,
+    "record_id_min": 2,
+    "record_id_max": 9136521,
+    "original_first_record_id": 2,
+    "original_last_record_id": 9136521,
+    "original_first_utc": "2023-01-23 02:19:15",
+    "original_last_utc": "2023-03-02 21:58:21",
+    "original_backward_timestamp_jumps": 3
+  },
+  "laboratory": {
+    "lat_deg": 42.129,
+    "lon_deg": -83.144,
+    "alt_m": 213.36
+  },
+  "cmb": {
+    "speed_m_s": 930825.2172705192,
+    "vector_m_s": [
+      -880221.981635,
+      -143911.436562,
+      266335.026949
+    ],
+    "translation_per_sidereal_day_m": 80203708289.2792
+  },
+  "multiscale_findings": {
+    "stable_sidereal_amplitudes_pulse_w": {
+      "epoch_A": 546.3413304140366,
+      "epoch_B": 469.8210992718065
+    },
+    "stable_sidereal_explained_fraction": {
+      "epoch_A": 0.3757245519506086,
+      "epoch_B": 0.41383704417437983
+    },
+    "daily_state_centroid_correlation": -0.7620393346266897,
+    "daily_state_transitions": 27,
+    "coordinated_multiscale_reversals": 203,
+    "carrier_hours": {
+      "16p5_A": 16.516947034092816,
+      "16p5_B": 16.477044593646035,
+      "13_A": 13.289022927019754,
+      "13_B": 13.013142129461237
+    }
+  },
+  "sidereal_matrix": {
+    "schema": "D101.sidereal_7day_2d_analysis.v1",
+    "matrix_shape_full_resolution": [
+      120,
+      86164
+    ],
+    "analysis_shape_phase_downsampled": [
+      120,
+      2048
+    ],
+    "strict_rows_ge_99pct": 64,
+    "strict_runs": [
+      {
+        "start": 7,
+        "end": 12,
+        "length": 6
+      },
+      {
+        "start": 20,
+        "end": 35,
+        "length": 16
+      },
+      {
+        "start": 62,
+        "end": 78,
+        "length": 17
+      },
+      {
+        "start": 87,
+        "end": 111,
+        "length": 25
+      }
+    ],
+    "cmb_translation_per_sidereal_day_m": 80203708289.2792,
+    "cmb_span_between_first_and_last_sample_in_each_sum_m": 481222249735.67523,
+    "median_direct_7day_profile_correlation": 0.15182867120900706,
+    "direct_7day_profile_correlation_p10": -0.24383432463175145,
+    "direct_7day_profile_correlation_p90": 0.823602392395698,
+    "median_measured_snr_gain": 2.45729582709854,
+    "median_adjacent_stack_corr_after_temp": 0.7458401856831712,
+    "median_adjacent_delta7_corr": 0.02399586534097183,
+    "max_rectilinear_significance_runs": 4,
+    "min_rectilinear_surrogate_p": 0.009900990099009901,
+    "min_palindrome_surrogate_p": 0.1782178217821782,
+    "min_antipalindrome_surrogate_p": 0.009900990099009901,
+    "phase_reversal_event_count": 11
+  },
+  "event_phase_resolution": {
+    "degrees": 0.17578125,
+    "seconds": 42.07230982950824
+  },
+  "fixed_event_phases_deg": {
+    "cmb_advancing": 272.429391,
+    "cmb_retreating": 92.42939100000001,
+    "galactic_center": 349.5491,
+    "galactic_anticenter": 169.5491
+  },
+  "event_locked_modes": [
+    {
+      "event_pair": "solar_transit / solar_midnight",
+      "harmonic_cycles_per_sidereal_day": 8,
+      "chirality_drift_deg_per_row": 4,
+      "row_frequency_cycles_per_row": 0.0888888888888888,
+      "row_period_sidereal_days": 11.250000000000012,
+      "cmb_translation_wavelength_m": 902291718254.392,
+      "run3_chirality_difference": 0.3958773535928205,
+      "run4_chirality_difference": 0.3923534524467254,
+      "interpretation": "solar transit is more forward-handed than solar midnight"
+    },
+    {
+      "event_pair": "solar_transit / solar_midnight",
+      "harmonic_cycles_per_sidereal_day": 8,
+      "chirality_drift_deg_per_row": 8,
+      "row_frequency_cycles_per_row": 0.1777777777777777,
+      "row_period_sidereal_days": 5.625000000000003,
+      "cmb_translation_wavelength_m": 451145859127.1957,
+      "run3_chirality_difference": 0.4806448948240613,
+      "run4_chirality_difference": 0.3840370705665025,
+      "interpretation": "solar transit is more forward-handed than solar midnight"
+    },
+    {
+      "event_pair": "lunar_upper / lunar_lower",
+      "harmonic_cycles_per_sidereal_day": 8,
+      "chirality_drift_deg_per_row": 4,
+      "row_frequency_cycles_per_row": 0.0888888888888888,
+      "row_period_sidereal_days": 11.250000000000012,
+      "cmb_translation_wavelength_m": 902291718254.392,
+      "run3_chirality_difference": -0.5763083272896956,
+      "run4_chirality_difference": -0.237879487999208,
+      "interpretation": "lunar upper transit is more backward-handed than lunar lower transit"
+    },
+    {
+      "event_pair": "lunar_upper / lunar_lower",
+      "harmonic_cycles_per_sidereal_day": 8,
+      "chirality_drift_deg_per_row": 8,
+      "row_frequency_cycles_per_row": 0.1777777777777777,
+      "row_period_sidereal_days": 5.625000000000003,
+      "cmb_translation_wavelength_m": 451145859127.1957,
+      "run3_chirality_difference": -0.4689699784962696,
+      "run4_chirality_difference": -0.3571461950813491,
+      "interpretation": "lunar upper transit is more backward-handed than lunar lower transit"
+    },
+    {
+      "event_pair": "galactic_center / galactic_anticenter",
+      "harmonic_cycles_per_sidereal_day": 16,
+      "chirality_drift_deg_per_row": 2,
+      "row_frequency_cycles_per_row": 0.0888888888888888,
+      "row_period_sidereal_days": 11.250000000000012,
+      "cmb_translation_wavelength_m": 902291718254.392,
+      "run3_chirality_difference": -1.0121100016991444,
+      "run4_chirality_difference": -0.5813782942388123,
+      "interpretation": "Galactic-center culmination is more backward-handed than anticenter culmination"
+    },
+    {
+      "event_pair": "galactic_center / galactic_anticenter",
+      "harmonic_cycles_per_sidereal_day": 16,
+      "chirality_drift_deg_per_row": 4,
+      "row_frequency_cycles_per_row": 0.1777777777777777,
+      "row_period_sidereal_days": 5.625000000000003,
+      "cmb_translation_wavelength_m": 451145859127.1957,
+      "run3_chirality_difference": -0.8687770585818624,
+      "run4_chirality_difference": -0.6823507760384484,
+      "interpretation": "Galactic-center culmination is more backward-handed than anticenter culmination"
+    },
+    {
+      "event_pair": "cmb_advancing / cmb_retreating",
+      "harmonic_cycles_per_sidereal_day": 24,
+      "chirality_drift_deg_per_row": 2,
+      "row_frequency_cycles_per_row": 0.1333333333333333,
+      "row_period_sidereal_days": 7.500000000000002,
+      "cmb_translation_wavelength_m": 601527812169.5942,
+      "run3_chirality_difference": 0.4318762742825993,
+      "run4_chirality_difference": 0.3836749608082083,
+      "interpretation": "CMB advancing culmination is more forward-handed than retreating culmination"
+    }
+  ],
+  "source_files": {
+    "raw_archive": {
+      "path": "/mnt/data/d101.zip",
+      "sha256": "af6ed8624147a7c78a65c187446d6effe7737be78ba703c41b44902694f47cab"
+    },
+    "minute_series": {
+      "path": "/mnt/data/d101_analysis/minute_series.csv",
+      "sha256": "1503e8f2138f596c5bd105efe686bf8731f6464c9a99dc058edb7ee5b448d9f4"
+    },
+    "sidereal_hdf5": {
+      "path": "/mnt/data/d101_sidereal_7day_study/D101_sidereal_7day_study.h5",
+      "sha256": "eb5e69cb6863ab39147c80ad6b57b8758d5bdf414253106d3bc51b55cb7c734c"
+    },
+    "event_phase_ledger": {
+      "path": "/mnt/data/d101_sidereal_event_chirality_study/tables/daily_event_phase_ledger.csv",
+      "sha256": "6bfd1d08be61de14d3a82a64ef6a9f91cbedbe228a4841f4d260f2f73a1c8622"
+    },
+    "event_locked_modes": {
+      "path": "/mnt/data/d101_sidereal_event_chirality_study/tables/discrete_event_locked_chiral_modes.csv",
+      "sha256": "974cf4ca68cb65a754ec0fbdaa747d9e5de38f988e3e5c00139cb7b1cd914629"
+    },
+    "native_fft_peaks": {
+      "path": "/mnt/data/d101_sidereal_7day_fft_wavelet_study/tables/full_resolution_fft2_peaks_by_harmonic_band.csv",
+      "sha256": "3a04f6b0a7e1bd71c538761f956cfa900e7a858abcaf3acb25f53f42419b798d"
+    }
+  },
+  "empirical_conclusion": "The D101 differential oscillator record contains discrete, bidirectional chiral frequency-modulation families organized in sidereal phase and repeatedly indexed by solar, lunar, Galactic, and CMB-related event pairs.",
+  "structural_inference": "The orthogonal oscillator pair acts as a differential directional probe. The minimum sufficient mechanism class is an anisotropic external coupling with inertial-frame organization, nonlinear or higher-rank angular response, and spatial or temporal phase progression along the Earth worldline.",
+  "figures": [
+    {
+      "filename": "00_title_composite.jpg",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/00_title_composite.jpg",
+      "sha256": "6d7b3876d1df9693c559fc30448e38dd88e4533a6446b2a4ebb92c859e2a32f9"
+    },
+    {
+      "filename": "01_device_architecture.png",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/01_device_architecture.png",
+      "sha256": "7456706c4c8cbbedd437e35ffceab053f22788d54336a3ab6b886f086b758fae"
+    },
+    {
+      "filename": "07_fractional_frequency_proxy.png",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/07_fractional_frequency_proxy.png",
+      "sha256": "60e5c7fb81c7fc75c9513d37a8acf5fab87196775ed0e203087f06ad0e98c4c5"
+    },
+    {
+      "filename": "01_archive_timeline.png",
+      "source_path": "/mnt/data/d101_analysis/figures/01_archive_timeline.png",
+      "sha256": "9e170ff9a00c01d7fb571fac8b2431e19b8e3908cf1da602d736f8936120f8da"
+    },
+    {
+      "filename": "02_temperature_timeline.png",
+      "source_path": "/mnt/data/d101_analysis/figures/02_temperature_timeline.png",
+      "sha256": "864eae8344e612c3f47a82e40105e3ef3ba9eeb81df546865dd75d44911b96fa"
+    },
+    {
+      "filename": "03_multiscale_moving_mean.png",
+      "source_path": "/mnt/data/d101_analysis/figures/03_multiscale_moving_mean.png",
+      "sha256": "2e1c676771a93bb25863e89dce16e09d2423fc52c7d593a25730b2466a8e6267"
+    },
+    {
+      "filename": "04_multiscale_moving_std.png",
+      "source_path": "/mnt/data/d101_analysis/figures/04_multiscale_moving_std.png",
+      "sha256": "cbcae410af55a85afb7bae0b5b2cf77d77935e8613dc86a8ee51f4ab997a0909"
+    },
+    {
+      "filename": "05_stable_detrended_waveform.png",
+      "source_path": "/mnt/data/d101_analysis/figures/05_stable_detrended_waveform.png",
+      "sha256": "9ff85e136075ec3fbb2b6e5fbfbef1b66989f7886b739fbc6347db1da16b54a9"
+    },
+    {
+      "filename": "06_sidereal_state_centroids.png",
+      "source_path": "/mnt/data/d101_analysis/figures/06_sidereal_state_centroids.png",
+      "sha256": "86a51028ca3932bdf4b883c55a575280bd34dcc18ea6f12c7ada22467645d75b"
+    },
+    {
+      "filename": "07_sidereal_state_sequence.png",
+      "source_path": "/mnt/data/d101_analysis/figures/07_sidereal_state_sequence.png",
+      "sha256": "f28ed30273575664d083a38938cbf222a0a74e24e2f83178047d18831ac52bf3"
+    },
+    {
+      "filename": "08_daily_period_scan.png",
+      "source_path": "/mnt/data/d101_analysis/figures/08_daily_period_scan.png",
+      "sha256": "b9ff098a69a68bb402d266045131ef114d4e635c62673e6de084bf1c1cc03a4b"
+    },
+    {
+      "filename": "02_actual_seven_day_construction.png",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/02_actual_seven_day_construction.png",
+      "sha256": "21ba6ede7d2da54c7af78452864e4c540356247fa3b14af59de09ec131547b8d"
+    },
+    {
+      "filename": "08_seven_day_comb_response.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_study/figures/08_seven_day_comb_response.png",
+      "sha256": "3030f1b518a819abee4c76e223842e28f71f1a0aa962afdff39ce5f44873129d"
+    },
+    {
+      "filename": "01_matrix_coverage.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_study/figures/01_matrix_coverage.png",
+      "sha256": "4cd116ebf7db73bd743b135b31635e4da675c199efe5792490996aa44919d08a"
+    },
+    {
+      "filename": "03_run_3_62_78_stack_heatmap.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_study/figures/03_run_3_62_78_stack_heatmap.png",
+      "sha256": "861c4c38967dbd62b2de71e214a4a22732f873c26f0c3ef1ac6306876ddf3800"
+    },
+    {
+      "filename": "03_run_4_87_111_stack_heatmap.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_study/figures/03_run_4_87_111_stack_heatmap.png",
+      "sha256": "7539219e85008952a2a88ee03fb98387c0664bf1ba3b91baeded437d0ed2f8b1"
+    },
+    {
+      "filename": "05_svd_spectrum.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_study/figures/05_svd_spectrum.png",
+      "sha256": "734245bc070a235ebc614504403dd710e5f7a3cf06ceda4e1a8ed815f54fb13e"
+    },
+    {
+      "filename": "fft2_run_3_62_78_stack.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_fft_wavelet_study/figures/fft2_run_3_62_78_stack.png",
+      "sha256": "6d7becc44966fc121520806b6d70e7bc59db32249b38a4540e525f63dd1eb203"
+    },
+    {
+      "filename": "fft2_run_4_87_111_stack.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_fft_wavelet_study/figures/fft2_run_4_87_111_stack.png",
+      "sha256": "475afbcbd5972899b3c9f422f310909160235471e4424875d88668222011d407"
+    },
+    {
+      "filename": "wavelet_map_run_3_62_78_stack_morlet.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_fft_wavelet_study/figures/wavelet_map_run_3_62_78_stack_morlet.png",
+      "sha256": "704136ddd8c12bca30bfecf93244014f081af36184a79058de893adab8dcc901"
+    },
+    {
+      "filename": "wavelet_map_run_4_87_111_stack_morlet.png",
+      "source_path": "/mnt/data/d101_sidereal_7day_fft_wavelet_study/figures/wavelet_map_run_4_87_111_stack_morlet.png",
+      "sha256": "950e082d943c95f7307be2bbdf3a443ba86e52bf4f4274866b0787e934c9eb06"
+    },
+    {
+      "filename": "run_3_62_78_chirality_heatmap.png",
+      "source_path": "/mnt/data/d101_fft_of_fft_analysis/figures/run_3_62_78_chirality_heatmap.png",
+      "sha256": "5a65371f882b619d026f41bef6f28057fc07ffafc7cfe982b6da3859802204d2"
+    },
+    {
+      "filename": "run_4_87_111_chirality_heatmap.png",
+      "source_path": "/mnt/data/d101_fft_of_fft_analysis/figures/run_4_87_111_chirality_heatmap.png",
+      "sha256": "a1ef066c4795e32886f9808f358d644638480a8ba8c1c9e42a4aa436ae6cc517"
+    },
+    {
+      "filename": "run_3_62_78_dharm_fft_of_fft_heatmap.png",
+      "source_path": "/mnt/data/d101_fft_of_fft_analysis/figures/run_3_62_78_dharm_fft_of_fft_heatmap.png",
+      "sha256": "b5e3e34d5113dbb7183adec0bee8a5dd88334ecc0781aa6655fb830524c9fdf1"
+    },
+    {
+      "filename": "run_4_87_111_dharm_fft_of_fft_heatmap.png",
+      "source_path": "/mnt/data/d101_fft_of_fft_analysis/figures/run_4_87_111_dharm_fft_of_fft_heatmap.png",
+      "sha256": "d80c51c04fb3e32490e66d52c252d8d83d27b7a23ef8f5d4a54737c8f04a6787"
+    },
+    {
+      "filename": "run_3_62_78_chirality_fft_of_fft_heatmap.png",
+      "source_path": "/mnt/data/d101_fft_of_fft_analysis/figures/run_3_62_78_chirality_fft_of_fft_heatmap.png",
+      "sha256": "83c5271f05297b51b0f41124b084a7d6eba2016f1cc204577b95b95aed52fc02"
+    },
+    {
+      "filename": "run_4_87_111_chirality_fft_of_fft_heatmap.png",
+      "source_path": "/mnt/data/d101_fft_of_fft_analysis/figures/run_4_87_111_chirality_fft_of_fft_heatmap.png",
+      "sha256": "bef2da218aa639e6fd91067e819aa0977d606dc4149a81f4354224d8a9b398c7"
+    },
+    {
+      "filename": "03_celestial_event_transits.png",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/03_celestial_event_transits.png",
+      "sha256": "f7481b644f54e08c26c4ed992214ed2aacec282cfb56cec8f8a2c5f2a07985ab"
+    },
+    {
+      "filename": "run_3_62_78_solar_lunar_11p25row_chirality_events.png",
+      "source_path": "/mnt/data/d101_sidereal_event_chirality_study/figures/run_3_62_78_solar_lunar_11p25row_chirality_events.png",
+      "sha256": "2cd11326ec81bb84cc2bf15a5899b5695a40583764affa425b136cf876b02c75"
+    },
+    {
+      "filename": "run_4_87_111_solar_lunar_11p25row_chirality_events.png",
+      "source_path": "/mnt/data/d101_sidereal_event_chirality_study/figures/run_4_87_111_solar_lunar_11p25row_chirality_events.png",
+      "sha256": "74135a82858c6b1cc4477978f53fcea3db3ac1d9fea7a3f5afb83670d6d71d61"
+    },
+    {
+      "filename": "run_3_62_78_galactic_11p25row_chirality_events.png",
+      "source_path": "/mnt/data/d101_sidereal_event_chirality_study/figures/run_3_62_78_galactic_11p25row_chirality_events.png",
+      "sha256": "dc26dec6268e7a80dbd0e2b913c930dd8f4f55249443782843389dd75445ec5e"
+    },
+    {
+      "filename": "run_4_87_111_cmb_7p5row_chirality_events.png",
+      "source_path": "/mnt/data/d101_sidereal_event_chirality_study/figures/run_4_87_111_cmb_7p5row_chirality_events.png",
+      "sha256": "9b29b3eb41fdf87c7b353242385ce354c2314aca7562ea0cc209812164a4d9bf"
+    },
+    {
+      "filename": "04_discrete_chiral_mode_lattice.png",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/04_discrete_chiral_mode_lattice.png",
+      "sha256": "19d1982dcf93328098510077b10e94c53e2fbcb64d833fa7841b2a7ec90376b3"
+    },
+    {
+      "filename": "05_event_chirality_contrasts.png",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/05_event_chirality_contrasts.png",
+      "sha256": "544aa7331fdec4d34667fc2dd9dd38490e5849ab9d8e98d2e846a83ae8456519"
+    },
+    {
+      "filename": "06_cmb_translation_scale_ladder.png",
+      "source_path": "/mnt/data/d101_final_report_assets_1786028011/06_cmb_translation_scale_ladder.png",
+      "sha256": "4a56ff6e79c57e1c063c7f33911b9fad50ffba379000577eb6f4689bf9d7ed9c"
+    }
+  ]
+}
