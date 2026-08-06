@@ -1,0 +1,5358 @@
+{
+  "schema": "krytronx.k_field.counter_rotating_antipodal_doublet.v1",
+  "document": {
+    "title": "K-Field Counter-Rotating System Is an Antipodal Doublet",
+    "subtitle": "Antipodal parity, unequal specific areal inertia, residual lateral force, Cell3 inversion eigenspaces, and multiscale geometric response",
+    "principal_investigator": "P. Dwayne Esterline",
+    "credentials": [
+      "BS 1999 Huntington University",
+      "MBA 2008 Indiana Wesleyan University"
+    ],
+    "organization": "Krytronx, LLC",
+    "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+    "generation_utc": "2026-07-27T19:16:48.621011Z",
+    "generation_epoch": 1785179808,
+    "pdf_filename": "K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.pdf",
+    "json_filename": "K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.json",
+    "generator": "Python ReportLab with built-in core fonts only; figures generated numerically with Matplotlib"
+  },
+  "source_manifest": [
+    {
+      "role": "concentric_rotor_source",
+      "filename": "K-Field_concentric_rotor_lateral_force_analysis_1785171858(1).json",
+      "sha256": "854bf593256b5ee18ca02a65eb1f202a449266b815314b39fbacbf7588e28673",
+      "bytes": 765870
+    },
+    {
+      "role": "mass_bridge_source",
+      "filename": "K-Field_Compton_classical_radius_Mass_Bridge_triangle_1785175483(1).json",
+      "sha256": "9301e9108b98c848a14a188b0858a81a7509b53e02cd5de4a255fe8a0a0ece93",
+      "bytes": 42979
+    },
+    {
+      "role": "antipodal_theorem_source",
+      "filename": "K-Native_Cell3_antipodal_sphere_theorem1784492216(3).json",
+      "sha256": "2c6331de64d582f58b287f8bda04ca2cf90e70e7eae1c1d463b5f1ec8cfa5005",
+      "bytes": 14664
+    }
+  ],
+  "assimilation_protocol": {
+    "random_seed": 1785179267,
+    "entry_points_total": 120,
+    "entry_points_per_source": 40,
+    "distinct_structural_nodes_in_registry": 475,
+    "anchors": [
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/52",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/67",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/107",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/inertia",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/22",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/units/volume",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/92",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/149",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/64",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/113",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/radius_ratio_inner_over_outer",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/83",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/105",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata",
+        "type": "dict",
+        "size": 11
+      },
+      {
+        "source": "rotor",
+        "path": "/worked_input/inner/beta",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/16",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/103",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_radius_ratio/force_ratio_inner_over_outer",
+        "type": "list",
+        "size": 181
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/85",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/lengths/a",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/4",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/106",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/outer_energy_J",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/rotational_energy",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes",
+        "type": "dict",
+        "size": 8
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/generation_utc",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/88",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/ABC",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/155",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/80",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_force_vs_L/net_force_N",
+        "type": "list",
+        "size": 121
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/maximal_force",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/7",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/signed_total_angular_momentum_kg_m2_s",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/time_profile/description",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/reaction_energy_ratio",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state/net_force_N",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/68",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/angles_deg/ab",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/65",
+        "type": "list",
+        "size": 140
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/15/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23/j",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/at_reciprocal_compton_R_equals_eta/K_response_null",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge",
+        "type": "dict",
+        "size": 8
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/3/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/kfield_corpus",
+        "type": "dict",
+        "size": 5
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/parity_demo/sample_phi_plus",
+        "type": "list",
+        "size": 301
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/schema",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13",
+        "type": "dict",
+        "size": 7
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/j",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/nm_xyz",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants",
+        "type": "dict",
+        "size": 9
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/document/credentials",
+        "type": "list",
+        "size": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/face_areas_native/A_ac",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/6/j",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb",
+        "type": "dict",
+        "size": 16
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/20/nm_xyz",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/electron_reduced_compton_m",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16/i",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/electron_compton_m",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11/address",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/i",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/25/j",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/native_xyz",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17",
+        "type": "dict",
+        "size": 7
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/document/created_utc",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/j",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12",
+        "type": "dict",
+        "size": 7
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions",
+        "type": "dict",
+        "size": 5
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/9/native_xyz",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/6/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/14/k",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16/k",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/vertices_native/011",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/fundamental_constants/source",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/19/address",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/exploratory_closure/trial_eta_self_seeded_with_raw_prediction",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/native_xyz",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/18/study",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/11",
+        "type": "dict",
+        "size": 5
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/23/chi",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/basis_icrs_columns_abc_decimal/0",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/n",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/12",
+        "type": "dict",
+        "size": 5
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/2/lambda",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/publication_epoch",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/basis_icrs_columns_abc_decimal/1",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/circle_corollary/proof_core",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/determinant_native_cubed",
+        "type": "float",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/2/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/20/lambda",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24/L",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/20/study",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/15/L",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/0/filename",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/6",
+        "type": "dict",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/q_n_native_squared",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/0/title",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems",
+        "type": "dict",
+        "size": 4
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/1/filename",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/shell_multiplicity_distribution",
+        "type": "dict",
+        "size": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/5/filename",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/9/study",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/delta_r_x_cell_steps",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/10/L",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24/lambda",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/8/L",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/6/title",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/2",
+        "type": "dict",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/26/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/13/chi",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/0/id",
+        "type": "int",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/17/L",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/25/study",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/26/study",
+        "type": "list",
+        "size": 3
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/finite_domain_certificate",
+        "type": "dict",
+        "size": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/25/kind",
+        "type": "str",
+        "size": null
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/4/id",
+        "type": "int",
+        "size": null
+      }
+    ],
+    "coverage_registry": [
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/circle_corollary/proof_core",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/7",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/103",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/document/credentials",
+        "type": "list",
+        "size": 2,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/parity_demo/sample_phi_plus",
+        "type": "list",
+        "size": 301,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/n",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/2/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/14/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/15/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/0/filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/113",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/26/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/basis_icrs_columns_abc_decimal/1",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/at_reciprocal_compton_R_equals_eta/K_response_null",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/finite_domain_certificate",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/determinant_native_cubed",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/6/title",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/1/filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/15/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/9/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/106",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/52",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes",
+        "type": "dict",
+        "size": 8,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/12",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/68",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/publication_epoch",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_radius_ratio/force_ratio_inner_over_outer",
+        "type": "list",
+        "size": 181,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/6/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/time_profile/description",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/6/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/19/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/80",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/11",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/5/filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/exploratory_closure/trial_eta_self_seeded_with_raw_prediction",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/107",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/20/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/electron_reduced_compton_m",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/83",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/basis_icrs_columns_abc_decimal/0",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/fundamental_constants/source",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/92",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/18/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/reaction_energy_ratio",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/20/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/lengths/a",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/units/volume",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/8/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/25/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/16",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/3/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/2/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/q_n_native_squared",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/schema",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/105",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/10/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/25/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/23/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/20/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/maximal_force",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/4",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/65",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants",
+        "type": "dict",
+        "size": 9,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb",
+        "type": "dict",
+        "size": 16,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/64",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/electron_compton_m",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/25/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/2",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems",
+        "type": "dict",
+        "size": 4,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/shell_multiplicity_distribution",
+        "type": "dict",
+        "size": 1,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/vertices_native/011",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/kfield_corpus",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/26/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/149",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/88",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/17/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/9/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/signed_total_angular_momentum_kg_m2_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_force_vs_L/net_force_N",
+        "type": "list",
+        "size": 121,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/6",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/85",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/155",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/0/title",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/radius_ratio_inner_over_outer",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata",
+        "type": "dict",
+        "size": 11,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/generation_utc",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/face_areas_native/A_ac",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge",
+        "type": "dict",
+        "size": 8,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/rotational_energy",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/worked_input/inner/beta",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/ABC",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/0/id",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/13/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/angles_deg/ab",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/22",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state/net_force_N",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/delta_r_x_cell_steps",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/4/id",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/inertia",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/67",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/outer_energy_J",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/document/created_utc",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 0
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/",
+        "type": "dict",
+        "size": 13,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/generator",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/c_m_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/title",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/eta_geometry_1000_A_bc_over_A_ab",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/worked_input/inner",
+        "type": "dict",
+        "size": 6,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/S_K",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/19",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii",
+        "type": "dict",
+        "size": 13,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/post_common_scale_relative_residuals",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/at_reciprocal_compton_R_equals_eta",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/kfield_corpus/cell_geometry",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/principal_investigator",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/G_phase_V_E_m_s",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/9",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/kfield_corpus/reported_S_CMB",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/AB",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/17",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/face_areas_native",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/speed_m_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/finite_domain_certificate/margin",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/5",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/relative_residuals",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/beta",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/pdf_filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/C",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/h_J_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/13",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/B",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/f_K",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/11/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/25",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/exploratory_closure",
+        "type": "dict",
+        "size": 8,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/pdf_sha256",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_radius_ratio",
+        "type": "dict",
+        "size": 4,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/14",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/classical_electron_radius_m",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/6/filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius",
+        "type": "list",
+        "size": 160,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/classification",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/alpha",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/12/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/4",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/O",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/proton_de_broglie_m",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/12/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/2",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/12/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/time_profile",
+        "type": "dict",
+        "size": 8,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/kfield_corpus/G_phase_times_V_E_m_s",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/common_A_bc_scale_factor",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/equal_energy",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/1",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/26",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/11/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair",
+        "type": "dict",
+        "size": 12,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/G_phase_V_E_magnitude_m_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/K_response_null",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/reported_S_CMB",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes",
+        "type": "list",
+        "size": 27,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state",
+        "type": "dict",
+        "size": 11,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/sqrt11_times_reported_S_CMB",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/eta_alpha_known",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/circle_corollary",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/m_e_kg",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/9",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/gamma",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/two_antipode_sphere_intersection",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/hbar_J_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/10",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/G_phase_V_E_unit",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/BC",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/angles_deg",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/universal_de_broglie_to_compton_ratio",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/kfield_corpus/directional_factor_f_K",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/electron_de_broglie_m",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/18",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/6",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/fundamental_constants",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell",
+        "type": "dict",
+        "size": 9,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/12/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/20",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales",
+        "type": "dict",
+        "size": 11,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/json_filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/vertices_native",
+        "type": "dict",
+        "size": 8,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/20",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/lengths",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/basis_icrs_columns_abc_decimal",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/rational_independence_sufficient_condition",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/proton_electron_mass_ratio_eta",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_force_vs_L",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/23",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/R_definition",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/25",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/A",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures",
+        "type": "list",
+        "size": 8,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/projective_correspondence",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/angular_momentum_null",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/0",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/11/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/3",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/11/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/finite_domain_certificate/criterion",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/credentials",
+        "type": "list",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/8",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/cross_geometry_10_A_ac_over_A_ab",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/17/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/alpha_inverse",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/de_broglie_ratio",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/13/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/document",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/parity_demo",
+        "type": "dict",
+        "size": 6,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes",
+        "type": "list",
+        "size": 27,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/2/filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/shell_multiplicity_distribution/2",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/15",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/nodes/AC",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/12/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state",
+        "type": "dict",
+        "size": 12,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/2/id",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/generation_epoch",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/alpha_inverse_geometry_100_A_bc_over_A_ac",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/15",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/sqrt11_times_S_K",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/units",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/weaker_ratio_to_10_over_9",
+        "type": "dict",
+        "size": 2,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/6/id",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/12/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/fundamental_constants/m_p_kg",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/11/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/sources/kfield_corpus/earth_cmb_speed_m_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/",
+        "type": "dict",
+        "size": 18,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/metadata/organization",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "rotor",
+        "path": "/",
+        "type": "dict",
+        "size": 11,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/2/title",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 1
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/18/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/132",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/basis_icrs_columns_abc_decimal/2",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/134",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/gram_metric_native_squared_decimal",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/8",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/inner_energy_J",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/22",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/157",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/two_antipode_sphere_intersection/assumption",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/127",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/q_m_native_squared",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/59",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/pair_force",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/definitions",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/native_convention",
+        "type": "dict",
+        "size": 4,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/108",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/separation_to_uncertainty_ratio",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/36",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/proton_rest_energy_J",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/125",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/15",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/vertices_native/101",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/109",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/vector_force",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/99",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/interpretation",
+        "type": "dict",
+        "size": 4,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/30",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/14/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/vertices_native/110",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/15/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/worked_input/inner/mass_kg",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/18/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/2",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/edge_lengths_native",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/2",
+        "type": "dict",
+        "size": 7,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/69",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/two_antipode_sphere_intersection/statement",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/status",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/face_areas_native/A_bc",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/2/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/25/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/112",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/63",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/counter_rotor/balance_conditions/at_reciprocal_compton_R_equals_eta/equal_energy",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/133",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/11",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/75",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/9/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/proton_compton_m",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/53",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/18",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/cell_volume",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/24",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/r_n_x_cell_steps",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/20/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/units/length",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/1",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/21",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/q_uncertainty_bound_n",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/force_ratio_inner_to_outer",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/pdf_filename",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/15/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/8/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_force_vs_L/L_kg_m2_s",
+        "type": "list",
+        "size": 121,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/exploratory_closure/relative_residual_using_CODATA_eta_in_factor",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/137",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/48",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/9",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/reaction_constraint",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/20/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state/signed_total_angular_momentum_kg_m2_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/outer_force_N",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/3",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/document/classification",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/148",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/non_antipodal_equal_radius_shells",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/31",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/44",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/base_cell/angles_deg/bc",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/9/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/15/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/96",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/14",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/sha256_excluding_sha256",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/25/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/5",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/87",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/19/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/50",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/12",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_radius_ratio/q_outer_over_inner",
+        "type": "list",
+        "size": 181,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/equal_energy_speed_ratio",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/38",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/47",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/9/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/r_m_x_cell_steps",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/6",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16/address",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/146",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/9/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/104",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/78",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/principal_findings",
+        "type": "list",
+        "size": 6,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/classification",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/10/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/mass_bridge/post_common_scale_relative_residuals/alpha_inverse",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/26",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/54",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/73",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state/outer_force_N",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/parity_demo/sample_phi_sum",
+        "type": "list",
+        "size": 301,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/17/study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/basis_study_columns_abc_decimal",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/1/title",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/77",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/proton_compton_frequency_Hz",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/14/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/closest_shell_pair/delta_q_native_squared",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/5",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/cell3/study_rotation_Q_icrs_from_study",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/111",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/exploratory_closure/reduced_mass_factor",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/19",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/93",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/35",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/time_profile/L_kg_m2_s",
+        "type": "list",
+        "size": 501,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/reaction_radius_ratio/asymmetry_index",
+        "type": "list",
+        "size": 181,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/15/k",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/26/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/time_profile/lateral_impulse_N_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/16/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/known_physics_scales/electron_compton_wavenumber_m_inv",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/100",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state/inner_force_N",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/23/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/3",
+        "type": "dict",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/finite_domain_result/centers_in_range",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/140",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/33",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/86",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/20/L",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/116",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/15/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/25/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/document/title",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/theorems/two_antipode_sphere_intersection/proof_steps",
+        "type": "list",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/time_profile/inner_rpm",
+        "type": "list",
+        "size": 501,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/14/nm_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/17",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/schema",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/reaction_only_state/net_force_N",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/coordinate_and_field_inputs",
+        "type": "dict",
+        "size": 8,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/14",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/37",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/45",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state/inner_angular_momentum_kg_m2_s",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/23/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/time_profile/time_s",
+        "type": "list",
+        "size": 501,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/29",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/26/lambda",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3",
+        "type": "dict",
+        "size": 12,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/43",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/17/chi",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/parity_demo/sample_phi_minus",
+        "type": "list",
+        "size": 301,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/equal_energy_state/outer_energy_J",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/face_areas_native/A_ab",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/20",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/13/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/earth_cmb/weaker_ratio_to_10_over_9/value",
+        "type": "float",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/90",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/23/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/19/i",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/vertices_native/111",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/governing_equations_ascii/angular_momentum",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/11/native_xyz",
+        "type": "list",
+        "size": 3,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/156",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/23",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "mass_bridge",
+        "path": "/cell3/centered_half_step_nodes/15/j",
+        "type": "int",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/24/kind",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/0",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/143",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "rotor",
+        "path": "/sweeps/equal_energy_surface/force_ratio_matrix_rows_mass_columns_radius/84",
+        "type": "list",
+        "size": 140,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/lucas_nodes/1",
+        "type": "dict",
+        "size": 5,
+        "anchor_distance": 2
+      },
+      {
+        "source": "antipodal_theorem",
+        "path": "/figures/5/title",
+        "type": "str",
+        "size": null,
+        "anchor_distance": 2
+      }
+    ]
+  },
+  "authoritative_inputs": {
+    "cell3": {
+      "canonical_basis_columns_abc_native": [
+        [
+          0.0207970587,
+          0.0038568161200188576,
+          0.008182284383943805
+        ],
+        [
+          0.0,
+          0.03628983304723335,
+          0.03076238238041844
+        ],
+        [
+          0.0,
+          0.0,
+          0.03765714717709702
+        ]
+      ],
+      "gram_matrix_native_squared": [
+        [
+          0.00043251765057124563,
+          8.021043124313843e-05,
+          0.00017016744863297266
+        ],
+        [
+          8.021043124313843e-05,
+          0.0013318270131797072,
+          0.0011479192870311112
+        ],
+        [
+          0.00017016744863297266,
+          0.0011479192870311112,
+          0.0024313346809763554
+        ]
+      ],
+      "edge_lengths_native": [
+        0.0207970587,
+        0.036494205200000004,
+        0.04930856599999999
+      ],
+      "angles_deg": {
+        "ab": 83.933483,
+        "ac": 80.44813,
+        "bc": 50.36323199999999
+      },
+      "face_areas_native_squared": {
+        "ab": 0.0007547217880965119,
+        "ac": 0.0010112557556790603,
+        "bc": 0.0013857844409095382
+      },
+      "volume_native_cubed": 2.8420669452112152e-05,
+      "vertices_native": {
+        "O": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "A": [
+          0.0207970587,
+          0.0,
+          0.0
+        ],
+        "B": [
+          0.0038568161200188576,
+          0.03628983304723335,
+          0.0
+        ],
+        "C": [
+          0.008182284383943805,
+          0.03076238238041844,
+          0.03765714717709702
+        ],
+        "AB": [
+          0.024653874820018858,
+          0.03628983304723335,
+          0.0
+        ],
+        "AC": [
+          0.028979343083943804,
+          0.03076238238041844,
+          0.03765714717709702
+        ],
+        "BC": [
+          0.012039100503962664,
+          0.06705221542765179,
+          0.03765714717709702
+        ],
+        "ABC": [
+          0.03283615920396266,
+          0.06705221542765179,
+          0.03765714717709702
+        ]
+      },
+      "centered_half_step_nodes": [
+        {
+          "address": "-1,-1,-1",
+          "i": -1,
+          "j": -1,
+          "k": -1,
+          "kind": "corner",
+          "native_xyz": [
+            -0.01641807960198133,
+            -0.033526107713825894,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.2638156015130371,
+            -0.5387177116528582,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "-1,-1,+0",
+          "i": -1,
+          "j": -1,
+          "k": 0,
+          "kind": "edge center",
+          "native_xyz": [
+            -0.012326937410009429,
+            -0.018144916523616675,
+            0.0
+          ],
+          "nm_xyz": [
+            -0.19807666222075948,
+            -0.2915634582807173,
+            0.0
+          ]
+        },
+        {
+          "address": "-1,-1,+1",
+          "i": -1,
+          "j": -1,
+          "k": 1,
+          "kind": "corner",
+          "native_xyz": [
+            -0.008235795218037526,
+            -0.0027637253334074543,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.1323377229284818,
+            -0.04440920490857635,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "-1,+0,-1",
+          "i": -1,
+          "j": 0,
+          "k": -1,
+          "kind": "edge center",
+          "native_xyz": [
+            -0.014489671541971902,
+            -0.01538119119020922,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.232828778166622,
+            -0.24715425337214092,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "-1,+0,+0",
+          "i": -1,
+          "j": 0,
+          "k": 0,
+          "kind": "face center",
+          "native_xyz": [
+            -0.01039852935,
+            0.0,
+            0.0
+          ],
+          "nm_xyz": [
+            -0.16708983887434437,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "address": "-1,+0,+1",
+          "i": -1,
+          "j": 0,
+          "k": 1,
+          "kind": "edge center",
+          "native_xyz": [
+            -0.006307387158028097,
+            0.01538119119020922,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.10135089958206674,
+            0.24715425337214092,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "-1,+1,-1",
+          "i": -1,
+          "j": 1,
+          "k": -1,
+          "kind": "corner",
+          "native_xyz": [
+            -0.012561263481962473,
+            0.0027637253334074543,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.20184195482020692,
+            0.04440920490857635,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "-1,+1,+0",
+          "i": -1,
+          "j": 1,
+          "k": 0,
+          "kind": "edge center",
+          "native_xyz": [
+            -0.00847012128999057,
+            0.018144916523616675,
+            0.0
+          ],
+          "nm_xyz": [
+            -0.13610301552792928,
+            0.2915634582807173,
+            0.0
+          ]
+        },
+        {
+          "address": "-1,+1,+1",
+          "i": -1,
+          "j": 1,
+          "k": 1,
+          "kind": "corner",
+          "native_xyz": [
+            -0.004378979098018668,
+            0.033526107713825894,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.07036407623565163,
+            0.5387177116528582,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "+0,-1,-1",
+          "i": 0,
+          "j": -1,
+          "k": -1,
+          "kind": "edge center",
+          "native_xyz": [
+            -0.006019550251981332,
+            -0.033526107713825894,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.09672576263869273,
+            -0.5387177116528582,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "+0,-1,+0",
+          "i": 0,
+          "j": -1,
+          "k": 0,
+          "kind": "face center",
+          "native_xyz": [
+            -0.0019284080600094288,
+            -0.018144916523616675,
+            0.0
+          ],
+          "nm_xyz": [
+            -0.030986823346415084,
+            -0.2915634582807173,
+            0.0
+          ]
+        },
+        {
+          "address": "+0,-1,+1",
+          "i": 0,
+          "j": -1,
+          "k": 1,
+          "kind": "edge center",
+          "native_xyz": [
+            0.002162734131962474,
+            -0.0027637253334074543,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.034752115945862555,
+            -0.04440920490857635,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "+0,+0,-1",
+          "i": 0,
+          "j": 0,
+          "k": -1,
+          "kind": "face center",
+          "native_xyz": [
+            -0.004091142191971903,
+            -0.01538119119020922,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.06573893929227764,
+            -0.24715425337214092,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "+0,+0,+0",
+          "i": 0,
+          "j": 0,
+          "k": 0,
+          "kind": "body center",
+          "native_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "nm_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "address": "+0,+0,+1",
+          "i": 0,
+          "j": 0,
+          "k": 1,
+          "kind": "face center",
+          "native_xyz": [
+            0.004091142191971903,
+            0.01538119119020922,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.06573893929227764,
+            0.24715425337214092,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "+0,+1,-1",
+          "i": 0,
+          "j": 1,
+          "k": -1,
+          "kind": "edge center",
+          "native_xyz": [
+            -0.002162734131962474,
+            0.0027637253334074543,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            -0.034752115945862555,
+            0.04440920490857635,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "+0,+1,+0",
+          "i": 0,
+          "j": 1,
+          "k": 0,
+          "kind": "face center",
+          "native_xyz": [
+            0.0019284080600094288,
+            0.018144916523616675,
+            0.0
+          ],
+          "nm_xyz": [
+            0.030986823346415084,
+            0.2915634582807173,
+            0.0
+          ]
+        },
+        {
+          "address": "+0,+1,+1",
+          "i": 0,
+          "j": 1,
+          "k": 1,
+          "kind": "edge center",
+          "native_xyz": [
+            0.006019550251981332,
+            0.033526107713825894,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.09672576263869273,
+            0.5387177116528582,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "+1,-1,-1",
+          "i": 1,
+          "j": -1,
+          "k": -1,
+          "kind": "corner",
+          "native_xyz": [
+            0.004378979098018668,
+            -0.033526107713825894,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.07036407623565163,
+            -0.5387177116528582,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "+1,-1,+0",
+          "i": 1,
+          "j": -1,
+          "k": 0,
+          "kind": "edge center",
+          "native_xyz": [
+            0.00847012128999057,
+            -0.018144916523616675,
+            0.0
+          ],
+          "nm_xyz": [
+            0.13610301552792928,
+            -0.2915634582807173,
+            0.0
+          ]
+        },
+        {
+          "address": "+1,-1,+1",
+          "i": 1,
+          "j": -1,
+          "k": 1,
+          "kind": "corner",
+          "native_xyz": [
+            0.012561263481962473,
+            -0.0027637253334074543,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.20184195482020692,
+            -0.04440920490857635,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "+1,+0,-1",
+          "i": 1,
+          "j": 0,
+          "k": -1,
+          "kind": "edge center",
+          "native_xyz": [
+            0.006307387158028097,
+            -0.01538119119020922,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.10135089958206674,
+            -0.24715425337214092,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "+1,+0,+0",
+          "i": 1,
+          "j": 0,
+          "k": 0,
+          "kind": "face center",
+          "native_xyz": [
+            0.01039852935,
+            0.0,
+            0.0
+          ],
+          "nm_xyz": [
+            0.16708983887434437,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "address": "+1,+0,+1",
+          "i": 1,
+          "j": 0,
+          "k": 1,
+          "kind": "edge center",
+          "native_xyz": [
+            0.014489671541971902,
+            0.01538119119020922,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.232828778166622,
+            0.24715425337214092,
+            0.30254887217722826
+          ]
+        },
+        {
+          "address": "+1,+1,-1",
+          "i": 1,
+          "j": 1,
+          "k": -1,
+          "kind": "corner",
+          "native_xyz": [
+            0.008235795218037526,
+            0.0027637253334074543,
+            -0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.1323377229284818,
+            0.04440920490857635,
+            -0.30254887217722826
+          ]
+        },
+        {
+          "address": "+1,+1,+0",
+          "i": 1,
+          "j": 1,
+          "k": 0,
+          "kind": "edge center",
+          "native_xyz": [
+            0.012326937410009429,
+            0.018144916523616675,
+            0.0
+          ],
+          "nm_xyz": [
+            0.19807666222075948,
+            0.2915634582807173,
+            0.0
+          ]
+        },
+        {
+          "address": "+1,+1,+1",
+          "i": 1,
+          "j": 1,
+          "k": 1,
+          "kind": "corner",
+          "native_xyz": [
+            0.01641807960198133,
+            0.033526107713825894,
+            0.01882857358854851
+          ],
+          "nm_xyz": [
+            0.2638156015130371,
+            0.5387177116528582,
+            0.30254887217722826
+          ]
+        }
+      ],
+      "study_nodes": [
+        {
+          "L": [
+            -1,
+            -1,
+            -1
+          ],
+          "lambda": -3,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            -0.03801998028475524,
+            -0.014049825041391652,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            -1,
+            0
+          ],
+          "lambda": -2,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            -0.013365697334825528,
+            -0.014049825041391652,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            -1,
+            1
+          ],
+          "lambda": -1,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            0.011288585615104183,
+            -0.014049825041391652,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            0,
+            -1
+          ],
+          "lambda": -2,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            -0.026379819330198857,
+            2.342228567802337e-06,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            0,
+            0
+          ],
+          "lambda": -1,
+          "chi": -1,
+          "kind": "face center",
+          "study": [
+            -0.001725536380269145,
+            2.3422285678024512e-06,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            0,
+            1
+          ],
+          "lambda": 0,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            0.022928746569660565,
+            2.3422285678025656e-06,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            1,
+            -1
+          ],
+          "lambda": -1,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            -0.014739658375642475,
+            0.014054509498527257,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            1,
+            0
+          ],
+          "lambda": 0,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            0.009914624574287236,
+            0.014054509498527257,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            -1,
+            1,
+            1
+          ],
+          "lambda": 1,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            0.034568907524216944,
+            0.014054509498527257,
+            -0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            0,
+            -1,
+            -1
+          ],
+          "lambda": -2,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            -0.03629444390448609,
+            -0.014052167269959455,
+            -1.4508879681158426e-19
+          ]
+        },
+        {
+          "L": [
+            0,
+            -1,
+            0
+          ],
+          "lambda": -1,
+          "chi": -1,
+          "kind": "face center",
+          "study": [
+            -0.011640160954556382,
+            -0.014052167269959455,
+            -2.4387785945912034e-19
+          ]
+        },
+        {
+          "L": [
+            0,
+            -1,
+            1
+          ],
+          "lambda": 0,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            0.013014121995373329,
+            -0.014052167269959455,
+            -3.426669221066564e-19
+          ]
+        },
+        {
+          "L": [
+            0,
+            0,
+            -1
+          ],
+          "lambda": -1,
+          "chi": -1,
+          "kind": "face center",
+          "study": [
+            -0.02465428294992971,
+            -1.1439843398869733e-19,
+            9.878906264753608e-20
+          ]
+        },
+        {
+          "L": [
+            0,
+            0,
+            0
+          ],
+          "lambda": 0,
+          "chi": 1,
+          "kind": "body center",
+          "study": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "L": [
+            0,
+            0,
+            1
+          ],
+          "lambda": 1,
+          "chi": -1,
+          "kind": "face center",
+          "study": [
+            0.02465428294992971,
+            1.1439843398869733e-19,
+            -9.878906264753608e-20
+          ]
+        },
+        {
+          "L": [
+            0,
+            1,
+            -1
+          ],
+          "lambda": 0,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            -0.013014121995373329,
+            0.014052167269959455,
+            3.426669221066564e-19
+          ]
+        },
+        {
+          "L": [
+            0,
+            1,
+            0
+          ],
+          "lambda": 1,
+          "chi": -1,
+          "kind": "face center",
+          "study": [
+            0.011640160954556382,
+            0.014052167269959455,
+            2.4387785945912034e-19
+          ]
+        },
+        {
+          "L": [
+            0,
+            1,
+            1
+          ],
+          "lambda": 2,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            0.03629444390448609,
+            0.014052167269959455,
+            1.4508879681158426e-19
+          ]
+        },
+        {
+          "L": [
+            1,
+            -1,
+            -1
+          ],
+          "lambda": -1,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            -0.034568907524216944,
+            -0.014054509498527257,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            -1,
+            0
+          ],
+          "lambda": 0,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            -0.009914624574287236,
+            -0.014054509498527257,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            -1,
+            1
+          ],
+          "lambda": 1,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            0.014739658375642475,
+            -0.014054509498527257,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            0,
+            -1
+          ],
+          "lambda": 0,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            -0.022928746569660565,
+            -2.3422285678025656e-06,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            0,
+            0
+          ],
+          "lambda": 1,
+          "chi": -1,
+          "kind": "face center",
+          "study": [
+            0.001725536380269145,
+            -2.3422285678024512e-06,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            0,
+            1
+          ],
+          "lambda": 2,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            0.026379819330198857,
+            -2.342228567802337e-06,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            1,
+            -1
+          ],
+          "lambda": 1,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            -0.011288585615104183,
+            0.014049825041391652,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            1,
+            0
+          ],
+          "lambda": 2,
+          "chi": 1,
+          "kind": "edge center",
+          "study": [
+            0.013365697334825528,
+            0.014049825041391652,
+            0.010254361619053905
+          ]
+        },
+        {
+          "L": [
+            1,
+            1,
+            1
+          ],
+          "lambda": 3,
+          "chi": -1,
+          "kind": "corner",
+          "study": [
+            0.03801998028475524,
+            0.014049825041391652,
+            0.010254361619053905
+          ]
+        }
+      ]
+    },
+    "field": {
+      "g_vector_m_per_s": [
+        -880221.981635,
+        -143911.436562,
+        266335.026949
+      ],
+      "g_magnitude_m_per_s": 930825.2172705192,
+      "g_unit_vector": [
+        -0.945636157361632,
+        -0.1546062933103541,
+        0.2861278594599967
+      ],
+      "C_K_N_s_per_kg": 7.5054e-06,
+      "kappa_F_dimensionless": 1.6126335773343705e-11
+    },
+    "worked_rotor": {
+      "input": {
+        "rotor_type": "thin rings",
+        "inner": {
+          "mass_kg": 0.1,
+          "radius_m": 0.02,
+          "beta": 1.0,
+          "rpm": 100000.0,
+          "omega_rad_s": 10471.975511965977,
+          "inertia_kg_m2": 4e-05
+        },
+        "outer": {
+          "mass_kg": 1.0,
+          "radius_m": 0.1,
+          "beta": 1.0,
+          "inertia_kg_m2": 0.010000000000000002
+        }
+      },
+      "reaction_only_state": {
+        "transferred_angular_momentum_kg_m2_s": 0.4188790204786391,
+        "outer_omega_rad_s": 41.8879020478639,
+        "outer_rpm": 399.99999999999994,
+        "inner_energy_J": 2193.2454224643016,
+        "outer_energy_J": 8.772981689857207,
+        "energy_ratio_inner_to_outer": 249.99999999999997,
+        "inner_force_N": 0.007859636500750946,
+        "outer_force_N": 0.00031438546003003775,
+        "net_force_N": 0.007545251040720908,
+        "force_ratio_inner_to_outer": 25.000000000000007,
+        "signed_total_angular_momentum_kg_m2_s": 0.0
+      },
+      "equal_energy_state": {
+        "inner_energy_J": 2193.2454224643016,
+        "outer_energy_J": 2193.2454224643016,
+        "outer_omega_rad_s": 662.3058843864067,
+        "outer_rpm": 6324.555320336757,
+        "inner_force_N": 0.007859636500750946,
+        "outer_force_N": 0.004970870584673737,
+        "net_force_N": 0.0028887659160772086,
+        "force_ratio_inner_to_outer": 1.58113883008419,
+        "inner_angular_momentum_kg_m2_s": 0.4188790204786391,
+        "outer_angular_momentum_magnitude_kg_m2_s": 6.623058843864068,
+        "signed_total_angular_momentum_kg_m2_s": -6.204179823385429,
+        "external_angular_impulse_required_from_zero_L_kg_m2_s": -6.204179823385429
+      }
+    },
+    "mass_bridge": {
+      "eta_geometry_1000_A_bc_over_A_ab": 1836.1526893302403,
+      "alpha_inverse_geometry_100_A_bc_over_A_ac": 137.03600035175882,
+      "cross_geometry_10_A_ac_over_A_ab": 13.399053421122955,
+      "eta_alpha_known": 13.399053419871523,
+      "relative_residuals": {
+        "eta": 8.661720007907547e-09,
+        "alpha_inverse": 8.568322940050166e-09,
+        "cross": 9.339706785738144e-11
+      },
+      "common_A_bc_scale_factor": 0.9999999913849787,
+      "post_common_scale_relative_residuals": {
+        "eta": 4.6698644950993184e-11,
+        "alpha_inverse": -4.669853392869072e-11
+      },
+      "projective_correspondence": "A_bc:A_ac:A_ab <-> lambda_bar_e:(100 r_e):(1000 lambda_bar_p)"
+    },
+    "counter_rotor_mass_bridge": {
+      "observables": {
+        "K_response": "F_K/C_K = m_e omega_e - m_p |omega_p|",
+        "angular_momentum": "L = m_e rho_e^2 omega_e - m_p rho_p^2 |omega_p|"
+      },
+      "balance_conditions": {
+        "K_response_null": "omega_e/|omega_p| = eta",
+        "equal_energy": "omega_e/|omega_p| = sqrt(eta) R",
+        "angular_momentum_null": "omega_e/|omega_p| = eta R^2",
+        "R_definition": "R = rho_p/rho_e",
+        "at_reciprocal_compton_R_equals_eta": {
+          "K_response_null": 1836.152673426,
+          "equal_energy": 78679.78852992377,
+          "angular_momentum_null": 6190509123.113524
+        }
+      }
+    },
+    "finite_domain_antipodal_certificate": {
+      "index_bounds": [
+        -100,
+        100
+      ],
+      "radius_range_x_cell_steps": [
+        1,
+        100
+      ],
+      "centers_in_range": 6762624,
+      "distinct_shells": 3381312,
+      "shell_multiplicity_distribution": {
+        "2": 3381312
+      },
+      "non_antipodal_equal_radius_shells": 0,
+      "closest_shell_pair": {
+        "n": [
+          75,
+          8,
+          -44
+        ],
+        "m": [
+          58,
+          -44,
+          -15
+        ],
+        "q_n_native_squared": "5.3902248339387075311906320097780147732384",
+        "q_m_native_squared": "5.3902248339411612663007221844891265678100",
+        "delta_q_native_squared": "2.4537351100901747111117945716E-12",
+        "r_n_x_cell_steps": "47.084836717325910861636157091312751261781627288831946390391995477033646775364303",
+        "r_m_x_cell_steps": "47.084836717336627828049015463066475752376095785864187261553017596491906466719052",
+        "delta_r_x_cell_steps": "1.0716966412858371753724490594468497032240871161022119458259691354749E-11",
+        "q_uncertainty_bound_n": "2.60148615113570891707746600E-16",
+        "q_uncertainty_bound_m": "2.24614962699254065572890625E-16",
+        "combined_uncertainty_envelope": "4.84763577812824957280637225E-16",
+        "separation_to_uncertainty_ratio": "5061.7150759572977792637391106560703888248663889943348064503060288712367898109849"
+      }
+    }
+  },
+  "derived_results": {
+    "specific_areal_inertia": {
+      "inner_beta_r2_m2": 0.0004,
+      "outer_beta_r2_m2": 0.010000000000000002
+    },
+    "reciprocal_specific_areal_inertia_m_inv2": {
+      "inner": 2500.0,
+      "outer": 99.99999999999999
+    },
+    "scale_ratio_s": 25.000000000000004,
+    "log_scale_coordinate_xi": 1.6094379124341005,
+    "normalized_asymmetry_A": 0.9230769230769231,
+    "asymmetry_exact_for_worked_geometry": "12/13",
+    "cell3_metric_eigenvalues_native_squared": [
+      0.0004170628843633815,
+      0.0006115114630215043,
+      0.0031671049858394583
+    ],
+    "cell3_metric_principal_lengths_native": [
+      0.020422117528879846,
+      0.024728757813960334,
+      0.05627703782040645
+    ],
+    "cell3_metric_eigenvectors_columns_abc": [
+      [
+        0.9907217506271342,
+        0.11759400760816283,
+        -0.06813268091714647
+      ],
+      [
+        0.06374885399837543,
+        -0.8448481836994828,
+        -0.5311945313287578
+      ],
+      [
+        -0.12002706548191601,
+        0.5219225956732821,
+        -0.8445059547910031
+      ]
+    ],
+    "principal_length_anisotropy": 2.755690625167666,
+    "inversion_eigenspace_dimensions": {
+      "even": 14,
+      "odd": 13
+    },
+    "spatial_cross_product_eigenvalues": [
+      "0",
+      "+i*930825.217270519",
+      "-i*930825.217270519"
+    ]
+  },
+  "formula_ledger_ascii": {
+    "inertia": "I_j = beta_j m_j r_j^2",
+    "angular_momentum": "L_j = I_j omega_j",
+    "rotor_force": "F_j = C_K m_j omega_j",
+    "reaction_constraint": "L_i + L_o = 0",
+    "reaction_residual": "F_net = C_K L [1/(beta_i r_i^2) - 1/(beta_o r_o^2)]",
+    "double_null": "L_i + L_o = 0 and F_net = 0 iff beta_i r_i^2 = beta_o r_o^2 for nonzero L",
+    "parity_basis": "e_plus=(1,1)/sqrt(2), e_minus=(1,-1)/sqrt(2)",
+    "parity_mixing": "odd L times odd delta_a gives even common-mode response",
+    "scale_coordinate": "A=(s-1)/(s+1)=tanh(xi), xi=0.5 ln(s)",
+    "multirotor": "F_net/C_K = sum_j a_j h_j = N Cov(a,h) when sum_j h_j=0",
+    "vector_force": "F_K_vector = (kappa_F M/2)(Omega cross g)"
+  },
+  "figure_manifest": [
+    {
+      "id": 1,
+      "filename": "figure_01_base_cell_8_vertices.png",
+      "title": "Dimensionally correct Cell3 base cell with all eight vertices.",
+      "data_basis": "Mass-Bridge canonical vectors and vertex sums"
+    },
+    {
+      "id": 2,
+      "filename": "figure_02_all_27_nodes_canonical.png",
+      "title": "All 27 centered Cell3 half-step nodes, labeled by address.",
+      "data_basis": "Mass-Bridge centered_half_step_nodes"
+    },
+    {
+      "id": 3,
+      "filename": "figure_03_study_coordinates_planes_nodes.png",
+      "title": "All 27 theorem nodes in locked study coordinates with the central plane family.",
+      "data_basis": "Native Cell3 theorem lucas_nodes"
+    },
+    {
+      "id": 4,
+      "filename": "figure_04_face_ab.png",
+      "title": "Dimensionally correct ab face plane with all four vertices, edge lengths, included angle, and area.",
+      "data_basis": "Canonical vectors a and b"
+    },
+    {
+      "id": 5,
+      "filename": "figure_05_face_ac.png",
+      "title": "Dimensionally correct ac face plane with all four vertices, edge lengths, included angle, and area.",
+      "data_basis": "Canonical vectors a and c"
+    },
+    {
+      "id": 6,
+      "filename": "figure_06_face_bc.png",
+      "title": "Dimensionally correct bc face plane with all four vertices, edge lengths, included angle, and area.",
+      "data_basis": "Canonical vectors b and c"
+    },
+    {
+      "id": 7,
+      "filename": "figure_07_13_antipodal_pairs.png",
+      "title": "The exact 27 = 1 + 2(13) inversion pairing of the centered Cell3 registry.",
+      "data_basis": "Mass-Bridge centered nodes paired under p -> -p"
+    },
+    {
+      "id": 8,
+      "filename": "figure_08_concentric_antipodal_doublet.png",
+      "title": "Reaction-only concentric rotor example with equal and opposite angular momentum and unequal lateral response.",
+      "data_basis": "Rotor worked_input and reaction_only_state"
+    },
+    {
+      "id": 9,
+      "filename": "figure_09_radius_ratio_residual.png",
+      "title": "Normalized reaction-constrained residual and parity asymmetry across the source radius-ratio sweep.",
+      "data_basis": "Rotor reaction_radius_ratio sweep"
+    },
+    {
+      "id": 10,
+      "filename": "figure_10_tanh_scale_coordinate.png",
+      "title": "The exact hyperbolic-tangent relation between logarithmic scale contrast and normalized residual.",
+      "data_basis": "Derived from reciprocal specific areal inertia"
+    },
+    {
+      "id": 11,
+      "filename": "figure_11_force_vs_L.png",
+      "title": "Net reaction-constrained force as a linear function of transferred angular momentum.",
+      "data_basis": "Rotor reaction_force_vs_L sweep"
+    },
+    {
+      "id": 12,
+      "filename": "figure_12_mass_bridge_balance_manifolds.png",
+      "title": "Force-null, equal-energy, and angular-momentum-null manifolds from the Mass-Bridge counter-rotor equations.",
+      "data_basis": "Mass-Bridge counter_rotor balance_conditions"
+    },
+    {
+      "id": 13,
+      "filename": "figure_13_metric_eigen_dimensions.png",
+      "title": "Index-space metric ellipsoid and the three Cell3 principal eigen-directions.",
+      "data_basis": "Native theorem Gram metric eigendecomposition"
+    },
+    {
+      "id": 14,
+      "filename": "figure_14_parity_mixing.png",
+      "title": "Two-channel parity-basis response operator showing odd-to-even conversion.",
+      "data_basis": "Derived two-rotor parity transformation"
+    },
+    {
+      "id": 15,
+      "filename": "figure_15_spatial_force_eigenstructure.png",
+      "title": "Earth-CMB transformed field direction, transverse plane, and a sample Omega x g response.",
+      "data_basis": "Rotor coordinate_and_field_inputs"
+    },
+    {
+      "id": 16,
+      "filename": "figure_16_multirotor_covariance.png",
+      "title": "A deterministic 13-channel zero-sum angular-momentum state showing residual covariance with reciprocal radial scale.",
+      "data_basis": "Cell3 antipodal pair radii and multirotor covariance theorem"
+    }
+  ],
+  "integrity": {
+    "pdf_sha256": "7d7618788d25c38bc15bcfaf157e819d52c64187f633124a6c784f1db357014c",
+    "json_payload_sha256_before_integrity": "381aa24452f315a9b5f6fb9ab5a2d1c1f6d3a4acf8fa3f60924ff077523cd4b1",
+    "audit_passes_requested": 12
+  }
+}

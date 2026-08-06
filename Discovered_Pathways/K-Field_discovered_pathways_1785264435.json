@@ -1,0 +1,3347 @@
+{
+  "schema": "K-Field.discovered_pathways.multidimensional_graph_reference.v1",
+  "epoch": 1785264435,
+  "generated_utc": "2026-07-28T18:47:15+00:00",
+  "title": "K-Field Discovered Pathways",
+  "release_type": "Foundational educational and archival computational reference",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "credentials": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx, LLC"
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "source_files": [
+    {
+      "role": "mass_bridge",
+      "filename": "K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592(2).json",
+      "sha256": "a5ba3ddf21a20e4528c19609a3061fceca60f53f76224f101c9779c24809d7ea"
+    },
+    {
+      "role": "serialized",
+      "filename": "K-Field_overdetermined_one-dimensional_serialized_spectral_address_space_1785179337(3).json",
+      "sha256": "34ccd7ee5c1e7a9071d4cf1ef7164620e067eba133fe33ce43044d0c1556e51b"
+    },
+    {
+      "role": "recursive_spectrum",
+      "filename": "K-Field_recursive_Lucas_Spectrum1785243336(2).json",
+      "sha256": "c1b3ec19c478749d3c00f53bcd620d0958c60bfb1e1dbb4bb2a842ab2a8b6370"
+    },
+    {
+      "role": "devon_sheets",
+      "filename": "K-Field_polarized_sheet_structures_in_Lucas_Supergroup_Volumes_1785248163(2).json",
+      "sha256": "766e4843b13033eb3e076b5fff36f4643889068d68b39431dfebf4be8727dea2"
+    },
+    {
+      "role": "large_morphology",
+      "filename": "K-Field_Lucas_Supergroup_large_scale_morphology1785242330(1).json",
+      "sha256": "fe0533ed5d663030b219804c8fd1420dd47dd6bfa2a2cf572bcb89a410f99706"
+    },
+    {
+      "role": "lucas_analysis",
+      "filename": "K-Field_Lucas_Supergroup_Analysis_1785208014(1).json",
+      "sha256": "37efaa688f9cb496ae16c76af6f7889bd78e10e4e27c15cee9b3e2cd3331f6b5"
+    },
+    {
+      "role": "extracted_definition",
+      "filename": "K-Field_Lucas_Supergroup_extracted_definition_1785238606.json",
+      "sha256": "79b8aadb50be81da2569a901063db166fd5710377d644412638b25ffacd4526a"
+    }
+  ],
+  "locked_cell3": {
+    "basis_B_nm": [
+      [
+        0.3275012420558906,
+        0.0353307758438284,
+        -0.01012931762672882
+      ],
+      [
+        -0.054897007884006435,
+        0.20731985044019177,
+        -0.38978770236625987
+      ],
+      [
+        -0.037487502894729914,
+        -0.5474010853885081,
+        -0.6897344083672676
+      ]
+    ],
+    "direct_metric_G_nm2": [
+      [
+        0.11167605789605009,
+        0.020710333280605807,
+        0.04393723509621977
+      ],
+      [
+        0.020710333280605807,
+        0.343877732392787,
+        0.2963927589615229
+      ],
+      [
+        0.04393723509621977,
+        0.2963927589615229,
+        0.6277706100772958
+      ]
+    ],
+    "reciprocal_metric_R_nm^-2": [
+      [
+        9.208025529457549,
+        0.0015348024281925453,
+        -0.645188035699939
+      ],
+      [
+        0.001534802428192587,
+        4.903398312367987,
+        -2.315175584416389
+      ],
+      [
+        -0.6451880356999389,
+        -2.315175584416389,
+        2.7311712747116945
+      ]
+    ],
+    "edge_lengths_nm": [
+      0.3341796790591105,
+      0.5864108904111408,
+      0.7923197650426852
+    ],
+    "included_angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.4481300183379,
+      "bc": 50.36323181375618
+    },
+    "face_areas_nm2": {
+      "ab": 0.19486916546048413,
+      "ac": 0.2611062357902053,
+      "bc": 0.3578095391285615
+    },
+    "volume_nm3": 0.11791489191174465,
+    "opposite_face_spacings_nm": {
+      "a": 0.32954652969544684,
+      "b": 0.4515973797212847,
+      "c": 0.6050977415185554
+    },
+    "nodes_27": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "lambda": -3,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          -0.17635135013649508,
+          0.11868242990503727,
+          0.6373114983252528
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          -0.1814160089498595,
+          -0.07621142127809266,
+          0.292444294141619
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          -0.1864806677632239,
+          -0.2711052724612226,
+          -0.052422910042014825
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          -0.1586859622145809,
+          0.22234235512513315,
+          0.36361095563099877
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "class": "face center",
+        "position_nm": [
+          -0.1637506210279453,
+          0.027448503942003218,
+          0.018743751447364957
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          -0.1688152798413097,
+          -0.16744534724112672,
+          -0.32612345273626886
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          -0.1410205742926667,
+          0.32600228034522905,
+          0.08991041293674473
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          -0.1460852331060311,
+          0.1311084291620991,
+          -0.2549567912468891
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          -0.1511498919193955,
+          -0.06378542202103082,
+          -0.5998239954305229
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          -0.012600729108549789,
+          0.09123392596303405,
+          0.6185677468778878
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "class": "face center",
+        "position_nm": [
+          -0.0176653879219142,
+          -0.10365992522009589,
+          0.27370054269425403
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          -0.02273004673527861,
+          -0.29855377640322583,
+          -0.07116666148937978
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "class": "face center",
+        "position_nm": [
+          0.00506465881336441,
+          0.19489385118312993,
+          0.3448672041836338
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "class": "body center",
+        "position_nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "class": "face center",
+        "position_nm": [
+          -0.00506465881336441,
+          -0.19489385118312993,
+          -0.3448672041836338
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          0.02273004673527861,
+          0.29855377640322583,
+          0.07116666148937978
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "class": "face center",
+        "position_nm": [
+          0.0176653879219142,
+          0.10365992522009589,
+          -0.27370054269425403
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          0.012600729108549789,
+          -0.09123392596303405,
+          -0.6185677468778878
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          0.1511498919193955,
+          0.06378542202103082,
+          0.5998239954305229
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          0.1460852331060311,
+          -0.1311084291620991,
+          0.2549567912468891
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          0.1410205742926667,
+          -0.32600228034522905,
+          -0.08991041293674473
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          0.1688152798413097,
+          0.16744534724112672,
+          0.32612345273626886
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "class": "face center",
+        "position_nm": [
+          0.1637506210279453,
+          -0.027448503942003218,
+          -0.018743751447364957
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          0.1586859622145809,
+          -0.22234235512513315,
+          -0.36361095563099877
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          0.1864806677632239,
+          0.2711052724612226,
+          0.052422910042014825
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "class": "edge center",
+        "position_nm": [
+          0.1814160089498595,
+          0.07621142127809266,
+          -0.292444294141619
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "lambda": 3,
+        "polarity": -1,
+        "class": "corner",
+        "position_nm": [
+          0.17635135013649508,
+          -0.11868242990503727,
+          -0.6373114983252528
+        ]
+      }
+    ],
+    "boundary_planes": [
+      {
+        "channel": "a",
+        "face_family": "bc",
+        "address_coefficient": -1,
+        "primitive_coordinate": -0.5,
+        "unit_normal_icrs": [
+          -0.9959651903089612,
+          0.08360216250737747,
+          -0.032619290564400036
+        ],
+        "face_area_nm2": 0.3578095391285615,
+        "opposite_face_spacing_nm": 0.32954652969544684,
+        "center_to_face_distance_nm": 0.16477326484772342,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "a",
+        "face_family": "bc",
+        "address_coefficient": 1,
+        "primitive_coordinate": 0.5,
+        "unit_normal_icrs": [
+          -0.9959651903089612,
+          0.08360216250737747,
+          -0.032619290564400036
+        ],
+        "face_area_nm2": 0.3578095391285615,
+        "opposite_face_spacing_nm": 0.32954652969544684,
+        "center_to_face_distance_nm": 0.16477326484772342,
+        "node_addresses": [
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "b",
+        "face_family": "ac",
+        "address_coefficient": -1,
+        "primitive_coordinate": -0.5,
+        "unit_normal_icrs": [
+          -0.089052594101605,
+          -0.8665767692910323,
+          0.4910339483262758
+        ],
+        "face_area_nm2": 0.2611062357902053,
+        "opposite_face_spacing_nm": 0.4515973797212847,
+        "center_to_face_distance_nm": 0.22579868986064236,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "b",
+        "face_family": "ac",
+        "address_coefficient": 1,
+        "primitive_coordinate": 0.5,
+        "unit_normal_icrs": [
+          -0.089052594101605,
+          -0.8665767692910323,
+          0.4910339483262758
+        ],
+        "face_area_nm2": 0.2611062357902053,
+        "opposite_face_spacing_nm": 0.4515973797212847,
+        "center_to_face_distance_nm": 0.22579868986064236,
+        "node_addresses": [
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "c",
+        "face_family": "ab",
+        "address_coefficient": -1,
+        "primitive_coordinate": -0.5,
+        "unit_normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212286,
+          0.35837923479080463
+        ],
+        "face_area_nm2": 0.19486916546048413,
+        "opposite_face_spacing_nm": 0.6050977415185554,
+        "center_to_face_distance_nm": 0.3025488707592777,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "channel": "c",
+        "face_family": "ab",
+        "address_coefficient": 1,
+        "primitive_coordinate": 0.5,
+        "unit_normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212286,
+          0.35837923479080463
+        ],
+        "face_area_nm2": 0.19486916546048413,
+        "opposite_face_spacing_nm": 0.6050977415185554,
+        "center_to_face_distance_nm": 0.3025488707592777,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "graph_results": {
+    "open_cell3": {
+      "graph": "P3 Cartesian P3 Cartesian P3",
+      "vertices": 27,
+      "edges": 54,
+      "cycle_rank": 28,
+      "layer_values": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "layer_populations": [
+        1,
+        3,
+        6,
+        7,
+        6,
+        3,
+        1
+      ],
+      "interlayer_edge_counts": [
+        3,
+        9,
+        15,
+        15,
+        9,
+        3
+      ]
+    },
+    "affine_space": {
+      "name": "AG(3,3)",
+      "points": 27,
+      "affine_lines": 117,
+      "affine_planes": 39,
+      "line_plane_incidences": 468,
+      "point_line_plane_flags": 1404
+    },
+    "projective_plane": {
+      "name": "PG(2,3)",
+      "points": 13,
+      "lines": 13,
+      "incidences": 52,
+      "levi_vertices": 26,
+      "levi_edges": 52,
+      "levi_cycle_rank": 27,
+      "periodic_C3_cubed_cycle_rank": 55,
+      "incidence_N": [
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "transform_M": [
+        [
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          -1
+        ],
+        [
+          2,
+          -1,
+          -1,
+          -1,
+          2,
+          2,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          2,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          2,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          2,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2
+        ],
+        [
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1
+        ],
+        [
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          2,
+          2
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          2,
+          -1,
+          2,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          2,
+          2,
+          -1,
+          -1
+        ],
+        [
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          2,
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          2,
+          2,
+          -1,
+          -1,
+          -1,
+          2,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          2,
+          -1,
+          2,
+          -1,
+          2,
+          -1,
+          -1,
+          -1,
+          -1,
+          2
+        ]
+      ],
+      "identity_N_squared": "N^2=3I+J",
+      "identity_M_squared": "M^2=27I-2J",
+      "spectrum_N": [
+        -1.7320508075688785,
+        -1.7320508075688776,
+        -1.7320508075688774,
+        -1.732050807568877,
+        -1.7320508075688767,
+        -1.7320508075688765,
+        1.7320508075688748,
+        1.732050807568877,
+        1.732050807568877,
+        1.732050807568877,
+        1.7320508075688774,
+        1.732050807568878,
+        4.000000000000002
+      ],
+      "spectrum_M": [
+        -5.196152422706637,
+        -5.1961524227066365,
+        -5.196152422706635,
+        -5.196152422706633,
+        -5.196152422706631,
+        -5.19615242270663,
+        -0.9999999999999999,
+        5.19615242270663,
+        5.196152422706633,
+        5.196152422706634,
+        5.196152422706634,
+        5.196152422706634,
+        5.196152422706636
+      ]
+    },
+    "projective_channels": [
+      {
+        "id": 1,
+        "representative": [
+          0,
+          0,
+          1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.6277706100772958,
+        "q_recip_nm^-2": 2.7311712747116945,
+        "incidences": [
+          2,
+          5,
+          8,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "representative": [
+          0,
+          1,
+          0
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.343877732392787,
+        "q_recip_nm^-2": 4.903398312367987,
+        "incidences": [
+          1,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "representative": [
+          0,
+          1,
+          1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 1.5644338603931285,
+        "q_recip_nm^-2": 3.004218418246903,
+        "incidences": [
+          4,
+          5,
+          10,
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "representative": [
+          0,
+          1,
+          -1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.37886282454703707,
+        "q_recip_nm^-2": 12.26492075591246,
+        "incidences": [
+          3,
+          5,
+          9,
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "representative": [
+          1,
+          0,
+          0
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.11167605789605009,
+        "q_recip_nm^-2": 9.208025529457549,
+        "incidences": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": 6,
+        "representative": [
+          1,
+          0,
+          1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.8273211381657856,
+        "q_recip_nm^-2": 10.648820732769366,
+        "incidences": [
+          2,
+          7,
+          10,
+          13
+        ]
+      },
+      {
+        "id": 7,
+        "representative": [
+          1,
+          0,
+          -1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.6515721977809064,
+        "q_recip_nm^-2": 13.22957287556912,
+        "incidences": [
+          2,
+          6,
+          9,
+          12
+        ]
+      },
+      {
+        "id": 8,
+        "representative": [
+          1,
+          1,
+          0
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.4969744568500487,
+        "q_recip_nm^-2": 14.114493446681921,
+        "incidences": [
+          1,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 9,
+        "representative": [
+          1,
+          1,
+          1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 1.8054050550428298,
+        "q_recip_nm^-2": 10.92493748116096,
+        "incidences": [
+          4,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "id": 10,
+        "representative": [
+          1,
+          1,
+          -1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.4440850788118592,
+        "q_recip_nm^-2": 22.76639196162627,
+        "incidences": [
+          3,
+          6,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 11,
+        "representative": [
+          1,
+          -1,
+          0
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.4141331237276255,
+        "q_recip_nm^-2": 14.10835423696915,
+        "incidences": [
+          1,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 12,
+        "representative": [
+          1,
+          -1,
+          1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.536992686074315,
+        "q_recip_nm^-2": 20.179500609113745,
+        "incidences": [
+          3,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "id": 13,
+        "representative": [
+          1,
+          -1,
+          -1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 1.5468147815355275,
+        "q_recip_nm^-2": 13.499550414247944,
+        "incidences": [
+          4,
+          6,
+          8,
+          13
+        ]
+      }
+    ],
+    "metric_decoder": {
+      "design_matrix_A": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1
+        ]
+      ],
+      "rank": 6,
+      "positive_channel_indices_1based": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        11
+      ],
+      "negative_channel_indices_1based": [
+        1,
+        2,
+        5,
+        9,
+        10,
+        12,
+        13
+      ],
+      "positive_submatrix_determinant": -16,
+      "syndrome_dimension": 7,
+      "reconstruction_formulas": {
+        "S_yz": "(q_yz_plus+q_yz_minus)/2",
+        "S_xz": "(q_xz_plus+q_xz_minus)/2",
+        "S_xy": "(q_xy_plus+q_xy_minus)/2",
+        "g11": "(S_xz+S_xy-S_yz)/2",
+        "g22": "(S_yz+S_xy-S_xz)/2",
+        "g33": "(S_yz+S_xz-S_xy)/2",
+        "g23": "(q_yz_plus-q_yz_minus)/4",
+        "g13": "(q_xz_plus-q_xz_minus)/4",
+        "g12": "(q_xy_plus-q_xy_minus)/4"
+      }
+    },
+    "mass_bridge": {
+      "eta": 1836.152673426,
+      "alpha_inverse": 137.03599917700004,
+      "eta_alpha": 13.399053419929224,
+      "reciprocal_formulas": [
+        "eta=1000 sqrt(R11/R33)",
+        "alpha_inverse=100 sqrt(R11/R22)",
+        "eta_alpha=10 sqrt(R22/R33)"
+      ],
+      "transport_weights_per_sigma_nm": [
+        1.085763335026572,
+        0.5781836820031022,
+        0.3220457656500913
+      ]
+    },
+    "lucas_supergroup": {
+      "basis": "9B",
+      "cell3_volumes": 729,
+      "lucas_groups": 27,
+      "f_vector": [
+        1000,
+        2700,
+        2430,
+        729
+      ],
+      "refined_states": 6859,
+      "laminar_sheets": 55,
+      "internal_interfaces": 1944,
+      "boundary_states": 1946,
+      "exposed_faces": 486,
+      "cycle_rank": 1216
+    },
+    "sheet_emily_equivalence": {
+      "n9_lambda": [
+        -27,
+        -26,
+        -25,
+        -24,
+        -23,
+        -22,
+        -21,
+        -20,
+        -19,
+        -18,
+        -17,
+        -16,
+        -15,
+        -14,
+        -13,
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "n9_population": [
+        1,
+        3,
+        6,
+        10,
+        15,
+        21,
+        28,
+        36,
+        45,
+        55,
+        66,
+        78,
+        91,
+        105,
+        120,
+        136,
+        153,
+        171,
+        190,
+        207,
+        222,
+        235,
+        246,
+        255,
+        262,
+        267,
+        270,
+        271,
+        270,
+        267,
+        262,
+        255,
+        246,
+        235,
+        222,
+        207,
+        190,
+        171,
+        153,
+        136,
+        120,
+        105,
+        91,
+        78,
+        66,
+        55,
+        45,
+        36,
+        28,
+        21,
+        15,
+        10,
+        6,
+        3,
+        1
+      ],
+      "n9_signed_population": [
+        -1,
+        3,
+        -6,
+        10,
+        -15,
+        21,
+        -28,
+        36,
+        -45,
+        55,
+        -66,
+        78,
+        -91,
+        105,
+        -120,
+        136,
+        -153,
+        171,
+        -190,
+        207,
+        -222,
+        235,
+        -246,
+        255,
+        -262,
+        267,
+        -270,
+        271,
+        -270,
+        267,
+        -262,
+        255,
+        -246,
+        235,
+        -222,
+        207,
+        -190,
+        171,
+        -153,
+        136,
+        -120,
+        105,
+        -91,
+        78,
+        -66,
+        55,
+        -45,
+        36,
+        -28,
+        21,
+        -15,
+        10,
+        -6,
+        3,
+        -1
+      ],
+      "n9_total": 6859,
+      "n9_net_polarity": -1,
+      "theorem": "For n=2*9^r+1, Devon sheet count = Emily adjacency nullity = 3n-2 = 6*9^r+1"
+    },
+    "recursive_morphology": {
+      "channels": [
+        729,
+        81,
+        9,
+        1
+      ],
+      "observable": "X_r=A729^r+B81^r+C9^r+D",
+      "recurrence": "X_(r+4)=820X_(r+3)-67158X_(r+2)+597780X_(r+1)-531441X_r",
+      "closure_levels": [
+        {
+          "order": 1,
+          "Cell3_per_axis": 9,
+          "Cell3_volumes": 729,
+          "Lucas_Supergroups": 1,
+          "Lucas_Groups": 27,
+          "f0": 1000,
+          "f1": 2700,
+          "f2": 2430,
+          "f3": 729,
+          "Q": 6859,
+          "boundary_states": 1946,
+          "internal_interfaces": 1944,
+          "exposed_faces": 486,
+          "cycle_rank": 1216,
+          "laminar_sheets": 55,
+          "central_sheet_states": 271,
+          "interior_Cell3": 343,
+          "interior_refined_states": 4913
+        },
+        {
+          "order": 2,
+          "Cell3_per_axis": 81,
+          "Cell3_volumes": 531441,
+          "Lucas_Supergroups": 729,
+          "Lucas_Groups": 19683,
+          "f0": 551368,
+          "f1": 1633932,
+          "f2": 1614006,
+          "f3": 531441,
+          "Q": 4330747,
+          "boundary_states": 157466,
+          "internal_interfaces": 1574640,
+          "exposed_faces": 39366,
+          "cycle_rank": 1043200,
+          "laminar_sheets": 487,
+          "central_sheet_states": 19927,
+          "interior_Cell3": 493039,
+          "interior_refined_states": 4173281
+        },
+        {
+          "order": 3,
+          "Cell3_per_axis": 729,
+          "Cell3_volumes": 387420489,
+          "Lucas_Supergroups": 531441,
+          "Lucas_Groups": 14348907,
+          "f0": 389017000,
+          "f1": 1165452300,
+          "f2": 1163855790,
+          "f3": 387420489,
+          "Q": 3105745579,
+          "boundary_states": 12754586,
+          "internal_interfaces": 1160667144,
+          "exposed_faces": 3188646,
+          "cycle_rank": 773246656,
+          "laminar_sheets": 4375,
+          "central_sheet_states": 1596511,
+          "interior_Cell3": 384240583,
+          "interior_refined_states": 3092990993
+        },
+        {
+          "order": 4,
+          "Cell3_per_axis": 6561,
+          "Cell3_volumes": 282429536481,
+          "Lucas_Supergroups": 387420489,
+          "Lucas_Groups": 10460353203,
+          "f0": 282558696328,
+          "f1": 847546909452,
+          "f2": 847417749606,
+          "f3": 282429536481,
+          "Q": 2259952891867,
+          "boundary_states": 1033121306,
+          "internal_interfaces": 847159469280,
+          "exposed_faces": 258280326,
+          "cycle_rank": 564729932800,
+          "laminar_sheets": 39367,
+          "central_sheet_states": 129159847,
+          "interior_Cell3": 282171334879,
+          "interior_refined_states": 2258919770561
+        },
+        {
+          "order": 5,
+          "Cell3_per_axis": 59049,
+          "Cell3_volumes": 205891132094649,
+          "Lucas_Supergroups": 282429536481,
+          "Lucas_Groups": 7625597484987,
+          "f0": 205901592625000,
+          "f1": 617694317167500,
+          "f2": 617683856637150,
+          "f3": 205891132094649,
+          "Q": 1647170898524299,
+          "boundary_states": 83682825626,
+          "internal_interfaces": 617662935930744,
+          "exposed_faces": 20920706406,
+          "cycle_rank": 411771803836096,
+          "laminar_sheets": 354295,
+          "central_sheet_states": 10460530351,
+          "interior_Cell3": 205870212096823,
+          "interior_refined_states": 1647087215698673
+        },
+        {
+          "order": 6,
+          "Cell3_per_axis": 531441,
+          "Cell3_volumes": 150094635296999121,
+          "Lucas_Supergroups": 205891132094649,
+          "Lucas_Groups": 5559060566555523,
+          "f0": 150095482587202888,
+          "f1": 450285600469810572,
+          "f2": 450284753179606806,
+          "f3": 150094635296999121,
+          "Q": 1200760471533619387,
+          "boundary_states": 6778308875546,
+          "internal_interfaces": 450283058602387920,
+          "exposed_faces": 1694577218886,
+          "cycle_rank": 300188423305388800,
+          "laminar_sheets": 3188647,
+          "central_sheet_states": 847290203767,
+          "interior_Cell3": 150092940726157519,
+          "interior_refined_states": 1200753693224743841
+        }
+      ]
+    },
+    "closure": {
+      "equation": "1/a+1/b+1/c=1/3",
+      "unordered_integer_solutions": [
+        [
+          4,
+          13,
+          156
+        ],
+        [
+          4,
+          14,
+          84
+        ],
+        [
+          4,
+          15,
+          60
+        ],
+        [
+          4,
+          16,
+          48
+        ],
+        [
+          4,
+          18,
+          36
+        ],
+        [
+          4,
+          20,
+          30
+        ],
+        [
+          4,
+          21,
+          28
+        ],
+        [
+          4,
+          24,
+          24
+        ],
+        [
+          5,
+          8,
+          120
+        ],
+        [
+          5,
+          9,
+          45
+        ],
+        [
+          5,
+          10,
+          30
+        ],
+        [
+          5,
+          12,
+          20
+        ],
+        [
+          5,
+          15,
+          15
+        ],
+        [
+          6,
+          7,
+          42
+        ],
+        [
+          6,
+          8,
+          24
+        ],
+        [
+          6,
+          9,
+          18
+        ],
+        [
+          6,
+          10,
+          15
+        ],
+        [
+          6,
+          12,
+          12
+        ],
+        [
+          7,
+          7,
+          21
+        ],
+        [
+          8,
+          8,
+          12
+        ],
+        [
+          9,
+          9,
+          9
+        ]
+      ],
+      "isotropic_solution": 9,
+      "isotropic_residual": "3s^2(9-s)"
+    },
+    "scalar_serialization": {
+      "formula": "rho(k)=sigma(k)sqrt(k^T G k)",
+      "local_27_registry": [
+        {
+          "address": [
+            -1,
+            -1,
+            -1
+          ],
+          "rho_half_node_native": -0.04180990811711045,
+          "lambda": -3,
+          "nonzero_components": 3
+        },
+        {
+          "address": [
+            0,
+            -1,
+            -1
+          ],
+          "rho_half_node_native": -0.03891979012429033,
+          "lambda": -2,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            -1,
+            1,
+            1
+          ],
+          "rho_half_node_native": -0.03870000693638674,
+          "lambda": 1,
+          "nonzero_components": 3
+        },
+        {
+          "address": [
+            -1,
+            0,
+            -1
+          ],
+          "rho_half_node_native": -0.02830277028126918,
+          "lambda": -2,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            -1,
+            0,
+            1
+          ],
+          "rho_half_node_native": -0.02511731189749575,
+          "lambda": 0,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            0,
+            0,
+            -1
+          ],
+          "rho_half_node_native": -0.02465428294992971,
+          "lambda": -1,
+          "nonzero_components": 1
+        },
+        {
+          "address": [
+            -1,
+            1,
+            -1
+          ],
+          "rho_half_node_native": -0.022802164337824733,
+          "lambda": -1,
+          "nonzero_components": 3
+        },
+        {
+          "address": [
+            -1,
+            -1,
+            0
+          ],
+          "rho_half_node_native": -0.021936074880301717,
+          "lambda": -2,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            -1,
+            -1,
+            1
+          ],
+          "rho_half_node_native": -0.02073599964066307,
+          "lambda": -1,
+          "nonzero_components": 3
+        },
+        {
+          "address": [
+            -1,
+            1,
+            0
+          ],
+          "rho_half_node_native": -0.020024508730742414,
+          "lambda": 0,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            0,
+            -1,
+            1
+          ],
+          "rho_half_node_native": -0.01915282684862419,
+          "lambda": 0,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            0,
+            -1,
+            0
+          ],
+          "rho_half_node_native": -0.018247102565363594,
+          "lambda": -1,
+          "nonzero_components": 1
+        },
+        {
+          "address": [
+            -1,
+            0,
+            0
+          ],
+          "rho_half_node_native": -0.010398529391216474,
+          "lambda": -1,
+          "nonzero_components": 1
+        },
+        {
+          "address": [
+            0,
+            0,
+            0
+          ],
+          "rho_half_node_native": 0.0,
+          "lambda": 0,
+          "nonzero_components": 0
+        },
+        {
+          "address": [
+            1,
+            0,
+            0
+          ],
+          "rho_half_node_native": 0.010398529391216474,
+          "lambda": 1,
+          "nonzero_components": 1
+        },
+        {
+          "address": [
+            0,
+            1,
+            0
+          ],
+          "rho_half_node_native": 0.018247102565363594,
+          "lambda": 1,
+          "nonzero_components": 1
+        },
+        {
+          "address": [
+            0,
+            1,
+            -1
+          ],
+          "rho_half_node_native": 0.01915282684862419,
+          "lambda": 0,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            1,
+            -1,
+            0
+          ],
+          "rho_half_node_native": 0.020024508730742414,
+          "lambda": 0,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            1,
+            1,
+            -1
+          ],
+          "rho_half_node_native": 0.02073599964066307,
+          "lambda": 1,
+          "nonzero_components": 3
+        },
+        {
+          "address": [
+            1,
+            1,
+            0
+          ],
+          "rho_half_node_native": 0.021936074880301717,
+          "lambda": 2,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            1,
+            -1,
+            1
+          ],
+          "rho_half_node_native": 0.022802164337824733,
+          "lambda": 1,
+          "nonzero_components": 3
+        },
+        {
+          "address": [
+            0,
+            0,
+            1
+          ],
+          "rho_half_node_native": 0.02465428294992971,
+          "lambda": 1,
+          "nonzero_components": 1
+        },
+        {
+          "address": [
+            1,
+            0,
+            -1
+          ],
+          "rho_half_node_native": 0.02511731189749575,
+          "lambda": 0,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            1,
+            0,
+            1
+          ],
+          "rho_half_node_native": 0.02830277028126918,
+          "lambda": 2,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            1,
+            -1,
+            -1
+          ],
+          "rho_half_node_native": 0.03870000693638674,
+          "lambda": -1,
+          "nonzero_components": 3
+        },
+        {
+          "address": [
+            0,
+            1,
+            1
+          ],
+          "rho_half_node_native": 0.03891979012429033,
+          "lambda": 2,
+          "nonzero_components": 2
+        },
+        {
+          "address": [
+            1,
+            1,
+            1
+          ],
+          "rho_half_node_native": 0.04180990811711045,
+          "lambda": 3,
+          "nonzero_components": 3
+        }
+      ],
+      "geometric_edge_rank_jump_statistics": {
+        "mean": 5.814814814814815,
+        "median": 4.0,
+        "max": 23,
+        "consecutive": 8,
+        "axis_means": [
+          7.333333333333333,
+          4.111111111111111,
+          6.0
+        ]
+      },
+      "edge_rank_jumps": [
+        {
+          "u": [
+            -1,
+            -1,
+            -1
+          ],
+          "v": [
+            0,
+            -1,
+            -1
+          ],
+          "axis": "a",
+          "jump": 1
+        },
+        {
+          "u": [
+            -1,
+            -1,
+            -1
+          ],
+          "v": [
+            -1,
+            0,
+            -1
+          ],
+          "axis": "b",
+          "jump": 3
+        },
+        {
+          "u": [
+            -1,
+            -1,
+            -1
+          ],
+          "v": [
+            -1,
+            -1,
+            0
+          ],
+          "axis": "c",
+          "jump": 7
+        },
+        {
+          "u": [
+            -1,
+            -1,
+            0
+          ],
+          "v": [
+            0,
+            -1,
+            0
+          ],
+          "axis": "a",
+          "jump": 4
+        },
+        {
+          "u": [
+            -1,
+            -1,
+            0
+          ],
+          "v": [
+            -1,
+            0,
+            0
+          ],
+          "axis": "b",
+          "jump": 5
+        },
+        {
+          "u": [
+            -1,
+            -1,
+            0
+          ],
+          "v": [
+            -1,
+            -1,
+            1
+          ],
+          "axis": "c",
+          "jump": 1
+        },
+        {
+          "u": [
+            -1,
+            -1,
+            1
+          ],
+          "v": [
+            0,
+            -1,
+            1
+          ],
+          "axis": "a",
+          "jump": 2
+        },
+        {
+          "u": [
+            -1,
+            -1,
+            1
+          ],
+          "v": [
+            -1,
+            0,
+            1
+          ],
+          "axis": "b",
+          "jump": 4
+        },
+        {
+          "u": [
+            -1,
+            0,
+            -1
+          ],
+          "v": [
+            0,
+            0,
+            -1
+          ],
+          "axis": "a",
+          "jump": 2
+        },
+        {
+          "u": [
+            -1,
+            0,
+            -1
+          ],
+          "v": [
+            -1,
+            1,
+            -1
+          ],
+          "axis": "b",
+          "jump": 3
+        },
+        {
+          "u": [
+            -1,
+            0,
+            -1
+          ],
+          "v": [
+            -1,
+            0,
+            0
+          ],
+          "axis": "c",
+          "jump": 9
+        },
+        {
+          "u": [
+            -1,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            0,
+            0
+          ],
+          "axis": "a",
+          "jump": 1
+        },
+        {
+          "u": [
+            -1,
+            0,
+            0
+          ],
+          "v": [
+            -1,
+            1,
+            0
+          ],
+          "axis": "b",
+          "jump": 3
+        },
+        {
+          "u": [
+            -1,
+            0,
+            0
+          ],
+          "v": [
+            -1,
+            0,
+            1
+          ],
+          "axis": "c",
+          "jump": 8
+        },
+        {
+          "u": [
+            -1,
+            0,
+            1
+          ],
+          "v": [
+            0,
+            0,
+            1
+          ],
+          "axis": "a",
+          "jump": 17
+        },
+        {
+          "u": [
+            -1,
+            0,
+            1
+          ],
+          "v": [
+            -1,
+            1,
+            1
+          ],
+          "axis": "b",
+          "jump": 2
+        },
+        {
+          "u": [
+            -1,
+            1,
+            -1
+          ],
+          "v": [
+            0,
+            1,
+            -1
+          ],
+          "axis": "a",
+          "jump": 10
+        },
+        {
+          "u": [
+            -1,
+            1,
+            -1
+          ],
+          "v": [
+            -1,
+            1,
+            0
+          ],
+          "axis": "c",
+          "jump": 3
+        },
+        {
+          "u": [
+            -1,
+            1,
+            0
+          ],
+          "v": [
+            0,
+            1,
+            0
+          ],
+          "axis": "a",
+          "jump": 6
+        },
+        {
+          "u": [
+            -1,
+            1,
+            0
+          ],
+          "v": [
+            -1,
+            1,
+            1
+          ],
+          "axis": "c",
+          "jump": 7
+        },
+        {
+          "u": [
+            -1,
+            1,
+            1
+          ],
+          "v": [
+            0,
+            1,
+            1
+          ],
+          "axis": "a",
+          "jump": 23
+        },
+        {
+          "u": [
+            0,
+            -1,
+            -1
+          ],
+          "v": [
+            1,
+            -1,
+            -1
+          ],
+          "axis": "a",
+          "jump": 23
+        },
+        {
+          "u": [
+            0,
+            -1,
+            -1
+          ],
+          "v": [
+            0,
+            0,
+            -1
+          ],
+          "axis": "b",
+          "jump": 4
+        },
+        {
+          "u": [
+            0,
+            -1,
+            -1
+          ],
+          "v": [
+            0,
+            -1,
+            0
+          ],
+          "axis": "c",
+          "jump": 10
+        },
+        {
+          "u": [
+            0,
+            -1,
+            0
+          ],
+          "v": [
+            1,
+            -1,
+            0
+          ],
+          "axis": "a",
+          "jump": 6
+        },
+        {
+          "u": [
+            0,
+            -1,
+            0
+          ],
+          "v": [
+            0,
+            0,
+            0
+          ],
+          "axis": "b",
+          "jump": 2
+        },
+        {
+          "u": [
+            0,
+            -1,
+            0
+          ],
+          "v": [
+            0,
+            -1,
+            1
+          ],
+          "axis": "c",
+          "jump": 1
+        },
+        {
+          "u": [
+            0,
+            -1,
+            1
+          ],
+          "v": [
+            1,
+            -1,
+            1
+          ],
+          "axis": "a",
+          "jump": 10
+        },
+        {
+          "u": [
+            0,
+            -1,
+            1
+          ],
+          "v": [
+            0,
+            0,
+            1
+          ],
+          "axis": "b",
+          "jump": 11
+        },
+        {
+          "u": [
+            0,
+            0,
+            -1
+          ],
+          "v": [
+            1,
+            0,
+            -1
+          ],
+          "axis": "a",
+          "jump": 17
+        },
+        {
+          "u": [
+            0,
+            0,
+            -1
+          ],
+          "v": [
+            0,
+            1,
+            -1
+          ],
+          "axis": "b",
+          "jump": 11
+        },
+        {
+          "u": [
+            0,
+            0,
+            -1
+          ],
+          "v": [
+            0,
+            0,
+            0
+          ],
+          "axis": "c",
+          "jump": 8
+        },
+        {
+          "u": [
+            0,
+            0,
+            0
+          ],
+          "v": [
+            1,
+            0,
+            0
+          ],
+          "axis": "a",
+          "jump": 1
+        },
+        {
+          "u": [
+            0,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            1,
+            0
+          ],
+          "axis": "b",
+          "jump": 2
+        },
+        {
+          "u": [
+            0,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            0,
+            1
+          ],
+          "axis": "c",
+          "jump": 8
+        },
+        {
+          "u": [
+            0,
+            0,
+            1
+          ],
+          "v": [
+            1,
+            0,
+            1
+          ],
+          "axis": "a",
+          "jump": 2
+        },
+        {
+          "u": [
+            0,
+            0,
+            1
+          ],
+          "v": [
+            0,
+            1,
+            1
+          ],
+          "axis": "b",
+          "jump": 4
+        },
+        {
+          "u": [
+            0,
+            1,
+            -1
+          ],
+          "v": [
+            1,
+            1,
+            -1
+          ],
+          "axis": "a",
+          "jump": 2
+        },
+        {
+          "u": [
+            0,
+            1,
+            -1
+          ],
+          "v": [
+            0,
+            1,
+            0
+          ],
+          "axis": "c",
+          "jump": 1
+        },
+        {
+          "u": [
+            0,
+            1,
+            0
+          ],
+          "v": [
+            1,
+            1,
+            0
+          ],
+          "axis": "a",
+          "jump": 4
+        },
+        {
+          "u": [
+            0,
+            1,
+            0
+          ],
+          "v": [
+            0,
+            1,
+            1
+          ],
+          "axis": "c",
+          "jump": 10
+        },
+        {
+          "u": [
+            0,
+            1,
+            1
+          ],
+          "v": [
+            1,
+            1,
+            1
+          ],
+          "axis": "a",
+          "jump": 1
+        },
+        {
+          "u": [
+            1,
+            -1,
+            -1
+          ],
+          "v": [
+            1,
+            0,
+            -1
+          ],
+          "axis": "b",
+          "jump": 2
+        },
+        {
+          "u": [
+            1,
+            -1,
+            -1
+          ],
+          "v": [
+            1,
+            -1,
+            0
+          ],
+          "axis": "c",
+          "jump": 7
+        },
+        {
+          "u": [
+            1,
+            -1,
+            0
+          ],
+          "v": [
+            1,
+            0,
+            0
+          ],
+          "axis": "b",
+          "jump": 3
+        },
+        {
+          "u": [
+            1,
+            -1,
+            0
+          ],
+          "v": [
+            1,
+            -1,
+            1
+          ],
+          "axis": "c",
+          "jump": 3
+        },
+        {
+          "u": [
+            1,
+            -1,
+            1
+          ],
+          "v": [
+            1,
+            0,
+            1
+          ],
+          "axis": "b",
+          "jump": 3
+        },
+        {
+          "u": [
+            1,
+            0,
+            -1
+          ],
+          "v": [
+            1,
+            1,
+            -1
+          ],
+          "axis": "b",
+          "jump": 4
+        },
+        {
+          "u": [
+            1,
+            0,
+            -1
+          ],
+          "v": [
+            1,
+            0,
+            0
+          ],
+          "axis": "c",
+          "jump": 8
+        },
+        {
+          "u": [
+            1,
+            0,
+            0
+          ],
+          "v": [
+            1,
+            1,
+            0
+          ],
+          "axis": "b",
+          "jump": 5
+        },
+        {
+          "u": [
+            1,
+            0,
+            0
+          ],
+          "v": [
+            1,
+            0,
+            1
+          ],
+          "axis": "c",
+          "jump": 9
+        },
+        {
+          "u": [
+            1,
+            0,
+            1
+          ],
+          "v": [
+            1,
+            1,
+            1
+          ],
+          "axis": "b",
+          "jump": 3
+        },
+        {
+          "u": [
+            1,
+            1,
+            -1
+          ],
+          "v": [
+            1,
+            1,
+            0
+          ],
+          "axis": "c",
+          "jump": 1
+        },
+        {
+          "u": [
+            1,
+            1,
+            0
+          ],
+          "v": [
+            1,
+            1,
+            1
+          ],
+          "axis": "c",
+          "jump": 7
+        }
+      ]
+    }
+  },
+  "discovered_pathways": [
+    "six positive Devon projective channels reconstruct the complete symmetric metric",
+    "seven negative projective channels form the complete continuous syndrome",
+    "Mass-Bridge ratios are reciprocal graph invariants and square-root transport-weight ratios",
+    "Devon Super Sheet count equals Emily adjacency nullity at exact Lucas closures",
+    "recursive dimensional tomography separates 729^r,81^r,9^r,1 channels",
+    "closure is an exact boundary-interface graph-cut balance",
+    "scalar serialization preserves identity while producing measurable nonlocal shortcuts",
+    "weighted automorphism-orbit analysis tests metric symmetry breaking"
+  ],
+  "figures": [
+    {
+      "filename": "00_title_composite.png",
+      "sha256": "7a0b1a330edd71d1f17e801d1e49b2d57b1d00ae82d7beba525e2746ebe6a31e",
+      "size_bytes": 418726
+    },
+    {
+      "filename": "01_locked_cell3_all_27_nodes.png",
+      "sha256": "087c71101b6f1a8b3268ee5465c98a5b441a5a809cce83f976b28aae2aa91eef",
+      "size_bytes": 348659
+    },
+    {
+      "filename": "02_six_boundary_plane_atlas.png",
+      "sha256": "69fe15328e297cf5fd52b1d1ac6575f576d1f59760e93c246a65c50e6a25a98d",
+      "size_bytes": 127272
+    },
+    {
+      "filename": "03_open_grid_laminar_layers.png",
+      "sha256": "f204f39c101357e46cffaad1958ccb067999b4e233930848441dd7ebcd978862",
+      "size_bytes": 80617
+    },
+    {
+      "filename": "04_projective_incidence_and_spectra.png",
+      "sha256": "8979427ddad35b10f8ec34a18708293bc5f88e070bba894a4db4eb7027ea511b",
+      "size_bytes": 68106
+    },
+    {
+      "filename": "05_devon_polarity_metric_syndrome.png",
+      "sha256": "3e84f8c287acc2ee0665e6714063dd38572f44d4d14e7e87a372c30f3d46a1da",
+      "size_bytes": 196025
+    },
+    {
+      "filename": "06_six_channel_metric_reconstruction.png",
+      "sha256": "0cc5a81659290364961277ff6b1f387ae4fc010bacdc20891f0b661ecef57de9",
+      "size_bytes": 176876
+    },
+    {
+      "filename": "07_mass_bridge_reciprocal_invariants.png",
+      "sha256": "01e1b41f3570c8b9a41e6ca67d2e8c1e0aeabe99dc3a30f6bf5cbe20ced9ea68",
+      "size_bytes": 86729
+    },
+    {
+      "filename": "08_lucas_supergroup_9B_geometry.png",
+      "sha256": "90c380fac61b265881352d46885686059efc1bd5adf624af0483478a95d979bd",
+      "size_bytes": 380557
+    },
+    {
+      "filename": "09_devon_sheet_emily_nullity.png",
+      "sha256": "6dbb85cfe933b0cbbfa9300b1f87e13858ca1c219c4af1c9a71617dbb580168d",
+      "size_bytes": 124505
+    },
+    {
+      "filename": "10_recursive_morphology_channels.png",
+      "sha256": "fc3a79e6e1d216d948670ccd9eb9c7cc5c93f646ffde123cf4904afb8e12c96c",
+      "size_bytes": 101343
+    },
+    {
+      "filename": "11_closure_graph_cut_balance.png",
+      "sha256": "5d64783f3e901102ee0475ffe229be3ed83f61c10d44743a3a5614812df2d4cc",
+      "size_bytes": 127276
+    },
+    {
+      "filename": "12_scalar_serialization_nonlocality.png",
+      "sha256": "0a2c3e77a4aecc59d4e69fb0c6997943c62016d2614bceb01dab4a421bc10255",
+      "size_bytes": 98334
+    },
+    {
+      "filename": "13_integrated_discovery_pathway.png",
+      "sha256": "8c7fd7dd97cb46c6d75b9cd42934d8bd99a2d2b98ac6775afdcfb90bcca04192",
+      "size_bytes": 128871
+    }
+  ],
+  "pdf_filename": "K-Field_discovered_pathways_1785264435.pdf",
+  "pdf_sha256": "7037f74d97d1cd71b89735a72381fc700f28b730a8a9310fa5c6c5a9473cdf1c",
+  "generation_constraints": {
+    "library": "Python ReportLab",
+    "fonts": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman",
+      "Courier"
+    ],
+    "table_widths": "dynamic within page width",
+    "table_cells": "Paragraph wrapped",
+    "long_tables_repeat_header": true
+  }
+}

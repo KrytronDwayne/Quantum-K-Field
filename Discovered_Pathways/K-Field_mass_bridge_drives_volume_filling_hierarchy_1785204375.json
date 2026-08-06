@@ -1,0 +1,2477 @@
+{
+  "schema": "K-Field.mass_bridge.volume_filling_hierarchy.v1",
+  "epoch": 1785204375,
+  "generated_utc": "2026-07-28T02:06:15+00:00",
+  "title": "K-Field Mass Bridge Drives Volume-Filling Hierarchy",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "credentials": [
+      "BS, Huntington University (1999)",
+      "MBA, Indiana Wesleyan University (2008)"
+    ],
+    "organization": "Krytronx"
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "source_files": [
+    {
+      "filename": "K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592(1).json",
+      "path": "/mnt/data/K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592(1).json",
+      "role": "Authoritative locked Mass-Bridge Cell3 geometry",
+      "sha256": "a5ba3ddf21a20e4528c19609a3061fceca60f53f76224f101c9779c24809d7ea"
+    },
+    {
+      "filename": "K-Field_fractional_recursive_quanta_lucas_grpup_1784239728.json",
+      "path": "/mnt/data/reference_material/K-Field_fractional_recursive_quanta_lucas_grpup_1784239728.json",
+      "role": "Authoritative Lucas hierarchy definitions and recursive counts",
+      "sha256": "75631c25c2ccc16ca116b01a7a629f4c22d3caac34b4be43ccd16845ecef412e"
+    }
+  ],
+  "locked_cell3": {
+    "basis_B_nm_rows_xyz_columns_abc": [
+      [
+        0.3275012420558906,
+        0.0353307758438284,
+        -0.01012931762672882
+      ],
+      [
+        -0.054897007884006435,
+        0.20731985044019177,
+        -0.38978770236625987
+      ],
+      [
+        -0.037487502894729914,
+        -0.5474010853885081,
+        -0.6897344083672676
+      ]
+    ],
+    "direct_metric_M_nm2": [
+      [
+        0.11167605789605009,
+        0.020710333280605807,
+        0.04393723509621977
+      ],
+      [
+        0.020710333280605807,
+        0.343877732392787,
+        0.2963927589615229
+      ],
+      [
+        0.04393723509621977,
+        0.2963927589615229,
+        0.6277706100772958
+      ]
+    ],
+    "reciprocal_metric_R_nm^-2": [
+      [
+        9.208025529457549,
+        0.0015348024281925453,
+        -0.645188035699939
+      ],
+      [
+        0.001534802428192587,
+        4.903398312367987,
+        -2.315175584416389
+      ],
+      [
+        -0.6451880356999389,
+        -2.315175584416389,
+        2.7311712747116945
+      ]
+    ],
+    "edge_lengths_nm": [
+      0.3341796790591105,
+      0.5864108904111408,
+      0.7923197650426852
+    ],
+    "included_angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.4481300183379,
+      "bc": 50.36323181375618
+    },
+    "face_areas_nm2": {
+      "ab": 0.19486916546048413,
+      "ac": 0.2611062357902053,
+      "bc": 0.3578095391285615
+    },
+    "volume_nm3": 0.11791489191174465,
+    "body_diagonal_nm": 1.3436536216759252,
+    "opposite_face_spacings_nm": {
+      "a": 0.32954652969544684,
+      "b": 0.4515973797212847,
+      "c": 0.6050977415185554
+    },
+    "face_normals_icrs": {
+      "bc": [
+        -0.9959651903089612,
+        0.08360216250737747,
+        -0.032619290564400036
+      ],
+      "ac": [
+        -0.089052594101605,
+        -0.8665767692910323,
+        0.4910339483262758
+      ],
+      "ab": [
+        0.19409220080776704,
+        0.9131771688212286,
+        0.35837923479080463
+      ]
+    },
+    "node_rule": "p_L=B L/2 for L in {-1,0,1}^3",
+    "nodes": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "lambda": -3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.17635135013649508,
+          0.11868242990503727,
+          0.6373114983252528
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1814160089498595,
+          -0.07621142127809266,
+          0.292444294141619
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1864806677632239,
+          -0.2711052724612226,
+          -0.052422910042014825
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1586859622145809,
+          0.22234235512513315,
+          0.36361095563099877
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.1637506210279453,
+          0.027448503942003218,
+          0.018743751447364957
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1688152798413097,
+          -0.16744534724112672,
+          -0.32612345273626886
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1410205742926667,
+          0.32600228034522905,
+          0.08991041293674473
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1460852331060311,
+          0.1311084291620991,
+          -0.2549567912468891
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1511498919193955,
+          -0.06378542202103082,
+          -0.5998239954305229
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.012600729108549789,
+          0.09123392596303405,
+          0.6185677468778878
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.0176653879219142,
+          -0.10365992522009589,
+          0.27370054269425403
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.02273004673527861,
+          -0.29855377640322583,
+          -0.07116666148937978
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.00506465881336441,
+          0.19489385118312993,
+          0.3448672041836338
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "body center",
+        "position_nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.00506465881336441,
+          -0.19489385118312993,
+          -0.3448672041836338
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.02273004673527861,
+          0.29855377640322583,
+          0.07116666148937978
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.0176653879219142,
+          0.10365992522009589,
+          -0.27370054269425403
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.012600729108549789,
+          -0.09123392596303405,
+          -0.6185677468778878
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1511498919193955,
+          0.06378542202103082,
+          0.5998239954305229
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1460852331060311,
+          -0.1311084291620991,
+          0.2549567912468891
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1410205742926667,
+          -0.32600228034522905,
+          -0.08991041293674473
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1688152798413097,
+          0.16744534724112672,
+          0.32612345273626886
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.1637506210279453,
+          -0.027448503942003218,
+          -0.018743751447364957
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1586859622145809,
+          -0.22234235512513315,
+          -0.36361095563099877
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1864806677632239,
+          0.2711052724612226,
+          0.052422910042014825
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1814160089498595,
+          0.07621142127809266,
+          -0.292444294141619
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "lambda": 3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.17635135013649508,
+          -0.11868242990503727,
+          -0.6373114983252528
+        ]
+      }
+    ],
+    "boundary_planes": [
+      {
+        "channel": "a",
+        "face_family": "bc",
+        "address_coefficient": -1,
+        "primitive_coordinate": -0.5,
+        "unit_normal_icrs": [
+          -0.9959651903089612,
+          0.08360216250737747,
+          -0.032619290564400036
+        ],
+        "face_area_nm2": 0.3578095391285615,
+        "opposite_face_spacing_nm": 0.32954652969544684,
+        "center_to_face_distance_nm": 0.16477326484772342,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "a",
+        "face_family": "bc",
+        "address_coefficient": 1,
+        "primitive_coordinate": 0.5,
+        "unit_normal_icrs": [
+          -0.9959651903089612,
+          0.08360216250737747,
+          -0.032619290564400036
+        ],
+        "face_area_nm2": 0.3578095391285615,
+        "opposite_face_spacing_nm": 0.32954652969544684,
+        "center_to_face_distance_nm": 0.16477326484772342,
+        "node_addresses": [
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "b",
+        "face_family": "ac",
+        "address_coefficient": -1,
+        "primitive_coordinate": -0.5,
+        "unit_normal_icrs": [
+          -0.089052594101605,
+          -0.8665767692910323,
+          0.4910339483262758
+        ],
+        "face_area_nm2": 0.2611062357902053,
+        "opposite_face_spacing_nm": 0.4515973797212847,
+        "center_to_face_distance_nm": 0.22579868986064236,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            1,
+            -1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "b",
+        "face_family": "ac",
+        "address_coefficient": 1,
+        "primitive_coordinate": 0.5,
+        "unit_normal_icrs": [
+          -0.089052594101605,
+          -0.8665767692910323,
+          0.4910339483262758
+        ],
+        "face_area_nm2": 0.2611062357902053,
+        "opposite_face_spacing_nm": 0.4515973797212847,
+        "center_to_face_distance_nm": 0.22579868986064236,
+        "node_addresses": [
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "channel": "c",
+        "face_family": "ab",
+        "address_coefficient": -1,
+        "primitive_coordinate": -0.5,
+        "unit_normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212286,
+          0.35837923479080463
+        ],
+        "face_area_nm2": 0.19486916546048413,
+        "opposite_face_spacing_nm": 0.6050977415185554,
+        "center_to_face_distance_nm": 0.3025488707592777,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ]
+      },
+      {
+        "channel": "c",
+        "face_family": "ab",
+        "address_coefficient": 1,
+        "primitive_coordinate": 0.5,
+        "unit_normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212286,
+          0.35837923479080463
+        ],
+        "face_area_nm2": 0.19486916546048413,
+        "opposite_face_spacing_nm": 0.6050977415185554,
+        "center_to_face_distance_nm": 0.3025488707592777,
+        "node_addresses": [
+          [
+            -1,
+            -1,
+            1
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "mass_bridge": {
+    "eta": 1836.152673426,
+    "alpha_inverse": 137.035999177,
+    "eta_alpha": 13.399053419929222,
+    "r1_Aac_over_Aab": 1.339905341992922,
+    "r2_Abc_over_Aac": 1.3703599917700002,
+    "r3_Abc_over_Aab": 1.836152673426,
+    "exact_closure": {
+      "10_r1": 13.39905341992922,
+      "100_r2": 137.03599917700004,
+      "1000_r3": 1836.152673426,
+      "multiplicative_identity": "(10 r1)(100 r2)=1000 r3"
+    },
+    "unique_node_equation": "3^g 2^n + 1 = 10",
+    "solutions_nonnegative": [
+      [
+        2,
+        0
+      ]
+    ],
+    "selected_aggregation_depth_g": 2,
+    "selected_refinement_depth_n": 0
+  },
+  "hierarchy_formulas": {
+    "m": "3^g",
+    "outer_basis": "3^g B",
+    "cell3_count": "m^3",
+    "corner_nodes": "(m+1)^3",
+    "half_step_nodes": "(2m+1)^3",
+    "lambda_sheets": "6m+1",
+    "central_sheet_nodes": "3m^2+3m+1",
+    "antipodal_pairs": "((2m+1)^3-1)/2",
+    "internal_interfaces": "3(m-1)m^2",
+    "exposed_faces": "6m^2",
+    "interface_ratio": "(m-1)/2",
+    "cycle_rank": "3(m-1)m^2-m^3+1",
+    "sheet_to_volume_identity": "S_g^3=Q_(g+1)",
+    "parity_sum": "sum (-1)^(La+Lb+Lc)=-1"
+  },
+  "levels": [
+    {
+      "g": 0,
+      "m_cells_per_axis": 1,
+      "cell3_count": 1,
+      "corner_nodes": 8,
+      "half_step_nodes_per_axis": 3,
+      "half_step_nodes": 27,
+      "lambda_sheets": 7,
+      "central_lambda_sheet_nodes": 7,
+      "antipodal_pairs": 13,
+      "internal_interfaces": 0,
+      "exposed_primitive_faces": 6,
+      "internal_to_exposed_interface_ratio": 0.0,
+      "strictly_interior_cell3_count": 0,
+      "strictly_interior_cell3_fraction": 0.0,
+      "strictly_interior_half_step_node_count": 1,
+      "strictly_interior_half_step_node_fraction": 0.037037037037037035,
+      "cell_center_graph_cycle_rank": 0,
+      "outer_basis_matrix_nm": [
+        [
+          0.3275012420558906,
+          0.0353307758438284,
+          -0.01012931762672882
+        ],
+        [
+          -0.054897007884006435,
+          0.20731985044019177,
+          -0.38978770236625987
+        ],
+        [
+          -0.037487502894729914,
+          -0.5474010853885081,
+          -0.6897344083672676
+        ]
+      ],
+      "outer_edge_lengths_nm": [
+        0.3341796790591105,
+        0.5864108904111408,
+        0.7923197650426852
+      ],
+      "outer_face_areas_nm2": {
+        "ab": 0.19486916546048413,
+        "ac": 0.2611062357902053,
+        "bc": 0.3578095391285615
+      },
+      "volume_nm3": 0.11791489191174465,
+      "opposite_face_spans_nm": {
+        "a": 0.32954652969544684,
+        "b": 0.4515973797212847,
+        "c": 0.6050977415185554
+      },
+      "body_diagonal_nm": 1.3436536216759252
+    },
+    {
+      "g": 1,
+      "m_cells_per_axis": 3,
+      "cell3_count": 27,
+      "corner_nodes": 64,
+      "half_step_nodes_per_axis": 7,
+      "half_step_nodes": 343,
+      "lambda_sheets": 19,
+      "central_lambda_sheet_nodes": 37,
+      "antipodal_pairs": 171,
+      "internal_interfaces": 54,
+      "exposed_primitive_faces": 54,
+      "internal_to_exposed_interface_ratio": 1.0,
+      "strictly_interior_cell3_count": 1,
+      "strictly_interior_cell3_fraction": 0.037037037037037035,
+      "strictly_interior_half_step_node_count": 125,
+      "strictly_interior_half_step_node_fraction": 0.36443148688046645,
+      "cell_center_graph_cycle_rank": 28,
+      "outer_basis_matrix_nm": [
+        [
+          0.9825037261676718,
+          0.10599232753148519,
+          -0.03038795288018646
+        ],
+        [
+          -0.16469102365201932,
+          0.6219595513205753,
+          -1.1693631070987796
+        ],
+        [
+          -0.11246250868418975,
+          -1.6422032561655242,
+          -2.069203225101803
+        ]
+      ],
+      "outer_edge_lengths_nm": [
+        1.0025390371773315,
+        1.7592326712334225,
+        2.3769592951280556
+      ],
+      "outer_face_areas_nm2": {
+        "ab": 1.7538224891443572,
+        "ac": 2.349956122111848,
+        "bc": 3.2202858521570534
+      },
+      "volume_nm3": 3.1837020816171053,
+      "opposite_face_spans_nm": {
+        "a": 0.9886395890863405,
+        "b": 1.3547921391638542,
+        "c": 1.8152932245556663
+      },
+      "body_diagonal_nm": 4.030960865027776
+    },
+    {
+      "g": 2,
+      "m_cells_per_axis": 9,
+      "cell3_count": 729,
+      "corner_nodes": 1000,
+      "half_step_nodes_per_axis": 19,
+      "half_step_nodes": 6859,
+      "lambda_sheets": 55,
+      "central_lambda_sheet_nodes": 271,
+      "antipodal_pairs": 3429,
+      "internal_interfaces": 1944,
+      "exposed_primitive_faces": 486,
+      "internal_to_exposed_interface_ratio": 4.0,
+      "strictly_interior_cell3_count": 343,
+      "strictly_interior_cell3_fraction": 0.47050754458161864,
+      "strictly_interior_half_step_node_count": 4913,
+      "strictly_interior_half_step_node_fraction": 0.7162851727657092,
+      "cell_center_graph_cycle_rank": 1216,
+      "outer_basis_matrix_nm": [
+        [
+          2.9475111785030155,
+          0.31797698259445556,
+          -0.09116385864055938
+        ],
+        [
+          -0.4940730709560579,
+          1.865878653961726,
+          -3.508089321296339
+        ],
+        [
+          -0.3373875260525692,
+          -4.926609768496572,
+          -6.207609675305409
+        ]
+      ],
+      "outer_edge_lengths_nm": [
+        3.0076171115319945,
+        5.277698013700268,
+        7.130877885384167
+      ],
+      "outer_face_areas_nm2": {
+        "ab": 15.784402402299214,
+        "ac": 21.14960509900663,
+        "bc": 28.982572669413482
+      },
+      "volume_nm3": 85.95995620366185,
+      "opposite_face_spans_nm": {
+        "a": 2.9659187672590215,
+        "b": 4.064376417491562,
+        "c": 5.445879673666999
+      },
+      "body_diagonal_nm": 12.092882595083326
+    },
+    {
+      "g": 3,
+      "m_cells_per_axis": 27,
+      "cell3_count": 19683,
+      "corner_nodes": 21952,
+      "half_step_nodes_per_axis": 55,
+      "half_step_nodes": 166375,
+      "lambda_sheets": 163,
+      "central_lambda_sheet_nodes": 2269,
+      "antipodal_pairs": 83187,
+      "internal_interfaces": 56862,
+      "exposed_primitive_faces": 4374,
+      "internal_to_exposed_interface_ratio": 13.0,
+      "strictly_interior_cell3_count": 15625,
+      "strictly_interior_cell3_fraction": 0.7938322410201697,
+      "strictly_interior_half_step_node_count": 148877,
+      "strictly_interior_half_step_node_fraction": 0.8948279489105936,
+      "cell_center_graph_cycle_rank": 37180,
+      "outer_basis_matrix_nm": [
+        [
+          8.842533535509046,
+          0.9539309477833667,
+          -0.27349157592167816
+        ],
+        [
+          -1.4822192128681737,
+          5.597635961885178,
+          -10.524267963889017
+        ],
+        [
+          -1.0121625781577077,
+          -14.779829305489718,
+          -18.622829025916225
+        ]
+      ],
+      "outer_edge_lengths_nm": [
+        9.022851334595984,
+        15.833094041100802,
+        21.3926336561525
+      ],
+      "outer_face_areas_nm2": {
+        "ab": 142.05962162069292,
+        "ac": 190.34644589105966,
+        "bc": 260.84315402472134
+      },
+      "volume_nm3": 2320.91881749887,
+      "opposite_face_spans_nm": {
+        "a": 8.897756301777065,
+        "b": 12.193129252474687,
+        "c": 16.337639021000996
+      },
+      "body_diagonal_nm": 36.27864778524998
+    },
+    {
+      "g": 4,
+      "m_cells_per_axis": 81,
+      "cell3_count": 531441,
+      "corner_nodes": 551368,
+      "half_step_nodes_per_axis": 163,
+      "half_step_nodes": 4330747,
+      "lambda_sheets": 487,
+      "central_lambda_sheet_nodes": 19927,
+      "antipodal_pairs": 2165373,
+      "internal_interfaces": 1574640,
+      "exposed_primitive_faces": 39366,
+      "internal_to_exposed_interface_ratio": 40.0,
+      "strictly_interior_cell3_count": 493039,
+      "strictly_interior_cell3_fraction": 0.9277398619978511,
+      "strictly_interior_half_step_node_count": 4173281,
+      "strictly_interior_half_step_node_fraction": 0.9636399909761526,
+      "cell_center_graph_cycle_rank": 1043200,
+      "outer_basis_matrix_nm": [
+        [
+          26.527600606527137,
+          2.8617928433501003,
+          -0.8204747277650345
+        ],
+        [
+          -4.446657638604521,
+          16.792907885655534,
+          -31.57280389166705
+        ],
+        [
+          -3.036487734473123,
+          -44.33948791646915,
+          -55.868487077748675
+        ]
+      ],
+      "outer_edge_lengths_nm": [
+        27.068554003787952,
+        47.49928212330241,
+        64.17790096845751
+      ],
+      "outer_face_areas_nm2": {
+        "ab": 1278.5365945862363,
+        "ac": 1713.118013019537,
+        "bc": 2347.588386222492
+      },
+      "volume_nm3": 62664.80807246949,
+      "opposite_face_spans_nm": {
+        "a": 26.693268905331195,
+        "b": 36.579387757424065,
+        "c": 49.01291706300299
+      },
+      "body_diagonal_nm": 108.83594335574993
+    },
+    {
+      "g": 5,
+      "m_cells_per_axis": 243,
+      "cell3_count": 14348907,
+      "corner_nodes": 14526784,
+      "half_step_nodes_per_axis": 487,
+      "half_step_nodes": 115501303,
+      "lambda_sheets": 1459,
+      "central_lambda_sheet_nodes": 177877,
+      "antipodal_pairs": 57750651,
+      "internal_interfaces": 42869574,
+      "exposed_primitive_faces": 354294,
+      "internal_to_exposed_interface_ratio": 121.0,
+      "strictly_interior_cell3_count": 13997521,
+      "strictly_interior_cell3_fraction": 0.9755113054952548,
+      "strictly_interior_half_step_node_count": 114084125,
+      "strictly_interior_half_step_node_fraction": 0.9877301990264127,
+      "cell_center_graph_cycle_rank": 28520668,
+      "outer_basis_matrix_nm": [
+        [
+          79.58280181958142,
+          8.585378530050301,
+          -2.461424183295103
+        ],
+        [
+          -13.339972915813563,
+          50.3787236569666,
+          -94.71841167500115
+        ],
+        [
+          -9.109463203419368,
+          -133.01846374940746,
+          -167.60546123324605
+        ]
+      ],
+      "outer_edge_lengths_nm": [
+        81.20566201136386,
+        142.49784636990722,
+        192.5337029053725
+      ],
+      "outer_face_areas_nm2": {
+        "ab": 11506.829351276128,
+        "ac": 15418.062117175834,
+        "bc": 21128.29547600243
+      },
+      "volume_nm3": 1691949.8179566762,
+      "opposite_face_spans_nm": {
+        "a": 80.07980671599358,
+        "b": 109.73816327227219,
+        "c": 147.03875118900896
+      },
+      "body_diagonal_nm": 326.5078300672498
+    },
+    {
+      "g": 6,
+      "m_cells_per_axis": 729,
+      "cell3_count": 387420489,
+      "corner_nodes": 389017000,
+      "half_step_nodes_per_axis": 1459,
+      "half_step_nodes": 3105745579,
+      "lambda_sheets": 4375,
+      "central_lambda_sheet_nodes": 1596511,
+      "antipodal_pairs": 1552872789,
+      "internal_interfaces": 1160667144,
+      "exposed_primitive_faces": 3188646,
+      "internal_to_exposed_interface_ratio": 364.0,
+      "strictly_interior_cell3_count": 384240583,
+      "strictly_interior_cell3_fraction": 0.9917921067927824,
+      "strictly_interior_half_step_node_count": 3092990993,
+      "strictly_interior_half_step_node_fraction": 0.9958932289604654,
+      "cell_center_graph_cycle_rank": 773246656,
+      "outer_basis_matrix_nm": [
+        [
+          238.74840545874423,
+          25.7561355901509,
+          -7.38427254988531
+        ],
+        [
+          -40.01991874744069,
+          151.1361709708998,
+          -284.15523502500344
+        ],
+        [
+          -27.328389610258107,
+          -399.0553912482224,
+          -502.8163836997381
+        ]
+      ],
+      "outer_edge_lengths_nm": [
+        243.61698603409155,
+        427.49353910972167,
+        577.6011087161176
+      ],
+      "outer_face_areas_nm2": {
+        "ab": 103561.46416148514,
+        "ac": 138762.5590545825,
+        "bc": 190154.65928402185
+      },
+      "volume_nm3": 45682645.084830254,
+      "opposite_face_spans_nm": {
+        "a": 240.23942014798075,
+        "b": 329.2144898168166,
+        "c": 441.11625356702694
+      },
+      "body_diagonal_nm": 979.5234902017495
+    }
+  ],
+  "g2_mass_bridge_completion": {
+    "g": 2,
+    "m_cells_per_axis": 9,
+    "cell3_count": 729,
+    "corner_nodes": 1000,
+    "half_step_nodes_per_axis": 19,
+    "half_step_nodes": 6859,
+    "lambda_sheets": 55,
+    "central_lambda_sheet_nodes": 271,
+    "antipodal_pairs": 3429,
+    "internal_interfaces": 1944,
+    "exposed_primitive_faces": 486,
+    "internal_to_exposed_interface_ratio": 4.0,
+    "strictly_interior_cell3_count": 343,
+    "strictly_interior_cell3_fraction": 0.47050754458161864,
+    "strictly_interior_half_step_node_count": 4913,
+    "strictly_interior_half_step_node_fraction": 0.7162851727657092,
+    "cell_center_graph_cycle_rank": 1216,
+    "outer_basis_matrix_nm": [
+      [
+        2.9475111785030155,
+        0.31797698259445556,
+        -0.09116385864055938
+      ],
+      [
+        -0.4940730709560579,
+        1.865878653961726,
+        -3.508089321296339
+      ],
+      [
+        -0.3373875260525692,
+        -4.926609768496572,
+        -6.207609675305409
+      ]
+    ],
+    "outer_edge_lengths_nm": [
+      3.0076171115319945,
+      5.277698013700268,
+      7.130877885384167
+    ],
+    "outer_face_areas_nm2": {
+      "ab": 15.784402402299214,
+      "ac": 21.14960509900663,
+      "bc": 28.982572669413482
+    },
+    "volume_nm3": 85.95995620366185,
+    "opposite_face_spans_nm": {
+      "a": 2.9659187672590215,
+      "b": 4.064376417491562,
+      "c": 5.445879673666999
+    },
+    "body_diagonal_nm": 12.092882595083326
+  },
+  "reciprocal_spectrum_low_order": [
+    {
+      "quadratic_value_nm^-2": 2.7311712747116945,
+      "vectors": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 1.6526255700284,
+      "k_magnitude_cell3_rad_nm^-1": 10.383752699871732,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 10.383752699871732,
+        "1": 3.461250899957244,
+        "2": 1.1537502999857479,
+        "3": 0.38458343332858264
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 3.004218418246903,
+      "vectors": [
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 1.7332681322423553,
+      "k_magnitude_cell3_rad_nm^-1": 10.89044486190777,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 10.89044486190777,
+        "1": 3.6301482873025903,
+        "2": 1.2100494291008634,
+        "3": 0.4033498097002878
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 4.903398312367987,
+      "vectors": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 2.2143618295951515,
+      "k_magnitude_cell3_rad_nm^-1": 13.913245712491563,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 13.913245712491563,
+        "1": 4.637748570830521,
+        "2": 1.5459161902768404,
+        "3": 0.5153053967589467
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 6.567381073549209,
+      "vectors": [
+        [
+          0,
+          -1,
+          -2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 2.562690202414098,
+      "k_magnitude_cell3_rad_nm^-1": 16.10185742666134,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 16.10185742666134,
+        "1": 5.367285808887114,
+        "2": 1.7890952696290379,
+        "3": 0.596365089876346
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 9.208025529457549,
+      "vectors": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.0344728585798144,
+      "k_magnitude_cell3_rad_nm^-1": 19.066155280063928,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 19.066155280063928,
+        "1": 6.355385093354642,
+        "2": 2.118461697784881,
+        "3": 0.706153899261627
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 10.648820732769366,
+      "vectors": [
+        [
+          -1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.263253090517094,
+      "k_magnitude_cell3_rad_nm^-1": 20.503623871945383,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 20.503623871945383,
+        "1": 6.834541290648461,
+        "2": 2.2781804302161537,
+        "3": 0.7593934767387179
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 10.924685098846778,
+      "vectors": [
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.3052511400568,
+      "k_magnitude_cell3_rad_nm^-1": 20.767505399743463,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 20.767505399743463,
+        "1": 6.922501799914488,
+        "2": 2.3075005999714957,
+        "3": 0.7691668666571653
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 10.92493748116096,
+      "vectors": [
+        [
+          -1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.3052893188283776,
+      "k_magnitude_cell3_rad_nm^-1": 20.767745284040085,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 20.767745284040085,
+        "1": 6.922581761346695,
+        "2": 2.3075272537822316,
+        "3": 0.7691757512607439
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 12.016873672987613,
+      "vectors": [
+        [
+          0,
+          -2,
+          -2
+        ],
+        [
+          0,
+          2,
+          2
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.4665362644847106,
+      "k_magnitude_cell3_rad_nm^-1": 21.78088972381554,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 21.78088972381554,
+        "1": 7.260296574605181,
+        "2": 2.420098858201727,
+        "3": 0.8066996194005756
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 12.26492075591246,
+      "vectors": [
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.5021308878898942,
+      "k_magnitude_cell3_rad_nm^-1": 22.004537338609584,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 22.004537338609584,
+        "1": 7.334845779536528,
+        "2": 2.4449485931788426,
+        "3": 0.8149828643929475
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 13.084062186518086,
+      "vectors": [
+        [
+          0,
+          -2,
+          -1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.6171898189779985,
+      "k_magnitude_cell3_rad_nm^-1": 22.727473923882147,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 22.727473923882147,
+        "1": 7.575824641294049,
+        "2": 2.5252748804313496,
+        "3": 0.8417582934771166
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 13.197724065063387,
+      "vectors": [
+        [
+          -1,
+          -1,
+          -2
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.6328671961776124,
+      "k_magnitude_cell3_rad_nm^-1": 22.825977789957875,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 22.825977789957875,
+        "1": 7.608659263319292,
+        "2": 2.536219754439764,
+        "3": 0.8454065848132546
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 13.22957287556912,
+      "vectors": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.6372479810385654,
+      "k_magnitude_cell3_rad_nm^-1": 22.85350307303013,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 22.85350307303013,
+        "1": 7.61783435767671,
+        "2": 2.53927811922557,
+        "3": 0.8464260397418566
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 13.499550414247944,
+      "vectors": [
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          -1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.6741734327938227,
+      "k_magnitude_cell3_rad_nm^-1": 23.08551252895973,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 23.08551252895973,
+        "1": 7.695170842986577,
+        "2": 2.565056947662192,
+        "3": 0.855018982554064
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 14.10835423696915,
+      "vectors": [
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.756108922404827,
+      "k_magnitude_cell3_rad_nm^-1": 23.600328393420156,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 23.600328393420156,
+        "1": 7.866776131140052,
+        "2": 2.6222587103800175,
+        "3": 0.8740862367933391
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 14.114493446681921,
+      "vectors": [
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.7569260635101567,
+      "k_magnitude_cell3_rad_nm^-1": 23.60546264240706,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 23.60546264240706,
+        "1": 7.8684875474690195,
+        "2": 2.622829182489673,
+        "3": 0.8742763941632243
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 15.592886278274902,
+      "vectors": [
+        [
+          0,
+          -1,
+          -3
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 3.948782885684512,
+      "k_magnitude_cell3_rad_nm^-1": 24.810934608575135,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 24.810934608575135,
+        "1": 8.270311536191711,
+        "2": 2.7567705120639037,
+        "3": 0.9189235040213013
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 16.41202770888053,
+      "vectors": [
+        [
+          0,
+          -2,
+          -3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 4.051176089591827,
+      "k_magnitude_cell3_rad_nm^-1": 25.45429008292062,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 25.45429008292062,
+        "1": 8.48476336097354,
+        "2": 2.8282544536578467,
+        "3": 0.9427514845526155
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 17.55195848550457,
+      "vectors": [
+        [
+          -1,
+          0,
+          -2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 4.189505756709802,
+      "k_magnitude_cell3_rad_nm^-1": 26.32344101490332,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 26.32344101490332,
+        "1": 8.774480338301107,
+        "2": 2.9248267794337024,
+        "3": 0.9749422598112341
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 18.35308914095013,
+      "vectors": [
+        [
+          -1,
+          1,
+          2
+        ],
+        [
+          1,
+          -1,
+          -2
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 4.284050553033907,
+      "k_magnitude_cell3_rad_nm^-1": 26.917483490037228,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 26.917483490037228,
+        "1": 8.972494496679076,
+        "2": 2.990831498893025,
+        "3": 0.9969438329643417
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 18.650286269358176,
+      "vectors": [
+        [
+          -1,
+          -2,
+          -2
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 4.3185977202511205,
+      "k_magnitude_cell3_rad_nm^-1": 27.134549743501097,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 27.134549743501097,
+        "1": 9.044849914500366,
+        "2": 3.014949971500122,
+        "3": 1.0049833238333739
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 19.613593249471947,
+      "vectors": [
+        [
+          0,
+          -2,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 4.428723659190303,
+      "k_magnitude_cell3_rad_nm^-1": 27.826491424983125,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 27.826491424983125,
+        "1": 9.275497141661042,
+        "2": 3.0918323805536807,
+        "3": 1.0306107935178934
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 20.179500609113745,
+      "vectors": [
+        [
+          -1,
+          1,
+          -1
+        ],
+        [
+          1,
+          -1,
+          1
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 4.492159904668771,
+      "k_magnitude_cell3_rad_nm^-1": 28.225073110516075,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 28.225073110516075,
+        "1": 9.408357703505358,
+        "2": 3.136119234501786,
+        "3": 1.045373078167262
+      }
+    },
+    {
+      "quadratic_value_nm^-2": 20.932853198389203,
+      "vectors": [
+        [
+          -1,
+          -1,
+          -3
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "degeneracy": 2,
+      "sqrt_value_nm^-1": 4.575243512468949,
+      "k_magnitude_cell3_rad_nm^-1": 28.74710281431362,
+      "scaled_k_by_g_rad_nm^-1": {
+        "0": 28.74710281431362,
+        "1": 9.582367604771207,
+        "2": 3.1941225349237357,
+        "3": 1.0647075116412452
+      }
+    }
+  ],
+  "physics_comparison": {
+    "anchors_excluded_from_discovery_significance": [
+      {
+        "name": "proton-electron mass ratio",
+        "value": 1836.152673426,
+        "source": "2022 CODATA and locked Mass Bridge"
+      },
+      {
+        "name": "inverse fine-structure constant",
+        "value": 137.035999177,
+        "source": "2022 CODATA and locked Mass Bridge"
+      }
+    ],
+    "non_anchor_quantity_count": 26,
+    "declared_candidate_count": 822,
+    "complete_comparison_rows": [
+      {
+        "name": "electron to shielded helion magn. moment ratio",
+        "value": 864.058255,
+        "signed_value": 864.058255,
+        "unit": "",
+        "standard_uncertainty": 1e-05,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 864.0,
+        "candidate_label": "2^5 * 3^3",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -6.742022272565595e-05,
+        "absolute_residual_ppm": 67.42022272565595
+      },
+      {
+        "name": "deuteron-proton mass ratio",
+        "value": 1.9990075012699,
+        "signed_value": 1.9990075012699,
+        "unit": "",
+        "standard_uncertainty": 8.4e-12,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 2.0,
+        "candidate_label": "2^1 * 3^0",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.0004964957507509471,
+        "absolute_residual_ppm": 496.4957507509471
+      },
+      {
+        "name": "triton-electron mass ratio",
+        "value": 5496.92153551,
+        "signed_value": 5496.92153551,
+        "unit": "",
+        "standard_uncertainty": 2.1e-07,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 5500.0,
+        "candidate_label": "10^2 x lambda-sheet count, g=2",
+        "candidate_family": "decimal dimensional lift",
+        "relative_residual": 0.0005600342792075885,
+        "absolute_residual_ppm": 560.0342792075885
+      },
+      {
+        "name": "alpha particle-electron mass ratio",
+        "value": 7294.29954171,
+        "signed_value": 7294.29954171,
+        "unit": "",
+        "standard_uncertainty": 1.7e-07,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 7290.0,
+        "candidate_label": "10^1 x Cell3 volume count, g=2",
+        "candidate_family": "decimal dimensional lift",
+        "relative_residual": -0.0005894386000211416,
+        "absolute_residual_ppm": 589.4386000211416
+      },
+      {
+        "name": "helion-electron mass ratio",
+        "value": 5495.88527984,
+        "signed_value": 5495.88527984,
+        "unit": "",
+        "standard_uncertainty": 1.6e-07,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 5500.0,
+        "candidate_label": "10^2 x lambda-sheet count, g=2",
+        "candidate_family": "decimal dimensional lift",
+        "relative_residual": 0.0007486910571248284,
+        "absolute_residual_ppm": 748.6910571248284
+      },
+      {
+        "name": "electron g factor",
+        "value": 2.00231930436092,
+        "signed_value": -2.00231930436092,
+        "unit": "",
+        "standard_uncertainty": 3.6e-13,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 2.0,
+        "candidate_label": "2^1 * 3^0",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.0011583089449662687,
+        "absolute_residual_ppm": 1158.3089449662687
+      },
+      {
+        "name": "muon g factor",
+        "value": 2.00233184123,
+        "signed_value": -2.00233184123,
+        "unit": "",
+        "standard_uncertainty": 8.2e-10,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 2.0,
+        "candidate_label": "2^1 * 3^0",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.0011645628271924613,
+        "absolute_residual_ppm": 1164.5628271924613
+      },
+      {
+        "name": "neutron-proton mass ratio",
+        "value": 1.00137841946,
+        "signed_value": 1.00137841946,
+        "unit": "",
+        "standard_uncertainty": 4e-10,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 1.0,
+        "candidate_label": "2^0 * 3^0",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.0013765220352394136,
+        "absolute_residual_ppm": 1376.5220352394135
+      },
+      {
+        "name": "triton-proton mass ratio",
+        "value": 2.99371703403,
+        "signed_value": 2.99371703403,
+        "unit": "",
+        "standard_uncertainty": 1e-10,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 3.0,
+        "candidate_label": "2^0 * 3^1",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.0020987173799595915,
+        "absolute_residual_ppm": 2098.7173799595917
+      },
+      {
+        "name": "helion-proton mass ratio",
+        "value": 2.993152671552,
+        "signed_value": 2.993152671552,
+        "unit": "",
+        "standard_uncertainty": 7e-11,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 3.0,
+        "candidate_label": "2^0 * 3^1",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.0022876642788987045,
+        "absolute_residual_ppm": 2287.6642788987047
+      },
+      {
+        "name": "tau-muon mass ratio",
+        "value": 16.817,
+        "signed_value": 16.817,
+        "unit": "",
+        "standard_uncertainty": 0.0011,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 16.855967078189302,
+        "candidate_label": "2^12 * 3^-5",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.002317124230796219,
+        "absolute_residual_ppm": 2317.1242307962193
+      },
+      {
+        "name": "neutron-electron mass ratio",
+        "value": 1838.683662,
+        "signed_value": 1838.683662,
+        "unit": "",
+        "standard_uncertainty": 7.4e-07,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 1845.28125,
+        "candidate_label": "2^-5 * 3^10",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.0035882126634136924,
+        "absolute_residual_ppm": 3588.2126634136926
+      },
+      {
+        "name": "helion g factor",
+        "value": 4.2552506995,
+        "signed_value": -4.2552506995,
+        "unit": "",
+        "standard_uncertainty": 3.4e-09,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 4.271484375,
+        "candidate_label": "2^-9 * 3^7",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.0038149751087301897,
+        "absolute_residual_ppm": 3814.9751087301897
+      },
+      {
+        "name": "deuteron-electron mass ratio",
+        "value": 3670.482967655,
+        "signed_value": 3670.482967655,
+        "unit": "",
+        "standard_uncertainty": 6.3e-08,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 3690.5625,
+        "candidate_label": "2^-4 * 3^10",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.005470542302455694,
+        "absolute_residual_ppm": 5470.542302455694
+      },
+      {
+        "name": "proton g factor",
+        "value": 5.5856946893,
+        "signed_value": 5.5856946893,
+        "unit": "",
+        "standard_uncertainty": 1.6e-09,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 5.618655692729766,
+        "candidate_label": "2^12 * 3^-6",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.005900967608005292,
+        "absolute_residual_ppm": 5900.967608005292
+      },
+      {
+        "name": "tau-electron mass ratio",
+        "value": 3477.23,
+        "signed_value": 3477.23,
+        "unit": "",
+        "standard_uncertainty": 0.23,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 3456.0,
+        "candidate_label": "2^7 * 3^3",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.006105434498149376,
+        "absolute_residual_ppm": 6105.434498149376
+      },
+      {
+        "name": "alpha particle-proton mass ratio",
+        "value": 3.972599690252,
+        "signed_value": 3.972599690252,
+        "unit": "",
+        "standard_uncertainty": 7e-11,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 4.0,
+        "candidate_label": "2^2 * 3^0",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.006897324644925762,
+        "absolute_residual_ppm": 6897.324644925762
+      },
+      {
+        "name": "triton g factor",
+        "value": 5.95792493,
+        "signed_value": 5.95792493,
+        "unit": "",
+        "standard_uncertainty": 1.2e-08,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 6.0,
+        "candidate_label": "2^1 * 3^1",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.007062034264335715,
+        "absolute_residual_ppm": 7062.034264335714
+      },
+      {
+        "name": "neutron g factor",
+        "value": 3.82608552,
+        "signed_value": -3.82608552,
+        "unit": "",
+        "standard_uncertainty": 9e-07,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 3.796875,
+        "candidate_label": "2^-6 * 3^5",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.00763457059370698,
+        "absolute_residual_ppm": 7634.57059370698
+      },
+      {
+        "name": "muon-electron mass ratio",
+        "value": 206.7682827,
+        "signed_value": 206.7682827,
+        "unit": "",
+        "standard_uncertainty": 4.6e-06,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 205.03125,
+        "candidate_label": "2^-5 * 3^8",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.008400866309463129,
+        "absolute_residual_ppm": 8400.866309463128
+      },
+      {
+        "name": "W to Z mass ratio",
+        "value": 0.88145,
+        "signed_value": 0.88145,
+        "unit": "",
+        "standard_uncertainty": 0.00013,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 0.8888888888888888,
+        "candidate_label": "2^3 * 3^-2",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.008439377036574935,
+        "absolute_residual_ppm": 8439.377036574935
+      },
+      {
+        "name": "electron-neutron magn. moment ratio",
+        "value": 960.9205,
+        "signed_value": 960.9205,
+        "unit": "",
+        "standard_uncertainty": 0.00023,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 972.0,
+        "candidate_label": "2^2 * 3^5",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.011530090158343054,
+        "absolute_residual_ppm": 11530.090158343053
+      },
+      {
+        "name": "neutron-muon mass ratio",
+        "value": 8.89248408,
+        "signed_value": 8.89248408,
+        "unit": "",
+        "standard_uncertainty": 2e-07,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 9.0,
+        "candidate_label": "2^0 * 3^2",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.012090650827456972,
+        "absolute_residual_ppm": 12090.650827456973
+      },
+      {
+        "name": "proton-muon mass ratio",
+        "value": 8.88024338,
+        "signed_value": 8.88024338,
+        "unit": "",
+        "standard_uncertainty": 2e-07,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 9.0,
+        "candidate_label": "2^0 * 3^2",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": 0.01348573624341376,
+        "absolute_residual_ppm": 13485.73624341376
+      },
+      {
+        "name": "electron to shielded proton magn. moment ratio",
+        "value": 658.2275956,
+        "signed_value": -658.2275956,
+        "unit": "",
+        "standard_uncertainty": 7.1e-06,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 648.0,
+        "candidate_label": "2^3 * 3^4",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.015538083891297738,
+        "absolute_residual_ppm": 15538.083891297738
+      },
+      {
+        "name": "deuteron g factor",
+        "value": 0.8574382335,
+        "signed_value": 0.8574382335,
+        "unit": "",
+        "standard_uncertainty": 2.2e-09,
+        "source": "SciPy 1.17.0 physical_constants / 2022 CODATA",
+        "candidate_value": 0.84375,
+        "candidate_label": "2^-5 * 3^3",
+        "candidate_family": "dyadic-ternary harmonic",
+        "relative_residual": -0.01596410442782059,
+        "absolute_residual_ppm": 15964.104427820592
+      }
+    ],
+    "reported_key_matches": [
+      {
+        "quantity": "electron to shielded helion magnetic-moment ratio",
+        "observed": 864.058255,
+        "candidate": 864.0,
+        "candidate_expression": "2^5 * 3^3",
+        "relative_residual": -6.742022272565595e-05,
+        "absolute_residual_ppm": 67.42022272565595
+      },
+      {
+        "quantity": "triton/electron mass ratio",
+        "observed": 5496.92153551,
+        "candidate": 5500.0,
+        "candidate_expression": "100 * 55 (g=2 sheet count)",
+        "relative_residual": 0.0005600342792075885,
+        "absolute_residual_ppm": 560.0342792075885
+      },
+      {
+        "quantity": "alpha/electron mass ratio",
+        "observed": 7294.29954171,
+        "candidate": 7290.0,
+        "candidate_expression": "10 * 729 (g=2 Cell3 count)",
+        "relative_residual": -0.0005894386000211416,
+        "absolute_residual_ppm": 589.4386000211416
+      },
+      {
+        "quantity": "helion/electron mass ratio",
+        "observed": 5495.88527984,
+        "candidate": 5500.0,
+        "candidate_expression": "100 * 55 (g=2 sheet count)",
+        "relative_residual": 0.0007486910571248284,
+        "absolute_residual_ppm": 748.6910571248284
+      },
+      {
+        "quantity": "charged-pion/electron mass ratio",
+        "observed": 273.1324395315071,
+        "candidate": 273.375,
+        "candidate_expression": "3^7 / 2^3",
+        "relative_residual": 0.0008880690587649287,
+        "absolute_residual_ppm": 888.0690587649287
+      },
+      {
+        "quantity": "charged-pion/electron mass ratio",
+        "observed": 273.1324395315071,
+        "candidate": 271,
+        "candidate_expression": "g=2 central sheet = 271",
+        "relative_residual": -0.007807346264562254,
+        "absolute_residual_ppm": 7807.346264562254
+      },
+      {
+        "quantity": "tau/electron mass ratio",
+        "observed": 3477.23,
+        "candidate": 3429,
+        "candidate_expression": "g=2 antipodal pairs = 3429",
+        "relative_residual": -0.013870235791132557,
+        "absolute_residual_ppm": 13870.235791132556
+      }
+    ],
+    "reported_local_log_uniform_p_for_864_candidate_approx": 0.0067,
+    "reported_multiple_test_q_for_864_candidate_approx": 0.175,
+    "charged_pion_mass_MeV": 139.57039,
+    "electron_mass_energy_MeV": 0.51099895069,
+    "charged_pion_electron_mass_ratio": 273.1324395315071
+  },
+  "figures": [
+    {
+      "key": "locked_cell3_nodes",
+      "filename": "01_locked_cell3_all_nodes.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/01_locked_cell3_all_nodes.png",
+      "sha256": "2912e2b214186c382e25d045e77306701245d15cc38c3b903887e4a8644ce10f"
+    },
+    {
+      "key": "address_atlas",
+      "filename": "02_cell3_address_atlas.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/02_cell3_address_atlas.png",
+      "sha256": "9ba30a8683f79ded19e4ae41c0b86b7fab9fe9591b95eb2684c4ac06e21bda4e"
+    },
+    {
+      "key": "boundary_planes",
+      "filename": "03_boundary_plane_atlas.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/03_boundary_plane_atlas.png",
+      "sha256": "d7caaf97b0510b911428d23dc21365905ada6b40cd1ca1607aede35a77dce2a2"
+    },
+    {
+      "key": "lucas_group",
+      "filename": "04_lucas_group_27_cells.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/04_lucas_group_27_cells.png",
+      "sha256": "3b4eb4ee51c5ce992f911e4da6c8b4c25c3e7ff32467bd8ec7c6e7760737b073"
+    },
+    {
+      "key": "g2_block",
+      "filename": "05_g2_mass_bridge_block.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/05_g2_mass_bridge_block.png",
+      "sha256": "2053daae97dcbd191e851cfc9003e097b43bf5bfe543ccbc9a2c542eb85564ed"
+    },
+    {
+      "key": "g2_halfstep",
+      "filename": "06_g2_halfstep_lattice.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/06_g2_halfstep_lattice.png",
+      "sha256": "5366ff62728c3aa4706f134016c9a872e38a8da099bd20c2a9d0e8857d943d9a"
+    },
+    {
+      "key": "closure",
+      "filename": "07_projective_dimensional_closure.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/07_projective_dimensional_closure.png",
+      "sha256": "6dcfcd614a280c0a9af26b1449bd0b93f8be983fdedaf599924d4548edb39b79"
+    },
+    {
+      "key": "dimensions",
+      "filename": "08_accumulated_dimensions.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/08_accumulated_dimensions.png",
+      "sha256": "53a23cbed58ce93bc292ee91fd77e7204d20fe01e10b9e6c64f718c25d6729cf"
+    },
+    {
+      "key": "counts",
+      "filename": "09_hierarchy_count_growth.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/09_hierarchy_count_growth.png",
+      "sha256": "b6fff86b9a78d6e0c433974ac1ae58459d79736329ec6693d76f9259ecf83626"
+    },
+    {
+      "key": "bulk_transition",
+      "filename": "10_bulk_transition.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/10_bulk_transition.png",
+      "sha256": "efb9a00563225b5878fb8de75d34fa2ab5568fc4c378e7f7e44e8024fa72937a"
+    },
+    {
+      "key": "sheet_recurrence",
+      "filename": "11_sheet_to_volume_recurrence.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/11_sheet_to_volume_recurrence.png",
+      "sha256": "bee003c1d27ee7c898b43ebbc17f86b925c59e426cd47f778a93e8251556e10e"
+    },
+    {
+      "key": "reciprocal",
+      "filename": "12_reciprocal_spectrum.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/12_reciprocal_spectrum.png",
+      "sha256": "829673a42de5c25fbc8e8234aa176ce9cb85882ad9220c6aaa9cd25440bd520f"
+    },
+    {
+      "key": "harmonics",
+      "filename": "13_harmonic_residuals.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/13_harmonic_residuals.png",
+      "sha256": "19cf0b6d5cade5aca4a9aba0e9f02608aaea77b416a7ec15517764dcf27b11c3"
+    },
+    {
+      "key": "parity",
+      "filename": "14_parity_balance.png",
+      "path": "/mnt/data/_K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375_assets/14_parity_balance.png",
+      "sha256": "9361cae4b7150041127630e8ef20fd9f7183dc015b10043cf4f5326d7fcc09fc"
+    }
+  ],
+  "complete_consolidated_analytical_statement": "PRINCIPAL RESULT: THE MASS BRIDGE SELECTS THE SECOND LUCAS AGGREGATION\n\nThe attached JSON fixes the Cell3 face-ratio point and leaves only uniform scale free. The established Lucas hierarchy defines one Lucas Group as 3 x 3 x 3 = 27 complete Cell3 volumes, with outer basis 3B.\n\nLet the aggregation depth be g: m_g = 3^g, where m_g is the number of Cell3 units along each primitive direction. At g=0 there is one Cell3; at g=1 there is one Lucas Group; at g=2 there is a 3 x 3 x 3 array of Lucas Groups. At g=2, m_2=9. Nine cells along an axis require ten cell-boundary node positions. Therefore the unrefined corner lattice contains N_edge=10, N_face=10^2=100, and N_volume=10^3=1000. These are exactly the three projective multipliers in the locked Mass Bridge.\n\nDefine r1=A_ac/A_ab=1.339905341992922, r2=A_bc/A_ac=1.370359991770000, and r3=A_bc/A_ab=1.836152673426000=r1 r2. Then the g=2 skeleton gives 10 r1=13.399053419929222=eta alpha, 100 r2=137.035999177=alpha^-1, and 1000 r3=1836.152673426=eta.\n\nThis forms an exact commutative dimensional closure: 10 x 100 = 1000; (A_ac/A_ab)(A_bc/A_ac)=A_bc/A_ab; and (eta alpha)(alpha^-1)=eta. Thus the decimal multipliers are not arbitrary external normalization factors under the recursive-volume interpretation. They are the 1D, 2D, and 3D node cardinalities of the second Lucas aggregation.\n\nMoreover, 3^g 2^n + 1 = 10 has the unique nonnegative-integer solution (g,n)=(2,0). The Mass Bridge therefore selects a unique hierarchy rung: an unrefined 9 x 9 x 9 Cell3 block containing 27 Lucas Groups and 729 Cell3 volumes.\n\nACCUMULATED PHYSICAL DIMENSIONS\n\nThe locked Cell3 has edge lengths (|a|,|b|,|c|)=(0.3341796791, 0.5864108904, 0.7923197650) nm, face areas (A_ab,A_ac,A_bc)=(0.1948691655, 0.2611062358, 0.3578095391) nm^2, and volume V0=0.1179148919 nm^3. Its opposite-face spacings are 0.3295465297, 0.4515973797, and 0.6050977415 nm.\n\nAggregation preserves the shape exactly: B_g=3^g B, A_g=9^g A_0, and V_g=27^g V_0. The levels are: Cell3 g=0, one volume; Lucas Group g=1, 27 volumes; Mass-Bridge block g=2, 729 volumes; bulk block g=3, 19,683 volumes; extended bulk g=4, 531,441 volumes. The g=2 block has outer edge lengths 3.007617, 5.277698, and 7.130878 nm, volume 85.959956 nm^3, outer face areas 15.7844024, 21.1496051, and 28.9825727 nm^2, opposite-face spans 2.96591877, 4.06437642, and 5.44587967 nm, and body diagonal 12.0928826 nm.\n\nThe absolute nanometre dimensions remain conditional on the adopted uniform scale; the ratios, counts, dimensional closure, and reciprocal anisotropy do not.\n\nGROWTH OF INTERNAL STRUCTURE\n\nFor the half-step Lucas embedding at aggregation depth g, define m=3^g. The merged lattice has Q_g=(2m+1)^3 nodes and S_g=6m+1 constant-lambda sheets. The central sheet contains C_g=3m^2+3m+1 nodes, while the number of antipodal pairs is P_g=(Q_g-1)/2.\n\nThe hierarchy has the exact sheet-to-volume identity S_g=Q_(g+1)^(1/3), so the number of sheets at one level becomes the number of half-step node positions along one axis at the next: 7 -> 7^3=343, 19 -> 19^3=6859, and 55 -> 55^3=166375. This is a direct sheet-to-volume recursion. A laminar count at one level becomes a three-dimensional node lattice at the next.\n\nThe alternating parity field retains a one-unit global imbalance at every level. Because m=3^g is odd, the sum over all addresses of (-1)^(i+j+k) equals -1. The positive and negative populations therefore grow extensively while their difference remains exactly one. The relative imbalance tends to zero, but the absolute residual does not vanish.\n\nOBJECT-TO-FIELD TRANSITION\n\nAt g=0, Cell3 supplies the local metric, reciprocal metric, three face channels, seven sheets, and 13 antipodal address pairs. At g=1, the Lucas Group is the first volume containing a completely surrounded central Cell3. It has 27 translation sectors, 54 internal interfaces, 343 merged half-step nodes, and 19 sheets. Its cell-center adjacency graph has 54 links and 28 independent graph cycles, so it is the first level capable of supporting extensive closed intercell circulation patterns.\n\nAt g=2, the hierarchy reaches the exact Mass-Bridge closure block. It contains 729 translation sectors, 1,944 internal interfaces, 1,000 unrefined corner nodes, 6,859 half-step nodes, and 55 sheets. More than 71 percent of its half-step nodes are strictly internal, although the strictly interior Cell3 fraction is still slightly below one-half. This is the transition from a boundary-dominated object to a node-bulk-dominated field volume.\n\nAt g=3, nearly 80 percent of Cell3 volumes and nearly 90 percent of half-step nodes are strictly internal. The internal-to-exposed-interface ratio is exactly 13, equal to the number of local antipodal Cell3 channels. This is the first recursive level that is clearly bulk-dominated in both volume and node populations.\n\nRECIPROCAL-SPACE HARMONICS\n\nFor a periodic block with outer basis mB, where m=3^g, the allowed reciprocal vectors are k_q=2 pi (mB)^(-T)q=(2 pi/3^g)B^(-T)q. Using the locked reciprocal metric R=B^(-1)B^(-T), |k_q|^2=(2 pi/3^g)^2 q^T R q.\n\nConsequently, one aggregation step multiplies direct length by 3, area by 9, and volume by 27, while dividing reciprocal wavenumber by 3 and quadratic eigenvalue by 9. One dyadic refinement divides direct length by 2, area by 4, and volume by 8, while multiplying reciprocal wavenumber by 2 and quadratic eigenvalue by 4. The natural linear-dispersion harmonic family is omega_(g,n)/omega_0=2^n/3^g, while quadratic energies or Laplacian eigenvalues scale as E_(g,n)/E_0=4^n/9^g.\n\nCOMPARISON WITH ESTABLISHED PHYSICS CONSTANTS\n\nA predetermined 2^n 3^g harmonic dictionary and canonical hierarchy counts were compared with 26 CODATA dimensionless quantities, excluding the two locked Mass-Bridge anchors from discovery significance. The strongest non-anchor residuals retained for investigation were: electron/shielded-helion magnetic-moment ratio 864.058255 versus 864=2^5 3^3, residual -67.4 ppm; triton/electron mass ratio 5496.92154 versus 5500=100 x 55, residual +560 ppm; alpha/electron mass ratio 7294.29954 versus 7290=10 x 729, residual -589 ppm; helion/electron mass ratio 5495.88528 versus 5500, residual +749 ppm; charged-pion/electron mass ratio 273.13244 versus 3^7/2^3=273.375, residual +888 ppm; charged-pion/electron mass ratio versus the g=2 central sheet count 271, residual -0.781 percent; and tau/electron mass ratio 3477.23 versus the g=2 antipodal-pair count 3429, residual -1.387 percent.\n\nThe 864.058255 to 864 match is the strongest independent candidate. Under a local log-uniform null it has p approximately 0.0067, but after correction across the 26 tested constants its false-discovery value is approximately q=0.175. The g=2 nuclear-count candidates have corrected values near q=0.31. They warrant retention and residual analysis, but they do not yet constitute independent quantization laws.\n\nA separate dimensionful scan found sub-per-mille approximations to the Planck length, electron Compton wavelength, and Bohr radius using 3^g/2^n descendants. Those matches did not survive density correction, and the absolute Cell3 scale remains a free parameter. They therefore cannot presently be used as evidence for a physical scale identification.\n\nFINDING\n\nThe Mass Bridge does more than force the Cell3 shape. It uniquely selects the g=2, 9^3=729-Cell3 completion block because that block alone generates the exact 10, 100, and 1000 projective cardinalities. Growing the hierarchy produces deterministic transitions from local geometry, to collective phase sectors, to a Mass-Bridge-complete finite object, and finally to a bulk-dominated field volume. Direct-space aggregation and reciprocal-space mode formation are locked together. Every factor of three in accumulated size produces a factor-of-three spectral subharmonic and 27 times as many collective sectors.\n\nThe most important new candidate object is therefore the 9B block: 27 Lucas Groups, 729 Cell3 volumes, 1,000 corner nodes, 6,859 half-step nodes, 55 sheets, and 729 reciprocal phase sectors. It is the minimal recursive volume in which the complete Mass-Bridge dimensional composition law is physically represented by the lattice itself.\n\nThe next decisive test is to enumerate the low-order values of q^T R q for the g=1,2,3 reciprocal lattices and compare their degeneracies and residual sequences with measured particle, atomic, and field spectra using only one global scale and no nearest-state or object-specific coefficients.",
+  "pdf_filename": "K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.pdf",
+  "json_filename": "K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.json",
+  "pdf_sha256": "bb807573ec68d7ca62411679f4dae9629ebb11062a3dbe6b774a1e18f02d30ab",
+  "generation_constraints": {
+    "library": "ReportLab",
+    "pdf_fonts": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman",
+      "Courier"
+    ],
+    "table_width_policy": "dynamic within page width",
+    "table_cells": "Paragraph wrapped",
+    "long_table_repeatRows": 1
+  },
+  "verification": {
+    "requested_recursive_audit_passes": 10,
+    "audit_results_file_not_emitted": true,
+    "recursive_audit_passes_completed": 10,
+    "all_checks_passed": true,
+    "page_count": 33,
+    "core_fonts_verified": [
+      "Courier",
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman"
+    ],
+    "rendered_page_count": 33,
+    "pdf_sha256_verified": "bb807573ec68d7ca62411679f4dae9629ebb11062a3dbe6b774a1e18f02d30ab"
+  },
+  "json_sha256_before_self_field": "a466a1aefdaa86f9fc72de887fcc0134d1e22de05588948e0824650f04f6775c"
+}
