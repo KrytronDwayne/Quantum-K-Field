@@ -1,2 +1,4 @@
 # Quantum-K-Field
 Quantum K-Field Public Release; Discovery and analysis of the Quantum K-Field, the quantum substrate beneath known physics.
+
+The text, media, and data in this repository are licensed under CC BY-NC 4.0. The software code is licensed under GNU AGPLv3. These assets are entirely free for academic, educational, and non-commercial research. For commercial licensing inquiries or production usage permissions, please contactdwayne.esterline@krytronx.com.
