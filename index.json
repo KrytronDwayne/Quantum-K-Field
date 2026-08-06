@@ -1,0 +1,838 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_title": "Krytronx Quantum K-Field Sharded Topic and Keyword Index Manifest",
+  "schema_version": "2.0.0-sharded",
+  "document_type": "research_archive_index_manifest",
+  "repository": {
+    "repository_name": "Quantum-K-Field",
+    "repository_full_name": "KrytronDwayne/Quantum-K-Field",
+    "repository_url": "https://github.com/KrytronDwayne/Quantum-K-Field",
+    "default_branch": "main",
+    "tree_sha_observed": "81c69d9a7ec7acb398b04b6f68d653f0fbea00e8",
+    "generated_at_utc": "2026-08-06T20:01:00Z",
+    "index_scope": "Current public repository root metadata, README, CITATION.cff, licenses, directory names, filenames, paired PDF/JSON artifacts, machine-readable companions, source archives, lecture files, commentary records, and typed graphs.",
+    "normalization_note": "Epoch suffixes, file extensions, separators, version markers, and duplicated PDF/JSON representations are normalized for topic extraction, while exact observed paths remain preserved in artifact_index."
+  },
+  "source_monolith": {
+    "canonical_filename": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+    "uploaded_filename": "Quantum-K-Field_topic_keyword_index_20260806T200100Z(1).json",
+    "size_bytes": 576149,
+    "size_kib": 562.646,
+    "sha256": "4d75ebed5c5c24f714caf6b2c71238752ecfe3f9fd4ed0fdd104f05ae21cd1bd",
+    "logical_schema_version": "1.0.0"
+  },
+  "github_code_search_compatibility": {
+    "documented_max_indexed_file_kib": 350,
+    "design_target_max_file_kib": 128,
+    "utf8_required": true,
+    "default_branch_only": true,
+    "line_truncation_threshold_characters": 1024,
+    "file_exclusion_rule_for_very_long_lines": "Files with more than one line over 4096 bytes are excluded.",
+    "binary_files_excluded": true,
+    "strategy": "Semantic JSON shards, UTF-8, pretty-printed, target <128 KiB per file."
+  },
+  "reconstruction": {
+    "script": "machine_index/recombine_index.py",
+    "logical_sections": {
+      "core_metadata": "machine_index/core.json",
+      "normalization": "machine_index/normalization.json",
+      "category_index": "machine_index/category-index.json",
+      "topic_taxonomy": [
+        "machine_index/taxonomy/01-applied-mechanics.json",
+        "machine_index/taxonomy/02-applied-science.json",
+        "machine_index/taxonomy/03-astronomy.json",
+        "machine_index/taxonomy/04-astronomy-cosmology-reference-frames.json",
+        "machine_index/taxonomy/05-celestial-modulation.json",
+        "machine_index/taxonomy/06-derived-pathways.json",
+        "machine_index/taxonomy/07-education-documentation-machine-readability.json",
+        "machine_index/taxonomy/08-engineering.json",
+        "machine_index/taxonomy/09-experimental-instrumentation-materials.json",
+        "machine_index/taxonomy/10-foundational-physics.json",
+        "machine_index/taxonomy/11-geometry-topology.json",
+        "machine_index/taxonomy/12-gravity-inertia-forces.json",
+        "machine_index/taxonomy/13-metrology-timing-oscillators.json",
+        "machine_index/taxonomy/14-named-k-field-structures.json",
+        "machine_index/taxonomy/15-optics-spectroscopy-photonics.json",
+        "machine_index/taxonomy/16-physical-constants-atomic-physics.json",
+        "machine_index/taxonomy/17-project-identity.json",
+        "machine_index/taxonomy/18-signal-processing.json",
+        "machine_index/taxonomy/19-signal-processing-data-science.json"
+      ],
+      "keyword_index": "machine_index/keyword-index.json",
+      "raw_keyword_vocabulary": "machine_index/raw-keyword-vocabulary.json",
+      "extended_search_keyword_vocabulary": "machine_index/extended-search-keyword-vocabulary.json",
+      "artifact_index": [
+        "machine_index/artifacts/01-repository-root.json",
+        "machine_index/artifacts/02-assets.json",
+        "machine_index/artifacts/03-applied-devices-analysis.json",
+        "machine_index/artifacts/04-cmb-modulation.json",
+        "machine_index/artifacts/05-commentary.json",
+        "machine_index/artifacts/06-discovered-pathways.json",
+        "machine_index/artifacts/07-galaxy-analysis.json",
+        "machine_index/artifacts/08-lectures.json",
+        "machine_index/artifacts/09-ocxo-experiments.json",
+        "machine_index/artifacts/10-press-release.json",
+        "machine_index/artifacts/11-spectrophotometer-studies.json",
+        "machine_index/artifacts/12-start-here.json",
+        "machine_index/artifacts/13-student-reconstruction-process-galax-derivation-methods.json",
+        "machine_index/artifacts/14-student-reconstruction-process-step-by-step-galaxy-to-100-physics-formulas.json",
+        "machine_index/artifacts/15-typed-graphs.json"
+      ]
+    }
+  },
+  "lookups": {
+    "term_id_to_shard": "machine_index/lookup/term-locator.json",
+    "artifact_path_to_shard": "machine_index/lookup/artifact-locator.json"
+  },
+  "shards": [
+    {
+      "shard_id": "artifacts:.",
+      "path": "machine_index/artifacts/01-repository-root.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": ".",
+        "order": 0
+      },
+      "record_count": 6,
+      "bytes": 2839,
+      "kib": 2.772,
+      "sha256": "92736bfd07a59cfd71c7c9819c29c28fc078ebb1b5284a7aab05c8a3f7ab3560",
+      "line_count": 99,
+      "max_line_characters": 123,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Assets",
+      "path": "machine_index/artifacts/02-assets.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Assets",
+        "order": 1
+      },
+      "record_count": 2,
+      "bytes": 1483,
+      "kib": 1.448,
+      "sha256": "90b15ba053bed02055d68374f9a76d947fd9306db06031475e9b81ffdf319064",
+      "line_count": 50,
+      "max_line_characters": 130,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Applied_Devices_Analysis",
+      "path": "machine_index/artifacts/03-applied-devices-analysis.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Applied_Devices_Analysis",
+        "order": 2
+      },
+      "record_count": 73,
+      "bytes": 55704,
+      "kib": 54.398,
+      "sha256": "bba2ff381a57ace76c3af860d4e629d7c8b8cf6300a8be8e88d79ed424092d86",
+      "line_count": 1502,
+      "max_line_characters": 207,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:CMB_Modulation",
+      "path": "machine_index/artifacts/04-cmb-modulation.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "CMB_Modulation",
+        "order": 3
+      },
+      "record_count": 4,
+      "bytes": 3219,
+      "kib": 3.144,
+      "sha256": "6ed4e5d50be23f12bd2470002f61adcf3aba5e0007aa334df5d160b02e79a597",
+      "line_count": 96,
+      "max_line_characters": 149,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Commentary",
+      "path": "machine_index/artifacts/05-commentary.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Commentary",
+        "order": 4
+      },
+      "record_count": 47,
+      "bytes": 28198,
+      "kib": 27.537,
+      "sha256": "eb1da335a8e28ad0b55787a703d9941e7e8b92ff12a6c11ccdc6b0e7f25841c0",
+      "line_count": 799,
+      "max_line_characters": 160,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Discovered_Pathways",
+      "path": "machine_index/artifacts/06-discovered-pathways.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Discovered_Pathways",
+        "order": 5
+      },
+      "record_count": 42,
+      "bytes": 32630,
+      "kib": 31.865,
+      "sha256": "4072ee87d2985483db8b9461bab3bb67d2d59daecebd70c629d48817fb3f00d3",
+      "line_count": 874,
+      "max_line_characters": 189,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Galaxy_Analysis",
+      "path": "machine_index/artifacts/07-galaxy-analysis.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Galaxy_Analysis",
+        "order": 6
+      },
+      "record_count": 6,
+      "bytes": 5084,
+      "kib": 4.965,
+      "sha256": "15734cb52f892bbba3449a3dde1b3b6e78301aa0fa48a78b515ca77d14ca82d9",
+      "line_count": 138,
+      "max_line_characters": 167,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Lectures",
+      "path": "machine_index/artifacts/08-lectures.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Lectures",
+        "order": 7
+      },
+      "record_count": 3,
+      "bytes": 2451,
+      "kib": 2.394,
+      "sha256": "b6602a006f8113c2d908ad2765f48b50ec4f9983208854685ae3f1946773bca9",
+      "line_count": 70,
+      "max_line_characters": 166,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:OCXO_Experiments",
+      "path": "machine_index/artifacts/09-ocxo-experiments.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "OCXO_Experiments",
+        "order": 8
+      },
+      "record_count": 7,
+      "bytes": 6525,
+      "kib": 6.372,
+      "sha256": "fab2a189053d29a80eb332f5c70311c02f4daf43bdb35b3aa04ec4a63b6e342d",
+      "line_count": 176,
+      "max_line_characters": 191,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Press_Release",
+      "path": "machine_index/artifacts/10-press-release.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Press_Release",
+        "order": 9
+      },
+      "record_count": 4,
+      "bytes": 2452,
+      "kib": 2.395,
+      "sha256": "6cfd154234bf5b9be0349ca57123ea9f6170d11c3ba6b4f1b1e35a9f809d4382",
+      "line_count": 77,
+      "max_line_characters": 131,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Spectrophotometer_Studies",
+      "path": "machine_index/artifacts/11-spectrophotometer-studies.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Spectrophotometer_Studies",
+        "order": 10
+      },
+      "record_count": 18,
+      "bytes": 15691,
+      "kib": 15.323,
+      "sha256": "0bca19741a389ea4562bdd8e0d456135e63160f58985bb3e242e543870d5d4be",
+      "line_count": 398,
+      "max_line_characters": 195,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Start_Here",
+      "path": "machine_index/artifacts/12-start-here.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Start_Here",
+        "order": 11
+      },
+      "record_count": 9,
+      "bytes": 5665,
+      "kib": 5.532,
+      "sha256": "fbc9bbb4e7053e87f97f78f480cbc1ef03ddf460c06f048fe1b542db0bdbdb2a",
+      "line_count": 171,
+      "max_line_characters": 155,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Student_reconstruction_process/Galax_Derivation_Methods",
+      "path": "machine_index/artifacts/13-student-reconstruction-process-galax-derivation-methods.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Student_reconstruction_process/Galax_Derivation_Methods",
+        "order": 12
+      },
+      "record_count": 10,
+      "bytes": 8302,
+      "kib": 8.107,
+      "sha256": "52499639680faf031cdd2fa55c6df1717db813c9462900c2b6d21ab4b22b1c70",
+      "line_count": 210,
+      "max_line_characters": 199,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+      "path": "machine_index/artifacts/14-student-reconstruction-process-step-by-step-galaxy-to-100-physics-formulas.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+        "order": 13
+      },
+      "record_count": 6,
+      "bytes": 5231,
+      "kib": 5.108,
+      "sha256": "e2b4fb351c3c4b1ef86aa179e4503c27d92568f48759b96c1586b04b5527c692",
+      "line_count": 122,
+      "max_line_characters": 219,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "artifacts:Typed_Graphs",
+      "path": "machine_index/artifacts/15-typed-graphs.json",
+      "section": "artifact_index",
+      "partition": {
+        "type": "repository_directory",
+        "value": "Typed_Graphs",
+        "order": 14
+      },
+      "record_count": 4,
+      "bytes": 2990,
+      "kib": 2.92,
+      "sha256": "7cf3b952781c37a26b4111926706ce2c71b27e7a992d58096f1980232a16cee9",
+      "line_count": 88,
+      "max_line_characters": 156,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "category-index",
+      "path": "machine_index/category-index.json",
+      "section": "category_index",
+      "partition": null,
+      "record_count": 19,
+      "bytes": 9127,
+      "kib": 8.913,
+      "sha256": "673bb591fd212ba28a1e86daf6cda502914b16f25725254ddb55c26b439c2ba3",
+      "line_count": 335,
+      "max_line_characters": 81,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "core",
+      "path": "machine_index/core.json",
+      "section": "core_metadata",
+      "partition": null,
+      "record_count": 10,
+      "bytes": 8630,
+      "kib": 8.428,
+      "sha256": "f891a9333e40ed0d26f4e71d1cff52a668bd67e98593352391f9c8e030776a98",
+      "line_count": 225,
+      "max_line_characters": 393,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "extended-search-keyword-vocabulary",
+      "path": "machine_index/extended-search-keyword-vocabulary.json",
+      "section": "extended_search_keyword_vocabulary",
+      "partition": null,
+      "record_count": 713,
+      "bytes": 15325,
+      "kib": 14.966,
+      "sha256": "fb58679b7febc34405265cdbd1fff1774ecfd66fcc44d209e3c3a43972c8b98a",
+      "line_count": 722,
+      "max_line_characters": 81,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "keyword-index",
+      "path": "machine_index/keyword-index.json",
+      "section": "keyword_index",
+      "partition": null,
+      "record_count": 675,
+      "bytes": 42567,
+      "kib": 41.569,
+      "sha256": "17574794fd7afd5a0941775095d99e4485ed01518b62cdf81f98c2df9101a177",
+      "line_count": 2034,
+      "max_line_characters": 81,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "lookup:artifact-locator",
+      "path": "machine_index/lookup/artifact-locator.json",
+      "section": "lookup",
+      "partition": {
+        "type": "lookup",
+        "value": "artifact_path_to_shard"
+      },
+      "record_count": 241,
+      "bytes": 34298,
+      "kib": 33.494,
+      "sha256": "9f09696e22f2eca71dfe294ab054d2b15aa51a041d766d61b5a308def842d1bd",
+      "line_count": 250,
+      "max_line_characters": 253,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "lookup:term-locator",
+      "path": "machine_index/lookup/term-locator.json",
+      "section": "lookup",
+      "partition": {
+        "type": "lookup",
+        "value": "term_id_to_shard"
+      },
+      "record_count": 288,
+      "bytes": 25971,
+      "kib": 25.362,
+      "sha256": "b9ab688ca5cbd6ae10e72e0d8c7df7ef5a66185bb3645c478bbf6b2dfe2106a2",
+      "line_count": 297,
+      "max_line_characters": 118,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "normalization",
+      "path": "machine_index/normalization.json",
+      "section": "normalization",
+      "partition": null,
+      "record_count": 7,
+      "bytes": 26809,
+      "kib": 26.181,
+      "sha256": "4e6487c9ef254bfe602920e9806c2aba24cfe74fc0f587010f789464a82ed803",
+      "line_count": 948,
+      "max_line_characters": 131,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "raw-keyword-vocabulary",
+      "path": "machine_index/raw-keyword-vocabulary.json",
+      "section": "raw_keyword_vocabulary",
+      "partition": null,
+      "record_count": 298,
+      "bytes": 24827,
+      "kib": 24.245,
+      "sha256": "f5f6461afce1a8c7b035fb7c68bc879c2d1344c286dbc04f33435230c0d283d3",
+      "line_count": 1201,
+      "max_line_characters": 81,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:applied_mechanics",
+      "path": "machine_index/taxonomy/01-applied-mechanics.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "applied_mechanics",
+        "order": 0
+      },
+      "record_count": 1,
+      "bytes": 1184,
+      "kib": 1.156,
+      "sha256": "f2a16e9080633d00ff30f08ac204dd4afe388d36f488879f79441e95ae2d53e8",
+      "line_count": 41,
+      "max_line_characters": 87,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:applied_science",
+      "path": "machine_index/taxonomy/02-applied-science.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "applied_science",
+        "order": 1
+      },
+      "record_count": 1,
+      "bytes": 1024,
+      "kib": 1.0,
+      "sha256": "1f14632f69d445fd81db0bfa50c5858b38f6d4f6d71898afae58a0ee8b704446",
+      "line_count": 38,
+      "max_line_characters": 89,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:astronomy",
+      "path": "machine_index/taxonomy/03-astronomy.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "astronomy",
+        "order": 2
+      },
+      "record_count": 3,
+      "bytes": 2359,
+      "kib": 2.304,
+      "sha256": "a1c2c726228e57d82d11b7c8226d4ce32c41e07643ab9e2a71f3d7c496e80bb4",
+      "line_count": 85,
+      "max_line_characters": 97,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:astronomy_cosmology_reference_frames",
+      "path": "machine_index/taxonomy/04-astronomy-cosmology-reference-frames.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "astronomy_cosmology_reference_frames",
+        "order": 3
+      },
+      "record_count": 31,
+      "bytes": 30967,
+      "kib": 30.241,
+      "sha256": "f44c5d3b296852d67ff34ab246cb0badd6f8d0f5648ec212610746657c30457e",
+      "line_count": 962,
+      "max_line_characters": 146,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:celestial_modulation",
+      "path": "machine_index/taxonomy/05-celestial-modulation.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "celestial_modulation",
+        "order": 4
+      },
+      "record_count": 3,
+      "bytes": 2760,
+      "kib": 2.695,
+      "sha256": "f7ef02878fa7166f26017e6147860858839843ccbb177e53886d85750e2d8523",
+      "line_count": 90,
+      "max_line_characters": 112,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:derived_pathways",
+      "path": "machine_index/taxonomy/06-derived-pathways.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "derived_pathways",
+        "order": 5
+      },
+      "record_count": 7,
+      "bytes": 6139,
+      "kib": 5.995,
+      "sha256": "398e7fd694a01cb92c4b9d26a6aac8fbc3432b515df94d1263150267e267d90f",
+      "line_count": 192,
+      "max_line_characters": 119,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:education_documentation_machine_readability",
+      "path": "machine_index/taxonomy/07-education-documentation-machine-readability.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "education_documentation_machine_readability",
+        "order": 6
+      },
+      "record_count": 31,
+      "bytes": 29203,
+      "kib": 28.519,
+      "sha256": "7d9814796076d810e9f8e53d4ce4fd7a2f341083e2713569736c75d07b00e068",
+      "line_count": 1018,
+      "max_line_characters": 128,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:engineering",
+      "path": "machine_index/taxonomy/08-engineering.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "engineering",
+        "order": 7
+      },
+      "record_count": 1,
+      "bytes": 1018,
+      "kib": 0.994,
+      "sha256": "d3cd17cb3112611bdc708a9d640a22bcd62c8c4608804f5d372ffcd75c7c8dc1",
+      "line_count": 38,
+      "max_line_characters": 93,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:experimental_instrumentation_materials",
+      "path": "machine_index/taxonomy/09-experimental-instrumentation-materials.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "experimental_instrumentation_materials",
+        "order": 8
+      },
+      "record_count": 19,
+      "bytes": 16449,
+      "kib": 16.063,
+      "sha256": "57d1f1cd1efc249c0da759f31a732f81696bb30ca427acd44389f8e883a958d9",
+      "line_count": 523,
+      "max_line_characters": 136,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:foundational_physics",
+      "path": "machine_index/taxonomy/10-foundational-physics.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "foundational_physics",
+        "order": 9
+      },
+      "record_count": 17,
+      "bytes": 13052,
+      "kib": 12.746,
+      "sha256": "4ee5f12b5cbdb1a446acfdb86ed944a170b7860ce6297fa394d84eb6192ad055",
+      "line_count": 468,
+      "max_line_characters": 137,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:geometry_topology",
+      "path": "machine_index/taxonomy/11-geometry-topology.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "geometry_topology",
+        "order": 10
+      },
+      "record_count": 34,
+      "bytes": 30624,
+      "kib": 29.906,
+      "sha256": "cfd1eaaacd41958b6b11add085cdf0ab726756cd2180cabf830b5a082b7d6ec5",
+      "line_count": 1021,
+      "max_line_characters": 125,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:gravity_inertia_forces",
+      "path": "machine_index/taxonomy/12-gravity-inertia-forces.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "gravity_inertia_forces",
+        "order": 11
+      },
+      "record_count": 27,
+      "bytes": 29493,
+      "kib": 28.802,
+      "sha256": "85821f8a28c3ed9d5e08707e2aa058ebc5bddcb2ab0e15d6c5c41b3bf11d8a5c",
+      "line_count": 797,
+      "max_line_characters": 121,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:metrology_timing_oscillators",
+      "path": "machine_index/taxonomy/13-metrology-timing-oscillators.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "metrology_timing_oscillators",
+        "order": 12
+      },
+      "record_count": 19,
+      "bytes": 17610,
+      "kib": 17.197,
+      "sha256": "b8e574ca60b424a4369f00df98b98132a558b1b428081348d8907f2bec724b13",
+      "line_count": 560,
+      "max_line_characters": 133,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:named_k_field_structures",
+      "path": "machine_index/taxonomy/14-named-k-field-structures.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "named_k_field_structures",
+        "order": 13
+      },
+      "record_count": 13,
+      "bytes": 19252,
+      "kib": 18.801,
+      "sha256": "aaa15ec003c5088b09c83fedd7af7f589f4aed482ddfd64cff11638913214747",
+      "line_count": 494,
+      "max_line_characters": 147,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:optics_spectroscopy_photonics",
+      "path": "machine_index/taxonomy/15-optics-spectroscopy-photonics.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "optics_spectroscopy_photonics",
+        "order": 14
+      },
+      "record_count": 23,
+      "bytes": 20640,
+      "kib": 20.156,
+      "sha256": "dd2be13b40b85875f0292c4c1f74fb2074141d50051b0462f3c2880bbd544c93",
+      "line_count": 666,
+      "max_line_characters": 125,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:physical_constants_atomic_physics",
+      "path": "machine_index/taxonomy/16-physical-constants-atomic-physics.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "physical_constants_atomic_physics",
+        "order": 15
+      },
+      "record_count": 16,
+      "bytes": 12871,
+      "kib": 12.569,
+      "sha256": "0a0c710063c2ba9c3bcf1b5b9b9ae6914f8097bcdf49ce6a749bca85d8268b34",
+      "line_count": 448,
+      "max_line_characters": 111,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:project_identity",
+      "path": "machine_index/taxonomy/17-project-identity.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "project_identity",
+        "order": 16
+      },
+      "record_count": 6,
+      "bytes": 23498,
+      "kib": 22.947,
+      "sha256": "25fe2049a54e50f4815ee39a3e2cca64f8aef9227f8e43f4a3f13fa75179ee73",
+      "line_count": 399,
+      "max_line_characters": 137,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:signal_processing",
+      "path": "machine_index/taxonomy/18-signal-processing.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "signal_processing",
+        "order": 17
+      },
+      "record_count": 1,
+      "bytes": 1004,
+      "kib": 0.98,
+      "sha256": "ebaeaea1cde2bfa6765840a6d8ec2122ef807a093f06676a370b6aeaeb3b3d98",
+      "line_count": 38,
+      "max_line_characters": 81,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    {
+      "shard_id": "taxonomy:signal_processing_data_science",
+      "path": "machine_index/taxonomy/19-signal-processing-data-science.json",
+      "section": "topic_taxonomy",
+      "partition": {
+        "type": "category",
+        "value": "signal_processing_data_science",
+        "order": 18
+      },
+      "record_count": 35,
+      "bytes": 28220,
+      "kib": 27.559,
+      "sha256": "3bf3e121d98f395c6660ff22dad933b34e9b39c83d5a524883ccc1aa5801ff91",
+      "line_count": 988,
+      "max_line_characters": 116,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    }
+  ],
+  "verification": {
+    "source_logically_reconstructs_exactly": true,
+    "source_byte_for_byte_reconstructs_exactly": true,
+    "json_file_count": 44,
+    "largest_json_file": {
+      "path": "machine_index/artifacts/03-applied-devices-analysis.json",
+      "bytes": 55704,
+      "kib": 54.398,
+      "sha256": "bba2ff381a57ace76c3af860d4e629d7c8b8cf6300a8be8e88d79ed424092d86",
+      "line_count": 1502,
+      "max_line_characters": 207,
+      "lines_over_1024_characters": 0,
+      "lines_over_4096_bytes": 0
+    },
+    "files_over_design_target_128_kib": [],
+    "files_over_github_350_kib_limit": [],
+    "long_line_rule_violations": [],
+    "all_json_utf8": true
+  }
+}
