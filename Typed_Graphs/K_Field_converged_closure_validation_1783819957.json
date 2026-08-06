@@ -1,0 +1,101 @@
+{
+  "schema": "kfield.converged_closure_validation.v1",
+  "generated_unix_epoch": 1783819957,
+  "status": "PASS",
+  "audit_pass_count": 10,
+  "audits": [
+    {
+      "pass": 1,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 2,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 3,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 4,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 5,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 6,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 7,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 8,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 9,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    },
+    {
+      "pass": 10,
+      "graph_errors": [],
+      "kernel_errors": [],
+      "passed": true
+    }
+  ],
+  "outputs": {
+    "typed_graph": {
+      "filename": "K_Field_unified_typed_graph_1783819957.json",
+      "bytes": 17470705,
+      "sha256": "2096c0a04bee2e9e68d9168885e2528e1f028fa9769ae3c025811f9b9cf0aae7",
+      "schema": "kfield.unified_typed_multigraph.v4.converged_closure",
+      "node_count": 8853,
+      "edge_count": 21917,
+      "hyperedge_count": 2956
+    },
+    "reconstruction_kernel": {
+      "filename": "K_Field_minimal_complete_reconstruction_kernel_1783819957.json",
+      "bytes": 69332,
+      "sha256": "004c33cbd68e88a9de04ae12b28125bf5199c956438920b8aedf80edd4e86e3a",
+      "schema": "kfield.minimal_complete_reconstruction_kernel.v4.converged_closure"
+    }
+  },
+  "critical_checks": {
+    "unique_node_ids": true,
+    "all_edge_references_resolve": true,
+    "unique_hyperedge_ids": true,
+    "all_hyperedge_references_resolve": true,
+    "counts_match_arrays": true,
+    "json_finite_numbers_only": true,
+    "D00_D14_architecture_present": true,
+    "native_time_hierarchy_present": true,
+    "mass_gravity_source_chain_present": true,
+    "locked_temporal_inertia_present": true,
+    "polarity_phase_EM_branch_present": true,
+    "equivalence_cancellation_present": true,
+    "Gstar_Geff_separation_present": true,
+    "green_normalization_guard_present": true
+  }
+}

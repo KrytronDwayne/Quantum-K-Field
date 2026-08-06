@@ -1,0 +1,88 @@
+{
+  "schema": "kfield.top7_discoveries.v1",
+  "title": "Top Seven Discoveries in the K-Field Domain",
+  "discoveries": [
+    {
+      "rank": 1,
+      "id": "KF-D001",
+      "name": "Independent Cell3 geometric reconstruction",
+      "summary": "Multiple independent astronomical analysis methods converge on the same three-plane, non-orthogonal, globally oriented Cell3 geometry.",
+      "domains": [
+        "astronomy",
+        "geometric reconstruction"
+      ],
+      "significance": "Establishes the geometric foundation from observational data without prior physical assumptions."
+    },
+    {
+      "rank": 2,
+      "id": "KF-D002",
+      "name": "ICRS orientation lock",
+      "summary": "The K-Field exhibits a fixed global orientation in the ICRS/J2000.0 frame defined by a primordial normal vector.",
+      "domains": [
+        "astrometry",
+        "reference frames"
+      ],
+      "significance": "Introduces an absolute directional reference for physical processes."
+    },
+    {
+      "rank": 3,
+      "id": "KF-D003",
+      "name": "Mass Bridge closure",
+      "summary": "Cell3 face-area ratios reproduce key dimensionless physical constants using a shared geometric carrier.",
+      "domains": [
+        "particle physics",
+        "geometric physics"
+      ],
+      "key_relations": {
+        "mass_ratio": 1836.15268933,
+        "fine_structure_branch": 137.0715755679
+      },
+      "significance": "Links mass and electromagnetic scales through a single geometric structure."
+    },
+    {
+      "rank": 4,
+      "id": "KF-D004",
+      "name": "Reciprocal metric interaction hierarchy",
+      "summary": "The inverse metric reveals a strongly ordered interaction structure |I_bc| >> |I_ac| >> |I_ab|.",
+      "domains": [
+        "reciprocal geometry",
+        "interaction physics"
+      ],
+      "significance": "Demonstrates that interaction strengths are encoded in geometric dual space."
+    },
+    {
+      "rank": 5,
+      "id": "KF-D005",
+      "name": "Lucas-limit emergence",
+      "summary": "Shared-face repetition of Cell3 produces a minimal higher-order structure exposing polarity and internal layering.",
+      "domains": [
+        "lattice geometry",
+        "higher-order structure"
+      ],
+      "significance": "Reveals hidden structural organization beyond a single cell."
+    },
+    {
+      "rank": 6,
+      "id": "KF-D006",
+      "name": "Seven-sheet polarity system",
+      "summary": "The Lucas-limit structure resolves into seven alternating-polarity sheets forming a coherent modulation system.",
+      "domains": [
+        "field structure",
+        "modulation dynamics"
+      ],
+      "significance": "Introduces an internal layered system capable of generating directional and phase behavior."
+    },
+    {
+      "rank": 7,
+      "id": "KF-D007",
+      "name": "Cross-domain convergence",
+      "summary": "The same K-Field geometry and orientation organize both astronomical structures and laboratory observations.",
+      "domains": [
+        "astronomy",
+        "laboratory physics"
+      ],
+      "significance": "Demonstrates that one framework spans multiple physical scales and observational domains."
+    }
+  ],
+  "ordering_principle": "dependency_and_importance"
+}

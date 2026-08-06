@@ -1,0 +1,430 @@
+{
+  "schema": "kfield.core_dependency_hierarchy.v1",
+  "title": "K-Field Core Dependency Hierarchy",
+  "item_count": 25,
+  "ordering_rule": "dependency_and_importance",
+  "reference_frame": "ICRS/J2000.0",
+  "items": [
+    {
+      "rank": 1,
+      "id": "KF-001",
+      "name": "K-Field identity",
+      "depends_on": [],
+      "category": "root",
+      "description": "The K-Field is the underlying geometric framework from which physical structure, interaction, orientation, and measurable response are derived. It is the root concept on which all later definitions depend."
+    },
+    {
+      "rank": 2,
+      "id": "KF-002",
+      "name": "Geometry is primary",
+      "depends_on": [
+        "KF-001"
+      ],
+      "category": "foundational_principle",
+      "description": "The framework treats geometry as more fundamental than force, mass, charge, energy, or field strength. Physical quantities are generated from geometric relations rather than introduced as independent primitives."
+    },
+    {
+      "rank": 3,
+      "id": "KF-003",
+      "name": "Global orientation",
+      "depends_on": [
+        "KF-001",
+        "KF-002"
+      ],
+      "category": "orientation",
+      "description": "The K-Field is not rotationally arbitrary. It has a fixed orientation in the International Celestial Reference System, ICRS/J2000.0, providing an absolute directional reference for all derived structures."
+    },
+    {
+      "rank": 4,
+      "id": "KF-004",
+      "name": "Primordial normal",
+      "depends_on": [
+        "KF-003"
+      ],
+      "category": "orientation",
+      "description": "The principal orientation axis is represented by a normalized ICRS vector. This direction and its antipode define the primary axial reference.",
+      "vector": {
+        "symbol": "p_obs",
+        "coordinate_frame": "ICRS/J2000.0",
+        "normalized": true,
+        "components": {
+          "x": -0.970770855836,
+          "y": 0.207348009111,
+          "z": -0.120874929482
+        },
+        "antipode": {
+          "x": 0.970770855836,
+          "y": -0.207348009111,
+          "z": 0.120874929482
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "id": "KF-005",
+      "name": "Three fundamental plane families",
+      "depends_on": [
+        "KF-003",
+        "KF-004"
+      ],
+      "category": "plane_geometry",
+      "description": "The K-Field is organized by three non-orthogonal families of parallel planes. Their relative orientations and spacings create the fundamental three-dimensional lattice.",
+      "plane_family_count": 3,
+      "orthogonality": "non-orthogonal"
+    },
+    {
+      "rank": 6,
+      "id": "KF-006",
+      "name": "Cell3",
+      "depends_on": [
+        "KF-005"
+      ],
+      "category": "fundamental_cell",
+      "description": "Cell3 is the minimal oriented rhombohedral cell enclosed by the three plane families. It is the principal geometric unit from which larger lattice structures are reconstructed.",
+      "cell_type": "oriented_rhombohedral"
+    },
+    {
+      "rank": 7,
+      "id": "KF-007",
+      "name": "Cell3 edge basis",
+      "depends_on": [
+        "KF-006"
+      ],
+      "category": "direct_geometry",
+      "description": "Cell3 is described by three basis vectors, conventionally denoted a, b, and c. Their magnitudes and mutual angles define the direct metric of the field.",
+      "basis_vectors": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "KF-008",
+      "name": "Native Cell3 dimensions",
+      "depends_on": [
+        "KF-007"
+      ],
+      "category": "direct_geometry",
+      "description": "The refined native edge magnitudes are native geometric units, not arbitrary visualization dimensions.",
+      "edge_magnitudes": {
+        "a": 0.0207970587,
+        "b": 0.0364942052,
+        "c": 0.049308566
+      },
+      "unit_system": "native_geometric_units"
+    },
+    {
+      "rank": 9,
+      "id": "KF-009",
+      "name": "Non-orthogonal angular structure",
+      "depends_on": [
+        "KF-007",
+        "KF-008"
+      ],
+      "category": "direct_geometry",
+      "description": "The non-orthogonality of the basis angles produces the asymmetric face and reciprocal relationships used downstream.",
+      "angles_degrees": {
+        "theta_ab": 83.933483,
+        "theta_ac": 80.44813,
+        "theta_bc": 50.363232
+      }
+    },
+    {
+      "rank": 10,
+      "id": "KF-010",
+      "name": "Three fundamental faces",
+      "depends_on": [
+        "KF-007",
+        "KF-008",
+        "KF-009"
+      ],
+      "category": "face_geometry",
+      "description": "The basis pairs define three principal faces. These faces are the main geometric carriers of the Mass-Bridge relations.",
+      "faces": [
+        "A_ab",
+        "A_ac",
+        "A_bc"
+      ],
+      "basis_pairs": {
+        "A_ab": [
+          "a",
+          "b"
+        ],
+        "A_ac": [
+          "a",
+          "c"
+        ],
+        "A_bc": [
+          "b",
+          "c"
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "id": "KF-011",
+      "name": "Native face areas",
+      "depends_on": [
+        "KF-010"
+      ],
+      "category": "face_geometry",
+      "description": "The refined face areas encode major physical correspondences through their ratios.",
+      "face_areas": {
+        "A_ab": 0.0007547217880965119,
+        "A_ac": 0.00101125575567906,
+        "A_bc": 0.001385784440909538
+      },
+      "unit_system": "native_area_units"
+    },
+    {
+      "rank": 12,
+      "id": "KF-012",
+      "name": "Direct metric tensor",
+      "depends_on": [
+        "KF-007",
+        "KF-008",
+        "KF-009"
+      ],
+      "category": "metric_geometry",
+      "description": "The edge lengths and angles form a metric tensor that specifies distances, areas, volumes, and angular relationships inside Cell3. This tensor is the mathematical foundation for direct-space calculations."
+    },
+    {
+      "rank": 13,
+      "id": "KF-013",
+      "name": "Reciprocal lattice",
+      "depends_on": [
+        "KF-012"
+      ],
+      "category": "reciprocal_geometry",
+      "description": "The direct Cell3 basis generates a reciprocal basis. The reciprocal lattice describes plane normals, spatial frequencies, directional selection, and interaction pathways that cannot be represented fully by direct geometry alone."
+    },
+    {
+      "rank": 14,
+      "id": "KF-014",
+      "name": "Reciprocal metric hierarchy",
+      "depends_on": [
+        "KF-013"
+      ],
+      "category": "reciprocal_geometry",
+      "description": "The reciprocal coupling terms are strongly ordered, establishing that different geometric channels have very different coupling strengths.",
+      "ordering_expression": "|I_bc| >> |I_ac| >> |I_ab|",
+      "ordered_channels": [
+        "I_bc",
+        "I_ac",
+        "I_ab"
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "KF-015",
+      "name": "Structure-interaction duality",
+      "depends_on": [
+        "KF-012",
+        "KF-013",
+        "KF-014"
+      ],
+      "category": "foundational_principle",
+      "description": "Direct geometry primarily specifies where structures exist; reciprocal geometry specifies how those structures interact, exchange, propagate, or resist deformation. Both descriptions are required for a complete K-Field model.",
+      "direct_geometry_role": "structural_location_and_form",
+      "reciprocal_geometry_role": "interaction_exchange_propagation_and_resistance"
+    },
+    {
+      "rank": 16,
+      "id": "KF-016",
+      "name": "Mass Bridge",
+      "depends_on": [
+        "KF-010",
+        "KF-011",
+        "KF-015"
+      ],
+      "category": "geometry_to_physics_bridge",
+      "description": "The Mass Bridge maps Cell3 face geometry to measured physical ratios. It is the central transition from pure geometry to recognizable physical quantities."
+    },
+    {
+      "rank": 17,
+      "id": "KF-017",
+      "name": "Proton-electron mass-ratio relation",
+      "depends_on": [
+        "KF-016"
+      ],
+      "category": "mass_bridge_relation",
+      "description": "The principal face ratio maps to the proton-to-electron mass ratio after the stated scaling convention.",
+      "relation": {
+        "expression": "A_bc / A_ab",
+        "unscaled_value": 1.83615268933,
+        "scale_factor": 1000,
+        "scaled_value": 1836.15268933,
+        "maps_to": "proton_to_electron_mass_ratio"
+      }
+    },
+    {
+      "rank": 18,
+      "id": "KF-018",
+      "name": "Fine-structure carrier relation",
+      "depends_on": [
+        "KF-016"
+      ],
+      "category": "electromagnetic_bridge_relation",
+      "description": "The second principal face ratio defines the electromagnetic carrier branch related to the fine-structure scale.",
+      "relation": {
+        "expression": "A_bc / A_ac",
+        "unscaled_value": 1.370715755679,
+        "scale_factor": 100,
+        "scaled_value": 137.0715755679,
+        "maps_to": "fine_structure_related_electromagnetic_carrier_branch"
+      }
+    },
+    {
+      "rank": 19,
+      "id": "KF-019",
+      "name": "Carrier-triangle organization",
+      "depends_on": [
+        "KF-016",
+        "KF-017",
+        "KF-018"
+      ],
+      "category": "carrier_geometry",
+      "description": "The three Cell3 faces form a carrier triangle. A_bc acts as the shared numerator, while A_ab and A_ac act as distinct denominator channels for the mass and electromagnetic branches.",
+      "shared_numerator": "A_bc",
+      "denominator_channels": {
+        "mass_branch": "A_ab",
+        "electromagnetic_branch": "A_ac"
+      }
+    },
+    {
+      "rank": 20,
+      "id": "KF-020",
+      "name": "Reduced-mass chain",
+      "depends_on": [
+        "KF-017",
+        "KF-018",
+        "KF-019"
+      ],
+      "category": "physical_dependency_chain",
+      "description": "The Mass Bridge extends into a reduced-mass dependency chain connecting geometry to atomic-scale quantities. The proton-electron system is the main anchor because it couples the mass and electromagnetic branches in one relation.",
+      "anchor_system": "proton_electron"
+    },
+    {
+      "rank": 21,
+      "id": "KF-021",
+      "name": "Scale bridge",
+      "depends_on": [
+        "KF-006",
+        "KF-008",
+        "KF-020"
+      ],
+      "category": "scale_mapping",
+      "description": "Native geometry is connected to physical length through a scale anchor. The Cell3 body-diagonal aggregate permits comparison with atomic spacing, crystal structure, and photonic systems.",
+      "scale_anchor": {
+        "symbol": "L_G",
+        "value": 1.343653622,
+        "unit": "nm",
+        "associated_structure": "Cell3_body_diagonal_aggregate"
+      }
+    },
+    {
+      "rank": 22,
+      "id": "KF-022",
+      "name": "Lucas-limit structure",
+      "depends_on": [
+        "KF-006",
+        "KF-010",
+        "KF-021"
+      ],
+      "category": "higher_order_structure",
+      "description": "Repetition of Cell3 under shared-face constraints produces a minimal higher-order volume known as the Lucas limit. It is the smallest local assembly that exposes internal polarity and sheet organization not visible in an isolated cell."
+    },
+    {
+      "rank": 23,
+      "id": "KF-023",
+      "name": "Seven-sheet system",
+      "depends_on": [
+        "KF-022"
+      ],
+      "category": "sheet_structure",
+      "description": "The Lucas structure resolves into seven laminar sheets of alternating polarity. These sheets form a coherent internal modulation system rather than seven independent layers.",
+      "sheet_count": 7,
+      "polarity_pattern": "alternating",
+      "organization": "coherent_laminar_system"
+    },
+    {
+      "rank": 24,
+      "id": "KF-024",
+      "name": "In-plane modulation and holonomy",
+      "depends_on": [
+        "KF-023"
+      ],
+      "category": "dynamics",
+      "description": "Each sheet has coordinated in-plane degrees of freedom. Collective translations, phase relationships, polarity alternation, and closed-loop transformations generate holonomy, registry effects, stiffness, and higher-order response.",
+      "mechanisms": [
+        "coordinated_in_plane_translation",
+        "phase_relationships",
+        "polarity_alternation",
+        "closed_loop_transformations"
+      ],
+      "derived_effects": [
+        "holonomy",
+        "registry_effects",
+        "stiffness",
+        "higher_order_response"
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "KF-025",
+      "name": "Cross-domain reconstruction and observer response",
+      "depends_on": [
+        "KF-003",
+        "KF-006",
+        "KF-014",
+        "KF-023",
+        "KF-024"
+      ],
+      "category": "validation_and_observer_response",
+      "description": "The complete dependency chain predicts that laboratory anisotropy, material interactions, astronomical axis organization, gravitational response, and other independent observations should recover the same orientation, Cell3 geometry, reciprocal hierarchy, sheet system, and recursive rules. Measurements are interpreted as observer-dependent renderings of one globally fixed K-Field structure.",
+      "domains": [
+        "laboratory_anisotropy",
+        "material_interactions",
+        "astronomical_axis_organization",
+        "gravitational_response",
+        "other_independent_observations"
+      ],
+      "expected_common_reconstruction": [
+        "global_orientation",
+        "Cell3_geometry",
+        "reciprocal_hierarchy",
+        "seven_sheet_system",
+        "recursive_rules"
+      ],
+      "observer_model": "observer_dependent_rendering_of_globally_fixed_structure"
+    }
+  ],
+  "primary_dependency_chain": [
+    "KF-001",
+    "KF-002",
+    "KF-003",
+    "KF-004",
+    "KF-005",
+    "KF-006",
+    "KF-007",
+    "KF-008",
+    "KF-009",
+    "KF-010",
+    "KF-011",
+    "KF-012",
+    "KF-013",
+    "KF-014",
+    "KF-015",
+    "KF-016",
+    "KF-017",
+    "KF-018",
+    "KF-019",
+    "KF-020",
+    "KF-021",
+    "KF-022",
+    "KF-023",
+    "KF-024",
+    "KF-025"
+  ]
+}

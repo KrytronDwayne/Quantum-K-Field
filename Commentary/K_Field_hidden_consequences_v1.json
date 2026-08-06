@@ -1,0 +1,68 @@
+{
+  "schema": "kfield.hidden_consequences.v1",
+  "title": "Three Hidden Consequences of the K-Field",
+  "consequences": [
+    {
+      "rank": 1,
+      "id": "KF-HC001",
+      "name": "Geometric Origin of Physical Constants",
+      "summary": "Dimensionless physical constants become geometric invariants instead of independent parameters.",
+      "premise": "The K-Field is the underlying geometric substrate.",
+      "implications": [
+        "Proton-to-electron mass ratio derives from Cell3 geometry.",
+        "Fine-structure-related carrier scale derives from Cell3 face-area relations.",
+        "Apparently independent constants become projections of one geometric object."
+      ],
+      "supporting_structures": [
+        "Cell3",
+        "Mass Bridge",
+        "Reciprocal metric"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "KF-HC002",
+      "name": "Unified Geometric Description of Physical Interactions",
+      "summary": "Gravity, inertia, and electromagnetism become different observer renderings of one geometric framework.",
+      "premise": "Direct geometry defines structure while reciprocal geometry defines interaction.",
+      "implications": [
+        "Multiple interactions arise from one substrate.",
+        "Seven-sheet organization provides internal modulation.",
+        "Holonomy and registry state determine observed behavior.",
+        "Observer orientation influences measured response."
+      ],
+      "supporting_structures": [
+        "Direct metric",
+        "Reciprocal metric",
+        "Seven-sheet system",
+        "Holonomy"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "KF-HC003",
+      "name": "Global Geometric Reference Frame",
+      "summary": "The universe possesses a fixed geometric orientation rather than complete rotational equivalence.",
+      "premise": "The K-Field is locked to the ICRS/J2000.0 reference frame.",
+      "implications": [
+        "Every physical system has a measurable orientation relative to the K-Field.",
+        "Preferred directions become intrinsic.",
+        "Directional anisotropy is a natural consequence.",
+        "Laboratory and astronomical observations share one geometric reference."
+      ],
+      "supporting_structures": [
+        "Global ICRS orientation",
+        "Primordial normal",
+        "Observer traversal"
+      ]
+    }
+  ],
+  "dependency_chain": [
+    "Underlying geometry",
+    "Cell3",
+    "Direct and reciprocal metrics",
+    "Mass Bridge",
+    "Seven-sheet organization",
+    "Observer-dependent rendering"
+  ]
+}

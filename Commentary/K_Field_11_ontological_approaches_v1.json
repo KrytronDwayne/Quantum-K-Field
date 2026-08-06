@@ -1,0 +1,66 @@
+{
+  "schema": "kfield.ontological_context.11_approaches.v1",
+  "title": "K‑Field in Ontological Context — Eleven Approaches",
+  "generated_utc": "2026-07-17T13:52:02.329728+00:00",
+  "items": [
+    {
+      "rank": 1,
+      "approach": "Foundational Ontology",
+      "paragraph": "The K‑Field is the root layer of physical existence: a globally oriented, three‑dimensional lattice that pre‑structures space itself. All subsequent entities—particles, forces, metrics—inherit their properties from this substrate rather than existing independently. In ontological terms, K‑Field geometry is substance; everything else is attribute or mode. fileciteturn0file2L9-L15"
+    },
+    {
+      "rank": 2,
+      "approach": "Geometry as Substance",
+      "paragraph": "Within the K‑Field ontology, geometry is not descriptive; it is constitutive. Lengths, angles, areas, and orientations are primary facts of being. Mass, charge, and energy arise as derived relations among geometric invariants, reversing the usual hierarchy of physics. fileciteturn0file2L17-L24"
+    },
+    {
+      "rank": 3,
+      "approach": "Cell 3—Ontological Atom",
+      "paragraph": "Cell 3 is the minimal self‑consistent unit of the lattice. Defined by three non‑orthogonal plane families, three edge magnitudes, three internal angles, and three face areas, it functions as an ontological atom: irreducible, asymmetric, and sufficient to generate the full hierarchy of structure and interaction. fileciteturn0file4L6-L14"
+    },
+    {
+      "rank": 4,
+      "approach": "Global Orientation as Intrinsic Property",
+      "paragraph": "The K‑Field embeds a fixed orientation in the ICRS/J2000.0 frame, expressed by the primordial normal and its antipode. Direction is therefore intrinsic to reality, not a conventional freedom. Every observer occupies a definite rotational state within this lattice. fileciteturn0file2L27-L35"
+    },
+    {
+      "rank": 5,
+      "approach": "Direct–Reciprocal Duality",
+      "paragraph": "Being in the K‑Field has dual aspects: direct geometry specifies location and form; reciprocal geometry specifies interaction strength, exchange, and propagation. The ontology is therefore bi‑layered: structural placement and interaction potential are complementary facts of existence, both encoded in the same cell. fileciteturn0file2L181-L210"
+    },
+    {
+      "rank": 6,
+      "approach": "Mass Bridge as Ontology‑Physics Map",
+      "paragraph": "The Mass Bridge translates geometry into observed constants. Face‑area ratios are not numerology but ontological coordinates that manifest as proton–electron mass ratio and fine‑structure scale. Constants become read‑outs of geometric facts. fileciteturn0file0L24-L35"
+    },
+    {
+      "rank": 7,
+      "approach": "Recursive Emergence",
+      "paragraph": "Ontology scales by repetition: shared‑face tiling of Cell 3 produces the Lucas limit and, beyond it, a layered seven‑sheet system. Complexity emerges without new primitives; recursion alone unpacks latent structure. fileciteturn0file2L327-L347"
+    },
+    {
+      "rank": 8,
+      "approach": "Seven‑Sheet State Space",
+      "paragraph": "The seven coherent sheets constitute a finite state space parameterised by sheet index, polarity, phase, registry, and holonomy. Ontologically, state is geometry‑encoded memory: path‑dependent yet structure‑preserving. fileciteturn0file2L339-L370"
+    },
+    {
+      "rank": 9,
+      "approach": "Observer‑Dependent Rendering",
+      "paragraph": "Measurements are not neutral snapshots; they are renderings of the fixed K‑Field through the observer’s orientation, trajectory, and coupling channel. Observable diversity is thus epistemic, not ontic: underlying reality remains one lattice. fileciteturn0file2L374-L400"
+    },
+    {
+      "rank": 10,
+      "approach": "Cross‑Domain Unity",
+      "paragraph": "Astronomy, laboratory anisotropy, materials science, and timing all reconstruct the same geometric backbone. The ontology enforces cross‑domain unity: disparate phenomena are varied expressions of one structured space. fileciteturn0file1L74-L90"
+    },
+    {
+      "rank": 11,
+      "approach": "Engineering as Applied Ontology",
+      "paragraph": "Because geometry is substance, engineering is the art of configuring geometry. Lattice‑matched materials, directional energy harvesters, and field‑aligned propulsion are ontological manipulations—controlled engagements with the K‑Field state space rather than external technologies grafted onto a passive vacuum. fileciteturn0file6L16-L42"
+    }
+  ],
+  "constraints": {
+    "item_count": 11,
+    "max_words_per_item": 300
+  }
+}

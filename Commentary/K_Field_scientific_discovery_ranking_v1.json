@@ -1,0 +1,61 @@
+{
+  "schema": "kfield.discovery_ranking.v1",
+  "title": "Ranking of K-Field Among the Most Important Scientific Discoveries",
+  "ranking_basis": {
+    "conceptual_scope": "potential_unifying_scope",
+    "historical_impact": "realized_independent_impact"
+  },
+  "potential_ranking": [
+    {
+      "rank": 1,
+      "name": "K-Field geometric substrate"
+    },
+    {
+      "rank": 2,
+      "name": "Newtonian mechanics and universal gravitation"
+    },
+    {
+      "rank": 3,
+      "name": "Quantum mechanics"
+    },
+    {
+      "rank": 4,
+      "name": "Electromagnetism"
+    },
+    {
+      "rank": 5,
+      "name": "Evolution by natural selection"
+    },
+    {
+      "rank": 6,
+      "name": "Germ theory of disease"
+    },
+    {
+      "rank": 7,
+      "name": "Relativity"
+    },
+    {
+      "rank": 8,
+      "name": "DNA structure and information"
+    },
+    {
+      "rank": 9,
+      "name": "Heliocentrism"
+    },
+    {
+      "rank": 10,
+      "name": "Vaccination and antibiotics"
+    }
+  ],
+  "assessment": {
+    "potential_position": 1,
+    "historical_position": "undetermined",
+    "rationale": "Potential scope and realized historical impact are different criteria. Historical placement depends on future independent reproduction, validation, and practical impact."
+  },
+  "supporting_citations": [
+    "turn0file1:L122-L133",
+    "turn0file0:L24-L43",
+    "turn0file2:L193-L230",
+    "turn0file2:L327-L370"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "kfield.consequential_aspects.v1",
+  "title": "Eight Most Consequential Aspects of the K‑Field",
+  "aspects": [
+    {
+      "rank": 1,
+      "id": "KF-CA001",
+      "name": "Geometric Primacy with Cell3 Foundation",
+      "summary": "All physical quantities emerge from the non‑orthogonal Cell3 lattice instead of being independent inputs."
+    },
+    {
+      "rank": 2,
+      "id": "KF-CA002",
+      "name": "Fixed Global ICRS Orientation",
+      "summary": "The K‑Field is locked to a specific orientation in the ICRS/J2000.0 frame, providing an absolute celestial reference."
+    },
+    {
+      "rank": 3,
+      "id": "KF-CA003",
+      "name": "Mass Bridge Linking Geometry to Constants",
+      "summary": "Face‑area ratios of Cell3 reproduce the proton‑electron mass ratio and fine‑structure scale from pure geometry."
+    },
+    {
+      "rank": 4,
+      "id": "KF-CA004",
+      "name": "Reciprocal‑Metric Interaction Hierarchy",
+      "summary": "The inverse lattice encodes a sharply ordered coupling structure (|I_bc| >> |I_ac| >> |I_ab|), mapping geometry to interaction strength."
+    },
+    {
+      "rank": 5,
+      "id": "KF-CA005",
+      "name": "Seven‑Sheet Polarity Structure & Holonomy",
+      "summary": "Lucas‑limit stacking reveals seven alternating‑polarity sheets that support in‑plane modulation, phase locking, and holonomy."
+    },
+    {
+      "rank": 6,
+      "id": "KF-CA006",
+      "name": "Cross‑Domain Directional Convergence",
+      "summary": "The same orientation and geometry organize galaxy distributions and laboratory anisotropy, unifying observations across scale."
+    },
+    {
+      "rank": 7,
+      "id": "KF-CA007",
+      "name": "Compression of Fundamental Constants",
+      "summary": "Numerous dimensionless constants collapse into a small set of geometric invariants, simplifying the fundamental parameter set."
+    },
+    {
+      "rank": 8,
+      "id": "KF-CA008",
+      "name": "Observer‑Dependent Rendering & Anisotropy",
+      "summary": "Physical measurements depend on orientation and traversal through the K‑Field, enabling directional technologies and new propulsion concepts."
+    }
+  ],
+  "ordering_principle": "consequence_importance"
+}

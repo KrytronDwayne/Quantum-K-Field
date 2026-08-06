@@ -1,0 +1,1979 @@
+{
+  "schema": "kfield.minimal_complete_reconstruction_kernel.v4.converged_closure",
+  "generated_unix_epoch": 1783819957,
+  "scope_statement": "Minimal typed structure for exact reconstruction of the converged K-Field corpus: ordered Cell3 geometry, carrier triangle, native units and clocks, reciprocal transport, mass-occupancy gravity, locked-temporal inertia, polarity-phase electromagnetism, observer compilation, and terminal witness comparison.",
+  "canonical_precedence": [
+    "cell3_master_definition(4) for current oriented geometry",
+    "spherical graph for its versioned response arrays",
+    "commutation matrix for its versioned witness graph",
+    "typed material graph for versioned materials links",
+    "holonomy-plane paper for derived affine/A2/transport/phase semantics; its printed decimals are versioned evidence and do not replace higher-precision cell3_master(4) values",
+    "registry-curvature paper for graph-Laplacian, projective-lock-plane, A2 character-torus, cold/hot critical-state, and source-to-force-boundary semantics; its numerical ledger is a versioned spherical-branch witness",
+    "D00-D14 dependency architecture governs strict generation order.",
+    "Current Cell3 master remains the intrinsic geometric root; versioned historical ledgers remain replay witnesses.",
+    "Locked temporal phase imbalance governs minimal inertia; arbitrary branch-mass tensors are nonminimal optional models.",
+    "Mass-occupancy reciprocal-field equations govern the source-loaded gravity branch.",
+    "Polarity-phase transport plus charge-action-fine-speed relations govern the native electromagnetic branch."
+  ],
+  "intrinsic_geometry_kernel": {
+    "coordinate_convention": {
+      "angles_in_degrees": true,
+      "cartesian_axes": {
+        "x": "RA=0 deg, Dec=0 deg",
+        "y": "RA=90 deg, Dec=0 deg",
+        "z": "North Celestial Pole, Dec=+90 deg"
+      },
+      "frame": "ICRS",
+      "spherical_to_cartesian": "x=cos(dec)cos(ra), y=cos(dec)sin(ra), z=sin(dec)",
+      "vectors_are_columns": true
+    },
+    "origin": "O_ICRS",
+    "ordered_basis_labels": [
+      "a",
+      "b",
+      "c"
+    ],
+    "handedness": "left-handed",
+    "B_native_icrs_columns_abc": [
+      [
+        0.02038143851694645,
+        0.0021987459683233553,
+        -0.000630379485347372
+      ],
+      [
+        -0.0034164144964105494,
+        0.01290217025869254,
+        -0.024257722017127867
+      ],
+      [
+        -0.0023329659167289608,
+        -0.03406650153605571,
+        -0.042924354571093816
+      ]
+    ],
+    "nm_per_native": 16.068602900494266,
+    "B_nm_icrs_columns_abc": [
+      [
+        0.32750124206965125,
+        0.03533077584405074,
+        -0.010129317626664865
+      ],
+      [
+        -0.05489700788631321,
+        0.2073198504414978,
+        -0.38978770236380444
+      ],
+      [
+        -0.037487502896305244,
+        -0.5474010853919572,
+        -0.6897344083629224
+      ]
+    ],
+    "minimal_laws": {
+      "cell_lattice": "x(L)=B_native L for L in Z^3",
+      "plane_dual": "rows(B_native^-1)=n_i^T/d_i; normalize each row to recover plane normal n_i and spacing d_i",
+      "lucas_embedding": "p(L)=B_nm L/2",
+      "sheet_index": "lambda=1^T L=i+j+k",
+      "polarity": "chi(L)=(-1)^lambda",
+      "sheet_normal": "N=B_nm^-T 1 / ||B_nm^-T 1||",
+      "sheet_spacing": "h=1/(2||B_nm^-T 1||)",
+      "slip": "t_m=b_m/2-hN",
+      "holonomy": "s_mn=t_m-t_n=(b_m-b_n)/2"
+    },
+    "derived_current_values": {
+      "M_native": [
+        [
+          0.0004325176539999714,
+          8.021043124662487e-05,
+          0.00017016744863821204
+        ],
+        [
+          8.021043124662487e-05,
+          0.0013318270081235947,
+          0.0011479192870254278
+        ],
+        [
+          0.00017016744863821204,
+          0.0011479192870254278,
+          0.0024313346711007794
+        ]
+      ],
+      "R_native": [
+        [
+          2377.512183898225,
+          0.3962859856734936,
+          -166.58755027870387
+        ],
+        [
+          0.39628598567346474,
+          1266.057440186139,
+          -597.7783339834504
+        ],
+        [
+          -166.58755027870387,
+          -597.7783339834504,
+          705.1884208828768
+        ]
+      ],
+      "faces_native": {
+        "A_ab": 0.000754721789672624,
+        "A_ac": 0.0010112557576880653,
+        "A_bc": 0.001385784431733287
+      },
+      "volume_native": 2.8420669378096486e-05,
+      "edge_lengths_native": [
+        0.02079705878243295,
+        0.03649420513072719,
+        0.04930856589985942
+      ],
+      "angles_deg": [
+        83.93348301231273,
+        80.44813001833784,
+        50.363231813756165
+      ],
+      "plane_normals_icrs": [
+        [
+          0.9959651903089612,
+          -0.08360216250737675,
+          0.032619290564399855
+        ],
+        [
+          0.08905259410160504,
+          0.8665767692910322,
+          -0.49103394832627595
+        ],
+        [
+          -0.19409220080776765,
+          -0.9131771688212287,
+          -0.35837923479080414
+        ]
+      ],
+      "plane_spacings_native": [
+        0.020508723238107814,
+        0.028104333806782844,
+        0.0376571470003861
+      ],
+      "sheet_normal_icrs": [
+        0.8769768663662008,
+        0.04722312422998794,
+        -0.47820660011806404
+      ],
+      "sheet_spacing_nm": 0.15127268804248478,
+      "registry_slips_nm": {
+        "a": [
+          0.031087973108535477,
+          -0.03459207288319108,
+          0.05359584639136455
+        ],
+        "b": [
+          -0.11499726000426477,
+          0.09651635628071444,
+          -0.20136094485646144
+        ],
+        "c": [
+          -0.13772730673962258,
+          -0.2020374201219367,
+          -0.27252760634194406
+        ]
+      },
+      "holonomy_loops_nm": {
+        "ab": [
+          0.14608523311280025,
+          -0.13110842916390553,
+          0.254956791247826
+        ],
+        "ac": [
+          0.16881527984815806,
+          0.16744534723874563,
+          0.3261234527333086
+        ],
+        "bc": [
+          0.022730046735357806,
+          0.2985537764026511,
+          0.07116666148548262
+        ]
+      }
+    }
+  },
+  "combinatorial_kernel": {
+    "address_group": "Z^3",
+    "sheet_homomorphism": "lambda:Z^3->Z, lambda(i,j,k)=i+j+k",
+    "in_sheet_kernel": "ker(lambda)={(i,j,k) in Z^3:i+j+k=0}, a rank-2 A2 lattice",
+    "primitive_kernel_generators": [
+      [
+        1,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        -1
+      ]
+    ],
+    "lucas_window": "{-1,0,1}^3",
+    "adjacency": "one coordinate changes by one step",
+    "sheet_populations": [
+      1,
+      3,
+      6,
+      7,
+      6,
+      3,
+      1
+    ],
+    "generating_polynomial": "(z^-1+1+z)^3",
+    "density_fourier_amplitude": "(1+2 cos x)^3",
+    "polarity_fourier_amplitude": "(1-2 cos x)^3",
+    "emily_spectrum": {
+      "eigenvalues": [
+        -4.242640687119284,
+        -2.8284271247461903,
+        -1.4142135623730956,
+        -2.7030331201573844e-15,
+        1.4142135623730934,
+        2.8284271247461867,
+        4.242640687119284
+      ],
+      "multiplicities": [
+        1,
+        3,
+        6,
+        7,
+        6,
+        3,
+        1
+      ]
+    },
+    "q_spectrum_reconstruction": {
+      "q(s)": "s^T R s",
+      "antipodal_values": 13,
+      "symmetric_R_degrees_of_freedom": 6,
+      "linear_map_rank": 6,
+      "compatibility_constraint_count": 7,
+      "recovery": "R_ii=q(e_i); R_ij=[q(e_i+e_j)-q(e_i-e_j)]/4"
+    }
+  },
+  "native_scalar_kernel": {
+    "minimal_equivalent_generators": [
+      "A_ab",
+      "A_ac",
+      "A_bc"
+    ],
+    "compressed_equivalent_generators": [
+      "eta_N",
+      "c_N",
+      "gamma2_hat"
+    ],
+    "values_from_current_master": {
+      "eta_N": 1836.1526733372827,
+      "c_N": 137.0359991721056,
+      "alpha_N": 0.00729735256459206,
+      "mu_N": 0.9994556794247353,
+      "gamma2_hat": 2.4005878230853775e-43
+    },
+    "relations": {
+      "eta_N": "1000 A_bc/A_ab",
+      "c_N": "100 A_bc/A_ac",
+      "alpha_N": "1/c_N=A_ac/(100 A_bc)",
+      "mu_N": "eta_N/(1+eta_N)",
+      "gamma2_hat": "A_ab^9 A_ac^8/(100^11 A_bc^11)=10^3 A_ab^6 alpha_N^8 eta_N^-3",
+      "inverse_faces": "A_ab=(gamma2_hat eta_N^3/(10^3 alpha_N^8))^(1/6); A_ac=A_ab eta_N alpha_N/10; A_bc=A_ab eta_N/1000"
+    },
+    "jack_jacobian": {
+      "variables": "fixed-angle logarithmic primitive edge scalings (d ln a,d ln b,d ln c)",
+      "outputs": [
+        "d ln eta",
+        "d ln alpha",
+        "d ln gamma2"
+      ],
+      "matrix": [
+        [
+          -1.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          -1.0,
+          0.0
+        ],
+        [
+          17.0,
+          -2.0,
+          -3.0
+        ]
+      ],
+      "determinant": 12.0,
+      "inverse": [
+        [
+          0.25,
+          -0.16666666666666666,
+          0.08333333333333334
+        ],
+        [
+          0.24999999999999997,
+          -1.1666666666666665,
+          0.08333333333333333
+        ],
+        [
+          1.25,
+          -0.16666666666666666,
+          0.08333333333333333
+        ]
+      ],
+      "consequence": "locally bijective for scale perturbations; does not recover orientation or angle perturbations"
+    }
+  },
+  "branch_specific_irreducible_inputs": {
+    "observer_directional_branch": {
+      "required": [
+        "A_cell3 or G_phase",
+        "observer packet",
+        "G_base/rendering anchors"
+      ],
+      "A_cell3": [
+        [
+          1.496239014128554,
+          -0.091830959639643,
+          -0.552701707831123
+        ],
+        [
+          0.699012861329532,
+          1.301785132476013,
+          0.022594950042976
+        ],
+        [
+          -0.49905957100916,
+          -0.942948151906757,
+          2.543143965142549
+        ]
+      ],
+      "reduction": "For scalar f_dir and G_eff only, G_phase=A_cell3^T A_cell3 is sufficient. Full A_cell3 is required to reconstruct directed vector g=A_cell3 n_hat.",
+      "status": "operationally supplied D11 compiler branch",
+      "determinacy_guard": "A_cell3/G_phase is sufficient for directional rendering but is not claimed as an intrinsic derivation from B."
+    },
+    "spherical_relative_response_branch": {
+      "required": [
+        "spherical-response version packet (N,h,t_i,s_ij,w_ij)",
+        "odd lock order nu=2r+1",
+        "projective sky direction [n] or a declared sphere sampling grid"
+      ],
+      "formula": {
+        "domain": "RP^2 minus the projective horizon P(N^perp); represented by ICRS unit vectors n with n dot N != 0 and n~-n",
+        "odd_lock_order": "nu=2r+1",
+        "u": "u=n dot N",
+        "kappa": "nu*pi/(h*u)",
+        "q": "q_nu=kappa*n",
+        "affine_lock_plane": "Q_nu={q:q dot N=nu*pi/h}",
+        "loop_phase": "psi_ij=q dot s_ij modulo 2*pi with psi_ac=psi_ab+psi_bc modulo 2*pi",
+        "branch_phasors": "z_i=exp(i q dot t_i); z is defined up to common U(1) phase",
+        "F": "|z_a+z_b+z_c|/3 = sqrt(3+2cos(psi_ab)+2cos(psi_ac)+2cos(psi_bc))/3",
+        "weighted_laplacian": "L_w is the weighted K3 Laplacian with edge weights w_ab,w_ac,w_bc",
+        "D": "sum_{i<j} w_ij[1-cos(psi_ij)] = (1/2)sum w_ij|z_i-z_j|^2 = (1/2)z^*L_w z",
+        "G_star": "D/F for F>0; exact F=0 hot states are poles where the ratio is undefined and diverges under generic approach",
+        "antipodal_parity": {
+          "n": "odd",
+          "u": "odd",
+          "kappa": "odd",
+          "q": "even",
+          "loop_phases": "even",
+          "F": "even",
+          "D": "even",
+          "G_star": "even"
+        },
+        "absolute_scalar_calibration": "not defined"
+      },
+      "absolute_calibration": "not a direct identification with G_eff; source-loaded gravity is supplied by a separate mass-occupancy reciprocal-field branch",
+      "version_packet": {
+        "source": "K-field_spherical_gravity_response_graph_audited_1783692220(2).json",
+        "B_icrs_nm_columns_abc": [
+          [
+            0.32750124206199377,
+            0.035330775843568744,
+            -0.01012931762810846
+          ],
+          [
+            -0.05489700788527076,
+            0.20731985044369264,
+            -0.38978770236259774
+          ],
+          [
+            -0.037487502896066976,
+            -0.5474010853944512,
+            -0.6897344083641468
+          ]
+        ],
+        "N_icrs": [
+          0.8769768663715509,
+          0.04722312422485534,
+          -0.4782066001087591
+        ],
+        "h_nm": 0.15127268803993726,
+        "registry_slips_nm": {
+          "a": [
+            0.03108797310613151,
+            -0.03459207288177313,
+            0.05359584638885785
+          ],
+          "b": [
+            -0.114997260003081,
+            0.09651635628270858,
+            -0.20136094486033426
+          ],
+          "c": [
+            -0.1377273067389196,
+            -0.20203742012043663,
+            -0.272527606345182
+          ]
+        },
+        "holonomy_roots_nm": {
+          "ab": [
+            0.1460852331092125,
+            -0.1311084291644817,
+            0.2549567912491921
+          ],
+          "ac": [
+            0.16881527984505112,
+            0.1674453472386635,
+            0.3261234527340399
+          ],
+          "bc": [
+            0.022730046735838602,
+            0.2985537764031452,
+            0.07116666148484779
+          ]
+        },
+        "weights": {
+          "ab": 0.39628598568845314,
+          "ac": 166.58755028244119,
+          "bc": 597.7783339799516
+        },
+        "version_policy": "These values reproduce the audited spherical artifact exactly and remain versioned-near-equivalent to the current cell3_master(4) unified geometry."
+      },
+      "derived_structure": {
+        "branch_graph": {
+          "graph": "weighted complete graph K3",
+          "vertices": [
+            "a",
+            "b",
+            "c"
+          ],
+          "edges": {
+            "ab": {
+              "root": "s_ab",
+              "weight": 0.39628598568845314
+            },
+            "ac": {
+              "root": "s_ac",
+              "weight": 166.58755028244119
+            },
+            "bc": {
+              "root": "s_bc",
+              "weight": 597.7783339799516
+            }
+          },
+          "weighted_laplacian": [
+            [
+              166.98383626812964,
+              -0.39628598568845314,
+              -166.58755028244119
+            ],
+            [
+              -0.39628598568845314,
+              598.1746199656401,
+              -597.7783339799516
+            ],
+            [
+              -166.58755028244119,
+              -597.7783339799516,
+              764.3658842623928
+            ]
+          ],
+          "uniform_mode": "span{(1,1,1)}"
+        },
+        "projective_map": {
+          "domain": "RP^2\\P(N^perp)",
+          "codomain": "Q_nu",
+          "map": "[n] -> q_nu=nu*pi*n/(h n dot N)",
+          "horizon": "n dot N=0",
+          "parity": "q(-n)=q(n)"
+        },
+        "fundamental_phase_space": {
+          "object": "A2 character torus Hom(A2,U(1)) isomorphic to (R/2piZ)^2",
+          "coordinates": [
+            "psi_ab",
+            "psi_bc"
+          ],
+          "dependent_phase": "psi_ac=psi_ab+psi_bc mod 2pi"
+        },
+        "critical_states": {
+          "cold": {
+            "registry_coset": "0",
+            "F": 1.0,
+            "D": 0.0,
+            "G_star": 0.0
+          },
+          "hot": {
+            "registry_cosets": [
+              "+mu",
+              "-mu"
+            ],
+            "phase_separation": "pairwise +/-2pi/3",
+            "F": 0.0,
+            "D": 1147.143255372122,
+            "G_star": "pole/undefined at exact state; positive divergence on generic approach"
+          }
+        },
+        "local_quadratic_response": {
+          "formula": "D=(1/2)q_parallel^T K_hol q_parallel+O(||q_parallel||^4)",
+          "K_hol": [
+            [
+              5.064814023039909,
+              8.758003950281577,
+              10.153153549285811
+            ],
+            [
+              8.758003950281577,
+              57.96017205388051,
+              21.78478352789923
+            ],
+            [
+              10.153153549285811,
+              21.78478352789923,
+              20.770993792081487
+            ]
+          ],
+          "interpretation": "K_hol is the Hessian of D with respect to in-sheet reciprocal displacement at every cold point",
+          "modes": {
+            "normal_null": {
+              "eigenvalue": -2.2812857789115853e-15,
+              "unit_vector_icrs": [
+                0.876976866371551,
+                0.04722312422485542,
+                -0.47820660010875937
+              ],
+              "ra_deg": 3.082265053546004,
+              "dec_deg": -28.568337610082878
+            },
+            "soft_in_sheet": {
+              "eigenvalue": 13.487456195208757,
+              "unit_vector_icrs": [
+                0.44338042829848784,
+                -0.4632068582380091,
+                0.7673677099560048
+              ],
+              "ra_deg": 313.7471810731123,
+              "dec_deg": 50.11809638448676
+            },
+            "hard_in_sheet": {
+              "eigenvalue": 70.30852367379313,
+              "unit_vector_icrs": [
+                -0.1852710761316631,
+                -0.8849911768033155,
+                -0.4271595080637896
+              ],
+              "ra_deg": 258.17600808135256,
+              "dec_deg": -25.287429982245442
+            }
+          }
+        },
+        "channel_shares_percent": {
+          "ab": 0.05181819931808367,
+          "ac": 21.78292242520336,
+          "bc": 78.16525937547856
+        },
+        "sphere_sampling": {
+          "node_count": 64442,
+          "edge_count": 129240,
+          "solid_angle_weight_sum_sr": 12.566370614359172,
+          "statistics_rule": "use solid-angle weights, not rectangular node counts"
+        },
+        "conditioned_maximum_witness": {
+          "node_index": 1716,
+          "antipode_index": 62736,
+          "ra_deg": 275.0,
+          "dec_deg": -85.0,
+          "u": 0.47894839946638096,
+          "F": 0.0005458321723421308,
+          "D": 1146.377651331361,
+          "G_star": 2100238.3322557337,
+          "psi_ab": 2.094936556591483,
+          "psi_ac": -2.0956936542213214,
+          "psi_bc": 2.092555096366783
+        },
+        "odd_lock_coverings": [
+          {
+            "odd_lock_order": 1,
+            "conditioning_cut": "abs(u)>=0.05",
+            "finite_node_count": 61546,
+            "rectangular_node_statistics_unweighted": {
+              "p50": 1637.7714036875936,
+              "p90": 5122.128424215497,
+              "p99": 15504.962808349068,
+              "p99_9": 46855.482052546125,
+              "max": 2100238.3322557337
+            },
+            "solid_angle_weighted_statistics": {
+              "p50": 1513.3511974084847,
+              "p90": 5030.873973065592,
+              "p99": 15386.945190900078,
+              "p99_9": 47073.302787527726,
+              "weight_sum_sr": 11.937257071005483
+            }
+          },
+          {
+            "odd_lock_order": 3,
+            "conditioning_cut": "abs(u)>=0.05",
+            "finite_node_count": 61546,
+            "rectangular_node_statistics_unweighted": {
+              "p50": 1546.545510319319,
+              "p90": 5022.365122187232,
+              "p99": 15507.961378810878,
+              "p99_9": 46739.56984558016,
+              "max": 920055.1546012015
+            },
+            "solid_angle_weighted_statistics": {
+              "p50": 1518.6483706763265,
+              "p90": 5004.3233065396535,
+              "p99": 14989.890574486346,
+              "p99_9": 50368.48527291112,
+              "weight_sum_sr": 11.937257071005483
+            }
+          },
+          {
+            "odd_lock_order": 5,
+            "conditioning_cut": "abs(u)>=0.05",
+            "finite_node_count": 61546,
+            "rectangular_node_statistics_unweighted": {
+              "p50": 1522.265146068365,
+              "p90": 5006.1190718738835,
+              "p99": 14653.639629908965,
+              "p99_9": 46898.6617798731,
+              "max": 421197.9563349711
+            },
+            "solid_angle_weighted_statistics": {
+              "p50": 1516.090626582132,
+              "p90": 5014.757951249627,
+              "p99": 14410.123962825382,
+              "p99_9": 48251.23202047533,
+              "weight_sum_sr": 11.937257071005483
+            }
+          },
+          {
+            "odd_lock_order": 7,
+            "conditioning_cut": "abs(u)>=0.05",
+            "finite_node_count": 61546,
+            "rectangular_node_statistics_unweighted": {
+              "p50": 1517.1990298419328,
+              "p90": 5047.042590679981,
+              "p99": 15110.344065647483,
+              "p99_9": 46293.553193776206,
+              "max": 299202.3911799305
+            },
+            "solid_angle_weighted_statistics": {
+              "p50": 1512.1757231080871,
+              "p90": 5032.294667973085,
+              "p99": 14511.100846403207,
+              "p99_9": 42356.16476590175,
+              "weight_sum_sr": 11.937257071005483
+            }
+          }
+        ]
+      },
+      "source_to_force_boundary": {
+        "status": "closed for mass gravity by the separate converged source branch; no direct G_star-to-G_eff identity asserted",
+        "required_chain": [
+          "mass-energy density rho(x)",
+          "registry/phase source operator",
+          "spatial propagation or Green operator",
+          "scalar potential Phi(x)",
+          "acceleration -grad Phi or curvature operator",
+          "absolute SI calibration"
+        ],
+        "guardrail": "Retain G_star as relative registry susceptibility; do not numerically equate it to G_base or G_eff.",
+        "resolved_by": [
+          "Q_m=sigma_m N_m",
+          "L_K=-div_K(Rhat grad_K)",
+          "Phi_m=L_K^-1 Q_m",
+          "g_K=-grad_K Phi_m",
+          "Gamma2 and dimensional rendering",
+          "D11 observer compiler"
+        ]
+      }
+    },
+    "materials_branch": {
+      "required": [
+        "exact sheet spacing d0",
+        "external material phase/reflection rows",
+        "enumeration and extinction rules"
+      ],
+      "current_d0_A": 1.512726880424848,
+      "versioned_typed_graph_d0_A": 1.51272688038,
+      "rule": "d0/k corresponds to reciprocal harmonic k/d0; n d0 corresponds to reciprocal fraction 1/(n d0).",
+      "external_input_boundary": "full atomic coordinates absent"
+    },
+    "upstream_galaxy_reconstruction": {
+      "required": [
+        "raw SGA axis catalog",
+        "antipodal completion",
+        "plane extraction and perturbation algorithms"
+      ],
+      "status": "not executable from attached files"
+    },
+    "mass_gravity_branch": {
+      "status": "closed given occupancy N_m and observer packet O",
+      "intrinsic_inputs": [
+        "B",
+        "M",
+        "R",
+        "A_ab",
+        "A_ac",
+        "A_bc",
+        "eta_N",
+        "Gamma2"
+      ],
+      "state_inputs": [
+        "N_m or rho_m",
+        "source location/distribution",
+        "observer-direction packet for rendered anisotropy"
+      ],
+      "derived_objects": {
+        "qbar_F": "trace(R)/3",
+        "Rhat": "R/qbar_F",
+        "r_K_squared": "x_K^T Rhat^-1 x_K",
+        "L_K": "-div_K(Rhat grad_K)",
+        "Q_m": "sigma_m N_m with sigma_m=eta_N",
+        "point_potential": "sigma_m N_m/[4 pi sqrt(det(Rhat)) r_K]",
+        "native_acceleration": "-grad_K Phi_m",
+        "G_base": "Gamma2 C_G_pred",
+        "directional_response": "G_eff=G_base f_obs/sqrt(n^T G_phase n)"
+      },
+      "normalization_guard": "Green normalization appears exactly once."
+    },
+    "locked_temporal_inertia_branch": {
+      "status": "closed given beta or a time-dependent trajectory beta(t) and a selected rendered mass",
+      "fixed_geometry": true,
+      "native_clock": "tau_R=1 closure update",
+      "full_cell_clock": {
+        "L_G_nm_current": 1.3436536216799997,
+        "T_G_s_current": 4.481946045754092e-18,
+        "T_G_s_historical_ledger": 4.481946045755399e-18,
+        "tau_e_s": 8.093299783346509e-21,
+        "S_CMB": 553.784756
+      },
+      "laws": {
+        "T_beta": "T_G/beta",
+        "N_Compton": "S_CMB/beta",
+        "N_deBroglie": "gamma beta S_CMB",
+        "E_transit": "beta h c/L_G",
+        "K_rel": "m c^2(gamma-1)",
+        "Delta_E_I": "K_rel-E_transit"
+      },
+      "interpretation": "inertia is temporal, phase-count, and energy imbalance against the fixed Cell3 closure ruler"
+    },
+    "electromagnetic_polarity_phase_branch": {
+      "status": "native constitutive and transport closure complete",
+      "state_inputs": [
+        "address parity chi",
+        "in-sheet phase wavevector k or transition state"
+      ],
+      "native_sources": {
+        "chi": "(-1)^(i+j+k)",
+        "q_N": "chi q0_N",
+        "q0_N": 1,
+        "H_N": 1
+      },
+      "transfer_operator": "-(1/3)[exp(-i k.t_a)+exp(-i k.t_b)+exp(-i k.t_c)]",
+      "constitutive_relations": {
+        "eps0_N": "q0_N^2/(2 alpha_N H_N c_N)=1/2",
+        "mu0_N": "2 alpha_N^2",
+        "Z0_N": "2 alpha_N",
+        "K_J_N": "2 q0_N/H_N",
+        "R_K_N": "H_N/q0_N^2",
+        "G0_N": "2 q0_N^2/H_N",
+        "magneton_return": "mu_B_N/mu_N_N=eta_N"
+      },
+      "interpretation": "electromagnetism is the odd polarity-phase branch rendered through charge, action, and fine/speed closure"
+    }
+  },
+  "minimality_claims": [
+    {
+      "element": "B_native_icrs",
+      "necessity": "Removing it destroys the six intrinsic metric degrees of freedom and three ICRS orientation degrees of freedom."
+    },
+    {
+      "element": "nm_per_native",
+      "necessity": "Removing it preserves dimensionless ratios but destroys absolute sheet/material spacing and SI length rendering."
+    },
+    {
+      "element": "ordered labels and handedness",
+      "necessity": "M alone cannot distinguish axis permutations or mirror-related embeddings."
+    },
+    {
+      "element": "lambda and parity laws",
+      "necessity": "Geometry alone does not select the seven-sheet partition or polarity assignment."
+    },
+    {
+      "element": "A_cell3/G_phase",
+      "necessity": "No fully determinate path from B or witness rows to this response object exists in the proof graph."
+    },
+    {
+      "element": "external observer/material/SGA inputs",
+      "necessity": "These encode data not derivable from Cell3 algebra."
+    },
+    {
+      "element": "tau_R/T_G/tau_N clock hierarchy",
+      "necessity": "Removing it destroys native update order and both full-cell and fine-leg SI time rendering."
+    },
+    {
+      "element": "Rhat and L_K reciprocal source operator",
+      "necessity": "Removing it destroys anisotropic distance, point-source Green response, and the mass-occupancy gravity branch."
+    },
+    {
+      "element": "locked temporal imbalance laws",
+      "necessity": "Removing them destroys the corpus-defined inertial pathway while fixed Cell3 geometry is preserved."
+    },
+    {
+      "element": "chi, q0_N, H(k), and EM constitutive closure",
+      "necessity": "Removing them destroys the odd polarity-phase electromagnetic branch and its metrology return."
+    },
+    {
+      "element": "shared source identity Q_m=I_m",
+      "necessity": "Removing it destroys the native equivalence-cancellation theorem."
+    },
+    {
+      "element": "D00-D14 ordering",
+      "necessity": "Removing it permits terminal witness values to contaminate upstream generation."
+    }
+  ],
+  "conflicts_and_repairs": [
+    {
+      "id": "C01_cell3_matrix_storage_transpose",
+      "severity": "schema_semantics",
+      "finding": "cell3_master field named native_units_columns_abc serializes [a,b,c] as rows; vectors_are_columns and edge records require transpose.",
+      "repair": "Use transpose of both stored native and nm matrices as B with columns a,b,c.",
+      "evidence": {
+        "max_residual_to_edge_columns_native": 0.0,
+        "max_residual_to_edge_columns_nm": 0.0
+      }
+    },
+    {
+      "id": "C02_cell3_alpha_factor_100",
+      "severity": "numeric_typing",
+      "finding": "cell3_master face_channels.alpha_N stores A_ac/A_bc=0.7297..., while all proof formulas define alpha_N=A_ac/(100 A_bc).",
+      "repair": "Correct alpha_N to A_ac/(100 A_bc); retain 0.7297... only as unscaled face ratio A_ac/A_bc.",
+      "evidence": {
+        "stored_alpha_N": 0.729735256459206,
+        "corrected_alpha_N": 0.00729735256459206,
+        "stored_divided_by_100": 0.00729735256459206
+      }
+    },
+    {
+      "id": "C03_handedness_and_orientation",
+      "severity": "representation",
+      "finding": "Proof-engine B is a right-handed canonical Cholesky factor. Cell3 master and spherical graph require a left-handed ICRS-oriented basis.",
+      "repair": "Type proof B as canonical intrinsic representative only; use current transposed Cell3 master B for ICRS reconstruction.",
+      "evidence": {
+        "det_proof_B": 2.8420669377113084e-05,
+        "det_current_B_native": -2.8420669378096486e-05,
+        "proof_reflection_to_gravity_local_max_residual": 3.4309707852564486e-13
+      }
+    },
+    {
+      "id": "C04_reverse_path_orientation_overclaim",
+      "severity": "logical_determinacy",
+      "finding": "CODATA rows determine face ratios and, with gamma2, face scale; they do not determine the ICRS rotation or the independent A_cell3 operator. Step 06 constructs a canonical local cell, not the actual ICRS-oriented Cell3.",
+      "repair": "Classify reverse commutation as intrinsic-metric recovery conditional on supplied plane normals/embedding rotation; keep A_cell3 as an independent branch root.",
+      "evidence": {
+        "fully_determinate_A_cell3_derivation_count": 0,
+        "step06_handedness": "a on +x, b in +xy half-plane, c with positive z; centered at O_ICRS in ICRS/J2000."
+      }
+    },
+    {
+      "id": "C05_versioned_geometry_drift",
+      "severity": "machine_precision_versioning",
+      "finding": "Proof, spherical, typed-material, and current Cell3 files use numerically near-identical but not bit-identical geometry/spacing versions.",
+      "repair": "Preserve source-version values for exact replay and use current cell3_master(4) as the corrected unified root.",
+      "evidence": {
+        "proof_eta_N": 1836.1526734259994,
+        "gravity_eta_N": 1836.152673380736,
+        "current_eta_N": 1836.1526733372827,
+        "d0_A": {
+          "rounded_material": 1.5127,
+          "typed_graph": 1.51272688038,
+          "spherical": 1.5127268803993728,
+          "current_master": 1.512726880424848
+        }
+      }
+    },
+    {
+      "id": "C06_two_gravity_branches",
+      "severity": "semantic_scope",
+      "finding": "The proof engine contains SI-scaled G_base/G_eff through A_cell3 and observer data; the spherical graph defines only unscaled relative G_star=D/F and explicitly leaves absolute calibration undefined.",
+      "repair": "Keep scalar observer gravity and intrinsic spherical response as distinct branches connected only through shared Cell3 geometry unless an explicit calibration map is supplied.",
+      "evidence": {
+        "spherical_status": "authoritative corrected computational artifact for this conversation; absolute scalar gravity calibration remains undefined",
+        "absolute_scalar_calibration": "not defined"
+      }
+    },
+    {
+      "id": "C07_upstream_observational_boundary",
+      "severity": "provenance_completeness",
+      "finding": "Raw SGA galaxy-axis observations and the extraction computation for N1-N5 are not present in the attached set.",
+      "repair": "The executable reconstruction root of this corpus is corrected Cell3, not raw galaxy data; retain N1-N5 as provenance claims until raw data and algorithms are supplied.",
+      "evidence": {
+        "attached_files": [
+          "dependency_tree",
+          "commutation_matrix",
+          "materials_harmonic",
+          "materials_combined",
+          "cell3_master",
+          "materials_typed_graph",
+          "witness_locks",
+          "spherical_graph"
+        ],
+        "raw_sga_file_present": false
+      }
+    },
+    {
+      "id": "C08_material_recomputation_boundary",
+      "severity": "provenance_completeness",
+      "finding": "Material files contain derived reflection rows and phase metadata but not full atomic coordinates required to independently recompute structure factors from first principles.",
+      "repair": "Treat reflection rows as external empirical/computational inputs; the typed graph is reconstructible from them plus exact d0, but AFLOW diffraction is not independently replayable from this bundle alone.",
+      "evidence": {
+        "combined_has_raw_atomic_coordinates": false
+      }
+    },
+    {
+      "id": "C09_holonomy_paper_rounded_numeric_version",
+      "severity": "machine_precision_versioning",
+      "finding": "The paper labels its numerical ledger authoritative but prints the ordered basis and derived vectors to finite decimal precision, differing slightly from the higher-precision current Cell3 master.",
+      "repair": "Use the paper as authoritative for new algebraic/typed relationships and retain its numeric ledger as a versioned rounded witness; continue to compute unified values from cell3_master(4).",
+      "evidence": {
+        "paper_basis_precision": "12 decimal digits in Appendix A; formulas and topology are assimilated, but rounded ledger does not supersede the higher-precision current Cell3 root",
+        "max_abs_B_nm_current_minus_paper_printed": 7.65126850765796e-12,
+        "max_abs_N_current_minus_paper_printed": 9.453049454322127e-12,
+        "abs_h_nm_current_minus_paper_printed": 2.5317803409308226e-12,
+        "paper_pdf_sha256": "a3aa6c583e387b9fc1739e0848f4beb7bb94d43f5100549f264063804e41f55e"
+      }
+    },
+    {
+      "id": "C10_K_symbol_collision",
+      "severity": "symbol_typing",
+      "finding": "The paper uses K both for ker(sigma), the A2 address kernel, and for the weighted holonomy coupling tensor.",
+      "repair": "Type these as A2_address_kernel and K_holonomy_tensor; never merge them by symbol alone.",
+      "evidence": {
+        "address_kernel": "ker(sigma)=A2",
+        "coupling_tensor": "K_hol=sum w_mn s_mn s_mn^T"
+      }
+    },
+    {
+      "id": "C11_group_identity_vs_isomorphism",
+      "severity": "algebraic_typing",
+      "finding": "The notation Z2 x Z3 = Z6 can be misread as literal object identity.",
+      "repair": "Encode an ISOMORPHIC_TO relation, with the Chinese remainder map, rather than strict identity.",
+      "evidence": {
+        "orders": [
+          2,
+          3,
+          6
+        ],
+        "coprime": true
+      }
+    },
+    {
+      "id": "C12_seven_plane_minimality_scope",
+      "severity": "logical_scope",
+      "finding": "Seven planes are minimal for displaying one complete six-transition polarity-registry closure with both endpoints, not minimal for defining Cell3 or the infinite foliation.",
+      "repair": "Type seven_plane_window as minimal_closure_window, downstream of the infinite bundle, not as an independent root axiom.",
+      "evidence": {
+        "transition_period": 6,
+        "endpoint_count": 7
+      }
+    },
+    {
+      "id": "C13_curtain_fan_projective_duplicates",
+      "severity": "indexing_precision",
+      "finding": "H_mn and H_qm,qn define the same curtain orientation for any nonzero integer q, and (m,n) and (-m,-n) span the same plane.",
+      "repair": "Index unique orientations by primitive coprime integer pairs modulo simultaneous sign; store affine offsets separately.",
+      "evidence": {
+        "equivalence": "(m,n)~q(m,n), q nonzero; (m,n)~(-m,-n)"
+      }
+    },
+    {
+      "id": "C14_curtain_sheet_orthogonality_wording",
+      "severity": "geometric_precision",
+      "finding": "A curtain plane span(N,s) contains the Euclidean normal N of the sheet plane N^perp, so it is geometrically perpendicular to the sheet plane. The skew Cell3 metric controls angles among root and curtain directions, not this perpendicularity.",
+      "repair": "Encode exact Euclidean perpendicularity H_mn perpendicular Pi_lambda and reserve metric-anisotropy language for mutual in-sheet/curtain angles.",
+      "evidence": {
+        "q": "N x s",
+        "q_dot_N": 0,
+        "N_in_H": true
+      }
+    },
+    {
+      "id": "C15_registry_curvature_paper_numeric_version",
+      "severity": "machine_precision_versioning",
+      "finding": "The paper reproduces the audited spherical-response geometry, which is near but not bit-identical to the current unified Cell3 master.",
+      "repair": "Use the paper and spherical artifact for exact response-branch replay; keep cell3_master(4) as the unified current geometric root and link values by versioned near-equivalence.",
+      "evidence": {
+        "paper_pdf_sha256": "73ad966c52f31cfc064c73d6c6a17842abba8a2fcc88100016d48c2bfc7b340e",
+        "spherical_h_nm": 0.15127268803993726,
+        "current_h_nm": 0.15127268804248478
+      }
+    },
+    {
+      "id": "C16_hot_state_division_by_zero",
+      "severity": "analytic_domain",
+      "finding": "At exact nonzero Z3 weight cosets F=0 while D>0, so G_star=D/F is not an ordinary finite real value.",
+      "repair": "Type hot states as poles: G_star is undefined at the exact point and diverges positively under generic approach; never serialize Infinity as a JSON number.",
+      "evidence": {
+        "D_hot": 1147.143255372122,
+        "F_hot": 0.0
+      }
+    },
+    {
+      "id": "C17_branch_phasor_global_gauge",
+      "severity": "gauge_typing",
+      "finding": "Absolute branch phasors depend on a common slip/phase origin, while F, D, and edge phase differences do not.",
+      "repair": "Represent z modulo global U(1); use centered slips or any common-shifted slips only through gauge-invariant observables.",
+      "evidence": {
+        "transformation": "z -> exp(i theta) z",
+        "invariants": [
+          "|sum z_i|",
+          "|z_i-z_j|",
+          "psi_ij"
+        ]
+      }
+    },
+    {
+      "id": "C18_projective_horizon_domain",
+      "severity": "domain_typing",
+      "finding": "The map q=nu*pi*n/[h(n dot N)] is undefined on n dot N=0; dense fringes near the contour are projective compression, not finite evaluation at the horizon.",
+      "repair": "Type the domain as RP^2 minus P(N^perp), with null/undefined values on the horizon.",
+      "evidence": {
+        "horizon_equation": "n dot N=0"
+      }
+    },
+    {
+      "id": "C19_unscaled_response_not_absolute_gravity",
+      "severity": "semantic_scope",
+      "finding": "The paper closes the interpretation of unscaled directional G_star but supplies no mass-energy source, propagation, force, curvature, or SI calibration operator.",
+      "repair": "Keep G_star disjoint from proof:G_base and proof:G_eff except for an explicit UNMAPPED_WITHOUT_SOURCE_PROPAGATION relation.",
+      "evidence": {
+        "missing_chain": [
+          "mass-energy density rho(x)",
+          "registry/phase source operator",
+          "spatial propagation or Green operator",
+          "scalar potential Phi(x)",
+          "acceleration -grad Phi or curvature operator",
+          "absolute SI calibration"
+        ]
+      }
+    },
+    {
+      "id": "C20_weighted_laplacian_factor",
+      "severity": "formula_normalization",
+      "finding": "For the standard weighted graph Laplacian, z^*L_w z=sum_{i<j}w_ij|z_i-z_j|^2.",
+      "repair": "Encode D=(1/2)z^*L_w z, not D=z^*L_w z.",
+      "evidence": {
+        "D_definition": "sum w_ij[1-cos psi_ij]"
+      }
+    },
+    {
+      "id": "C21_native_time_reintroduced_as_missing",
+      "severity": "logical_drift",
+      "finding": "Later closure drafts treated time as an unresolved new tensor or scalar.",
+      "repair": "Restore tau_R=1, full-cell T_G=L_G/c, and fine-leg tau_N=L_N/v_F as already closed branches."
+    },
+    {
+      "id": "C22_full_cell_vs_fine_leg_clock_collision",
+      "severity": "symbol_typing",
+      "finding": "T_G and tau_N were at risk of being merged.",
+      "repair": "Type T_G as full Cell3 light traversal and tau_N as fine-leg conversion time."
+    },
+    {
+      "id": "C23_arbitrary_branch_mass_matrix_overreach",
+      "severity": "minimality",
+      "finding": "A free M_br was introduced although the corpus uses fixed-geometry temporal phase imbalance for inertia.",
+      "repair": "Remove M_br from the minimal kernel; retain it only as an optional effective model outside the strict closure."
+    },
+    {
+      "id": "C24_mass_gravity_source_boundary_obsolete",
+      "severity": "graph_completeness",
+      "finding": "The older kernel listed rho->source->propagation->Phi->acceleration as unresolved.",
+      "repair": "Insert Q_m=sigma_m N_m, L_K=-div(Rhat grad), Phi_m=L_K^-1 Q_m, and g_K=-grad Phi_m."
+    },
+    {
+      "id": "C25_Gstar_gravity_conflation",
+      "severity": "semantic_scope",
+      "finding": "Relative registry susceptibility G_star can be confused with source-loaded gravity.",
+      "repair": "Keep G_star distinct; connect gravity through the mass-occupancy reciprocal-field branch."
+    },
+    {
+      "id": "C26_green_normalization_double_count",
+      "severity": "formula_normalization",
+      "finding": "4*pi*sqrt(det(Rhat)) can be placed in either Green kernel or collapsed compiler.",
+      "repair": "Record an exclusive packaging guard so it is included exactly once."
+    },
+    {
+      "id": "C27_A_cell3_status_drift",
+      "severity": "determinacy",
+      "finding": "A_cell3 was alternately called missing and derived.",
+      "repair": "Type it as an operational D11 branch root supplied by the corpus, not an intrinsic consequence of B."
+    },
+    {
+      "id": "C28_electromagnetic_external_field_overreach",
+      "severity": "minimality",
+      "finding": "A separate continuum gauge primitive was imported despite an existing polarity-phase and charge-action branch.",
+      "repair": "Use chi, q0_N, H(k), and the EM/metrology closure as the minimal native branch."
+    },
+    {
+      "id": "C29_equivalence_principle_duplicate_postulate",
+      "severity": "logical_redundancy",
+      "finding": "Inertial and gravitational source equality was treated as an external condition.",
+      "repair": "Encode Q_m=I_m=sigma_m N_m and the resulting cancellation theorem."
+    },
+    {
+      "id": "C30_dependency_order_drift",
+      "severity": "provenance_order",
+      "finding": "Some narratives permitted rendered witnesses to appear upstream of native geometry.",
+      "repair": "Enforce D00-D14 stage order with D14 terminal."
+    }
+  ],
+  "supersedes": "K_Field_minimal_complete_reconstruction_kernel_1783789475(4).json",
+  "source_additions": [
+    {
+      "filename": "K-field_seven_sheet_hidden_holonomy_plane_systems_1783782937(1).pdf",
+      "sha256": "a3aa6c583e387b9fc1739e0848f4beb7bb94d43f5100549f264063804e41f55e",
+      "bytes": 3147259,
+      "pages": 26,
+      "role": "semantic and numerical source for infinite affine sheet foliation, A2 root/weight geometry, discrete transport holonomy, direct/curtain/reciprocal plane systems, Z3 registry, Z6 closure, and holonomy eigendirections"
+    },
+    {
+      "filename": "K-field_gravity_as_registry-curvature_holonomy-frustration_response_1783787667(1).pdf",
+      "bytes": 2182293,
+      "sha256": "73ad966c52f31cfc064c73d6c6a17842abba8a2fcc88100016d48c2bfc7b340e",
+      "pages": 19,
+      "role": "semantic source connecting the audited spherical response to a weighted K3 branch graph, affine reciprocal lock plane, A2 character torus, exact cold/hot states, local Hessian, and explicit unresolved source-to-force chain"
+    },
+    {
+      "source_id": "converged_closure_report",
+      "filename": "K-Field_Converged_Closure_1783815468.pdf",
+      "sha256": "ad381e1164cbd14bc2e388180aa46a9fcbc72ce3ad959b5aecc7379e767d51a9",
+      "role": "archival converged closure report"
+    },
+    {
+      "source_id": "hidden_new_pathways_report",
+      "filename": "hidden_new_pathways_1783207404.pdf",
+      "sha256": "366220323798cfe13f111399a55a4b284a9bdf481239b29037acd68dcc09a048",
+      "role": "D00-D14 dependency architecture"
+    },
+    {
+      "source_id": "temporal_phase_imbalance_report",
+      "filename": "K-field_temporal_phase_imbalance_1783618889.pdf",
+      "sha256": "372d97fef3820a36c4303d600b684f51a02d02ed1e3e10968b7ad31610c6f8ba",
+      "role": "locked-cell inertial time and phase closure"
+    },
+    {
+      "source_id": "gravity_not_primitive_report",
+      "filename": "K-field_gravity_is_not_a_primative_1783274656.pdf",
+      "sha256": "101e634b9e67286c46908d3306ca33d720da73c1c83ef6db2f37a2f3afd2ab6c",
+      "role": "mass-occupancy reciprocal-field gravity reduction"
+    },
+    {
+      "source_id": "gravity_least_cost_report",
+      "filename": "K-field_Gravity_least_cost_convergence_of_mass_polarized_1783272576.pdf",
+      "sha256": "044ec7c44134cc1b68b476fc76600d911d95e8279ec4dacecb9847c13d8087b8",
+      "role": "source/compiler collapse and equivalence cancellation"
+    },
+    {
+      "source_id": "twelve_locks_report",
+      "filename": "KField_Twelve_Locks_Self_Witnessing_Structure_FINAL_COMPACT_1783102822.pdf",
+      "sha256": "4e3f10080ef90ac2051ced575a31d4438d68bb9d73ca6b495ccafb916bc4deac",
+      "role": "native units and electromagnetic/metrology return"
+    },
+    {
+      "source_id": "typed_graph_bundle_report",
+      "filename": "K-field_typed_graph_bundle_1783631250.pdf",
+      "sha256": "287a6a379965877024360962b7426604a9161e2a68497a13b0537fa6ef4cc8ca",
+      "role": "three-channel laminar transfer and inertial phase spaces"
+    },
+    {
+      "source_id": "directional_G_surface_report",
+      "filename": "cell3_G_surface_1783000445.pdf",
+      "sha256": "6e6bc707246a4aeda68b29c6c3b49eb3974827b9981be737f0b760e13b3b70f0",
+      "role": "directional gravity response surface"
+    },
+    {
+      "source_id": "solar_system_witness_report",
+      "filename": "K-field_solar_system_witness_1783281398.pdf",
+      "sha256": "d3fd0a986c419d5a2135447e7fadcfc77f4a4ede46ce3987106ef5c03868bfc0",
+      "role": "existing-node containment at Solar-System scale"
+    },
+    {
+      "source_id": "framework_restated_report",
+      "filename": "K-Field_framework_restated_1783607491.pdf",
+      "sha256": "37573abb0b08ee8493868197ba40490701dfc80155513f2eaee916f06cc8dbad",
+      "role": "hidden three-state primitive grammar"
+    },
+    {
+      "source_id": "top100_bridge_report",
+      "filename": "K-field_bridge_to_the_Top_100_physics_formulas_1783223625(8).pdf",
+      "sha256": "cf858a15ba52aa5d620e0664e667e317cd482d5fc36e6cbf1625d2a5317b991c",
+      "role": "geometry-ratio-metric-derivative-rendering grammar"
+    }
+  ],
+  "affine_holonomy_bundle": {
+    "status": "fully derived from the existing intrinsic geometry and address laws; no new intrinsic degree of freedom",
+    "exact_sequence": {
+      "sequence": "0 -> A2 -> Z^3 --sigma--> Z -> 0",
+      "sigma": "sigma(i,j,k)=i+j+k",
+      "kernel": "A2={Delta L in Z^3: Delta i+Delta j+Delta k=0}",
+      "quotient": "Z^3/A2 isomorphic to Z",
+      "interpretation": "one sheet-normal base coordinate with a rank-2 same-sheet fiber lattice",
+      "splitting_note": "the sequence splits because Z is free, but the branch section is noncanonical; e_a, e_b, and e_c are alternative lifts whose differences lie in A2"
+    },
+    "infinite_affine_bundle": {
+      "sheet_family": "Pi_lambda={r in R^3: N dot r=h lambda}, lambda in Z",
+      "fiber_at_lambda": "p(L0)+(B/2)A2 for any address L0 with sigma(L0)=lambda",
+      "finite_lucas_window": "lambda=-3,...,+3 within {-1,0,1}^3",
+      "sheet_populations": [
+        1,
+        3,
+        6,
+        7,
+        6,
+        3,
+        1
+      ]
+    },
+    "transport_lifts": {
+      "quotient_step": "each of a/2,b/2,c/2 maps to +1 under sigma",
+      "decomposition": "b_m/2=hN+t_m with N dot t_m=0",
+      "common_normal_advance_nm": [
+        0.13266264792629015,
+        0.00714356894003447,
+        -0.07233959783951717
+      ],
+      "half_steps_nm": {
+        "a": [
+          0.16375062103482563,
+          -0.027448503943156604,
+          -0.018743751448152622
+        ],
+        "b": [
+          0.01766538792202537,
+          0.1036599252207489,
+          -0.2737005426959786
+        ],
+        "c": [
+          -0.005064658813332432,
+          -0.19489385118190222,
+          -0.3448672041814612
+        ]
+      },
+      "registry_slips_nm": {
+        "a": [
+          0.031087973108535477,
+          -0.03459207288319108,
+          0.05359584639136455
+        ],
+        "b": [
+          -0.11499726000426477,
+          0.09651635628071444,
+          -0.20136094485646144
+        ],
+        "c": [
+          -0.13772730673962258,
+          -0.2020374201219367,
+          -0.27252760634194406
+        ]
+      },
+      "holonomy_rule": "s_mn=t_m-t_n=(b_m-b_n)/2"
+    },
+    "A2_root_embedding": {
+      "address_roots": {
+        "ab": [
+          1,
+          -1,
+          0
+        ],
+        "ac": [
+          1,
+          0,
+          -1
+        ],
+        "bc": [
+          0,
+          1,
+          -1
+        ]
+      },
+      "physical_embedding": "(B_nm/2) alpha_mn=s_mn",
+      "physical_roots_nm": {
+        "ab": [
+          0.14608523311280025,
+          -0.13110842916390553,
+          0.254956791247826
+        ],
+        "ac": [
+          0.16881527984815806,
+          0.16744534723874563,
+          0.3261234527333086
+        ],
+        "bc": [
+          0.022730046735357806,
+          0.2985537764026511,
+          0.07116666148548262
+        ]
+      },
+      "closure": "alpha_ac=alpha_ab+alpha_bc and s_ac=s_ab+s_bc",
+      "rank": 2,
+      "metric_note": "A2 combinatorics are exact; Euclidean geometry is skew under the measured Cell3 metric."
+    },
+    "direct_plane_system": {
+      "primitive_face_planes": {
+        "F_ab": "span(a,b)",
+        "F_ac": "span(a,c)",
+        "F_bc": "span(b,c)"
+      },
+      "representative_unit_normals_icrs": {
+        "ab": [
+          0.1940922008077677,
+          0.9131771688212288,
+          0.35837923479080414
+        ],
+        "ac": [
+          0.08905259410160506,
+          0.8665767692910322,
+          -0.49103394832627595
+        ],
+        "bc": [
+          -0.9959651903089612,
+          0.08360216250737673,
+          -0.03261929056439985
+        ]
+      },
+      "intersection_traces": {
+        "span(s_ab)": "F_ab intersect N^perp",
+        "span(s_ac)": "F_ac intersect N^perp",
+        "span(s_bc)": "F_bc intersect N^perp"
+      },
+      "trace_cross_product_rules": {
+        "s_ab": "parallel to N x (a x b)",
+        "s_ac": "parallel to N x (a x c)",
+        "s_bc": "parallel to N x (b x c)"
+      },
+      "affine_extension": "translate each face plane through every lattice node and intersect with every Pi_lambda"
+    },
+    "curtain_plane_system": {
+      "elementary": {
+        "H_ab": "span(N,s_ab)",
+        "H_ac": "span(N,s_ac)",
+        "H_bc": "span(N,s_bc)"
+      },
+      "representative_unit_normals_icrs": {
+        "ab": [
+          -0.1574345299664773,
+          -0.911998908486389,
+          -0.3787774540463957
+        ],
+        "ac": [
+          0.2365560265582172,
+          -0.9086501584846123,
+          0.3440873955623441
+        ],
+        "bc": [
+          0.4748228912632992,
+          -0.2381120743688707,
+          0.8472578485751043
+        ]
+      },
+      "general_family": "H_mn=span(N,m s_ab+n s_bc), (m,n) in Z^2 except (0,0)",
+      "orientation_indexing": "unique curtain orientations are indexed by primitive coprime pairs (m,n) modulo simultaneous sign; nonzero integer multiples generate the same plane direction",
+      "interpretation": "countable projective fan propagating every A2 root direction through all sheet levels"
+    },
+    "A2_weight_registry": {
+      "gauge_removal": "t_bar=(t_a+t_b+t_c)/3; u_m=t_m-t_bar",
+      "centered_weights_nm": {
+        "a": [
+          0.10496683765365276,
+          0.0121123060249467,
+          0.1936934146603782
+        ],
+        "b": [
+          -0.041118395459147486,
+          0.1432207351888522,
+          -0.06126337658744779
+        ],
+        "c": [
+          -0.06384844219450529,
+          -0.15533304121379893,
+          -0.1324300380729304
+        ]
+      },
+      "root_basis_coordinates": {
+        "u_a": [
+          "2/3",
+          "1/3"
+        ],
+        "u_b": [
+          "-1/3",
+          "1/3"
+        ],
+        "u_c": [
+          "-1/3",
+          "-2/3"
+        ]
+      },
+      "identities": [
+        "u_a+u_b+u_c=0",
+        "u_a-u_b=s_ab",
+        "u_a-u_c=s_ac",
+        "u_b-u_c=s_bc"
+      ],
+      "quotient": "A2*/A2 isomorphic to Z3={0,+mu,-mu}",
+      "transport_rule": "every forward primitive lift advances registry class by +mu; reverse advances by -mu; branch choice changes only the A2 representative"
+    },
+    "reciprocal_phase_system": {
+      "root_basis_matrix_S_columns": [
+        "s_ab",
+        "s_bc"
+      ],
+      "dual_basis_formula": "G=S(S^T S)^-1=[g_X g_Y], so G^T S=I_2",
+      "g_X_nm_inverse": [
+        1.4997694497558156,
+        -0.7520977217553532,
+        2.676137694157958
+      ],
+      "g_Y_nm_inverse": [
+        0.5199024143272735,
+        3.011730873061159,
+        1.250852102733695
+      ],
+      "phase_coordinates": "X=g_X dot r; Y=g_Y dot r",
+      "plane_families": {
+        "X_minus_Y": "X-Y in Z",
+        "X_plus_2Y": "X+2Y in Z",
+        "2X_plus_Y": "2X+Y in Z"
+      },
+      "plane_normals_nm_inverse": {
+        "X_minus_Y": [
+          0.9798670354285421,
+          -3.763828594816512,
+          1.425285591424263
+        ],
+        "X_plus_2Y": [
+          2.5395742784103623,
+          5.271364024366965,
+          5.1778418996253475
+        ],
+        "2X_plus_Y": [
+          3.5194413138389047,
+          1.5075354295504526,
+          6.6031274910496105
+        ]
+      },
+      "registry_cosets_phase_coordinates": {
+        "cold": "(p,q), p,q in Z",
+        "A_hot": "(k+1/3,m+1/3)",
+        "B_hot": "(k+2/3,m+2/3)"
+      },
+      "interpretation": "three reciprocal plane families contain N and cut every sheet in the honeycomb line network"
+    },
+    "closure_grammar": {
+      "polarity_group": "Z2 from chi(lambda)=(-1)^lambda",
+      "registry_group": "Z3 from A2*/A2",
+      "combined_group": "Z2 x Z3 isomorphic to Z6",
+      "transition_period": 6,
+      "minimal_endpoint_plane_count": 7,
+      "scope_guard": "minimal consecutive closure interval, not an additional independent geometric kernel requirement",
+      "lambda_minus3_to_plus3": [
+        {
+          "lambda": -3,
+          "polarity": -1,
+          "registry_class": "0",
+          "combined_state_index_mod6": 3
+        },
+        {
+          "lambda": -2,
+          "polarity": 1,
+          "registry_class": "+mu",
+          "combined_state_index_mod6": 4
+        },
+        {
+          "lambda": -1,
+          "polarity": -1,
+          "registry_class": "-mu",
+          "combined_state_index_mod6": 5
+        },
+        {
+          "lambda": 0,
+          "polarity": 1,
+          "registry_class": "0",
+          "combined_state_index_mod6": 0
+        },
+        {
+          "lambda": 1,
+          "polarity": -1,
+          "registry_class": "+mu",
+          "combined_state_index_mod6": 1
+        },
+        {
+          "lambda": 2,
+          "polarity": 1,
+          "registry_class": "-mu",
+          "combined_state_index_mod6": 2
+        },
+        {
+          "lambda": 3,
+          "polarity": -1,
+          "registry_class": "0",
+          "combined_state_index_mod6": 3
+        }
+      ]
+    },
+    "metric_anisotropy": {
+      "tensor_formula": "K_hol=sum_{mn in {ab,ac,bc}} w_mn s_mn s_mn^T",
+      "weights": {
+        "ab": 0.39628598568845314,
+        "ac": 166.58755028244119,
+        "bc": 597.7783339799516
+      },
+      "tensor": [
+        [
+          5.064814023202008,
+          8.758003950277878,
+          10.153153549422491
+        ],
+        [
+          8.758003950277878,
+          57.960172053708696,
+          21.784783527975698
+        ],
+        [
+          10.153153549422491,
+          21.784783527975698,
+          20.77099379205576
+        ]
+      ],
+      "modes": {
+        "normal_null": {
+          "eigenvalue": 4.025466483547693e-15,
+          "unit_vector_icrs": [
+            0.8769768663662008,
+            0.047223124229987645,
+            -0.4782066001180636
+          ],
+          "ra_deg": 3.0822650538991083,
+          "dec_deg": -28.56833761068988
+        },
+        "soft_in_sheet": {
+          "eigenvalue": 13.48745619522879,
+          "unit_vector_icrs": [
+            0.4433804283084047,
+            -0.4632068582398817,
+            0.7673677099491438
+          ],
+          "ra_deg": 313.74718107363674,
+          "dec_deg": 50.118096383873734
+        },
+        "hard_in_sheet": {
+          "eigenvalue": 70.30852367373764,
+          "unit_vector_icrs": [
+            -0.18527107613325416,
+            -0.884991176802061,
+            -0.4271595080656974
+          ],
+          "ra_deg": 258.17600808123757,
+          "dec_deg": -25.287429982366355
+        }
+      },
+      "null_reason": "K_hol N=0 because every s_mn is perpendicular to N",
+      "input_status": "weights are reused from the existing spherical-response derivative channels; no new independent weight source is introduced by the paper"
+    },
+    "machine_precision_invariants": [
+      "N dot (a/2)=N dot (b/2)=N dot (c/2)=h",
+      "N dot s_ab=N dot s_ac=N dot s_bc=0",
+      "s_ac-s_ab-s_bc=0",
+      "G^T S=I_2",
+      "u_a+u_b+u_c=0",
+      "u_a-u_b=s_ab; u_a-u_c=s_ac; u_b-u_c=s_bc",
+      "N dot p(i,j,k)=h(i+j+k)"
+    ],
+    "decisive_relative_signatures": [
+      {
+        "signature": "two independent loop phases",
+        "failure": "three measured loop phases violate s_ac=s_ab+s_bc beyond calibrated error"
+      },
+      {
+        "signature": "normal null response",
+        "failure": "pure N-directed motion produces persistent first-order loop change"
+      },
+      {
+        "signature": "three root directions with rank two",
+        "failure": "same-sheet adjacency requires an additional independent direction"
+      },
+      {
+        "signature": "Z3 registry sectors",
+        "failure": "cold and conjugate one-third-offset sectors fail three-transition closure"
+      },
+      {
+        "signature": "six-transition combined closure",
+        "failure": "polarity-registry state fails to return after six calibrated forward transitions"
+      },
+      {
+        "signature": "direct-reciprocal duality",
+        "failure": "honeycomb plane families cannot be reconstructed from measured roots"
+      }
+    ],
+    "paper_version_comparison": {
+      "paper_basis_precision": "12 decimal digits in Appendix A; formulas and topology are assimilated, but rounded ledger does not supersede the higher-precision current Cell3 root",
+      "max_abs_B_nm_current_minus_paper_printed": 7.65126850765796e-12,
+      "max_abs_N_current_minus_paper_printed": 9.453049454322127e-12,
+      "abs_h_nm_current_minus_paper_printed": 2.5317803409308226e-12,
+      "paper_pdf_sha256": "a3aa6c583e387b9fc1739e0848f4beb7bb94d43f5100549f264063804e41f55e"
+    }
+  },
+  "minimal_kernel_delta": {
+    "new_independent_intrinsic_inputs": [],
+    "new_state_inputs": [
+      "native occupancy N_m or rho_m",
+      "velocity state beta or beta(t)",
+      "in-sheet phase wavevector/transition state",
+      "observer packet O for rendered direction"
+    ],
+    "new_required_reconstruction_laws": [
+      "D00-D14 strict dependency order",
+      "native update tau_R=1 and primitive causal rate c_R=1",
+      "full-cell clock L_G,T_G,tau_e,S_CMB and moving transit law",
+      "normalized reciprocal metric Rhat and source operator L_K",
+      "Mass-Bridge source Q_m=sigma_m N_m and anisotropic Green solution",
+      "locked temporal inertia phase-count and energy-imbalance laws",
+      "odd polarity charge state and three-channel laminar transfer H(k)",
+      "EM/metrology constitutive return and magneton return",
+      "equivalence cancellation Q_m=I_m"
+    ],
+    "minimality_conclusion": "No new intrinsic Cell3 degree of freedom is added. The update closes previously omitted corpus branches and removes nonminimal imported structures."
+  },
+  "registry_curvature_response": {
+    "status": "fully assimilated as a derived spherical-response subgraph; no new intrinsic Cell3 degree of freedom",
+    "commutation_path": [
+      "ordered B",
+      "M and R",
+      "N and h",
+      "t_i",
+      "s_ij and w_ij",
+      "affine lock plane Q_nu",
+      "two A2 loop phases",
+      "branch phasors z",
+      "uniform amplitude F and Laplacian energy D",
+      "relative response G_star"
+    ],
+    "branch_graph_K3": {
+      "graph": "weighted complete graph K3",
+      "vertices": [
+        "a",
+        "b",
+        "c"
+      ],
+      "edges": {
+        "ab": {
+          "root": "s_ab",
+          "weight": 0.39628598568845314
+        },
+        "ac": {
+          "root": "s_ac",
+          "weight": 166.58755028244119
+        },
+        "bc": {
+          "root": "s_bc",
+          "weight": 597.7783339799516
+        }
+      },
+      "weighted_laplacian": [
+        [
+          166.98383626812964,
+          -0.39628598568845314,
+          -166.58755028244119
+        ],
+        [
+          -0.39628598568845314,
+          598.1746199656401,
+          -597.7783339799516
+        ],
+        [
+          -166.58755028244119,
+          -597.7783339799516,
+          764.3658842623928
+        ]
+      ],
+      "uniform_mode": "span{(1,1,1)}"
+    },
+    "projective_lock_geometry": {
+      "domain": "RP^2\\P(N^perp)",
+      "codomain": "Q_nu",
+      "map": "[n] -> q_nu=nu*pi*n/(h n dot N)",
+      "horizon": "n dot N=0",
+      "parity": "q(-n)=q(n)"
+    },
+    "A2_character_torus": {
+      "object": "A2 character torus Hom(A2,U(1)) isomorphic to (R/2piZ)^2",
+      "coordinates": [
+        "psi_ab",
+        "psi_bc"
+      ],
+      "dependent_phase": "psi_ac=psi_ab+psi_bc mod 2pi"
+    },
+    "critical_states": {
+      "cold": {
+        "registry_coset": "0",
+        "F": 1.0,
+        "D": 0.0,
+        "G_star": 0.0
+      },
+      "hot": {
+        "registry_cosets": [
+          "+mu",
+          "-mu"
+        ],
+        "phase_separation": "pairwise +/-2pi/3",
+        "F": 0.0,
+        "D": 1147.143255372122,
+        "G_star": "pole/undefined at exact state; positive divergence on generic approach"
+      }
+    },
+    "local_response_Hessian": {
+      "formula": "D=(1/2)q_parallel^T K_hol q_parallel+O(||q_parallel||^4)",
+      "K_hol": [
+        [
+          5.064814023039909,
+          8.758003950281577,
+          10.153153549285811
+        ],
+        [
+          8.758003950281577,
+          57.96017205388051,
+          21.78478352789923
+        ],
+        [
+          10.153153549285811,
+          21.78478352789923,
+          20.770993792081487
+        ]
+      ],
+      "interpretation": "K_hol is the Hessian of D with respect to in-sheet reciprocal displacement at every cold point",
+      "modes": {
+        "normal_null": {
+          "eigenvalue": -2.2812857789115853e-15,
+          "unit_vector_icrs": [
+            0.876976866371551,
+            0.04722312422485542,
+            -0.47820660010875937
+          ],
+          "ra_deg": 3.082265053546004,
+          "dec_deg": -28.568337610082878
+        },
+        "soft_in_sheet": {
+          "eigenvalue": 13.487456195208757,
+          "unit_vector_icrs": [
+            0.44338042829848784,
+            -0.4632068582380091,
+            0.7673677099560048
+          ],
+          "ra_deg": 313.7471810731123,
+          "dec_deg": 50.11809638448676
+        },
+        "hard_in_sheet": {
+          "eigenvalue": 70.30852367379313,
+          "unit_vector_icrs": [
+            -0.1852710761316631,
+            -0.8849911768033155,
+            -0.4271595080637896
+          ],
+          "ra_deg": 258.17600808135256,
+          "dec_deg": -25.287429982245442
+        }
+      }
+    },
+    "unresolved_extension": {
+      "status": "resolved for the separate mass-gravity branch; direct G_star-to-G_eff identification remains intentionally absent",
+      "resolved_chain": [
+        "N_m",
+        "Q_m=sigma_m N_m",
+        "L_K=-div_K(Rhat grad_K)",
+        "Phi_m=L_K^-1 Q_m",
+        "g_K=-grad_K Phi_m",
+        "Gamma2/C_G_pred",
+        "A_cell3/G_phase observer compiler"
+      ],
+      "guardrail": "G_star and G_eff remain typed as different observables."
+    }
+  },
+  "previous_schema": "kfield.minimal_complete_reconstruction_kernel.v3.registry_curvature_response",
+  "converged_closure": {
+    "status": "fully assembled from corpus-supported nodes and laws",
+    "dependency_architecture": [
+      {
+        "stage": "D00",
+        "object": "ordered Cell3 B"
+      },
+      {
+        "stage": "D01",
+        "object": "primitive faces"
+      },
+      {
+        "stage": "D02",
+        "object": "eta_N, alpha_N, c_N carrier bridge"
+      },
+      {
+        "stage": "D03",
+        "object": "native time, speed, action, charge, and mass units"
+      },
+      {
+        "stage": "D04-D06",
+        "object": "atomic, energy, EM/metrology branch returns"
+      },
+      {
+        "stage": "D07",
+        "object": "Rhat, r_K, L_K, H(k)"
+      },
+      {
+        "stage": "D08",
+        "object": "Gamma2 gravity recursion"
+      },
+      {
+        "stage": "D09",
+        "object": "v_F, L_N, tau_N, C_G_pred and full-cell clock"
+      },
+      {
+        "stage": "D10",
+        "object": "Q_m, Phi_m, g_K, G_base"
+      },
+      {
+        "stage": "D11",
+        "object": "A_cell3/G_phase observer compiler and G_eff"
+      },
+      {
+        "stage": "D12-D13",
+        "object": "G-derived descendants"
+      },
+      {
+        "stage": "D14",
+        "object": "independent witness comparison"
+      }
+    ],
+    "canonical_current_values": {
+      "L_G_nm": 1.3436536216799997,
+      "T_G_s_current": 4.481946045754092e-18,
+      "T_G_s_historical_ledger": 4.481946045755399e-18,
+      "tau_e_s": 8.093299783346509e-21,
+      "S_CMB": 553.784756,
+      "qbar_F": 1449.5860149890802,
+      "Rhat": [
+        [
+          1.6401318440673112,
+          0.0002733787312900358,
+          -0.11492077638453126
+        ],
+        [
+          0.0002733787312900159,
+          0.8733924217637242,
+          -0.41237865694223974
+        ],
+        [
+          -0.11492077638453126,
+          -0.41237865694223974,
+          0.4864757341689648
+        ]
+      ],
+      "Rhat_inverse": [
+        [
+          0.6269715424742444,
+          0.11627191939135052,
+          0.24667235375232474
+        ],
+        [
+          0.11627191939135056,
+          1.9305978053607111,
+          1.664007744808296
+        ],
+        [
+          0.24667235375232477,
+          1.664007744808296,
+          3.5244287369857648
+        ]
+      ],
+      "det_Rhat": 0.4064427898720787,
+      "sqrt_det_Rhat": 0.6375286580790535,
+      "G_phase": [
+        [
+          2.9764106231203336,
+          1.2431507859450697,
+          -2.080360034009844
+        ],
+        [
+          1.2431507859450697,
+          2.592228673468297,
+          -2.317884003704403
+        ],
+        [
+          -2.080360034009844,
+          -2.317884003704403,
+          6.773570937047852
+        ]
+      ],
+      "eta_N_current_master": 1836.1526733372827,
+      "c_N_current_master": 137.0359991721056,
+      "alpha_N_current_master": 0.00729735256459206,
+      "gamma2_hat_current_master": 2.4005878230853775e-43
+    },
+    "strict_branch_readings": {
+      "gravity": "even Mass-Bridge occupancy polarizing reciprocal geometry",
+      "inertia": "temporal and phase-occupation imbalance of the same occupancy through fixed Cell3",
+      "electromagnetism": "odd polarity-phase transport through native charge-action-fine-speed closure"
+    },
+    "equivalence_theorem": "Q_m=I_m=sigma_m N_m; sigma_m cancels from G_eff when rendered mass uses the same source charge",
+    "minimal_state_inputs": {
+      "gravity": [
+        "occupancy/density",
+        "source position",
+        "observer packet for rendered direction"
+      ],
+      "inertia": [
+        "beta or beta(t)",
+        "rendered mass species"
+      ],
+      "electromagnetism": [
+        "address parity",
+        "phase wavevector or transition state"
+      ]
+    },
+    "nonminimal_removed_inputs": [
+      "new tau_K",
+      "free M_br",
+      "imported spacetime coframe",
+      "independent primitive gravity force",
+      "independent primitive EM field"
+    ],
+    "semantic_boundaries": {
+      "G_star": "relative registry-frustration susceptibility, not G_eff",
+      "A_cell3": "operational observer-direction response root, not intrinsic derivation from B",
+      "witnesses": "terminal checks, never upstream causes"
+    },
+    "reconstruction_sequence": [
+      "load ordered ICRS Cell3 basis and scale",
+      "derive direct/reciprocal metrics, face areas, sheet and address grammar",
+      "derive eta_N, alpha_N, c_N, mu_N, Gamma2",
+      "instantiate native update, causal rate, action, charge, and mass units",
+      "render full-cell and fine-leg length/time/speed chains",
+      "normalize reciprocal transport metric and construct r_K and L_K",
+      "compile mass occupancy to Q_m, Phi_m, g_K, G_base, and G_eff",
+      "compile beta to transit, phase counts, and inertial energy imbalance",
+      "compile parity and registry slips to signed charge, H(k), EM medium, metrology, and magneton return",
+      "compare only terminal outputs with independent witnesses"
+    ]
+  }
+}

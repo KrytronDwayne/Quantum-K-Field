@@ -1,0 +1,216 @@
+{
+  "schema": "kfield.minimal_textbook_series_outline.v1",
+  "title": "Minimal Introductory K-Field Education Series",
+  "subtitle": "Introductory textbook chapter outline for a general audience",
+  "generated_utc": "2026-07-17T14:24:45.260521+00:00",
+  "constraints": {
+    "max_total_pages": 50,
+    "format": "chapter_outline",
+    "audiences": [
+      "High school science teachers",
+      "Politicians",
+      "Journalists",
+      "Business leaders"
+    ],
+    "design_rule": "Capture the full essence with the fewest chapters that still preserve the logical backbone."
+  },
+  "guiding_core": {
+    "core_statement": "The K-Field is a single geometric framework that organizes structure, interaction, constants, and measurement across all observed domains through one consistent underlying spatial order.",
+    "series_purpose": "Teach one coherent backbone rather than a collection of disconnected claims."
+  },
+  "series_structure": {
+    "total_chapters": 7,
+    "estimated_total_pages": 46,
+    "chapter_page_plan": [
+      {
+        "chapter": 1,
+        "pages": 6
+      },
+      {
+        "chapter": 2,
+        "pages": 7
+      },
+      {
+        "chapter": 3,
+        "pages": 7
+      },
+      {
+        "chapter": 4,
+        "pages": 7
+      },
+      {
+        "chapter": 5,
+        "pages": 6
+      },
+      {
+        "chapter": 6,
+        "pages": 7
+      },
+      {
+        "chapter": 7,
+        "pages": 6
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Why K-Field Matters",
+      "pages": 6,
+      "purpose": "Establish the unifying idea that one framework can connect many scientific domains.",
+      "core_questions": [
+        "Why do separate scientific facts often point to one deeper structure?",
+        "Why is unification more powerful than memorizing isolated results?",
+        "What problem does the K-Field solve conceptually?"
+      ],
+      "essential_points": [
+        "One framework unifies multiple domains.",
+        "Geometry organizes physical reality.",
+        "Different observations are views of one system.",
+        "The K-Field is best approached as a backbone, not a list of wonders."
+      ],
+      "audience_bridge": {
+        "teachers": "Cross-disciplinary teaching opportunity",
+        "politicians": "High-consequence scientific framework",
+        "journalists": "One discovery connecting many phenomena",
+        "business": "Platform-level innovation framework"
+      }
+    },
+    {
+      "chapter": 2,
+      "title": "The Underlying Structure",
+      "pages": 7,
+      "purpose": "Introduce the geometric basis of the framework and explain why ordered structure comes first.",
+      "core_questions": [
+        "What does it mean for reality to have an underlying structure?",
+        "How can geometry act as a generative scientific foundation?",
+        "Why does ordered structure matter before constants and applications?"
+      ],
+      "essential_points": [
+        "A single structured system exists.",
+        "Ordered geometry is the first layer of explanation.",
+        "Structure is the source of measurable relationships.",
+        "Reference frame and orientation are physically meaningful."
+      ],
+      "teaching_goal": "Move the reader from intuitive shape-thinking to scientific structural reasoning."
+    },
+    {
+      "chapter": 3,
+      "title": "How Relationships Become Constants",
+      "pages": 7,
+      "purpose": "Explain that constants are relational outputs of the framework rather than isolated memorized numbers.",
+      "core_questions": [
+        "How do stable relationships produce stable constants?",
+        "Why are constants better understood as invariants than isolated values?",
+        "What changes when numbers are taught as structure rather than fact lists?"
+      ],
+      "essential_points": [
+        "Constants emerge from relationships, not isolation.",
+        "Internal ratios create recognizable physical scales.",
+        "The educational payoff is explanatory compression.",
+        "Scientific understanding improves when many facts collapse into one pattern."
+      ],
+      "teaching_goal": "Show how a general audience can move from number-memorization to relational understanding."
+    },
+    {
+      "chapter": 4,
+      "title": "How Interaction Works",
+      "pages": 7,
+      "purpose": "Teach the distinction between structure and interaction and show how one system can have multiple valid descriptions.",
+      "core_questions": [
+        "Why must structure and interaction be distinguished?",
+        "How can one framework describe both what a system is and how it behaves?",
+        "Why do ordered pathways matter?"
+      ],
+      "essential_points": [
+        "Structure and interaction are two aspects of the same system.",
+        "Interaction strength follows ordered pathways.",
+        "Measurement is interaction with structure.",
+        "A full scientific description can require complementary viewpoints."
+      ],
+      "teaching_goal": "Give readers a usable mental model for understanding behavior without losing the underlying geometry."
+    },
+    {
+      "chapter": 5,
+      "title": "How Complexity Emerges",
+      "pages": 6,
+      "purpose": "Show how recursive repetition generates higher-order organization and operational dynamics.",
+      "core_questions": [
+        "How does repetition create complexity?",
+        "Why does recursive organization matter?",
+        "What is the scientific meaning of emergence?"
+      ],
+      "essential_points": [
+        "Repetition generates complexity.",
+        "Repeated structure reveals deeper organization.",
+        "Complex systems arise from simple repetition.",
+        "Higher-order behavior can be taught as a consequence of recursion rather than as a new disconnected layer."
+      ],
+      "teaching_goal": "Link K-Field to broader scientific themes in biology, chemistry, computing, and systems theory."
+    },
+    {
+      "chapter": 6,
+      "title": "How Observations Connect",
+      "pages": 7,
+      "purpose": "Explain why different domains reconstruct the same backbone and why measurement depends on context.",
+      "core_questions": [
+        "Why do different sciences recover the same structure?",
+        "How does perspective affect observation?",
+        "Why does context matter without changing the underlying reality?"
+      ],
+      "essential_points": [
+        "Independent methods converge to the same structure.",
+        "Different fields reconstruct the same backbone.",
+        "Measurement depends on orientation and context.",
+        "Perspective changes observation, not reality."
+      ],
+      "teaching_goal": "Train readers to see astronomy, laboratory measurements, materials, and timing behavior as connected evidence streams."
+    },
+    {
+      "chapter": 7,
+      "title": "Applications and Public Meaning",
+      "pages": 6,
+      "purpose": "Translate the framework into civic, educational, technological, and economic significance.",
+      "core_questions": [
+        "Why does this matter beyond science classrooms?",
+        "How does a unified framework change public understanding?",
+        "What broad application areas follow from the backbone?"
+      ],
+      "essential_points": [
+        "The framework explains and predicts real-world behavior.",
+        "The same backbone supports educational, strategic, media, and business narratives.",
+        "Applications include timing, sensing, materials, navigation, and energy systems.",
+        "Public understanding improves when one system replaces fragmented explanation."
+      ],
+      "teaching_goal": "End the series with relevance, not abstraction."
+    }
+  ],
+  "front_matter": {
+    "pages": 2,
+    "includes": [
+      "Preface",
+      "How to read the series",
+      "Audience note",
+      "Core glossary"
+    ]
+  },
+  "back_matter": {
+    "pages": 1,
+    "includes": [
+      "Unified glossary recap",
+      "Series synthesis page"
+    ]
+  },
+  "nonnegotiable_editorial_rules": [
+    "Teach one backbone from beginning to end.",
+    "Do not present disconnected marvels.",
+    "Start with unification, then structure, then constants, then interaction, then emergence, then cross-domain reconstruction, then applications.",
+    "Keep vocabulary audience-appropriate without changing the underlying logic.",
+    "Each chapter must answer a simple public-facing question before introducing technical language.",
+    "Every chapter must close by linking back to the single-framework idea."
+  ],
+  "compression_summary": {
+    "minimal_series_tagline": "One framework. Seven chapters. Full backbone.",
+    "single_sentence_series_promise": "This series teaches how one underlying structure explains constants, interaction, complexity, observation, and application across science."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "generated_utc": "2026-07-17T13:43:53.525054",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Independent Geometric Convergence",
+      "description": "Four unrelated reconstruction pipelines\u2014mirror\u2011accumulator sweeps, Fourier\u2011domain projection, reciprocal\u2011stack plane search, and direct plane fitting\u2014all recovered the identical three\u2011plane Cell\u202f3 geometry fixed to one sky orientation. The absence of tunable parameters and the agreement of seven structural degrees of freedom make this convergence the strongest empirical lock on the K\u2011Field lattice. \ue200filecite\ue202turn0file1\ue202L7-L15\ue201"
+    },
+    {
+      "rank": 2,
+      "title": "Mass Bridge Compression of Constants",
+      "description": "A single Cell\u202f3 face (A_bc) generates two dimensionless constants: A_bc/A_ab\u202f\u00d7\u202f1000 reproduces the proton\u2011to\u2011electron mass ratio, while A_bc/A_ac\u202f\u00d7\u202f100 produces the fine\u2011structure\u2011related electromagnetic branch. Two fundamental scales collapse into one geometric carrier, turning apparent coincidence into proof of shared origin. \ue200filecite\ue202turn0file0\ue202L24-L35\ue201"
+    },
+    {
+      "rank": 3,
+      "title": "Interaction Hierarchy Encoded in Reciprocal Metric",
+      "description": "The inverse lattice embeds an ordered coupling structure |I_bc|\u00a0\u226b\u00a0|I_ac|\u00a0\u226b\u00a0|I_ab|. Geometry thus pre\u2011selects strong and weak interaction channels before any field equations are written, providing a built\u2011in explanation for anisotropic response across scales. \ue200filecite\ue202turn0file4\ue202L45-L51\ue201"
+    },
+    {
+      "rank": 4,
+      "title": "Seven\u2011Sheet Dynamical System",
+      "description": "Cell\u202f3 repetition forms the Lucas limit, which resolves into seven alternating\u2011polarity sheets with coordinated in\u2011plane motion, registry, stiffness, and holonomy. The field acquires memory and phase dynamics, turning static geometry into a geometrically driven state machine. \ue200filecite\ue202turn0file2\ue202L339-L347\ue201"
+    },
+    {
+      "rank": 5,
+      "title": "Cross\u2011Domain Directional Recurrence",
+      "description": "Galaxy\u2011axis organization, laboratory anisotropy, sidereal and lunar modulation, oscillator behaviour, and spherical gravity\u2011response maps all reconstruct the same global orientation, Cell\u202f3 geometry, and sheet system. The K\u2011Field unifies observations that conventional models treat as unrelated. \ue200filecite\ue202turn0file1\ue202L74-L90\ue201"
+    },
+    {
+      "rank": 6,
+      "title": "Shared\u2011Carrier Triangle",
+      "description": "The Mass Bridge identifies A_bc as a common numerator while A_ab and A_ac act as distinct denominators for mass and electromagnetic branches. This triangle geometrically couples interactions long considered separate, revealing hidden dependency among constants and interaction pathways. \ue200filecite\ue202turn0file2\ue202L233-L290\ue201"
+    },
+    {
+      "rank": 7,
+      "title": "Observer\u2011Dependent Rendering",
+      "description": "Measurements vary with orientation, traversal, phase, registry, and sheet state, yet always reconstruct the same underlying lattice. This explains why diverse experiments yield direction\u2011sensitive signals and reframes orientation as an experimental control parameter. \ue200filecite\ue202turn0file2\ue202L374-L400\ue201"
+    }
+  ]
+}

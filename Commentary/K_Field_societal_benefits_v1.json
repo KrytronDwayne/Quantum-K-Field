@@ -1,0 +1,80 @@
+{
+  "schema": "kfield.societal_benefits.v1",
+  "title": "Seven Likely Societal Benefits from the K‑Field Discovery",
+  "benefits": [
+    {
+      "rank": 1,
+      "id": "KF-SB001",
+      "name": "Unified Fundamental Theory",
+      "description": "Replacing many independent constants with geometric invariants sharpens predictive physics, accelerating R&D across all high‑tech sectors.",
+      "impact_areas": [
+        "fundamental_science",
+        "technology_innovation"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "KF-SB002",
+      "name": "Directional Energy Harvesting",
+      "description": "Exploiting orientation‑dependent K‑Field coupling could enable highly efficient clean‑energy generators and field‑aligned photovoltaic or inductive systems.",
+      "impact_areas": [
+        "energy_generation",
+        "sustainability"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "KF-SB003",
+      "name": "Field‑Modulated Propulsion",
+      "description": "Geometry‑driven control of gravity‑like and inertial effects offers new propulsion concepts with minimal reaction mass for space and terrestrial transport.",
+      "impact_areas": [
+        "aerospace",
+        "transportation"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "KF-SB004",
+      "name": "Advanced Materials Design",
+      "description": "Tailoring crystal lattices to specific Cell3 and seven‑sheet harmonics may yield room‑temperature superconductors, ultrahard phases, or self‑tuning photonics.",
+      "impact_areas": [
+        "materials_science",
+        "electronics",
+        "photonics"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "KF-SB005",
+      "name": "Precision Navigation & Timing",
+      "description": "The fixed ICRS‑locked K‑Field provides an absolute orientation reference enabling sub‑nanosecond timing, drift‑free inertial navigation, and geodesy.",
+      "impact_areas": [
+        "navigation",
+        "metrology",
+        "geodesy"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "KF-SB006",
+      "name": "Cosmological Distance Calibration",
+      "description": "Geometric decoding of galaxy positions refines the cosmic distance ladder, improving models of dark energy, large‑scale structure, and astrophysical forecasts.",
+      "impact_areas": [
+        "astronomy",
+        "cosmology",
+        "space_science"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "KF-SB007",
+      "name": "Anisotropy‑Enhanced Biomedical Imaging",
+      "description": "Leveraging K‑Field orientation sensitivity could boost resolution or selectivity in MRI‑like modalities and targeted radiotherapy.",
+      "impact_areas": [
+        "medical_imaging",
+        "healthcare"
+      ]
+    }
+  ],
+  "ordering_principle": "estimated_societal_impact"
+}

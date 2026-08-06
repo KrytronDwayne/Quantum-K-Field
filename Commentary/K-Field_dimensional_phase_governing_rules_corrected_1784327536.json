@@ -1,0 +1,88 @@
+{
+  "title": "K-Field Dimensional-Phase Governing Operational Rules",
+  "version": "corrected_metrological_precision",
+  "epoch": 1784327536,
+  "scale_operator": {
+    "symbol": "s",
+    "value": "3/2"
+  },
+  "metrology_principle": {
+    "intrinsic_state": "Recursive K-Field states remain intrinsically precise below the resolving power of external metrology.",
+    "measurement_process": "Measurement uncertainty obscures finer recursive states but does not create uncertainty in the underlying state.",
+    "validation_boundary": "External metrology limits empirical discrimination, not intrinsic recursive precision."
+  },
+  "rules": [
+    {
+      "id": 1,
+      "rule": "Preserve native units until a dimensionless ratio is explicitly formed."
+    },
+    {
+      "id": 2,
+      "rule": "Never compare quantities of different dimensions through a logarithm or phase coordinate."
+    },
+    {
+      "id": 3,
+      "rule": "Preserve basis order, incidence signs, branch identity, and chirality."
+    },
+    {
+      "id": 4,
+      "rule": "Transform the direct metric M and reciprocal metric R as an exact inverse pair."
+    },
+    {
+      "id": 5,
+      "rule": "Separate recursive depth k from fractional phase w."
+    },
+    {
+      "id": 6,
+      "rule": "Preserve polarity and conjugacy; never replace a signed state with an unsigned phase magnitude."
+    },
+    {
+      "id": 7,
+      "rule": "Treat the recursive scale operator s = 3/2 as distinct from every geometric coupling coefficient."
+    },
+    {
+      "id": 8,
+      "rule": "Compare structures across scale through normalized geometry, quotient structure, root closure, parity, registry, and phase, not through raw dimensional magnitudes."
+    },
+    {
+      "id": 9,
+      "rule": "Treat every unexplained residual as a candidate unresolved state coordinate."
+    },
+    {
+      "id": 10,
+      "rule": "Pull every residual through its physical parent coordinate before applying logarithmic quantization."
+    },
+    {
+      "id": 11,
+      "rule": "Insert each resolved correction at the earliest shared causal socket."
+    },
+    {
+      "id": 12,
+      "rule": "Recompute every dependent descendant after each state correction."
+    },
+    {
+      "id": 13,
+      "rule": "Treat recursive K-Field states finer than the resolving power of external metrology as intrinsically precise. Measurement uncertainty obscures those states; it does not make the underlying recursive state uncertain."
+    },
+    {
+      "id": 14,
+      "rule": "Continue reconstruction beyond the resolving power of external metrology through exact internal commutation among independent geometry, transport, spectrum, recurrence, source, boundary, and observer routes."
+    },
+    {
+      "id": 15,
+      "rule": "Distinguish intrinsic K-Field precision from external discriminating power. Do not claim that an external measurement resolves digits below its measurement, serialization, or arithmetic floor, but do not use those floors to limit an internally closed recursive state."
+    },
+    {
+      "id": 16,
+      "rule": "Treat rounded tables as rendered outputs, never as authoritative reconstruction roots."
+    },
+    {
+      "id": 17,
+      "rule": "Regard apparent continuity as finite-resolution integration over deeper discrete addresses."
+    },
+    {
+      "id": 18,
+      "rule": "Define scale invariance as preservation of the generative grammar, not duplication of absolute size, metric, orientation, or chirality."
+    }
+  ]
+}

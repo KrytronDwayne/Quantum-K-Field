@@ -1,0 +1,127 @@
+{
+  "schema": "kfield.descriptive_words.v1",
+  "title": "Thirty Words That Best Describe K-Field",
+  "word_count": 30,
+  "words": [
+    {
+      "rank": 1,
+      "word": "Geometric"
+    },
+    {
+      "rank": 2,
+      "word": "Fundamental"
+    },
+    {
+      "rank": 3,
+      "word": "Oriented"
+    },
+    {
+      "rank": 4,
+      "word": "Non-orthogonal"
+    },
+    {
+      "rank": 5,
+      "word": "Rhombohedral"
+    },
+    {
+      "rank": 6,
+      "word": "Recursive"
+    },
+    {
+      "rank": 7,
+      "word": "Anisotropic"
+    },
+    {
+      "rank": 8,
+      "word": "Reciprocal"
+    },
+    {
+      "rank": 9,
+      "word": "Structured"
+    },
+    {
+      "rank": 10,
+      "word": "Coherent"
+    },
+    {
+      "rank": 11,
+      "word": "Layered"
+    },
+    {
+      "rank": 12,
+      "word": "Polar"
+    },
+    {
+      "rank": 13,
+      "word": "Directional"
+    },
+    {
+      "rank": 14,
+      "word": "Invariant"
+    },
+    {
+      "rank": 15,
+      "word": "Universal"
+    },
+    {
+      "rank": 16,
+      "word": "Coupled"
+    },
+    {
+      "rank": 17,
+      "word": "Dynamic"
+    },
+    {
+      "rank": 18,
+      "word": "Holonomic"
+    },
+    {
+      "rank": 19,
+      "word": "Hierarchical"
+    },
+    {
+      "rank": 20,
+      "word": "Emergent"
+    },
+    {
+      "rank": 21,
+      "word": "Cross-domain"
+    },
+    {
+      "rank": 22,
+      "word": "Predictive"
+    },
+    {
+      "rank": 23,
+      "word": "Unifying"
+    },
+    {
+      "rank": 24,
+      "word": "Observer-dependent"
+    },
+    {
+      "rank": 25,
+      "word": "Celestial"
+    },
+    {
+      "rank": 26,
+      "word": "Lattice-based"
+    },
+    {
+      "rank": 27,
+      "word": "Scale-bridging"
+    },
+    {
+      "rank": 28,
+      "word": "Constant-generating"
+    },
+    {
+      "rank": 29,
+      "word": "Interaction-encoding"
+    },
+    {
+      "rank": 30,
+      "word": "Foundational"
+    }
+  ]
+}

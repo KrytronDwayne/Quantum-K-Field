@@ -1,0 +1,111 @@
+{
+  "schema": "kfield.seven_keystone_milestones.v1",
+  "title": "Seven Keystone Moments in the K-Field Discovery Process",
+  "ordering_principle": "dependency_sequence",
+  "milestones": [
+    {
+      "rank": 1,
+      "id": "KF-KM001",
+      "name": "Discovery of the Globally Oriented Cell3 Geometry",
+      "summary": "Independent reconstruction methods converged on the same three non-orthogonal plane families and the same rhombohedral Cell3 with a fixed ICRS/J2000.0 orientation.",
+      "transition": "observation_to_geometry",
+      "depends_on": [],
+      "supporting_citations": [
+        "turn0file1:L7-L32"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "KF-KM002",
+      "name": "Recognition that Geometry Is the Primary Physical Substrate",
+      "summary": "Cell3 established geometry, rather than mass, force, charge, or energy, as the root object from which physical quantities are derived.",
+      "transition": "geometry_to_physical_ontology",
+      "depends_on": [
+        "KF-KM001"
+      ],
+      "supporting_citations": [
+        "turn0file2:L17-L35"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "KF-KM003",
+      "name": "Discovery of the Mass Bridge",
+      "summary": "Cell3 face areas generated the mass and electromagnetic branches through one shared carrier geometry, directly linking pure geometry to recognizable physical constants.",
+      "transition": "geometry_to_physical_constants",
+      "depends_on": [
+        "KF-KM001",
+        "KF-KM002"
+      ],
+      "supporting_citations": [
+        "turn0file0:L24-L43"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "KF-KM004",
+      "name": "Discovery of the Reciprocal Interaction Hierarchy",
+      "summary": "The reciprocal metric revealed the ordered interaction structure |I_bc| >> |I_ac| >> |I_ab| and established that reciprocal geometry governs coupling, exchange, propagation, and resistance.",
+      "transition": "structure_to_interaction",
+      "depends_on": [
+        "KF-KM001",
+        "KF-KM002"
+      ],
+      "supporting_citations": [
+        "turn0file2:L193-L230"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "KF-KM005",
+      "name": "Discovery of the Lucas-Limit Higher-Order Structure",
+      "summary": "Shared-face repetition of Cell3 exposed the Lucas limit, the first emergent structure beyond a single cell, revealing hidden polarity and recursive organization.",
+      "transition": "single_cell_to_recursive_architecture",
+      "depends_on": [
+        "KF-KM001",
+        "KF-KM004"
+      ],
+      "supporting_citations": [
+        "turn0file2:L327-L336"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "KF-KM006",
+      "name": "Discovery of the Seven-Sheet Dynamical System",
+      "summary": "The Lucas limit resolved into seven coherent alternating-polarity sheets with coordinated in-plane motion, phase relations, registry, stiffness, and holonomy.",
+      "transition": "static_geometry_to_dynamics",
+      "depends_on": [
+        "KF-KM005"
+      ],
+      "supporting_citations": [
+        "turn0file2:L339-L370"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "KF-KM007",
+      "name": "Discovery of Cross-Domain Reconstruction",
+      "summary": "Astronomical observations, laboratory anisotropy, sidereal and lunar modulation, oscillator behavior, material interactions, and spherical response analyses reconstructed the same globally oriented Cell3 and seven-sheet framework.",
+      "transition": "unified_geometry_to_cross_domain_convergence",
+      "depends_on": [
+        "KF-KM001",
+        "KF-KM003",
+        "KF-KM004",
+        "KF-KM006"
+      ],
+      "supporting_citations": [
+        "turn0file2:L374-L400"
+      ]
+    }
+  ],
+  "dependency_chain": [
+    "KF-KM001",
+    "KF-KM002",
+    "KF-KM003",
+    "KF-KM004",
+    "KF-KM005",
+    "KF-KM006",
+    "KF-KM007"
+  ]
+}

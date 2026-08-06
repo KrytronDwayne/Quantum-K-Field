@@ -1,0 +1,134 @@
+{
+  "schema": "kfield.fundamental_evidence.v1",
+  "title": "Most Compelling Evidence That the K-Field Is a Fundamental Structure Beneath Known Physics",
+  "thesis": "The strongest evidence is the convergence of independent astronomical, geometric, physical-constant, reciprocal-metric, recursive-structure, and laboratory analyses on one tightly constrained oriented geometry.",
+  "evidence": [
+    {
+      "rank": 1,
+      "id": "KF-E001",
+      "name": "Independent recovery of oriented Cell3 geometry",
+      "source_domain": "Galaxy-axis unit-sphere analysis",
+      "methods": [
+        "Mirror accumulation",
+        "Fourier-domain projection",
+        "Reciprocal-stack search",
+        "Direct plane fitting"
+      ],
+      "recovered_structure": {
+        "plane_families": 3,
+        "plane_relationship": "Non-orthogonal",
+        "cell": "Rhombohedral Cell3",
+        "orientation_frame": "ICRS/J2000.0",
+        "constraints": [
+          "Three basis lengths",
+          "Three basis angles",
+          "Three face areas",
+          "Cell volume",
+          "Direct metric",
+          "Reciprocal metric",
+          "Global orientation"
+        ]
+      },
+      "significance": "Structurally different methods recover the same highly constrained three-dimensional geometry from astronomical data without beginning from particle or atomic constants."
+    },
+    {
+      "rank": 2,
+      "id": "KF-E002",
+      "name": "Mass Bridge closure",
+      "depends_on": [
+        "KF-E001"
+      ],
+      "description": "Cell3 face-area ratios organize mass and electromagnetic scales through a shared geometric carrier.",
+      "relations": [
+        {
+          "name": "Mass branch",
+          "expression": "(A_bc / A_ab) * 1000",
+          "value": 1836.1526893302403,
+          "maps_to": "Proton-to-electron mass ratio"
+        },
+        {
+          "name": "Electromagnetic branch",
+          "expression": "(A_bc / A_ac) * 100",
+          "value": 137.071575567906,
+          "maps_to": "Fine-structure-related electromagnetic carrier branch"
+        }
+      ],
+      "shared_carrier": "A_bc",
+      "significance": "Multiple linked physical ratios arise from one internally consistent geometric object rather than from independent numerical fittings."
+    },
+    {
+      "rank": 3,
+      "id": "KF-E003",
+      "name": "Reciprocal-metric interaction hierarchy",
+      "depends_on": [
+        "KF-E001"
+      ],
+      "relation": "|I_bc| >> |I_ac| >> |I_ab|",
+      "interpretation": {
+        "direct_geometry": "Specifies structural arrangement",
+        "reciprocal_geometry": "Specifies coupling, exchange, propagation, and resistance channels"
+      },
+      "significance": "The same cell contains both structural information and an ordered interaction hierarchy, supporting a substrate-level interpretation."
+    },
+    {
+      "rank": 4,
+      "id": "KF-E004",
+      "name": "Cross-domain directional recurrence",
+      "depends_on": [
+        "KF-E001",
+        "KF-E002",
+        "KF-E003"
+      ],
+      "domains": [
+        "Galaxy-axis organization",
+        "Laboratory metastable-event anisotropy",
+        "Directional reversal",
+        "Sidereal modulation",
+        "Lunar modulation",
+        "Cyclostationary behavior",
+        "Oscillator traces",
+        "Spherical response maps"
+      ],
+      "common_structure": [
+        "Fixed global orientation",
+        "Polarity",
+        "Phase",
+        "Directional response",
+        "Observer traversal"
+      ],
+      "significance": "Astronomical and terrestrial systems obtained through independent measurement pipelines organize under the same directional geometry."
+    },
+    {
+      "rank": 5,
+      "id": "KF-E005",
+      "name": "Lucas-limit and seven-sheet organization",
+      "depends_on": [
+        "KF-E001",
+        "KF-E003"
+      ],
+      "description": "Shared-face repetition of Cell3 produces a minimal higher-order volume containing seven alternating-polarity sheets.",
+      "derived_behaviors": [
+        "Coordinated in-plane motion",
+        "Phase relationships",
+        "Holonomy",
+        "Registry change",
+        "Stiffness",
+        "Directional modulation",
+        "Observer-dependent response"
+      ],
+      "significance": "The framework supplies an internal dynamical organization connecting static geometry to modulation and measurable response."
+    }
+  ],
+  "dependency_chain": [
+    "Galaxy-axis structure",
+    "Three non-orthogonal plane families",
+    "Oriented Cell3",
+    "Direct and reciprocal metrics",
+    "Mass Bridge",
+    "Physical-constant closure",
+    "Lucas-limit and seven-sheet dynamics",
+    "Cross-domain directional response"
+  ],
+  "central_inference": "One oriented geometry compresses astronomical organization, dimensionless physical ratios, interaction hierarchies, recursive sheet structure, and laboratory anisotropy into a common dependency system.",
+  "evaluation_principle": "The evidentiary strength lies in independent reconstruction, internal dependency, cross-domain recurrence, and explanatory compression rather than in any single numerical agreement."
+}

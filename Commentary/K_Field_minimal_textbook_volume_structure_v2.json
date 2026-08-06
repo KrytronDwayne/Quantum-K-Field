@@ -1,0 +1,718 @@
+{
+  "schema": "kfield.minimal_textbook_volume_structure.v2",
+  "title": "K-Field: Foundations",
+  "subtitle": "Minimal introductory volume structure",
+  "generated_utc": "2026-07-17T14:38:04.213450+00:00",
+  "constraints": {
+    "max_total_pages": 50,
+    "target_total_pages": 49,
+    "volume_type": "minimal_introductory_textbook_series_outline",
+    "audiences": [
+      "High school science teachers",
+      "Politicians",
+      "Journalists",
+      "Business leaders"
+    ]
+  },
+  "volume_logic": {
+    "governing_sequence": [
+      "unification",
+      "underlying structure",
+      "relational constants",
+      "interaction pathways",
+      "recursive emergence",
+      "cross-domain reconstruction",
+      "applications"
+    ],
+    "editorial_rule": "Each chapter advances the same backbone and ends by reconnecting its subject to the full framework."
+  },
+  "front_matter": {
+    "pages": 2,
+    "elements": [
+      {
+        "name": "Preface",
+        "purpose": "State the educational aim of the volume and define the reader profile.",
+        "subelements": [
+          "What the volume explains",
+          "Why the series is organized as one backbone",
+          "How the reader should move from chapter to chapter"
+        ]
+      },
+      {
+        "name": "How to Read the Volume",
+        "purpose": "Explain the dependency order so readers do not treat later applications as isolated facts.",
+        "subelements": [
+          "Geometry before constants",
+          "Constants before interaction",
+          "Interaction before emergence",
+          "Emergence before applications"
+        ]
+      },
+      {
+        "name": "Core Glossary",
+        "purpose": "Define the minimum technical vocabulary needed to begin Chapter 1.",
+        "subelements": [
+          "framework",
+          "structure",
+          "interaction",
+          "constant",
+          "orientation",
+          "measurement",
+          "recursion",
+          "emergence"
+        ]
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Why K-Field Matters",
+      "pages": 6,
+      "chapter_role": "Entry chapter",
+      "chapter_purpose": "Establish that one framework can connect many scientific domains.",
+      "depends_on": [],
+      "feeds_into": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reader_questions": [
+        "Why do separate facts point to one deeper structure?",
+        "Why is unification stronger than memorization?",
+        "What problem does the framework solve conceptually?"
+      ],
+      "learning_objectives": [
+        "Identify the central unifying claim of the K-Field.",
+        "Distinguish a backbone framework from a collection of isolated findings.",
+        "Recognize why multiple audiences can enter the same framework through different concerns."
+      ],
+      "core_terms_to_define": [
+        "K-Field",
+        "framework",
+        "unification",
+        "scientific domain",
+        "backbone"
+      ],
+      "section_outline": [
+        {
+          "section": "1.1",
+          "title": "Fragmented science and unified explanation",
+          "purpose": "Contrast disconnected fact-learning with structured explanation.",
+          "subpoints": [
+            "Why isolated facts are hard to retain",
+            "Why frameworks compress knowledge",
+            "Why a backbone increases explanatory power"
+          ]
+        },
+        {
+          "section": "1.2",
+          "title": "The central K-Field idea",
+          "purpose": "Introduce the claim that one geometric order organizes multiple domains.",
+          "subpoints": [
+            "One system behind multiple observations",
+            "Structure, interaction, constants, and measurement as one chain",
+            "Why the framework matters before details are introduced"
+          ]
+        },
+        {
+          "section": "1.3",
+          "title": "Audience entry points",
+          "purpose": "Show how teachers, policymakers, journalists, and business leaders enter through different questions.",
+          "subpoints": [
+            "Education",
+            "Civic and strategic significance",
+            "Public communication",
+            "Technology and industry"
+          ]
+        },
+        {
+          "section": "1.4",
+          "title": "Chapter synthesis",
+          "purpose": "Reconnect the introductory argument to the full seven-chapter path.",
+          "subpoints": [
+            "Unification leads to structure",
+            "Structure leads to constants and interaction",
+            "Recursion leads to emergence and application"
+          ]
+        }
+      ],
+      "pedagogical_elements": {
+        "example_type": "public-facing conceptual example",
+        "misconceptions_to_correct": [
+          "A framework is not the same as a slogan.",
+          "Unification does not erase detail; it organizes it."
+        ],
+        "end_of_chapter_items": [
+          "one-page recap",
+          "key-term list",
+          "three discussion questions"
+        ]
+      }
+    },
+    {
+      "chapter": 2,
+      "title": "The Underlying Structure",
+      "pages": 7,
+      "chapter_role": "Foundational geometry chapter",
+      "chapter_purpose": "Introduce the ordered structure that anchors the framework.",
+      "depends_on": [
+        1
+      ],
+      "feeds_into": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reader_questions": [
+        "What does it mean for reality to have underlying structure?",
+        "How does ordered geometry become scientific explanation?",
+        "Why does orientation matter?"
+      ],
+      "learning_objectives": [
+        "Describe the framework as an ordered structure rather than a vague background.",
+        "Explain why orientation is physically meaningful.",
+        "Connect spatial order to measurable relationships."
+      ],
+      "core_terms_to_define": [
+        "ordered structure",
+        "orientation",
+        "reference frame",
+        "geometry",
+        "relationship"
+      ],
+      "section_outline": [
+        {
+          "section": "2.1",
+          "title": "Structured reality",
+          "purpose": "Establish the existence of ordered spatial organization.",
+          "subpoints": [
+            "Why ordered structure comes first",
+            "Why geometry is foundational",
+            "Why structure precedes constants and applications"
+          ]
+        },
+        {
+          "section": "2.2",
+          "title": "Orientation and frame",
+          "purpose": "Show that orientation is intrinsic and measurable.",
+          "subpoints": [
+            "Physical meaning of orientation",
+            "Reference frames as scientific structure",
+            "Why direction affects interpretation"
+          ]
+        },
+        {
+          "section": "2.3",
+          "title": "From form to relationship",
+          "purpose": "Explain how shape becomes measurable relationship.",
+          "subpoints": [
+            "Spatial order",
+            "internal relation",
+            "measurement-ready structure"
+          ]
+        },
+        {
+          "section": "2.4",
+          "title": "Chapter synthesis",
+          "purpose": "Bridge structure to relational constants.",
+          "subpoints": [
+            "Ordered structure supports stable relationships",
+            "Stable relationships support constants"
+          ]
+        }
+      ],
+      "pedagogical_elements": {
+        "example_type": "geometry-centered illustration",
+        "misconceptions_to_correct": [
+          "Geometry is not decorative.",
+          "Orientation is not mere bookkeeping."
+        ],
+        "end_of_chapter_items": [
+          "concept map",
+          "vocabulary recap",
+          "three short application prompts"
+        ]
+      }
+    },
+    {
+      "chapter": 3,
+      "title": "How Relationships Become Constants",
+      "pages": 7,
+      "chapter_role": "Translation chapter",
+      "chapter_purpose": "Show that constants are stable relational outputs of the framework.",
+      "depends_on": [
+        1,
+        2
+      ],
+      "feeds_into": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "reader_questions": [
+        "How can structure generate stable constants?",
+        "Why are invariants more powerful than isolated numbers?",
+        "How does explanatory compression work?"
+      ],
+      "learning_objectives": [
+        "Explain constants as relational invariants.",
+        "Show how stable internal relationships yield stable external quantities.",
+        "Teach compression as a scientific strength."
+      ],
+      "core_terms_to_define": [
+        "constant",
+        "invariant",
+        "ratio",
+        "relational output",
+        "compression"
+      ],
+      "section_outline": [
+        {
+          "section": "3.1",
+          "title": "From number lists to structural relationships",
+          "purpose": "Replace memorized constants with relational understanding.",
+          "subpoints": [
+            "Why isolated values are incomplete",
+            "Why relationships carry deeper meaning",
+            "How stable relations produce stable quantities"
+          ]
+        },
+        {
+          "section": "3.2",
+          "title": "Internal ratios and recognizable scales",
+          "purpose": "Show how the framework generates familiar physical scales through relationship.",
+          "subpoints": [
+            "Internal proportionality",
+            "recognizable physical quantities",
+            "stability through structure"
+          ]
+        },
+        {
+          "section": "3.3",
+          "title": "Compression and explanatory economy",
+          "purpose": "Demonstrate why one pattern replacing many memorized facts is educationally powerful.",
+          "subpoints": [
+            "Compression as scientific economy",
+            "fewer roots, more consequences",
+            "learning implications"
+          ]
+        },
+        {
+          "section": "3.4",
+          "title": "Chapter synthesis",
+          "purpose": "Bridge constants to interaction pathways.",
+          "subpoints": [
+            "Stable quantities require a structure that also behaves",
+            "the next question is how the framework acts"
+          ]
+        }
+      ],
+      "pedagogical_elements": {
+        "example_type": "ratio-and-invariant example",
+        "misconceptions_to_correct": [
+          "A constant is not merely a memorized number.",
+          "A relationship is not weaker than a value; it is deeper."
+        ],
+        "end_of_chapter_items": [
+          "worked conceptual example",
+          "recap table",
+          "four synthesis questions"
+        ]
+      }
+    },
+    {
+      "chapter": 4,
+      "title": "How Interaction Works",
+      "pages": 7,
+      "chapter_role": "Internal interaction chapter",
+      "chapter_purpose": "Teach the internal mechanics of structure and interaction and show how behavior follows ordered pathways within the framework.",
+      "depends_on": [
+        1,
+        2,
+        3
+      ],
+      "feeds_into": [
+        5,
+        6,
+        7
+      ],
+      "reader_questions": [
+        "Why must structure and interaction be distinguished?",
+        "How can one system describe both form and behavior?",
+        "Why do ordered pathways matter?"
+      ],
+      "learning_objectives": [
+        "Distinguish structure from interaction without separating them into different systems.",
+        "Explain ordered pathways as directional behavior channels.",
+        "Relate measurement to interaction with structure."
+      ],
+      "core_terms_to_define": [
+        "interaction",
+        "pathway",
+        "ordered channel",
+        "behavior",
+        "measurement"
+      ],
+      "section_outline": [
+        {
+          "section": "4.1",
+          "title": "What a structure is and what it does",
+          "purpose": "Separate form from behavior while preserving unity.",
+          "subpoints": [
+            "Structure as organization",
+            "interaction as action",
+            "one system, two aspects"
+          ]
+        },
+        {
+          "section": "4.2",
+          "title": "Ordered pathways",
+          "purpose": "Explain directional differences in interaction strength and behavior.",
+          "subpoints": [
+            "Pathways are not arbitrary",
+            "ordered strength",
+            "directional response"
+          ]
+        },
+        {
+          "section": "4.3",
+          "title": "Measurement as interaction",
+          "purpose": "Show that observation is an interaction with the system.",
+          "subpoints": [
+            "Why measurements vary with relationship to structure",
+            "context of measurement",
+            "observer engagement with framework"
+          ]
+        },
+        {
+          "section": "4.4",
+          "title": "Chapter synthesis",
+          "purpose": "Bridge interaction to recursive emergence.",
+          "subpoints": [
+            "Ordered behavior supports higher-order organization",
+            "repetition turns interaction into complexity"
+          ]
+        }
+      ],
+      "pedagogical_elements": {
+        "example_type": "behavioral pathway example",
+        "misconceptions_to_correct": [
+          "Interaction is not separate from structure.",
+          "Measurement is not detached from the system being measured."
+        ],
+        "end_of_chapter_items": [
+          "pathway summary",
+          "terminology check",
+          "three compare-and-contrast prompts"
+        ]
+      }
+    },
+    {
+      "chapter": 5,
+      "title": "How Complexity Emerges",
+      "pages": 6,
+      "chapter_role": "Emergence chapter",
+      "chapter_purpose": "Show how recursive repetition generates higher-order organization and operational dynamics.",
+      "depends_on": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "feeds_into": [
+        6,
+        7
+      ],
+      "reader_questions": [
+        "How does repetition create complexity?",
+        "Why does recursion matter?",
+        "How does emergence stay connected to the underlying structure?"
+      ],
+      "learning_objectives": [
+        "Explain recursive organization as the source of higher-order behavior.",
+        "Show how complexity can arise from repeated simple structure.",
+        "Connect emergence to broader scientific themes."
+      ],
+      "core_terms_to_define": [
+        "recursion",
+        "repetition",
+        "emergence",
+        "higher-order organization",
+        "dynamic state"
+      ],
+      "section_outline": [
+        {
+          "section": "5.1",
+          "title": "Repetition as a generator",
+          "purpose": "Show why repeated structure creates more than enlarged copies.",
+          "subpoints": [
+            "Constraint and repetition",
+            "new organization from old rules",
+            "higher-order consequence"
+          ]
+        },
+        {
+          "section": "5.2",
+          "title": "From repeated pattern to operational state",
+          "purpose": "Explain the move from static repetition to organized dynamics.",
+          "subpoints": [
+            "coordinated behavior",
+            "layered organization",
+            "operational coherence"
+          ]
+        },
+        {
+          "section": "5.3",
+          "title": "Emergence across sciences",
+          "purpose": "Use biology, chemistry, computing, and systems theory as comparative illustrations of recursive emergence while keeping the K-Field backbone primary.",
+          "subpoints": [
+            "comparative illustration, not topic branching",
+            "small rule sets, rich outcomes",
+            "why the comparison strengthens understanding of K-Field recursion"
+          ]
+        },
+        {
+          "section": "5.4",
+          "title": "Chapter synthesis",
+          "purpose": "Bridge emergence to cross-domain reconstruction.",
+          "subpoints": [
+            "higher-order organization becomes measurable in many domains",
+            "the same complexity appears in different evidence streams"
+          ]
+        }
+      ],
+      "pedagogical_elements": {
+        "example_type": "recursive organization example",
+        "misconceptions_to_correct": [
+          "Complexity does not require many unrelated starting points.",
+          "Emergence is not randomness; it is organized consequence."
+        ],
+        "end_of_chapter_items": [
+          "emergence recap",
+          "one cross-disciplinary comparison table",
+          "three discussion questions"
+        ]
+      },
+      "teaching_goal": "Link K-Field recursive emergence to broader scientific themes through comparative illustrations only, without departing from the K-Field backbone."
+    },
+    {
+      "chapter": 6,
+      "title": "How Observations Connect",
+      "pages": 7,
+      "chapter_role": "Cross-domain reconstruction chapter",
+      "chapter_purpose": "Explain how distinct observational domains reconstruct the same backbone and why observed differences arise from context and perspective.",
+      "depends_on": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "feeds_into": [
+        7
+      ],
+      "reader_questions": [
+        "Why do different sciences recover the same structure?",
+        "How does context affect observation?",
+        "Why does perspective change observation without changing reality?"
+      ],
+      "learning_objectives": [
+        "Explain cross-domain reconstruction as evidence of one backbone.",
+        "Distinguish underlying structure from changing observational view.",
+        "Relate orientation and context to measured behavior."
+      ],
+      "core_terms_to_define": [
+        "cross-domain reconstruction",
+        "context",
+        "perspective",
+        "observation",
+        "backbone"
+      ],
+      "section_outline": [
+        {
+          "section": "6.1",
+          "title": "Independent routes to one backbone",
+          "purpose": "Teach methodological convergence across fields.",
+          "subpoints": [
+            "independent analytical paths",
+            "same recovered structure",
+            "meaning of convergence"
+          ]
+        },
+        {
+          "section": "6.2",
+          "title": "Orientation, context, and measured response",
+          "purpose": "Show how observation depends on relation to the framework.",
+          "subpoints": [
+            "orientation-sensitive behavior",
+            "context-dependent rendering",
+            "same reality, different views"
+          ]
+        },
+        {
+          "section": "6.3",
+          "title": "Connected evidence streams",
+          "purpose": "Unify astronomy, laboratory measurements, materials, and timing behavior.",
+          "subpoints": [
+            "multi-domain evidence",
+            "single structural explanation",
+            "why the link matters"
+          ]
+        },
+        {
+          "section": "6.4",
+          "title": "Chapter synthesis",
+          "purpose": "Bridge cross-domain reconstruction to public meaning and applications.",
+          "subpoints": [
+            "unified evidence supports unified application",
+            "public significance follows from structural coherence"
+          ]
+        }
+      ],
+      "pedagogical_elements": {
+        "example_type": "multi-domain evidence example",
+        "misconceptions_to_correct": [
+          "Different observations do not imply different systems.",
+          "Perspective changes the view, not the underlying structure."
+        ],
+        "end_of_chapter_items": [
+          "domain-link summary",
+          "comparison prompts",
+          "chapter recap diagram"
+        ]
+      }
+    },
+    {
+      "chapter": 7,
+      "title": "Applications and Public Meaning",
+      "pages": 6,
+      "chapter_role": "Capstone chapter",
+      "chapter_purpose": "Translate the framework into civic, educational, strategic, and technological significance.",
+      "depends_on": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "feeds_into": [],
+      "reader_questions": [
+        "Why does the framework matter beyond science classrooms?",
+        "How does one unified structure change public understanding?",
+        "What practical areas follow from the backbone?"
+      ],
+      "learning_objectives": [
+        "Translate the framework for multiple public audiences.",
+        "Identify broad application domains supported by the same backbone.",
+        "Conclude the volume with civic and educational relevance."
+      ],
+      "core_terms_to_define": [
+        "application",
+        "public significance",
+        "strategic relevance",
+        "platform framework",
+        "innovation"
+      ],
+      "section_outline": [
+        {
+          "section": "7.1",
+          "title": "Educational meaning",
+          "purpose": "Explain why the framework matters for teaching and scientific literacy.",
+          "subpoints": [
+            "unified curriculum value",
+            "conceptual continuity",
+            "framework-based learning"
+          ]
+        },
+        {
+          "section": "7.2",
+          "title": "Strategic and civic meaning",
+          "purpose": "Show why policymakers and public institutions should care.",
+          "subpoints": [
+            "metrology",
+            "navigation",
+            "advanced materials",
+            "sensing",
+            "energy systems"
+          ]
+        },
+        {
+          "section": "7.3",
+          "title": "Communication and industry meaning",
+          "purpose": "Translate the backbone for journalists and business leaders.",
+          "subpoints": [
+            "clear public framing",
+            "platform implications",
+            "long-horizon innovation"
+          ]
+        },
+        {
+          "section": "7.4",
+          "title": "Final synthesis",
+          "purpose": "Close the volume by restating the full chain in one sentence and one diagram.",
+          "subpoints": [
+            "one framework",
+            "one backbone",
+            "many domains"
+          ]
+        }
+      ],
+      "pedagogical_elements": {
+        "example_type": "application-domain example",
+        "misconceptions_to_correct": [
+          "Applications are not separate from theory.",
+          "Public meaning is strongest when it follows the scientific backbone."
+        ],
+        "end_of_chapter_items": [
+          "final synthesis page",
+          "multi-audience recap",
+          "closing discussion prompts"
+        ]
+      }
+    }
+  ],
+  "back_matter": {
+    "pages": 1,
+    "elements": [
+      {
+        "name": "Series Synthesis Page",
+        "purpose": "Restate the entire logic of the volume on one page, with an ultra-compact glossary inset.",
+        "subelements": [
+          "one framework",
+          "ordered structure",
+          "relational constants",
+          "interaction pathways",
+          "recursive emergence",
+          "cross-domain reconstruction",
+          "applications",
+          "compact glossary inset"
+        ]
+      }
+    ]
+  },
+  "editorial_audit_rules": [
+    "Every chapter must teach one indispensable layer of the backbone.",
+    "No chapter may depend on concepts that have not yet been introduced.",
+    "No chapter may drift into disconnected marvels or anecdotal lists.",
+    "Each section must perform a clear educational function.",
+    "Each chapter must end by reconnecting to the full framework.",
+    "The total structure must remain readable within a 50-page ceiling."
+  ],
+  "audit_integration": {
+    "source_audit_schema": "kfield.minimal_textbook_volume_structure.audit.v1",
+    "applied_revisions": [
+      "Renamed constraints.volume_type to minimal_introductory_textbook_series_outline",
+      "Clarified Chapter 5 comparative references as illustrations of recursive emergence rather than topic branches",
+      "Preserved explicit distinction between Chapter 4 internal interaction mechanics and Chapter 6 cross-domain reconstruction",
+      "Compressed back matter so the one-page series synthesis remains dominant"
+    ]
+  }
+}

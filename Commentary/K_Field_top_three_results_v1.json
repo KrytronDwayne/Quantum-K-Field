@@ -1,0 +1,70 @@
+{
+  "schema": "kfield.top3_results.v1",
+  "title": "Top Three Most Convincing K-Field Results",
+  "results": [
+    {
+      "rank": 1,
+      "id": "KF-R001",
+      "name": "Independent Cell3 Geometry Reconstruction",
+      "dependency": [],
+      "summary": "Independent astronomical analysis methods converge on the same three-plane, globally oriented Cell3 geometry.",
+      "methods": [
+        "Mirror accumulator",
+        "FFT projection",
+        "Reciprocal stack search"
+      ],
+      "outcome": {
+        "orientation": "Fixed ICRS/J2000.0",
+        "structure": "Three non-orthogonal plane families",
+        "product": "Rhombohedral Cell3"
+      },
+      "significance": "Multiple independent reconstruction methods recover the same geometric solution."
+    },
+    {
+      "rank": 2,
+      "id": "KF-R002",
+      "name": "Mass Bridge Closure",
+      "dependency": [
+        "KF-R001"
+      ],
+      "summary": "Cell3 face-area ratios reproduce major dimensionless physical quantities through one shared carrier geometry.",
+      "relations": {
+        "mass_branch": {
+          "expression": "(A_bc/A_ab)*1000",
+          "value": 1836.1526893302403,
+          "maps_to": "Proton-to-electron mass ratio"
+        },
+        "electromagnetic_branch": {
+          "expression": "(A_bc/A_ac)*100",
+          "value": 137.071575567906,
+          "maps_to": "Fine-structure-related carrier branch"
+        }
+      },
+      "significance": "Multiple coupled physical ratios arise from a common geometric carrier."
+    },
+    {
+      "rank": 3,
+      "id": "KF-R003",
+      "name": "Cross-Domain Directional Recurrence",
+      "dependency": [
+        "KF-R001",
+        "KF-R002"
+      ],
+      "summary": "Independent terrestrial and astronomical observations organize consistently with the same global K-Field orientation.",
+      "domains": [
+        "Galaxy-axis organization",
+        "Laboratory metastable-event anisotropy",
+        "Sidereal modulation",
+        "Lunar modulation",
+        "Oscillator traces",
+        "Spherical response analyses"
+      ],
+      "significance": "Independent observational domains exhibit recurring directional organization referenced to one fixed geometry."
+    }
+  ],
+  "dependency_chain": [
+    "Independent geometric reconstruction",
+    "Physical-constant geometric closure",
+    "Cross-domain observational recurrence"
+  ]
+}

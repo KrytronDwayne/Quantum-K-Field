@@ -1,0 +1,40 @@
+{
+  "generated_utc": "2026-07-17T13:38:56.940644",
+  "items": [
+    {
+      "rank": 1,
+      "approach": "Overview\u00a0\u2014 Space Has Structure",
+      "paragraph": "Space is not perfectly uniform: the K\u2011Field suggests it contains an underlying three\u2011dimensional lattice. Its basic unit, called Cell\u202f3, is a skewed, rhombohedral shape fixed to a definite orientation in the International Celestial Reference System (ICRS). By treating shape and orientation as the drivers of behavior, the K\u2011Field reframes mass, charge, gravity and light as expressions of geometry rather than separate ingredients. Teachers can use this concrete picture\u2014students imagine a hidden grid that guides how matter moves and interacts, much like crystal planes guide X\u2011ray patterns. \ue200filecite\ue202turn1file3\ue202L14-L18\ue201"
+    },
+    {
+      "rank": 2,
+      "approach": "Cell\u202f3\u00a0\u2014 The Geometric Building Block",
+      "paragraph": "Cell\u202f3 is built from three families of parallel planes that cross at deliberate, non\u2011right angles. The lengths of its edges, the angles between them, and the areas of its three faces are unequal but locked together mathematically. These nine parameters completely define the shape and become the alphabet of the K\u2011Field. Repeating Cell\u202f3 tiles space into a global lattice, providing an address system for every direction and location. Because geometry is treated as primary, educators can tie this idea directly to lessons on crystallography and coordinate grids. \ue200filecite\ue202turn1file3\ue202L19-L22\ue201"
+    },
+    {
+      "rank": 3,
+      "approach": "Astronomical Reconstruction",
+      "paragraph": "Evidence begins with the sky: when thousands of galaxy spin axes are plotted on a sphere, they form unexpected alignments. Four independent methods\u2014mirror\u2011accumulator mapping, Fourier sky projection, reciprocal\u2011stack plane search, and direct plane fitting\u2014each recovered the same three\u2011plane geometry and the same global orientation. Methodological convergence, not any single algorithm, promoted the geometry from curiosity to reconstruction, giving astronomers and lab physicists a common frame to test. \ue200filecite\ue202turn1file3\ue202L23-L26\ue201"
+    },
+    {
+      "rank": 4,
+      "approach": "Mass Bridge\u00a0\u2014 Geometry Meets Constants",
+      "paragraph": "Cell\u202f3\u2019s faces do more than look interesting: their area ratios map directly onto key dimensionless numbers. One ratio, multiplied by\u202f1000, equals the proton\u2011to\u2011electron mass ratio; another, scaled by\u202f100, corresponds to the fine\u2011structure branch that governs electromagnetism. Because both share the same face A_bc as a numerator, the Mass Bridge compresses two distant branches of physics into one geometric carrier, helping students see constants as fingerprints of shape, not isolated facts. \ue200filecite\ue202turn1file3\ue202L29-L32\ue201"
+    },
+    {
+      "rank": 5,
+      "approach": "Interaction Channels\u00a0\u2014 Direct vs\u202fReciprocal",
+      "paragraph": "The K\u2011Field uses two allied coordinate systems. Direct geometry\u2014edge lengths, angles, areas\u2014shows where structures are. Reciprocal geometry\u2014the inverse lattice\u2014shows how strongly different directions couple, propagate, or resist change through a built\u2011in hierarchy |I_bc|\u202f\u226b\u202f|I_ac|\u202f\u226b\u202f|I_ab|. Orientation thus changes experimental outcomes even in one location. Extending vector topics into reciprocal space lets teachers illustrate why \u201chow you point\u201d can matter as much as \u201cwhere you stand.\u201d \ue200filecite\ue202turn1file3\ue202L33-L36\ue201"
+    },
+    {
+      "rank": 6,
+      "approach": "Seven\u2011Sheet Dynamics",
+      "paragraph": "Repeating Cell\u202f3 under shared\u2011face rules produces a Lucas\u2011limit module that resolves into seven stacked sheets with alternating polarity. Each sheet can slide within its plane while staying phase\u2011locked to its neighbors, creating a system that stores registry, exhibits stiffness, and supports holonomy loops. The seven\u2011sheet model turns the lattice into something that can vibrate, shift, and remember\u2014paralleling layered geological faults or graphene stacks in classroom analogies. \ue200filecite\ue202turn1file3\ue202L39-L42\ue201"
+    },
+    {
+      "rank": 7,
+      "approach": "Why It Matters for Teaching",
+      "paragraph": "For science educators, the K\u2011Field is a unifying narrative: geometry links cosmic structure, laboratory anisotropy, material behavior, and constants of nature. Presenting it encourages students to test orientation as a variable, connect observations across scales, and appreciate the power of convergence as scientific evidence. Even if later experiments refine the model, the investigative method\u2014observation first, geometry next, independent replication as proof\u2014models sound classroom science. \ue200filecite\ue202turn1file3\ue202L43-L46\ue201"
+    }
+  ]
+}

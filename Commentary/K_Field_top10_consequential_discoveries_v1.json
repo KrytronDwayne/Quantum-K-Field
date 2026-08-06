@@ -1,0 +1,97 @@
+{
+  "schema": "kfield.top10_consequential_discoveries.v1",
+  "title": "Top Ten Consequential Discoveries in the K-Field",
+  "discoveries": [
+    {
+      "rank": 1,
+      "id": "KF-CD001",
+      "name": "Independent Cell3 geometric reconstruction",
+      "summary": "Multiple independent astronomical analysis methods converge on the same three-plane, non-orthogonal, globally oriented Cell3 geometry.",
+      "supporting_citations": [
+        "turn0file4:L6-L10"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "KF-CD002",
+      "name": "ICRS orientation lock",
+      "summary": "The K-Field exhibits a fixed global orientation in the ICRS/J2000.0 frame defined by a primordial normal vector.",
+      "supporting_citations": [
+        "turn0file4:L18-L22"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "KF-CD003",
+      "name": "Mass Bridge closure",
+      "summary": "Cell3 face-area ratios reproduce key dimensionless physical constants using a shared geometric carrier.",
+      "supporting_citations": [
+        "turn0file4:L30-L38"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "KF-CD004",
+      "name": "Reciprocal metric interaction hierarchy",
+      "summary": "The inverse metric reveals a strongly ordered interaction structure |I_bc| >> |I_ac| >> |I_ab|.",
+      "supporting_citations": [
+        "turn0file4:L45-L48"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "KF-CD005",
+      "name": "Lucas-limit emergence",
+      "summary": "Shared-face repetition of Cell3 produces a minimal higher-order structure exposing polarity and internal layering.",
+      "supporting_citations": [
+        "turn0file4:L54-L58"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "KF-CD006",
+      "name": "Seven-sheet polarity system",
+      "summary": "The Lucas-limit structure resolves into seven alternating-polarity sheets forming a coherent modulation system.",
+      "supporting_citations": [
+        "turn0file4:L67-L70"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "KF-CD007",
+      "name": "Cross-domain convergence",
+      "summary": "The same K-Field geometry and orientation organize both astronomical structures and laboratory observations.",
+      "supporting_citations": [
+        "turn0file4:L78-L84"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "KF-CD008",
+      "name": "Geometric origin of physical constants",
+      "summary": "Dimensionless physical constants become geometric invariants instead of independent parameters.",
+      "supporting_citations": [
+        "turn0file5:L6-L14"
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "KF-CD009",
+      "name": "Structure\u2013interaction duality",
+      "summary": "Direct geometry specifies structure while reciprocal geometry governs interaction, exchange, propagation, and resistance.",
+      "supporting_citations": [
+        "turn0file2:L227-L230"
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "KF-CD010",
+      "name": "Scale bridge to physical length",
+      "summary": "The Cell3 body-diagonal aggregate anchors a mapping from native geometry to physical length, linking the lattice to nanometre-scale materials.",
+      "supporting_citations": [
+        "turn0file2:L317-L323"
+      ]
+    }
+  ],
+  "ordering_principle": "dependency_and_importance"
+}

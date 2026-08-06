@@ -1,0 +1,132 @@
+{
+  "schema": "kfield.top10_profound_realizations.v1",
+  "title": "Ten Most Profound Realizations in the K-Field Discovery Process",
+  "ordering_principle": "dependency_and_conceptual_significance",
+  "realizations": [
+    {
+      "rank": 1,
+      "id": "KF-PR001",
+      "name": "Geometry is Primary",
+      "summary": "Geometry precedes conventional physical quantities. Mass, charge, force, energy, and interaction emerge from geometric relationships rather than serving as independent primitives.",
+      "depends_on": [
+        "KF-001",
+        "KF-002"
+      ],
+      "supporting_citations": [
+        "turn0file2:L17-L24"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "KF-PR002",
+      "name": "A Fixed Universal Orientation Exists",
+      "summary": "The K-Field possesses a globally fixed orientation in the ICRS/J2000.0 reference frame through the primordial normal, providing an absolute directional framework.",
+      "depends_on": [
+        "KF-003",
+        "KF-004"
+      ],
+      "supporting_citations": [
+        "turn0file2:L27-L58"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "KF-PR003",
+      "name": "Independent Methods Converge on One Cell3",
+      "summary": "Independent astronomical reconstruction techniques recover the same non-orthogonal Cell3 geometry and orientation without beginning from known physical constants.",
+      "depends_on": [
+        "KF-E001"
+      ],
+      "supporting_citations": [
+        "turn0file1:L7-L32"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "KF-PR004",
+      "name": "One Geometry Bridges Mass and Electromagnetism",
+      "summary": "A shared Cell3 face generates both the proton-electron mass branch and the fine-structure-related electromagnetic branch through simple geometric ratios.",
+      "depends_on": [
+        "KF-E002"
+      ],
+      "supporting_citations": [
+        "turn0file0:L24-L43"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "KF-PR005",
+      "name": "Fundamental Constants Become Geometric Invariants",
+      "summary": "Dimensionless physical constants are organized as consequences of a single constrained geometry rather than unrelated numerical parameters.",
+      "depends_on": [
+        "KF-HC001"
+      ],
+      "supporting_citations": [
+        "turn0file5:L6-L19"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "KF-PR006",
+      "name": "Direct and Reciprocal Geometry Form Complementary Descriptions",
+      "summary": "Direct geometry determines structural arrangement while reciprocal geometry governs interaction, exchange, propagation, and resistance.",
+      "depends_on": [
+        "KF-012",
+        "KF-013",
+        "KF-015"
+      ],
+      "supporting_citations": [
+        "turn0file2:L193-L230"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "KF-PR007",
+      "name": "Interaction Hierarchy Is Encoded Geometrically",
+      "summary": "The reciprocal metric contains the ordered coupling hierarchy |I_bc| >> |I_ac| >> |I_ab|, revealing that interaction strength is embedded within Cell3 geometry.",
+      "depends_on": [
+        "KF-014"
+      ],
+      "supporting_citations": [
+        "turn0file2:L203-L215"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "KF-PR008",
+      "name": "Higher-Order Structure Emerges from Cell Repetition",
+      "summary": "Shared-face repetition produces the Lucas-limit structure, exposing polarity and organization that cannot be observed in an isolated Cell3.",
+      "depends_on": [
+        "KF-022"
+      ],
+      "supporting_citations": [
+        "turn0file2:L327-L336"
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "KF-PR009",
+      "name": "The Field Contains an Internal Seven-Sheet Dynamical System",
+      "summary": "Seven coherent alternating-polarity sheets support coordinated in-plane motion, phase relationships, registry changes, stiffness, and holonomy.",
+      "depends_on": [
+        "KF-023",
+        "KF-024"
+      ],
+      "supporting_citations": [
+        "turn0file2:L339-L370"
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "KF-PR010",
+      "name": "Astronomical and Terrestrial Observations Reconstruct the Same Geometry",
+      "summary": "Galaxy-axis organization, laboratory anisotropy, sidereal and lunar modulation, oscillator behavior, and spherical response maps all organize relative to the same globally fixed Cell3 geometry.",
+      "depends_on": [
+        "KF-025"
+      ],
+      "supporting_citations": [
+        "turn0file1:L74-L99"
+      ]
+    }
+  ]
+}

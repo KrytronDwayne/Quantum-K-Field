@@ -1,0 +1,59 @@
+{
+  "schema": "kfield.astounding_facts.v1",
+  "title": "Three Most Astounding Facts About the K\u2011Field",
+  "facts": [
+    {
+      "rank": 1,
+      "id": "KF-AF001",
+      "name": "Independent Geometric Convergence",
+      "summary": "Multiple, methodologically independent analyses of galaxy\u2011axis orientations independently recover the same three non\u2011orthogonal plane families and oriented rhombohedral Cell3 fixed to ICRS/J2000.0. The recovered geometry matches across seven parameters (three edge lengths, three internal angles, global orientation) with no tunable degrees of freedom.",
+      "methods": [
+        "Mirror\u2011accumulator sweeps",
+        "Fourier\u2011domain sky projection",
+        "Reciprocal\u2011stack plane search"
+      ],
+      "constrained_parameters": [
+        "a_length",
+        "b_length",
+        "c_length",
+        "theta_ab",
+        "theta_ac",
+        "theta_bc",
+        "global_orientation"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "KF-AF002",
+      "name": "Face\u2011Ratio Closure to Fundamental Constants",
+      "summary": "One shared Cell3 face (A_bc) forms two dimensionless ratios that reproduce fundamental physical constants without adjustable parameters: A_bc/A_ab \u00d7 1000 = 1836.152689330 (proton\u2011to\u2011electron mass ratio) and A_bc/A_ac \u00d7 100 = 137.0715755679 (fine\u2011structure\u2011related carrier scale). Mass and electromagnetic domains become two branches of a single geometric carrier.",
+      "ratios": {
+        "mass_branch": {
+          "expression": "(A_bc / A_ab) * 1000",
+          "value": 1836.15268933,
+          "maps_to": "proton_to_electron_mass_ratio"
+        },
+        "electromagnetic_branch": {
+          "expression": "(A_bc / A_ac) * 100",
+          "value": 137.0715755679,
+          "maps_to": "fine_structure_related_carrier_scale"
+        }
+      },
+      "shared_numerator": "A_bc"
+    },
+    {
+      "rank": 3,
+      "id": "KF-AF003",
+      "name": "Cross\u2011Domain Directional Recurrence",
+      "summary": "The same Cell3 orientation that structures galaxies also organizes laboratory and terrestrial phenomena\u2014sidereal anisotropy, lunar\u2011phase modulation, reversible polarity in material tests, and mapped spherical gravity\u2011response patterns. These signals emerge only when data are aligned with the fixed Cell3 axis and follow the seven\u2011sheet polarity sequence predicted by Lucas\u2011limit stacking.",
+      "observational_domains": [
+        "Precision oscillator daily/sidereal anisotropy",
+        "Lunar\u2011phase modulation of metastable events",
+        "Polarity\u2011dependent material interaction tests",
+        "Spherical gravity\u2011response mapping"
+      ],
+      "alignment_property": "Fixed Cell3 axis set",
+      "sheet_sequence": "Seven\u2011sheet alternating polarity (Lucas\u2011limit)"
+    }
+  ]
+}
