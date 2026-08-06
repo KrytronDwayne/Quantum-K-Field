@@ -13,5 +13,5 @@ The accompanying source code is licensed under the **Business Source License 1.1
 * ✅ **FREE** to download, read, modify, and use for academic research, university studies, and personal education.
 * ❌ **PROHIBITED** for use by commercial corporations, paid product development, or any revenue-generating endeavors.
 
-For corporate inquiries or to purchase a commercial production license, please contact: `your-email@institution.edu`
+For corporate inquiries or to purchase a commercial production license, please contact: `dwayne.esterline@krytronx.com`
 
