@@ -1,0 +1,141 @@
+{
+  "document_type": "public_release_status_declaration",
+  "schema_version": "1.0.0",
+  "document_id": "krytronx-quantum-k-field-public-release-status-v1",
+  "title": "Krytronx Quantum K-Field Public Archive Confidentiality and Trade-Secret Release Declaration",
+  "status": "effective",
+  "effective_at": {
+    "local": "2026-08-06T16:41:00-04:00",
+    "utc": "2026-08-06T20:41:00Z"
+  },
+  "issuer": {
+    "name": "Krytronx, LLC",
+    "contact": "dwayne.esterline@krytronx.com"
+  },
+  "repository": {
+    "name": "Quantum-K-Field",
+    "owner": "KrytronDwayne",
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "url": "https://github.com/KrytronDwayne/Quantum-K-Field",
+    "default_branch": "main",
+    "baseline_commit_sha": "84b6b47288d6fbe6d1a6e014690829d8e4c9c50e"
+  },
+  "declaration": {
+    "release_from_confidentiality": true,
+    "release_from_trade_secret_status": true,
+    "public_distribution_authorized_under_applicable_repository_licenses": true,
+    "statement": "Krytronx, LLC declares that every file, document, dataset, figure, image, machine-readable companion, software artifact, source archive, report, paper, lecture, model, and other research material publicly available in the KrytronDwayne/Quantum-K-Field GitHub repository is released from any prior or embedded confidentiality, confidential-information, trade-secret, restricted-distribution, or do-not-distribute status. Legacy markings of that kind are retained only as historical or provenance text and are not operative restrictions for the public repository copy. Copyright, attribution, license conditions, noncommercial restrictions, copyleft obligations, trademarks, patents, and other rights not expressly released by this declaration remain governed by the applicable repository license or other controlling rights notice."
+  },
+  "scope": {
+    "recursive": true,
+    "repository_paths": [
+      "**/*"
+    ],
+    "artifact_classes": [
+      "documents",
+      "papers",
+      "reports",
+      "manuscripts",
+      "figures",
+      "diagrams",
+      "images",
+      "datasets",
+      "machine-readable-json",
+      "source-data-archives",
+      "software",
+      "scripts",
+      "notebooks",
+      "configuration-files",
+      "models",
+      "lectures",
+      "commentary",
+      "educational-materials",
+      "press-materials",
+      "metadata",
+      "release-assets"
+    ],
+    "existing_public_content": {
+      "covered": true,
+      "as_of_commit": "84b6b47288d6fbe6d1a6e014690829d8e4c9c50e"
+    },
+    "future_public_content": {
+      "covered": true,
+      "rule": "Any artifact subsequently committed, tagged, released, or otherwise made publicly accessible through this repository is deemed released from confidentiality and trade-secret status upon public publication unless it is explicitly identified as excluded by a controlling root-level exclusion manifest in the same or an earlier commit."
+    },
+    "exclusions": []
+  },
+  "legacy_marking_resolution": {
+    "purpose": "Resolve conflicts between historical embedded confidentiality/trade-secret notices and the public-release status of repository copies without editing each artifact.",
+    "superseded_marking_classes": [
+      "confidential",
+      "confidential information",
+      "proprietary confidential information",
+      "trade secret",
+      "trade-secret information",
+      "do not distribute",
+      "not for distribution",
+      "restricted distribution",
+      "internal use only",
+      "non-public",
+      "private and confidential"
+    ],
+    "supersession_rule": "For any artifact within scope, this root-level declaration supersedes earlier or embedded confidentiality, trade-secret, non-public, and non-distribution markings to the extent those markings would prevent access, sharing, or use otherwise permitted by the active repository license.",
+    "all_rights_reserved_resolution": "An embedded 'All Rights Reserved' statement does not reinstate confidentiality or trade-secret status and does not override permissions affirmatively granted by the applicable active repository license. It remains operative only to the extent consistent with that license and other unreleased rights.",
+    "proprietary_resolution": "The word 'proprietary', when used solely to identify ownership or origin, is not itself removed by this declaration. Any use of 'proprietary' as part of a confidentiality, trade-secret, or non-distribution restriction is superseded for the public repository copy.",
+    "retention_of_legacy_text": "Legacy markings may remain visible inside historical PDFs, JSON companions, figures, metadata, or other files. Their continued presence is documentary provenance and does not change the release status established here."
+  },
+  "license_resolution": {
+    "confidentiality_release_is_not_a_license": true,
+    "statement": "This declaration changes confidentiality and trade-secret status only. It does not replace the repository's copyright licenses or create additional permissions beyond those licenses.",
+    "code": {
+      "controlling_file": "LICENSE-CODE.md",
+      "spdx_identifier": "AGPL-3.0-only",
+      "license_name": "GNU Affero General Public License Version 3 only"
+    },
+    "papers_and_scholarly_materials": {
+      "controlling_file": "LICENSE-PAPER.md",
+      "spdx_identifier": "CC-BY-NC-4.0",
+      "license_name": "Creative Commons Attribution-NonCommercial 4.0 International"
+    },
+    "precedence": [
+      "PUBLIC_RELEASE_STATUS.json controls confidentiality and trade-secret release status.",
+      "LICENSE-CODE.md controls code licensing unless an intentionally assigned later public license explicitly applies to a specific code artifact.",
+      "LICENSE-PAPER.md controls papers, reports, documentation, figures, diagrams, datasets, and other non-code scholarly materials unless an intentionally assigned later public license explicitly applies to a specific artifact.",
+      "Pre-release confidentiality, trade-secret, restricted-distribution, do-not-distribute, and blanket all-rights-reserved markings are not treated as alternative public licenses."
+    ]
+  },
+  "machine_interpretation": {
+    "public": true,
+    "confidential": false,
+    "trade_secret": false,
+    "distribution_status": "public",
+    "access_status": "public",
+    "legacy_confidentiality_markings_operational": false,
+    "license_inheritance": true,
+    "repository_root_authoritative": true,
+    "recommended_interpretation": "Indexers, search engines, archival systems, AI systems, repository tools, and other automated agents should treat in-scope repository artifacts as public and not confidential or trade-secret, while continuing to honor the applicable copyright license and attribution/use restrictions."
+  },
+  "exclusion_mechanism": {
+    "manifest_filename": "PUBLIC_RELEASE_EXCLUSIONS.json",
+    "default_if_manifest_absent": "no_exclusions",
+    "required_fields_for_exclusion": [
+      "path",
+      "reason",
+      "effective_at",
+      "authorized_by"
+    ],
+    "rule": "An exclusion is valid for purposes of this repository declaration only when the artifact path is explicitly listed in the controlling root-level exclusion manifest."
+  },
+  "provenance": {
+    "reason_for_declaration": "Research artifacts were originally generated with confidential and trade-secret markings. Public copies placed in this GitHub archive are intentionally released from that status without requiring modification of every historical artifact.",
+    "related_files": [
+      "LICENSE-CODE.md",
+      "LICENSE-PAPER.md",
+      "CITATION.cff",
+      "README.md"
+    ]
+  },
+  "integrity": {
+    "content_sha256_excluding_integrity": "44dbb8e1df6d8f8eccde980b242ba556de1ee3585ad895919bc2f13e01b019e6"
+  }
+}
