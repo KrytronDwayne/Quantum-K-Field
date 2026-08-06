@@ -1,0 +1,3298 @@
+{
+  "schema": "K-Field.student_introduction.corrected.v4",
+  "epoch": 1785359337,
+  "generated_utc": "2026-07-29T21:08:57Z",
+  "title": "K-Field: A Student Introduction",
+  "subtitle": "Galaxy-Axis Plane Systems, Cell3, Devon, Lucas, Emily, Jack, Phase Structure, and Recursive Physical Organization",
+  "principal_investigator": {
+    "name": "P. Dwayne Esterline",
+    "credentials": "BS, Huntington University (1999); MBA, Indiana Wesleyan University (2008)",
+    "organization": "Krytronx, LLC."
+  },
+  "classification": "Proprietary Confidential Information and Trade Secret of Krytronx, LLC. All Rights Reserved. Do Not Distribute.",
+  "pdf_filename": "K-Field_student_introduction_1785359337.pdf",
+  "source_manifest": [
+    {
+      "key": "locked_mass_bridge",
+      "filename": "K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592(3).json",
+      "sha256": "a5ba3ddf21a20e4528c19609a3061fceca60f53f76224f101c9779c24809d7ea",
+      "size_bytes": 23861
+    },
+    {
+      "key": "mass_bridge_hierarchy",
+      "filename": "K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375(1).json",
+      "sha256": "811c98f49447534c27d14fd77c779d756e4acc73bf44bfbf93ae7bebf81e79b2",
+      "size_bytes": 73244
+    },
+    {
+      "key": "cell3_supergroup",
+      "filename": "K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222(1).json",
+      "sha256": "a1e3fc76981f39289d9d66da305b0faf81eee35f4cdc45482f59c6b15a7c8517",
+      "size_bytes": 530403
+    },
+    {
+      "key": "morphology",
+      "filename": "K-Field_Lucas_Supergroup_large_scale_morphology1785242330(2).json",
+      "sha256": "fe0533ed5d663030b219804c8fd1420dd47dd6bfa2a2cf572bcb89a410f99706",
+      "size_bytes": 410739
+    },
+    {
+      "key": "entropy_phase",
+      "filename": "K-Field_entropy_vs_phase_cost_surface1785242634(2).json",
+      "sha256": "2c285d30a0ddc92e7047a1d95a0ef105a91daa3d94ac19ccc839c6b5e2b79a0b",
+      "size_bytes": 764466
+    },
+    {
+      "key": "recursive_spectrum",
+      "filename": "K-Field_recursive_Lucas_Spectrum1785243336(3).json",
+      "sha256": "c1b3ec19c478749d3c00f53bcd620d0958c60bfb1e1dbb4bb2a842ab2a8b6370",
+      "size_bytes": 888923
+    },
+    {
+      "key": "polarized_sheets",
+      "filename": "K-Field_polarized_sheet_structures_in_Lucas_Supergroup_Volumes_1785248163(3).json",
+      "sha256": "766e4843b13033eb3e076b5fff36f4643889068d68b39431dfebf4be8727dea2",
+      "size_bytes": 667640
+    },
+    {
+      "key": "discovered_pathways",
+      "filename": "K-Field_discovered_pathways_1785264435(1).json",
+      "sha256": "a8a4264231fd8af4948b43b1afb2843ed3d39e27739f249f47a21b093d6b5ad1",
+      "size_bytes": 61991
+    },
+    {
+      "key": "dependency_tree",
+      "filename": "K_Field_dependency_tree_machine_readable_v4_audited_baseline.json",
+      "sha256": "5d1ed7e49fb8fb33faadb0dbd079e24acd400d589e7f0aa2b1d079d6cfceeb7d",
+      "size_bytes": 48556
+    },
+    {
+      "key": "galaxy_axis_confirmation",
+      "filename": "K_Field_galaxy_axis_unit_sphere_confirmation_20_methods_v1(1).json",
+      "sha256": "4333d0881a6a94425bdd215da4210e4b2e8962ae317b9aa58c2013bd3fe6e584",
+      "size_bytes": 28562
+    },
+    {
+      "key": "foundation_stones_reference",
+      "filename": "K-Field_Devon_Lucas_Emily_Jack_foundation_stones_1783955351.pdf",
+      "sha256": "7a2545942704065fb82afa9f1f0014b02e294501c19618a1b49cb09102993a27",
+      "size_bytes": 1111210
+    },
+    {
+      "key": "prior_student_machine_record",
+      "filename": "K-Field_student_introduction_1785346272.json",
+      "sha256": "c16dc1d479efc074d0cd1f312193780a80e61e7e8ea7e014986d8258f51baa20",
+      "size_bytes": 890582
+    },
+    {
+      "key": "observer_baseline",
+      "filename": "baseline_observer_settings.txt",
+      "sha256": "4e3c0be78bb3c3007a2bd11a95b6bed54283d524fefd997758986c97132fce0a",
+      "size_bytes": 963
+    },
+    {
+      "key": "g_closure_reference",
+      "filename": "The_29_locks_1783214946.pdf",
+      "sha256": "8a7a2b169fc1e71a6ab3d87d2dc4c93efe3867bbea3685f50c6434afddd96e36",
+      "size_bytes": 63757
+    }
+  ],
+  "derivation_root": {
+    "frame_and_origin": "ICRS origin O_K=O_ICRS; central Cell3 body center is the indexing origin",
+    "primary_input": "Earth-observed galaxy-axis orientations projected onto an antipodally completed unit sphere",
+    "plane_systems": [
+      {
+        "family": "a / bc",
+        "normal_icrs": [
+          -0.9959651903089612,
+          0.08360216250737747,
+          -0.032619290564400036
+        ],
+        "spacing_nm": 0.32954652969544684,
+        "ra_dec_deg": [
+          175.20179208863834,
+          -1.8692792712093227
+        ]
+      },
+      {
+        "family": "b / ac",
+        "normal_icrs": [
+          -0.089052594101605,
+          -0.8665767692910323,
+          0.4910339483262758
+        ],
+        "spacing_nm": 0.4515973797212847,
+        "ra_dec_deg": [
+          264.1326722871541,
+          29.408562675994983
+        ]
+      },
+      {
+        "family": "c / ab",
+        "normal_icrs": [
+          0.19409220080776704,
+          0.9131771688212286,
+          0.35837923479080463
+        ],
+        "spacing_nm": 0.6050977415185554,
+        "ra_dec_deg": [
+          78.00057620338654,
+          21.000692600680146
+        ]
+      }
+    ],
+    "chain": [
+      "galaxy-axis unit sphere",
+      "three infinite plane systems",
+      "native intersecting cell",
+      "minute perturbation bridge",
+      "Mass-Bridge-locked oriented Cell3"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Abstract",
+      "paragraphs": [
+        "The K-Field is the physically established, oriented geometric substrate that organizes direction, phase, polarity, metastable resolution, reciprocal structure, and exact recursive growth across physical systems. Its primitive local unit is Cell3, an oblique three-dimensional metric-address cell with a fixed similarity shape, a locked orientation in the International Celestial Reference System, a 27-state centered ternary registry, seven alternating-polarity sheets, and thirteen antipodal projective channels. The Mass Bridge fixes the Cell3 projective face-area point through exact relationships to the proton-electron mass ratio and the fine-structure channel, leaving uniform positive scale as the only intrinsic continuous freedom. Direct and reciprocal metrics describe physical displacements and plane systems; a quadratic phase metric assigns orientation-dependent transition cost; path multiplicity supplies the entropy of metastable resolution; and a lossless scalar serialization supplies a directed address that is demonstrably nonlocal relative to physical adjacency. Cell3 fills volume through the Lucas hierarchy. A 3 x 3 x 3 array forms a Lucas Group, while a 9 x 9 x 9 array forms a Lucas Supergroup containing 729 Cell3 volumes, 6,859 refined states, 55 Devon Super Sheets, and an exact four-channel recursive morphology. Physical witness layers connect the fixed geometry to mass, atomic, electromagnetic, gravitational, and Planck-family relationships. This treatment develops the complete framework from first principles, distinguishes deterministic geometry from probabilistic outcome, and states the present experimental and dynamical implications in a form suitable for foundational university study.",
+        "The derivation begins with Earth-observed galaxy-axis orientations expressed in ICRS and projected onto an antipodally completed unit sphere. Independent geometric methods recover three infinite plane systems with fixed ICRS orientations and unit-sphere-normalized spacings. Their intersections define a native oblique cell. The Mass Bridge then selects the exact projective face-area point and leaves uniform scale as the only intrinsic continuous freedom. The resulting oriented Cell3 is reduced into the Devon Dimension, expanded at the Lucas Limit into the 27-node Lucas Window, partitioned into actual Lucas Sheets, diagonalized by the Emily Eigen-Spectrum, and differentiated by the Jack Jacobian. These named structures are typed stages of one physical hierarchy rather than interchangeable labels.",
+        "Under the authoritative default observer packet, the native gravity scalar Gamma2 is rendered through C_G_obs_SI to G_final=6.674300000000000e-11 m^3 kg^-1 s^-2. The gravitational couplings and Planck-family quantities are calculated from this observer-closed G and lock to their CODATA witnesses at the displayed precision."
+      ],
+      "formulas": [],
+      "figures": [],
+      "tables": []
+    },
+    {
+      "title": "1. The K-Field as a Physical Framework",
+      "paragraphs": [
+        "The K-Field is a universal oriented substrate rather than a single conventional force. It defines the geometrical and informational conditions under which physical systems possess directions, addresses, phase costs, polarities, histories, and recursive relations. A force law describes how a system accelerates under specified conditions. The K-Field begins earlier: it specifies the structured state space in which those conditions and responses are formed.",
+        "The canonical K-Field object contains a fixed ICRS origin and orientation, an oblique basis B, a direct metric, a reciprocal metric, an integer address lattice, a laminar grade, a checkerboard polarity, an affine three-dimensional incidence structure, and a projective Mass Bridge. An observer packet may add time, velocity, orientation, coupling strength, and apparatus response. The distinction between the substrate and the observer packet is essential. The substrate is fixed; the observer moves and changes orientation relative to it.",
+        "The physical content is distributed across several mutually compatible representations. Direct space describes displacement. Reciprocal space describes plane normals and wavevectors. The 27-state registry describes local incidence. The seven-sheet complex describes laminar grade and polarity. The 13-channel projective system describes antipodal directions and metric reconstruction. Scalar serialization describes directed address order. Path entropy describes multiplicity of histories. Lucas recursion describes volume-filling closure.",
+        "No single representation replaces the others. The same state may be geometrically near another state, far away in scalar rank, incident with several projective lines, and located on a Devon Super Sheet of fixed polarity. Each relation answers a different physical question. Confusion results when distance, address, incidence, probability, and phase cost are treated as interchangeable.",
+        "The internal hierarchy is K-Field -> Oriented Cell3 -> Devon Dimension -> Lucas Limit -> Lucas Window -> Lucas Sheet Decomposition -> Emily Eigen-Spectrum. The Jack Jacobian acts across the hierarchy as its differential response operator.",
+        "Within the K-Field research program, the field effect is experimentally established and Cell3 is the mathematically locked primitive geometry."
+      ],
+      "formulas": [],
+      "figures": [
+        "dependency_architecture"
+      ],
+      "tables": []
+    },
+    {
+      "title": "2. Galaxy-Axis Unit Sphere and the Infinite Three-Plane System",
+      "paragraphs": [
+        "The observational geometric root is an Earth-observed catalog of galaxy-axis orientations expressed in the International Celestial Reference System. A galaxy axis is an unoriented line: reversing its direction does not create a different physical axis. Each catalog axis is therefore represented by an antipodal pair on the unit sphere.",
+        "Analysis of the antipodally completed unit-sphere distribution recovers three associated K-Field plane systems. Each system consists of an infinite family of parallel planes. A family is specified by a unit normal and an interplanar spacing. The three normals are not mutually orthogonal, so the corresponding cell is oblique rather than cubic.",
+        "The locked plane-family normals are the normals to the bc, ac, and ab faces of Cell3. Their ICRS coordinates are (-0.995965190309, 0.083602162507, -0.032619290564), (-0.089052594102, -0.866576769291, 0.491033948326), and (0.194092200808, 0.913177168821, 0.358379234791). Their right ascensions and declinations are 175.201792 deg, -1.869279 deg; 264.132672 deg, 29.408563 deg; and 78.000576 deg, 21.000693 deg, respectively.",
+        "The corresponding opposite-face spacings are 0.329546529695 nm, 0.451597379721 nm, and 0.605097741519 nm in the adopted scaled realization. The full plane systems extend without boundary. The central Cell3 is one primitive region between adjacent members of all three families.",
+        "The dependency chain distinguishes the native galaxy-derived intersecting cell from the exact locked Cell3. The plane systems supply the observed orientation architecture and an initial geometric reconstruction. A minute perturbation bridge preserves that source while the Mass Bridge enforces the exact projective face-area closure. The final Cell3 therefore retains the galaxy-axis plane-system origin and orientation while occupying the unique Mass-Bridge similarity class."
+      ],
+      "formulas": [
+        "Pi_i(m): g_i dot (x-O_ICRS)=m+1/2"
+      ],
+      "figures": [
+        "galaxy_axis_plane_systems"
+      ],
+      "tables": []
+    },
+    {
+      "title": "3. Cell3: The Primitive Ontological Unit",
+      "paragraphs": [
+        "Cell3 is the primitive metric-address unit of the K-Field. It is ontological because its intrinsic geometry is treated as part of the physical constitution of the substrate rather than as a coordinate decoration or a material crystal assembled by ordinary matter. Matter samples and responds to Cell3 structure; it does not create that structure.",
+        "The locked basis matrix B has columns a, b, and c. These columns generate an oblique parallelepiped. The basis is left-handed in its recorded ICRS representation, with signed determinant -0.11791489191174465 nm^3 and positive volume 0.11791489191174465 nm^3. Handedness records orientation; volume records the absolute scale of the displayed realization.",
+        "The complete ontological object is affine, not merely metric. A metric specifies lengths and angles but is unchanged by translation and rotation of the entire cell. The K-Field additionally specifies an ICRS embedding, a lattice phase, and a discrete translation grammar. The resulting structure can distinguish apparatus orientation and, when phase is measured, translational position relative to the lattice origin.",
+        "Uniform scale changes dimensional quantities but not the locked similarity shape."
+      ],
+      "formulas": [
+        "B(s)=sB0",
+        "M(s)=s^2M0",
+        "R(s)=s^-2R0"
+      ],
+      "figures": [
+        "cell3_all_nodes"
+      ],
+      "tables": []
+    },
+    {
+      "title": "4. The Mass Bridge Fixes the Cell3 Shape",
+      "paragraphs": [
+        "The Mass Bridge is a locked projective ratio system. It is not a mechanical force that deforms a pre-existing cell. It is a constraint closure that identifies the one permitted Cell3 similarity shape within the admissible geometric construction.",
+        "Three primitive face areas form the geometric carrier triangle: A_ab=|a x b|, A_ac=|a x c|, and A_bc=|b x c|. Their ratios carry the mass, fine-structure, and product channels. Because ratios are unchanged under uniform scaling, the Mass Bridge fixes shape independently of absolute size.",
+        "The face ratios are not isolated numerical similarities. They form a commutative triangle. Multiplying the ab-to-ac leg by the ac-to-bc leg cancels the intermediate area and yields the ab-to-bc leg. The corresponding physical channels multiply in the same order. This exact closure is the reason the three relations constitute one constraint system.",
+        "The three relations fix the projective face-area point and leave uniform scale only."
+      ],
+      "formulas": [
+        "1000 A_bc/A_ab=eta",
+        "100 A_bc/A_ac=alpha^-1",
+        "10 A_ac/A_ab=eta alpha"
+      ],
+      "figures": [
+        "mass_bridge_triangle"
+      ],
+      "tables": []
+    },
+    {
+      "title": "5. Devon Dimension: The Reduced Algebraic Layer",
+      "paragraphs": [
+        "The Devon Dimension is the compressed invariant representation of Cell3. It is the stage at which the local geometry has become algebraic but has not yet become a finite graph. Devon is not an additional spatial axis. It is the smallest typed algebraic package that preserves the direct cell, reciprocal response, face carriers, exchange hierarchy, scalar sockets, and rules required by later branches.",
+        "A compact Devon object is D=(O_ICRS, B, M, adj(M), R, A, V, C, S, Gamma2, Q_rule, branch sockets). Here A denotes the three primitive face areas, C denotes the carrier triangle, S=R-diag(R) is the reciprocal exchange tensor, and Q_rule is q(s)=s^T R s. Typed branch sockets prevent rendered observables from being inserted upstream as geometric primitives.",
+        "The cofactor-dual identity is central. The diagonal cofactors of M are the squared areas of the opposite faces: adj(M)_aa=A_bc^2, adj(M)_bb=A_ac^2, and adj(M)_cc=A_ab^2. Since R=adj(M)/V^2, direct face geometry migrates exactly into reciprocal inverse-square geometry.",
+        "The off-diagonal reciprocal entries remain explicit. Their doubled magnitudes obey |2R_bc|>|2R_ac|>|2R_ab|. These exchange channels are already present in Devon. The Lucas Window does not create them; it supplies a finite address alphabet that evaluates and exposes them."
+      ],
+      "formulas": [
+        "D=(O,B,M,adj(M),R,A,V,C,S,Gamma2,Q_rule,branch sockets)",
+        "q(s)=s^T R s"
+      ],
+      "figures": [
+        "devon_dimension"
+      ],
+      "tables": [
+        "Devon content map"
+      ]
+    },
+    {
+      "title": "6. Direct Metric, Reciprocal Metric, and Plane Systems",
+      "paragraphs": [
+        "The direct metric M=B^T B converts lattice-coordinate displacements into physical squared lengths. If u is an address displacement, then u^T M u is the squared physical distance represented by that displacement. The reciprocal metric R=M^-1 performs the dual operation for plane normals and reciprocal wavevectors.",
+        "The reciprocal basis B^-T contains three covectors g_a, g_b, and g_c satisfying g_i dot a_j=delta_ij. A covector is a linear rule that assigns a scalar phase to a displacement. Each equation g_i dot x=n defines one plane in an infinite family of parallel planes. Adjacent integer values of n identify adjacent planes.",
+        "Cell3 may therefore be viewed in two exact ways. In direct space it is the volume spanned by a, b, and c. In reciprocal space it is the region between adjacent members of three plane families. The planes are not an independent decorative overlay. They are the dual manifestation of the locked direct basis."
+      ],
+      "formulas": [],
+      "figures": [
+        "direct_reciprocal_duality",
+        "boundary_plane_atlas"
+      ],
+      "tables": []
+    },
+    {
+      "title": "7. Fixed ICRS Orientation, Origin, and Observer State",
+      "paragraphs": [
+        "The International Celestial Reference System supplies the coordinate frame in which the locked basis and face normals are recorded. ICRS labels are conventional, but the measured alignment relative to distant extragalactic directions is physical. Replacing right ascension and declination with another coordinate chart changes numerical components, not the underlying oriented tensors.",
+        "A fixed orientation produces daily and apparatus-controlled modulation. A physical affine origin adds translational phase. Rotation changes the direction sampled on the phase-cost sphere; translation changes the fractional Cell3 phase sampled in the lattice. These observables have different time signatures and must be modeled separately.",
+        "The default observer packet is fixed at epoch 2026-06-17T15:06:11Z in the SGA-2020 / ICRS / J2000 frame, at latitude 42.129 deg, longitude -83.144 deg, altitude 0 km. Its observer speed is 341.071130 km/s, with RA 167.143423 deg and Dec -7.655565 deg. The packet includes v_hat=(-0.97077086,0.20734801,-0.12087493), closure angle 1.066671 deg, f_obs=1.447739, beta_obs^2=1.555741578671e-06, and zeta_R=(0.320892,0.374911,0.838466).",
+        "With this packet, C_G_obs_SI=2.780277372245049732e32 and G_final=Gamma2 C_G_obs_SI=6.674300000000000e-11 m^3 kg^-1 s^-2. All G-derived rows use this observer-indexed closure or the G_eff(n_hat) envelope."
+      ],
+      "formulas": [
+        "n_ICRS(t)=R_ICRS<-lab(t)n_0",
+        "phi(t)=B^-1[x_obs(t)-O_ICRS] mod Z^3",
+        "G_final=Gamma2 C_G_obs_SI"
+      ],
+      "figures": [],
+      "tables": []
+    },
+    {
+      "title": "8. Lucas Limit and Lucas Window",
+      "paragraphs": [
+        "The Lucas Limit is the smallest finite extent that preserves the complete local three-axis structure. It is a minimum-completeness condition, not an asymptotic limit. Each primitive coordinate must contain a negative state, a central state, and a positive state. Their Cartesian product is the centered domain L={-1,0,1}^3.",
+        "The Lucas Limit contains 27 addresses and 26 noncentral boundary states. A smaller domain cannot simultaneously preserve the center, opposing directions on all three axes, face, edge, and body address classes, antipodal pairing, polarity alternation, all 54 nearest-neighbor edges, and the complete seven-sheet partition.",
+        "The Lucas Window is the explicit 27-node graph realized at the Lucas Limit. Its abstract graph is P3 x P3 x P3. Two addresses are adjacent when they differ by one unit in exactly one coordinate. The physical embedding is p(i,j,k)=(i a+j b+k c)/2. The address grammar is rectilinear, but its dimensional realization is the oblique Cell3.",
+        "The 26 noncentral states form 13 antipodal pairs. Evaluating q(s)=s^T R s on one representative of each pair gives 13 reciprocal magnitudes. Six values are sufficient to reconstruct a symmetric 3 x 3 metric; the remaining seven form exact compatibility or syndrome dimensions."
+      ],
+      "formulas": [
+        "L={-1,0,1}^3",
+        "p(i,j,k)=B(i,j,k)/2"
+      ],
+      "figures": [
+        "lucas_limit_window"
+      ],
+      "tables": [
+        "Lucas address classes"
+      ]
+    },
+    {
+      "title": "9. The 27-State Centered Registry",
+      "paragraphs": [
+        "The local Cell3 address set is {-1,0,1}^3. An address L=(i,j,k) maps to physical position p_L=B L/2. The factor one-half places the outer addresses on the primitive boundaries, the zero coordinates on midplanes, and the origin at the body center.",
+        "The 27 states divide into eight corners, twelve edge centers, six face centers, and one body center. This is the coefficient structure of (2+t)^3=8+12t+6t^2+t^3. The classification records incidence dimension: a corner belongs to three boundary faces, an edge center belongs to two, a face center belongs to one, and the body center belongs to none.",
+        "Every noncentral state has one antipodal partner L<->-L. The 26 noncentral states therefore form 13 direction classes. Antipodal pairing removes sign duplication when a direction rather than an oriented ray is required, while retaining sign when polarity or directed motion is physically relevant."
+      ],
+      "formulas": [],
+      "figures": [],
+      "tables": [
+        "Complete 27-node ledger"
+      ]
+    },
+    {
+      "title": "10. Lucas Sheets and Devon Super Sheets",
+      "paragraphs": [
+        "The laminar grade is lambda=i+j+k. Because each coordinate is -1, 0, or 1, lambda ranges from -3 to +3. States with equal lambda lie on one plane normal to the common laminar direction. Their populations are 1, 3, 6, 7, 6, 3, and 1.",
+        "The polarity is chi=(-1)^lambda. Every state on one sheet therefore has the same polarity, and adjacent sheets have opposite polarity. This is stronger than ordinary pointwise checkerboarding because the parity field is also a complete plane decomposition.",
+        "Displacements remaining within one sheet satisfy Delta i+Delta j+Delta k=0. They form an A2-type planar kernel embedded in the three-dimensional oblique cell. The sheet system therefore combines three-dimensional volume with two-dimensional transport and incidence structure.",
+        "The Lucas Supergroup contains 55 actual parallel Devon Super Sheets."
+      ],
+      "formulas": [],
+      "figures": [
+        "actual_lucas_sheets",
+        "devon_super_sheets",
+        "devon_sheet_profile"
+      ],
+      "tables": []
+    },
+    {
+      "title": "11. Emily Eigen-Spectrum",
+      "paragraphs": [
+        "The Emily Eigen-Spectrum is the adjacency spectrum of the finite Lucas graph P3 x P3 x P3. It is a spectral reading of connectivity and is independent of the absolute Cell3 scale. The physical basis determines where the nodes are placed; the adjacency operator determines how one-step relations propagate through the finite window.",
+        "The one-dimensional path P3 has adjacency eigenvalues -sqrt(2), 0, and +sqrt(2). The three-dimensional Lucas adjacency operator is the Kronecker sum A_L=A_P3 tensor I tensor I + I tensor A_P3 tensor I + I tensor I tensor A_P3. A tensor-product mode has eigenvalue equal to the sum of its three one-axis eigenvalues.",
+        "Grouping equal sums gives seven eigenvalue levels: -3sqrt(2), -2sqrt(2), -sqrt(2), 0, sqrt(2), 2sqrt(2), and 3sqrt(2). Their multiplicities are 1,3,6,7,6,3,1. The adjacency nullity is seven; the graph-Laplacian nullity is one because the graph is connected.",
+        "The central multiplicity seven has a second structural interpretation. Thirteen antipodal q measurements reconstruct six independent metric coefficients and leave seven compatibility dimensions. Emily therefore exposes in spectral form the same seven-dimensional surplus that appears in the projective metric-syndrome decomposition."
+      ],
+      "formulas": [
+        "A_L=A_P3 tensor I tensor I + I tensor A_P3 tensor I + I tensor I tensor A_P3"
+      ],
+      "figures": [
+        "emily_eigenspectrum"
+      ],
+      "tables": [
+        "Emily spectrum"
+      ]
+    },
+    {
+      "title": "12. Jack Jacobian",
+      "paragraphs": [
+        "The Jack Jacobian is the differential response map that carries coherent primitive-axis perturbations into changes of selected Devon invariants. It is not a new force law and not another cell. It is the linearized derivative grammar of the reduced hierarchy.",
+        "Let x_a=d ln a, x_b=d ln b, and x_c=d ln c denote coherent logarithmic perturbations of the three primitive directions. The invariant responses are d ln eta=-x_a+x_c, d ln alpha=x_a-x_b, and d ln Gamma2=17x_a-2x_b-3x_c.",
+        "The coefficient matrix is J_Jack=[[-1,0,1],[1,-1,0],[17,-2,-3]]. Its determinant is 12, so the map is nondegenerate and locally invertible. Its Smith normal form is diag(1,1,12), giving the finite quotient Z12.",
+        "The inverse relations reconstruct the coherent primitive perturbations from the invariant changes. Jack can therefore propagate a Cell3 deformation into Devon, Lucas q-values, metric-weighted spectra, and downstream rendered branches, or work backward from a measured invariant perturbation to the local primitive-axis response."
+      ],
+      "formulas": [
+        "J_Jack=[[-1,0,1],[1,-1,0],[17,-2,-3]]",
+        "det=12"
+      ],
+      "figures": [
+        "jack_jacobian"
+      ],
+      "tables": []
+    },
+    {
+      "title": "13. Quadratic Phase-Transition Cost",
+      "paragraphs": [
+        "The K-Field assigns a direction-dependent transition cost through the positive-definite quadratic form q(n)=n^T G_phase n on the unit sphere. The value depends on direction, not on the coordinate labels used to represent that direction.",
+        "The three eigenvectors of G_phase define the soft, saddle, and hard axes. The soft axis minimizes q, the hard axis maximizes q, and the saddle axis is intermediate. The current eigenvalues are 1.4293287534874834, 2.1125450264474788, and 8.800336434665038.",
+        "The hard-to-soft anisotropy ratio is approximately 6.157. An otherwise equivalent directed transition can therefore sample substantially different phase cost when its orientation changes relative to the locked K-Field tensor.",
+        "Constant-q contours are intersections between the unit sphere and a family of concentric quadratic surfaces. Below the middle eigenvalue, the contours encircle the soft axis. Above it, complementary contours organize around the hard axis. The middle eigenvalue defines the separatrix topology associated with the saddle axis."
+      ],
+      "formulas": [],
+      "figures": [
+        "phase_cost_sphere",
+        "phase_cost_sky_map"
+      ],
+      "tables": []
+    },
+    {
+      "title": "14. Metastability, Path Multiplicity, and Entropy",
+      "paragraphs": [
+        "The K-Field geometry is deterministic, but metastable outcomes may remain probabilistic. A deterministic state structure specifies the available endpoints and transitions. Probability enters because many distinct ordered histories can terminate at the same endpoint.",
+        "Let Omega_N(k) be the number of N-event histories reaching endpoint k. The equal-weight fiber entropy is ln Omega_N(k). A high-multiplicity endpoint collects more histories than a low-multiplicity endpoint even when their geometric displacement is similar.",
+        "For the exact ten-event enumeration, 6^10=60,466,176 ordered histories terminate on 891 reachable endpoints. The history entropy is 17.91759469228055 nats. The endpoint entropy is 5.364728188272016 nats. The mean conditional fiber entropy is 12.552866504008534 nats, and the chain-rule residual is approximately -1.78 x 10^-15 nats.",
+        "The combined endpoint weight contains both multiplicity and cost: P_N(k) proportional to Omega_N(k) exp[-beta_K q(k)]. Low cost favors a state energetically or geometrically; high multiplicity favors it statistically. The effective action beta_K q-ln Omega expresses the competition in one scalar."
+      ],
+      "formulas": [],
+      "figures": [
+        "entropy_endpoint_ledger"
+      ],
+      "tables": []
+    },
+    {
+      "title": "15. Scalar Serialization and Nonlocal Address Order",
+      "paragraphs": [
+        "The three-dimensional K-Field lattice admits a lossless one-dimensional directed address. A positive quadratic shell Q(k)=k^T G k is combined with an antipodal sign sigma(k) to form rho(k)=sigma(k)sqrt(Q(k)). Under the recorded shell condition, rho is injective: equal scalar addresses imply equal lattice addresses.",
+        "Injectivity makes rho a complete address coordinate, but it does not make rho a physical distance. The ordering can place physically adjacent nodes far apart in scalar rank. Conversely, two consecutive scalar ranks need not be geometric nearest neighbors.",
+        "The exact 27-state comb contains 54 geometric nearest-neighbor edges. Only eight join consecutive scalar ranks. The mean rank jump is 5.8148148148, the median is 4, and the maximum is 23. Mean jumps along the primitive a, b, and c directions are 7.3333, 4.1111, and 6.0000.",
+        "Two graphs must therefore be superposed. G_geo records physical adjacency. G_rho records scalar ordering. A short edge in G_geo that spans a long interval in G_rho is an exact serialized-space shortcut. Such edges are natural carriers for routing, error correction, history encoding, and nonlocal address transitions."
+      ],
+      "formulas": [],
+      "figures": [
+        "scalar_serialization"
+      ],
+      "tables": []
+    },
+    {
+      "title": "16. Thirteen Projective Channels",
+      "paragraphs": [
+        "The 26 noncentral Cell3 addresses become 13 antipodal direction classes when L and -L are identified. These classes form the finite projective plane PG(2,3). It contains 13 projective points, 13 projective lines, and 52 point-line incidences.",
+        "The incidence matrix N satisfies N^2=3I+J. Its eigenvalues are 4 and six copies each of +sqrt(3) and -sqrt(3). The associated transform M=3N-J satisfies M^2=27I-2J. These identities encode exact symmetry and inversion properties of the channel system.",
+        "The 13 channels separate into six metric channels and seven syndrome channels. A symmetric 3 x 3 metric has six independent coefficients. The six positive channels provide a full-rank decoder for those coefficients. The remaining seven channels test compatibility and retain information not required by the metric reconstruction itself.",
+        "This 6+7 decomposition links geometry and information. Metric channels estimate the quadratic form. Syndrome channels identify deviations, errors, path-history effects, or additional state information. The same 13-channel architecture therefore supports both measurement and consistency testing."
+      ],
+      "formulas": [],
+      "figures": [
+        "projective_channels"
+      ],
+      "tables": [
+        "13-channel ledger"
+      ]
+    },
+    {
+      "title": "17. Lucas Groups and the Lucas Supergroup",
+      "paragraphs": [
+        "Cell3 fills volume through powers of three. A Lucas Group is a 3 x 3 x 3 array containing 27 complete Cell3 volumes. Its outer basis is 3B. A Lucas Supergroup is a 9 x 9 x 9 array containing 729 Cell3 volumes, or equivalently 27 Lucas Groups. Its outer basis is 9B.",
+        "The Lucas Supergroup has cubical census (f0,f1,f2,f3)=(1000,2700,2430,729). It contains 6,859 refined half-step states, 55 laminar sheets, 1,944 internal interfaces, 1,946 boundary states, 486 exposed primitive faces, and center-graph cycle rank 1,216.",
+        "The complete cubical complex is contractible even though its center graph contains many cycles. Graph cycles become boundaries when the intervening plaquettes are included. Local circulation and global topological closure therefore coexist without contradiction.",
+        "The Mass Bridge selects the second Lucas aggregation. Nine cells along one axis have ten unrefined boundary-node positions. The one-, two-, and three-dimensional cardinalities are 10, 100, and 1000, exactly matching the projective multipliers in the Mass Bridge."
+      ],
+      "formulas": [],
+      "figures": [
+        "recursive_spatial_hierarchy"
+      ],
+      "tables": [
+        "Lucas Supergroup census"
+      ]
+    },
+    {
+      "title": "18. Exact Recursive Morphology",
+      "paragraphs": [
+        "At aggregation depth g, the number of Cell3 volumes along each primitive direction is m=3^g. Direct lengths scale as 3^g, face areas as 9^g, and volumes as 27^g. Reciprocal wavenumbers scale as 3^-g, while reciprocal quadratic values scale as 9^-g.",
+        "The merged half-step lattice contains Q_g=(2m+1)^3 nodes. The number of lambda sheets is S_g=6m+1. The central sheet contains C_g=3m^2+3m+1 states. The number of noncentral antipodal pairs is (Q_g-1)/2.",
+        "The hierarchy contains exact structural transitions. At g=1 the Lucas Group contains a completely surrounded central Cell3 and supports 28 independent center-graph cycles. At g=2 the Mass-Bridge-complete Lucas Supergroup becomes node-bulk dominated. At g=3 both the Cell3 volume fraction and the refined-node fraction are strongly bulk dominated, and the internal-to-exposed-interface ratio reaches 13.",
+        "Recursive closure is not approximate visual resemblance. A 9 x 9 x 9 array of objects at one level reproduces the Lucas-Supergroup census at the next object scale. This exact scale recursion continues through higher orders."
+      ],
+      "formulas": [],
+      "figures": [
+        "hierarchy_counts",
+        "recursive_morphology_spectrum"
+      ],
+      "tables": [
+        "Hierarchy levels"
+      ]
+    },
+    {
+      "title": "19. Reciprocal Spectrum and Recursive Energy Structure",
+      "paragraphs": [
+        "For a periodic block with outer basis mB, allowed reciprocal vectors have the form k_q=2 pi (mB)^-T q. Their squared magnitudes are (2 pi/m)^2 q^T R q. Every factor of three in direct size therefore produces a factor-of-three reciprocal subharmonic.",
+        "The first Lucas Supergroup primitive reciprocal shell contains 864 antipodally identified directions, all distinct in quadratic value at twelve-decimal resolution. The minimum recorded shell value is 130.59352347783923 at direction (1,4,9); the maximum is 1744.3612920595351 at direction (9,9,-8).",
+        "The recursive energy law E(m)=C m^2(3m-1) separates into volume and face channels: E_r=3C 729^r-C 81^r. It therefore obeys the second-order recurrence E_(r+2)=810 E_(r+1)-59049 E_r.",
+        "The spectral hierarchy connects direct aggregation and reciprocal mode formation. Enlarging the object increases the number of collective sectors while decreasing the fundamental reciprocal spacing. Refinement performs the inverse transformation."
+      ],
+      "formulas": [],
+      "figures": [
+        "reciprocal_low_order_spectrum"
+      ],
+      "tables": []
+    },
+    {
+      "title": "20. Physical Witness Architecture and the 29 Locks",
+      "paragraphs": [
+        "A physical witness is a measured or exactly defined quantity used to test a model value generated earlier in the K-Field dependency chain. Witness values remain downstream and do not determine the Cell3 basis, Mass-Bridge ratios, Devon invariants, Lucas counts, or observer state.",
+        "The first family contains 17 non-gravitational precision rows. The second contains 12 observer-rendered gravitational rows: selected G, three dimensionless gravitational couplings, and eight Planck-family quantities.",
+        "The native scalar Gamma2 is the geometric precursor, not the SI value compared with CODATA G. Under the default observer packet, C_G_obs_SI=2.780277372245049732e32 closes G_final=Gamma2 C_G_obs_SI=6.674300000000000e-11 m^3 kg^-1 s^-2.",
+        "All three gravitational-coupling rows and all eight Planck-family rows are then calculated from G_final with the permitted SI constants. Their model and witness values agree to the displayed precision. The 29 rows are closure witnesses rather than 29 statistically independent primitive parameters."
+      ],
+      "formulas": [
+        "Gamma2=10^3 A_ab^6 alpha_N^8 eta_N^-3",
+        "G_final=Gamma2 C_G_obs_SI",
+        "alpha_G,e=G_final m_e^2/(hbar c)",
+        "l_P=sqrt(hbar G_final/c^3)"
+      ],
+      "figures": [],
+      "tables": [
+        "29 witness locks"
+      ]
+    },
+    {
+      "title": "21. Experimental Meaning and Device Classes",
+      "paragraphs": [
+        "The K-Field becomes experimentally accessible through orientation, reversal, phase, and recursion. A static apparatus may sample one local condition, but a rotating or translating apparatus sweeps a controlled path through the K-Field geometry.",
+        "Orientation-dependent measurements compare the same apparatus at different attitudes relative to the fixed ICRS tensor. Spin-reversal measurements exchange directed traversal while preserving much of the mechanical and electromagnetic environment. Translational phase measurements track observer motion through the affine lattice. Multichannel optical measurements reconstruct reciprocal plane relationships from phase differences.",
+        "Rotating tubes, rods, rings, dual-axis masses, circularly polarized elastic oscillators, and phased arrays all implement directed state-space currents. Their common design objective is to produce coherent traversal through unequal phase-cost directions while suppressing ordinary vibration and common-mode mechanical forces.",
+        "Electrical extraction geometries use the phase-cost surface in a different way. Constant-q contours support cost-conserving flow. The strongest scalar potential difference lies across those contours, along the surface gradient. A winding or electrode pair intended to collect potential must therefore possess a component normal to the isolines rather than lying entirely along them.",
+        "Experimental interpretation requires full vector bookkeeping. A local force, torque, voltage, or phase shift must be indexed by apparatus orientation, spin direction, observer velocity, epoch, and K-Field phase. Scalar averages can erase the directional structure that carries the signal."
+      ],
+      "formulas": [
+        "measurement state={time, ICRS position, ICRS attitude, observer velocity, apparatus phase, spin direction, instrument state}"
+      ],
+      "figures": [],
+      "tables": []
+    },
+    {
+      "title": "22. Comparison with Established Physics",
+      "paragraphs": [
+        "No individual mathematical ingredient of the K-Field is unfamiliar. Oblique cells and reciprocal lattices occur in crystallography. Quadratic forms occur throughout mechanics and field theory. Preferred cosmological frames occur in large-scale observations. Projective finite geometry occurs in coding and incidence theory. Entropy and path counting occur in statistical mechanics. Recursive complexes occur in topology.",
+        "The distinctive feature is their unification into one universal substrate. A material crystal has a primitive cell, but the cell is made by matter and moves with the crystal. Cell3 is prior to matter and has a fixed celestial orientation. A lattice used in numerical field theory is a computational regulator; Cell3 is physically coupled. A preferred-frame vector supplies one direction; Cell3 supplies a complete oblique triad, reciprocal plane system, discrete address phase, polarity, and recursion.",
+        "General relativity and the Standard Model ordinarily express local laws without a universal three-dimensional lattice fixed to celestial directions. The K-Field adds intrinsic spatial structure while retaining the successful local descriptions as branch expressions. The comparison is therefore not between correct and discarded physics. It is between a local effective description and a deeper substrate that organizes the states on which that description acts.",
+        "A physical affine origin is especially consequential. Preferred orientation reduces rotational symmetry. A measurable lattice phase also reduces continuous translation symmetry to a discrete subgroup. Rotation and translation then produce different experimental signatures: orientation modulation and phase migration.",
+        "Conservation laws require the substrate to participate dynamically. When matter exchanges momentum with the K-Field, the total accounting must include K-Field momentum and stress-energy. The existing geometry determines the kinematic stage; the complete action supplies the dynamical exchange law."
+      ],
+      "formulas": [],
+      "figures": [],
+      "tables": []
+    },
+    {
+      "title": "23. Present State and Research Frontier",
+      "paragraphs": [
+        "The present K-Field framework contains a locked oblique primitive cell, exact direct and reciprocal metrics, a projective Mass Bridge, a complete 27-state local registry, a seven-sheet polarity decomposition, a 13-channel metric-plus-syndrome system, a lossless scalar address, a quadratic phase-cost tensor, an exact entropy ledger, and a recursively closed Lucas hierarchy.",
+        "The strongest structural conclusion is that these are not separate discoveries placed beside one another. They are compatible projections of one substrate. Direct geometry, reciprocal geometry, projective incidence, scalar order, entropy, polarity, and recursion each preserve different invariants of the same underlying object.",
+        "The principal theoretical frontier is the complete dynamical action. It must state how the K-Field stores energy and momentum, how matter couples to orientation and affine phase, how entropy enters metastable transition rates, how local conservation is maintained, and how established branch equations emerge in their measured limits.",
+        "The principal experimental frontier is the joint inverse problem. Time-dependent multichannel measurements should reconstruct the locked geometry, reciprocal plane families, observer attitude, observer velocity, phase migration, and path statistics in one constrained solution. A successful reconstruction would infer the substrate from its dynamic projections rather than inserting the geometry as a fixed analysis input.",
+        "The principal engineering frontier is coherent state-space circulation. Devices should maximize directed traversal of the phase-cost geometry while minimizing ordinary vibration, thermal drift, and uncontrolled environmental coupling. Reversal, attitude sweep, phase tracking, and null orientations provide the strongest internal controls."
+      ],
+      "formulas": [],
+      "figures": [],
+      "tables": []
+    }
+  ],
+  "locked_cell3": {
+    "basis_B_nm": [
+      [
+        0.3275012420558906,
+        0.0353307758438284,
+        -0.01012931762672882
+      ],
+      [
+        -0.054897007884006435,
+        0.20731985044019177,
+        -0.38978770236625987
+      ],
+      [
+        -0.037487502894729914,
+        -0.5474010853885081,
+        -0.6897344083672676
+      ]
+    ],
+    "direct_metric_M_nm2": [
+      [
+        0.11167605789605009,
+        0.020710333280605807,
+        0.04393723509621977
+      ],
+      [
+        0.020710333280605807,
+        0.343877732392787,
+        0.2963927589615229
+      ],
+      [
+        0.04393723509621977,
+        0.2963927589615229,
+        0.6277706100772958
+      ]
+    ],
+    "adjugate_M_nm4": [
+      [
+        0.12802766629139353,
+        2.1339772839599354e-05,
+        -0.008970643952445428
+      ],
+      [
+        2.1339772839599934e-05,
+        0.06817646636853028,
+        -0.032190020127486
+      ],
+      [
+        -0.008970643952445428,
+        -0.032190020127486,
+        0.03797399164726553
+      ]
+    ],
+    "reciprocal_metric_R_nm^-2": [
+      [
+        9.208025529457549,
+        0.0015348024281925453,
+        -0.645188035699939
+      ],
+      [
+        0.001534802428192587,
+        4.903398312367987,
+        -2.315175584416389
+      ],
+      [
+        -0.6451880356999389,
+        -2.315175584416389,
+        2.7311712747116945
+      ]
+    ],
+    "edge_lengths_nm": [
+      0.3341796790591105,
+      0.5864108904111408,
+      0.7923197650426852
+    ],
+    "included_angles_deg": {
+      "ab": 83.93348301231273,
+      "ac": 80.4481300183379,
+      "bc": 50.36323181375618
+    },
+    "face_areas_nm2": {
+      "ab": 0.19486916546048413,
+      "ac": 0.2611062357902053,
+      "bc": 0.3578095391285615
+    },
+    "volume_nm3": 0.11791489191174465,
+    "face_normals_icrs": {
+      "bc": [
+        -0.9959651903089612,
+        0.08360216250737747,
+        -0.032619290564400036
+      ],
+      "ac": [
+        -0.089052594101605,
+        -0.8665767692910323,
+        0.4910339483262758
+      ],
+      "ab": [
+        0.19409220080776704,
+        0.9131771688212286,
+        0.35837923479080463
+      ]
+    },
+    "opposite_face_spacings_nm": {
+      "a": 0.32954652969544684,
+      "b": 0.4515973797212847,
+      "c": 0.6050977415185554
+    },
+    "nodes": [
+      {
+        "address": [
+          -1,
+          -1,
+          -1
+        ],
+        "lambda": -3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.17635135013649508,
+          0.11868242990503727,
+          0.6373114983252528
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          0
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1814160089498595,
+          -0.07621142127809266,
+          0.292444294141619
+        ]
+      },
+      {
+        "address": [
+          -1,
+          -1,
+          1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1864806677632239,
+          -0.2711052724612226,
+          -0.052422910042014825
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1586859622145809,
+          0.22234235512513315,
+          0.36361095563099877
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.1637506210279453,
+          0.027448503942003218,
+          0.018743751447364957
+        ]
+      },
+      {
+        "address": [
+          -1,
+          0,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1688152798413097,
+          -0.16744534724112672,
+          -0.32612345273626886
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1410205742926667,
+          0.32600228034522905,
+          0.08991041293674473
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.1460852331060311,
+          0.1311084291620991,
+          -0.2549567912468891
+        ]
+      },
+      {
+        "address": [
+          -1,
+          1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          -0.1511498919193955,
+          -0.06378542202103082,
+          -0.5998239954305229
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          -1
+        ],
+        "lambda": -2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.012600729108549789,
+          0.09123392596303405,
+          0.6185677468778878
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          0
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.0176653879219142,
+          -0.10365992522009589,
+          0.27370054269425403
+        ]
+      },
+      {
+        "address": [
+          0,
+          -1,
+          1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          -0.02273004673527861,
+          -0.29855377640322583,
+          -0.07116666148937978
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.00506465881336441,
+          0.19489385118312993,
+          0.3448672041836338
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "body center",
+        "position_nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "address": [
+          0,
+          0,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          -0.00506465881336441,
+          -0.19489385118312993,
+          -0.3448672041836338
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.02273004673527861,
+          0.29855377640322583,
+          0.07116666148937978
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.0176653879219142,
+          0.10365992522009589,
+          -0.27370054269425403
+        ]
+      },
+      {
+        "address": [
+          0,
+          1,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.012600729108549789,
+          -0.09123392596303405,
+          -0.6185677468778878
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          -1
+        ],
+        "lambda": -1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1511498919193955,
+          0.06378542202103082,
+          0.5998239954305229
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          0
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1460852331060311,
+          -0.1311084291620991,
+          0.2549567912468891
+        ]
+      },
+      {
+        "address": [
+          1,
+          -1,
+          1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1410205742926667,
+          -0.32600228034522905,
+          -0.08991041293674473
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          -1
+        ],
+        "lambda": 0,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1688152798413097,
+          0.16744534724112672,
+          0.32612345273626886
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          0
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "face center",
+        "position_nm": [
+          0.1637506210279453,
+          -0.027448503942003218,
+          -0.018743751447364957
+        ]
+      },
+      {
+        "address": [
+          1,
+          0,
+          1
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1586859622145809,
+          -0.22234235512513315,
+          -0.36361095563099877
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          -1
+        ],
+        "lambda": 1,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.1864806677632239,
+          0.2711052724612226,
+          0.052422910042014825
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          0
+        ],
+        "lambda": 2,
+        "polarity": 1,
+        "kind": "edge center",
+        "position_nm": [
+          0.1814160089498595,
+          0.07621142127809266,
+          -0.292444294141619
+        ]
+      },
+      {
+        "address": [
+          1,
+          1,
+          1
+        ],
+        "lambda": 3,
+        "polarity": -1,
+        "kind": "corner",
+        "position_nm": [
+          0.17635135013649508,
+          -0.11868242990503727,
+          -0.6373114983252528
+        ]
+      }
+    ]
+  },
+  "mass_bridge": {
+    "1000_A_bc_over_A_ab": 1836.152673426,
+    "100_A_bc_over_A_ac": 137.035999177,
+    "10_A_ac_over_A_ab": 13.399053419929222,
+    "projective_face_area_point": [
+      "1",
+      "100*alpha",
+      "1000/eta"
+    ],
+    "physical_correspondence": {
+      "A_bc": "electron reduced Compton wavelength",
+      "A_ac": "100 times classical electron radius",
+      "A_ab": "1000 times proton reduced Compton wavelength"
+    },
+    "free_degree": "uniform positive scale only"
+  },
+  "devon_dimension": {
+    "tuple": [
+      "O_ICRS",
+      "B",
+      "M",
+      "adj(M)",
+      "R",
+      "A",
+      "V",
+      "carrier_triangle",
+      "S=R-diag(R)",
+      "Gamma2",
+      "Q_rule",
+      "branch_sockets"
+    ],
+    "exchange_tensor_R_offdiag_nm^-2": [
+      [
+        0.0,
+        0.0015348024281925453,
+        -0.645188035699939
+      ],
+      [
+        0.001534802428192587,
+        0.0,
+        -2.315175584416389
+      ],
+      [
+        -0.6451880356999389,
+        -2.315175584416389,
+        0.0
+      ]
+    ],
+    "q_rule": "q(s)=s^T R s"
+  },
+  "lucas_limit": {
+    "address_set": "{-1,0,1}^3",
+    "node_count": 27,
+    "noncentral_boundary_states": 26,
+    "graph": "P3 Cartesian P3 Cartesian P3",
+    "edge_count": 54,
+    "sheet_populations": [
+      1,
+      3,
+      6,
+      7,
+      6,
+      3,
+      1
+    ]
+  },
+  "emily_eigenspectrum": {
+    "levels": [
+      {
+        "eigenvalue_expression": "-3 sqrt(2)",
+        "eigenvalue": -4.242640687119286,
+        "multiplicity": 1
+      },
+      {
+        "eigenvalue_expression": "-2 sqrt(2)",
+        "eigenvalue": -2.8284271247461903,
+        "multiplicity": 3
+      },
+      {
+        "eigenvalue_expression": "-sqrt(2)",
+        "eigenvalue": -1.4142135623730951,
+        "multiplicity": 6
+      },
+      {
+        "eigenvalue_expression": "0",
+        "eigenvalue": 0.0,
+        "multiplicity": 7
+      },
+      {
+        "eigenvalue_expression": "sqrt(2)",
+        "eigenvalue": 1.4142135623730951,
+        "multiplicity": 6
+      },
+      {
+        "eigenvalue_expression": "2 sqrt(2)",
+        "eigenvalue": 2.8284271247461903,
+        "multiplicity": 3
+      },
+      {
+        "eigenvalue_expression": "3 sqrt(2)",
+        "eigenvalue": 4.242640687119286,
+        "multiplicity": 1
+      }
+    ],
+    "adjacency_nullity": 7,
+    "graph_laplacian_nullity": 1
+  },
+  "jack_jacobian": {
+    "matrix": [
+      [
+        -1,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        0
+      ],
+      [
+        17,
+        -2,
+        -3
+      ]
+    ],
+    "determinant": 12,
+    "smith_normal_form": [
+      1,
+      1,
+      12
+    ],
+    "quotient": "Z12",
+    "inverse_relations": [
+      "x_a=(dG-2dA+3dE)/12",
+      "x_b=(dG-14dA+3dE)/12",
+      "x_c=(dG-2dA+15dE)/12"
+    ]
+  },
+  "phase_cost": {
+    "formula": "q(n) = n^T G_phase n, ||n|| = 1",
+    "G_phase": [
+      [
+        2.9764106378,
+        1.2431507795,
+        -2.0803600354
+      ],
+      [
+        1.2431507795,
+        2.5922286635,
+        -2.3178839937
+      ],
+      [
+        -2.0803600354,
+        -2.3178839937,
+        6.7735709133
+      ]
+    ],
+    "address_coupling_W_nm2": [
+      [
+        0.08335330263345708,
+        0.13750057660358808,
+        0.10255921122195821
+      ],
+      [
+        0.1375005766035881,
+        0.6924000428485476,
+        0.5508009044534695
+      ],
+      [
+        0.10255921122195823,
+        0.5508009044534695,
+        0.5877476523533913
+      ]
+    ],
+    "identity": "G_phase = 4 B^(-T) W B^(-1)",
+    "critical_axes": [
+      {
+        "name": "soft",
+        "eigenvalue": 1.4293287534874834,
+        "unit_vector": [
+          -0.4089530672843345,
+          0.8845250094313242,
+          0.2244390706834493
+        ],
+        "ra_deg": 114.81308365087226,
+        "dec_deg": 12.969895703630478,
+        "entropy_penalty_at_axis_per_nm2": 5.738931542435257
+      },
+      {
+        "name": "saddle",
+        "eigenvalue": 2.1125450264474788,
+        "unit_vector": [
+          -0.8285538959646047,
+          -0.2568323054783916,
+          -0.4975295049989798
+        ],
+        "ra_deg": 197.22221211867645,
+        "dec_deg": -29.836687522331825,
+        "entropy_penalty_at_axis_per_nm2": 7.103047066506027
+      },
+      {
+        "name": "hard",
+        "eigenvalue": 8.800336434665038,
+        "unit_vector": [
+          -0.3824340861385266,
+          -0.38942608355523645,
+          0.8379090017455477
+        ],
+        "ra_deg": 225.51900719935855,
+        "dec_deg": 56.91996962268213,
+        "entropy_penalty_at_axis_per_nm2": 4.0006165067948025
+      }
+    ],
+    "precession_equation": "n_dot = -(2/L) n x (G_phase n)",
+    "conservation_law": "dq/dt = 0",
+    "angular_speed": "||n_dot|| = (2/L)||n x G_phase n||"
+  },
+  "entropy": {
+    "log_base": "natural",
+    "history_entropy_nats": 17.91759469228055,
+    "endpoint_entropy_nats": 5.364728188272016,
+    "mean_conditional_fiber_entropy_nats": 12.552866504008534,
+    "chain_rule_residual_nats": -1.7763568394002505e-15,
+    "reachable_support_count": 891,
+    "effective_endpoint_count_exp_H": 213.73313161291904,
+    "effective_fiber_multiplicity_exp_H": 282905.0205913193,
+    "participation_ratio": 140.67954114645275
+  },
+  "scalar_serialization": {
+    "mean": 5.814814814814815,
+    "median": 4.0,
+    "max": 23,
+    "consecutive": 8,
+    "axis_means": [
+      7.333333333333333,
+      4.111111111111111,
+      6.0
+    ]
+  },
+  "projective_geometry": {
+    "incidence_N": [
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "channels": [
+      {
+        "id": 1,
+        "representative": [
+          0,
+          0,
+          1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.6277706100772958,
+        "q_recip_nm^-2": 2.7311712747116945,
+        "incidences": [
+          2,
+          5,
+          8,
+          11
+        ]
+      },
+      {
+        "id": 2,
+        "representative": [
+          0,
+          1,
+          0
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.343877732392787,
+        "q_recip_nm^-2": 4.903398312367987,
+        "incidences": [
+          1,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": 3,
+        "representative": [
+          0,
+          1,
+          1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 1.5644338603931285,
+        "q_recip_nm^-2": 3.004218418246903,
+        "incidences": [
+          4,
+          5,
+          10,
+          12
+        ]
+      },
+      {
+        "id": 4,
+        "representative": [
+          0,
+          1,
+          -1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.37886282454703707,
+        "q_recip_nm^-2": 12.26492075591246,
+        "incidences": [
+          3,
+          5,
+          9,
+          13
+        ]
+      },
+      {
+        "id": 5,
+        "representative": [
+          1,
+          0,
+          0
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.11167605789605009,
+        "q_recip_nm^-2": 9.208025529457549,
+        "incidences": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": 6,
+        "representative": [
+          1,
+          0,
+          1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.8273211381657856,
+        "q_recip_nm^-2": 10.648820732769366,
+        "incidences": [
+          2,
+          7,
+          10,
+          13
+        ]
+      },
+      {
+        "id": 7,
+        "representative": [
+          1,
+          0,
+          -1
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.6515721977809064,
+        "q_recip_nm^-2": 13.22957287556912,
+        "incidences": [
+          2,
+          6,
+          9,
+          12
+        ]
+      },
+      {
+        "id": 8,
+        "representative": [
+          1,
+          1,
+          0
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.4969744568500487,
+        "q_recip_nm^-2": 14.114493446681921,
+        "incidences": [
+          1,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": 9,
+        "representative": [
+          1,
+          1,
+          1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 1.8054050550428298,
+        "q_recip_nm^-2": 10.92493748116096,
+        "incidences": [
+          4,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "id": 10,
+        "representative": [
+          1,
+          1,
+          -1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.4440850788118592,
+        "q_recip_nm^-2": 22.76639196162627,
+        "incidences": [
+          3,
+          6,
+          10,
+          11
+        ]
+      },
+      {
+        "id": 11,
+        "representative": [
+          1,
+          -1,
+          0
+        ],
+        "polarity": 1,
+        "role": "metric",
+        "q_direct_nm2": 0.4141331237276255,
+        "q_recip_nm^-2": 14.10835423696915,
+        "incidences": [
+          1,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 12,
+        "representative": [
+          1,
+          -1,
+          1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 0.536992686074315,
+        "q_recip_nm^-2": 20.179500609113745,
+        "incidences": [
+          3,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "id": 13,
+        "representative": [
+          1,
+          -1,
+          -1
+        ],
+        "polarity": -1,
+        "role": "syndrome",
+        "q_direct_nm2": 1.5468147815355275,
+        "q_recip_nm^-2": 13.499550414247944,
+        "incidences": [
+          4,
+          6,
+          8,
+          13
+        ]
+      }
+    ],
+    "metric_rank": 6,
+    "syndrome_dimension": 7
+  },
+  "lucas_hierarchy": {
+    "levels": [
+      {
+        "g": 0,
+        "m_cells_per_axis": 1,
+        "cell3_count": 1,
+        "corner_nodes": 8,
+        "half_step_nodes_per_axis": 3,
+        "half_step_nodes": 27,
+        "lambda_sheets": 7,
+        "central_lambda_sheet_nodes": 7,
+        "antipodal_pairs": 13,
+        "internal_interfaces": 0,
+        "exposed_primitive_faces": 6,
+        "internal_to_exposed_interface_ratio": 0.0,
+        "strictly_interior_cell3_count": 0,
+        "strictly_interior_cell3_fraction": 0.0,
+        "strictly_interior_half_step_node_count": 1,
+        "strictly_interior_half_step_node_fraction": 0.037037037037037035,
+        "cell_center_graph_cycle_rank": 0,
+        "outer_basis_matrix_nm": [
+          [
+            0.3275012420558906,
+            0.0353307758438284,
+            -0.01012931762672882
+          ],
+          [
+            -0.054897007884006435,
+            0.20731985044019177,
+            -0.38978770236625987
+          ],
+          [
+            -0.037487502894729914,
+            -0.5474010853885081,
+            -0.6897344083672676
+          ]
+        ],
+        "outer_edge_lengths_nm": [
+          0.3341796790591105,
+          0.5864108904111408,
+          0.7923197650426852
+        ],
+        "outer_face_areas_nm2": {
+          "ab": 0.19486916546048413,
+          "ac": 0.2611062357902053,
+          "bc": 0.3578095391285615
+        },
+        "volume_nm3": 0.11791489191174465,
+        "opposite_face_spans_nm": {
+          "a": 0.32954652969544684,
+          "b": 0.4515973797212847,
+          "c": 0.6050977415185554
+        },
+        "body_diagonal_nm": 1.3436536216759252
+      },
+      {
+        "g": 1,
+        "m_cells_per_axis": 3,
+        "cell3_count": 27,
+        "corner_nodes": 64,
+        "half_step_nodes_per_axis": 7,
+        "half_step_nodes": 343,
+        "lambda_sheets": 19,
+        "central_lambda_sheet_nodes": 37,
+        "antipodal_pairs": 171,
+        "internal_interfaces": 54,
+        "exposed_primitive_faces": 54,
+        "internal_to_exposed_interface_ratio": 1.0,
+        "strictly_interior_cell3_count": 1,
+        "strictly_interior_cell3_fraction": 0.037037037037037035,
+        "strictly_interior_half_step_node_count": 125,
+        "strictly_interior_half_step_node_fraction": 0.36443148688046645,
+        "cell_center_graph_cycle_rank": 28,
+        "outer_basis_matrix_nm": [
+          [
+            0.9825037261676718,
+            0.10599232753148519,
+            -0.03038795288018646
+          ],
+          [
+            -0.16469102365201932,
+            0.6219595513205753,
+            -1.1693631070987796
+          ],
+          [
+            -0.11246250868418975,
+            -1.6422032561655242,
+            -2.069203225101803
+          ]
+        ],
+        "outer_edge_lengths_nm": [
+          1.0025390371773315,
+          1.7592326712334225,
+          2.3769592951280556
+        ],
+        "outer_face_areas_nm2": {
+          "ab": 1.7538224891443572,
+          "ac": 2.349956122111848,
+          "bc": 3.2202858521570534
+        },
+        "volume_nm3": 3.1837020816171053,
+        "opposite_face_spans_nm": {
+          "a": 0.9886395890863405,
+          "b": 1.3547921391638542,
+          "c": 1.8152932245556663
+        },
+        "body_diagonal_nm": 4.030960865027776
+      },
+      {
+        "g": 2,
+        "m_cells_per_axis": 9,
+        "cell3_count": 729,
+        "corner_nodes": 1000,
+        "half_step_nodes_per_axis": 19,
+        "half_step_nodes": 6859,
+        "lambda_sheets": 55,
+        "central_lambda_sheet_nodes": 271,
+        "antipodal_pairs": 3429,
+        "internal_interfaces": 1944,
+        "exposed_primitive_faces": 486,
+        "internal_to_exposed_interface_ratio": 4.0,
+        "strictly_interior_cell3_count": 343,
+        "strictly_interior_cell3_fraction": 0.47050754458161864,
+        "strictly_interior_half_step_node_count": 4913,
+        "strictly_interior_half_step_node_fraction": 0.7162851727657092,
+        "cell_center_graph_cycle_rank": 1216,
+        "outer_basis_matrix_nm": [
+          [
+            2.9475111785030155,
+            0.31797698259445556,
+            -0.09116385864055938
+          ],
+          [
+            -0.4940730709560579,
+            1.865878653961726,
+            -3.508089321296339
+          ],
+          [
+            -0.3373875260525692,
+            -4.926609768496572,
+            -6.207609675305409
+          ]
+        ],
+        "outer_edge_lengths_nm": [
+          3.0076171115319945,
+          5.277698013700268,
+          7.130877885384167
+        ],
+        "outer_face_areas_nm2": {
+          "ab": 15.784402402299214,
+          "ac": 21.14960509900663,
+          "bc": 28.982572669413482
+        },
+        "volume_nm3": 85.95995620366185,
+        "opposite_face_spans_nm": {
+          "a": 2.9659187672590215,
+          "b": 4.064376417491562,
+          "c": 5.445879673666999
+        },
+        "body_diagonal_nm": 12.092882595083326
+      },
+      {
+        "g": 3,
+        "m_cells_per_axis": 27,
+        "cell3_count": 19683,
+        "corner_nodes": 21952,
+        "half_step_nodes_per_axis": 55,
+        "half_step_nodes": 166375,
+        "lambda_sheets": 163,
+        "central_lambda_sheet_nodes": 2269,
+        "antipodal_pairs": 83187,
+        "internal_interfaces": 56862,
+        "exposed_primitive_faces": 4374,
+        "internal_to_exposed_interface_ratio": 13.0,
+        "strictly_interior_cell3_count": 15625,
+        "strictly_interior_cell3_fraction": 0.7938322410201697,
+        "strictly_interior_half_step_node_count": 148877,
+        "strictly_interior_half_step_node_fraction": 0.8948279489105936,
+        "cell_center_graph_cycle_rank": 37180,
+        "outer_basis_matrix_nm": [
+          [
+            8.842533535509046,
+            0.9539309477833667,
+            -0.27349157592167816
+          ],
+          [
+            -1.4822192128681737,
+            5.597635961885178,
+            -10.524267963889017
+          ],
+          [
+            -1.0121625781577077,
+            -14.779829305489718,
+            -18.622829025916225
+          ]
+        ],
+        "outer_edge_lengths_nm": [
+          9.022851334595984,
+          15.833094041100802,
+          21.3926336561525
+        ],
+        "outer_face_areas_nm2": {
+          "ab": 142.05962162069292,
+          "ac": 190.34644589105966,
+          "bc": 260.84315402472134
+        },
+        "volume_nm3": 2320.91881749887,
+        "opposite_face_spans_nm": {
+          "a": 8.897756301777065,
+          "b": 12.193129252474687,
+          "c": 16.337639021000996
+        },
+        "body_diagonal_nm": 36.27864778524998
+      },
+      {
+        "g": 4,
+        "m_cells_per_axis": 81,
+        "cell3_count": 531441,
+        "corner_nodes": 551368,
+        "half_step_nodes_per_axis": 163,
+        "half_step_nodes": 4330747,
+        "lambda_sheets": 487,
+        "central_lambda_sheet_nodes": 19927,
+        "antipodal_pairs": 2165373,
+        "internal_interfaces": 1574640,
+        "exposed_primitive_faces": 39366,
+        "internal_to_exposed_interface_ratio": 40.0,
+        "strictly_interior_cell3_count": 493039,
+        "strictly_interior_cell3_fraction": 0.9277398619978511,
+        "strictly_interior_half_step_node_count": 4173281,
+        "strictly_interior_half_step_node_fraction": 0.9636399909761526,
+        "cell_center_graph_cycle_rank": 1043200,
+        "outer_basis_matrix_nm": [
+          [
+            26.527600606527137,
+            2.8617928433501003,
+            -0.8204747277650345
+          ],
+          [
+            -4.446657638604521,
+            16.792907885655534,
+            -31.57280389166705
+          ],
+          [
+            -3.036487734473123,
+            -44.33948791646915,
+            -55.868487077748675
+          ]
+        ],
+        "outer_edge_lengths_nm": [
+          27.068554003787952,
+          47.49928212330241,
+          64.17790096845751
+        ],
+        "outer_face_areas_nm2": {
+          "ab": 1278.5365945862363,
+          "ac": 1713.118013019537,
+          "bc": 2347.588386222492
+        },
+        "volume_nm3": 62664.80807246949,
+        "opposite_face_spans_nm": {
+          "a": 26.693268905331195,
+          "b": 36.579387757424065,
+          "c": 49.01291706300299
+        },
+        "body_diagonal_nm": 108.83594335574993
+      },
+      {
+        "g": 5,
+        "m_cells_per_axis": 243,
+        "cell3_count": 14348907,
+        "corner_nodes": 14526784,
+        "half_step_nodes_per_axis": 487,
+        "half_step_nodes": 115501303,
+        "lambda_sheets": 1459,
+        "central_lambda_sheet_nodes": 177877,
+        "antipodal_pairs": 57750651,
+        "internal_interfaces": 42869574,
+        "exposed_primitive_faces": 354294,
+        "internal_to_exposed_interface_ratio": 121.0,
+        "strictly_interior_cell3_count": 13997521,
+        "strictly_interior_cell3_fraction": 0.9755113054952548,
+        "strictly_interior_half_step_node_count": 114084125,
+        "strictly_interior_half_step_node_fraction": 0.9877301990264127,
+        "cell_center_graph_cycle_rank": 28520668,
+        "outer_basis_matrix_nm": [
+          [
+            79.58280181958142,
+            8.585378530050301,
+            -2.461424183295103
+          ],
+          [
+            -13.339972915813563,
+            50.3787236569666,
+            -94.71841167500115
+          ],
+          [
+            -9.109463203419368,
+            -133.01846374940746,
+            -167.60546123324605
+          ]
+        ],
+        "outer_edge_lengths_nm": [
+          81.20566201136386,
+          142.49784636990722,
+          192.5337029053725
+        ],
+        "outer_face_areas_nm2": {
+          "ab": 11506.829351276128,
+          "ac": 15418.062117175834,
+          "bc": 21128.29547600243
+        },
+        "volume_nm3": 1691949.8179566762,
+        "opposite_face_spans_nm": {
+          "a": 80.07980671599358,
+          "b": 109.73816327227219,
+          "c": 147.03875118900896
+        },
+        "body_diagonal_nm": 326.5078300672498
+      },
+      {
+        "g": 6,
+        "m_cells_per_axis": 729,
+        "cell3_count": 387420489,
+        "corner_nodes": 389017000,
+        "half_step_nodes_per_axis": 1459,
+        "half_step_nodes": 3105745579,
+        "lambda_sheets": 4375,
+        "central_lambda_sheet_nodes": 1596511,
+        "antipodal_pairs": 1552872789,
+        "internal_interfaces": 1160667144,
+        "exposed_primitive_faces": 3188646,
+        "internal_to_exposed_interface_ratio": 364.0,
+        "strictly_interior_cell3_count": 384240583,
+        "strictly_interior_cell3_fraction": 0.9917921067927824,
+        "strictly_interior_half_step_node_count": 3092990993,
+        "strictly_interior_half_step_node_fraction": 0.9958932289604654,
+        "cell_center_graph_cycle_rank": 773246656,
+        "outer_basis_matrix_nm": [
+          [
+            238.74840545874423,
+            25.7561355901509,
+            -7.38427254988531
+          ],
+          [
+            -40.01991874744069,
+            151.1361709708998,
+            -284.15523502500344
+          ],
+          [
+            -27.328389610258107,
+            -399.0553912482224,
+            -502.8163836997381
+          ]
+        ],
+        "outer_edge_lengths_nm": [
+          243.61698603409155,
+          427.49353910972167,
+          577.6011087161176
+        ],
+        "outer_face_areas_nm2": {
+          "ab": 103561.46416148514,
+          "ac": 138762.5590545825,
+          "bc": 190154.65928402185
+        },
+        "volume_nm3": 45682645.084830254,
+        "opposite_face_spans_nm": {
+          "a": 240.23942014798075,
+          "b": 329.2144898168166,
+          "c": 441.11625356702694
+        },
+        "body_diagonal_nm": 979.5234902017495
+      }
+    ],
+    "lucas_supergroup": {
+      "n": 9,
+      "f_polynomial": "(10+9t)^3 = 1000 + 2700t + 2430t^2 + 729t^3",
+      "cubical_counts": {
+        "C0": 1000,
+        "C1": 2700,
+        "C2": 2430,
+        "C3": 729
+      },
+      "half_step_states": 6859,
+      "sheet_count": 55,
+      "sheet_records": [
+        {
+          "lambda": -27,
+          "population": 1,
+          "chi": -1,
+          "offset_nm": -4.084362577005915
+        },
+        {
+          "lambda": -26,
+          "population": 3,
+          "chi": 1,
+          "offset_nm": -3.9330898889686585
+        },
+        {
+          "lambda": -25,
+          "population": 6,
+          "chi": -1,
+          "offset_nm": -3.7818172009314024
+        },
+        {
+          "lambda": -24,
+          "population": 10,
+          "chi": 1,
+          "offset_nm": -3.6305445128941463
+        },
+        {
+          "lambda": -23,
+          "population": 15,
+          "chi": -1,
+          "offset_nm": -3.4792718248568906
+        },
+        {
+          "lambda": -22,
+          "population": 21,
+          "chi": 1,
+          "offset_nm": -3.3279991368196344
+        },
+        {
+          "lambda": -21,
+          "population": 28,
+          "chi": -1,
+          "offset_nm": -3.1767264487823783
+        },
+        {
+          "lambda": -20,
+          "population": 36,
+          "chi": 1,
+          "offset_nm": -3.025453760745122
+        },
+        {
+          "lambda": -19,
+          "population": 45,
+          "chi": -1,
+          "offset_nm": -2.874181072707866
+        },
+        {
+          "lambda": -18,
+          "population": 55,
+          "chi": 1,
+          "offset_nm": -2.72290838467061
+        },
+        {
+          "lambda": -17,
+          "population": 66,
+          "chi": -1,
+          "offset_nm": -2.571635696633354
+        },
+        {
+          "lambda": -16,
+          "population": 78,
+          "chi": 1,
+          "offset_nm": -2.4203630085960977
+        },
+        {
+          "lambda": -15,
+          "population": 91,
+          "chi": -1,
+          "offset_nm": -2.2690903205588415
+        },
+        {
+          "lambda": -14,
+          "population": 105,
+          "chi": 1,
+          "offset_nm": -2.1178176325215854
+        },
+        {
+          "lambda": -13,
+          "population": 120,
+          "chi": -1,
+          "offset_nm": -1.9665449444843293
+        },
+        {
+          "lambda": -12,
+          "population": 136,
+          "chi": 1,
+          "offset_nm": -1.8152722564470731
+        },
+        {
+          "lambda": -11,
+          "population": 153,
+          "chi": -1,
+          "offset_nm": -1.6639995684098172
+        },
+        {
+          "lambda": -10,
+          "population": 171,
+          "chi": 1,
+          "offset_nm": -1.512726880372561
+        },
+        {
+          "lambda": -9,
+          "population": 190,
+          "chi": -1,
+          "offset_nm": -1.361454192335305
+        },
+        {
+          "lambda": -8,
+          "population": 207,
+          "chi": 1,
+          "offset_nm": -1.2101815042980488
+        },
+        {
+          "lambda": -7,
+          "population": 222,
+          "chi": -1,
+          "offset_nm": -1.0589088162607927
+        },
+        {
+          "lambda": -6,
+          "population": 235,
+          "chi": 1,
+          "offset_nm": -0.9076361282235366
+        },
+        {
+          "lambda": -5,
+          "population": 246,
+          "chi": -1,
+          "offset_nm": -0.7563634401862805
+        },
+        {
+          "lambda": -4,
+          "population": 255,
+          "chi": 1,
+          "offset_nm": -0.6050907521490244
+        },
+        {
+          "lambda": -3,
+          "population": 262,
+          "chi": -1,
+          "offset_nm": -0.4538180641117683
+        },
+        {
+          "lambda": -2,
+          "population": 267,
+          "chi": 1,
+          "offset_nm": -0.3025453760745122
+        },
+        {
+          "lambda": -1,
+          "population": 270,
+          "chi": -1,
+          "offset_nm": -0.1512726880372561
+        },
+        {
+          "lambda": 0,
+          "population": 271,
+          "chi": 1,
+          "offset_nm": 0.0
+        },
+        {
+          "lambda": 1,
+          "population": 270,
+          "chi": -1,
+          "offset_nm": 0.1512726880372561
+        },
+        {
+          "lambda": 2,
+          "population": 267,
+          "chi": 1,
+          "offset_nm": 0.3025453760745122
+        },
+        {
+          "lambda": 3,
+          "population": 262,
+          "chi": -1,
+          "offset_nm": 0.4538180641117683
+        },
+        {
+          "lambda": 4,
+          "population": 255,
+          "chi": 1,
+          "offset_nm": 0.6050907521490244
+        },
+        {
+          "lambda": 5,
+          "population": 246,
+          "chi": -1,
+          "offset_nm": 0.7563634401862805
+        },
+        {
+          "lambda": 6,
+          "population": 235,
+          "chi": 1,
+          "offset_nm": 0.9076361282235366
+        },
+        {
+          "lambda": 7,
+          "population": 222,
+          "chi": -1,
+          "offset_nm": 1.0589088162607927
+        },
+        {
+          "lambda": 8,
+          "population": 207,
+          "chi": 1,
+          "offset_nm": 1.2101815042980488
+        },
+        {
+          "lambda": 9,
+          "population": 190,
+          "chi": -1,
+          "offset_nm": 1.361454192335305
+        },
+        {
+          "lambda": 10,
+          "population": 171,
+          "chi": 1,
+          "offset_nm": 1.512726880372561
+        },
+        {
+          "lambda": 11,
+          "population": 153,
+          "chi": -1,
+          "offset_nm": 1.6639995684098172
+        },
+        {
+          "lambda": 12,
+          "population": 136,
+          "chi": 1,
+          "offset_nm": 1.8152722564470731
+        },
+        {
+          "lambda": 13,
+          "population": 120,
+          "chi": -1,
+          "offset_nm": 1.9665449444843293
+        },
+        {
+          "lambda": 14,
+          "population": 105,
+          "chi": 1,
+          "offset_nm": 2.1178176325215854
+        },
+        {
+          "lambda": 15,
+          "population": 91,
+          "chi": -1,
+          "offset_nm": 2.2690903205588415
+        },
+        {
+          "lambda": 16,
+          "population": 78,
+          "chi": 1,
+          "offset_nm": 2.4203630085960977
+        },
+        {
+          "lambda": 17,
+          "population": 66,
+          "chi": -1,
+          "offset_nm": 2.571635696633354
+        },
+        {
+          "lambda": 18,
+          "population": 55,
+          "chi": 1,
+          "offset_nm": 2.72290838467061
+        },
+        {
+          "lambda": 19,
+          "population": 45,
+          "chi": -1,
+          "offset_nm": 2.874181072707866
+        },
+        {
+          "lambda": 20,
+          "population": 36,
+          "chi": 1,
+          "offset_nm": 3.025453760745122
+        },
+        {
+          "lambda": 21,
+          "population": 28,
+          "chi": -1,
+          "offset_nm": 3.1767264487823783
+        },
+        {
+          "lambda": 22,
+          "population": 21,
+          "chi": 1,
+          "offset_nm": 3.3279991368196344
+        },
+        {
+          "lambda": 23,
+          "population": 15,
+          "chi": -1,
+          "offset_nm": 3.4792718248568906
+        },
+        {
+          "lambda": 24,
+          "population": 10,
+          "chi": 1,
+          "offset_nm": 3.6305445128941463
+        },
+        {
+          "lambda": 25,
+          "population": 6,
+          "chi": -1,
+          "offset_nm": 3.7818172009314024
+        },
+        {
+          "lambda": 26,
+          "population": 3,
+          "chi": 1,
+          "offset_nm": 3.9330898889686585
+        },
+        {
+          "lambda": 27,
+          "population": 1,
+          "chi": -1,
+          "offset_nm": 4.084362577005915
+        }
+      ],
+      "central_sheet_population": 271,
+      "noncentral_antipodal_pairs": 3429,
+      "center_graph": {
+        "interfaces": 1944,
+        "plaquettes": 1728,
+        "cubes": 512,
+        "cycle_rank": 1216
+      },
+      "exposed_primitive_faces": 486,
+      "interface_decomposition": {
+        "intragroup": 1458,
+        "intergroup": 486,
+        "external": 486,
+        "ratio": "3:1:1"
+      },
+      "outer_shell_nodes": 1946,
+      "identity": "1946 = 1944 + 2",
+      "outer_shell_antipodal_pairs": 973,
+      "inherited_radius_three_pairs": 109,
+      "new_primitive_projective_directions": 864,
+      "mass_bridge_grid_match": {
+        "nodes_per_edge": 10,
+        "nodes_per_coordinate_face": 100,
+        "corner_nodes": 1000
+      }
+    },
+    "devon_super_sheet_profile_n9": [
+      {
+        "lambda": -27,
+        "population": 1,
+        "polarity": -1,
+        "signed_population": -1
+      },
+      {
+        "lambda": -26,
+        "population": 3,
+        "polarity": 1,
+        "signed_population": 3
+      },
+      {
+        "lambda": -25,
+        "population": 6,
+        "polarity": -1,
+        "signed_population": -6
+      },
+      {
+        "lambda": -24,
+        "population": 10,
+        "polarity": 1,
+        "signed_population": 10
+      },
+      {
+        "lambda": -23,
+        "population": 15,
+        "polarity": -1,
+        "signed_population": -15
+      },
+      {
+        "lambda": -22,
+        "population": 21,
+        "polarity": 1,
+        "signed_population": 21
+      },
+      {
+        "lambda": -21,
+        "population": 28,
+        "polarity": -1,
+        "signed_population": -28
+      },
+      {
+        "lambda": -20,
+        "population": 36,
+        "polarity": 1,
+        "signed_population": 36
+      },
+      {
+        "lambda": -19,
+        "population": 45,
+        "polarity": -1,
+        "signed_population": -45
+      },
+      {
+        "lambda": -18,
+        "population": 55,
+        "polarity": 1,
+        "signed_population": 55
+      },
+      {
+        "lambda": -17,
+        "population": 66,
+        "polarity": -1,
+        "signed_population": -66
+      },
+      {
+        "lambda": -16,
+        "population": 78,
+        "polarity": 1,
+        "signed_population": 78
+      },
+      {
+        "lambda": -15,
+        "population": 91,
+        "polarity": -1,
+        "signed_population": -91
+      },
+      {
+        "lambda": -14,
+        "population": 105,
+        "polarity": 1,
+        "signed_population": 105
+      },
+      {
+        "lambda": -13,
+        "population": 120,
+        "polarity": -1,
+        "signed_population": -120
+      },
+      {
+        "lambda": -12,
+        "population": 136,
+        "polarity": 1,
+        "signed_population": 136
+      },
+      {
+        "lambda": -11,
+        "population": 153,
+        "polarity": -1,
+        "signed_population": -153
+      },
+      {
+        "lambda": -10,
+        "population": 171,
+        "polarity": 1,
+        "signed_population": 171
+      },
+      {
+        "lambda": -9,
+        "population": 190,
+        "polarity": -1,
+        "signed_population": -190
+      },
+      {
+        "lambda": -8,
+        "population": 207,
+        "polarity": 1,
+        "signed_population": 207
+      },
+      {
+        "lambda": -7,
+        "population": 222,
+        "polarity": -1,
+        "signed_population": -222
+      },
+      {
+        "lambda": -6,
+        "population": 235,
+        "polarity": 1,
+        "signed_population": 235
+      },
+      {
+        "lambda": -5,
+        "population": 246,
+        "polarity": -1,
+        "signed_population": -246
+      },
+      {
+        "lambda": -4,
+        "population": 255,
+        "polarity": 1,
+        "signed_population": 255
+      },
+      {
+        "lambda": -3,
+        "population": 262,
+        "polarity": -1,
+        "signed_population": -262
+      },
+      {
+        "lambda": -2,
+        "population": 267,
+        "polarity": 1,
+        "signed_population": 267
+      },
+      {
+        "lambda": -1,
+        "population": 270,
+        "polarity": -1,
+        "signed_population": -270
+      },
+      {
+        "lambda": 0,
+        "population": 271,
+        "polarity": 1,
+        "signed_population": 271
+      },
+      {
+        "lambda": 1,
+        "population": 270,
+        "polarity": -1,
+        "signed_population": -270
+      },
+      {
+        "lambda": 2,
+        "population": 267,
+        "polarity": 1,
+        "signed_population": 267
+      },
+      {
+        "lambda": 3,
+        "population": 262,
+        "polarity": -1,
+        "signed_population": -262
+      },
+      {
+        "lambda": 4,
+        "population": 255,
+        "polarity": 1,
+        "signed_population": 255
+      },
+      {
+        "lambda": 5,
+        "population": 246,
+        "polarity": -1,
+        "signed_population": -246
+      },
+      {
+        "lambda": 6,
+        "population": 235,
+        "polarity": 1,
+        "signed_population": 235
+      },
+      {
+        "lambda": 7,
+        "population": 222,
+        "polarity": -1,
+        "signed_population": -222
+      },
+      {
+        "lambda": 8,
+        "population": 207,
+        "polarity": 1,
+        "signed_population": 207
+      },
+      {
+        "lambda": 9,
+        "population": 190,
+        "polarity": -1,
+        "signed_population": -190
+      },
+      {
+        "lambda": 10,
+        "population": 171,
+        "polarity": 1,
+        "signed_population": 171
+      },
+      {
+        "lambda": 11,
+        "population": 153,
+        "polarity": -1,
+        "signed_population": -153
+      },
+      {
+        "lambda": 12,
+        "population": 136,
+        "polarity": 1,
+        "signed_population": 136
+      },
+      {
+        "lambda": 13,
+        "population": 120,
+        "polarity": -1,
+        "signed_population": -120
+      },
+      {
+        "lambda": 14,
+        "population": 105,
+        "polarity": 1,
+        "signed_population": 105
+      },
+      {
+        "lambda": 15,
+        "population": 91,
+        "polarity": -1,
+        "signed_population": -91
+      },
+      {
+        "lambda": 16,
+        "population": 78,
+        "polarity": 1,
+        "signed_population": 78
+      },
+      {
+        "lambda": 17,
+        "population": 66,
+        "polarity": -1,
+        "signed_population": -66
+      },
+      {
+        "lambda": 18,
+        "population": 55,
+        "polarity": 1,
+        "signed_population": 55
+      },
+      {
+        "lambda": 19,
+        "population": 45,
+        "polarity": -1,
+        "signed_population": -45
+      },
+      {
+        "lambda": 20,
+        "population": 36,
+        "polarity": 1,
+        "signed_population": 36
+      },
+      {
+        "lambda": 21,
+        "population": 28,
+        "polarity": -1,
+        "signed_population": -28
+      },
+      {
+        "lambda": 22,
+        "population": 21,
+        "polarity": 1,
+        "signed_population": 21
+      },
+      {
+        "lambda": 23,
+        "population": 15,
+        "polarity": -1,
+        "signed_population": -15
+      },
+      {
+        "lambda": 24,
+        "population": 10,
+        "polarity": 1,
+        "signed_population": 10
+      },
+      {
+        "lambda": 25,
+        "population": 6,
+        "polarity": -1,
+        "signed_population": -6
+      },
+      {
+        "lambda": 26,
+        "population": 3,
+        "polarity": 1,
+        "signed_population": 3
+      },
+      {
+        "lambda": 27,
+        "population": 1,
+        "polarity": -1,
+        "signed_population": -1
+      }
+    ],
+    "recursive_channels": [
+      729,
+      81,
+      9,
+      1
+    ]
+  },
+  "witnesses_29": [
+    {
+      "row": "A001",
+      "name": "Reduced mass factor mu_ep",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.999455679424762",
+      "comparison_value": "0.999455679424762"
+    },
+    {
+      "row": "A002",
+      "name": "Proton/electron mass ratio eta",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "1836.15267342618",
+      "comparison_value": "1836.152673426"
+    },
+    {
+      "row": "A003",
+      "name": "Electron/proton mass ratio",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.000544617021488765",
+      "comparison_value": "0.000544617021488819"
+    },
+    {
+      "row": "A006",
+      "name": "Mass/fine denominator bridge R_acab",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "1.33990534199293",
+      "comparison_value": "1.33990534199292"
+    },
+    {
+      "row": "A007",
+      "name": "Fine-structure surrogate alpha_N",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.00729735256433073",
+      "comparison_value": "0.00729735256433142"
+    },
+    {
+      "row": "A008",
+      "name": "Speed surrogate c_N",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "137.035999177013",
+      "comparison_value": "137.035999177"
+    },
+    {
+      "row": "A011",
+      "name": "Carrier/mass quotient C_m",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "1.83615267342618",
+      "comparison_value": "1.836152673426"
+    },
+    {
+      "row": "A012",
+      "name": "Carrier/fine quotient C_alpha",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "1.37035999177013",
+      "comparison_value": "1.37035999177"
+    },
+    {
+      "row": "A014",
+      "name": "Electron reduced Compton-like length",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.00729735256433073",
+      "comparison_value": "0.00729735256433142"
+    },
+    {
+      "row": "A016",
+      "name": "Electron full Compton-like length",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.0458506184135121",
+      "comparison_value": "0.0458506184135165"
+    },
+    {
+      "row": "A018",
+      "name": "Classical-radius-like analogue",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "5.325135444814430e-05",
+      "comparison_value": "5.325135444815440e-05"
+    },
+    {
+      "row": "A030",
+      "name": "Thomson-cross-section-like analogue",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "2.375636132080060e-08",
+      "comparison_value": "2.375636132080970e-08"
+    },
+    {
+      "row": "A038",
+      "name": "Rydberg-constant-like wavenumber",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.00364867628216536",
+      "comparison_value": "0.00364867628216571"
+    },
+    {
+      "row": "A039",
+      "name": "Hydrogen Rydberg-like wavenumber",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.0036466902325926",
+      "comparison_value": "0.00364669023259295"
+    },
+    {
+      "row": "A027",
+      "name": "Magneton ratio",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "1836.15267342618",
+      "comparison_value": "1836.152673426"
+    },
+    {
+      "row": "A031",
+      "name": "Vacuum-permeability-like mu0,N",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.000106502708896289",
+      "comparison_value": "0.000106502708896309"
+    },
+    {
+      "row": "A033",
+      "name": "Vacuum-impedance-like Z0,N",
+      "branch": "non-G",
+      "lock_class": "selected precision witness",
+      "native_or_model_value": "0.0145947051286615",
+      "comparison_value": "0.0145947051286628"
+    },
+    {
+      "row": "A048",
+      "name": "Newtonian gravitational constant G",
+      "branch": "G-family",
+      "lock_class": "observer-rendered G lock",
+      "native_or_model_value": "6.674300000000000e-11 m^3 kg^-1 s^-2",
+      "comparison_value": "6.674300000000000e-11 m^3 kg^-1 s^-2",
+      "formula": "G_final = Gamma2 C_G_obs_SI",
+      "observer_rendered": true
+    },
+    {
+      "row": "A050",
+      "name": "Electron gravitational coupling alpha_G,e",
+      "branch": "G-family",
+      "lock_class": "observer-rendered G-derived lock",
+      "native_or_model_value": "1.751809398790771e-45",
+      "comparison_value": "1.751809398790770e-45",
+      "formula": "G_final m_e^2/(hbar c)",
+      "observer_rendered": true
+    },
+    {
+      "row": "A051",
+      "name": "Electron-proton gravitational coupling alpha_G,ep",
+      "branch": "G-family",
+      "lock_class": "observer-rendered G-derived lock",
+      "native_or_model_value": "3.216589510914632e-42",
+      "comparison_value": "3.216589510914630e-42",
+      "formula": "G_final m_e m_p/(hbar c)",
+      "observer_rendered": true
+    },
+    {
+      "row": "A052",
+      "name": "Proton gravitational coupling alpha_G,p",
+      "branch": "G-family",
+      "lock_class": "observer-rendered G-derived lock",
+      "native_or_model_value": "5.906149429765542e-39",
+      "comparison_value": "5.906149429765540e-39",
+      "formula": "G_final m_p^2/(hbar c)",
+      "observer_rendered": true
+    },
+    {
+      "row": "A053",
+      "name": "Planck length l_P",
+      "branch": "G-family",
+      "lock_class": "observer-rendered SI Planck lock",
+      "native_or_model_value": "1.616255024423705e-35 m",
+      "comparison_value": "1.616255024423710e-35 m",
+      "formula": "sqrt(hbar G_final/c^3)",
+      "observer_rendered": true
+    },
+    {
+      "row": "A054",
+      "name": "Planck time t_P",
+      "branch": "G-family",
+      "lock_class": "observer-rendered SI Planck lock",
+      "native_or_model_value": "5.391246448313604e-44 s",
+      "comparison_value": "5.391246448313610e-44 s",
+      "formula": "sqrt(hbar G_final/c^5)",
+      "observer_rendered": true
+    },
+    {
+      "row": "A055",
+      "name": "Planck mass m_P",
+      "branch": "G-family",
+      "lock_class": "observer-rendered SI Planck lock",
+      "native_or_model_value": "2.176434342717898e-8 kg",
+      "comparison_value": "2.176434342717900e-08 kg",
+      "formula": "sqrt(hbar c/G_final)",
+      "observer_rendered": true
+    },
+    {
+      "row": "A056",
+      "name": "Planck/proton mass ratio",
+      "branch": "G-family",
+      "lock_class": "observer-rendered Planck-ratio lock",
+      "native_or_model_value": "1.301211175670645e+19",
+      "comparison_value": "1.301211175670650e+19",
+      "formula": "m_P/m_p",
+      "observer_rendered": true
+    },
+    {
+      "row": "A057",
+      "name": "Planck energy E_P",
+      "branch": "G-family",
+      "lock_class": "observer-rendered SI Planck lock",
+      "native_or_model_value": "1.956081636698373e+9 J",
+      "comparison_value": "1.956081636698370e+09 J",
+      "formula": "sqrt(hbar c^5/G_final)",
+      "observer_rendered": true
+    },
+    {
+      "row": "A058",
+      "name": "Planck temperature T_P",
+      "branch": "G-family",
+      "lock_class": "observer-rendered SI Planck lock",
+      "native_or_model_value": "1.416784162157343e+32 K",
+      "comparison_value": "1.416784162157340e+32 K",
+      "formula": "E_P/k_B",
+      "observer_rendered": true
+    },
+    {
+      "row": "A059",
+      "name": "Planck force F_P",
+      "branch": "G-family",
+      "lock_class": "observer-rendered SI Planck lock",
+      "native_or_model_value": "1.210255564338206e+44 N",
+      "comparison_value": "1.210255564338210e+44 N",
+      "formula": "c^4/G_final",
+      "observer_rendered": true
+    },
+    {
+      "row": "A060",
+      "name": "Planck power P_P",
+      "branch": "G-family",
+      "lock_class": "observer-rendered SI Planck lock",
+      "native_or_model_value": "3.628254904411280e+52 W",
+      "comparison_value": "3.628254904411280e+52 W",
+      "formula": "c^5/G_final",
+      "observer_rendered": true
+    }
+  ],
+  "figures": [
+    {
+      "key": "dependency_architecture",
+      "filename": "01_dependency_architecture_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/01_dependency_architecture_corrected.png",
+      "caption": "The complete typed dependency architecture, including the galaxy-axis unit-sphere root, the three infinite plane systems, the Mass-Bridge shape lock, the Devon algebraic layer, the Lucas minimum-complete domain, the Emily spectral layer, and the Jack differential operator.",
+      "sha256": "d2424bc2cfba5c14ea3a150059591c46d4e284248f39ad499d9cc16ec3c7513c",
+      "data_basis": "Audited dependency tree, foundation-stone hierarchy, and locked K-Field definitions."
+    },
+    {
+      "key": "galaxy_axis_plane_systems",
+      "filename": "02_galaxy_axis_plane_systems.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/02_galaxy_axis_plane_systems.png",
+      "caption": "The observational geometric root. The left panel places the three recovered plane-system normals and their orthogonal great circles on the antipodally interpreted ICRS unit sphere. The right panel shows finite windows into the corresponding infinite parallel-plane systems; adjacent central members bound the Cell3 volume.",
+      "sha256": "de4ea6459d7d4bb50ee12ae7f972daab88112e5160b41dd0b04af1196075a507",
+      "data_basis": "ICRS face normals, opposite-face spacings, audited dependency tree, and unit-sphere galaxy-axis reconstruction architecture. No synthetic galaxy points are introduced."
+    },
+    {
+      "key": "cell3_all_nodes",
+      "filename": "03_cell3_all_nodes_six_planes_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/03_cell3_all_nodes_six_planes_corrected.png",
+      "caption": "Dimensionally correct locked Cell3 in ICRS coordinates. Every centered node is numbered, classified, signed by polarity, and located within the six primitive boundary planes. The complete node ledger supplies the corresponding ternary address and coordinates.",
+      "sha256": "a443b9557cc31c171a5e1b5bf36c3c0ec46191fe9114b34fd1469105af6f4544",
+      "data_basis": "Locked basis B, 27 centered-node positions, node classes, laminar grades, polarities, and six boundary planes."
+    },
+    {
+      "key": "boundary_plane_atlas",
+      "filename": "04_boundary_plane_atlas_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/04_boundary_plane_atlas_corrected.png",
+      "caption": "Six-plane atlas in true in-plane metric. Every panel contains all nine member nodes, numbered consistently with the complete Cell3 ledger, together with the exact face area and opposite-face spacing.",
+      "sha256": "316811c16d6b4b6fdbcbc83d27db7006e34d8eaa215cb2da72c251ade5fde207",
+      "data_basis": "Boundary-plane membership, node coordinates, face areas, spacings, and ICRS unit normals."
+    },
+    {
+      "key": "mass_bridge_triangle",
+      "filename": "05_mass_bridge_triangle_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/05_mass_bridge_triangle_corrected.png",
+      "caption": "The Mass Bridge as a closed projective triangle. The three physical channels are ratios of the same three primitive face areas, and the product of the first two legs exactly equals the third.",
+      "sha256": "c759febe78f983aacd469f788a2dd124675a05e4533c398d11ae27498498461d",
+      "data_basis": "Locked face areas, proton-electron mass-ratio channel, inverse fine-structure channel, product channel, and exact multiplicative closure."
+    },
+    {
+      "key": "direct_reciprocal_duality",
+      "filename": "06_direct_reciprocal_duality_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/06_direct_reciprocal_duality_corrected.png",
+      "caption": "Direct basis vectors and their reciprocal dual. The relation g_i dot a_j = delta_ij makes each reciprocal vector normal to one primitive plane family and fixes its spacing.",
+      "sha256": "6d97e021dea8b4f73a5091c418d3057853504c392f6c61c43f7c364dfe311f44",
+      "data_basis": "Locked direct basis B and reciprocal basis B^-T."
+    },
+    {
+      "key": "devon_dimension",
+      "filename": "07_devon_dimension_dashboard.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/07_devon_dimension_dashboard.png",
+      "caption": "The Devon Dimension as the geometry-to-algebra reduction. The direct metric, cofactor matrix, reciprocal metric, face channels, volume, and exchange terms remain explicit; no finite graph has yet been imposed.",
+      "sha256": "f234fae0c1b13ab1bc189fc9ba1d3a75177f9919c93d3f14990af1bb877265f3",
+      "data_basis": "Locked Cell3 basis, direct metric, reciprocal metric, cofactor identity, face areas, volume, and reciprocal exchange hierarchy."
+    },
+    {
+      "key": "lucas_limit_window",
+      "filename": "08_lucas_limit_window.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/08_lucas_limit_window.png",
+      "caption": "The Lucas Limit is the minimum-complete three-state address domain. The Lucas Window is its explicit 27-node graph placed by p(i,j,k)=B(i,j,k)/2 in the oblique Cell3 geometry.",
+      "sha256": "c7ad828df45512cb8fc5a573ad5be4b070fdff6ab9456f83029cf252131471ef",
+      "data_basis": "Exact address set, 54 nearest-neighbor graph edges, node polarities, and locked physical coordinates."
+    },
+    {
+      "key": "actual_lucas_sheets",
+      "filename": "09_actual_lucas_sheets.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/09_actual_lucas_sheets.png",
+      "caption": "The seven Lucas Sheets are actual parallel planes in the oblique physical embedding, not only a population sequence. Their grades are lambda=-3 through +3, their populations are 1,3,6,7,6,3,1, and adjacent sheets alternate polarity.",
+      "sha256": "51cace4185cbaa069e3c50a1b3a001d706a7c939da589949e6d8219a845cc08f",
+      "data_basis": "Exact node positions, laminar normal, sheet spacing, sheet populations, and polarity rule chi=(-1)^lambda."
+    },
+    {
+      "key": "devon_super_sheets",
+      "filename": "10_devon_super_sheets_actual.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/10_devon_super_sheets_actual.png",
+      "caption": "The complete 55-sheet geometry of the 9B Lucas Supergroup. Every sheet is the physical plane lambda=i+j+k in the 19-by-19-by-19 refined lattice. Seven harmonic carrier sheets are emphasized, while the population profile and alternating polarity are shown from the exact 6,859-state census.",
+      "sha256": "7669f1f5803c8c97ea25b0f45a86e5ce944bcc1ee9140e8f2f4c82026e3e96c6",
+      "data_basis": "Exact n=9 refined lattice, 55-sheet profile, carrier positions, locked basis B, laminar normal, and parity law."
+    },
+    {
+      "key": "emily_eigenspectrum",
+      "filename": "11_emily_eigenspectrum.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/11_emily_eigenspectrum.png",
+      "caption": "Emily is the adjacency spectrum of P3 x P3 x P3. The seven eigenvalue levels have multiplicities 1,3,6,7,6,3,1; the central zero eigenspace has dimension seven, matching the seven compatibility dimensions left after thirteen projective q measurements reconstruct six metric coefficients.",
+      "sha256": "df5d851847f6feec42e7b24fe88a19fd1e9f7707173dd2aa3f4c57562eb10a1b",
+      "data_basis": "Exact 27-node adjacency matrix and spectrum stored in the Cell3 local-incidence record."
+    },
+    {
+      "key": "jack_jacobian",
+      "filename": "12_jack_jacobian.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/12_jack_jacobian.png",
+      "caption": "The Jack Jacobian maps coherent logarithmic changes of the three primitive directions into changes of eta, alpha, and Gamma2. Its determinant is 12, its Smith normal form is diag(1,1,12), and its finite quotient is Z12.",
+      "sha256": "7162e0d41ca6fc92d6daae7d787311040324e00e7fffd180bee8c851c933112a",
+      "data_basis": "Exact Jack matrix, determinant, Smith normal form, quotient, and inverse perturbation relations."
+    },
+    {
+      "key": "phase_cost_sphere",
+      "filename": "13_phase_cost_sphere_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/13_phase_cost_sphere_corrected.png",
+      "caption": "The quadratic phase-transition cost on the ICRS unit sphere. Soft, saddle, and hard axes are the eigenvectors of G_phase; their eigenvalues define the minimum, intermediate, and maximum directional costs.",
+      "sha256": "831599575db4da881f27f8d23ff2fdeea0eea115a34f000544f7e25c546fabc7",
+      "data_basis": "Locked G_phase matrix and exact critical eigenaxes."
+    },
+    {
+      "key": "phase_cost_sky_map",
+      "filename": "14_phase_cost_sky_map_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/14_phase_cost_sky_map_corrected.png",
+      "caption": "Mollweide projection of the exact phase-cost function in ICRS coordinates. White curves are constant-cost contours; labeled points are the principal axes and x marks their antipodes. The legend and color scale occupy a dedicated non-overlapping band.",
+      "sha256": "b78841ab418e0d7a26b630bae1dcec8b95f4045210c7ba331f0b334436d7b755",
+      "data_basis": "Locked G_phase matrix evaluated on a uniform celestial grid."
+    },
+    {
+      "key": "entropy_endpoint_ledger",
+      "filename": "15_exact_entropy_endpoint_ledger_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/15_exact_entropy_endpoint_ledger_corrected.png",
+      "caption": "Exact ten-event enumeration. Each point is a reachable endpoint; height is path-fiber entropy, horizontal position is phase cost, color is minimum edge-step distance, and marker area scales with endpoint probability.",
+      "sha256": "a38b098e7bdcb70b0f22b0a3f7ca5c47f539ae7939c67940810deeb29298de8a",
+      "data_basis": "Complete 891-endpoint ledger and exact entropy identities."
+    },
+    {
+      "key": "scalar_serialization",
+      "filename": "16_scalar_serialization_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/16_scalar_serialization_corrected.png",
+      "caption": "The exact 27-state scalar comb and the scalar-rank jumps of all 54 geometric nearest-neighbor edges. Only eight edges connect consecutive scalar ranks, so rho is a directed address rather than a locality coordinate.",
+      "sha256": "b48877af15d53abf962fc122a2e349b46096ebe3c1753c513ad4472a1edb9067",
+      "data_basis": "Exact scalar registry, geometric adjacency, and recorded jump statistics."
+    },
+    {
+      "key": "projective_channels",
+      "filename": "17_projective_channels_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/17_projective_channels_corrected.png",
+      "caption": "The finite projective plane PG(2,3) and the 6+7 channel decomposition. Six metric channels reconstruct a symmetric three-dimensional quadratic form; seven syndrome channels supply compatibility and path-sensitive residual dimensions.",
+      "sha256": "3af22232db617ec015161d460a82faa32bb65c69d7ce5ac9db2b3f7a1d115a08",
+      "data_basis": "Exact incidence matrix and projective-channel ledger."
+    },
+    {
+      "key": "recursive_spatial_hierarchy",
+      "filename": "18_recursive_spatial_hierarchy_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/18_recursive_spatial_hierarchy_corrected.png",
+      "caption": "Exact spatial aggregation at m=1,3,9. The basis scales as mB while the Cell3 shape is preserved. The Lucas Group contains 27 cells; the Lucas Supergroup contains 729.",
+      "sha256": "357919c5654735a3d2a7e67bca6eb1ca76ab1ba299f6c5b5de0b2ebff6616b06",
+      "data_basis": "Locked basis B and exact hierarchy counts."
+    },
+    {
+      "key": "hierarchy_counts",
+      "filename": "19_hierarchy_counts_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/19_hierarchy_counts_corrected.png",
+      "caption": "Exact hierarchy growth through g=6. Length scales as 3^g, volume count as 27^g, while the refined-state, sheet, and interface counts follow their closed formulas.",
+      "sha256": "b2316cdfb8dce9a8c0043defda0cfa83b3d3610f7facbb72ef63836f86a54d7e",
+      "data_basis": "Mass-Bridge hierarchy level ledger."
+    },
+    {
+      "key": "devon_sheet_profile",
+      "filename": "20_devon_super_sheet_profile_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/20_devon_super_sheet_profile_corrected.png",
+      "caption": "The exact 55-sheet population and signed-polarity profile for the Lucas Supergroup. Positive and negative populations grow extensively, but their global difference remains exactly one state.",
+      "sha256": "6faabd081ad24ba3d43d512ebcb7bbe280d24401ecf05f46cd770fd8138e196e",
+      "data_basis": "Complete n=9 sheet ledger from lambda=-27 through +27."
+    },
+    {
+      "key": "recursive_morphology_spectrum",
+      "filename": "21_recursive_morphology_spectrum_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/21_recursive_morphology_spectrum_corrected.png",
+      "caption": "The exact four-channel spectrum 729^r, 81^r, 9^r, and 1 corresponding to volume, face, edge, and point contributions. Any linear observable formed from these channels obeys the associated fourth-order recurrence.",
+      "sha256": "c0273536ac5a92d58447f7ae333c58a9429001172a930216e0c401d29b54de74",
+      "data_basis": "Recursive Lucas spectrum formulas."
+    },
+    {
+      "key": "reciprocal_low_order_spectrum",
+      "filename": "22_reciprocal_low_order_spectrum_corrected.png",
+      "path": "/mnt/data/_K-Field_student_introduction_1785349245_assets/22_reciprocal_low_order_spectrum_corrected.png",
+      "caption": "The first 24 low-order reciprocal quadratic values. Direct aggregation by a factor of three divides reciprocal wavenumber by three and quadratic spectral values by nine.",
+      "sha256": "c040a5c2e55d30ed5c2ec5885a61d031fa803b703b2ea861550018f65a91eaca",
+      "data_basis": "Locked reciprocal metric and low-order reciprocal-direction ledger."
+    }
+  ],
+  "rendering_constraints": {
+    "library": "ReportLab",
+    "core_fonts_only": [
+      "Helvetica",
+      "Helvetica-Bold",
+      "Times-Roman",
+      "Courier"
+    ],
+    "table_widths": "dynamic to available page width",
+    "table_cells": "all Paragraph objects",
+    "repeatRows": 1
+  },
+  "pdf_sha256": "cf0d88cce2e65403006bb7550d46550a45939cc351b1337c621793fb07ea552f",
+  "pdf_size_bytes": 8238019,
+  "pdf_page_count": 43,
+  "observer_packet": {
+    "frame": "SGA-2020 / ICRS / J2000",
+    "epoch": "2026-06-17T15:06:11Z",
+    "latitude_deg": 42.129,
+    "longitude_deg": -83.144,
+    "altitude_km": 0.0,
+    "observer_speed_km_s": 341.07113,
+    "observer_ra_deg": 167.143423,
+    "observer_dec_deg": -7.655565,
+    "reference_direction_v_hat": [
+      -0.97077086,
+      0.20734801,
+      -0.12087493
+    ],
+    "angle_from_cmb_closure_deg": 1.066671,
+    "f_obs": 1.447739,
+    "beta_obs_squared": 1.555741578671e-06,
+    "zeta_R": [
+      0.320892,
+      0.374911,
+      0.838466
+    ]
+  },
+  "gravity_closure": {
+    "native_scalar_Gamma2": "2.400587821426810e-43",
+    "observer_compiler_C_G_obs_SI": "2.780277372245049732e32",
+    "selected_G_final_SI": "6.674300000000000e-11",
+    "selected_G_unit": "m^3 kg^-1 s^-2",
+    "closure_equation": "G_final = Gamma2 * C_G_obs_SI",
+    "handling_rule": "All G-derived rows use the observer-indexed G-row chain or G_eff(n_hat) envelope. Scalar G rows are not pooled with non-G scalar residual families without direction, epoch, location, and compiler state.",
+    "constants_used": {
+      "h_exact_J_s": "6.62607015e-34",
+      "hbar_exact_from_h_J_s": "1.054571817646156391E-34",
+      "c_exact_m_s": "299792458",
+      "k_B_exact_J_K": "1.380649e-23",
+      "electron_mass_kg": "9.1093837139e-31",
+      "proton_mass_kg": "1.67262192595e-27"
+    }
+  },
+  "publication_epoch": 1785359337,
+  "publication_date_utc": "2026-07-29 21:08:57 UTC",
+  "json_sha256_before_self_field": "ff0286efddfaef8737ca35f0044cb3ad426bbe7d43cad27280205c28be7f2b96"
+}
