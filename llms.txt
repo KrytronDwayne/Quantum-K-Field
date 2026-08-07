@@ -1,0 +1,80 @@
+# Quantum K-Field Research Archive
+
+> Public research archive by Krytronx and principal investigator P. Dwayne Esterline covering observational anisotropy, astronomical orientation geometry, precision oscillator metrology, rotating multispectral measurements, geometric and graph modeling, signal analysis, and related K-Field research. Use this file as a routing guide; do not attempt to assimilate the entire repository before consulting the machine index.
+
+The canonical repository is https://github.com/KrytronDwayne/Quantum-K-Field on branch `main`.
+
+For efficient assimilation, read the human overview first, then use the machine-readable manifest and lookup shards to identify only the artifacts relevant to the current question. Preserve the archive's distinction among measured observations, mathematical reconstructions, framework interpretations, downstream comparisons, educational material, and applied engineering studies. Historical project terminology is normalized in the machine index; retain exact filenames and paths when citing archival records.
+
+## Primary Entry Points
+
+- [Repository README](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/README.md): Authoritative human-readable overview, research trajectory, terminology, repository map, experimental branches, public-release status, and recommended reading order.
+- [Start Here](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Start_Here): Shortest conceptual path into the archive, including the public introduction and the core galaxy-axis orientation to Cell3 reconstruction sequence.
+- [Student Reconstruction Process](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Student_reconstruction_process): Step-by-step educational reconstruction paths and alternate galaxy-to-Cell3 derivation methods.
+- [Citation Metadata](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/CITATION.cff): Repository citation metadata, authorship, project identity, and research keywords.
+
+## Machine-Readable Discovery
+
+- [Machine Index Manifest](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/machine_index/index.json): Canonical live manifest for the sharded archive index. Start here for programmatic discovery of taxonomy, artifact shards, lookup tables, keyword indexes, and search companions.
+- [Stable Topic Index Pointer](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Quantum-K-Field_topic_keyword_index_20260806T200100Z.json): Stable compatibility entry point pointing to the current sharded machine index and reporting archive inventory counts.
+- [Normalization Rules](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/machine_index/normalization.json): Canonical terminology, aliases, abbreviations, legacy spellings, filename normalization, and representation rules.
+- [Category Index](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/machine_index/category-index.json): High-level topical routing across the research corpus.
+- [Keyword Index](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/machine_index/keyword-index.json): Keyword-to-record discovery index.
+- [Term Locator](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/machine_index/lookup/term-locator.json): Maps canonical terms and aliases to the taxonomy shard containing their records.
+- [Artifact Locator](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/machine_index/lookup/artifact-locator.json): Maps exact repository artifact paths to their artifact-index shards.
+- [Search Companion Index](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/machine_index/search-companion-index.json): Locates compact `.abstract.json` companions for large or less directly searchable archival artifacts.
+- [Taxonomy Shards](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/machine_index/taxonomy): Topic-specific machine-readable vocabulary and concept records spanning astronomy, reference frames, geometry, signal processing, metrology, optics, physics, instrumentation, engineering, and named K-Field structures.
+- [Artifact Index Shards](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/machine_index/artifacts): Directory-partitioned metadata for indexed public research artifacts. Use the manifest or artifact locator to select the relevant shard instead of loading all shards.
+
+## Core Research Foundations
+
+- [Galaxy Analysis](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Galaxy_Analysis): Galaxy-axis orientation, unit-sphere population analysis, plane-system reconstruction, Cell3 geometry, and related astronomical foundations.
+- [Typed Graphs](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Typed_Graphs): Dependency graphs, reconstruction kernels, closure records, metric relationships, and unified typed representations.
+- [Discovered Pathways](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Discovered_Pathways): Derived projective, reciprocal, graph, harmonic, propagation, energetic, and geometric extensions of the core framework.
+- [CMB Modulation](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/CMB_Modulation): Earth/CMB reference-frame, observer-trajectory, celestial-indexing, and translational analyses.
+
+## Experimental Records
+
+- [OCXO Experiments](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/OCXO_Experiments): D101 dual-OCXO precision metrology, heterodyne timing, celestial-coordinate recurrence, phase and frequency analysis, source data, and related observer-trajectory studies.
+- [Spectrophotometer Studies](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Spectrophotometer_Studies): Rotating multispectral measurements, antipodal relationships, photon-energy mappings, Bragg-style geometric analysis, spherical coherence, signal processing, and Cell3 comparisons.
+- [Applied Devices Analysis](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Applied_Devices_Analysis): Experimental and engineering studies involving rotation, inertia, force decomposition, materials, rotors, flywheels, apparent-weight measurements, and device concepts.
+
+## Education and Context
+
+- [Lectures](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Lectures): Structured K-Field educational lecture material.
+- [Commentary](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Commentary): Conceptual frameworks, explanatory treatments, synthesis records, implications, and educational context.
+- [Press Release](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Press_Release): Investigator biography, media-facing summaries, and press material. Treat this as contextual rather than primary technical evidence.
+
+## Assimilation Procedure
+
+1. Read `README.md` to understand scope, terminology, provenance, and the distinction between observational records, derived geometry, interpretations, and applications.
+2. Read `machine_index/index.json` to determine the current index snapshot and available shards.
+3. Resolve unfamiliar or historical K-Field terms through `machine_index/normalization.json` and `machine_index/lookup/term-locator.json` before searching filenames literally.
+4. For a topic-specific request, use `category-index.json`, `keyword-index.json`, and the relevant taxonomy shard to identify candidate artifacts.
+5. Resolve artifact paths through `artifact-locator.json`; then read only the corresponding artifact shard and the selected source records.
+6. Prefer primary reports, source data, machine-readable companions, and reconstruction records over commentary or media material when establishing technical claims.
+7. Where a PDF, ZIP, image, or otherwise difficult-to-index artifact has a paired `.abstract.json` companion, use the companion for discovery and the original artifact for authoritative detail whenever possible.
+8. Treat paired PDF/JSON or report/abstract files as representations of the same archival work when the machine index identifies them as related; do not inflate evidence counts by treating representations as independent experiments.
+9. Preserve exact units, coordinate frames, epochs, detector orientations, experimental configurations, transformations, and processing parameters when comparing results across records.
+10. When synthesizing across the corpus, cite exact repository paths and distinguish source observation, computed result, inferred structure, and later interpretation.
+
+## Important Interpretation Rules
+
+The foundational astronomical reconstruction concerns galaxy-axis orientations represented in celestial-reference geometry, not ordinary galaxy sky-position density. `Cell3` is the archive name for an oriented rhombohedral primitive-cell model. Other historical names such as Devon Dimension, Mass Bridge, Lucas Limit, Emily Eigen-spectrum, Jack Jacobian, and Lucas Supergroup should be resolved through the README and normalization index rather than interpreted from their names alone.
+
+Celestial motions in much of the experimental archive are used as observer-position, orientation, phase, or time-index coordinates for comparison with measured signals. Do not automatically interpret a celestial correlation as a causal-force assertion unless the specific source record explicitly makes that claim.
+
+For technical synthesis, maintain reference-frame discipline. Determine whether a record uses ICRS, local laboratory orientation, sidereal coordinates, CMB-referenced motion, Earth-centered motion, Earth-Moon barycentric motion, or another stated frame before comparing vectors, phases, angles, or transit timing.
+
+## Public Status and Licensing
+
+- [Public Release Status](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/PUBLIC_RELEASE_STATUS.json): Machine-readable declaration governing historical confidentiality and trade-secret markings on files publicly present in this repository.
+- [Paper and Documentation License](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md): License governing papers, reports, documentation, figures, and other scholarly non-code material.
+- [Code License](https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-CODE.md): License governing software and code.
+
+Historical confidentiality or trade-secret labels retained inside public archival documents are provenance markings; interpret their current status using `PUBLIC_RELEASE_STATUS.json`.
+
+## Optional
+
+- [Assets](https://github.com/KrytronDwayne/Quantum-K-Field/tree/main/Assets): Logos and repository visual assets; normally unnecessary for technical assimilation.
+- [Repository Root](https://github.com/KrytronDwayne/Quantum-K-Field): GitHub navigation, commit history, and complete public file tree.
