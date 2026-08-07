@@ -4,13 +4,13 @@
 
 # Quantum K-Field
 
-**A public research archive exploring the geometric substrate beneath known physics**
+**A public research archive in observational anisotropy, astronomical orientation geometry, precision metrology, and geometric modeling**
 
-The **Quantum K-Field** is a research program developed by **Krytronx** and principal investigator **P. Dwayne Esterline**. It connects foundational physics, quantum gravity, emergent spacetime, celestial geometry, precision metrology, quantum sensing, optics, gravitation, and advanced signal analysis within a single geometric framework.
+The **Quantum K-Field** is a research program developed by **Krytronx** and principal investigator **P. Dwayne Esterline**. The program began with repeated experimental observations of direction-dependent behavior and developed into a broader investigation of whether recurring structures seen across laboratory and astronomical datasets can be described within a common geometric framework.
 
-This repository is the public research archive for that work. It preserves the derivations, reports, experimental records, machine-readable analyses, reconstruction materials, educational resources, and supporting data used to develop and test the K-Field framework.
+The archive brings together astronomical orientation analysis, reference-frame geometry, precision oscillator metrology, rotating multispectral measurements, signal processing, graph and metric methods, physical-constant comparisons, and exploratory engineering studies. Its purpose is to make the complete research path inspectable: the observations that motivated the work, the geometric reconstruction that followed, the mathematical objects introduced along the way, the experimental comparisons, and the machine-readable records used to reproduce the analysis. Throughout this README, measured observations, mathematical reconstructions, framework interpretations, and downstream comparisons are kept distinct.
 
-> **Central idea:** physical law arises from a structured geometric substrate, while the position, motion, and orientation of an observer determine how that fixed structure is rendered in measurement.
+> **Research trajectory:** observation → celestial indexing → cross-domain comparison → galaxy-axis orientation analysis → rhombohedral geometric reconstruction → metric and graph formalization → physical-quantity comparison → laboratory testing and engineering studies.
 
 [Start Here](./Start_Here/) · [Student Reconstruction](./Student_reconstruction_process/) · [Galaxy Analysis](./Galaxy_Analysis/) · [OCXO Experiments](./OCXO_Experiments/) · [Spectrophotometer Studies](./Spectrophotometer_Studies/) · [Topic Index](./Quantum-K-Field_topic_keyword_index_20260806T200100Z.json) · [Citation](./CITATION.cff)
 
@@ -26,83 +26,137 @@ The public-release declaration changes confidentiality and trade-secret status o
 
 ---
 
-## Where the K-Field begins
+## How the research developed
 
-The foundation of the K-Field begins with astronomical observation.
+### Observation came first
 
-Galaxies have measurable orientations. When those orientations are taken from the **Siena Galaxy Atlas**, expressed in the **International Celestial Reference System (ICRS)**, and projected onto a unit sphere, they form the starting directional structure used in the K-Field reconstruction.
+The K-Field research trajectory began with empirical measurement rather than with a selected physical constant or a preferred theoretical model. Across a series of experiments, repeated measurements showed anisotropic or direction-dependent behavior in metastable systems. Correlations with lunar motion, Earth rotation, orbital motion, and other celestial cycles initially suggested external modulation.
 
-Earth can be described in that same reference frame. Its position, rotation, orbital motion, epoch, laboratory orientation, and motion relative to the **Cosmic Microwave Background (CMB)** can all be represented in a common celestial coordinate system. This creates a direct geometric bridge between large-scale astronomical structure and terrestrial measurement.
+A central interpretive change occurred when those celestial motions were treated as **sampling motions** rather than as the presumed causes of the measured signals. In this view, rotation and translation of the laboratory provide changing position, orientation, and time coordinates with which a persistent anisotropic structure can be indexed and tested.
 
-From the galaxy-axis geometry, three associated plane systems are derived. Their intersections define an oriented root cell called **Cell3**. Cell3 preserves the directional and internal relationships recovered from the astronomical data. The larger recursive and volumetric structure generated from Cell3 is called the **Devon Dimension**.
+That change reframed the research question. Instead of asking only which celestial body might be producing a local signal, the program began asking whether a common geometric organization could be recovered independently across different observational systems.
 
-Together, Cell3 and the Devon Dimension form the geometric foundation of the Quantum K-Field.
+### Cross-domain search
+
+The investigation consequently expanded across local experiments, precision timing, spectrophotometer data, Kepler observations, galaxy-scale orientation statistics, and later comparisons with known physical quantities. These domains use different instruments and observables, but they provide independent opportunities to test recurring orientation, phase, recurrence, and geometric relationships.
+
+Local observations motivated lattice-like geometric models. Kepler analyses provided an astronomical trajectory dataset for testing recurrence away from the laboratory. Galaxy orientation data then supplied the large-population astronomical dataset from which the foundational rhombohedral geometry was reconstructed.
+
+This historical order matters: the geometry was not selected from a table of physical constants and then projected backward onto the observations. In the research chronology, the astronomical geometric reconstruction precedes the later constant-spectrum comparison work.
+
+---
+
+## The astronomical foundation: galaxy-axis orientation, not galaxy position
+
+The foundational galaxy analysis requires a distinction that is easy to miss.
+
+A galaxy catalog contains information about **where galaxies appear on the sky**, but galaxies also have measurable **axis orientations**. Those are different observables. Sky coordinates describe galaxy locations. Axis-orientation measurements describe how the galaxies themselves are oriented.
+
+The K-Field reconstruction uses galaxy-axis orientation information associated with the **Siena Galaxy Atlas**. The axis orientations are represented as a directional population on the unit sphere and analyzed in a celestial reference-frame context using the **International Celestial Reference System (ICRS)**; the archive also records the galactic-reference registration used in that orientation analysis. The object being analyzed is therefore **galaxy-axis orientation density on the unit sphere**, not ordinary galaxy sky-position density.
+
+This distinction defines the provenance of the geometry. The oriented rhombohedral model was derived as a fit to organized structure in the galaxy-axis directional population. It was not obtained by plotting galaxy locations on a celestial map, and it was not constructed from CODATA constants.
+
+In the archive reconstruction, the fitted directional structure is represented by three associated plane systems. Their intersections define an oriented rhombohedral primitive-cell model called **Cell3** in the archive. Cell3 preserves the fitted directional relationships, face geometry, basis orientation, and metric structure recovered in the reconstruction.
+
+Earth and a terrestrial laboratory can also be represented in ICRS. Earth rotation, orbital motion, epoch, laboratory orientation, and motion relative to the **Cosmic Microwave Background (CMB)** can therefore be expressed in a common coordinate framework for comparison with the fixed astronomical orientation model.
 
 The foundational reconstruction materials are collected in [`Start_Here`](./Start_Here/) and the independent educational reconstruction path is preserved in [`Student_reconstruction_process`](./Student_reconstruction_process/).
 
 ---
 
-## From geometry to physical law
+## From the rhombohedral cell to explicit mathematics
 
-The importance of Cell3 is not limited to its shape.
+The archive uses several historical project names. For accessibility, each is best understood through the conventional mathematical object it denotes.
 
-Ratios among its faces and internal structures generate linked relationships associated with the **proton–electron mass ratio** and the **fine-structure constant**. Those same geometric quantities propagate through a connected derivation chain involving the **Bohr radius, atomic velocity, Rydberg constant, Hartree energy, classical electron radius, vacuum impedance**, and related physical quantities.
+### Cell3 — oriented rhombohedral primitive cell
 
-A separate scalar branch produces the gravitational structure, including the base gravitational scalar and its observer-dependent rendering. These results are organized as a dependency system in which shared geometric origins produce families of physical relationships rather than isolated numerical comparisons.
+**Cell3** is the archive name for the corrected oriented rhombohedral primitive-cell model. It is represented by three basis vectors and the associated direct Gram metric, face areas, volume, reciprocal metric, plane families, and orientation in the working celestial reference frame.
 
-Within the K-Field framework, geometry produces stable ratios; stable ratios generate physical constants; reciprocal geometry defines interaction pathways; recursive repetition produces higher-order organization; and observer position and direction determine how the fixed structure appears in measurement.
+### Devon Dimension — compact direct/reciprocal metric representation
 
-The archive therefore connects domains that are usually studied separately: gravitation, electromagnetism, atomic physics, astronomy, metrology, optics, materials science, timing, sensing, signal processing, and systems engineering.
+The **Devon Dimension** is the archive name for the compact algebraic representation constructed from Cell3. It collects the direct metric, reciprocal metric, cofactors, face-area channels, scalar quantities, quadratic-form rule, and branch interfaces used by later analyses. Here, *dimension* is historical terminology for an algebraic coordinate representation; it does **not** mean an additional spatial dimension.
+
+### Mass Bridge — projective face-area ratio closure
+
+The **Mass Bridge** is a project-specific name for a closed system of dimensionless ratios formed from the three primitive Cell3 face areas. Because all three quantities are areas, their ratios are independent of uniform scale. The research compares these geometric ratios with the proton–electron mass ratio, the fine-structure constant, and related derived physical quantities.
+
+Within the K-Field derivation chain, those physical comparisons occur **after** the geometric reconstruction. They are treated as downstream relationships and consistency tests of the geometric model rather than as inputs used to choose the rhombohedral geometry.
+
+### Lucas Limit — finite 27-node address graph
+
+The **Lucas Limit** is the archive name for the centered 27-node address graph on the discrete set $\{-1,0,1\}^3$, equivalent to the Cartesian-product graph $P_3 \square P_3 \square P_3$. Evaluating the reciprocal-metric quadratic form
+
+$$
+q(s)=s^T R s
+$$
+
+on these address vectors produces the archive's **q-spectrum**. The graph also carries an alternating parity/incidence labeling and finite shell structure.
+
+### Emily Eigen-spectrum — graph adjacency spectrum
+
+The **Emily Eigen-spectrum** is the archive name for the adjacency eigenspectrum of the finite Lucas graph. In conventional graph-theoretic language it is the spectrum of the adjacency operator on $P_3 \square P_3 \square P_3$.
+
+### Jack Jacobian — logarithmic perturbation Jacobian
+
+The **Jack Jacobian** is the archive name for the derivative map that relates coherent changes in the primitive geometric directions to logarithmic changes in selected derived quantities. It is a perturbation/sensitivity Jacobian, not a separately introduced force law.
+
+### Lucas Supergroup — recursive 9 × 9 × 9 cell complex
+
+The historical term **Lucas Supergroup** denotes the larger recursive $9\times9\times9$ Cell3 aggregation used in later graph and volumetric studies. The name is retained for archival continuity; mathematically, the object is treated as a recursive finite cell complex rather than as a use of *supergroup* in its standard algebraic sense.
+
+These project names remain important because they identify historical reports, filenames, figures, and machine-readable objects. The archive therefore preserves the original names while pairing them with explicit geometric, metric, graph-theoretic, or differential descriptions.
 
 ---
 
-## The Lucas branch and higher-order structure
+## From geometry to physical-quantity comparisons
 
-The same geometry extends into a finite boundary graph described in the research as the **Lucas Limit** and expanded through the **Lucas Supergroup**.
+Once the Cell3 geometry is fixed, ratios among its faces and other derived quantities form a connected algebraic dependency network. The research compares this network with the **proton–electron mass ratio**, **fine-structure constant**, **Bohr radius, atomic velocity, Rydberg constant, Hartree energy, classical electron radius, vacuum impedance**, gravitational quantities, and other standard physical values.
 
-This branch contains the q-spectrum, polarity laws, residual-shell structure, the **Emily Eigen-spectrum**, and the **Jack Jacobian**. Together with the scalar branch, it forms an over-determined derivation chain supported by more than 29 interlocking witnesses.
+The archive's historical term **lock** refers to a downstream numerical or structural closure/comparison in this dependency network. The current 29-lock set is organized as a **29-member witness/comparison ledger** consisting of selected non-gravitational comparisons and observer-context gravitational-family comparisons. The constants are comparison targets after model quantities have been generated; they are not the source data from which the galaxy-derived rhombohedral geometry was constructed.
+
+A separate scalar branch develops the gravitational relationships and their observer-context transformation. The finite-graph branch develops reciprocal-metric sampling, parity structure, graph spectra, recursion, and perturbation analysis. These branches share the same Cell3/metric foundation but represent different mathematical operations and should not be conflated.
 
 The machine-readable graph structures and closure records are collected in [`Typed_Graphs`](./Typed_Graphs/), while later geometric, spectral, energetic, and projective extensions are collected in [`Discovered_Pathways`](./Discovered_Pathways/).
 
 ---
 
-## Experimental research
+## Experimental and computational research
 
-A major objective of the K-Field program is to connect fixed celestial geometry with measurable laboratory response. The public archive contains several complementary experimental and computational programs.
+A major objective of the K-Field program is to test whether orientation-dependent structure derived in the astronomical reconstruction can be compared with independently measured laboratory and observational time series.
 
 ### Galaxy and celestial geometry
 
-[`Galaxy_Analysis`](./Galaxy_Analysis/) contains work on galaxy-shell coherence, Cell3 relationships, and galaxy-plane intersection distributions. [`CMB_Modulation`](./CMB_Modulation/) develops Earth–CMB traversal geometry, closed modulation routes, and residual structures in the CMB-referenced frame.
+[`Galaxy_Analysis`](./Galaxy_Analysis/) contains galaxy-axis orientation, unit-sphere population, plane-system, Cell3, and related reconstruction studies. [`CMB_Modulation`](./CMB_Modulation/) develops Earth-trajectory and CMB-referenced coordinate analyses used to describe terrestrial sampling motion in a larger reference-frame context.
 
 ### Precision oscillator metrology
 
-[`OCXO_Experiments`](./OCXO_Experiments/) contains the Dual-OCXO D101 studies. Orthogonally oriented oven-controlled crystal oscillators are compared through heterodyne and phase-sensitive measurement to examine directional frequency differentials, celestial crossings, long-duration recurrence, phase behavior, and time-frequency structure.
+[`OCXO_Experiments`](./OCXO_Experiments/) contains the Dual-OCXO D101 studies. Orthogonally oriented oven-controlled crystal oscillators are compared through heterodyne, timing, and phase-sensitive measurement. The analyses examine directional frequency differentials, recurring celestial-coordinate crossings, long-duration recurrence, phase behavior, and time-frequency structure.
 
 The directory also contains the public [`d101_source_data.zip`](./OCXO_Experiments/d101_source_data.zip) source-data archive used with the D101 studies.
 
-### Quantum spectrophotometry
+### Rotating multispectral measurements
 
-[`Spectrophotometer_Studies`](./Spectrophotometer_Studies/) contains rotating multispectral experiments and geometric analyses of wavelength-resolved response. The studies examine spectral-channel coupling, antipodal structure, photon-energy relationships, Bragg geometry, quantized interplanar distances, unit-sphere coherence, Cell3 face relationships, and comparison with Kepler camera geometry.
+[`Spectrophotometer_Studies`](./Spectrophotometer_Studies/) contains rotating wavelength-resolved measurements and their geometric analysis. The work examines angular dependence across spectral channels, antipodal relationships, photon-energy mappings, Bragg-style geometric comparisons, interplanar-spacing models, unit-sphere coherence, and comparisons with Cell3 and astronomical reference-frame geometry.
 
 ### Applied devices and mechanics
 
-[`Applied_Devices_Analysis`](./Applied_Devices_Analysis/) extends the framework into rotational mechanics, inertia, force vectors, flywheels, rotors, material comparisons, apparent-weight modulation, and proposed device geometries.
+[`Applied_Devices_Analysis`](./Applied_Devices_Analysis/) contains exploratory engineering and mechanics studies involving rotation, inertia, force-vector decomposition, flywheels, rotors, materials, apparent-weight measurements, and proposed device geometries. These records document the applied branch of the research program and the experiments or models proposed to test it.
 
-### Derived pathways
+### Derived mathematical pathways
 
-[`Discovered_Pathways`](./Discovered_Pathways/) collects later deductions and extensions involving the Mass Bridge, Lucas Supergroup, projective and reciprocal geometry, harmonic ladders, entropy and phase-cost surfaces, propagation, internal-energy hierarchy, and related structural pathways.
+[`Discovered_Pathways`](./Discovered_Pathways/) collects later deductions and extensions involving projective and reciprocal geometry, finite graph recursion, harmonic relationships, quadratic orientation surfaces, propagation models, internal-energy organization, and other structures derived from or compared with the core geometric framework.
 
 ---
 
 ## How to begin
 
-For a first encounter with the research, begin with **[K-Field: An Introduction](./Start_Here/K-Field_An_Introduction.pdf)**. It provides the shortest entry into the project before the detailed reconstruction chain.
+For a first encounter with the research, begin with **[K-Field: An Introduction](./Start_Here/K-Field_An_Introduction.pdf)**. It provides the shortest conceptual entry before the detailed reconstruction chain.
 
-The [`Start_Here`](./Start_Here/) directory then presents the core progression from the native galaxy-derived geometry through Cell3, the Mass Bridge, the physics-formula bridge, and the 29-lock structure.
+The [`Start_Here`](./Start_Here/) directory then presents the core progression from the native galaxy-derived geometry through Cell3, the projective face-ratio system, the physics-formula comparison bridge, and the 29-member closure/comparison ledger.
 
 Readers who want to reproduce the derivation step by step should continue to [`Student_reconstruction_process`](./Student_reconstruction_process/). The [`Step_by_Step_Galaxy_to_100_physics_formulas`](./Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/) directory organizes the reconstruction as an educational sequence, while [`Galax_Derivation_Methods`](./Student_reconstruction_process/Galax_Derivation_Methods/) preserves multiple galaxy-to-Cell3 reconstruction methods. The historical directory name `Galax_Derivation_Methods` is retained for path stability and is cross-referenced to the canonical term *Galaxy Derivation Methods* in the machine-readable topic index.
 
-For structured introductory teaching material, see the [`Lectures`](./Lectures/) directory. It contains the K-Field 101 sequence beginning with the locks, continuing from noise to geometry, and then developing the foundation beneath the later branches.
+For structured introductory teaching material, see the [`Lectures`](./Lectures/) directory. It contains the K-Field 101 educational lecture series and related explanatory material.
 
 ---
 
@@ -110,14 +164,14 @@ For structured introductory teaching material, see the [`Lectures`](./Lectures/)
 
 | Path | Contents |
 |---|---|
-| [`Start_Here/`](./Start_Here/) | Public introduction and core Cell0 → Cell3 → Mass Bridge → physics-formula → 29-lock reconstruction sequence |
-| [`Student_reconstruction_process/`](./Student_reconstruction_process/) | Step-by-step educational reconstruction and alternate galaxy-derivation methods |
-| [`Galaxy_Analysis/`](./Galaxy_Analysis/) | Galaxy-shell coherence and galaxy-plane intersection analysis |
-| [`Typed_Graphs/`](./Typed_Graphs/) | Converged closure, reconstruction kernel, validation record, and unified typed graph |
-| [`Discovered_Pathways/`](./Discovered_Pathways/) | Lucas, Mass Bridge, projective, reciprocal, harmonic, entropy, propagation, and energy-structure extensions |
-| [`CMB_Modulation/`](./CMB_Modulation/) | Earth–CMB modulation routes and closed-route analysis |
-| [`OCXO_Experiments/`](./OCXO_Experiments/) | D101 dual-OCXO metrology, celestial-crossing studies, and source-data archive |
-| [`Spectrophotometer_Studies/`](./Spectrophotometer_Studies/) | Multispectral, photon-energy, Bragg, interplanar, spherical-coherence, and Cell3 comparison studies |
+| [`Start_Here/`](./Start_Here/) | Public introduction and core galaxy-axis → Cell3 → face-ratio → physics-comparison reconstruction sequence |
+| [`Student_reconstruction_process/`](./Student_reconstruction_process/) | Step-by-step educational reconstruction and alternate galaxy-axis derivation methods |
+| [`Galaxy_Analysis/`](./Galaxy_Analysis/) | Galaxy-axis orientation, unit-sphere population, plane-system, and Cell3 analysis |
+| [`Typed_Graphs/`](./Typed_Graphs/) | Dependency graphs, reconstruction kernels, closure records, and unified typed-graph representations |
+| [`Discovered_Pathways/`](./Discovered_Pathways/) | Projective, reciprocal, graph, harmonic, propagation, and energy-structure extensions |
+| [`CMB_Modulation/`](./CMB_Modulation/) | Earth/CMB reference-frame and trajectory-indexing analyses |
+| [`OCXO_Experiments/`](./OCXO_Experiments/) | D101 dual-OCXO metrology, celestial-coordinate recurrence studies, and source-data archive |
+| [`Spectrophotometer_Studies/`](./Spectrophotometer_Studies/) | Rotating multispectral, photon-energy, geometric, spherical-coherence, and Cell3 comparison studies |
 | [`Applied_Devices_Analysis/`](./Applied_Devices_Analysis/) | Applied mechanics, force, inertia, rotor, flywheel, material, and device analyses |
 | [`Lectures/`](./Lectures/) | K-Field 101 educational lecture series |
 | [`Commentary/`](./Commentary/) | Conceptual frameworks, explanatory treatments, educational drafts, implications, and synthesis records |
@@ -130,14 +184,14 @@ For structured introductory teaching material, see the [`Lectures`](./Lectures/)
 
 The archive is intended to be readable by both people and automated research systems.
 
-The top-level **[Quantum K-Field Topic and Keyword Index](./Quantum-K-Field_topic_keyword_index_20260806T200100Z.json)** provides the machine-readable vocabulary for the archive. It connects canonical topics to repository artifacts, aliases, abbreviations, historical spellings, and legacy filename forms. This allows older filenames to remain stable while search systems can resolve them to corrected scientific terminology.
+The top-level **[Quantum K-Field Topic and Keyword Index](./Quantum-K-Field_topic_keyword_index_20260806T200100Z.json)** provides the machine-readable vocabulary for the archive. It connects canonical scientific topics to project-specific archive terms, aliases, abbreviations, historical spellings, and legacy filename forms. This allows historical filenames to remain stable while search systems can resolve them to more explicit terminology.
 
-The index covers concepts spanning Quantum K-Field research, foundational physics, quantum gravity, quantum substrate structure, emergent spacetime, quantum geometry, structured vacuum, experimental gravitation, celestial modulation, ICRS and CMB reference frames, precision and frequency metrology, OCXO signal analysis, spectrophotometry, quantum optics, Bragg geometry, signal processing, wavelet and Fourier analysis, nonlinear methods, topological data analysis, instrumentation, materials physics, and reproducible research.
+The index spans astronomical orientation analysis, ICRS and CMB reference frames, anisotropy, direct and reciprocal metric geometry, finite graph methods, precision and frequency metrology, OCXO signal analysis, wavelength-resolved photometry, optical and Bragg-style geometry, Fourier and wavelet analysis, recurrence and coherence methods, nonlinear analysis, instrumentation, materials studies, and reproducible research. It also cross-references broader theoretical and literature contexts used for comparison, including foundational physics, quantum geometry, emergent-spacetime models, structured-vacuum models, quantum sensing, and experimental gravitation.
 
 Additional machine-readable entry points include:
 
 - [`CITATION.cff`](./CITATION.cff) for repository citation metadata and research keywords;
-- [`Typed_Graphs/`](./Typed_Graphs/) for the converged closure, reconstruction kernel, validation record, and unified typed graph;
+- [`Typed_Graphs/`](./Typed_Graphs/) for dependency graphs, reconstruction kernels, validation records, and unified typed representations;
 - paired `.json` companions beside many archival `.pdf` reports; and
 - [`PUBLIC_RELEASE_STATUS.json`](./PUBLIC_RELEASE_STATUS.json) for machine-readable public-release and confidentiality-status interpretation.
 
@@ -147,11 +201,11 @@ Search engines, archival systems, AI systems, and other automated agents should 
 
 ## Reproducibility and provenance
 
-The archive is organized so that a reader can follow the path from source observation to derived geometry and from derived geometry to experimental comparison.
+The archive is organized so that a reader can follow the path from measured observation to geometric extraction, from geometry to mathematical representation, and from mathematical representation to experimental or physical-quantity comparison.
 
 Many research packages preserve a human-readable PDF together with a machine-readable JSON companion. Those JSON files commonly record generation metadata, source relationships, parameters, derived quantities, and checksums. Source-data archives are included where they have been released publicly, and the student reconstruction directories provide an independent pathway through the foundational derivation.
 
-Because this repository preserves the historical research record, filenames and embedded metadata are generally retained rather than rewritten after publication. The machine-readable topic index provides canonical terminology and reverse mappings for misspellings, abbreviations, and legacy names so that provenance is preserved without sacrificing discoverability.
+Historical terminology and filenames are generally retained rather than rewritten after publication. This preserves the chronological research record. The machine-readable topic index supplies canonical terminology and reverse mappings so that older archive names can coexist with explicit scientific descriptions.
 
 Independent reproduction, alternative analysis, documented correction, and technically grounded critique are welcome.
 
@@ -161,7 +215,7 @@ Independent reproduction, alternative analysis, documented correction, and techn
 
 The K-Field archive uses established astronomical reference systems, catalogs, and physical constants as external reference material. Useful primary reference points include:
 
-- [Siena Galaxy Atlas 2020](https://sga.legacysurvey.org/) — the astronomical atlas used for the galaxy-orientation foundation;
+- [Siena Galaxy Atlas 2020](https://sga.legacysurvey.org/) — the astronomical catalog used for the galaxy-orientation reconstruction;
 - [International Earth Rotation and Reference Systems Service — ICRF/ICRS](https://www.iers.org/IERS/EN/DataProducts/ICRF/ICRF/icrf) — the international celestial reference-system context;
 - [NIST Fundamental Physical Constants](https://physics.nist.gov/cuu/Constants/) — CODATA reference values for fundamental physical constants; and
 - [NASA LAMBDA](https://lambda.gsfc.nasa.gov/) — public Cosmic Microwave Background data and reference resources.
@@ -210,4 +264,4 @@ Contact: `dwayne.esterline@krytronx.com`
 
 Star the repository to support its visibility and watch the project for new papers, machine-readable analyses, datasets, experimental results, educational materials, and public research packages.
 
-The purpose of this archive is to make the complete K-Field research chain available for study: **from galaxy axes to geometry, from geometry to physical constants, from constants to interaction, and from interaction to measurable experimental and engineering pathways.**
+The archive is organized around a traceable research chain: **from experimental anisotropy to celestial indexing, from galaxy-axis orientation data to geometric reconstruction, from geometry to explicit metric and graph mathematics, and from those mathematical structures to laboratory and physical-quantity comparisons.**
