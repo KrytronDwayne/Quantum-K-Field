@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/schema/page-metadata.schema.json",
+  "title": "Quantum K-Field Semantic Page Registry Schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document_type",
+    "canonical_base",
+    "pages"
+  ],
+  "properties": {
+    "document_type": {
+      "const": "semantic_page_registry"
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "canonical_url",
+          "title",
+          "description",
+          "page_type"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "canonical_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "page_type": {
+            "type": "string"
+          },
+          "dataset_profile": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

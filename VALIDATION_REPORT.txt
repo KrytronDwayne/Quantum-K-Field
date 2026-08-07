@@ -1,0 +1,77 @@
+QUANTUM K-FIELD SEMANTIC WEB UPGRADE - VALIDATION REPORT
+Generated package audit: 2026-08-07
+
+CORE VALIDATOR
+Parsed JSON/JSON-LD files: 19
+HTML landing pages: 23; valid embedded JSON-LD blocks: 23
+Dataset profiles: 6; field references: 18
+Warnings: 0; Errors: 0
+
+PAGE MARKER CHECK
+All index.html pages preserve semantic JSON-LD markers.
+
+JSON SCHEMA VALIDATION
+machine_index/semantic/ontology-mappings.json: 0 errors
+machine_index/semantic/field-reference.json: 0 errors
+machine_index/semantic/page-metadata.json: 0 errors
+machine_index/semantic/index.json: 0 errors
+
+STANDALONE JSON-LD RDF PARSE
+machine_index/semantic/context.jsonld: 0 triples
+machine_index/semantic/dataset-catalog.jsonld: 174 triples
+machine_index/semantic/datasets/cmb-observer-trajectory-records.jsonld: 48 triples
+machine_index/semantic/datasets/d101-source-data.jsonld: 67 triples
+machine_index/semantic/datasets/galaxy-axis-analysis-records.jsonld: 46 triples
+machine_index/semantic/datasets/machine-index-records.jsonld: 56 triples
+machine_index/semantic/datasets/spectrophotometer-analysis-records.jsonld: 51 triples
+machine_index/semantic/datasets/typed-graph-records.jsonld: 41 triples
+machine_index/semantic/kfield-vocabulary.jsonld: 43 triples
+
+EMBEDDED JSON-LD OFFLINE RDF PARSE
+Applied_Devices_Analysis/index.html: 19 triples
+Assets/index.html: 19 triples
+CMB_Modulation/index.html: 49 triples
+Commentary/index.html: 19 triples
+Discovered_Pathways/index.html: 19 triples
+Galaxy_Analysis/index.html: 48 triples
+Lectures/index.html: 19 triples
+OCXO_Experiments/index.html: 57 triples
+Press_Release/index.html: 19 triples
+Spectrophotometer_Studies/index.html: 51 triples
+Start_Here/index.html: 19 triples
+Student_reconstruction_process/Galax_Derivation_Methods/index.html: 19 triples
+Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/index.html: 19 triples
+Student_reconstruction_process/index.html: 19 triples
+Typed_Graphs/index.html: 43 triples
+index.html: 27 triples
+machine_index/artifacts/index.html: 19 triples
+machine_index/index.html: 56 triples
+machine_index/lookup/index.html: 19 triples
+machine_index/schema/index.html: 19 triples
+machine_index/semantic/datasets/index.html: 19 triples
+machine_index/semantic/index.html: 19 triples
+machine_index/taxonomy/index.html: 19 triples
+
+DATASET LANDING PAGE CONSISTENCY
+CMB_Modulation/: profile=cmb-observer-trajectory-records; name_visible=True; description_visible=True; description_chars=182; profile_match=True; license=https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md
+Galaxy_Analysis/: profile=galaxy-axis-analysis-records; name_visible=True; description_visible=True; description_chars=178; profile_match=True; license=https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md
+OCXO_Experiments/: profile=d101-source-data; name_visible=True; description_visible=True; description_chars=201; profile_match=True; license=https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md
+Spectrophotometer_Studies/: profile=spectrophotometer-analysis-records; name_visible=True; description_visible=True; description_chars=216; profile_match=True; license=https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md
+Typed_Graphs/: profile=typed-graph-records; name_visible=True; description_visible=True; description_chars=173; profile_match=True; license=https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md
+machine_index/: profile=machine-index-records; name_visible=True; description_visible=True; description_chars=168; profile_match=True; license=https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md
+Dataset-linked landing pages checked: 6
+
+REFRESHER IDEMPOTENCE
+Refreshed 0 landing page(s).
+HTML pages changed: 0
+
+UPLOAD MANIFEST HASH CHECK
+Repository payload files checked: 50; mismatches: 0
+Actions: add=27, replace=23
+Accidental scientific binary/data payload files: 0
+
+REPOSITORY PAYLOAD ZIP
+Files: 50; CRC failure: None; expected manifest files: 50; exact_path_set_match=True
+
+FINAL STATUS
+Errors: 0

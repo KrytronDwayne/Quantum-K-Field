@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://krytrondwayne.github.io/Quantum-K-Field/sitemap.xml

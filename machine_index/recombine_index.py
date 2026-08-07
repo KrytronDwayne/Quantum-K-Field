@@ -33,6 +33,10 @@ out["artifact_index"]=[]
 for rel in manifest["reconstruction"]["logical_sections"]["artifact_index"]:
     out["artifact_index"].extend(load(ROOT/rel)["records"])
 
+semantic_manifest = IDX / "semantic" / "index.json"
+if semantic_manifest.exists():
+    out["semantic_web"] = load(semantic_manifest)
+
 out["integrity"]=core["integrity"]
 target=ROOT/"Quantum-K-Field_topic_keyword_index_recombined.json"
 target.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

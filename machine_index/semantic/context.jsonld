@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "ivoa_refframe": "http://www.ivoa.net/rdf/refframe#",
+    "kfield": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "keywords": "schema:keywords",
+    "creator": {
+      "@id": "schema:creator",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "variableMeasured": "schema:variableMeasured",
+    "measurementTechnique": "schema:measurementTechnique",
+    "temporalCoverage": "schema:temporalCoverage",
+    "spatialCoverage": "schema:spatialCoverage",
+    "distribution": "schema:distribution",
+    "contentUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "encodingFormat": "schema:encodingFormat",
+    "isBasedOn": {
+      "@id": "schema:isBasedOn",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    }
+  }
+}

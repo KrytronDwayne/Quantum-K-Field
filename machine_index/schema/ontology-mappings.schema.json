@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/schema/ontology-mappings.schema.json",
+  "title": "Quantum K-Field Ontology Mapping Schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document_type",
+    "prefixes",
+    "field_mappings",
+    "scientific_concept_mappings"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "document_type": {
+      "const": "research_archive_ontology_mapping"
+    },
+    "prefixes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "field_mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "internal_key",
+          "external_term",
+          "external_uri",
+          "relation"
+        ],
+        "properties": {
+          "internal_key": {
+            "type": "string"
+          },
+          "external_term": {
+            "type": "string"
+          },
+          "external_uri": {
+            "type": "string",
+            "format": "uri"
+          },
+          "relation": {
+            "enum": [
+              "exactMatch",
+              "closeMatch",
+              "broadMatch",
+              "narrowMatch",
+              "relatedMatch",
+              "authoritativeInternal"
+            ]
+          }
+        }
+      }
+    },
+    "scientific_concept_mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "internal_terms",
+          "relation"
+        ],
+        "properties": {
+          "internal_terms": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "relation": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,254 @@
+{
+  "$schema": "../schema/field-reference.schema.json",
+  "schema_version": "1.0.0",
+  "document_type": "research_archive_field_reference",
+  "generated_at_utc": "2026-08-07T18:17:00Z",
+  "repository": "KrytronDwayne/Quantum-K-Field",
+  "canonical_base": "https://krytrondwayne.github.io/Quantum-K-Field/",
+  "policy": {
+    "scope": "Exact or explicitly documented archive field keys plus conservative reusable scientific-key mappings.",
+    "unit_rule": "A unit URI is authoritative only where the field name/source schema defines that unit; otherwise unit is omitted and must be recovered from the source artifact.",
+    "reference_frame_rule": "Celestial coordinates must carry an explicit reference frame. ICRS mappings apply only when the source field or enclosing record states ICRS.",
+    "geography_rule": "Latitude/longitude are geographic coordinates; RA/Dec, ICRS XYZ, sidereal angle and phase are not schema:spatialCoverage.",
+    "unknown_rule": "Do not infer missing units, epochs, coordinate origins, time scales, or reference positions."
+  },
+  "fields": {
+    "record_id": {
+      "label": "record identifier",
+      "external_terms": [
+        {
+          "term": "schema:identifier",
+          "uri": "https://schema.org/identifier",
+          "relation": "closeMatch"
+        }
+      ]
+    },
+    "utc": {
+      "label": "observation timestamp",
+      "external_terms": [
+        {
+          "term": "dcterms:date",
+          "uri": "http://purl.org/dc/terms/date",
+          "relation": "closeMatch"
+        }
+      ],
+      "ivoa_ucd": "time.epoch",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Time",
+      "notes": "Observation/event time. Preserve the source time scale; do not replace it with metadata creation time."
+    },
+    "insert_date": {
+      "label": "record insertion timestamp",
+      "external_terms": [
+        {
+          "term": "prov:generatedAtTime",
+          "uri": "http://www.w3.org/ns/prov#generatedAtTime",
+          "relation": "closeMatch"
+        }
+      ],
+      "notes": "Database/record provenance time, distinct from observation UTC."
+    },
+    "lat": {
+      "label": "geographic latitude",
+      "external_terms": [
+        {
+          "term": "schema:latitude",
+          "uri": "https://schema.org/latitude",
+          "relation": "exactMatch"
+        }
+      ],
+      "ivoa_ucd": "pos.earth.lat",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Angle",
+      "unit": "http://qudt.org/vocab/unit/DEG",
+      "coverage_role": "geographic"
+    },
+    "lon": {
+      "label": "geographic longitude",
+      "external_terms": [
+        {
+          "term": "schema:longitude",
+          "uri": "https://schema.org/longitude",
+          "relation": "exactMatch"
+        }
+      ],
+      "ivoa_ucd": "pos.earth.lon",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Angle",
+      "unit": "http://qudt.org/vocab/unit/DEG",
+      "coverage_role": "geographic"
+    },
+    "pulse_w": {
+      "label": "pulse-width/counter-width observable",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Time",
+      "unit_status": "source_defined",
+      "notes": "Do not infer seconds from the field name. Preserve counter/tick semantics and conversion defined by the source instrument record."
+    },
+    "temp_c": {
+      "label": "temperature in degrees Celsius",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "ivoa_ucd": "phys.temperature",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Temperature",
+      "unit": "http://qudt.org/vocab/unit/DEG_C"
+    },
+    "device_id": {
+      "label": "instrument/device identifier",
+      "external_terms": [
+        {
+          "term": "schema:identifier",
+          "uri": "https://schema.org/identifier",
+          "relation": "closeMatch"
+        }
+      ]
+    },
+    "notes": {
+      "label": "record notes",
+      "external_terms": [
+        {
+          "term": "dcterms:description",
+          "uri": "http://purl.org/dc/terms/description",
+          "relation": "broadMatch"
+        }
+      ]
+    },
+    "sidereal_angle_rad_0_2pi": {
+      "label": "sidereal angle",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Angle",
+      "unit": "http://qudt.org/vocab/unit/RAD",
+      "coverage_role": "celestial_or_rotation_coordinate"
+    },
+    "earth_reflex_phase_rad_signed": {
+      "label": "signed Earth-reflex phase",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Angle",
+      "unit": "http://qudt.org/vocab/unit/RAD",
+      "coverage_role": "observer_trajectory_phase"
+    },
+    "ra_deg": {
+      "label": "right ascension",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "ivoa_ucd": "pos.eq.ra",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Angle",
+      "unit": "http://qudt.org/vocab/unit/DEG",
+      "reference_frame_condition": "Use http://www.ivoa.net/rdf/refframe#ICRS only when source explicitly states ICRS."
+    },
+    "dec_deg": {
+      "label": "declination",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "ivoa_ucd": "pos.eq.dec",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Angle",
+      "unit": "http://qudt.org/vocab/unit/DEG",
+      "reference_frame_condition": "Use http://www.ivoa.net/rdf/refframe#ICRS only when source explicitly states ICRS."
+    },
+    "icrs_x": {
+      "label": "ICRS Cartesian X component",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "reference_frame": "http://www.ivoa.net/rdf/refframe#ICRS",
+      "unit_status": "source_defined"
+    },
+    "icrs_y": {
+      "label": "ICRS Cartesian Y component",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "reference_frame": "http://www.ivoa.net/rdf/refframe#ICRS",
+      "unit_status": "source_defined"
+    },
+    "icrs_z": {
+      "label": "ICRS Cartesian Z component",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "reference_frame": "http://www.ivoa.net/rdf/refframe#ICRS",
+      "unit_status": "source_defined"
+    },
+    "frequency_hz": {
+      "label": "frequency",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "ivoa_ucd": "em.freq",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Frequency",
+      "unit": "http://qudt.org/vocab/unit/HZ"
+    },
+    "wavelength_nm": {
+      "label": "wavelength",
+      "external_terms": [
+        {
+          "term": "schema:variableMeasured",
+          "uri": "https://schema.org/variableMeasured",
+          "relation": "broadMatch"
+        }
+      ],
+      "ivoa_ucd": "em.wl",
+      "quantity_kind": "http://qudt.org/vocab/quantitykind/Wavelength",
+      "unit": "http://qudt.org/vocab/unit/NanoM"
+    }
+  },
+  "reference_frames": {
+    "ICRS": {
+      "uri": "http://www.ivoa.net/rdf/refframe#ICRS",
+      "label": "International Celestial Reference System"
+    }
+  },
+  "unit_references": {
+    "DEG": "http://qudt.org/vocab/unit/DEG",
+    "RAD": "http://qudt.org/vocab/unit/RAD",
+    "DEG_C": "http://qudt.org/vocab/unit/DEG_C",
+    "HZ": "http://qudt.org/vocab/unit/HZ",
+    "NanoM": "http://qudt.org/vocab/unit/NanoM"
+  }
+}

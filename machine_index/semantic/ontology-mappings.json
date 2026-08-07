@@ -1,0 +1,488 @@
+{
+  "$schema": "../schema/ontology-mappings.schema.json",
+  "schema_version": "1.0.0",
+  "document_type": "research_archive_ontology_mapping",
+  "generated_at_utc": "2026-08-07T18:17:00Z",
+  "repository": "KrytronDwayne/Quantum-K-Field",
+  "canonical_base": "https://krytrondwayne.github.io/Quantum-K-Field/",
+  "mapping_policy": {
+    "default_relation": "relatedMatch",
+    "exact_match_rule": "Use exactMatch only when internal and external semantics are genuinely equivalent.",
+    "project_term_rule": "Project-specific K-Field concepts retain internal IDs; conventional external concepts are related/broader mappings, not identity assertions.",
+    "unknown_value_rule": "Omit unknown semantic values rather than infer them."
+  },
+  "prefixes": {
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "ivoa_refframe": "http://www.ivoa.net/rdf/refframe#",
+    "kfield": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#"
+  },
+  "field_mappings": [
+    {
+      "internal_key": "title",
+      "external_term": "schema:name",
+      "external_uri": "https://schema.org/name",
+      "relation": "exactMatch",
+      "notes": "Resource title."
+    },
+    {
+      "internal_key": "name",
+      "external_term": "schema:name",
+      "external_uri": "https://schema.org/name",
+      "relation": "exactMatch",
+      "notes": "Human-readable resource or variable name."
+    },
+    {
+      "internal_key": "description",
+      "external_term": "schema:description",
+      "external_uri": "https://schema.org/description",
+      "relation": "exactMatch",
+      "notes": "Resource description."
+    },
+    {
+      "internal_key": "abstract",
+      "external_term": "dcterms:abstract",
+      "external_uri": "http://purl.org/dc/terms/abstract",
+      "relation": "exactMatch",
+      "notes": "Resource abstract/summary."
+    },
+    {
+      "internal_key": "keywords",
+      "external_term": "schema:keywords",
+      "external_uri": "https://schema.org/keywords",
+      "relation": "exactMatch",
+      "notes": "Discovery keywords."
+    },
+    {
+      "internal_key": "creator",
+      "external_term": "schema:creator",
+      "external_uri": "https://schema.org/creator",
+      "relation": "exactMatch",
+      "notes": "Primary creator."
+    },
+    {
+      "internal_key": "publisher",
+      "external_term": "schema:publisher",
+      "external_uri": "https://schema.org/publisher",
+      "relation": "exactMatch",
+      "notes": "Publishing organization/entity."
+    },
+    {
+      "internal_key": "license",
+      "external_term": "schema:license",
+      "external_uri": "https://schema.org/license",
+      "relation": "exactMatch",
+      "notes": "Controlling license reference."
+    },
+    {
+      "internal_key": "identifier",
+      "external_term": "schema:identifier",
+      "external_uri": "https://schema.org/identifier",
+      "relation": "exactMatch",
+      "notes": "Stable identifier."
+    },
+    {
+      "internal_key": "citation",
+      "external_term": "schema:citation",
+      "external_uri": "https://schema.org/citation",
+      "relation": "exactMatch",
+      "notes": "Citation relation or citation text."
+    },
+    {
+      "internal_key": "date_created",
+      "external_term": "schema:dateCreated",
+      "external_uri": "https://schema.org/dateCreated",
+      "relation": "closeMatch",
+      "notes": "Creation date when source semantics are creation time."
+    },
+    {
+      "internal_key": "date_modified",
+      "external_term": "schema:dateModified",
+      "external_uri": "https://schema.org/dateModified",
+      "relation": "closeMatch",
+      "notes": "Modification date."
+    },
+    {
+      "internal_key": "generated_at_utc",
+      "external_term": "prov:generatedAtTime",
+      "external_uri": "http://www.w3.org/ns/prov#generatedAtTime",
+      "relation": "closeMatch",
+      "notes": "Generation timestamp for derived metadata/artifact."
+    },
+    {
+      "internal_key": "source",
+      "external_term": "prov:wasDerivedFrom",
+      "external_uri": "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "relation": "relatedMatch",
+      "notes": "Use only when source represents derivational provenance."
+    },
+    {
+      "internal_key": "paired_artifact",
+      "external_term": "dcterms:relation",
+      "external_uri": "http://purl.org/dc/terms/relation",
+      "relation": "relatedMatch",
+      "notes": "Alternate/paired representation relation."
+    },
+    {
+      "internal_key": "temporal_coverage",
+      "external_term": "schema:temporalCoverage",
+      "external_uri": "https://schema.org/temporalCoverage",
+      "relation": "exactMatch",
+      "notes": "Dataset time interval; ISO 8601 interval recommended."
+    },
+    {
+      "internal_key": "spatial_coverage",
+      "external_term": "schema:spatialCoverage",
+      "external_uri": "https://schema.org/spatialCoverage",
+      "relation": "exactMatch",
+      "notes": "Geographic/place coverage only."
+    },
+    {
+      "internal_key": "variable_measured",
+      "external_term": "schema:variableMeasured",
+      "external_uri": "https://schema.org/variableMeasured",
+      "relation": "exactMatch",
+      "notes": "Measured or represented dataset variable."
+    },
+    {
+      "internal_key": "measurement_technique",
+      "external_term": "schema:measurementTechnique",
+      "external_uri": "https://schema.org/measurementTechnique",
+      "relation": "exactMatch",
+      "notes": "Measurement or processing technique."
+    },
+    {
+      "internal_key": "encoding_format",
+      "external_term": "schema:encodingFormat",
+      "external_uri": "https://schema.org/encodingFormat",
+      "relation": "exactMatch",
+      "notes": "Internet media type or format."
+    },
+    {
+      "internal_key": "content_url",
+      "external_term": "schema:contentUrl",
+      "external_uri": "https://schema.org/contentUrl",
+      "relation": "exactMatch",
+      "notes": "Direct distribution URL."
+    },
+    {
+      "internal_key": "repository_url",
+      "external_term": "schema:codeRepository",
+      "external_uri": "https://schema.org/codeRepository",
+      "relation": "closeMatch",
+      "notes": "Repository URL where source/code is maintained."
+    },
+    {
+      "internal_key": "artifact_path",
+      "external_term": "dcterms:identifier",
+      "external_uri": "http://purl.org/dc/terms/identifier",
+      "relation": "closeMatch",
+      "notes": "Repository-relative archival identifier/path."
+    },
+    {
+      "internal_key": "canonical_topic_ids",
+      "external_term": "dcterms:subject",
+      "external_uri": "http://purl.org/dc/terms/subject",
+      "relation": "closeMatch",
+      "notes": "Canonical topic identifiers used for discovery."
+    },
+    {
+      "internal_key": "search_companion_path",
+      "external_term": "dcterms:relation",
+      "external_uri": "http://purl.org/dc/terms/relation",
+      "relation": "relatedMatch",
+      "notes": "Compact discovery companion; not independent evidence."
+    }
+  ],
+  "scientific_concept_mappings": [
+    {
+      "internal_terms": [
+        "ICRS",
+        "International Celestial Reference System",
+        "icrs"
+      ],
+      "external": {
+        "ivoa_reference_frame": "http://www.ivoa.net/rdf/refframe#ICRS"
+      },
+      "relation": "exactMatch",
+      "notes": "Use for coordinate/reference-frame identity, not geographic coverage."
+    },
+    {
+      "internal_terms": [
+        "right ascension",
+        "RA",
+        "ra"
+      ],
+      "external": {
+        "ivoa_ucd": "pos.eq.ra",
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Angle"
+      },
+      "relation": "closeMatch",
+      "notes": "Attach explicit reference frame and unit where known."
+    },
+    {
+      "internal_terms": [
+        "declination",
+        "Dec",
+        "DEC",
+        "dec"
+      ],
+      "external": {
+        "ivoa_ucd": "pos.eq.dec",
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Angle"
+      },
+      "relation": "closeMatch",
+      "notes": "Attach explicit reference frame and unit where known."
+    },
+    {
+      "internal_terms": [
+        "UTC",
+        "utc",
+        "timestamp"
+      ],
+      "external": {
+        "ivoa_ucd": "time.epoch",
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Time"
+      },
+      "relation": "closeMatch"
+    },
+    {
+      "internal_terms": [
+        "sidereal angle",
+        "sidereal phase"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Angle"
+      },
+      "relation": "broadMatch"
+    },
+    {
+      "internal_terms": [
+        "frequency",
+        "frequency_hz",
+        "oscillator frequency"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Frequency",
+        "ivoa_ucd": "em.freq"
+      },
+      "relation": "closeMatch"
+    },
+    {
+      "internal_terms": [
+        "temperature",
+        "temp_c",
+        "temperature_c"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Temperature",
+        "ivoa_ucd": "phys.temperature"
+      },
+      "relation": "closeMatch"
+    },
+    {
+      "internal_terms": [
+        "wavelength",
+        "wavelength_nm"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Wavelength",
+        "ivoa_ucd": "em.wl"
+      },
+      "relation": "closeMatch"
+    },
+    {
+      "internal_terms": [
+        "photon energy",
+        "energy"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Energy",
+        "ivoa_ucd": "phys.energy"
+      },
+      "relation": "closeMatch"
+    },
+    {
+      "internal_terms": [
+        "velocity",
+        "CMB velocity vector"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Velocity"
+      },
+      "relation": "broadMatch"
+    },
+    {
+      "internal_terms": [
+        "distance",
+        "position",
+        "observer position"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Length"
+      },
+      "relation": "broadMatch"
+    },
+    {
+      "internal_terms": [
+        "phase angle",
+        "earth_reflex_phase_rad_signed"
+      ],
+      "external": {
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Angle"
+      },
+      "relation": "broadMatch"
+    },
+    {
+      "internal_terms": [
+        "latitude",
+        "lat"
+      ],
+      "external": {
+        "schema_property": "https://schema.org/latitude",
+        "ivoa_ucd": "pos.earth.lat",
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Angle"
+      },
+      "relation": "closeMatch"
+    },
+    {
+      "internal_terms": [
+        "longitude",
+        "lon"
+      ],
+      "external": {
+        "schema_property": "https://schema.org/longitude",
+        "ivoa_ucd": "pos.earth.lon",
+        "qudt_quantity_kind": "http://qudt.org/vocab/quantitykind/Angle"
+      },
+      "relation": "closeMatch"
+    },
+    {
+      "internal_terms": [
+        "Cell3",
+        "cell3"
+      ],
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#cell3",
+      "relation": "authoritativeInternal",
+      "external_relation": "relatedMatch"
+    },
+    {
+      "internal_terms": [
+        "Devon Dimension"
+      ],
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#devon-dimension",
+      "relation": "authoritativeInternal"
+    },
+    {
+      "internal_terms": [
+        "Mass Bridge"
+      ],
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#mass-bridge",
+      "relation": "authoritativeInternal"
+    },
+    {
+      "internal_terms": [
+        "Lucas Limit"
+      ],
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#lucas-limit",
+      "relation": "authoritativeInternal"
+    },
+    {
+      "internal_terms": [
+        "Emily Eigen-spectrum"
+      ],
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigenspectrum",
+      "relation": "authoritativeInternal"
+    },
+    {
+      "internal_terms": [
+        "Jack Jacobian"
+      ],
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#jack-jacobian",
+      "relation": "authoritativeInternal"
+    },
+    {
+      "internal_terms": [
+        "Lucas Supergroup"
+      ],
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#lucas-supergroup",
+      "relation": "authoritativeInternal"
+    }
+  ],
+  "unit_mappings": {
+    "degree": {
+      "qudt": "http://qudt.org/vocab/unit/DEG",
+      "symbols": [
+        "deg",
+        "degree",
+        "degrees",
+        "\u00b0"
+      ]
+    },
+    "radian": {
+      "qudt": "http://qudt.org/vocab/unit/RAD",
+      "symbols": [
+        "rad"
+      ]
+    },
+    "second": {
+      "qudt": "http://qudt.org/vocab/unit/SEC",
+      "symbols": [
+        "s",
+        "sec"
+      ]
+    },
+    "hertz": {
+      "qudt": "http://qudt.org/vocab/unit/HZ",
+      "symbols": [
+        "Hz"
+      ]
+    },
+    "meter": {
+      "qudt": "http://qudt.org/vocab/unit/M",
+      "symbols": [
+        "m"
+      ]
+    },
+    "kelvin": {
+      "qudt": "http://qudt.org/vocab/unit/K",
+      "symbols": [
+        "K"
+      ]
+    },
+    "nanometer": {
+      "qudt": "http://qudt.org/vocab/unit/NanoM",
+      "symbols": [
+        "nm"
+      ]
+    },
+    "electronvolt": {
+      "qudt": "http://qudt.org/vocab/unit/EV",
+      "symbols": [
+        "eV"
+      ]
+    },
+    "meter_per_second": {
+      "qudt": "http://qudt.org/vocab/unit/M-PER-SEC",
+      "symbols": [
+        "m/s",
+        "m s^-1"
+      ]
+    }
+  },
+  "authoritative_sources": [
+    "https://schema.org/",
+    "https://www.w3.org/TR/vocab-dcat-3/",
+    "https://www.w3.org/TR/prov-o/",
+    "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+    "https://www.qudt.org/catalog/qudt-catalog.html",
+    "https://www.ivoa.net/rdf/refframe",
+    "https://ivoa.net/documents/PR/UCD/UCD-20041026.html"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "ivoa_refframe": "http://www.ivoa.net/rdf/refframe#",
+    "kfield": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "keywords": "schema:keywords",
+    "creator": {
+      "@id": "schema:creator",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "variableMeasured": "schema:variableMeasured",
+    "measurementTechnique": "schema:measurementTechnique",
+    "temporalCoverage": "schema:temporalCoverage",
+    "spatialCoverage": "schema:spatialCoverage",
+    "distribution": "schema:distribution",
+    "contentUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "encodingFormat": "schema:encodingFormat",
+    "isBasedOn": {
+      "@id": "schema:isBasedOn",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/#dataset-spectrophotometer-analysis-records",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "K-Field Rotating Spectrophotometer Analysis Records",
+      "schema:description": "Structured records from rotating multispectral studies covering wavelength-resolved response, angular dependence, antipodal relationships, photon-energy mappings, geometric comparisons, and signal/coherence analysis.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/#dataset-spectrophotometer-analysis-records",
+      "dcterms:title": "K-Field Rotating Spectrophotometer Analysis Records",
+      "dcterms:description": "Structured records from rotating multispectral studies covering wavelength-resolved response, angular dependence, antipodal relationships, photon-energy mappings, geometric comparisons, and signal/coherence analysis.",
+      "dcterms:publisher": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      },
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "spectrophotometry",
+        "wavelength",
+        "rotation",
+        "photon energy",
+        "Bragg geometry",
+        "antipodal symmetry",
+        "coherence",
+        "signal processing"
+      ],
+      "dcat:keyword": [
+        "spectrophotometry",
+        "wavelength",
+        "rotation",
+        "photon energy",
+        "Bragg geometry",
+        "antipodal symmetry",
+        "coherence",
+        "signal processing"
+      ],
+      "schema:isAccessibleForFree": true,
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/"
+      },
+      "schema:measurementTechnique": [
+        "Rotating multispectral measurement",
+        "spectrophotometry",
+        "angular signal analysis"
+      ],
+      "schema:variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "name": "wavelength-resolved spectral response",
+          "description": "Spectral-channel measurement as a function of experimental orientation",
+          "propertyID": "http://qudt.org/vocab/quantitykind/Wavelength"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "angular orientation",
+          "description": "Detector/sample orientation coordinate",
+          "propertyID": "http://qudt.org/vocab/quantitykind/Angle"
+        }
+      ]
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator",
+      "@type": "Person",
+      "name": "P. Dwayne Esterline",
+      "givenName": "P. Dwayne",
+      "familyName": "Esterline",
+      "affiliation": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization",
+      "@type": "Organization",
+      "name": "Krytronx, LLC"
+    }
+  ]
+}

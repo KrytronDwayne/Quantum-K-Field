@@ -1,0 +1,388 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "ivoa_refframe": "http://www.ivoa.net/rdf/refframe#",
+    "kfield": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "keywords": "schema:keywords",
+    "creator": {
+      "@id": "schema:creator",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "variableMeasured": "schema:variableMeasured",
+    "measurementTechnique": "schema:measurementTechnique",
+    "temporalCoverage": "schema:temporalCoverage",
+    "spatialCoverage": "schema:spatialCoverage",
+    "distribution": "schema:distribution",
+    "contentUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "encodingFormat": "schema:encodingFormat",
+    "isBasedOn": {
+      "@id": "schema:isBasedOn",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog",
+      "@type": [
+        "schema:DataCatalog",
+        "dcat:Catalog"
+      ],
+      "schema:name": "Quantum K-Field Research Archive Data Catalog",
+      "dcterms:title": "Quantum K-Field Research Archive Data Catalog",
+      "schema:description": "Machine-facing catalog of explicitly typed datasets and structured record collections in the public Quantum K-Field archive.",
+      "dcterms:description": "Machine-facing catalog of explicitly typed datasets and structured record collections in the public Quantum K-Field archive.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/"
+      },
+      "dcterms:publisher": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      },
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:dataset": [
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/#dataset-d101-source-data"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Galaxy_Analysis/#dataset-galaxy-axis-analysis-records"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/#dataset-spectrophotometer-analysis-records"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/CMB_Modulation/#dataset-cmb-observer-trajectory-records"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Typed_Graphs/#dataset-typed-graph-records"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/#dataset-machine-index-records"
+        }
+      ]
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator",
+      "@type": "Person",
+      "name": "P. Dwayne Esterline",
+      "givenName": "P. Dwayne",
+      "familyName": "Esterline",
+      "affiliation": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization",
+      "@type": "Organization",
+      "name": "Krytronx, LLC"
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/#dataset-d101-source-data",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "Dual-OCXO D101 Experimental Source Data",
+      "schema:description": "Public source-data archive for the Dual-OCXO D101 experimental studies, supporting frequency-metrology, celestial-crossing, phase/timing, and time-frequency analyses in the OCXO_Experiments collection.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/#dataset-d101-source-data",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "K-Field",
+        "D101",
+        "OCXO",
+        "dual OCXO",
+        "frequency metrology",
+        "precision timing",
+        "celestial crossings",
+        "ICRS",
+        "time-frequency analysis"
+      ],
+      "dcat:keyword": [
+        "K-Field",
+        "D101",
+        "OCXO",
+        "dual OCXO",
+        "frequency metrology",
+        "precision timing",
+        "celestial crossings",
+        "ICRS",
+        "time-frequency analysis"
+      ],
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Galaxy_Analysis/#dataset-galaxy-axis-analysis-records",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "K-Field Galaxy-Axis Orientation Analysis Records",
+      "schema:description": "Machine-readable and report-based analysis records for galaxy-axis orientation, unit-sphere directional populations, plane-system reconstruction, and Cell3 astronomical geometry.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Galaxy_Analysis/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Galaxy_Analysis/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/Galaxy_Analysis/#dataset-galaxy-axis-analysis-records",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "galaxy axis orientation",
+        "ICRS",
+        "unit sphere",
+        "plane systems",
+        "Cell3",
+        "astronomical orientation geometry"
+      ],
+      "dcat:keyword": [
+        "galaxy axis orientation",
+        "ICRS",
+        "unit sphere",
+        "plane systems",
+        "Cell3",
+        "astronomical orientation geometry"
+      ],
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Galaxy_Analysis/"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/#dataset-spectrophotometer-analysis-records",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "K-Field Rotating Spectrophotometer Analysis Records",
+      "schema:description": "Structured records from rotating multispectral studies covering wavelength-resolved response, angular dependence, antipodal relationships, photon-energy mappings, geometric comparisons, and signal/coherence analysis.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/#dataset-spectrophotometer-analysis-records",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "spectrophotometry",
+        "wavelength",
+        "rotation",
+        "photon energy",
+        "Bragg geometry",
+        "antipodal symmetry",
+        "coherence",
+        "signal processing"
+      ],
+      "dcat:keyword": [
+        "spectrophotometry",
+        "wavelength",
+        "rotation",
+        "photon energy",
+        "Bragg geometry",
+        "antipodal symmetry",
+        "coherence",
+        "signal processing"
+      ],
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/CMB_Modulation/#dataset-cmb-observer-trajectory-records",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "K-Field CMB and Observer-Trajectory Analysis Records",
+      "schema:description": "Structured analyses of Earth/CMB reference-frame motion, observer trajectory, celestial indexing, phase structure, and related coordinate transformations used in K-Field comparisons.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/CMB_Modulation/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/CMB_Modulation/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/CMB_Modulation/#dataset-cmb-observer-trajectory-records",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "CMB",
+        "observer trajectory",
+        "reference frame",
+        "ICRS",
+        "Earth motion",
+        "celestial indexing",
+        "phase"
+      ],
+      "dcat:keyword": [
+        "CMB",
+        "observer trajectory",
+        "reference frame",
+        "ICRS",
+        "Earth motion",
+        "celestial indexing",
+        "phase"
+      ],
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/CMB_Modulation/"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Typed_Graphs/#dataset-typed-graph-records",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "Quantum K-Field Typed Graph Records",
+      "schema:description": "Machine-readable typed graph representations of K-Field entities, relationships, derivations, reconstruction kernels, closure records, and graph-based validation structures.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Typed_Graphs/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Typed_Graphs/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/Typed_Graphs/#dataset-typed-graph-records",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "typed graph",
+        "knowledge graph",
+        "dependency graph",
+        "reconstruction kernel",
+        "closure record",
+        "Cell3"
+      ],
+      "dcat:keyword": [
+        "typed graph",
+        "knowledge graph",
+        "dependency graph",
+        "reconstruction kernel",
+        "closure record",
+        "Cell3"
+      ],
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/Typed_Graphs/"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/#dataset-machine-index-records",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "Quantum K-Field Sharded Machine Index",
+      "schema:description": "Sharded machine-readable discovery infrastructure covering artifact lookup, canonical taxonomy, keyword normalization, search companions, and repository-scale indexing.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/#dataset-machine-index-records",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "machine index",
+        "artifact index",
+        "taxonomy",
+        "keyword index",
+        "semantic discovery",
+        "LLM discovery",
+        "repository metadata"
+      ],
+      "dcat:keyword": [
+        "machine index",
+        "artifact index",
+        "taxonomy",
+        "keyword index",
+        "semantic discovery",
+        "LLM discovery",
+        "repository metadata"
+      ],
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/"
+      }
+    }
+  ]
+}

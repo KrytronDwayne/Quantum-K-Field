@@ -10,7 +10,7 @@
   "generated_at_utc": "2026-08-07T02:58:39Z",
   "status": "active_sharded_index",
   "index_manifest": "machine_index/index.json",
-  "description": "Stable compatibility entry point for the current sharded Quantum K-Field machine index. The timestamped filename is retained for link stability; freshness is determined by snapshot_head_commit_sha and generated_at_utc.",
+  "description": "Stable compatibility entry point for the current sharded Quantum K-Field machine index. The timestamped filename is retained for link stability; freshness of the artifact inventory is determined by snapshot_head_commit_sha and generated_at_utc. The semantic-web extension is additive and separately versioned.",
   "summary": {
     "artifact_file_count": 372,
     "primary_artifact_file_count": 242,
@@ -81,11 +81,24 @@
     "taxonomy": "machine_index/taxonomy/",
     "artifacts": "machine_index/artifacts/",
     "term_locator": "machine_index/lookup/term-locator.json",
-    "artifact_locator": "machine_index/lookup/artifact-locator.json"
+    "artifact_locator": "machine_index/lookup/artifact-locator.json",
+    "semantic_extension": "machine_index/semantic/index.json",
+    "ontology_mappings": "machine_index/semantic/ontology-mappings.json",
+    "field_reference": "machine_index/semantic/field-reference.json",
+    "dataset_catalog": "machine_index/semantic/dataset-catalog.jsonld"
+  },
+  "extensions": {
+    "semantic_web": {
+      "schema_version": "1.0.0",
+      "generated_at_utc": "2026-08-07T18:17:00Z",
+      "manifest": "machine_index/semantic/index.json",
+      "artifact_inventory_semantics": "Semantic infrastructure is additive and remains excluded from the 2.1 artifact inventory counts above."
+    }
   },
   "compatibility": {
     "legacy_filename_retained_for_link_stability": true,
     "former_monolithic_index_superseded": true,
-    "recombination_script": "machine_index/recombine_index.py"
+    "recombination_script": "machine_index/recombine_index.py",
+    "semantic_extension_is_additive": true
   }
 }

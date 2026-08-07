@@ -1,0 +1,163 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "ivoa_refframe": "http://www.ivoa.net/rdf/refframe#",
+    "kfield": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "keywords": "schema:keywords",
+    "creator": {
+      "@id": "schema:creator",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "variableMeasured": "schema:variableMeasured",
+    "measurementTechnique": "schema:measurementTechnique",
+    "temporalCoverage": "schema:temporalCoverage",
+    "spatialCoverage": "schema:spatialCoverage",
+    "distribution": "schema:distribution",
+    "contentUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "encodingFormat": "schema:encodingFormat",
+    "isBasedOn": {
+      "@id": "schema:isBasedOn",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/#dataset-machine-index-records",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "Quantum K-Field Sharded Machine Index",
+      "schema:description": "Sharded machine-readable discovery infrastructure covering artifact lookup, canonical taxonomy, keyword normalization, search companions, and repository-scale indexing.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/#dataset-machine-index-records",
+      "dcterms:title": "Quantum K-Field Sharded Machine Index",
+      "dcterms:description": "Sharded machine-readable discovery infrastructure covering artifact lookup, canonical taxonomy, keyword normalization, search companions, and repository-scale indexing.",
+      "dcterms:publisher": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      },
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "machine index",
+        "artifact index",
+        "taxonomy",
+        "keyword index",
+        "semantic discovery",
+        "LLM discovery",
+        "repository metadata"
+      ],
+      "dcat:keyword": [
+        "machine index",
+        "artifact index",
+        "taxonomy",
+        "keyword index",
+        "semantic discovery",
+        "LLM discovery",
+        "repository metadata"
+      ],
+      "schema:isAccessibleForFree": true,
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/"
+      },
+      "schema:measurementTechnique": [
+        "Repository inventory",
+        "taxonomy normalization",
+        "artifact indexing"
+      ],
+      "schema:variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "name": "archive artifact metadata",
+          "description": "Repository paths, normalized titles, keywords, topic identifiers and discovery relationships"
+        }
+      ],
+      "schema:distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "machine_index/index.json",
+          "contentUrl": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/machine_index/index.json",
+          "encodingFormat": "application/json"
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/#distribution-machine-index-records-1"
+        }
+      ]
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/#distribution-machine-index-records-1",
+      "@type": [
+        "schema:DataDownload",
+        "dcat:Distribution"
+      ],
+      "schema:name": "machine_index/index.json",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/machine_index/index.json"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/machine_index/index.json"
+      },
+      "schema:encodingFormat": "application/json",
+      "dcterms:format": "application/json"
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator",
+      "@type": "Person",
+      "name": "P. Dwayne Esterline",
+      "givenName": "P. Dwayne",
+      "familyName": "Esterline",
+      "affiliation": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization",
+      "@type": "Organization",
+      "name": "Krytronx, LLC"
+    }
+  ]
+}

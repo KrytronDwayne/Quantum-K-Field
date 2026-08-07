@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/schema/field-reference.schema.json",
+  "title": "Quantum K-Field Field Reference Schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document_type",
+    "fields",
+    "policy"
+  ],
+  "properties": {
+    "document_type": {
+      "const": "research_archive_field_reference"
+    },
+    "fields": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "label"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "external_terms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "term",
+                "uri",
+                "relation"
+              ],
+              "properties": {
+                "term": {
+                  "type": "string"
+                },
+                "uri": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "relation": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "ivoa_ucd": {
+            "type": "string"
+          },
+          "quantity_kind": {
+            "type": "string",
+            "format": "uri"
+          },
+          "unit": {
+            "type": "string",
+            "format": "uri"
+          },
+          "reference_frame": {
+            "type": "string",
+            "format": "uri"
+          },
+          "unit_status": {
+            "type": "string"
+          },
+          "reference_frame_condition": {
+            "type": "string"
+          },
+          "coverage_role": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

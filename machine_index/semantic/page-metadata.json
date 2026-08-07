@@ -1,0 +1,176 @@
+{
+  "$schema": "../schema/page-metadata.schema.json",
+  "schema_version": "1.0.0",
+  "document_type": "semantic_page_registry",
+  "generated_at_utc": "2026-08-07T18:17:00Z",
+  "canonical_base": "https://krytrondwayne.github.io/Quantum-K-Field/",
+  "pages": [
+    {
+      "path": "/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/",
+      "title": "Quantum K-Field Research Archive",
+      "description": "Authoritative landing page for the public Quantum K-Field research repository, providing direct access to foundational documentation, release status, citation and licensing records, integrity metadata, and machine-readable discovery infrastructure.",
+      "page_type": "WebSite+DataCatalog"
+    },
+    {
+      "path": "Applied_Devices_Analysis/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Applied_Devices_Analysis/",
+      "title": "Applied Devices Analysis",
+      "description": "Engineering studies of K-Field interactions with rotating masses, thrusters, oscillators, trajectories, armatures, materials, and device geometries.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Assets/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Assets/",
+      "title": "Assets",
+      "description": "Official Quantum K-Field visual identity assets and repository graphics.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "CMB_Modulation/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/CMB_Modulation/",
+      "title": "CMB Modulation",
+      "description": "Analyses referenced to cosmic microwave background translation, celestial modulation, phase structure, reference frames, and observer trajectory.",
+      "page_type": "CollectionPage",
+      "dataset_profile": "cmb-observer-trajectory-records"
+    },
+    {
+      "path": "Commentary/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Commentary/",
+      "title": "Commentary",
+      "description": "Technical commentary connecting K-Field observations, geometry, physical interpretation, experimental consequences, and research context.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Discovered_Pathways/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Discovered_Pathways/",
+      "title": "Discovered Pathways",
+      "description": "Derived research pathways extending K-Field geometry into physical constants, forces, materials, wave behavior, quantum relations, and engineering implications.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Galaxy_Analysis/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Galaxy_Analysis/",
+      "title": "Galaxy Analysis",
+      "description": "Galaxy-axis and ICRS analyses used to derive plane systems, Cell3 geometry, orientation relationships, and astronomical reference structure.",
+      "page_type": "CollectionPage",
+      "dataset_profile": "galaxy-axis-analysis-records"
+    },
+    {
+      "path": "Lectures/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Lectures/",
+      "title": "Lectures",
+      "description": "Educational lecture materials introducing the Quantum K-Field framework, derivations, geometry, and experimental interpretation.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "OCXO_Experiments/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/",
+      "title": "OCXO Experiments",
+      "description": "Dual-OCXO timing and heterodyne experiments covering phase, frequency differential, sidereal/CMB orientation, precision metrology, and instrument behavior.",
+      "page_type": "CollectionPage",
+      "dataset_profile": "d101-source-data"
+    },
+    {
+      "path": "Press_Release/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Press_Release/",
+      "title": "Press Release",
+      "description": "Public-facing announcements and release materials describing the Quantum K-Field archive, findings, and research milestones.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Spectrophotometer_Studies/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Spectrophotometer_Studies/",
+      "title": "Spectrophotometer Studies",
+      "description": "AS7341 optical and spectral rotation studies covering photon-energy modulation, Cell3 geometry, Bragg relationships, unit-sphere structure, and CMB trajectory analysis.",
+      "page_type": "CollectionPage",
+      "dataset_profile": "spectrophotometer-analysis-records"
+    },
+    {
+      "path": "Start_Here/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Start_Here/",
+      "title": "Start Here",
+      "description": "Curated foundational documents for readers beginning with the Quantum K-Field, its derivation, geometry, evidence chain, terminology, and reconstruction path.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Student_reconstruction_process/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Student_reconstruction_process/",
+      "title": "Student Reconstruction Process",
+      "description": "Instructional reconstruction pathways leading from galaxy-axis observations through geometric derivation to K-Field equations and physical relationships.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Student_reconstruction_process/Galax_Derivation_Methods/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Student_reconstruction_process/Galax_Derivation_Methods/",
+      "title": "Galaxy Derivation Methods",
+      "description": "Alternate and supporting methods for reconstructing the galaxy-axis orientation geometry and Cell3 framework.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/",
+      "title": "Step by Step: Galaxy to 100 Physics Formulas",
+      "description": "Educational reconstruction sequence connecting galaxy-axis orientation analysis, geometric reconstruction, and downstream physical-quantity comparison formulas.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "Typed_Graphs/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/Typed_Graphs/",
+      "title": "Typed Graphs",
+      "description": "Machine-readable typed graph representations of Quantum K-Field entities, relationships, derivations, reconstruction kernels, closure records, and validation structures.",
+      "page_type": "CollectionPage",
+      "dataset_profile": "typed-graph-records"
+    },
+    {
+      "path": "machine_index/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/",
+      "title": "Machine Index",
+      "description": "Sharded machine-readable discovery infrastructure for artifact lookup, taxonomy, keyword normalization, search companions, semantic metadata, and repository-scale indexing.",
+      "page_type": "DataCatalog",
+      "dataset_profile": "machine-index-records"
+    },
+    {
+      "path": "machine_index/artifacts/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/artifacts/",
+      "title": "Artifact Index Shards",
+      "description": "Directory-partitioned machine-readable artifact metadata for the public research archive.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "machine_index/lookup/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/lookup/",
+      "title": "Machine Index Lookup Tables",
+      "description": "Direct lookup tables that route canonical terms and exact repository artifact paths to the appropriate sharded machine-index records.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "machine_index/taxonomy/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/taxonomy/",
+      "title": "Topic Taxonomy Shards",
+      "description": "Canonical topic taxonomy shards spanning the research archive and its normalized scientific vocabulary.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "machine_index/semantic/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/",
+      "title": "Semantic Metadata",
+      "description": "Semantic-web discovery layer containing ontology mappings, JSON-LD contexts, dataset catalog records, internal concept identifiers, and validation tooling.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "machine_index/semantic/datasets/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/datasets/",
+      "title": "Semantic Dataset Profiles",
+      "description": "Standalone JSON-LD profiles for explicitly typed public datasets and structured record collections in the Quantum K-Field archive.",
+      "page_type": "CollectionPage"
+    },
+    {
+      "path": "machine_index/schema/",
+      "canonical_url": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/schema/",
+      "title": "Semantic Metadata Schemas",
+      "description": "JSON Schemas used to validate the Quantum K-Field semantic metadata extension.",
+      "page_type": "CollectionPage"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/schema/semantic-manifest.schema.json",
+  "title": "Quantum K-Field Semantic Extension Manifest Schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document_type",
+    "canonical_base",
+    "files",
+    "dataset_profiles"
+  ],
+  "properties": {
+    "document_type": {
+      "const": "research_archive_semantic_extension_manifest"
+    },
+    "canonical_base": {
+      "type": "string",
+      "format": "uri"
+    },
+    "files": {
+      "type": "object"
+    },
+    "dataset_profiles": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

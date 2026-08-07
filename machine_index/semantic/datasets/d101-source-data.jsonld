@@ -1,0 +1,175 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "ivoa_refframe": "http://www.ivoa.net/rdf/refframe#",
+    "kfield": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "keywords": "schema:keywords",
+    "creator": {
+      "@id": "schema:creator",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "variableMeasured": "schema:variableMeasured",
+    "measurementTechnique": "schema:measurementTechnique",
+    "temporalCoverage": "schema:temporalCoverage",
+    "spatialCoverage": "schema:spatialCoverage",
+    "distribution": "schema:distribution",
+    "contentUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "encodingFormat": "schema:encodingFormat",
+    "isBasedOn": {
+      "@id": "schema:isBasedOn",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/#dataset-d101-source-data",
+      "@type": [
+        "schema:Dataset",
+        "dcat:Dataset"
+      ],
+      "schema:name": "Dual-OCXO D101 Experimental Source Data",
+      "schema:description": "Public source-data archive for the Dual-OCXO D101 experimental studies, supporting frequency-metrology, celestial-crossing, phase/timing, and time-frequency analyses in the OCXO_Experiments collection.",
+      "schema:url": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/"
+      },
+      "schema:sameAs": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/"
+      },
+      "schema:identifier": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/#dataset-d101-source-data",
+      "dcterms:title": "Dual-OCXO D101 Experimental Source Data",
+      "dcterms:description": "Public source-data archive for the Dual-OCXO D101 experimental studies, supporting frequency-metrology, celestial-crossing, phase/timing, and time-frequency analyses in the OCXO_Experiments collection.",
+      "dcterms:publisher": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      },
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      },
+      "schema:keywords": [
+        "K-Field",
+        "D101",
+        "OCXO",
+        "dual OCXO",
+        "frequency metrology",
+        "precision timing",
+        "celestial crossings",
+        "ICRS",
+        "time-frequency analysis"
+      ],
+      "dcat:keyword": [
+        "K-Field",
+        "D101",
+        "OCXO",
+        "dual OCXO",
+        "frequency metrology",
+        "precision timing",
+        "celestial crossings",
+        "ICRS",
+        "time-frequency analysis"
+      ],
+      "schema:isAccessibleForFree": true,
+      "schema:creator": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator"
+      },
+      "dcat:inCatalog": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#data-catalog"
+      },
+      "dcat:landingPage": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/"
+      },
+      "schema:measurementTechnique": [
+        "Dual-OCXO heterodyne precision metrology",
+        "time-frequency analysis"
+      ],
+      "schema:variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "name": "time / timing record",
+          "description": "Timing coordinate associated with the experimental record",
+          "propertyID": "http://qudt.org/vocab/quantitykind/Time"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "oscillator frequency behavior",
+          "description": "Frequency-metrology signal represented in the D101 record",
+          "propertyID": "http://qudt.org/vocab/quantitykind/Frequency"
+        }
+      ],
+      "schema:distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "d101_source_data.zip",
+          "contentUrl": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/OCXO_Experiments/d101_source_data.zip",
+          "encodingFormat": "application/zip",
+          "contentSize": "72176920 bytes"
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/#distribution-d101-source-data-1"
+        }
+      ]
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/OCXO_Experiments/#distribution-d101-source-data-1",
+      "@type": [
+        "schema:DataDownload",
+        "dcat:Distribution"
+      ],
+      "schema:name": "d101_source_data.zip",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/OCXO_Experiments/d101_source_data.zip"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/OCXO_Experiments/d101_source_data.zip"
+      },
+      "schema:encodingFormat": "application/zip",
+      "dcterms:format": "application/zip",
+      "schema:contentSize": "72176920 bytes"
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator",
+      "@type": "Person",
+      "name": "P. Dwayne Esterline",
+      "givenName": "P. Dwayne",
+      "familyName": "Esterline",
+      "affiliation": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#organization",
+      "@type": "Organization",
+      "name": "Krytronx, LLC"
+    }
+  ]
+}

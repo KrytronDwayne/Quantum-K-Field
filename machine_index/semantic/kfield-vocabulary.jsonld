@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "quantitykind": "http://qudt.org/vocab/quantitykind/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "ivoa_refframe": "http://www.ivoa.net/rdf/refframe#",
+    "kfield": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id"
+    },
+    "keywords": "schema:keywords",
+    "creator": {
+      "@id": "schema:creator",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "variableMeasured": "schema:variableMeasured",
+    "measurementTechnique": "schema:measurementTechnique",
+    "temporalCoverage": "schema:temporalCoverage",
+    "spatialCoverage": "schema:spatialCoverage",
+    "distribution": "schema:distribution",
+    "contentUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "encodingFormat": "schema:encodingFormat",
+    "isBasedOn": {
+      "@id": "schema:isBasedOn",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme",
+      "@type": "skos:ConceptScheme",
+      "name": "Quantum K-Field Internal Concept Scheme",
+      "description": "Stable internal identifiers and scoped definitions for project-specific K-Field terminology. External mappings are intentionally non-equivalent unless explicitly declared.",
+      "skos:hasTopConcept": [
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#quantum-k-field"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#cell3"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#devon-dimension"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#mass-bridge"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#lucas-limit"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigenspectrum"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#jack-jacobian"
+        },
+        {
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#lucas-supergroup"
+        }
+      ]
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#quantum-k-field",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Quantum K-Field",
+      "skos:definition": "Research framework/archive term for the project-wide observational, geometric, metrological and derived research corpus.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#cell3",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Cell3",
+      "skos:definition": "Archive name for the corrected oriented rhombohedral primitive-cell model represented by three basis vectors and associated direct/reciprocal metric structure.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#devon-dimension",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Devon Dimension",
+      "skos:definition": "Archive name for the compact direct/reciprocal algebraic metric representation constructed from Cell3; dimension is historical terminology rather than an extra spatial dimension.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#mass-bridge",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Mass Bridge",
+      "skos:definition": "Archive name for a projective closure formed from dimensionless ratios of primitive Cell3 face areas and downstream physical-quantity comparisons.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#lucas-limit",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Lucas Limit",
+      "skos:definition": "Archive name for the centered 27-node address graph on {-1,0,1}^3, equivalent to the Cartesian-product graph P3 square P3 square P3.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigenspectrum",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Emily Eigen-spectrum",
+      "skos:definition": "Archive name for the adjacency eigenspectrum of the finite Lucas graph.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#jack-jacobian",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Jack Jacobian",
+      "skos:definition": "Archive name for a logarithmic perturbation/sensitivity Jacobian relating changes in primitive geometric directions to changes in selected derived quantities.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    },
+    {
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#lucas-supergroup",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Lucas Supergroup",
+      "skos:definition": "Historical archive name for the recursive 9 by 9 by 9 Cell3 aggregation used in later graph and volumetric studies; treated as a recursive finite cell complex, not an algebraic supergroup.",
+      "skos:inScheme": {
+        "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
+      }
+    }
+  ]
+}
