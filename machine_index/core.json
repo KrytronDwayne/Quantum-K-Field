@@ -14,7 +14,7 @@
       "repository_full_name": "KrytronDwayne/Quantum-K-Field",
       "repository_url": "https://github.com/KrytronDwayne/Quantum-K-Field",
       "default_branch": "main",
-      "tree_sha_observed": "de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb",
+      "tree_sha_observed": "f730312eaf489d103f54d29aba40915fca5a2973",
       "generated_at_utc": "2026-08-07T02:58:39Z",
       "index_scope": "Current public repository research artifacts and searchable .abstract.json discovery companions on main at HEAD de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb; includes root release/status/discovery files and excludes generated machine_index/** infrastructure from recursive artifact self-indexing.",
       "normalization_note": "Epoch suffixes, file extensions, separators, version markers, paired PDF/JSON representations, legacy misspellings, abbreviations, and searchable abstract companions are normalized while exact observed repository paths are preserved.",
@@ -23,7 +23,7 @@
     "indexing_method": {
       "sources": [
         "Prior canonical topic/keyword index used as controlled-vocabulary baseline",
-        "Live GitHub main branch current HEAD commit de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb",
+        "Snapshot HEAD commit observed during index generation de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb",
         "Verified GitHub commit comparison from prior snapshot 81c69d9a7ec7acb398b04b6f68d653f0fbea00e8 to current HEAD",
         "README.md",
         "CITATION.cff",
@@ -256,7 +256,8 @@
       "all_artifact_topic_ids_resolved": true,
       "machine_index_recursive_self_indexing": false,
       "search_companion_source_paths_resolved": true,
-      "logical_index_sha256_excluding_this_field": "2e1c9e101c75869d8f4d57b040593d11bd16d80f53d67ece1b4ac4bd539078de"
+      "logical_index_sha256_excluding_this_field": "20db3ba46660947ef64ebab5dcecd7295dd9d9117051673bd0a54aebe57646f8",
+      "snapshot_tree_sha": "f730312eaf489d103f54d29aba40915fca5a2973"
     }
   }
 }

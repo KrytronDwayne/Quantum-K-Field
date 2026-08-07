@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this repository or its contents in research, please cite it using the metadata in this file.
 title: "Krytronx Quantum K-Field Research and Documentation"
-type: software
+type: dataset
 authors:
   - family-names: "Esterline"
     given-names: "P. Dwayne"
@@ -14,7 +14,7 @@ contact:
     affiliation: "Krytronx, LLC"
     email: "dwayne.esterline@krytronx.com"
 repository-code: "https://github.com/KrytronDwayne/Quantum-K-Field"
-url: "https://github.com/KrytronDwayne/Quantum-K-Field"
+url: "https://krytrondwayne.github.io/Quantum-K-Field/"
 abstract: >-
   A repository of Krytronx Quantum K-Field research, experimental methods,
   instrumentation, signal-analysis workflows, geometric models, datasets,

@@ -9,3 +9,7 @@ Canonical semantic base: `https://krytrondwayne.github.io/Quantum-K-Field/machin
 Search-facing HTML uses static Schema.org JSON-LD. Standalone semantic records additionally use W3C DCAT 3, DCMI, PROV-O, SKOS, QUDT and IVOA identifiers where appropriate.
 
 Run `python validate_semantic_metadata.py` from this directory after repository deployment or from the update package before upload. When page metadata or dataset profiles change, run `python refresh_embedded_jsonld.py` from this directory to deterministically refresh canonical links and embedded search-facing JSON-LD blocks, then rerun validation.
+
+Structured-data ownership is static: `index.html` contains the authoritative search-facing JSON-LD, and shared runtime JavaScript must not inject a second JSON-LD graph.
+
+`SHA256SUMS` covers the semantic/search discovery surface and is verified by `validate_semantic_metadata.py`; the repository-root `SHA256SUMS` remains the canonical machine-index integrity manifest for its declared scope.

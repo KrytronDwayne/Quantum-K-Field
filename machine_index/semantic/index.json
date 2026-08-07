@@ -2,7 +2,7 @@
   "$schema": "../schema/semantic-manifest.schema.json",
   "schema_version": "1.0.0",
   "document_type": "research_archive_semantic_extension_manifest",
-  "generated_at_utc": "2026-08-07T18:17:00Z",
+  "generated_at_utc": "2026-08-07T19:05:00Z",
   "repository": "KrytronDwayne/Quantum-K-Field",
   "canonical_base": "https://krytrondwayne.github.io/Quantum-K-Field/",
   "parent_machine_index": "../index.json",
@@ -15,7 +15,8 @@
     "page_registry": "page-metadata.json",
     "datasets": "datasets/",
     "validator": "validate_semantic_metadata.py",
-    "html_refresher": "refresh_embedded_jsonld.py"
+    "html_refresher": "refresh_embedded_jsonld.py",
+    "integrity_checksums": "SHA256SUMS"
   },
   "vocabularies": {
     "schema_org": "https://schema.org/",

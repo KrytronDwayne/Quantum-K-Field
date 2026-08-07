@@ -142,7 +142,10 @@
         "@id": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/machine_index/index.json"
       },
       "schema:encodingFormat": "application/json",
-      "dcterms:format": "application/json"
+      "dcterms:format": "application/json",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      }
     },
     {
       "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator",

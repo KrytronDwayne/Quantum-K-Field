@@ -8,7 +8,7 @@
     "repository_full_name": "KrytronDwayne/Quantum-K-Field",
     "repository_url": "https://github.com/KrytronDwayne/Quantum-K-Field",
     "default_branch": "main",
-    "tree_sha_observed": "de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb",
+    "tree_sha_observed": "f730312eaf489d103f54d29aba40915fca5a2973",
     "generated_at_utc": "2026-08-07T02:58:39Z",
     "index_scope": "Current public repository research artifacts and searchable .abstract.json discovery companions on main at HEAD de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb; includes root release/status/discovery files and excludes generated machine_index/** infrastructure from recursive artifact self-indexing.",
     "normalization_note": "Epoch suffixes, file extensions, separators, version markers, paired PDF/JSON representations, legacy misspellings, abbreviations, and searchable abstract companions are normalized while exact observed repository paths are preserved.",
@@ -30,7 +30,7 @@
   },
   "reconstruction": {
     "script": "machine_index/recombine_index.py",
-    "logical_index_sha256": "2e1c9e101c75869d8f4d57b040593d11bd16d80f53d67ece1b4ac4bd539078de",
+    "logical_index_sha256": "20db3ba46660947ef64ebab5dcecd7295dd9d9117051673bd0a54aebe57646f8",
     "logical_sections": {
       "core_metadata": "machine_index/core.json",
       "normalization": "machine_index/normalization.json",
@@ -397,10 +397,10 @@
       "section": "core_metadata",
       "partition": null,
       "record_count": 10,
-      "bytes": 10596,
-      "kib": 10.348,
-      "sha256": "6bdbd88e80caff38b11df82cd9b6bca3a2ad6ffcc2d33e78900d37e0dc451767",
-      "line_count": 262,
+      "bytes": 10940,
+      "kib": 10.684,
+      "sha256": "15e08671078215cb5b29a42aebf86d9e42865e30626c7cdc2131f9881c34c409",
+      "line_count": 263,
       "max_line_characters": 393,
       "lines_over_1024_characters": 0,
       "lines_over_4096_bytes": 0
@@ -753,11 +753,11 @@
         "order": 13
       },
       "record_count": 13,
-      "bytes": 19183,
-      "kib": 18.733,
-      "sha256": "e73e94b2ce5a8df679a0923676a58726f08831b172d2fc4f417bea238e4c9138",
+      "bytes": 19787,
+      "kib": 19.323,
+      "sha256": "d605b4c049000a67e3f650a9f9a5f55ec90871ae17f4489cb21fd5e82a43fca5",
       "line_count": 493,
-      "max_line_characters": 147,
+      "max_line_characters": 201,
       "lines_over_1024_characters": 0,
       "lines_over_4096_bytes": 0
     },

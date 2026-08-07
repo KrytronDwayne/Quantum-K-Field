@@ -188,7 +188,7 @@
       "id": "devon-dimension",
       "label": "Devon Dimension",
       "category": "named_k_field_structures",
-      "definition": "The larger volumetric and algebraic structure generated from Cell3.",
+      "definition": "Archive name for the compact direct/reciprocal algebraic metric representation constructed from Cell3; dimension is historical terminology rather than an extra spatial dimension.",
       "aliases": [],
       "abbreviations": [],
       "misspellings_and_legacy_forms": [],

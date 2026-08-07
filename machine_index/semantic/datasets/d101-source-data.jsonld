@@ -154,7 +154,10 @@
       },
       "schema:encodingFormat": "application/zip",
       "dcterms:format": "application/zip",
-      "schema:contentSize": "72176920 bytes"
+      "schema:contentSize": "72176920 bytes",
+      "dcterms:license": {
+        "@id": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/LICENSE-PAPER.md"
+      }
     },
     {
       "@id": "https://krytrondwayne.github.io/Quantum-K-Field/#principal-investigator",

@@ -109,7 +109,7 @@ Dataset license metadata SHALL resolve through the repository controlling public
 ## 9. JSON and JSON-LD requirements
 
 1. All JSON/JSON-LD SHALL be UTF-8 and valid JSON.
-2. JSON-LD embedded in HTML SHALL be static `<script type="application/ld+json">` content.
+2. JSON-LD embedded in HTML SHALL be static `<script type="application/ld+json">` content. Shared JavaScript SHALL NOT append, inject, or regenerate an additional JSON-LD graph at runtime; each canonical landing page SHALL expose exactly one authoritative structured-data graph.
 3. Search-facing embedded JSON-LD SHALL preferentially use Schema.org terms for maximum crawler compatibility.
 4. Extended standalone JSON-LD MAY additionally use DCAT, DCTERMS, PROV-O, SKOS, QUDT, and IVOA identifiers.
 5. The retired/legacy `variablesMeasured` spelling SHALL NOT be emitted; use `variableMeasured`.
@@ -128,12 +128,14 @@ Before deployment, the update SHALL pass all of the following local checks:
 
 - parse every `.json` and `.jsonld` file;
 - parse every embedded JSON-LD block in generated HTML;
+- verify the shared runtime contains no JSON-LD injection path and cannot create a second rendered structured-data graph;
 - ensure every generated HTML page has exactly one canonical URL;
 - reject use of `variablesMeasured`;
 - ensure every Dataset has name, description, URL, creator, license and catalog membership;
 - ensure all local semantic file references resolve inside the update set;
 - ensure sitemap URLs are unique;
-- generate SHA-256 checksums for the complete upload set.
+- regenerate and verify the canonical root `SHA256SUMS` for its declared machine-index scope;
+- generate and verify `machine_index/semantic/SHA256SUMS` for the semantic/search discovery surface.
 
 After deployment, the maintainer SHOULD test representative dataset pages with Google's Rich Results Test / Search Console and a Schema.org validator, then submit `sitemap.xml` to Search Console.
 

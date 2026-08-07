@@ -183,7 +183,7 @@
     }
 
     if ((record.filename || "").toUpperCase() === "SHA256SUMS") {
-      return "Integrity manifest containing SHA-256 checksums for repository artifacts and machine-index components.";
+      return "Integrity manifest containing SHA-256 checksums for the sharded machine-index components and stable root index pointer covered by that manifest.";
     }
     if (ext === "cff") {
       return "Citation metadata defining the preferred attribution, authorship, versioning, and bibliographic identity of the Quantum K-Field research archive.";
@@ -363,26 +363,7 @@
     renderRecords(searchNode?.value || "");
   }
 
-  function installStructuredData() {
-    const data = {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": cfg.title || "Quantum K-Field Research Archive",
-      "description": cfg.summary || "",
-      "isPartOf": {
-        "@type": "Dataset",
-        "name": "Quantum K-Field Research Archive",
-        "url": `https://github.com/${repo}`
-      }
-    };
-    const node = document.createElement("script");
-    node.type = "application/ld+json";
-    node.textContent = JSON.stringify(data);
-    document.head.appendChild(node);
-  }
-
   renderDirectories();
-  installStructuredData();
   if (searchNode) searchNode.addEventListener("input", () => renderRecords(searchNode.value));
   loadRecords().catch(error => {
     countNode.textContent = "Unavailable";

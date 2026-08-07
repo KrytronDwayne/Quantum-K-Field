@@ -73,7 +73,7 @@
           "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#lucas-limit"
         },
         {
-          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigenspectrum"
+          "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigen-spectrum"
         },
         {
           "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#jack-jacobian"
@@ -129,13 +129,14 @@
       }
     },
     {
-      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigenspectrum",
+      "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigen-spectrum",
       "@type": "skos:Concept",
       "skos:prefLabel": "Emily Eigen-spectrum",
       "skos:definition": "Archive name for the adjacency eigenspectrum of the finite Lucas graph.",
       "skos:inScheme": {
         "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#scheme"
-      }
+      },
+      "skos:altLabel": "Emily Eigenspectrum"
     },
     {
       "@id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#jack-jacobian",

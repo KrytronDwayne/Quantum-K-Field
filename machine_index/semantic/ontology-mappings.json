@@ -2,7 +2,7 @@
   "$schema": "../schema/ontology-mappings.schema.json",
   "schema_version": "1.0.0",
   "document_type": "research_archive_ontology_mapping",
-  "generated_at_utc": "2026-08-07T18:17:00Z",
+  "generated_at_utc": "2026-08-07T19:05:00Z",
   "repository": "KrytronDwayne/Quantum-K-Field",
   "canonical_base": "https://krytrondwayne.github.io/Quantum-K-Field/",
   "mapping_policy": {
@@ -397,7 +397,7 @@
       "internal_terms": [
         "Emily Eigen-spectrum"
       ],
-      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigenspectrum",
+      "internal_id": "https://krytrondwayne.github.io/Quantum-K-Field/machine_index/semantic/kfield-vocabulary.jsonld#emily-eigen-spectrum",
       "relation": "authoritativeInternal"
     },
     {
@@ -422,7 +422,7 @@
         "deg",
         "degree",
         "degrees",
-        "\u00b0"
+        "°"
       ]
     },
     "radian": {

@@ -90,7 +90,7 @@
   "extensions": {
     "semantic_web": {
       "schema_version": "1.0.0",
-      "generated_at_utc": "2026-08-07T18:17:00Z",
+      "generated_at_utc": "2026-08-07T19:05:00Z",
       "manifest": "machine_index/semantic/index.json",
       "artifact_inventory_semantics": "Semantic infrastructure is additive and remains excluded from the 2.1 artifact inventory counts above."
     }
@@ -100,5 +100,6 @@
     "former_monolithic_index_superseded": true,
     "recombination_script": "machine_index/recombine_index.py",
     "semantic_extension_is_additive": true
-  }
+  },
+  "snapshot_tree_sha_observed": "f730312eaf489d103f54d29aba40915fca5a2973"
 }
