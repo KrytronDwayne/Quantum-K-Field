@@ -1,88 +1,248 @@
 {
   "document_type": "research_archive_index_shard",
-  "schema_version": "2.0.0-sharded",
+  "schema_version": "2.1.0-sharded-live",
   "shard_id": "raw-keyword-vocabulary",
   "section": "raw_keyword_vocabulary",
-  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "source_entry_point": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
   "records": [
     {
       "keyword": "field",
-      "artifact_filename_occurrences": 211
+      "artifact_filename_occurrences": 323
+    },
+    {
+      "keyword": "search",
+      "artifact_filename_occurrences": 132
+    },
+    {
+      "keyword": "abstract",
+      "artifact_filename_occurrences": 130
+    },
+    {
+      "keyword": "companion",
+      "artifact_filename_occurrences": 130
     },
     {
       "keyword": "cell3",
-      "artifact_filename_occurrences": 28
+      "artifact_filename_occurrences": 44
     },
     {
       "keyword": "mass",
-      "artifact_filename_occurrences": 23
-    },
-    {
-      "keyword": "bridge",
-      "artifact_filename_occurrences": 19
+      "artifact_filename_occurrences": 39
     },
     {
       "keyword": "force",
-      "artifact_filename_occurrences": 18
+      "artifact_filename_occurrences": 32
     },
     {
       "keyword": "cmb",
-      "artifact_filename_occurrences": 16
+      "artifact_filename_occurrences": 31
+    },
+    {
+      "keyword": "bridge",
+      "artifact_filename_occurrences": 28
     },
     {
       "keyword": "spectrophotometer",
-      "artifact_filename_occurrences": 16
+      "artifact_filename_occurrences": 27
     },
     {
       "keyword": "galaxy",
-      "artifact_filename_occurrences": 14
-    },
-    {
-      "keyword": "cell0",
-      "artifact_filename_occurrences": 12
-    },
-    {
-      "keyword": "dual",
-      "artifact_filename_occurrences": 12
+      "artifact_filename_occurrences": 25
     },
     {
       "keyword": "lucas",
-      "artifact_filename_occurrences": 12
+      "artifact_filename_occurrences": 22
+    },
+    {
+      "keyword": "dual",
+      "artifact_filename_occurrences": 21
+    },
+    {
+      "keyword": "cell0",
+      "artifact_filename_occurrences": 19
     },
     {
       "keyword": "axis",
-      "artifact_filename_occurrences": 10
+      "artifact_filename_occurrences": 18
     },
     {
       "keyword": "kinetic",
-      "artifact_filename_occurrences": 10
-    },
-    {
-      "keyword": "modulation",
-      "artifact_filename_occurrences": 10
-    },
-    {
-      "keyword": "rotor",
-      "artifact_filename_occurrences": 10
+      "artifact_filename_occurrences": 18
     },
     {
       "keyword": "supergroup",
-      "artifact_filename_occurrences": 10
-    },
-    {
-      "keyword": "system",
-      "artifact_filename_occurrences": 10
+      "artifact_filename_occurrences": 18
     },
     {
       "keyword": "derivation",
-      "artifact_filename_occurrences": 9
+      "artifact_filename_occurrences": 17
     },
     {
       "keyword": "rotating",
-      "artifact_filename_occurrences": 9
+      "artifact_filename_occurrences": 17
+    },
+    {
+      "keyword": "rotor",
+      "artifact_filename_occurrences": 17
+    },
+    {
+      "keyword": "system",
+      "artifact_filename_occurrences": 17
+    },
+    {
+      "keyword": "modulation",
+      "artifact_filename_occurrences": 16
+    },
+    {
+      "keyword": "d101",
+      "artifact_filename_occurrences": 13
     },
     {
       "keyword": "lateral",
+      "artifact_filename_occurrences": 13
+    },
+    {
+      "keyword": "phase",
+      "artifact_filename_occurrences": 13
+    },
+    {
+      "keyword": "coupling",
+      "artifact_filename_occurrences": 12
+    },
+    {
+      "keyword": "earth",
+      "artifact_filename_occurrences": 12
+    },
+    {
+      "keyword": "geometry",
+      "artifact_filename_occurrences": 11
+    },
+    {
+      "keyword": "literature",
+      "artifact_filename_occurrences": 11
+    },
+    {
+      "keyword": "ocxo",
+      "artifact_filename_occurrences": 11
+    },
+    {
+      "keyword": "traversal",
+      "artifact_filename_occurrences": 11
+    },
+    {
+      "keyword": "distribution",
+      "artifact_filename_occurrences": 10
+    },
+    {
+      "keyword": "experiment",
+      "artifact_filename_occurrences": 10
+    },
+    {
+      "keyword": "native",
+      "artifact_filename_occurrences": 10
+    },
+    {
+      "keyword": "plane",
+      "artifact_filename_occurrences": 10
+    },
+    {
+      "keyword": "tubular",
+      "artifact_filename_occurrences": 10
+    },
+    {
+      "keyword": "accum",
+      "artifact_filename_occurrences": 9
+    },
+    {
+      "keyword": "comparison",
+      "artifact_filename_occurrences": 9
+    },
+    {
+      "keyword": "evidence",
+      "artifact_filename_occurrences": 9
+    },
+    {
+      "keyword": "lab",
+      "artifact_filename_occurrences": 9
+    },
+    {
+      "keyword": "ladder",
+      "artifact_filename_occurrences": 9
+    },
+    {
+      "keyword": "mirror",
+      "artifact_filename_occurrences": 9
+    },
+    {
+      "keyword": "celestial",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "closed",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "coherence",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "cost",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "crossing",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "drop",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "entropy",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "flywheel",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "flywheels",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "pic",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "pumped",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "review",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "route",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "signal",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "spectrum",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "spherical",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "surface",
+      "artifact_filename_occurrences": 8
+    },
+    {
+      "keyword": "tower",
       "artifact_filename_occurrences": 8
     },
     {
@@ -90,147 +250,179 @@
       "artifact_filename_occurrences": 7
     },
     {
-      "keyword": "d101",
-      "artifact_filename_occurrences": 7
-    },
-    {
-      "keyword": "geometry",
-      "artifact_filename_occurrences": 7
-    },
-    {
-      "keyword": "phase",
-      "artifact_filename_occurrences": 7
-    },
-    {
-      "keyword": "accum",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "comparison",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "coupling",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "distribution",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "earth",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "experiment",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "lab",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "ladder",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "literature",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "mirror",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "ocxo",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "plane",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "traversal",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "tubular",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "volume",
-      "artifact_filename_occurrences": 6
-    },
-    {
-      "keyword": "evidence",
-      "artifact_filename_occurrences": 5
-    },
-    {
-      "keyword": "hidden",
-      "artifact_filename_occurrences": 5
-    },
-    {
-      "keyword": "hierarchy",
-      "artifact_filename_occurrences": 5
-    },
-    {
-      "keyword": "native",
-      "artifact_filename_occurrences": 5
-    },
-    {
-      "keyword": "apparent",
-      "artifact_filename_occurrences": 4
-    },
-    {
-      "keyword": "celestial",
-      "artifact_filename_occurrences": 4
-    },
-    {
-      "keyword": "closed",
-      "artifact_filename_occurrences": 4
-    },
-    {
-      "keyword": "coherence",
-      "artifact_filename_occurrences": 4
-    },
-    {
-      "keyword": "cost",
-      "artifact_filename_occurrences": 4
-    },
-    {
       "keyword": "counter",
-      "artifact_filename_occurrences": 4
-    },
-    {
-      "keyword": "crossing",
-      "artifact_filename_occurrences": 4
-    },
-    {
-      "keyword": "distance",
-      "artifact_filename_occurrences": 4
-    },
-    {
-      "keyword": "drop",
-      "artifact_filename_occurrences": 4
+      "artifact_filename_occurrences": 7
     },
     {
       "keyword": "element",
-      "artifact_filename_occurrences": 4
+      "artifact_filename_occurrences": 7
     },
     {
       "keyword": "energy",
+      "artifact_filename_occurrences": 7
+    },
+    {
+      "keyword": "hidden",
+      "artifact_filename_occurrences": 7
+    },
+    {
+      "keyword": "hierarchy",
+      "artifact_filename_occurrences": 7
+    },
+    {
+      "keyword": "scale",
+      "artifact_filename_occurrences": 7
+    },
+    {
+      "keyword": "solar",
+      "artifact_filename_occurrences": 7
+    },
+    {
+      "keyword": "thruster",
+      "artifact_filename_occurrences": 7
+    },
+    {
+      "keyword": "volume",
+      "artifact_filename_occurrences": 7
+    },
+    {
+      "keyword": "apparent",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "distance",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "formula",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "interplanar",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "intersection",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "physics",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "projective",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "quantized",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "rod",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "space",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "structure",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "tube",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "weight",
+      "artifact_filename_occurrences": 6
+    },
+    {
+      "keyword": "dependency",
+      "artifact_filename_occurrences": 5
+    },
+    {
+      "keyword": "recursive",
+      "artifact_filename_occurrences": 5
+    },
+    {
+      "keyword": "analogue",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "entropy",
+      "keyword": "armature",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "flywheel",
+      "keyword": "beat",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "flywheels",
+      "keyword": "concentric",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "constant",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "current",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "derived",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "deterministic",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "dimensional",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "disk",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "event",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "exact",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "exposed",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "factor",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "flows",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "gravity",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "high",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "hysteresis",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "id14c",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "id14e",
       "artifact_filename_occurrences": 4
     },
     {
@@ -238,11 +430,23 @@
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "interplanar",
+      "keyword": "introduction",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "intersection",
+      "keyword": "inversion",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "inward",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "kinematic",
+      "artifact_filename_occurrences": 4
+    },
+    {
+      "keyword": "large",
       "artifact_filename_occurrences": 4
     },
     {
@@ -250,87 +454,187 @@
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "pic",
+      "keyword": "max",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "projective",
+      "keyword": "morphology",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "pumped",
+      "keyword": "net",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "quantized",
+      "keyword": "package",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "review",
+      "keyword": "photon",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "rod",
+      "keyword": "potential",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "route",
+      "keyword": "propagation",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "scale",
+      "keyword": "properties",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "signal",
+      "keyword": "reciprocal",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "solar",
+      "keyword": "residual",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "space",
+      "keyword": "routes",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "spectrum",
+      "keyword": "school",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "spherical",
+      "keyword": "shell",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "structure",
+      "keyword": "shifted",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "surface",
+      "keyword": "spectrometer",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "thruster",
+      "keyword": "statistical",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "tower",
+      "keyword": "time",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "tube",
+      "keyword": "vector",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "weight",
+      "keyword": "windmill",
       "artifact_filename_occurrences": 4
     },
     {
-      "keyword": "dependency",
+      "keyword": "address",
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "dimensional",
+      "keyword": "angle",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "angular",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "antipodal",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "architecture",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "bodies",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "bullet",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "carbon",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "celestially",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "circularly",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "classical",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "closure",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "coherently",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "compton",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "computation",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "controlled",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "converged",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "definition",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "density",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "device",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "discovered",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "doublet",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "drives",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "elastic",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "exterior",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "extracted",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "face",
       "artifact_filename_occurrences": 3
     },
     {
@@ -338,7 +642,23 @@
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "formula",
+      "keyword": "fft",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "fiber",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "filling",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "fixed",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "forces",
       "artifact_filename_occurrences": 3
     },
     {
@@ -346,11 +666,43 @@
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "high",
+      "keyword": "fourier",
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "introduction",
+      "keyword": "free",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "frequency",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "gyroscopic",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "harmonic",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "indexed",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "inertia",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "internal",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "kepler",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "lattice",
       "artifact_filename_occurrences": 3
     },
     {
@@ -358,7 +710,27 @@
       "artifact_filename_occurrences": 3
     },
     {
+      "keyword": "linear",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "lock",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "locked",
+      "artifact_filename_occurrences": 3
+    },
+    {
       "keyword": "minimal",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "momentum",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "near",
       "artifact_filename_occurrences": 3
     },
     {
@@ -366,11 +738,47 @@
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "physics",
+      "keyword": "orientation",
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "profile",
+      "keyword": "oscillator",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "overdetermined",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "pathways",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "period",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "planar",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "plate",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "polarized",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "precession",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "press",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "proposals",
       "artifact_filename_occurrences": 3
     },
     {
@@ -378,11 +786,71 @@
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "recursive",
+      "keyword": "radius",
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "school",
+      "keyword": "ratio",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "recip",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "record",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "reduction",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "relations",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "reversal",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "rotation",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "satellite",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "serialized",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "single",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "solid",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "spectral",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "spin",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "stack",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "starting",
+      "artifact_filename_occurrences": 3
+    },
+    {
+      "keyword": "student",
       "artifact_filename_occurrences": 3
     },
     {
@@ -390,43 +858,15 @@
       "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "500x500",
-      "artifact_filename_occurrences": 2
+      "keyword": "trajectory",
+      "artifact_filename_occurrences": 3
     },
     {
-      "keyword": "address",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "analogue",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "angle",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "angular",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "antipodal",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "architecture",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "armature",
-      "artifact_filename_occurrences": 2
+      "keyword": "triangle",
+      "artifact_filename_occurrences": 3
     },
     {
       "keyword": "astounding",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "beat",
       "artifact_filename_occurrences": 2
     },
     {
@@ -434,51 +874,7 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "bodies",
-      "artifact_filename_occurrences": 2
-    },
-    {
       "keyword": "briefing",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "bullet",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "carbon",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "celestially",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "circularly",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "classical",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "closure",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "coherently",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "compton",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "computation",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "concentric",
       "artifact_filename_occurrences": 2
     },
     {
@@ -490,47 +886,11 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "constant",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "controlled",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "converged",
-      "artifact_filename_occurrences": 2
-    },
-    {
       "keyword": "core",
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "current",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "definition",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "density",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "derived",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "deterministic",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "device",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "discovered",
+      "keyword": "description",
       "artifact_filename_occurrences": 2
     },
     {
@@ -538,75 +898,7 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "disk",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "doublet",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "drives",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "elastic",
-      "artifact_filename_occurrences": 2
-    },
-    {
       "keyword": "essence",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "event",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "exact",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "exposed",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "exterior",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "extracted",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "face",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "factor",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "fft",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "fiber",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "filling",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "fixed",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "flows",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "forces",
       "artifact_filename_occurrences": 2
     },
     {
@@ -614,87 +906,11 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "fourier",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "free",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "frequency",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "git",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "gravity",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "gyroscopic",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "harmonic",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "hub",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "hysteresis",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "id14c",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "id14e",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "indexed",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "inertia",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "internal",
+      "keyword": "graph",
       "artifact_filename_occurrences": 2
     },
     {
       "keyword": "intuitive",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "inversion",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "inward",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "kepler",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "kinematic",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "large",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "lattice",
       "artifact_filename_occurrences": 2
     },
     {
@@ -706,18 +922,6 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "linear",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "lock",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "locked",
-      "artifact_filename_occurrences": 2
-    },
-    {
       "keyword": "logo",
       "artifact_filename_occurrences": 2
     },
@@ -726,75 +930,7 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "max",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "momentum",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "morphology",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "near",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "net",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "orientation",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "oscillator",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "overdetermined",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "package",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "pathways",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "period",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "photon",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "planar",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "plate",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "polarized",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "potential",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "precession",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "press",
+      "keyword": "profile",
       "artifact_filename_occurrences": 2
     },
     {
@@ -802,15 +938,7 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "propagation",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "properties",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "proposals",
+      "keyword": "provenance",
       "artifact_filename_occurrences": 2
     },
     {
@@ -818,67 +946,7 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "radius",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "ratio",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "recip",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "reciprocal",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "record",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "reduction",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "relations",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "residual",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "reversal",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "rotation",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "routes",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "satellite",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "search",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "serialized",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "shell",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "shifted",
+      "keyword": "set",
       "artifact_filename_occurrences": 2
     },
     {
@@ -886,43 +954,15 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "single",
-      "artifact_filename_occurrences": 2
-    },
-    {
       "keyword": "societal",
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "solid",
+      "keyword": "sphere",
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "spectral",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "spectrometer",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "spin",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "stack",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "starting",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "statistical",
-      "artifact_filename_occurrences": 2
-    },
-    {
-      "keyword": "student",
+      "keyword": "supplemental",
       "artifact_filename_occurrences": 2
     },
     {
@@ -930,28 +970,24 @@
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "time",
-      "artifact_filename_occurrences": 2
-    },
-    {
       "keyword": "top10",
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "trajectory",
+      "keyword": "training",
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "triangle",
+      "keyword": "typed",
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "vector",
+      "keyword": "unified",
       "artifact_filename_occurrences": 2
     },
     {
-      "keyword": "windmill",
-      "artifact_filename_occurrences": 2
+      "keyword": "500x500",
+      "artifact_filename_occurrences": 1
     },
     {
       "keyword": "aspects",
@@ -1002,10 +1038,6 @@
       "artifact_filename_occurrences": 1
     },
     {
-      "keyword": "description",
-      "artifact_filename_occurrences": 1
-    },
-    {
       "keyword": "descriptive",
       "artifact_filename_occurrences": 1
     },
@@ -1046,11 +1078,19 @@
       "artifact_filename_occurrences": 1
     },
     {
+      "keyword": "git",
+      "artifact_filename_occurrences": 1
+    },
+    {
       "keyword": "governing",
       "artifact_filename_occurrences": 1
     },
     {
-      "keyword": "graph",
+      "keyword": "hub",
+      "artifact_filename_occurrences": 1
+    },
+    {
+      "keyword": "index",
       "artifact_filename_occurrences": 1
     },
     {
@@ -1071,6 +1111,10 @@
     },
     {
       "keyword": "keystone",
+      "artifact_filename_occurrences": 1
+    },
+    {
+      "keyword": "keyword",
       "artifact_filename_occurrences": 1
     },
     {
@@ -1102,7 +1146,7 @@
       "artifact_filename_occurrences": 1
     },
     {
-      "keyword": "provenance",
+      "keyword": "public",
       "artifact_filename_occurrences": 1
     },
     {
@@ -1119,6 +1163,10 @@
     },
     {
       "keyword": "reconstruction",
+      "artifact_filename_occurrences": 1
+    },
+    {
+      "keyword": "release",
       "artifact_filename_occurrences": 1
     },
     {
@@ -1154,15 +1202,11 @@
       "artifact_filename_occurrences": 1
     },
     {
-      "keyword": "set",
+      "keyword": "sha256sums",
       "artifact_filename_occurrences": 1
     },
     {
-      "keyword": "sphere",
-      "artifact_filename_occurrences": 1
-    },
-    {
-      "keyword": "supplemental",
+      "keyword": "status",
       "artifact_filename_occurrences": 1
     },
     {
@@ -1174,15 +1218,7 @@
       "artifact_filename_occurrences": 1
     },
     {
-      "keyword": "training",
-      "artifact_filename_occurrences": 1
-    },
-    {
-      "keyword": "typed",
-      "artifact_filename_occurrences": 1
-    },
-    {
-      "keyword": "unified",
+      "keyword": "topic",
       "artifact_filename_occurrences": 1
     },
     {

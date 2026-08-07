@@ -1,9 +1,9 @@
 {
   "document_type": "research_archive_index_shard",
-  "schema_version": "2.0.0-sharded",
+  "schema_version": "2.1.0-sharded-live",
   "shard_id": "normalization",
   "section": "normalization",
-  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "source_entry_point": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
   "payload": {
     "separator_equivalence": [
       "underscore",
@@ -20,7 +20,8 @@
         "canonical_label": "Cell3",
         "normalization_type": "archive_misspelling_or_legacy_form",
         "observed_archive_paths": [
-          "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf"
+          "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+          "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf.abstract.json"
         ]
       },
       "comptation": {
@@ -29,7 +30,8 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
-          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf"
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf.abstract.json"
         ]
       },
       "galax": {
@@ -38,15 +40,21 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf.abstract.json",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_to_cell3_bridge_1783388819.pdf",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf.abstract.json",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_native_galaxy_derivation_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_native_galaxy_derivation_1783388819.pdf.abstract.json",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_to_cell3_bridge_1783388819.pdf",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip.abstract.json",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_29_locks_1783391141.pdf",
           "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_mass_bridge_1783390310.pdf",
-          "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf"
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_mass_bridge_1783390310.pdf.abstract.json",
+          "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf.abstract.json"
         ]
       },
       "geomery": {
@@ -55,7 +63,8 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.json",
-          "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf"
+          "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf",
+          "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf.abstract.json"
         ]
       },
       "inersection": {
@@ -65,8 +74,10 @@
         "observed_archive_paths": [
           "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
           "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf.abstract.json",
           "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
-          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf"
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf.abstract.json"
         ]
       },
       "laerl": {
@@ -75,14 +86,19 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.json",
-          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf"
+          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf",
+          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf.abstract.json"
         ]
       },
       "laerl force": {
         "canonical_term_id": "lateral-force",
         "canonical_label": "Lateral Force",
         "normalization_type": "archive_misspelling_or_legacy_form",
-        "observed_archive_paths": []
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.json",
+          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf",
+          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf.abstract.json"
+        ]
       },
       "literatre": {
         "canonical_term_id": null,
@@ -90,9 +106,13 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json",
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json.abstract.json",
           "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf",
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf.abstract.json",
           "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json",
-          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf"
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json.abstract.json",
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf",
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf.abstract.json"
         ]
       },
       "orientatio": {
@@ -101,14 +121,22 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
-          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf"
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf",
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf.abstract.json"
         ]
       },
       "plane inersection distribution": {
         "canonical_term_id": "intersection-distribution",
         "canonical_label": "Plane Intersection Distribution",
         "normalization_type": "archive_misspelling_or_legacy_form",
-        "observed_archive_paths": []
+        "observed_archive_paths": [
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf.abstract.json",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf.abstract.json"
+        ]
       },
       "qadrtic": {
         "canonical_term_id": null,
@@ -128,7 +156,8 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.json",
-          "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf"
+          "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf",
+          "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf.abstract.json"
         ]
       },
       "scew": {
@@ -143,11 +172,17 @@
         "normalization_type": "archive_misspelling_or_legacy_form",
         "observed_archive_paths": [
           "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json.abstract.json",
           "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf.abstract.json",
           "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json.abstract.json",
           "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf.abstract.json",
           "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
-          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json"
         ]
       },
       "spectrophtometer-spheroical": {
@@ -156,7 +191,9 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
-          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json"
         ]
       },
       "spectrophtometry": {
@@ -171,14 +208,21 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
-          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json"
         ]
       },
       "spheroical coherence": {
         "canonical_term_id": "spherical-coherence",
         "canonical_label": "Spherical Coherence",
         "normalization_type": "archive_misspelling_or_legacy_form",
-        "observed_archive_paths": []
+        "observed_archive_paths": [
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json"
+        ]
       },
       "spheroical-coherence": {
         "canonical_term_id": "spherical-coherence",
@@ -186,7 +230,9 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
-          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json"
         ]
       },
       "staring": {
@@ -195,7 +241,8 @@
         "normalization_type": "token_correction",
         "observed_archive_paths": [
           "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
-          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf"
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf",
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf.abstract.json"
         ]
       }
     },
@@ -459,11 +506,17 @@
       }
     },
     "alias_index": {
+      ".abstract.json": [
+        "searchable-abstract-companion"
+      ],
       "29 locks": [
         "twenty-nine-locks"
       ],
       "3-2-2 harmonic ladder": [
         "solar-system-rotation-harmonics"
+      ],
+      "abstract companion": [
+        "searchable-abstract-companion"
       ],
       "accum": [
         "accumulation"
@@ -547,6 +600,15 @@
       "CMB velocity vector": [
         "cosmic-microwave-background"
       ],
+      "code search": [
+        "github-code-search"
+      ],
+      "code-search indexing": [
+        "github-code-search"
+      ],
+      "confidentiality release": [
+        "public-release-status"
+      ],
       "continuous wavelet analysis": [
         "continuous-wavelet-transform"
       ],
@@ -621,6 +683,9 @@
       ],
       "galaxy orientation": [
         "galaxy-axis-orientation"
+      ],
+      "GitHub search indexing": [
+        "github-code-search"
       ],
       "GPS": [
         "gps-referenced-measurement"
@@ -699,6 +764,9 @@
       ],
       "Lucas_Supergroup": [
         "lucas-supergroup"
+      ],
+      "machine-readable abstract": [
+        "searchable-abstract-companion"
       ],
       "machine-readable JSON": [
         "json-machine-readable-companion"
@@ -841,6 +909,12 @@
       "public release": [
         "public-research-archive"
       ],
+      "public release declaration": [
+        "public-release-status"
+      ],
+      "PUBLIC_RELEASE_STATUS.json": [
+        "public-release-status"
+      ],
       "q spectrum": [
         "q-spectrum"
       ],
@@ -889,6 +963,9 @@
       "SciML": [
         "scientific-machine-learning"
       ],
+      "search companion": [
+        "searchable-abstract-companion"
+      ],
       "SGA": [
         "siena-galaxy-atlas"
       ],
@@ -930,6 +1007,12 @@
       ],
       "total variation path cost": [
         "path-cost"
+      ],
+      "trade secret release": [
+        "public-release-status"
+      ],
+      "trade-secret release": [
+        "public-release-status"
       ],
       "twenty-nine locks": [
         "twenty-nine-locks"

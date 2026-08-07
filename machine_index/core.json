@@ -1,86 +1,121 @@
 {
   "document_type": "research_archive_index_shard",
-  "schema_version": "2.0.0-sharded",
+  "schema_version": "2.1.0-sharded-live",
   "shard_id": "core",
   "section": "core_metadata",
-  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "source_entry_point": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
   "payload": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "schema_title": "Krytronx Quantum K-Field Topic and Keyword Index",
-    "schema_version": "1.0.0",
+    "schema_version": "2.1.0-sharded-live",
     "document_type": "research_archive_topic_keyword_index",
     "repository_snapshot": {
       "repository_name": "Quantum-K-Field",
       "repository_full_name": "KrytronDwayne/Quantum-K-Field",
       "repository_url": "https://github.com/KrytronDwayne/Quantum-K-Field",
       "default_branch": "main",
-      "tree_sha_observed": "81c69d9a7ec7acb398b04b6f68d653f0fbea00e8",
-      "generated_at_utc": "2026-08-06T20:01:00Z",
-      "index_scope": "Current public repository root metadata, README, CITATION.cff, licenses, directory names, filenames, paired PDF/JSON artifacts, machine-readable companions, source archives, lecture files, commentary records, and typed graphs.",
-      "normalization_note": "Epoch suffixes, file extensions, separators, version markers, and duplicated PDF/JSON representations are normalized for topic extraction, while exact observed paths remain preserved in artifact_index."
+      "tree_sha_observed": "de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb",
+      "generated_at_utc": "2026-08-07T02:58:39Z",
+      "index_scope": "Current public repository research artifacts and searchable .abstract.json discovery companions on main at HEAD de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb; includes root release/status/discovery files and excludes generated machine_index/** infrastructure from recursive artifact self-indexing.",
+      "normalization_note": "Epoch suffixes, file extensions, separators, version markers, paired PDF/JSON representations, legacy misspellings, abbreviations, and searchable abstract companions are normalized while exact observed repository paths are preserved.",
+      "head_commit_sha_observed": "de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb"
     },
     "indexing_method": {
       "sources": [
-        "GitHub recursive tree and directory listings on the current main branch",
+        "Prior canonical topic/keyword index used as controlled-vocabulary baseline",
+        "Live GitHub main branch current HEAD commit de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb",
+        "Verified GitHub commit comparison from prior snapshot 81c69d9a7ec7acb398b04b6f68d653f0fbea00e8 to current HEAD",
         "README.md",
-        "CITATION.cff keyword list",
+        "CITATION.cff",
         "LICENSE-CODE.md",
         "LICENSE-PAPER.md",
-        "observed filenames and directory names",
-        "paired PDF and JSON artifact names",
-        "selected machine-readable JSON companion metadata"
+        "PUBLIC_RELEASE_STATUS.json",
+        "Current .abstract.json searchable companion deployment",
+        "Sample companion schema Quantum_K_Field_machine_readable_abstract_companion.v1.0"
       ],
       "artifact_grouping_rules": [
-        "Treat paired PDF and JSON files with the same stem as representations of one research artifact.",
-        "Preserve every observed file path in artifact_index.",
-        "Strip a trailing ten-digit epoch only for normalized-title and keyword extraction.",
-        "Strip v1/v2/v3 markers only for normalized-title and keyword extraction.",
-        "Treat underscore, hyphen, slash, and whitespace as equivalent token separators.",
-        "Case-fold for indexing while preserving original filename case.",
-        "Resolve known archive misspellings through spelling_correction_index.",
-        "Expand known abbreviations through abbreviation_index."
+        "Preserve every current primary/public artifact path outside machine_index/**.",
+        "Treat files ending .abstract.json as secondary searchable discovery companions linked to the source path obtained by removing the .abstract.json suffix.",
+        "Treat paired PDF and JSON files with a shared research stem as separate representations of a research artifact.",
+        "Strip trailing ten-digit epochs and vN version markers only for normalized-title and keyword extraction.",
+        "Treat underscore, hyphen, slash, and whitespace as equivalent token separators for discovery normalization.",
+        "Resolve known archive misspellings through spelling_correction_index and abbreviations through abbreviation_index.",
+        "Do not rewrite historical filenames; canonical terminology is supplied through aliases and topic IDs.",
+        "Exclude machine_index/** from artifact_index to avoid recursive self-indexing; its generated files are enumerated in the shard manifest."
       ],
       "limitations": [
-        "Index is based on public repository metadata and machine-readable text available in the archive snapshot.",
-        "PDF body text was not re-extracted; topics are derived from repository metadata, README/CFF text, filenames, and selected JSON records.",
-        "Terms appearing only inside binary ZIP contents or only inside unparsed PDF body text may require a later full-content indexing pass."
-      ]
+        "The index inventories public repository artifact identity, path, normalized terminology, and search relationships; it does not duplicate full PDF, ZIP, image, or oversized JSON payloads.",
+        "Searchable abstract companions are secondary discovery metadata; their source artifacts remain authoritative.",
+        "machine_index/** is intentionally excluded from artifact_index to prevent recursive self-index growth."
+      ],
+      "search_companion_policy": {
+        "suffix": ".abstract.json",
+        "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+        "source_threshold_bytes": 358400,
+        "source_threshold_kib": 350,
+        "source_artifact_authoritative": true,
+        "companion_role": "compact searchable discovery metadata for an oversized source artifact"
+      }
     },
     "statistics": {
-      "artifact_file_count": 241,
+      "artifact_file_count": 372,
+      "primary_artifact_file_count": 242,
+      "searchable_abstract_companion_count": 130,
       "directory_count": 15,
-      "canonical_term_count": 288,
-      "alias_count": 162,
+      "canonical_term_count": 291,
+      "alias_count": 174,
       "abbreviation_count": 38,
       "spelling_and_legacy_mapping_count": 21,
-      "raw_normalized_keyword_count": 298,
-      "extended_search_keyword_count": 713,
+      "raw_normalized_keyword_count": 307,
+      "extended_search_keyword_count": 1041,
       "unresolved_internal_cross_reference_count": 0,
+      "machine_index_infrastructure_included_in_artifact_index": false,
       "directory_file_counts": {
-        ".": 6,
-        "Applied_Devices_Analysis": 73,
-        "Assets": 2,
-        "CMB_Modulation": 4,
+        ".": 7,
+        "Applied_Devices_Analysis": 126,
+        "Assets": 3,
+        "CMB_Modulation": 8,
         "Commentary": 47,
-        "Discovered_Pathways": 42,
-        "Galaxy_Analysis": 6,
+        "Discovered_Pathways": 73,
+        "Galaxy_Analysis": 10,
         "Lectures": 3,
-        "OCXO_Experiments": 7,
-        "Press_Release": 4,
-        "Spectrophotometer_Studies": 18,
-        "Start_Here": 9,
-        "Student_reconstruction_process/Galax_Derivation_Methods": 10,
-        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas": 6,
-        "Typed_Graphs": 4
+        "OCXO_Experiments": 13,
+        "Press_Release": 5,
+        "Spectrophotometer_Studies": 31,
+        "Start_Here": 14,
+        "Student_reconstruction_process/Galax_Derivation_Methods": 16,
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas": 10,
+        "Typed_Graphs": 6
       },
       "extension_counts": {
+        "(none)": 1,
         "cff": 1,
-        "json": 123,
+        "json": 125,
+        "json.abstract.json": 35,
         "md": 3,
         "pdf": 102,
-        "png": 4,
+        "pdf.abstract.json": 90,
+        "png": 2,
+        "png.abstract.json": 1,
+        "txt": 4,
+        "zip": 4,
+        "zip.abstract.json": 4
+      },
+      "primary_extension_counts": {
+        "(none)": 1,
+        "cff": 1,
+        "json": 125,
+        "md": 3,
+        "pdf": 102,
+        "png": 2,
         "txt": 4,
         "zip": 4
+      },
+      "search_companion_extension_counts": {
+        "json.abstract.json": 35,
+        "pdf.abstract.json": 90,
+        "png.abstract.json": 1,
+        "zip.abstract.json": 4
       }
     },
     "cff_keywords_observed": [
@@ -186,40 +221,42 @@
       "New Discoveries"
     ],
     "github_topics": {
-      "primary_20": [
-        "k-field",
-        "krytronx",
-        "quantum-gravity",
-        "foundational-physics",
-        "quantum-substrate",
-        "emergent-spacetime",
-        "quantum-geometry",
-        "structured-vacuum",
-        "experimental-gravitation",
-        "quantum-sensing",
-        "precision-metrology",
-        "frequency-metrology",
-        "signal-processing",
-        "time-frequency-analysis",
+      "observed_20": [
         "astrophysics",
         "celestial-mechanics",
         "cosmic-microwave-background",
+        "emergent-spacetime",
+        "foundational-physics",
+        "precision-metrology",
+        "quantum-geometry",
+        "quantum-gravity",
         "quantum-optics",
+        "quantum-sensing",
+        "quantum-substrate",
+        "reproducible-research",
         "spectrophotometry",
-        "reproducible-research"
+        "time-frequency-analysis",
+        "experimental-gravitation",
+        "frequency-metrology",
+        "k-field",
+        "krytronx",
+        "signal-processing",
+        "structured-vacuum"
       ],
-      "command_line_csv": "k-field,krytronx,quantum-gravity,foundational-physics,quantum-substrate,emergent-spacetime,quantum-geometry,structured-vacuum,experimental-gravitation,quantum-sensing,precision-metrology,frequency-metrology,signal-processing,time-frequency-analysis,astrophysics,celestial-mechanics,cosmic-microwave-background,quantum-optics,spectrophotometry,reproducible-research",
-      "note": "GitHub repository topics are limited to 20; the complete archive vocabulary is retained elsewhere in this JSON."
+      "count": 20,
+      "command_line_csv": "astrophysics,celestial-mechanics,cosmic-microwave-background,emergent-spacetime,foundational-physics,precision-metrology,quantum-geometry,quantum-gravity,quantum-optics,quantum-sensing,quantum-substrate,reproducible-research,spectrophotometry,time-frequency-analysis,experimental-gravitation,frequency-metrology,k-field,krytronx,signal-processing,structured-vacuum",
+      "status": "complete_20_topic_set"
     },
     "integrity": {
+      "snapshot_head_commit_sha": "de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb",
+      "artifact_paths_unique": true,
+      "canonical_term_ids_unique": true,
       "all_internal_topic_references_resolved": true,
       "unresolved_internal_references": [],
-      "artifact_paths_unique": true,
-      "all_cff_keywords_cross_referenced": true,
-      "unmapped_cff_keywords": [],
-      "canonical_term_ids_unique": true,
-      "duplicate_term_ids": [],
-      "index_sha256": "29187119ba8d771eeb26b13d14368e7e621598289db8584d7fef10724a3b598d"
+      "all_artifact_topic_ids_resolved": true,
+      "machine_index_recursive_self_indexing": false,
+      "search_companion_source_paths_resolved": true,
+      "logical_index_sha256_excluding_this_field": "2e1c9e101c75869d8f4d57b040593d11bd16d80f53d67ece1b4ac4bd539078de"
     }
   }
 }

@@ -1,0 +1,881 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.1.0-sharded-live",
+  "shard_id": "artifact_index:Spectrophotometer_Studies:1",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Spectrophotometer_Studies",
+    "order": 10
+  },
+  "parent_manifest": "../index.json",
+  "record_count": 31,
+  "records": [
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.json",
+      "extension": "json",
+      "normalized_title": "k field cell3 to spectrophotometer near lock face angle",
+      "raw_keywords": [
+        "angle",
+        "cell3",
+        "face",
+        "field",
+        "lock",
+        "near",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "face-angle",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field cell3 to spectrophotometer near lock face angle",
+      "raw_keywords": [
+        "angle",
+        "cell3",
+        "face",
+        "field",
+        "lock",
+        "near",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "face-angle",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.json",
+      "extension": "json",
+      "normalized_title": "k field cell3 to spectrophotometer planar comparison",
+      "raw_keywords": [
+        "cell3",
+        "comparison",
+        "field",
+        "planar",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field cell3 to spectrophotometer planar comparison",
+      "raw_keywords": [
+        "cell3",
+        "comparison",
+        "field",
+        "planar",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.json",
+      "extension": "json",
+      "normalized_title": "k field cell3 vs spectrophotometer quantized interplanar distance ladder",
+      "raw_keywords": [
+        "cell3",
+        "distance",
+        "field",
+        "interplanar",
+        "ladder",
+        "quantized",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "interplanar-distance-ladder",
+        "interplanar-quantization",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field cell3 vs spectrophotometer quantized interplanar distance ladder",
+      "raw_keywords": [
+        "cell3",
+        "distance",
+        "field",
+        "interplanar",
+        "ladder",
+        "quantized",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "interplanar-distance-ladder",
+        "interplanar-quantization",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+      "extension": "json",
+      "normalized_title": "k field spectrometer spherical beat photon energy analysis",
+      "raw_keywords": [
+        "beat",
+        "energy",
+        "field",
+        "photon",
+        "spectrometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "photon-energy",
+        "quantum-k-field",
+        "spectrometer",
+        "spherical-beat-energy",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field spectrometer spherical beat photon energy analysis",
+      "raw_keywords": [
+        "beat",
+        "energy",
+        "field",
+        "photon",
+        "spectrometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "photon-energy",
+        "quantum-k-field",
+        "spectrometer",
+        "spherical-beat-energy",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophotometer_Kepler_comparison_1785936602.json",
+      "extension": "json",
+      "normalized_title": "k field spectrophotometer kepler comparison",
+      "raw_keywords": [
+        "comparison",
+        "field",
+        "kepler",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "kepler-comparison",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field spectrophotometer kepler comparison",
+      "raw_keywords": [
+        "comparison",
+        "field",
+        "kepler",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "kepler-comparison",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.json",
+      "extension": "json",
+      "normalized_title": "k field spectrophotometer quantized interplanar distance ladder",
+      "raw_keywords": [
+        "distance",
+        "field",
+        "interplanar",
+        "ladder",
+        "quantized",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "interplanar-distance-ladder",
+        "interplanar-quantization",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field spectrophotometer quantized interplanar distance ladder",
+      "raw_keywords": [
+        "distance",
+        "field",
+        "interplanar",
+        "ladder",
+        "quantized",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "interplanar-distance-ladder",
+        "interplanar-quantization",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+      "extension": "json",
+      "normalized_title": "k field spectrophotometer pic id14c analysis",
+      "raw_keywords": [
+        "field",
+        "id14c",
+        "pic",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field spectrophotometer pic id14c analysis",
+      "raw_keywords": [
+        "field",
+        "id14c",
+        "pic",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+      "extension": "json",
+      "normalized_title": "k field spectrophotometer pic id14e analysis exposed plane structure",
+      "raw_keywords": [
+        "exposed",
+        "field",
+        "id14e",
+        "pic",
+        "plane",
+        "spectrophotometer",
+        "structure"
+      ],
+      "canonical_topic_ids": [
+        "planar-field-structure",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field spectrophotometer pic id14e analysis exposed plane structure",
+      "raw_keywords": [
+        "exposed",
+        "field",
+        "id14e",
+        "pic",
+        "plane",
+        "spectrophotometer",
+        "structure"
+      ],
+      "canonical_topic_ids": [
+        "planar-field-structure",
+        "quantum-k-field",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+      "extension": "json",
+      "normalized_title": "k field spectrophotometer spherical coherence",
+      "raw_keywords": [
+        "coherence",
+        "field",
+        "spectrophotometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "coherence-analysis",
+        "quantum-k-field",
+        "spectrophotometer",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field spectrophotometer spherical coherence",
+      "raw_keywords": [
+        "coherence",
+        "field",
+        "spectrophotometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "coherence-analysis",
+        "quantum-k-field",
+        "spectrophotometer",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field cell3 to spectrophotometer near lock face angle searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "angle",
+        "cell3",
+        "companion",
+        "face",
+        "field",
+        "lock",
+        "near",
+        "search",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "face-angle",
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field cell3 to spectrophotometer planar comparison searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "cell3",
+        "companion",
+        "comparison",
+        "field",
+        "planar",
+        "search",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field cell3 vs spectrophotometer quantized interplanar distance ladder searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "cell3",
+        "companion",
+        "distance",
+        "field",
+        "interplanar",
+        "ladder",
+        "quantized",
+        "search",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "github-code-search",
+        "interplanar-distance-ladder",
+        "interplanar-quantization",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json.abstract.json",
+      "extension": "json.abstract.json",
+      "normalized_title": "k field spectrometer spherical beat photon energy analysis searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "beat",
+        "companion",
+        "energy",
+        "field",
+        "photon",
+        "search",
+        "spectrometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "photon-energy",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrometer",
+        "spherical-beat-energy",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field spectrometer spherical beat photon energy analysis searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "beat",
+        "companion",
+        "energy",
+        "field",
+        "photon",
+        "search",
+        "spectrometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "photon-energy",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrometer",
+        "spherical-beat-energy",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field spectrophotometer kepler comparison searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "comparison",
+        "field",
+        "kepler",
+        "search",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "kepler-comparison",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field spectrophotometer quantized interplanar distance ladder searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "distance",
+        "field",
+        "interplanar",
+        "ladder",
+        "quantized",
+        "search",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "interplanar-distance-ladder",
+        "interplanar-quantization",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json.abstract.json",
+      "extension": "json.abstract.json",
+      "normalized_title": "k field spectrophotometer pic id14c analysis searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "field",
+        "id14c",
+        "pic",
+        "search",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field spectrophotometer pic id14c analysis searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "field",
+        "id14c",
+        "pic",
+        "search",
+        "spectrophotometer"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json.abstract.json",
+      "extension": "json.abstract.json",
+      "normalized_title": "k field spectrophotometer pic id14e analysis exposed plane structure searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "exposed",
+        "field",
+        "id14e",
+        "pic",
+        "plane",
+        "search",
+        "spectrophotometer",
+        "structure"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "planar-field-structure",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field spectrophotometer pic id14e analysis exposed plane structure searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "exposed",
+        "field",
+        "id14e",
+        "pic",
+        "plane",
+        "search",
+        "spectrophotometer",
+        "structure"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "planar-field-structure",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+      "extension": "json.abstract.json",
+      "normalized_title": "k field spectrophotometer spherical coherence searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "coherence",
+        "companion",
+        "field",
+        "search",
+        "spectrophotometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "coherence-analysis",
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json",
+      "directory": "Spectrophotometer_Studies",
+      "filename": "K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field spectrophotometer spherical coherence searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "coherence",
+        "companion",
+        "field",
+        "search",
+        "spectrophotometer",
+        "spherical"
+      ],
+      "canonical_topic_ids": [
+        "coherence-analysis",
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "spectrophotometer",
+        "spherical-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    }
+  ]
+}

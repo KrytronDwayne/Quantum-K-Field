@@ -1,0 +1,285 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.1.0-sharded-live",
+  "shard_id": "artifact_index:Galaxy_Analysis:1",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Galaxy_Analysis",
+    "order": 6
+  },
+  "parent_manifest": "../index.json",
+  "record_count": 10,
+  "records": [
+    {
+      "path": "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field and galaxy shell coherence",
+      "raw_keywords": [
+        "coherence",
+        "field",
+        "galaxy",
+        "shell"
+      ],
+      "canonical_topic_ids": [
+        "coherence-analysis",
+        "galaxy-axis-orientation",
+        "quantum-k-field",
+        "shell-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field cell3 and galaxy shell coherence",
+      "raw_keywords": [
+        "cell3",
+        "coherence",
+        "field",
+        "galaxy",
+        "shell"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "coherence-analysis",
+        "galaxy-axis-orientation",
+        "quantum-k-field",
+        "shell-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
+      "extension": "json",
+      "normalized_title": "k field galaxy plane intersection distribution analysis",
+      "raw_keywords": [
+        "distribution",
+        "field",
+        "galaxy",
+        "intersection",
+        "plane"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "intersection-distribution",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field galaxy plane intersection distribution analysis",
+      "raw_keywords": [
+        "distribution",
+        "field",
+        "galaxy",
+        "intersection",
+        "plane"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "intersection-distribution",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+      "extension": "json",
+      "normalized_title": "k field galaxy plane intersection distribution analysis",
+      "raw_keywords": [
+        "distribution",
+        "field",
+        "galaxy",
+        "intersection",
+        "plane"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "intersection-distribution",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field galaxy plane intersection distribution analysis",
+      "raw_keywords": [
+        "distribution",
+        "field",
+        "galaxy",
+        "intersection",
+        "plane"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "intersection-distribution",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf.abstract.json",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_and_Galaxy_shell_coherence_1783992215.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field and galaxy shell coherence searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "coherence",
+        "companion",
+        "field",
+        "galaxy",
+        "search",
+        "shell"
+      ],
+      "canonical_topic_ids": [
+        "coherence-analysis",
+        "galaxy-axis-orientation",
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "shell-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf.abstract.json",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field cell3 and galaxy shell coherence searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "cell3",
+        "coherence",
+        "companion",
+        "field",
+        "galaxy",
+        "search",
+        "shell"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "coherence-analysis",
+        "galaxy-axis-orientation",
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "shell-coherence"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf.abstract.json",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field galaxy plane intersection distribution analysis searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "distribution",
+        "field",
+        "galaxy",
+        "intersection",
+        "plane",
+        "search"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "github-code-search",
+        "intersection-distribution",
+        "quantum-k-field",
+        "searchable-abstract-companion"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf.abstract.json",
+      "directory": "Galaxy_Analysis",
+      "filename": "K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field galaxy plane intersection distribution analysis searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "distribution",
+        "field",
+        "galaxy",
+        "intersection",
+        "plane",
+        "search"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "github-code-search",
+        "intersection-distribution",
+        "quantum-k-field",
+        "searchable-abstract-companion"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    }
+  ]
+}

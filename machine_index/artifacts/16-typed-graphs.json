@@ -1,0 +1,158 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.1.0-sharded-live",
+  "shard_id": "artifact_index:Typed_Graphs:1",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Typed_Graphs",
+    "order": 14
+  },
+  "parent_manifest": "../index.json",
+  "record_count": 6,
+  "records": [
+    {
+      "path": "Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf",
+      "directory": "Typed_Graphs",
+      "filename": "K-Field_Converged_Closure_1783815468.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field converged closure",
+      "raw_keywords": [
+        "closure",
+        "converged",
+        "field"
+      ],
+      "canonical_topic_ids": [
+        "converged-closure",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Typed_Graphs/K_Field_converged_closure_validation_1783819957.json",
+      "directory": "Typed_Graphs",
+      "filename": "K_Field_converged_closure_validation_1783819957.json",
+      "extension": "json",
+      "normalized_title": "k field converged closure validation",
+      "raw_keywords": [
+        "closure",
+        "converged",
+        "field",
+        "validation"
+      ],
+      "canonical_topic_ids": [
+        "converged-closure",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Typed_Graphs/K_Field_converged_closure_validation_1783819957.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Typed_Graphs/K_Field_minimal_complete_reconstruction_kernel_1783819957.json",
+      "directory": "Typed_Graphs",
+      "filename": "K_Field_minimal_complete_reconstruction_kernel_1783819957.json",
+      "extension": "json",
+      "normalized_title": "k field minimal complete reconstruction kernel",
+      "raw_keywords": [
+        "complete",
+        "field",
+        "kernel",
+        "minimal",
+        "reconstruction"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "reconstruction-kernel"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Typed_Graphs/K_Field_minimal_complete_reconstruction_kernel_1783819957.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Typed_Graphs/K_Field_unified_typed_graph_1783819957.json",
+      "directory": "Typed_Graphs",
+      "filename": "K_Field_unified_typed_graph_1783819957.json",
+      "extension": "json",
+      "normalized_title": "k field unified typed graph",
+      "raw_keywords": [
+        "field",
+        "graph",
+        "typed",
+        "unified"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "unified-typed-graph"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Typed_Graphs/K_Field_unified_typed_graph_1783819957.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Typed_Graphs/K_Field_unified_typed_graph_1783819957.json.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf.abstract.json",
+      "directory": "Typed_Graphs",
+      "filename": "K-Field_Converged_Closure_1783815468.pdf.abstract.json",
+      "extension": "pdf.abstract.json",
+      "normalized_title": "k field converged closure searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "closure",
+        "companion",
+        "converged",
+        "field",
+        "search"
+      ],
+      "canonical_topic_ids": [
+        "converged-closure",
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    },
+    {
+      "path": "Typed_Graphs/K_Field_unified_typed_graph_1783819957.json.abstract.json",
+      "directory": "Typed_Graphs",
+      "filename": "K_Field_unified_typed_graph_1783819957.json.abstract.json",
+      "extension": "json.abstract.json",
+      "normalized_title": "k field unified typed graph searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "field",
+        "graph",
+        "search",
+        "typed",
+        "unified"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion",
+        "unified-typed-graph"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Typed_Graphs/K_Field_unified_typed_graph_1783819957.json.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Typed_Graphs/K_Field_unified_typed_graph_1783819957.json",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    }
+  ]
+}

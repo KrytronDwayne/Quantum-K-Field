@@ -1,0 +1,116 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.1.0-sharded-live",
+  "shard_id": "artifact_index:Press_Release:1",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Press_Release",
+    "order": 9
+  },
+  "parent_manifest": "../index.json",
+  "record_count": 5,
+  "records": [
+    {
+      "path": "Press_Release/Investigator_Biography_Corrected.txt",
+      "directory": "Press_Release",
+      "filename": "Investigator_Biography_Corrected.txt",
+      "extension": "txt",
+      "normalized_title": "investigator biography corrected",
+      "raw_keywords": [
+        "biography",
+        "investigator"
+      ],
+      "canonical_topic_ids": [],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Press_Release/Investigator_Biography_Corrected.txt",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Press_Release/K_Field_Press_Package.zip",
+      "directory": "Press_Release",
+      "filename": "K_Field_Press_Package.zip",
+      "extension": "zip",
+      "normalized_title": "k field press package",
+      "raw_keywords": [
+        "field",
+        "package",
+        "press"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Press_Release/K_Field_Press_Package.zip",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Press_Release/K_Field_Press_Package.zip.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
+    },
+    {
+      "path": "Press_Release/mass_bridge_quotes.txt",
+      "directory": "Press_Release",
+      "filename": "mass_bridge_quotes.txt",
+      "extension": "txt",
+      "normalized_title": "mass bridge quotes",
+      "raw_keywords": [
+        "bridge",
+        "mass",
+        "quotes"
+      ],
+      "canonical_topic_ids": [
+        "mass-bridge"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Press_Release/mass_bridge_quotes.txt",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Press_Release/optimized_mass_bridge_quotes.txt",
+      "directory": "Press_Release",
+      "filename": "optimized_mass_bridge_quotes.txt",
+      "extension": "txt",
+      "normalized_title": "optimized mass bridge quotes",
+      "raw_keywords": [
+        "bridge",
+        "mass",
+        "quotes"
+      ],
+      "canonical_topic_ids": [
+        "mass-bridge"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Press_Release/optimized_mass_bridge_quotes.txt",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Press_Release/K_Field_Press_Package.zip.abstract.json",
+      "directory": "Press_Release",
+      "filename": "K_Field_Press_Package.zip.abstract.json",
+      "extension": "zip.abstract.json",
+      "normalized_title": "k field press package searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "field",
+        "package",
+        "press",
+        "search"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Press_Release/K_Field_Press_Package.zip.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Press_Release/K_Field_Press_Package.zip",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
+    }
+  ]
+}

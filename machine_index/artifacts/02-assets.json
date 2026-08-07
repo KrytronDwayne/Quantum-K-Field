@@ -1,7 +1,7 @@
 {
   "document_type": "research_archive_artifact_index_shard",
-  "schema_version": "2.0.0-sharded",
-  "shard_id": "artifacts:Assets",
+  "schema_version": "2.1.0-sharded-live",
+  "shard_id": "artifact_index:Assets:1",
   "section": "artifact_index",
   "partition": {
     "type": "repository_directory",
@@ -9,8 +9,7 @@
     "order": 1
   },
   "parent_manifest": "../index.json",
-  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
-  "record_count": 2,
+  "record_count": 3,
   "records": [
     {
       "path": "Assets/K-Field_Logo_20260806.png",
@@ -25,7 +24,11 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Assets/K-Field_Logo_20260806.png"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Assets/K-Field_Logo_20260806.png",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": "Assets/K-Field_Logo_20260806.png.abstract.json",
+      "search_companion_available": true,
+      "search_companion_basis": "source exceeds 350 KiB discovery threshold; compact companion verified in live commit delta"
     },
     {
       "path": "Assets/Quantum_K-Field_GitHub_Profile_500x500.png",
@@ -44,7 +47,36 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Assets/Quantum_K-Field_GitHub_Profile_500x500.png"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Assets/Quantum_K-Field_GitHub_Profile_500x500.png",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
+    },
+    {
+      "path": "Assets/K-Field_Logo_20260806.png.abstract.json",
+      "directory": "Assets",
+      "filename": "K-Field_Logo_20260806.png.abstract.json",
+      "extension": "png.abstract.json",
+      "normalized_title": "k field logo 20260806 searchable abstract companion",
+      "raw_keywords": [
+        "abstract",
+        "companion",
+        "field",
+        "logo",
+        "search"
+      ],
+      "canonical_topic_ids": [
+        "github-code-search",
+        "quantum-k-field",
+        "searchable-abstract-companion"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Assets/K-Field_Logo_20260806.png.abstract.json",
+      "artifact_role": "searchable_abstract_companion",
+      "authoritative_source_path": "Assets/K-Field_Logo_20260806.png",
+      "source_artifact_is_authoritative": true,
+      "companion_schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+      "designed_for_github_code_search": true,
+      "source_oversize_threshold_bytes": 358400
     }
   ]
 }

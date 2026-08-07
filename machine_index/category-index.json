@@ -1,9 +1,9 @@
 {
   "document_type": "research_archive_index_shard",
-  "schema_version": "2.0.0-sharded",
+  "schema_version": "2.1.0-sharded-live",
   "shard_id": "category-index",
   "section": "category_index",
-  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "source_entry_point": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
   "payload": {
     "applied_mechanics": [
       "hysteresis"
@@ -73,6 +73,7 @@
       "creative-commons-by-nc-4-0",
       "digital-object-identifier",
       "educator-resources",
+      "github-code-search",
       "high-school-education",
       "hostile-audit",
       "json-machine-readable-companion",
@@ -83,9 +84,11 @@
       "ontology",
       "open-scientific-software",
       "pdf-archival-report",
+      "public-release-status",
       "reproducible-research",
       "research-catalog",
       "research-provenance",
+      "searchable-abstract-companion",
       "sha-256-checksum",
       "societal-benefits",
       "source-data-archive",

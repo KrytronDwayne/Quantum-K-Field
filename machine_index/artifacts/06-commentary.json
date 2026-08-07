@@ -1,7 +1,7 @@
 {
   "document_type": "research_archive_artifact_index_shard",
-  "schema_version": "2.0.0-sharded",
-  "shard_id": "artifacts:Commentary",
+  "schema_version": "2.1.0-sharded-live",
+  "shard_id": "artifact_index:Commentary:1",
   "section": "artifact_index",
   "partition": {
     "type": "repository_directory",
@@ -9,7 +9,6 @@
     "order": 4
   },
   "parent_manifest": "../index.json",
-  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
   "record_count": 47,
   "records": [
     {
@@ -30,7 +29,10 @@
         "phase-metrology",
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K-Field_dimensional_phase_governing_rules_corrected_1784327536.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K-Field_dimensional_phase_governing_rules_corrected_1784327536.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_11_ontological_approaches_v1.json",
@@ -46,7 +48,10 @@
         "ontology",
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_11_ontological_approaches_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_11_ontological_approaches_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_11_shocking_revealing_results_v1.json",
@@ -62,7 +67,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_11_shocking_revealing_results_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_11_shocking_revealing_results_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_13_intuitive_leaps_v2.json",
@@ -78,7 +86,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_13_intuitive_leaps_v2.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_13_intuitive_leaps_v2.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_13_profound_intuitive_leaps_v2.json",
@@ -95,7 +106,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_13_profound_intuitive_leaps_v2.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_13_profound_intuitive_leaps_v2.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_25_core_dependency_hierarchy_v1.json",
@@ -113,7 +127,10 @@
         "dependency-system",
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_25_core_dependency_hierarchy_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_25_core_dependency_hierarchy_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_30_descriptive_words_v1.json",
@@ -129,7 +146,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_30_descriptive_words_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_30_descriptive_words_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_7_approaches_three_astounding_findings_v1.json",
@@ -145,7 +165,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_7_approaches_three_astounding_findings_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_7_approaches_three_astounding_findings_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_8_consequential_aspects_v1.json",
@@ -161,7 +184,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_8_consequential_aspects_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_8_consequential_aspects_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_Conceptual_Framework_Corrected_v1.json",
@@ -177,7 +203,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Conceptual_Framework_Corrected_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Conceptual_Framework_Corrected_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_Foundations_full_volume_draft_v1.json",
@@ -193,7 +222,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Foundations_full_volume_draft_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Foundations_full_volume_draft_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_Foundations_full_volume_draft_v1_recursive_audit_report.json",
@@ -213,7 +245,10 @@
         "hostile-audit",
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Foundations_full_volume_draft_v1_recursive_audit_report.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Foundations_full_volume_draft_v1_recursive_audit_report.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_Foundations_full_volume_draft_v2.json",
@@ -229,7 +264,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Foundations_full_volume_draft_v2.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_Foundations_full_volume_draft_v2.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_basics_5_approaches_congressional_briefing_v1.json",
@@ -247,7 +285,10 @@
         "congressional-briefing",
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_5_approaches_congressional_briefing_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_5_approaches_congressional_briefing_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_basics_5_approaches_congressional_briefing_v2.json",
@@ -265,7 +306,10 @@
         "congressional-briefing",
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_5_approaches_congressional_briefing_v2.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_5_approaches_congressional_briefing_v2.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_basics_5_approaches_media_press_v2.json",
@@ -283,7 +327,10 @@
         "media-press",
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_5_approaches_media_press_v2.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_5_approaches_media_press_v2.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_basics_7_approaches_high_school_v1.json",
@@ -300,7 +347,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_7_approaches_high_school_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_7_approaches_high_school_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_basics_7_approaches_teacher_v1.json",
@@ -316,7 +366,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_7_approaches_teacher_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_7_approaches_teacher_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_basics_9_approaches_educators_v1.json",
@@ -332,7 +385,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_9_approaches_educators_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_9_approaches_educators_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_basics_high_school_7_approaches.json",
@@ -349,7 +405,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_high_school_7_approaches.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_basics_high_school_7_approaches.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_chat_essence_educational_core_v1.json",
@@ -367,7 +426,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_chat_essence_educational_core_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_chat_essence_educational_core_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_fundamental_structure_evidence_v1.json",
@@ -384,7 +446,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_fundamental_structure_evidence_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_fundamental_structure_evidence_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_hidden_consequences_v1.json",
@@ -400,7 +465,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_hidden_consequences_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_hidden_consequences_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_implications_seven_approaches_v1.json",
@@ -415,7 +483,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_implications_seven_approaches_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_implications_seven_approaches_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_inferred_researcher_profile_v1.json",
@@ -432,7 +503,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_inferred_researcher_profile_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_inferred_researcher_profile_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_minimal_textbook_series_outline_v1.json",
@@ -451,7 +525,10 @@
         "quantum-k-field",
         "textbook-series"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_minimal_textbook_series_outline_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_minimal_textbook_series_outline_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_minimal_textbook_volume_structure_v2.json",
@@ -469,7 +546,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_minimal_textbook_volume_structure_v2.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_minimal_textbook_volume_structure_v2.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_one_page_essay_three_approaches_v1.json",
@@ -484,7 +564,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_one_page_essay_three_approaches_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_one_page_essay_three_approaches_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_scientific_discovery_ranking_v1.json",
@@ -501,7 +584,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_scientific_discovery_ranking_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_scientific_discovery_ranking_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_seven_approaches_factual_not_theoretic_v1.json",
@@ -518,7 +604,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_approaches_factual_not_theoretic_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_approaches_factual_not_theoretic_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_seven_implications_longform_v1.json",
@@ -534,7 +623,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_implications_longform_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_implications_longform_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_seven_implications_longform_v2.json",
@@ -550,7 +642,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_implications_longform_v2.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_implications_longform_v2.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_seven_implications_paragraph_v1.json",
@@ -566,7 +661,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_implications_paragraph_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_implications_paragraph_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_seven_keystone_milestones_v1.json",
@@ -582,7 +680,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_keystone_milestones_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_keystone_milestones_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_seven_societal_benefits_20260717T122617Z.json",
@@ -599,7 +700,10 @@
         "quantum-k-field",
         "societal-benefits"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_societal_benefits_20260717T122617Z.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_seven_societal_benefits_20260717T122617Z.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_shocking_results_7_approaches_v1.json",
@@ -614,7 +718,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_shocking_results_7_approaches_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_shocking_results_7_approaches_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_societal_benefits_v1.json",
@@ -631,7 +738,10 @@
         "quantum-k-field",
         "societal-benefits"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_societal_benefits_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_societal_benefits_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_three_approaches_factual_not_theoretic_v1.json",
@@ -648,7 +758,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_approaches_factual_not_theoretic_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_approaches_factual_not_theoretic_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_three_astounding_facts_v1.json",
@@ -664,7 +777,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_astounding_facts_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_astounding_facts_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_three_rigorous_approaches_factual_not_theoretic_v1.json",
@@ -682,7 +798,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_rigorous_approaches_factual_not_theoretic_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_rigorous_approaches_factual_not_theoretic_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_three_separate_essays_v1.json",
@@ -698,7 +817,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_separate_essays_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_three_separate_essays_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_top10_consequential_discoveries_v1.json",
@@ -715,7 +837,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top10_consequential_discoveries_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top10_consequential_discoveries_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_top10_profound_realizations_v1.json",
@@ -732,7 +857,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top10_profound_realizations_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top10_profound_realizations_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_top7_discoveries_v1.json",
@@ -748,7 +876,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top7_discoveries_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top7_discoveries_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/K_Field_top_three_results_v1.json",
@@ -762,7 +893,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top_three_results_v1.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/K_Field_top_three_results_v1.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/kfield_essence_clean_v3.json",
@@ -778,7 +912,10 @@
       "canonical_topic_ids": [
         "quantum-k-field"
       ],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/kfield_essence_clean_v3.json"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/kfield_essence_clean_v3.json",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     },
     {
       "path": "Commentary/the_quantum_foundation_revealed_revised_integrated_draft.txt",
@@ -793,7 +930,10 @@
         "revealed"
       ],
       "canonical_topic_ids": [],
-      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/the_quantum_foundation_revealed_revised_integrated_draft.txt"
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Commentary/the_quantum_foundation_revealed_revised_integrated_draft.txt",
+      "artifact_role": "primary_or_authoritative_repository_artifact",
+      "search_companion_path": null,
+      "search_companion_available": false
     }
   ]
 }

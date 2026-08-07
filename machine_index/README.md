@@ -1,13 +1,25 @@
 # Quantum K-Field Machine Index
 
-The topic and keyword index is sharded here so GitHub Code Search can index it.
+This directory is the current sharded machine-readable discovery index for the public Quantum K-Field archive.
 
-The former monolithic index was **576,149 bytes (562.6 KiB)**. GitHub Code Search excludes files over 350 KiB. This layout uses a conservative **128 KiB design ceiling** and semantic partitions rather than arbitrary byte chunks.
+Snapshot HEAD: `de76315a0e7ef5f0d76d2bdbb90184bb8b0ae6fb`  
+Generated: `2026-08-07T02:58:39Z`  
+Schema: `2.1.0-sharded-live`
 
-`index.json` is the authoritative manifest. Taxonomy records are partitioned by scientific category; artifact records are partitioned by the repository directory they describe. Alias, misspelling, abbreviation, keyword, and locator tables remain separate searchable files.
+The artifact inventory contains **242 primary/public artifacts** and **130 searchable `.abstract.json` companions**, for **372 indexed public files** outside this generated directory. The `machine_index/**` directory is deliberately excluded from its own artifact inventory to prevent recursive self-indexing.
 
-The root `Quantum-K-Field_topic_keyword_index_20260806T200100Z.json` is now a small compatibility pointer, so existing links to that filename do not need to change.
+## Entry points
 
-Use `python machine_index/recombine_index.py` from the repository root to reconstruct the original logical index.
+- `index.json` — authoritative shard manifest.
+- `core.json` — snapshot, method, statistics, repository topics, and integrity.
+- `normalization.json` — misspellings, abbreviations, and aliases.
+- `category-index.json` — category-to-term lookup.
+- `keyword-index.json` — normalized keyword-to-topic lookup.
+- `search-companion-index.json` — authoritative source path to `.abstract.json` companion mapping.
+- `taxonomy/` — canonical topic records.
+- `artifacts/` — current public artifact records partitioned by repository directory.
+- `lookup/term-locator.json` — topic ID to taxonomy shard.
+- `lookup/artifact-locator.json` — artifact path to artifact shard.
+- `recombine_index.py` — reconstructs the complete logical index if a monolithic copy is needed offline.
 
-Original source SHA-256: `4d75ebed5c5c24f714caf6b2c71238752ecfe3f9fd4ed0fdd104f05ae21cd1bd`
+The repository-root `Quantum-K-Field_topic_keyword_index_20260806T200100Z.json` is retained as a stable compatibility entry point for existing README links. It points to `machine_index/index.json`.

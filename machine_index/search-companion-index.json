@@ -1,0 +1,789 @@
+{
+  "document_type": "research_archive_index_shard",
+  "schema_version": "2.1.0-sharded-live",
+  "shard_id": "search-companion-index",
+  "section": "search_companion_index",
+  "source_entry_point": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "records": [
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_circularly_polarized_elastic_oscillator_1784991135.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_circularly_polarized_elastic_oscillator_1784991135.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_lab_scale_device_proposals_1784994055.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_lab_scale_device_proposals_1784994055.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json",
+      "companion_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.pdf",
+      "companion_path": "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Applied_Devices_Analysis/supplemental_materials_rotating_sphere_paper.pdf",
+      "companion_path": "Applied_Devices_Analysis/supplemental_materials_rotating_sphere_paper.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Assets/K-Field_Logo_20260806.png",
+      "companion_path": "Assets/K-Field_Logo_20260806.png.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "CMB_Modulation/K-Field_earth_CMB_modulation_routes_1784647098.json",
+      "companion_path": "CMB_Modulation/K-Field_earth_CMB_modulation_routes_1784647098.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "CMB_Modulation/K-Field_earth_CMB_modulation_routes_1784647098.pdf",
+      "companion_path": "CMB_Modulation/K-Field_earth_CMB_modulation_routes_1784647098.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.json",
+      "companion_path": "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.pdf",
+      "companion_path": "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.json",
+      "companion_path": "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Compton_classical_radius_Mass_Bridge_triangle_1785175483.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_Compton_classical_radius_Mass_Bridge_triangle_1785175483.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_Analysis_1785208014.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_Analysis_1785208014.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.json",
+      "companion_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_extracted_definition_1785238606.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_extracted_definition_1785238606.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_large_scale_morphology1785242330.json",
+      "companion_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_large_scale_morphology1785242330.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_large_scale_morphology1785242330.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_Lucas_Supergroup_large_scale_morphology1785242330.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.json",
+      "companion_path": "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_derived_properties_1784893730.json",
+      "companion_path": "Discovered_Pathways/K-Field_derived_properties_1784893730.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_derived_properties_1784893730.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_derived_properties_1784893730.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_discovered_pathways_1785264435.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_discovered_pathways_1785264435.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_entropy_pumped_current_flows_on_phase_cost_surface_1785246088.json",
+      "companion_path": "Discovered_Pathways/K-Field_entropy_pumped_current_flows_on_phase_cost_surface_1785246088.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_entropy_pumped_current_flows_on_phase_cost_surface_1785246088.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_entropy_pumped_current_flows_on_phase_cost_surface_1785246088.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_entropy_vs_phase_cost_surface1785242634.json",
+      "companion_path": "Discovered_Pathways/K-Field_entropy_vs_phase_cost_surface1785242634.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_entropy_vs_phase_cost_surface1785242634.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_entropy_vs_phase_cost_surface1785242634.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.json",
+      "companion_path": "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_internal_energy_hierarchy_1785190900.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_internal_energy_hierarchy_1785190900.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_overdetermined_one-dimensional_serialized_spectral_address_space_1785179337.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_overdetermined_one-dimensional_serialized_spectral_address_space_1785179337.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.json",
+      "companion_path": "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.json",
+      "companion_path": "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.pdf",
+      "companion_path": "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+      "companion_path": "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+      "companion_path": "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+      "companion_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+      "companion_path": "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json",
+      "companion_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf",
+      "companion_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json",
+      "companion_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf",
+      "companion_path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf",
+      "companion_path": "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "OCXO_Experiments/d101_source_data.zip",
+      "companion_path": "OCXO_Experiments/d101_source_data.zip.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Press_Release/K_Field_Press_Package.zip",
+      "companion_path": "Press_Release/K_Field_Press_Package.zip.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf",
+      "companion_path": "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Start_Here/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+      "companion_path": "Start_Here/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Start_Here/C- cell3_to_mass_bridge_1783390310.pdf",
+      "companion_path": "Start_Here/C- cell3_to_mass_bridge_1783390310.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Start_Here/D- cell3_physics_formula_bridge_1783389460.pdf",
+      "companion_path": "Start_Here/D- cell3_physics_formula_bridge_1783389460.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Start_Here/K-Field_high_school_description_1784253869.pdf",
+      "companion_path": "Start_Here/K-Field_high_school_description_1784253869.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Start_Here/K-Field_student_introduction_1785359337.pdf",
+      "companion_path": "Start_Here/K-Field_student_introduction_1785359337.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf",
+      "companion_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+      "companion_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_native_galaxy_derivation_1783388819.pdf",
+      "companion_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_native_galaxy_derivation_1783388819.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip",
+      "companion_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_mass_bridge_1783390310.pdf",
+      "companion_path": "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_mass_bridge_1783390310.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf",
+      "companion_path": "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+      "companion_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip",
+      "companion_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/C- cell3_to_mass_bridge_1783390310.pdf",
+      "companion_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/C- cell3_to_mass_bridge_1783390310.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/D- cell3_physics_formula_bridge_1783389460.pdf",
+      "companion_path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/D- cell3_physics_formula_bridge_1783389460.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf",
+      "companion_path": "Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    },
+    {
+      "source_path": "Typed_Graphs/K_Field_unified_typed_graph_1783819957.json",
+      "companion_path": "Typed_Graphs/K_Field_unified_typed_graph_1783819957.json.abstract.json",
+      "source_is_authoritative": true,
+      "companion_role": "compact searchable discovery metadata for oversized source artifact"
+    }
+  ]
+}
