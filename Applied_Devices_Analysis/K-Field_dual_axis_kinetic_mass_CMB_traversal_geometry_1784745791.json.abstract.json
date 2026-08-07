@@ -1,0 +1,63 @@
+{
+  "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+  "generated_at_utc": "2026-08-06T21:21:00Z",
+  "repository": {
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "branch": "main",
+    "snapshot_tree_sha": "86243d92ee90862872772faaa76347b673031eff"
+  },
+  "source": {
+    "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+    "filename": "K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+    "size_bytes": 517036,
+    "size_kib": 504.918,
+    "extension": "json",
+    "canonical_github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+    "raw_content_url": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+    "oversize_threshold_bytes": 358400,
+    "oversize_threshold_kib": 350,
+    "exceeds_threshold": true
+  },
+  "discovery": {
+    "canonical_title": "K-Field dual axis kinetic mass CMB traversal geometry",
+    "document_class": "machine_readable_research_record",
+    "archive_branch": "Applied device and engineering analysis",
+    "abstract": "Dual-axis kinetic-mass analysis focused on the geometry of motion through the Earth/CMB-referenced frame, including axis orientation, trajectory construction, and the geometric inputs used by downstream force models.",
+    "topics": [
+      "K-Field",
+      "applied devices",
+      "engineering analysis",
+      "force modeling",
+      "rotational mechanics",
+      "inertial dynamics",
+      "CMB-referenced geometry",
+      "cosmic microwave background"
+    ],
+    "search_terms": [
+      "K-Field dual axis kinetic mass CMB traversal geometry",
+      "K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791",
+      "K-Field",
+      "applied devices",
+      "engineering analysis",
+      "force modeling",
+      "rotational mechanics",
+      "inertial dynamics",
+      "CMB-referenced geometry",
+      "cosmic microwave background"
+    ]
+  },
+  "relationships": {
+    "paired_artifact": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+    "repository_readme": "README.md",
+    "citation_metadata": "CITATION.cff",
+    "public_release_status": "PUBLIC_RELEASE_STATUS.json"
+  },
+  "authority_and_provenance": {
+    "source_artifact_is_authoritative": true,
+    "companion_role": "compact searchable discovery metadata for an oversized source artifact",
+    "public_release_interpretation": "public per repository-level PUBLIC_RELEASE_STATUS.json; source-specific licenses remain controlling",
+    "license_reference": "LICENSE-PAPER.md unless a source-specific notice or repository rule assigns another applicable license",
+    "content_inspection_basis": "repository tree metadata and machine-readable artifact identity; abstract intentionally summarizes scope rather than duplicating the oversized JSON payload",
+    "content_claim_policy": "Abstract wording is limited to the artifact's declared/canonical topic and repository context; it does not replace the source's detailed results."
+  }
+}

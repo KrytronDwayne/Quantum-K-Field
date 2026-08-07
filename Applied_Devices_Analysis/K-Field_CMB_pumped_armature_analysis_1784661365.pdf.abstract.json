@@ -1,0 +1,63 @@
+{
+  "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+  "generated_at_utc": "2026-08-06T21:21:00Z",
+  "repository": {
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "branch": "main",
+    "snapshot_tree_sha": "86243d92ee90862872772faaa76347b673031eff"
+  },
+  "source": {
+    "path": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+    "filename": "K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+    "size_bytes": 3402159,
+    "size_kib": 3322.421,
+    "extension": "pdf",
+    "canonical_github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+    "raw_content_url": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+    "oversize_threshold_bytes": 358400,
+    "oversize_threshold_kib": 350,
+    "exceeds_threshold": true
+  },
+  "discovery": {
+    "canonical_title": "K-Field CMB pumped armature analysis",
+    "document_class": "research_report",
+    "archive_branch": "Applied device and engineering analysis",
+    "abstract": "Compact discovery abstract for the source artifact 'K-Field CMB pumped armature analysis'. The source belongs to the applied device and engineering analysis branch of the Quantum K-Field archive and contains the detailed derivation, model, measurements, calculations, figures, or machine-readable results associated with that topic. This companion is intentionally concise; the source artifact remains authoritative.",
+    "topics": [
+      "K-Field",
+      "applied devices",
+      "engineering analysis",
+      "force modeling",
+      "rotational mechanics",
+      "inertial dynamics",
+      "CMB-referenced geometry",
+      "cosmic microwave background"
+    ],
+    "search_terms": [
+      "K-Field CMB pumped armature analysis",
+      "K-Field_CMB_pumped_armature_analysis_1784661365",
+      "K-Field",
+      "applied devices",
+      "engineering analysis",
+      "force modeling",
+      "rotational mechanics",
+      "inertial dynamics",
+      "CMB-referenced geometry",
+      "cosmic microwave background"
+    ]
+  },
+  "relationships": {
+    "paired_artifact": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.json",
+    "repository_readme": "README.md",
+    "citation_metadata": "CITATION.cff",
+    "public_release_status": "PUBLIC_RELEASE_STATUS.json"
+  },
+  "authority_and_provenance": {
+    "source_artifact_is_authoritative": true,
+    "companion_role": "compact searchable discovery metadata for an oversized source artifact",
+    "public_release_interpretation": "public per repository-level PUBLIC_RELEASE_STATUS.json; source-specific licenses remain controlling",
+    "license_reference": "LICENSE-PAPER.md unless a source-specific notice or repository rule assigns another applicable license",
+    "content_inspection_basis": "repository tree metadata, canonical filename, directory context, and paired machine-readable relationship where available; PDF body text not re-extracted in this crawl",
+    "content_claim_policy": "Abstract wording is limited to the artifact's declared/canonical topic and repository context; it does not replace the source's detailed results."
+  }
+}

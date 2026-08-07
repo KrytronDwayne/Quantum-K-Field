@@ -1,0 +1,61 @@
+{
+  "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+  "generated_at_utc": "2026-08-06T21:21:00Z",
+  "repository": {
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "branch": "main",
+    "snapshot_tree_sha": "86243d92ee90862872772faaa76347b673031eff"
+  },
+  "source": {
+    "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip",
+    "filename": "A-E_Training_Set_20260708.zip",
+    "size_bytes": 1649247,
+    "size_kib": 1610.593,
+    "extension": "zip",
+    "canonical_github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip",
+    "raw_content_url": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip",
+    "oversize_threshold_bytes": 358400,
+    "oversize_threshold_kib": 350,
+    "exceeds_threshold": true
+  },
+  "discovery": {
+    "canonical_title": "A-E Training Set 20260708",
+    "document_class": "educational_training_archive",
+    "archive_branch": "Student reconstruction - step-by-step derivation",
+    "abstract": "Training and reconstruction bundle supporting the step-by-step educational path from galaxy-derived geometry through the K-Field foundational reconstruction. The ZIP is described here so automated systems can discover the otherwise opaque archive contents.",
+    "topics": [
+      "K-Field",
+      "Cell0",
+      "Cell3",
+      "Mass Bridge",
+      "physics formulas",
+      "reproducible reconstruction",
+      "education"
+    ],
+    "search_terms": [
+      "A-E Training Set 20260708",
+      "A-E_Training_Set_20260708",
+      "K-Field",
+      "Cell0",
+      "Cell3",
+      "Mass Bridge",
+      "physics formulas",
+      "reproducible reconstruction",
+      "education"
+    ]
+  },
+  "relationships": {
+    "paired_artifact": null,
+    "repository_readme": "README.md",
+    "citation_metadata": "CITATION.cff",
+    "public_release_status": "PUBLIC_RELEASE_STATUS.json"
+  },
+  "authority_and_provenance": {
+    "source_artifact_is_authoritative": true,
+    "companion_role": "compact searchable discovery metadata for an oversized source artifact",
+    "public_release_interpretation": "public per repository-level PUBLIC_RELEASE_STATUS.json; source-specific licenses remain controlling",
+    "license_reference": "LICENSE-PAPER.md unless a source-specific notice or repository rule assigns another applicable license",
+    "content_inspection_basis": "repository tree metadata and archive role; ZIP payload not expanded in this crawl",
+    "content_claim_policy": "Abstract wording is limited to the artifact's declared/canonical topic and repository context; it does not replace the source's detailed results."
+  }
+}

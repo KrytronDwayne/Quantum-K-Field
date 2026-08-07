@@ -1,0 +1,61 @@
+{
+  "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+  "generated_at_utc": "2026-08-06T21:21:00Z",
+  "repository": {
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "branch": "main",
+    "snapshot_tree_sha": "86243d92ee90862872772faaa76347b673031eff"
+  },
+  "source": {
+    "path": "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.pdf",
+    "filename": "K-Field_10_event_Cell3_propagation_experiment_1785204765.pdf",
+    "size_bytes": 4494549,
+    "size_kib": 4389.208,
+    "extension": "pdf",
+    "canonical_github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.pdf",
+    "raw_content_url": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.pdf",
+    "oversize_threshold_bytes": 358400,
+    "oversize_threshold_kib": 350,
+    "exceeds_threshold": true
+  },
+  "discovery": {
+    "canonical_title": "K-Field 10 event Cell3 propagation experiment",
+    "document_class": "research_report",
+    "archive_branch": "Derived structural pathways",
+    "abstract": "Ten-event propagation experiment expressed in Cell3 coordinates, tracking how a modeled state or interaction advances through a sequence of Cell3-related events and preserving the resulting propagation geometry.",
+    "topics": [
+      "K-Field",
+      "Cell3",
+      "derived pathways",
+      "recursive geometry",
+      "Lucas Supergroup",
+      "Mass Bridge",
+      "geometric physics"
+    ],
+    "search_terms": [
+      "K-Field 10 event Cell3 propagation experiment",
+      "K-Field_10_event_Cell3_propagation_experiment_1785204765",
+      "K-Field",
+      "Cell3",
+      "derived pathways",
+      "recursive geometry",
+      "Lucas Supergroup",
+      "Mass Bridge",
+      "geometric physics"
+    ]
+  },
+  "relationships": {
+    "paired_artifact": "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.json",
+    "repository_readme": "README.md",
+    "citation_metadata": "CITATION.cff",
+    "public_release_status": "PUBLIC_RELEASE_STATUS.json"
+  },
+  "authority_and_provenance": {
+    "source_artifact_is_authoritative": true,
+    "companion_role": "compact searchable discovery metadata for an oversized source artifact",
+    "public_release_interpretation": "public per repository-level PUBLIC_RELEASE_STATUS.json; source-specific licenses remain controlling",
+    "license_reference": "LICENSE-PAPER.md unless a source-specific notice or repository rule assigns another applicable license",
+    "content_inspection_basis": "repository tree metadata, canonical filename, directory context, and paired machine-readable relationship where available; PDF body text not re-extracted in this crawl",
+    "content_claim_policy": "Abstract wording is limited to the artifact's declared/canonical topic and repository context; it does not replace the source's detailed results."
+  }
+}

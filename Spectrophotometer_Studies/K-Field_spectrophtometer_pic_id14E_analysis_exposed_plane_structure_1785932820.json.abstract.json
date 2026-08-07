@@ -1,0 +1,63 @@
+{
+  "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+  "generated_at_utc": "2026-08-06T21:21:00Z",
+  "repository": {
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "branch": "main",
+    "snapshot_tree_sha": "86243d92ee90862872772faaa76347b673031eff"
+  },
+  "source": {
+    "path": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+    "filename": "K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+    "size_bytes": 1545939,
+    "size_kib": 1509.706,
+    "extension": "json",
+    "canonical_github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+    "raw_content_url": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+    "oversize_threshold_bytes": 358400,
+    "oversize_threshold_kib": 350,
+    "exceeds_threshold": true
+  },
+  "discovery": {
+    "canonical_title": "K-Field spectrophotometer pic id14E analysis exposed plane structure",
+    "document_class": "machine_readable_research_record",
+    "archive_branch": "Rotating spectrophotometer studies",
+    "abstract": "Analysis of the pic_id14E long-duration rotating spectrophotometer record focused on the recovery of exposed planar structure from the celestial trajectory and wavelength-resolved measurements, with machine-readable geometric and signal-analysis results.",
+    "topics": [
+      "K-Field",
+      "spectrophotometry",
+      "spectral analysis",
+      "photon energy",
+      "Bragg geometry",
+      "Cell3",
+      "ICRS",
+      "directional modulation"
+    ],
+    "search_terms": [
+      "K-Field spectrophotometer pic id14E analysis exposed plane structure",
+      "K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820",
+      "K-Field",
+      "spectrophotometry",
+      "spectral analysis",
+      "photon energy",
+      "Bragg geometry",
+      "Cell3",
+      "ICRS",
+      "directional modulation"
+    ]
+  },
+  "relationships": {
+    "paired_artifact": "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+    "repository_readme": "README.md",
+    "citation_metadata": "CITATION.cff",
+    "public_release_status": "PUBLIC_RELEASE_STATUS.json"
+  },
+  "authority_and_provenance": {
+    "source_artifact_is_authoritative": true,
+    "companion_role": "compact searchable discovery metadata for an oversized source artifact",
+    "public_release_interpretation": "public per repository-level PUBLIC_RELEASE_STATUS.json; source-specific licenses remain controlling",
+    "license_reference": "LICENSE-PAPER.md unless a source-specific notice or repository rule assigns another applicable license",
+    "content_inspection_basis": "repository tree metadata and machine-readable artifact identity; abstract intentionally summarizes scope rather than duplicating the oversized JSON payload",
+    "content_claim_policy": "Abstract wording is limited to the artifact's declared/canonical topic and repository context; it does not replace the source's detailed results."
+  }
+}

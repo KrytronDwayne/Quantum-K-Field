@@ -1,0 +1,63 @@
+{
+  "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+  "generated_at_utc": "2026-08-06T21:21:00Z",
+  "repository": {
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "branch": "main",
+    "snapshot_tree_sha": "86243d92ee90862872772faaa76347b673031eff"
+  },
+  "source": {
+    "path": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+    "filename": "K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+    "size_bytes": 2625772,
+    "size_kib": 2564.23,
+    "extension": "pdf",
+    "canonical_github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+    "raw_content_url": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+    "oversize_threshold_bytes": 358400,
+    "oversize_threshold_kib": 350,
+    "exceeds_threshold": true
+  },
+  "discovery": {
+    "canonical_title": "K-Field hysteresis closed CMB route",
+    "document_class": "research_report",
+    "archive_branch": "Applied device and engineering analysis",
+    "abstract": "Closed Earth/CMB-route analysis examining path-dependent or hysteretic behavior in the modeled response, including route geometry and the difference between forward/return traversal states.",
+    "topics": [
+      "K-Field",
+      "applied devices",
+      "engineering analysis",
+      "force modeling",
+      "rotational mechanics",
+      "inertial dynamics",
+      "CMB-referenced geometry",
+      "cosmic microwave background"
+    ],
+    "search_terms": [
+      "K-Field hysteresis closed CMB route",
+      "K-Field_hysteresis_closed_CMB_route_1784658249",
+      "K-Field",
+      "applied devices",
+      "engineering analysis",
+      "force modeling",
+      "rotational mechanics",
+      "inertial dynamics",
+      "CMB-referenced geometry",
+      "cosmic microwave background"
+    ]
+  },
+  "relationships": {
+    "paired_artifact": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.json",
+    "repository_readme": "README.md",
+    "citation_metadata": "CITATION.cff",
+    "public_release_status": "PUBLIC_RELEASE_STATUS.json"
+  },
+  "authority_and_provenance": {
+    "source_artifact_is_authoritative": true,
+    "companion_role": "compact searchable discovery metadata for an oversized source artifact",
+    "public_release_interpretation": "public per repository-level PUBLIC_RELEASE_STATUS.json; source-specific licenses remain controlling",
+    "license_reference": "LICENSE-PAPER.md unless a source-specific notice or repository rule assigns another applicable license",
+    "content_inspection_basis": "repository tree metadata, canonical filename, directory context, and paired machine-readable relationship where available; PDF body text not re-extracted in this crawl",
+    "content_claim_policy": "Abstract wording is limited to the artifact's declared/canonical topic and repository context; it does not replace the source's detailed results."
+  }
+}

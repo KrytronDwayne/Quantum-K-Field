@@ -1,0 +1,63 @@
+{
+  "schema": "Quantum_K_Field_machine_readable_abstract_companion.v1.0",
+  "generated_at_utc": "2026-08-06T21:21:00Z",
+  "repository": {
+    "full_name": "KrytronDwayne/Quantum-K-Field",
+    "branch": "main",
+    "snapshot_tree_sha": "86243d92ee90862872772faaa76347b673031eff"
+  },
+  "source": {
+    "path": "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.json",
+    "filename": "K-Field_statistical_inward_potential_gravity_analogue_1785206671.json",
+    "size_bytes": 382758,
+    "size_kib": 373.787,
+    "extension": "json",
+    "canonical_github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.json",
+    "raw_content_url": "https://raw.githubusercontent.com/KrytronDwayne/Quantum-K-Field/main/Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.json",
+    "oversize_threshold_bytes": 358400,
+    "oversize_threshold_kib": 350,
+    "exceeds_threshold": true
+  },
+  "discovery": {
+    "canonical_title": "K-Field statistical inward potential gravity analogue",
+    "document_class": "machine_readable_research_record",
+    "archive_branch": "Derived structural pathways",
+    "abstract": "Statistical/geometry-based inward-potential gravity analogue, organizing the derived inward-bias or potential behavior as a comparison model within the K-Field framework.",
+    "topics": [
+      "K-Field",
+      "Cell3",
+      "derived pathways",
+      "recursive geometry",
+      "Lucas Supergroup",
+      "Mass Bridge",
+      "geometric physics",
+      "gravitation"
+    ],
+    "search_terms": [
+      "K-Field statistical inward potential gravity analogue",
+      "K-Field_statistical_inward_potential_gravity_analogue_1785206671",
+      "K-Field",
+      "Cell3",
+      "derived pathways",
+      "recursive geometry",
+      "Lucas Supergroup",
+      "Mass Bridge",
+      "geometric physics",
+      "gravitation"
+    ]
+  },
+  "relationships": {
+    "paired_artifact": "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.pdf",
+    "repository_readme": "README.md",
+    "citation_metadata": "CITATION.cff",
+    "public_release_status": "PUBLIC_RELEASE_STATUS.json"
+  },
+  "authority_and_provenance": {
+    "source_artifact_is_authoritative": true,
+    "companion_role": "compact searchable discovery metadata for an oversized source artifact",
+    "public_release_interpretation": "public per repository-level PUBLIC_RELEASE_STATUS.json; source-specific licenses remain controlling",
+    "license_reference": "LICENSE-PAPER.md unless a source-specific notice or repository rule assigns another applicable license",
+    "content_inspection_basis": "repository tree metadata and machine-readable artifact identity; abstract intentionally summarizes scope rather than duplicating the oversized JSON payload",
+    "content_claim_policy": "Abstract wording is limited to the artifact's declared/canonical topic and repository context; it does not replace the source's detailed results."
+  }
+}
