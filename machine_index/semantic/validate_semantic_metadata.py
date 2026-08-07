@@ -16,7 +16,19 @@ def valid_http_uri(value):
         u=urlparse(value); return u.scheme in ('http','https') and bool(u.netloc)
     except Exception: return False
 
-def sha256(path): return hashlib.sha256(path.read_bytes()).hexdigest()
+def canonical_checksum_bytes(path):
+    # Return platform-independent checksum bytes.
+    # UTF-8 text is normalized to LF before hashing. Non-UTF-8/binary data
+    # is hashed byte-for-byte unchanged.
+    data = path.read_bytes()
+    try:
+        text = data.decode('utf-8')
+    except UnicodeDecodeError:
+        return data
+    return text.replace('\r\n', '\n').replace('\r', '\n').encode('utf-8')
+
+def sha256(path):
+    return hashlib.sha256(canonical_checksum_bytes(path)).hexdigest()
 
 def git_blob_sha(path):
     data=path.read_bytes()
