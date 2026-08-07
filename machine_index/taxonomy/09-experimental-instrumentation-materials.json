@@ -1,0 +1,523 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:experimental_instrumentation_materials",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "experimental_instrumentation_materials",
+    "order": 8
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 19,
+  "records": [
+    {
+      "id": "angular-momentum-density",
+      "label": "Angular Momentum Density",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Angular momentum per volume or related density measure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238.pdf",
+        "Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238_machine_readable.json"
+      ]
+    },
+    {
+      "id": "carbon-fiber-tube",
+      "label": "Carbon-Fiber Tube",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Carbon-fiber tubular test object.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.json",
+        "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf"
+      ]
+    },
+    {
+      "id": "coherent-control",
+      "label": "Coherent Control",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Coordinated control of phase, motion, or angular momentum.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "condensed-matter-analogies",
+      "label": "Condensed-Matter Analogies",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Analogies between K-Field structure and condensed-matter systems.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "crystallographic-analogies",
+      "label": "Crystallographic Analogies",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Analogies involving lattices, planes, reciprocal bases, and Bragg geometry.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "experimental-instrumentation",
+      "label": "Experimental Instrumentation",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Design, configuration, and operation of measurement instruments.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "inertial-sensing",
+      "label": "Inertial Sensing",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Measurement of acceleration, rotation, or inertial effects.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "instrument-orientation",
+      "label": "Instrument Orientation",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Defined pose or rotation sequence of an instrument.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "materials-physics",
+      "label": "Materials Physics",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Material properties and their relation to K-Field interactions.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "metamaterials",
+      "label": "Metamaterials",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Engineered structures with effective properties arising from geometry.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "photonic-structures",
+      "label": "Photonic Structures",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Structures designed to guide or modify optical fields.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "precision-timing-reference",
+      "label": "Precision Timing Reference",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Stable time reference used to register measurements.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "quantum-sensing",
+      "label": "Quantum Sensing",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Precision sensing interpreted through quantum-scale or quantum-geometric interactions.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "rod-material-comparison",
+      "label": "Rod Material Comparison",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Comparison of materials in rod form.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.json",
+        "Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.pdf"
+      ]
+    },
+    {
+      "id": "rotation-coupled-measurement",
+      "label": "Rotation-Coupled Measurement",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Measurement obtained while an instrument or device rotates.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "sensor-geometry",
+      "label": "Sensor Geometry",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Spatial arrangement and orientation of sensing elements.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "solid-rod",
+      "label": "Solid Rod",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Solid rod geometry used in material and force comparisons.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.json",
+        "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.pdf"
+      ]
+    },
+    {
+      "id": "thermal-chamber",
+      "label": "Thermal Chamber",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Controlled-temperature enclosure for precision instruments.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "tube",
+      "label": "Tube",
+      "category": "experimental_instrumentation_materials",
+      "definition": "Hollow cylindrical test geometry.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "experimental-instrumentation"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "orientation-dependent-phenomena",
+        "precision-metrology"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.json",
+        "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf",
+        "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.json",
+        "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:celestial_modulation",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "celestial_modulation",
+    "order": 4
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 3,
+  "records": [
+    {
+      "id": "closed-cmb-route",
+      "label": "Closed CMB Route",
+      "category": "celestial_modulation",
+      "definition": "Closed observer or device path in CMB-referenced geometry.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "reproducible-research"
+      ],
+      "source_path_patterns": [
+        "**/*"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.json",
+        "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+        "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.json",
+        "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.pdf"
+      ]
+    },
+    {
+      "id": "maximum-residual-route",
+      "label": "Maximum-Residual Closed Route",
+      "category": "celestial_modulation",
+      "definition": "Closed route selected by maximum residual criterion.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "reproducible-research"
+      ],
+      "source_path_patterns": [
+        "**/*"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "rotation-period",
+      "label": "Rotation Period",
+      "category": "celestial_modulation",
+      "definition": "Time for one full rotation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "reproducible-research"
+      ],
+      "source_path_patterns": [
+        "**/*"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.json",
+        "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.pdf"
+      ]
+    }
+  ]
+}

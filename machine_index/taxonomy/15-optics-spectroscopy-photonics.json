@@ -1,0 +1,666 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:optics_spectroscopy_photonics",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "optics_spectroscopy_photonics",
+    "order": 14
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 23,
+  "records": [
+    {
+      "id": "as7341-multispectral-sensor",
+      "label": "AS7341 Multispectral Sensor",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Multichannel optical sensor used in K-Field spectrophotometer experiments.",
+      "aliases": [
+        "AS7341"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "bragg-geometry",
+      "label": "Bragg Geometry",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Geometric relation between wavelength, plane spacing, and angle.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "clear-channel",
+      "label": "Clear Channel",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Broadband clear channel in a multispectral sensor.",
+      "aliases": [
+        "CLR",
+        "my_clear"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "harmonic-coupling",
+      "label": "Harmonic Coupling",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Coupling between harmonic frequencies, energies, or geometric modes.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.json",
+        "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.pdf"
+      ]
+    },
+    {
+      "id": "harmonic-ladder",
+      "label": "Harmonic Ladder",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Ordered sequence of harmonic levels or ratios.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.json",
+        "Discovered_Pathways/K-Field_3_2_2_Solar_system_bodies_rotation_period_harmonic_ladder_1784893330.pdf"
+      ]
+    },
+    {
+      "id": "interference-phenomena",
+      "label": "Interference Phenomena",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Wave superposition and phase-dependent optical response.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "kepler-camera-geometry",
+      "label": "Kepler Camera Geometry",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Photosensitive geometry used as a comparison for the AS7341 instrument.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "near-infrared",
+      "label": "Near-Infrared",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Spectral region and NIR sensor channel.",
+      "aliases": [
+        "NIR"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "phase-ruler",
+      "label": "Phase Ruler",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Channel- or energy-indexed phase reference used in spectrophotometer analyses.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "aliases": [
+        "pic_id14C",
+        "ID14C",
+        "pic id 14C"
+      ],
+      "abbreviations": [
+        "ID14C"
+      ],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "capture-identifier"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "spectrophotometry",
+        "spherical-coherence"
+      ],
+      "source_path_patterns": [
+        "Spectrophotometer_Studies/*pic_id14C*"
+      ],
+      "search_phrases": [
+        "K-Field pic ID14C",
+        "spectrophotometer ID14C"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "pic-id14c-dataset",
+      "label": "PIC ID14C Dataset",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Spectrophotometer dataset identified in the archive as pic_id14C."
+    },
+    {
+      "aliases": [
+        "pic_id14E",
+        "ID14E",
+        "pic id 14E"
+      ],
+      "abbreviations": [
+        "ID14E"
+      ],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "capture-identifier"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "spectrophotometry",
+        "planar-field-structure"
+      ],
+      "source_path_patterns": [
+        "Spectrophotometer_Studies/*pic_id14E*"
+      ],
+      "search_phrases": [
+        "K-Field pic ID14E",
+        "spectrophotometer ID14E"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "pic-id14e-dataset",
+      "label": "PIC ID14E Dataset",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Spectrophotometer dataset identified in the archive as pic_id14E."
+    },
+    {
+      "id": "polar-energy-map",
+      "label": "Polar Energy Map",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Angular mapping of channel photon energy or intensity.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "quantum-optics",
+      "label": "Quantum Optics",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Optical phenomena interpreted using photon energy and quantum structure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "resonance-structure",
+      "label": "Resonance Structure",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Frequency- or energy-selective structural response.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "spectral-channel-coupling",
+      "label": "Spectral Channel Coupling",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Relationships among wavelength-resolved sensor channels.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "spectral-coherence",
+      "label": "Spectral Coherence",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Coherence among spectral channels or between spectral and geometric signals.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "spectrometer",
+      "label": "Spectrometer",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Instrument or analysis focused on spectral separation and measurement.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf"
+      ]
+    },
+    {
+      "id": "spectrophotometer",
+      "label": "Spectrophotometer",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Instrument used for wavelength-resolved measurements.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [
+        "spectrophtometer"
+      ],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.json",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.json",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.json",
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.json",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.json",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+      ]
+    },
+    {
+      "id": "spectrophotometry",
+      "label": "Spectrophotometry",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Measurement of intensity across spectral wavelength channels.",
+      "aliases": [
+        "spectrophotometer studies"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [
+        "spectrophtometry"
+      ],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "spherical-beat-energy",
+      "label": "Spherical Beat Photon-Energy Analysis",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Beat-energy mapping over a spherical directional domain.",
+      "aliases": [
+        "beat sphere"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf"
+      ]
+    },
+    {
+      "id": "visible-spectrum",
+      "label": "Visible Spectrum",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Visible wavelength range represented by AS7341 channels.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "wave-propagation",
+      "label": "Wave Propagation",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Propagation of waves through or relative to structured geometry.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "wavelength",
+      "label": "Wavelength",
+      "category": "optics_spectroscopy_photonics",
+      "definition": "Spatial period of an optical wave, commonly expressed in nanometres.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "spectrophotometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "interplanar-quantization",
+        "orientation-dependent-phenomena",
+        "photon-energy"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    }
+  ]
+}

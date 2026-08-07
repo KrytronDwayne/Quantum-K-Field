@@ -1,0 +1,988 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:signal_processing_data_science",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "signal_processing_data_science",
+    "order": 18
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 35,
+  "records": [
+    {
+      "aliases": [
+        "accum"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell0",
+        "galaxy-axis-orientation"
+      ],
+      "source_path_patterns": [
+        "Start_Here/**",
+        "Student_reconstruction_process/**"
+      ],
+      "search_phrases": [
+        "mirror accumulation",
+        "galaxy accumulation"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "accumulation",
+      "label": "Accumulation",
+      "category": "signal_processing_data_science",
+      "definition": "Archive shorthand for accumulation during galaxy-derived reconstruction."
+    },
+    {
+      "id": "anomaly-detection",
+      "label": "Anomaly Detection",
+      "category": "signal_processing_data_science",
+      "definition": "Identification of unusual observations or patterns.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "autocorrelation",
+      "label": "Autocorrelation",
+      "category": "signal_processing_data_science",
+      "definition": "Correlation of a signal with delayed copies of itself.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "chirp-detection",
+      "label": "Chirp Detection",
+      "category": "signal_processing_data_science",
+      "definition": "Detection of frequency-varying signal components.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "coherence-analysis",
+      "label": "Coherence Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Frequency- or geometry-resolved consistency between signals.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+        "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+      ]
+    },
+    {
+      "id": "continuous-wavelet-transform",
+      "label": "Continuous Wavelet Transform",
+      "category": "signal_processing_data_science",
+      "definition": "Multiscale time-frequency transform.",
+      "aliases": [
+        "CWT"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "cross-correlation",
+      "label": "Cross-Correlation",
+      "category": "signal_processing_data_science",
+      "definition": "Correlation between two signals as a function of delay.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "cross-spectral-analysis",
+      "label": "Cross-Spectral Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Frequency-domain relationship between signals.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "energy-landscape-mapping",
+      "label": "Energy Landscape Mapping",
+      "category": "signal_processing_data_science",
+      "definition": "Mapping energy or cost across geometry, orientation, or state.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "exploratory-data-analysis",
+      "label": "Exploratory Data Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Systematic inspection and characterization of data.",
+      "aliases": [
+        "EDA"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "fast-fourier-transform",
+      "label": "Fast Fourier Transform",
+      "category": "signal_processing_data_science",
+      "definition": "Efficient Fourier-domain transform.",
+      "aliases": [
+        "FFT"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_to_cell3_bridge_1783388819.pdf"
+      ]
+    },
+    {
+      "id": "fourier-analysis",
+      "label": "Fourier Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Decomposition of signals into frequency components.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "manifold-learning",
+      "label": "Manifold Learning",
+      "category": "signal_processing_data_science",
+      "definition": "Learning of lower-dimensional manifolds embedded in data.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "moving-average",
+      "label": "Moving Average",
+      "category": "signal_processing_data_science",
+      "definition": "Sliding-window mean used for smoothing.",
+      "aliases": [
+        "movmean"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "multiscale-signal-structure",
+      "label": "Multiscale Signal Structure",
+      "category": "signal_processing_data_science",
+      "definition": "Signal organization present across multiple scales.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "nonlinear-dimensionality-reduction",
+      "label": "Nonlinear Dimensionality Reduction",
+      "category": "signal_processing_data_science",
+      "definition": "Low-dimensional representation of nonlinear data structure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "nonlinear-signal-processing",
+      "label": "Nonlinear Signal Processing",
+      "category": "signal_processing_data_science",
+      "definition": "Signal analysis using nonlinear relationships or transformations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "orthogonal-sensor-geometry",
+      "label": "Orthogonal Sensor Geometry",
+      "category": "signal_processing_data_science",
+      "definition": "Sensor axes arranged at right angles.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "palindromic-sequences",
+      "label": "Palindromic Sequences",
+      "category": "signal_processing_data_science",
+      "definition": "Sequences with reversal symmetry.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "path-cost",
+      "label": "Path Cost",
+      "category": "signal_processing_data_science",
+      "definition": "Accumulated variation or cost along a modeled trajectory.",
+      "aliases": [
+        "total variation path cost"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "pattern-discovery",
+      "label": "Pattern Discovery",
+      "category": "signal_processing_data_science",
+      "definition": "Identification of recurring or structured relationships in data.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "periodic-sequence-detection",
+      "label": "Periodic Sequence Detection",
+      "category": "signal_processing_data_science",
+      "definition": "Detection of repeating temporal or angular patterns.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "phase-unwrapping",
+      "label": "Phase Unwrapping",
+      "category": "signal_processing_data_science",
+      "definition": "Removal of angular discontinuities from wrapped phase.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "phase-reversal-detection",
+      "label": "Phase-Reversal Detection",
+      "category": "signal_processing_data_science",
+      "definition": "Identification of changes in phase orientation or polarity.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "physics-informed-data-science",
+      "label": "Physics-Informed Data Science",
+      "category": "signal_processing_data_science",
+      "definition": "Data analysis constrained or interpreted through physical models.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "principal-component-analysis",
+      "label": "Principal Component Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Linear dimensionality-reduction method.",
+      "aliases": [
+        "PCA"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "recurrence-analysis",
+      "label": "Recurrence Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Analysis of repeated states or trajectories in phase space.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "rolling-standard-deviation",
+      "label": "Rolling Standard Deviation",
+      "category": "signal_processing_data_science",
+      "definition": "Moving-window standard-deviation calculation.",
+      "aliases": [
+        "moving standard deviation",
+        "movstd"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "scientific-machine-learning",
+      "label": "Scientific Machine Learning",
+      "category": "signal_processing_data_science",
+      "definition": "Machine learning integrated with scientific models and data.",
+      "aliases": [
+        "SciML"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "sensor-fusion",
+      "label": "Sensor Fusion",
+      "category": "signal_processing_data_science",
+      "definition": "Integration of multiple sensor channels or instruments.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "signal-processing",
+      "label": "Signal Processing",
+      "category": "signal_processing_data_science",
+      "definition": "Transformation and analysis of measured time-series and multidimensional signals.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "time-frequency-analysis",
+      "label": "Time–Frequency Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Joint analysis of signal content in time and frequency.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "topological-data-analysis",
+      "label": "Topological Data Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Analysis of shape and connectivity in data.",
+      "aliases": [
+        "TDA"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "vector-signal-reconstruction",
+      "label": "Vector Signal Reconstruction",
+      "category": "signal_processing_data_science",
+      "definition": "Reconstruction of vector direction or magnitude from component signals.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "wavelet-analysis",
+      "label": "Wavelet Analysis",
+      "category": "signal_processing_data_science",
+      "definition": "Multiscale analysis using localized waveforms.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "signal-processing"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "long-duration-time-series"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    }
+  ]
+}

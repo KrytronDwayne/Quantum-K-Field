@@ -1,0 +1,122 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "artifacts:Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+    "order": 13
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 6,
+  "records": [
+    {
+      "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+      "directory": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+      "filename": "A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+      "extension": "pdf",
+      "normalized_title": "a cell0 mirror accum native galaxy derivation",
+      "raw_keywords": [
+        "accum",
+        "cell0",
+        "derivation",
+        "galaxy",
+        "mirror",
+        "native"
+      ],
+      "canonical_topic_ids": [
+        "cell0",
+        "galaxy-axis-orientation"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-%20cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf"
+    },
+    {
+      "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip",
+      "directory": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+      "filename": "A-E_Training_Set_20260708.zip",
+      "extension": "zip",
+      "normalized_title": "a e training set 20260708",
+      "raw_keywords": [
+        "set",
+        "training"
+      ],
+      "canonical_topic_ids": [
+        "training-set"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip"
+    },
+    {
+      "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+      "directory": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+      "filename": "B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+      "extension": "pdf",
+      "normalized_title": "b cell0 mirror accum to cell3 bridge",
+      "raw_keywords": [
+        "accum",
+        "bridge",
+        "cell0",
+        "cell3",
+        "mirror"
+      ],
+      "canonical_topic_ids": [
+        "cell0",
+        "cell3",
+        "mass-bridge"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/B-%20cell0_mirror_accum_to_cell3_bridge_1783388819.pdf"
+    },
+    {
+      "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/C- cell3_to_mass_bridge_1783390310.pdf",
+      "directory": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+      "filename": "C- cell3_to_mass_bridge_1783390310.pdf",
+      "extension": "pdf",
+      "normalized_title": "c cell3 to mass bridge",
+      "raw_keywords": [
+        "bridge",
+        "cell3",
+        "mass"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/C-%20cell3_to_mass_bridge_1783390310.pdf"
+    },
+    {
+      "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/D- cell3_physics_formula_bridge_1783389460.pdf",
+      "directory": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+      "filename": "D- cell3_physics_formula_bridge_1783389460.pdf",
+      "extension": "pdf",
+      "normalized_title": "d cell3 physics formula bridge",
+      "raw_keywords": [
+        "bridge",
+        "cell3",
+        "formula",
+        "physics"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/D-%20cell3_physics_formula_bridge_1783389460.pdf"
+    },
+    {
+      "path": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/E- cell3_to_29_locks_1783391141.pdf",
+      "directory": "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas",
+      "filename": "E- cell3_to_29_locks_1783391141.pdf",
+      "extension": "pdf",
+      "normalized_title": "e cell3 to 29 locks",
+      "raw_keywords": [
+        "cell3",
+        "locks"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "twenty-nine-locks"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/E-%20cell3_to_29_locks_1783391141.pdf"
+    }
+  ]
+}

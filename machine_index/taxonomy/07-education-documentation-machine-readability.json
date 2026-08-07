@@ -1,0 +1,1018 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:education_documentation_machine_readability",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "education_documentation_machine_readability",
+    "order": 6
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 31,
+  "records": [
+    {
+      "id": "agpl-3-0-only",
+      "label": "AGPL-3.0-only",
+      "category": "education_documentation_machine_readability",
+      "definition": "GNU Affero General Public License version 3 only for code.",
+      "aliases": [
+        "AGPL-3.0",
+        "AGPLv3"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "application-programming-interface",
+      "label": "Application Programming Interface",
+      "category": "education_documentation_machine_readability",
+      "definition": "Programmatic interface used to access repository or research data.",
+      "aliases": [
+        "API"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "aliases": [
+        "picture identifier",
+        "pic id",
+        "pic_id"
+      ],
+      "abbreviations": [
+        "PIC ID"
+      ],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "pic-id14c-dataset",
+        "pic-id14e-dataset"
+      ],
+      "source_path_patterns": [
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [
+        "spectrophotometer capture ID",
+        "picture ID dataset"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "capture-identifier",
+      "label": "Capture Identifier",
+      "category": "education_documentation_machine_readability",
+      "definition": "Identifier used to associate a report with a specific experimental picture or capture dataset."
+    },
+    {
+      "id": "creative-commons-by-nc-4-0",
+      "label": "CC BY-NC 4.0",
+      "category": "education_documentation_machine_readability",
+      "definition": "Creative Commons Attribution-NonCommercial 4.0 license for scholarly materials.",
+      "aliases": [
+        "CC-BY-NC-4.0"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "citation-file-format",
+      "label": "Citation File Format",
+      "category": "education_documentation_machine_readability",
+      "definition": "CFF metadata used by CITATION.cff.",
+      "aliases": [
+        "CFF"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "citation-metadata",
+      "label": "Citation Metadata",
+      "category": "education_documentation_machine_readability",
+      "definition": "Structured author, title, repository, and keyword metadata for citation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "congressional-briefing",
+      "label": "Congressional Briefing",
+      "category": "education_documentation_machine_readability",
+      "definition": "Public-policy-oriented explanation of the research.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Commentary/K_Field_basics_5_approaches_congressional_briefing_v1.json",
+        "Commentary/K_Field_basics_5_approaches_congressional_briefing_v2.json"
+      ]
+    },
+    {
+      "id": "digital-object-identifier",
+      "label": "Digital Object Identifier",
+      "category": "education_documentation_machine_readability",
+      "definition": "Persistent identifier for a research object.",
+      "aliases": [
+        "DOI"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "educator-resources",
+      "label": "Educator Resources",
+      "category": "education_documentation_machine_readability",
+      "definition": "Teacher and educator-oriented explanations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "high-school-education",
+      "label": "High-School Education",
+      "category": "education_documentation_machine_readability",
+      "definition": "Explanations intended for high-school readers.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "json-machine-readable-companion",
+      "label": "JSON Machine-Readable Companion",
+      "category": "education_documentation_machine_readability",
+      "definition": "JSON record paired with a report or analysis.",
+      "aliases": [
+        "JSON companion"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "lecture-series",
+      "label": "K-Field 101 Lecture Series",
+      "category": "education_documentation_machine_readability",
+      "definition": "Three-part introductory lecture sequence.",
+      "aliases": [
+        "K-Field 101"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Lectures/K_Field_101_100_Lecture_1_The_Locks_1784123941.pdf",
+        "Lectures/K_Field_101_200_Lecture_2_From_Noise_to_Geometry_1784124786.pdf",
+        "Lectures/K_Field_101_300_Lecture_3_The_Foundation_Beneath_the_Branches_1784125116.pdf"
+      ]
+    },
+    {
+      "id": "keyword-index",
+      "label": "Keyword Index",
+      "category": "education_documentation_machine_readability",
+      "definition": "Index linking terms, aliases, files, and concepts.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "machine-readable-companion",
+      "label": "Machine-Readable Companion",
+      "category": "education_documentation_machine_readability",
+      "definition": "Structured representation accompanying a human-readable report.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "media-press",
+      "label": "Media and Press Materials",
+      "category": "education_documentation_machine_readability",
+      "definition": "Press package, quotes, biography, and media-facing explanations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Commentary/K_Field_basics_5_approaches_media_press_v2.json"
+      ]
+    },
+    {
+      "id": "ontology",
+      "label": "Ontology",
+      "category": "education_documentation_machine_readability",
+      "definition": "Formal organization of entities, concepts, and relations.",
+      "aliases": [
+        "ontological approaches"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Commentary/K_Field_11_ontological_approaches_v1.json"
+      ]
+    },
+    {
+      "id": "open-scientific-software",
+      "label": "Open Scientific Software",
+      "category": "education_documentation_machine_readability",
+      "definition": "Scientific software released with source-access and licensing.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "pdf-archival-report",
+      "label": "PDF Archival Report",
+      "category": "education_documentation_machine_readability",
+      "definition": "Human-readable archival report in PDF format.",
+      "aliases": [
+        "PDF report"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "hostile-audit",
+      "label": "Recursive Audit",
+      "category": "education_documentation_machine_readability",
+      "definition": "Internal hostile-auditor or recursive review record.",
+      "aliases": [
+        "recursive audit report"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Commentary/K_Field_Foundations_full_volume_draft_v1_recursive_audit_report.json"
+      ]
+    },
+    {
+      "id": "reproducible-research",
+      "label": "Reproducible Research",
+      "category": "education_documentation_machine_readability",
+      "definition": "Research packaged with methods, data, code, metadata, and traceable outputs.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "research-catalog",
+      "label": "Research Catalog",
+      "category": "education_documentation_machine_readability",
+      "definition": "Machine-readable inventory of repository artifacts and concepts.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "research-provenance",
+      "label": "Research Provenance",
+      "category": "education_documentation_machine_readability",
+      "definition": "Traceable relationship among sources, methods, outputs, versions, and authors.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip"
+      ]
+    },
+    {
+      "id": "sha-256-checksum",
+      "label": "SHA-256 Checksum",
+      "category": "education_documentation_machine_readability",
+      "definition": "Cryptographic digest used to identify and validate an artifact.",
+      "aliases": [
+        "sha256",
+        "SHA256"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "societal-benefits",
+      "label": "Societal Benefits",
+      "category": "education_documentation_machine_readability",
+      "definition": "Archive commentary on potential social consequences and benefits.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Commentary/K_Field_seven_societal_benefits_20260717T122617Z.json",
+        "Commentary/K_Field_societal_benefits_v1.json"
+      ]
+    },
+    {
+      "id": "source-data-archive",
+      "label": "Source Data Archive",
+      "category": "education_documentation_machine_readability",
+      "definition": "ZIP or other package containing original or supporting data.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "step-by-step-derivation",
+      "label": "Step-by-Step Derivation",
+      "category": "education_documentation_machine_readability",
+      "definition": "Ordered educational sequence from galaxy data through physics formulas.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "student-reconstruction",
+      "label": "Student Reconstruction Process",
+      "category": "education_documentation_machine_readability",
+      "definition": "Educational pathway for independently reconstructing the K-Field derivation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "terminology",
+      "label": "Terminology",
+      "category": "education_documentation_machine_readability",
+      "definition": "Controlled vocabulary used across the archive.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "textbook-series",
+      "label": "Textbook Series",
+      "category": "education_documentation_machine_readability",
+      "definition": "Planned or drafted educational textbook volumes.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Commentary/K_Field_minimal_textbook_series_outline_v1.json"
+      ]
+    },
+    {
+      "id": "topic-taxonomy",
+      "label": "Topic Taxonomy",
+      "category": "education_documentation_machine_readability",
+      "definition": "Hierarchical classification of archive topics.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "training-set",
+      "label": "Training Set",
+      "category": "education_documentation_machine_readability",
+      "definition": "Packaged A–E educational reconstruction materials.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reproducible-research"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "citation-metadata",
+        "public-research-archive"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Commentary/**",
+        "LICENSE-*.md",
+        "Lectures/**",
+        "Press_Release/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A-E_Training_Set_20260708.zip"
+      ]
+    }
+  ]
+}

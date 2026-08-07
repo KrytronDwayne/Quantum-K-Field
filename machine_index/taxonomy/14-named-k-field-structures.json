@@ -1,0 +1,494 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:named_k_field_structures",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "named_k_field_structures",
+    "order": 13
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 13,
+  "records": [
+    {
+      "id": "twenty-nine-locks",
+      "label": "29 Locks",
+      "category": "named_k_field_structures",
+      "definition": "Archive term for the linked set of twenty-nine geometric or physical witnesses.",
+      "aliases": [
+        "29 locks",
+        "twenty-nine locks"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Start_Here/E- cell3_to_29_locks_1783391141.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_29_locks_1783391141.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/E- cell3_to_29_locks_1783391141.pdf"
+      ]
+    },
+    {
+      "id": "cell0",
+      "label": "Cell0",
+      "category": "named_k_field_structures",
+      "definition": "A precursor or native galaxy-derived cell used in the reconstruction sequence.",
+      "aliases": [
+        "cell 0"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Start_Here/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+        "Start_Here/B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip",
+        "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf"
+      ]
+    },
+    {
+      "id": "cell3",
+      "label": "Cell3",
+      "category": "named_k_field_structures",
+      "definition": "The corrected oriented root cell derived from intersecting plane systems.",
+      "aliases": [
+        "cel3",
+        "Cell 3"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [
+        "cel3"
+      ],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.json",
+        "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.pdf",
+        "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.json",
+        "Discovered_Pathways/K-Field_10_event_Cell3_propagation_experiment_1785204765.pdf",
+        "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.json",
+        "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.pdf",
+        "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.json",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.json",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_planar_comparison_1785937320.pdf",
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.json",
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+        "Start_Here/B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Start_Here/C- cell3_to_mass_bridge_1783390310.pdf",
+        "Start_Here/D- cell3_physics_formula_bridge_1783389460.pdf",
+        "Start_Here/E- cell3_to_29_locks_1783391141.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_29_locks_1783391141.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_mass_bridge_1783390310.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/C- cell3_to_mass_bridge_1783390310.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/D- cell3_physics_formula_bridge_1783389460.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/E- cell3_to_29_locks_1783391141.pdf"
+      ]
+    },
+    {
+      "id": "converged-closure",
+      "label": "Converged Closure",
+      "category": "named_k_field_structures",
+      "definition": "Closure result represented by the archive's typed-graph records.",
+      "aliases": [
+        "K-Field Converged Closure"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Typed_Graphs/K-Field_Converged_Closure_1783815468.pdf",
+        "Typed_Graphs/K_Field_converged_closure_validation_1783819957.json"
+      ]
+    },
+    {
+      "id": "devon-dimension",
+      "label": "Devon Dimension",
+      "category": "named_k_field_structures",
+      "definition": "The larger volumetric and algebraic structure generated from Cell3.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "emily-eigen-spectrum",
+      "label": "Emily Eigen-spectrum",
+      "category": "named_k_field_structures",
+      "definition": "Named eigen-spectrum in the Lucas Limit branch.",
+      "aliases": [
+        "Emily Eigenspectrum"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "jack-jacobian",
+      "label": "Jack Jacobian",
+      "category": "named_k_field_structures",
+      "definition": "Named Jacobian structure in the Lucas Limit branch.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "lucas-limit",
+      "label": "Lucas Limit",
+      "category": "named_k_field_structures",
+      "definition": "The finite boundary graph extension of the K-Field geometry.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "lucas-spectrum",
+      "label": "Lucas Spectrum",
+      "category": "named_k_field_structures",
+      "definition": "Recursive or spectral organization associated with the Lucas branch.",
+      "aliases": [
+        "recursive Lucas spectrum"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.json",
+        "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.pdf"
+      ]
+    },
+    {
+      "id": "lucas-supergroup",
+      "label": "Lucas Supergroup",
+      "category": "named_k_field_structures",
+      "definition": "Archive term for the expanded reciprocal and recursive Lucas structure.",
+      "aliases": [
+        "Lucas_Supergroup"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_Analysis_1785208014.json",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_Analysis_1785208014.pdf",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.json",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.pdf",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_extracted_definition_1785238606.json",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_extracted_definition_1785238606.pdf",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_large_scale_morphology1785242330.json",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_large_scale_morphology1785242330.pdf",
+        "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.json",
+        "Discovered_Pathways/K-Field_from_Cell3_through_the_Lucas_Supergroup_1785241222.pdf",
+        "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.json",
+        "Discovered_Pathways/K-Field_recursive_Lucas_Spectrum1785243336.pdf"
+      ]
+    },
+    {
+      "id": "mass-bridge",
+      "label": "Mass Bridge",
+      "category": "named_k_field_structures",
+      "definition": "Projective ratio bridge connecting Cell3 geometry with mass-related physical quantities.",
+      "aliases": [
+        "mass bridge triangle",
+        "Mass-Bridge"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_Compton_classical_radius_Mass_Bridge_triangle_1785175483.json",
+        "Discovered_Pathways/K-Field_Compton_classical_radius_Mass_Bridge_triangle_1785175483.pdf",
+        "Discovered_Pathways/K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592.json",
+        "Discovered_Pathways/K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592.pdf",
+        "Discovered_Pathways/K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.json",
+        "Discovered_Pathways/K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.pdf",
+        "Press_Release/mass_bridge_quotes.txt",
+        "Press_Release/optimized_mass_bridge_quotes.txt",
+        "Start_Here/B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Start_Here/C- cell3_to_mass_bridge_1783390310.pdf",
+        "Start_Here/D- cell3_physics_formula_bridge_1783389460.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_mass_bridge_1783390310.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/B- cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/C- cell3_to_mass_bridge_1783390310.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/D- cell3_physics_formula_bridge_1783389460.pdf"
+      ]
+    },
+    {
+      "id": "reconstruction-kernel",
+      "label": "Minimal Complete Reconstruction Kernel",
+      "category": "named_k_field_structures",
+      "definition": "Minimal machine-readable kernel for reconstructing the typed K-Field graph.",
+      "aliases": [
+        "reconstruction kernel"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Typed_Graphs/K_Field_minimal_complete_reconstruction_kernel_1783819957.json"
+      ]
+    },
+    {
+      "id": "unified-typed-graph",
+      "label": "Unified Typed Graph",
+      "category": "named_k_field_structures",
+      "definition": "Machine-readable typed graph linking archive entities and relationships.",
+      "aliases": [
+        "typed graph"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "field-topology",
+        "quantum-geometry",
+        "recursive-geometry"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Start_Here/**",
+        "Student_reconstruction_process/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Typed_Graphs/K_Field_unified_typed_graph_1783819957.json"
+      ]
+    }
+  ]
+}

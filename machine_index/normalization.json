@@ -1,0 +1,948 @@
+{
+  "document_type": "research_archive_index_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "normalization",
+  "section": "normalization",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "payload": {
+    "separator_equivalence": [
+      "underscore",
+      "hyphen",
+      "slash",
+      "whitespace"
+    ],
+    "case_sensitive": false,
+    "epoch_suffix_regex": "(?:_|-)?\\d{10}$",
+    "version_suffix_regex": "(?:_|-)?v\\d+$",
+    "spelling_correction_index": {
+      "cel3": {
+        "canonical_term_id": "cell3",
+        "canonical_label": "Cell3",
+        "normalization_type": "archive_misspelling_or_legacy_form",
+        "observed_archive_paths": [
+          "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf"
+        ]
+      },
+      "comptation": {
+        "canonical_term_id": null,
+        "canonical_label": "computation",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf"
+        ]
+      },
+      "galax": {
+        "canonical_term_id": null,
+        "canonical_label": "galaxy",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_to_cell3_bridge_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_to_cell3_bridge_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_native_galaxy_derivation_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_to_cell3_bridge_1783388819.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell0_to_cell3_final_correct_provenance_package_1783388819.zip",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_29_locks_1783391141.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/cell3_to_mass_bridge_1783390310.pdf",
+          "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf"
+        ]
+      },
+      "geomery": {
+        "canonical_term_id": null,
+        "canonical_label": "geometry",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.json",
+          "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf"
+        ]
+      },
+      "inersection": {
+        "canonical_term_id": null,
+        "canonical_label": "intersection",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+          "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf"
+        ]
+      },
+      "laerl": {
+        "canonical_term_id": null,
+        "canonical_label": "lateral",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.json",
+          "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf"
+        ]
+      },
+      "laerl force": {
+        "canonical_term_id": "lateral-force",
+        "canonical_label": "Lateral Force",
+        "normalization_type": "archive_misspelling_or_legacy_form",
+        "observed_archive_paths": []
+      },
+      "literatre": {
+        "canonical_term_id": null,
+        "canonical_label": "literature",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json",
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf",
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json",
+          "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf"
+        ]
+      },
+      "orientatio": {
+        "canonical_term_id": null,
+        "canonical_label": "orientation",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf"
+        ]
+      },
+      "plane inersection distribution": {
+        "canonical_term_id": "intersection-distribution",
+        "canonical_label": "Plane Intersection Distribution",
+        "normalization_type": "archive_misspelling_or_legacy_form",
+        "observed_archive_paths": []
+      },
+      "qadrtic": {
+        "canonical_term_id": null,
+        "canonical_label": "quadratic",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": []
+      },
+      "rajectory": {
+        "canonical_term_id": null,
+        "canonical_label": "trajectory",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": []
+      },
+      "sattelite": {
+        "canonical_term_id": null,
+        "canonical_label": "satellite",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.json",
+          "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf"
+        ]
+      },
+      "scew": {
+        "canonical_term_id": null,
+        "canonical_label": "skew",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": []
+      },
+      "spectrophtometer": {
+        "canonical_term_id": "spectrophotometer",
+        "canonical_label": "Spectrophotometer",
+        "normalization_type": "archive_misspelling_or_legacy_form",
+        "observed_archive_paths": [
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14C_analysis_1785888480.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+        ]
+      },
+      "spectrophtometer-spheroical": {
+        "canonical_term_id": null,
+        "canonical_label": "spectrophotometer-spherical",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+        ]
+      },
+      "spectrophtometry": {
+        "canonical_term_id": "spectrophotometry",
+        "canonical_label": "Spectrophotometry",
+        "normalization_type": "archive_misspelling_or_legacy_form",
+        "observed_archive_paths": []
+      },
+      "spheroical": {
+        "canonical_term_id": null,
+        "canonical_label": "spherical",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+        ]
+      },
+      "spheroical coherence": {
+        "canonical_term_id": "spherical-coherence",
+        "canonical_label": "Spherical Coherence",
+        "normalization_type": "archive_misspelling_or_legacy_form",
+        "observed_archive_paths": []
+      },
+      "spheroical-coherence": {
+        "canonical_term_id": "spherical-coherence",
+        "canonical_label": "spherical-coherence",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+          "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+        ]
+      },
+      "staring": {
+        "canonical_term_id": null,
+        "canonical_label": "starting",
+        "normalization_type": "token_correction",
+        "observed_archive_paths": [
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
+          "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf"
+        ]
+      }
+    },
+    "abbreviation_index": {
+      "accum": {
+        "expansion": "accumulation",
+        "canonical_term": "accumulation",
+        "aliases": [
+          "mirror accumulation"
+        ]
+      },
+      "AGPL": {
+        "expansion": "GNU Affero General Public License",
+        "canonical_term": "agpl-3-0-only",
+        "aliases": [
+          "AGPLv3",
+          "AGPL-3.0",
+          "AGPL-3.0-only"
+        ]
+      },
+      "API": {
+        "expansion": "application programming interface",
+        "canonical_term": "application-programming-interface",
+        "aliases": []
+      },
+      "AS7341": {
+        "expansion": "ams OSRAM AS7341 multispectral sensor",
+        "canonical_term": "as7341-multispectral-sensor",
+        "aliases": [
+          "AS-7341"
+        ]
+      },
+      "CC BY-NC 4.0": {
+        "expansion": "Creative Commons Attribution-NonCommercial 4.0 International",
+        "canonical_term": "creative-commons-by-nc-4-0",
+        "aliases": [
+          "CC-BY-NC-4.0"
+        ]
+      },
+      "CFF": {
+        "expansion": "Citation File Format",
+        "canonical_term": "citation-file-format",
+        "aliases": [
+          "CITATION.cff"
+        ]
+      },
+      "CLR": {
+        "expansion": "clear spectral channel",
+        "canonical_term": "clear-channel",
+        "aliases": [
+          "clear channel",
+          "my_clear"
+        ]
+      },
+      "CMB": {
+        "expansion": "Cosmic Microwave Background",
+        "canonical_term": "cosmic-microwave-background",
+        "aliases": [
+          "CMB frame",
+          "CMB rest frame",
+          "CMB velocity vector"
+        ]
+      },
+      "CWT": {
+        "expansion": "continuous wavelet transform",
+        "canonical_term": "continuous-wavelet-transform",
+        "aliases": [
+          "continuous wavelet analysis"
+        ]
+      },
+      "D101": {
+        "expansion": "Krytronx dual-OCXO D101 instrument or its data record",
+        "canonical_term": "d101-instrument",
+        "aliases": [
+          "D101 record",
+          "D101 signal"
+        ]
+      },
+      "Dec": {
+        "expansion": "declination",
+        "canonical_term": "declination",
+        "aliases": [
+          "DEC"
+        ]
+      },
+      "DOI": {
+        "expansion": "Digital Object Identifier",
+        "canonical_term": "digital-object-identifier",
+        "aliases": []
+      },
+      "EDA": {
+        "expansion": "exploratory data analysis",
+        "canonical_term": "exploratory-data-analysis",
+        "aliases": []
+      },
+      "FFT": {
+        "expansion": "fast Fourier transform",
+        "canonical_term": "fast-fourier-transform",
+        "aliases": [
+          "Fourier transform",
+          "frequency-domain transform"
+        ]
+      },
+      "GPS": {
+        "expansion": "Global Positioning System",
+        "canonical_term": "gps-referenced-measurement",
+        "aliases": [
+          "GPS reference",
+          "GPS-referenced timing"
+        ]
+      },
+      "ICRF": {
+        "expansion": "International Celestial Reference Frame",
+        "canonical_term": "international-celestial-reference-frame",
+        "aliases": []
+      },
+      "ICRS": {
+        "expansion": "International Celestial Reference System",
+        "canonical_term": "international-celestial-reference-system",
+        "aliases": [
+          "ICRS coordinates",
+          "ICRS frame"
+        ]
+      },
+      "ID14C": {
+        "expansion": "spectrophotometer capture identifier 14C",
+        "canonical_term": "pic-id14c-dataset",
+        "aliases": [
+          "pic_id14C"
+        ]
+      },
+      "ID14E": {
+        "expansion": "spectrophotometer capture identifier 14E",
+        "canonical_term": "pic-id14e-dataset",
+        "aliases": [
+          "pic_id14E"
+        ]
+      },
+      "JSON": {
+        "expansion": "JavaScript Object Notation",
+        "canonical_term": "json-machine-readable-companion",
+        "aliases": [
+          "machine-readable JSON"
+        ]
+      },
+      "meV": {
+        "expansion": "millielectronvolt",
+        "canonical_term": "millielectronvolt",
+        "aliases": []
+      },
+      "MHz": {
+        "expansion": "megahertz",
+        "canonical_term": "megahertz",
+        "aliases": []
+      },
+      "NIR": {
+        "expansion": "near-infrared",
+        "canonical_term": "near-infrared",
+        "aliases": [
+          "near infrared",
+          "NIR channel"
+        ]
+      },
+      "nm": {
+        "expansion": "nanometre",
+        "canonical_term": "nanometre",
+        "aliases": [
+          "nanometer"
+        ]
+      },
+      "OCXO": {
+        "expansion": "oven-controlled crystal oscillator",
+        "canonical_term": "oven-controlled-crystal-oscillator",
+        "aliases": [
+          "oven controlled crystal oscillator"
+        ]
+      },
+      "PCA": {
+        "expansion": "principal component analysis",
+        "canonical_term": "principal-component-analysis",
+        "aliases": []
+      },
+      "PDF": {
+        "expansion": "Portable Document Format",
+        "canonical_term": "pdf-archival-report",
+        "aliases": [
+          "PDF report"
+        ]
+      },
+      "PI": {
+        "expansion": "principal investigator",
+        "canonical_term": "principal-investigator",
+        "aliases": []
+      },
+      "PIC ID": {
+        "expansion": "picture or capture identifier",
+        "canonical_term": "capture-identifier",
+        "aliases": [
+          "pic_id",
+          "pic id"
+        ]
+      },
+      "ppm": {
+        "expansion": "parts per million",
+        "canonical_term": "parts-per-million",
+        "aliases": [
+          "PPM"
+        ]
+      },
+      "q-spectrum": {
+        "expansion": "q-spectrum",
+        "canonical_term": "q-spectrum",
+        "aliases": [
+          "q spectrum"
+        ]
+      },
+      "RA": {
+        "expansion": "right ascension",
+        "canonical_term": "right-ascension",
+        "aliases": [
+          "R.A."
+        ]
+      },
+      "recip": {
+        "expansion": "reciprocal",
+        "canonical_term": "reciprocal-stack",
+        "aliases": [
+          "recip stack"
+        ]
+      },
+      "SciML": {
+        "expansion": "scientific machine learning",
+        "canonical_term": "scientific-machine-learning",
+        "aliases": []
+      },
+      "SGA": {
+        "expansion": "Siena Galaxy Atlas",
+        "canonical_term": "siena-galaxy-atlas",
+        "aliases": [
+          "SGA atlas",
+          "SGA-2020"
+        ]
+      },
+      "SHA-256": {
+        "expansion": "Secure Hash Algorithm 256-bit digest",
+        "canonical_term": "sha-256-checksum",
+        "aliases": [
+          "SHA256",
+          "sha256"
+        ]
+      },
+      "TDA": {
+        "expansion": "topological data analysis",
+        "canonical_term": "topological-data-analysis",
+        "aliases": []
+      },
+      "UTC": {
+        "expansion": "Coordinated Universal Time",
+        "canonical_term": "coordinated-universal-time",
+        "aliases": []
+      }
+    },
+    "alias_index": {
+      "29 locks": [
+        "twenty-nine-locks"
+      ],
+      "3-2-2 harmonic ladder": [
+        "solar-system-rotation-harmonics"
+      ],
+      "accum": [
+        "accumulation"
+      ],
+      "AGPL": [
+        "agpl-3-0-only"
+      ],
+      "AGPL-3.0": [
+        "agpl-3-0-only"
+      ],
+      "AGPL-3.0-only": [
+        "agpl-3-0-only"
+      ],
+      "AGPLv3": [
+        "agpl-3-0-only"
+      ],
+      "alpha": [
+        "fine-structure-constant"
+      ],
+      "antipodal structure": [
+        "antipodal-symmetry"
+      ],
+      "API": [
+        "application-programming-interface"
+      ],
+      "AS-7341": [
+        "as7341-multispectral-sensor"
+      ],
+      "AS7341": [
+        "as7341-multispectral-sensor"
+      ],
+      "basis matrix": [
+        "basis"
+      ],
+      "beat sphere": [
+        "spherical-beat-energy"
+      ],
+      "CC BY-NC 4.0": [
+        "creative-commons-by-nc-4-0"
+      ],
+      "CC-BY-NC-4.0": [
+        "creative-commons-by-nc-4-0"
+      ],
+      "cel3": [
+        "cell3"
+      ],
+      "cell 0": [
+        "cell0"
+      ],
+      "Cell 3": [
+        "cell3"
+      ],
+      "CFF": [
+        "citation-file-format"
+      ],
+      "CITATION.cff": [
+        "citation-file-format"
+      ],
+      "clear channel": [
+        "clear-channel"
+      ],
+      "CLR": [
+        "clear-channel"
+      ],
+      "CMB": [
+        "cosmic-microwave-background"
+      ],
+      "CMB frame": [
+        "cmb-rest-frame",
+        "cosmic-microwave-background"
+      ],
+      "CMB rest frame": [
+        "cosmic-microwave-background"
+      ],
+      "CMB traversal": [
+        "earth-cmb-traversal"
+      ],
+      "CMB vector": [
+        "cmb-velocity-vector"
+      ],
+      "CMB velocity vector": [
+        "cosmic-microwave-background"
+      ],
+      "continuous wavelet analysis": [
+        "continuous-wavelet-transform"
+      ],
+      "core dependency hierarchy": [
+        "dependency-system"
+      ],
+      "Cosmic Microwave Background Frame": [
+        "cmb-rest-frame"
+      ],
+      "counter-rotating system": [
+        "counter-rotation"
+      ],
+      "CWT": [
+        "continuous-wavelet-transform"
+      ],
+      "D101": [
+        "d101-instrument"
+      ],
+      "D101 record": [
+        "d101-instrument"
+      ],
+      "D101 signal": [
+        "d101-instrument"
+      ],
+      "Dec": [
+        "declination"
+      ],
+      "DEC": [
+        "declination"
+      ],
+      "dependency hierarchy": [
+        "dependency-system"
+      ],
+      "DOI": [
+        "digital-object-identifier"
+      ],
+      "dual OCXO": [
+        "dual-ocxo"
+      ],
+      "Dwayne Esterline": [
+        "dwayne-esterline"
+      ],
+      "Earth CMB windmill": [
+        "windmill"
+      ],
+      "Earth rotation signatures": [
+        "earth-rotation-signature"
+      ],
+      "EDA": [
+        "exploratory-data-analysis"
+      ],
+      "emergent spacetime topology": [
+        "emergent-spacetime"
+      ],
+      "Emily Eigenspectrum": [
+        "emily-eigen-spectrum"
+      ],
+      "FFT": [
+        "fast-fourier-transform"
+      ],
+      "field lattice": [
+        "lattice"
+      ],
+      "Fourier transform": [
+        "fast-fourier-transform"
+      ],
+      "frequency-domain transform": [
+        "fast-fourier-transform"
+      ],
+      "galaxy axes": [
+        "galaxy-axis-orientation"
+      ],
+      "galaxy orientation": [
+        "galaxy-axis-orientation"
+      ],
+      "GPS": [
+        "gps-referenced-measurement"
+      ],
+      "GPS reference": [
+        "gps-referenced-measurement"
+      ],
+      "GPS-referenced timing": [
+        "gps-referenced-measurement"
+      ],
+      "Gram matrix": [
+        "gram-tensor"
+      ],
+      "ICRF": [
+        "international-celestial-reference-frame"
+      ],
+      "ICRS": [
+        "international-celestial-reference-system"
+      ],
+      "ICRS coordinates": [
+        "international-celestial-reference-system"
+      ],
+      "ICRS frame": [
+        "international-celestial-reference-system"
+      ],
+      "ID14C": [
+        "pic-id14c-dataset"
+      ],
+      "ID14E": [
+        "pic-id14e-dataset"
+      ],
+      "JSON": [
+        "json-machine-readable-companion"
+      ],
+      "JSON companion": [
+        "json-machine-readable-companion"
+      ],
+      "K Field": [
+        "quantum-k-field"
+      ],
+      "K-Field": [
+        "quantum-k-field"
+      ],
+      "K-Field 101": [
+        "lecture-series"
+      ],
+      "K-Field Converged Closure": [
+        "converged-closure"
+      ],
+      "K-Field Research": [
+        "quantum-k-field"
+      ],
+      "K_Field": [
+        "quantum-k-field"
+      ],
+      "Kepler camera comparison": [
+        "kepler-comparison"
+      ],
+      "kfield": [
+        "quantum-k-field"
+      ],
+      "KField": [
+        "quantum-k-field"
+      ],
+      "Krytronx LLC": [
+        "krytronx"
+      ],
+      "Krytronx, LLC": [
+        "krytronx"
+      ],
+      "laerl force": [
+        "lateral-force"
+      ],
+      "laws of physics": [
+        "physical-law"
+      ],
+      "Lucas_Supergroup": [
+        "lucas-supergroup"
+      ],
+      "machine-readable JSON": [
+        "json-machine-readable-companion"
+      ],
+      "mass bridge triangle": [
+        "mass-bridge"
+      ],
+      "Mass-Bridge": [
+        "mass-bridge"
+      ],
+      "meV": [
+        "millielectronvolt"
+      ],
+      "MHz": [
+        "megahertz"
+      ],
+      "mirror accumulation": [
+        "accumulation"
+      ],
+      "moving standard deviation": [
+        "rolling-standard-deviation"
+      ],
+      "movmean": [
+        "moving-average"
+      ],
+      "movstd": [
+        "rolling-standard-deviation"
+      ],
+      "my_clear": [
+        "clear-channel"
+      ],
+      "nanometer": [
+        "nanometre"
+      ],
+      "near infrared": [
+        "near-infrared"
+      ],
+      "near-lock face angle": [
+        "face-angle"
+      ],
+      "NIR": [
+        "near-infrared"
+      ],
+      "NIR channel": [
+        "near-infrared"
+      ],
+      "nm": [
+        "nanometre"
+      ],
+      "observer rendering": [
+        "observer-dependent-rendering"
+      ],
+      "OCXO": [
+        "oven-controlled-crystal-oscillator"
+      ],
+      "OCXO signal analysis": [
+        "ocxo-signal-analysis"
+      ],
+      "ontological approaches": [
+        "ontology"
+      ],
+      "oven controlled crystal oscillator": [
+        "oven-controlled-crystal-oscillator"
+      ],
+      "oven-controlled crystal oscillator signal analysis": [
+        "ocxo-signal-analysis"
+      ],
+      "over-determined derivation chain": [
+        "overdetermined-derivation"
+      ],
+      "P Dwayne Esterline": [
+        "dwayne-esterline"
+      ],
+      "PCA": [
+        "principal-component-analysis"
+      ],
+      "PDF": [
+        "pdf-archival-report"
+      ],
+      "PDF report": [
+        "pdf-archival-report"
+      ],
+      "physical-law dependency system": [
+        "physical-law"
+      ],
+      "PI": [
+        "principal-investigator"
+      ],
+      "pic id": [
+        "capture-identifier"
+      ],
+      "PIC ID": [
+        "capture-identifier"
+      ],
+      "pic id 14C": [
+        "pic-id14c-dataset"
+      ],
+      "pic id 14E": [
+        "pic-id14e-dataset"
+      ],
+      "pic_id": [
+        "capture-identifier"
+      ],
+      "pic_id14C": [
+        "pic-id14c-dataset"
+      ],
+      "pic_id14E": [
+        "pic-id14e-dataset"
+      ],
+      "picture identifier": [
+        "capture-identifier"
+      ],
+      "planar structure": [
+        "planar-field-structure"
+      ],
+      "plane inersection distribution": [
+        "intersection-distribution"
+      ],
+      "plane structure": [
+        "planar-field-structure"
+      ],
+      "plane systems": [
+        "plane-system"
+      ],
+      "plane-normal axis": [
+        "plane-normal"
+      ],
+      "ppm": [
+        "parts-per-million"
+      ],
+      "PPM": [
+        "parts-per-million"
+      ],
+      "projective ratio system": [
+        "projective-geometry"
+      ],
+      "public archive": [
+        "public-research-archive"
+      ],
+      "public release": [
+        "public-research-archive"
+      ],
+      "q spectrum": [
+        "q-spectrum"
+      ],
+      "q-spectrum": [
+        "q-spectrum"
+      ],
+      "quantized interplanar distance": [
+        "interplanar-quantization"
+      ],
+      "quantized interplanar distance ladder": [
+        "interplanar-distance-ladder"
+      ],
+      "Quantum K Field": [
+        "quantum-k-field"
+      ],
+      "Quantum K-Field Public Release": [
+        "public-research-archive"
+      ],
+      "R.A.": [
+        "right-ascension"
+      ],
+      "RA": [
+        "right-ascension"
+      ],
+      "recip": [
+        "reciprocal-stack"
+      ],
+      "recip stack": [
+        "reciprocal-stack"
+      ],
+      "reciprocal field": [
+        "reciprocal-geometry"
+      ],
+      "reconstruction kernel": [
+        "reconstruction-kernel"
+      ],
+      "recursive audit report": [
+        "hostile-audit"
+      ],
+      "recursive Lucas spectrum": [
+        "lucas-spectrum"
+      ],
+      "residual shell": [
+        "residual-shell-structure"
+      ],
+      "SciML": [
+        "scientific-machine-learning"
+      ],
+      "SGA": [
+        "siena-galaxy-atlas"
+      ],
+      "SGA atlas": [
+        "siena-galaxy-atlas"
+      ],
+      "SGA-2020": [
+        "siena-galaxy-atlas"
+      ],
+      "SHA-256": [
+        "sha-256-checksum"
+      ],
+      "sha256": [
+        "sha-256-checksum"
+      ],
+      "SHA256": [
+        "sha-256-checksum"
+      ],
+      "spectrophotometer studies": [
+        "spectrophotometry"
+      ],
+      "spectrophtometer": [
+        "spectrophotometer"
+      ],
+      "spectrophtometry": [
+        "spectrophotometry"
+      ],
+      "spheroical coherence": [
+        "spherical-coherence"
+      ],
+      "spheroidal coherence": [
+        "spherical-coherence"
+      ],
+      "substrate beneath known physics": [
+        "quantum-substrate"
+      ],
+      "TDA": [
+        "topological-data-analysis"
+      ],
+      "total variation path cost": [
+        "path-cost"
+      ],
+      "twenty-nine locks": [
+        "twenty-nine-locks"
+      ],
+      "typed graph": [
+        "unified-typed-graph"
+      ],
+      "UTC": [
+        "coordinated-universal-time"
+      ],
+      "vacuum structure": [
+        "structured-vacuum"
+      ]
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "artifacts:OCXO_Experiments",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "OCXO_Experiments",
+    "order": 8
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 7,
+  "records": [
+    {
+      "path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json",
+      "directory": "OCXO_Experiments",
+      "filename": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json",
+      "extension": "json",
+      "normalized_title": "k field celestial crossing evidence in the d101 ocxo signal",
+      "raw_keywords": [
+        "celestial",
+        "crossing",
+        "d101",
+        "evidence",
+        "field",
+        "ocxo",
+        "signal"
+      ],
+      "canonical_topic_ids": [
+        "celestial-crossing",
+        "d101-instrument",
+        "oven-controlled-crystal-oscillator",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json"
+    },
+    {
+      "path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf",
+      "directory": "OCXO_Experiments",
+      "filename": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field celestial crossing evidence in the d101 ocxo signal",
+      "raw_keywords": [
+        "celestial",
+        "crossing",
+        "d101",
+        "evidence",
+        "field",
+        "ocxo",
+        "signal"
+      ],
+      "canonical_topic_ids": [
+        "celestial-crossing",
+        "d101-instrument",
+        "oven-controlled-crystal-oscillator",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf"
+    },
+    {
+      "path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json",
+      "directory": "OCXO_Experiments",
+      "filename": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json",
+      "extension": "json",
+      "normalized_title": "k field celestial crossing evidence in the d101 ocxo signal",
+      "raw_keywords": [
+        "celestial",
+        "crossing",
+        "d101",
+        "evidence",
+        "field",
+        "ocxo",
+        "signal"
+      ],
+      "canonical_topic_ids": [
+        "celestial-crossing",
+        "d101-instrument",
+        "oven-controlled-crystal-oscillator",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json"
+    },
+    {
+      "path": "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf",
+      "directory": "OCXO_Experiments",
+      "filename": "K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field celestial crossing evidence in the d101 ocxo signal",
+      "raw_keywords": [
+        "celestial",
+        "crossing",
+        "d101",
+        "evidence",
+        "field",
+        "ocxo",
+        "signal"
+      ],
+      "canonical_topic_ids": [
+        "celestial-crossing",
+        "d101-instrument",
+        "oven-controlled-crystal-oscillator",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf"
+    },
+    {
+      "path": "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+      "directory": "OCXO_Experiments",
+      "filename": "K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+      "extension": "json",
+      "normalized_title": "k field celestially indexed frequency modulation in the dual ocxo d101 record",
+      "raw_keywords": [
+        "celestially",
+        "d101",
+        "dual",
+        "field",
+        "frequency",
+        "indexed",
+        "modulation",
+        "ocxo",
+        "record"
+      ],
+      "canonical_topic_ids": [
+        "celestially-indexed-frequency-modulation",
+        "d101-instrument",
+        "dual-ocxo",
+        "frequency-modulation",
+        "oven-controlled-crystal-oscillator",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json"
+    },
+    {
+      "path": "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf",
+      "directory": "OCXO_Experiments",
+      "filename": "K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field celestially indexed frequency modulation in the dual ocxo d101 record",
+      "raw_keywords": [
+        "celestially",
+        "d101",
+        "dual",
+        "field",
+        "frequency",
+        "indexed",
+        "modulation",
+        "ocxo",
+        "record"
+      ],
+      "canonical_topic_ids": [
+        "celestially-indexed-frequency-modulation",
+        "d101-instrument",
+        "dual-ocxo",
+        "frequency-modulation",
+        "oven-controlled-crystal-oscillator",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf"
+    },
+    {
+      "path": "OCXO_Experiments/d101_source_data.zip",
+      "directory": "OCXO_Experiments",
+      "filename": "d101_source_data.zip",
+      "extension": "zip",
+      "normalized_title": "d101 source data",
+      "raw_keywords": [
+        "d101"
+      ],
+      "canonical_topic_ids": [
+        "d101-instrument"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/OCXO_Experiments/d101_source_data.zip"
+    }
+  ]
+}

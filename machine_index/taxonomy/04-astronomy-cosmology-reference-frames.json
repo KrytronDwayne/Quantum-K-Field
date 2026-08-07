@@ -1,0 +1,962 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:astronomy_cosmology_reference_frames",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "astronomy_cosmology_reference_frames",
+    "order": 3
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 31,
+  "records": [
+    {
+      "id": "astrometry",
+      "label": "Astrometry",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Measurement and transformation of astronomical positions and orientations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory",
+        "coherence-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [
+        "astronomical signal correlation",
+        "celestial signal correlation"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "astronomical-signal-correlation",
+      "label": "Astronomical Signal Correlation",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Correlation of measured signals with astronomical coordinates, motions, crossings, or events."
+    },
+    {
+      "id": "astronomy",
+      "label": "Astronomy",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Astronomical observations and celestial context.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "astrophysics",
+      "label": "Astrophysics",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Physical analysis of astronomical systems.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "celestial-crossing",
+      "label": "Celestial Crossing",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Crossing of a modeled celestial plane, cell, or structural boundary.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf"
+      ]
+    },
+    {
+      "id": "celestial-mechanics",
+      "label": "Celestial Mechanics",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Motion and geometry of astronomical bodies.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "celestial-modulation",
+      "label": "Celestial Modulation",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Signal variation indexed to celestial geometry or motion.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "celestial-trajectory",
+      "label": "Celestial Trajectory",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Observer or instrument path expressed in celestial coordinates.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "cmb-rest-frame",
+      "label": "CMB Rest Frame",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Reference frame in which the CMB dipole is removed.",
+      "aliases": [
+        "CMB frame",
+        "Cosmic Microwave Background Frame"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "cmb-velocity-vector",
+      "label": "CMB Velocity Vector",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Velocity vector of the observer or Earth relative to the CMB frame.",
+      "aliases": [
+        "CMB vector"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "cosmic-microwave-background",
+      "label": "Cosmic Microwave Background",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Cosmological background and velocity reference used in trajectory analyses.",
+      "aliases": [
+        "CMB"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.json",
+        "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf",
+        "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.json",
+        "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf",
+        "CMB_Modulation/K-Field_earth_CMB_modulation_routes_1784647098.json",
+        "CMB_Modulation/K-Field_earth_CMB_modulation_routes_1784647098.pdf",
+        "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.json",
+        "CMB_Modulation/K-Field_max_residual_closed_CMB_route_1784650136.pdf"
+      ]
+    },
+    {
+      "id": "cosmology",
+      "label": "Cosmology",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Large-scale physical structure and cosmic reference context.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "aliases": [],
+      "abbreviations": [
+        "Dec"
+      ],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astrometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "right-ascension",
+        "international-celestial-reference-system"
+      ],
+      "source_path_patterns": [
+        "**/*.json",
+        "README.md"
+      ],
+      "search_phrases": [
+        "right ascension and declination",
+        "ICRS declination"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "declination",
+      "label": "Declination",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Celestial angular coordinate measured north or south of the celestial equator."
+    },
+    {
+      "id": "earth-cmb-traversal",
+      "label": "Earth CMB Traversal",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Earth's translational route through the CMB-referenced geometry.",
+      "aliases": [
+        "CMB traversal"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf"
+      ]
+    },
+    {
+      "id": "earth-rotation-signature",
+      "label": "Earth Rotation Signature",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Signal structure associated with terrestrial rotation.",
+      "aliases": [
+        "Earth rotation signatures"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "galactic-center-alignment",
+      "label": "Galactic Center Alignment",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Alignment analysis relative to the Galactic Center.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "galaxy-axis-orientation",
+      "label": "Galaxy Axis Orientation",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Measured orientation of galaxy major axes.",
+      "aliases": [
+        "galaxy axes",
+        "galaxy orientation"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.json",
+        "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf",
+        "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+        "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf",
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf",
+        "Start_Here/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_fft_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/cell0_recip_stack_native_galaxy_derivation_1783388819.pdf",
+        "Student_reconstruction_process/Galax_Derivation_Methods/galaxy_cell0_to_cell3_physics_formula_bridge_1783389460.pdf",
+        "Student_reconstruction_process/Step_by_Step_Galaxy_to_100_physics_formulas/A- cell0_mirror_accum_native_galaxy_derivation_1783388819.pdf"
+      ]
+    },
+    {
+      "id": "galaxy-gyroscopic-precession",
+      "label": "Galaxy Gyroscopic Precession Geometry",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Archive analysis of galaxy geometry using a gyroscopic-precession interpretation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.json",
+        "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf"
+      ]
+    },
+    {
+      "id": "geodesy",
+      "label": "Geodesy",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Earth-position and reference-frame measurement.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "international-celestial-reference-frame",
+      "label": "International Celestial Reference Frame",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Realization of the celestial reference system.",
+      "aliases": [
+        "ICRF"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "international-celestial-reference-system",
+      "label": "International Celestial Reference System",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Celestial coordinate system used to express orientations and observer states.",
+      "aliases": [
+        "ICRS"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "kepler-comparison",
+      "label": "Kepler Comparison",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Comparison between K-Field spectrophotometer geometry and Kepler instrument or trajectory context.",
+      "aliases": [
+        "Kepler camera comparison"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.json",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_Kepler_comparison_1785936602.pdf"
+      ]
+    },
+    {
+      "id": "lunar-transit-analysis",
+      "label": "Lunar Transit Analysis",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Analysis indexed to lunar transit or lunar position.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "observer-trajectory",
+      "label": "Observer Trajectory",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Time-resolved path of the laboratory observer.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "planetary-transit-analysis",
+      "label": "Planetary Transit Analysis",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Analysis indexed to planetary transit or position.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "relativistic-reference-frames",
+      "label": "Relativistic Reference Frames",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Reference-frame treatment for astronomical and terrestrial states.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "right-ascension",
+      "label": "Right Ascension",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Celestial angular coordinate measured eastward along the celestial equator.",
+      "aliases": [
+        "R.A."
+      ],
+      "abbreviations": [
+        "RA"
+      ],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astrometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "declination",
+        "international-celestial-reference-system"
+      ],
+      "source_path_patterns": [
+        "**/*.json",
+        "README.md"
+      ],
+      "search_phrases": [
+        "right ascension and declination",
+        "ICRS right ascension"
+      ],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "siena-galaxy-atlas",
+      "label": "Siena Galaxy Atlas",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Galaxy catalog identified as the archive's foundational astronomical source.",
+      "aliases": [
+        "SGA",
+        "SGA-2020"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "solar-transit-analysis",
+      "label": "Solar Transit Analysis",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Analysis indexed to solar transit or solar position.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "solar-system-coupling",
+      "label": "Solar-System Coupling",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Archive analyses connecting solar-system bodies or motion to K-Field structure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.json",
+        "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.pdf"
+      ]
+    },
+    {
+      "id": "solar-system-rotation-harmonics",
+      "label": "Solar-System Rotation-Period Harmonic Ladder",
+      "category": "astronomy_cosmology_reference_frames",
+      "definition": "Harmonic ladder formed from solar-system body rotation periods.",
+      "aliases": [
+        "3-2-2 harmonic ladder"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "astronomy"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "observer-trajectory"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "CMB_Modulation/**",
+        "Galaxy_Analysis/**",
+        "OCXO_Experiments/**",
+        "README.md",
+        "Spectrophotometer_Studies/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    }
+  ]
+}

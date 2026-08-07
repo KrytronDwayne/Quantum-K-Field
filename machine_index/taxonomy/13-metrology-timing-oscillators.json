@@ -1,0 +1,560 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:metrology_timing_oscillators",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "metrology_timing_oscillators",
+    "order": 12
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 19,
+  "records": [
+    {
+      "id": "beat-frequency",
+      "label": "Beat Frequency",
+      "category": "metrology_timing_oscillators",
+      "definition": "Difference frequency produced by heterodyne mixing.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "celestially-indexed-frequency-modulation",
+      "label": "Celestially Indexed Frequency Modulation",
+      "category": "metrology_timing_oscillators",
+      "definition": "Frequency modulation registered to celestial coordinates or crossings.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf"
+      ]
+    },
+    {
+      "id": "coordinated-universal-time",
+      "label": "Coordinated Universal Time",
+      "category": "metrology_timing_oscillators",
+      "definition": "UTC time standard used for epochs and timestamps.",
+      "aliases": [
+        "UTC"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "d101-instrument",
+      "label": "D101 Instrument",
+      "category": "metrology_timing_oscillators",
+      "definition": "Krytronx dual-OCXO instrument and associated record.",
+      "aliases": [
+        "D101",
+        "D101 record",
+        "D101 signal"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf",
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf",
+        "OCXO_Experiments/d101_source_data.zip"
+      ]
+    },
+    {
+      "id": "dual-ocxo",
+      "label": "Dual-OCXO Instrument",
+      "category": "metrology_timing_oscillators",
+      "definition": "Two-oscillator instrument architecture used in D101 studies.",
+      "aliases": [
+        "dual OCXO"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf"
+      ]
+    },
+    {
+      "id": "fractional-frequency-differential",
+      "label": "Fractional Frequency Differential",
+      "category": "metrology_timing_oscillators",
+      "definition": "Normalized frequency difference between two oscillators.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "frequency-metrology",
+      "label": "Frequency Metrology",
+      "category": "metrology_timing_oscillators",
+      "definition": "Precision measurement and comparison of frequency.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "frequency-modulation",
+      "label": "Frequency Modulation",
+      "category": "metrology_timing_oscillators",
+      "definition": "Variation of measured oscillator frequency with time or celestial index.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf"
+      ]
+    },
+    {
+      "id": "gps-referenced-measurement",
+      "label": "GPS-Referenced Measurement",
+      "category": "metrology_timing_oscillators",
+      "definition": "Measurement referenced to GPS position or timing.",
+      "aliases": [
+        "GPS-referenced timing"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "heterodyne-measurement",
+      "label": "Heterodyne Measurement",
+      "category": "metrology_timing_oscillators",
+      "definition": "Measurement based on mixing two frequencies to produce a beat signal.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "long-duration-time-series",
+      "label": "Long-Duration Time Series",
+      "category": "metrology_timing_oscillators",
+      "definition": "Extended observational records used to resolve slow or celestial modulation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "megahertz",
+      "label": "Megahertz",
+      "category": "metrology_timing_oscillators",
+      "definition": "Frequency unit used for OCXO carrier frequencies.",
+      "aliases": [
+        "MHz"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "aliases": [
+        "oven-controlled crystal oscillator signal analysis"
+      ],
+      "abbreviations": [
+        "OCXO signal analysis"
+      ],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "oscillator-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "d101-instrument",
+        "heterodyne-measurement",
+        "frequency-modulation"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**"
+      ],
+      "search_phrases": [
+        "OCXO signal analysis",
+        "dual OCXO signal processing"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "ocxo-signal-analysis",
+      "label": "OCXO Signal Analysis",
+      "category": "metrology_timing_oscillators",
+      "definition": "Analysis of oven-controlled crystal oscillator frequency, phase, beat, drift, and celestial modulation records."
+    },
+    {
+      "id": "oscillator-metrology",
+      "label": "Oscillator Metrology",
+      "category": "metrology_timing_oscillators",
+      "definition": "Measurement of oscillator frequency, drift, phase, and stability.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "oven-controlled-crystal-oscillator",
+      "label": "Oven-Controlled Crystal Oscillator",
+      "category": "metrology_timing_oscillators",
+      "definition": "Temperature-regulated crystal oscillator used for stable frequency measurement.",
+      "aliases": [
+        "OCXO"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.json",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786035529.pdf",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.json",
+        "OCXO_Experiments/K-Field_Celestial_Crossing_Evidence_in_the_D101_OCXO_Signal_1786043894.pdf",
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.json",
+        "OCXO_Experiments/K-Field_Celestially_Indexed_Frequency_Modulation_in_the_Dual-OCXO_D101_Record_1786028011.pdf"
+      ]
+    },
+    {
+      "id": "phase-metrology",
+      "label": "Phase Metrology",
+      "category": "metrology_timing_oscillators",
+      "definition": "Precision measurement of phase and phase change.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.json",
+        "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.pdf",
+        "Commentary/K-Field_dimensional_phase_governing_rules_corrected_1784327536.json",
+        "Discovered_Pathways/K-Field_entropy_pumped_current_flows_on_phase_cost_surface_1785246088.json",
+        "Discovered_Pathways/K-Field_entropy_pumped_current_flows_on_phase_cost_surface_1785246088.pdf",
+        "Discovered_Pathways/K-Field_entropy_vs_phase_cost_surface1785242634.json",
+        "Discovered_Pathways/K-Field_entropy_vs_phase_cost_surface1785242634.pdf"
+      ]
+    },
+    {
+      "id": "precision-metrology",
+      "label": "Precision Metrology",
+      "category": "metrology_timing_oscillators",
+      "definition": "High-resolution measurement of physical quantities.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "precision-timing",
+      "label": "Precision Timing",
+      "category": "metrology_timing_oscillators",
+      "definition": "High-accuracy timing and timebase control.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "thermal-stability",
+      "label": "Thermal Stability",
+      "category": "metrology_timing_oscillators",
+      "definition": "Control and characterization of temperature-dependent instrument behavior.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "precision-metrology"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "celestial-modulation",
+        "d101-instrument",
+        "time-frequency-analysis"
+      ],
+      "source_path_patterns": [
+        "CITATION.cff",
+        "OCXO_Experiments/**",
+        "README.md"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    }
+  ]
+}

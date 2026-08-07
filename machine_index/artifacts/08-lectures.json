@@ -1,0 +1,70 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "artifacts:Lectures",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Lectures",
+    "order": 7
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 3,
+  "records": [
+    {
+      "path": "Lectures/K_Field_101_100_Lecture_1_The_Locks_1784123941.pdf",
+      "directory": "Lectures",
+      "filename": "K_Field_101_100_Lecture_1_The_Locks_1784123941.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field 101 100 lecture 1 the locks",
+      "raw_keywords": [
+        "field",
+        "lecture",
+        "locks"
+      ],
+      "canonical_topic_ids": [
+        "lecture-series",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Lectures/K_Field_101_100_Lecture_1_The_Locks_1784123941.pdf"
+    },
+    {
+      "path": "Lectures/K_Field_101_200_Lecture_2_From_Noise_to_Geometry_1784124786.pdf",
+      "directory": "Lectures",
+      "filename": "K_Field_101_200_Lecture_2_From_Noise_to_Geometry_1784124786.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field 101 200 lecture 2 from noise to geometry",
+      "raw_keywords": [
+        "field",
+        "geometry",
+        "lecture",
+        "noise"
+      ],
+      "canonical_topic_ids": [
+        "lecture-series",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Lectures/K_Field_101_200_Lecture_2_From_Noise_to_Geometry_1784124786.pdf"
+    },
+    {
+      "path": "Lectures/K_Field_101_300_Lecture_3_The_Foundation_Beneath_the_Branches_1784125116.pdf",
+      "directory": "Lectures",
+      "filename": "K_Field_101_300_Lecture_3_The_Foundation_Beneath_the_Branches_1784125116.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field 101 300 lecture 3 the foundation beneath the branches",
+      "raw_keywords": [
+        "beneath",
+        "branches",
+        "field",
+        "foundation",
+        "lecture"
+      ],
+      "canonical_topic_ids": [
+        "lecture-series",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Lectures/K_Field_101_300_Lecture_3_The_Foundation_Beneath_the_Branches_1784125116.pdf"
+    }
+  ]
+}

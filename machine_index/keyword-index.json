@@ -1,0 +1,2034 @@
+{
+  "document_type": "research_archive_index_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "keyword-index",
+  "section": "keyword_index",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "payload": {
+    "29 locks": [
+      "twenty-nine-locks"
+    ],
+    "3 2 2 harmonic ladder": [
+      "solar-system-rotation-harmonics"
+    ],
+    "accum": [
+      "accumulation"
+    ],
+    "accumulation": [
+      "accumulation"
+    ],
+    "agpl 3 0 only": [
+      "agpl-3-0-only"
+    ],
+    "agpl 3.0": [
+      "agpl-3-0-only"
+    ],
+    "agpl 3.0 only": [
+      "agpl-3-0-only"
+    ],
+    "agpl-3-0-only": [
+      "agpl-3-0-only"
+    ],
+    "agplv3": [
+      "agpl-3-0-only"
+    ],
+    "alpha": [
+      "fine-structure-constant"
+    ],
+    "angular momentum density": [
+      "angular-momentum-density"
+    ],
+    "angular-momentum-density": [
+      "angular-momentum-density"
+    ],
+    "anomaly detection": [
+      "anomaly-detection"
+    ],
+    "anomaly-detection": [
+      "anomaly-detection"
+    ],
+    "antipodal doublet": [
+      "antipodal-doublet"
+    ],
+    "antipodal structure": [
+      "antipodal-symmetry"
+    ],
+    "antipodal symmetry": [
+      "antipodal-symmetry"
+    ],
+    "antipodal-doublet": [
+      "antipodal-doublet"
+    ],
+    "antipodal-symmetry": [
+      "antipodal-symmetry"
+    ],
+    "api": [
+      "application-programming-interface"
+    ],
+    "apparent weight modulation": [
+      "apparent-weight-modulation"
+    ],
+    "apparent-weight-modulation": [
+      "apparent-weight-modulation"
+    ],
+    "application programming interface": [
+      "application-programming-interface"
+    ],
+    "application-programming-interface": [
+      "application-programming-interface"
+    ],
+    "armature": [
+      "armature"
+    ],
+    "as7341": [
+      "as7341-multispectral-sensor"
+    ],
+    "as7341 multispectral sensor": [
+      "as7341-multispectral-sensor"
+    ],
+    "as7341-multispectral-sensor": [
+      "as7341-multispectral-sensor"
+    ],
+    "astrometry": [
+      "astrometry"
+    ],
+    "astronomical signal correlation": [
+      "astronomical-signal-correlation"
+    ],
+    "astronomy": [
+      "astronomy"
+    ],
+    "astrophysics": [
+      "astrophysics"
+    ],
+    "atomic velocity": [
+      "atomic-velocity"
+    ],
+    "atomic-velocity": [
+      "atomic-velocity"
+    ],
+    "autocorrelation": [
+      "autocorrelation"
+    ],
+    "basis": [
+      "basis"
+    ],
+    "basis matrix": [
+      "basis"
+    ],
+    "beat frequency": [
+      "beat-frequency"
+    ],
+    "beat sphere": [
+      "spherical-beat-energy"
+    ],
+    "beat-frequency": [
+      "beat-frequency"
+    ],
+    "bohr radius": [
+      "bohr-radius"
+    ],
+    "bohr-radius": [
+      "bohr-radius"
+    ],
+    "boundary graph": [
+      "boundary-graph"
+    ],
+    "boundary-graph": [
+      "boundary-graph"
+    ],
+    "bragg geometry": [
+      "bragg-geometry"
+    ],
+    "bragg-geometry": [
+      "bragg-geometry"
+    ],
+    "bullet trajectory": [
+      "bullet-trajectory"
+    ],
+    "bullet trajectory modulation": [
+      "bullet-trajectory"
+    ],
+    "bullet-trajectory": [
+      "bullet-trajectory"
+    ],
+    "capture identifier": [
+      "capture-identifier"
+    ],
+    "carbon fiber tube": [
+      "carbon-fiber-tube"
+    ],
+    "carbon-fiber-tube": [
+      "carbon-fiber-tube"
+    ],
+    "cc by nc 4.0": [
+      "creative-commons-by-nc-4-0"
+    ],
+    "cel3": [
+      "cell3"
+    ],
+    "celestial crossing": [
+      "celestial-crossing"
+    ],
+    "celestial mechanics": [
+      "celestial-mechanics"
+    ],
+    "celestial modulation": [
+      "celestial-modulation"
+    ],
+    "celestial trajectory": [
+      "celestial-trajectory"
+    ],
+    "celestial-crossing": [
+      "celestial-crossing"
+    ],
+    "celestial-mechanics": [
+      "celestial-mechanics"
+    ],
+    "celestial-modulation": [
+      "celestial-modulation"
+    ],
+    "celestial-trajectory": [
+      "celestial-trajectory"
+    ],
+    "celestially indexed frequency modulation": [
+      "celestially-indexed-frequency-modulation"
+    ],
+    "celestially-indexed-frequency-modulation": [
+      "celestially-indexed-frequency-modulation"
+    ],
+    "cell 0": [
+      "cell0"
+    ],
+    "cell 3": [
+      "cell3"
+    ],
+    "cell0": [
+      "cell0"
+    ],
+    "cell3": [
+      "cell3"
+    ],
+    "cell3 propagation experiment": [
+      "propagation-experiment"
+    ],
+    "cff": [
+      "citation-file-format"
+    ],
+    "chirp detection": [
+      "chirp-detection"
+    ],
+    "chirp-detection": [
+      "chirp-detection"
+    ],
+    "citation file format": [
+      "citation-file-format"
+    ],
+    "citation metadata": [
+      "citation-metadata"
+    ],
+    "citation-file-format": [
+      "citation-file-format"
+    ],
+    "citation-metadata": [
+      "citation-metadata"
+    ],
+    "classical electron radius": [
+      "classical-electron-radius"
+    ],
+    "classical-electron-radius": [
+      "classical-electron-radius"
+    ],
+    "clear channel": [
+      "clear-channel"
+    ],
+    "clear-channel": [
+      "clear-channel"
+    ],
+    "closed cmb route": [
+      "closed-cmb-route"
+    ],
+    "closed-cmb-route": [
+      "closed-cmb-route"
+    ],
+    "clr": [
+      "clear-channel"
+    ],
+    "cmb": [
+      "cosmic-microwave-background"
+    ],
+    "cmb frame": [
+      "cmb-rest-frame"
+    ],
+    "cmb rest frame": [
+      "cmb-rest-frame"
+    ],
+    "cmb traversal": [
+      "earth-cmb-traversal"
+    ],
+    "cmb vector": [
+      "cmb-velocity-vector"
+    ],
+    "cmb velocity vector": [
+      "cmb-velocity-vector"
+    ],
+    "cmb windmill": [
+      "windmill"
+    ],
+    "cmb-rest-frame": [
+      "cmb-rest-frame"
+    ],
+    "cmb-velocity-vector": [
+      "cmb-velocity-vector"
+    ],
+    "coherence analysis": [
+      "coherence-analysis"
+    ],
+    "coherence-analysis": [
+      "coherence-analysis"
+    ],
+    "coherent control": [
+      "coherent-control"
+    ],
+    "coherent-control": [
+      "coherent-control"
+    ],
+    "compton wavelength": [
+      "compton-wavelength"
+    ],
+    "compton-wavelength": [
+      "compton-wavelength"
+    ],
+    "concentric rotor": [
+      "concentric-rotor"
+    ],
+    "concentric-rotor": [
+      "concentric-rotor"
+    ],
+    "condensed matter analogies": [
+      "condensed-matter-analogies"
+    ],
+    "condensed-matter-analogies": [
+      "condensed-matter-analogies"
+    ],
+    "congressional briefing": [
+      "congressional-briefing"
+    ],
+    "congressional-briefing": [
+      "congressional-briefing"
+    ],
+    "continuous wavelet transform": [
+      "continuous-wavelet-transform"
+    ],
+    "continuous-wavelet-transform": [
+      "continuous-wavelet-transform"
+    ],
+    "converged closure": [
+      "converged-closure"
+    ],
+    "converged-closure": [
+      "converged-closure"
+    ],
+    "coordinated universal time": [
+      "coordinated-universal-time"
+    ],
+    "coordinated-universal-time": [
+      "coordinated-universal-time"
+    ],
+    "core dependency hierarchy": [
+      "dependency-system"
+    ],
+    "cosmic microwave background": [
+      "cosmic-microwave-background"
+    ],
+    "cosmic microwave background frame": [
+      "cmb-rest-frame"
+    ],
+    "cosmic-microwave-background": [
+      "cosmic-microwave-background"
+    ],
+    "cosmology": [
+      "cosmology"
+    ],
+    "counter rotating system": [
+      "counter-rotation"
+    ],
+    "counter rotation": [
+      "counter-rotation"
+    ],
+    "counter-rotation": [
+      "counter-rotation"
+    ],
+    "coupling constant": [
+      "coupling-constant"
+    ],
+    "coupling-constant": [
+      "coupling-constant"
+    ],
+    "creative commons by nc 4 0": [
+      "creative-commons-by-nc-4-0"
+    ],
+    "creative-commons-by-nc-4-0": [
+      "creative-commons-by-nc-4-0"
+    ],
+    "cross correlation": [
+      "cross-correlation"
+    ],
+    "cross domain scientific synthesis": [
+      "cross-domain-synthesis"
+    ],
+    "cross domain synthesis": [
+      "cross-domain-synthesis"
+    ],
+    "cross spectral analysis": [
+      "cross-spectral-analysis"
+    ],
+    "cross-correlation": [
+      "cross-correlation"
+    ],
+    "cross-domain-synthesis": [
+      "cross-domain-synthesis"
+    ],
+    "cross-spectral-analysis": [
+      "cross-spectral-analysis"
+    ],
+    "crystallographic analogies": [
+      "crystallographic-analogies"
+    ],
+    "crystallographic-analogies": [
+      "crystallographic-analogies"
+    ],
+    "cwt": [
+      "continuous-wavelet-transform"
+    ],
+    "d101": [
+      "d101-instrument"
+    ],
+    "d101 instrument": [
+      "d101-instrument"
+    ],
+    "d101 record": [
+      "d101-instrument"
+    ],
+    "d101 signal": [
+      "d101-instrument"
+    ],
+    "d101-instrument": [
+      "d101-instrument"
+    ],
+    "dec": [
+      "declination"
+    ],
+    "declination": [
+      "declination"
+    ],
+    "dependency hierarchy": [
+      "dependency-system"
+    ],
+    "dependency system": [
+      "dependency-system"
+    ],
+    "dependency-system": [
+      "dependency-system"
+    ],
+    "derived properties": [
+      "derived-properties"
+    ],
+    "derived-properties": [
+      "derived-properties"
+    ],
+    "devon dimension": [
+      "devon-dimension"
+    ],
+    "devon-dimension": [
+      "devon-dimension"
+    ],
+    "digital object identifier": [
+      "digital-object-identifier"
+    ],
+    "digital-object-identifier": [
+      "digital-object-identifier"
+    ],
+    "dimensional phase governing rules": [
+      "phase-governing-rules"
+    ],
+    "directional coupling": [
+      "directional-coupling"
+    ],
+    "directional-coupling": [
+      "directional-coupling"
+    ],
+    "discrete spacetime": [
+      "discrete-spacetime"
+    ],
+    "discrete-spacetime": [
+      "discrete-spacetime"
+    ],
+    "doi": [
+      "digital-object-identifier"
+    ],
+    "drop tower": [
+      "drop-tower"
+    ],
+    "drop-tower": [
+      "drop-tower"
+    ],
+    "dual axis kinetic mass": [
+      "dual-axis-kinetic-mass"
+    ],
+    "dual face": [
+      "dual-face"
+    ],
+    "dual ocxo": [
+      "dual-ocxo"
+    ],
+    "dual ocxo instrument": [
+      "dual-ocxo"
+    ],
+    "dual-axis-kinetic-mass": [
+      "dual-axis-kinetic-mass"
+    ],
+    "dual-face": [
+      "dual-face"
+    ],
+    "dual-ocxo": [
+      "dual-ocxo"
+    ],
+    "dwayne esterline": [
+      "dwayne-esterline"
+    ],
+    "dwayne-esterline": [
+      "dwayne-esterline"
+    ],
+    "earth cmb traversal": [
+      "earth-cmb-traversal"
+    ],
+    "earth cmb windmill": [
+      "windmill"
+    ],
+    "earth rotation signature": [
+      "earth-rotation-signature"
+    ],
+    "earth rotation signatures": [
+      "earth-rotation-signature"
+    ],
+    "earth-cmb-traversal": [
+      "earth-cmb-traversal"
+    ],
+    "earth-rotation-signature": [
+      "earth-rotation-signature"
+    ],
+    "eda": [
+      "exploratory-data-analysis"
+    ],
+    "educator resources": [
+      "educator-resources"
+    ],
+    "educator-resources": [
+      "educator-resources"
+    ],
+    "emergent spacetime": [
+      "emergent-spacetime"
+    ],
+    "emergent spacetime topology": [
+      "emergent-spacetime"
+    ],
+    "emergent-spacetime": [
+      "emergent-spacetime"
+    ],
+    "emily eigen spectrum": [
+      "emily-eigen-spectrum"
+    ],
+    "emily eigenspectrum": [
+      "emily-eigen-spectrum"
+    ],
+    "emily-eigen-spectrum": [
+      "emily-eigen-spectrum"
+    ],
+    "energy landscape mapping": [
+      "energy-landscape-mapping"
+    ],
+    "energy-landscape-mapping": [
+      "energy-landscape-mapping"
+    ],
+    "entropy": [
+      "entropy"
+    ],
+    "entropy pumped current": [
+      "entropy-pumped-current"
+    ],
+    "entropy-pumped-current": [
+      "entropy-pumped-current"
+    ],
+    "event sequence": [
+      "event-sequence"
+    ],
+    "event-sequence": [
+      "event-sequence"
+    ],
+    "experimental gravitation": [
+      "experimental-gravitation"
+    ],
+    "experimental instrumentation": [
+      "experimental-instrumentation"
+    ],
+    "experimental-gravitation": [
+      "experimental-gravitation"
+    ],
+    "experimental-instrumentation": [
+      "experimental-instrumentation"
+    ],
+    "exploratory data analysis": [
+      "exploratory-data-analysis"
+    ],
+    "exploratory-data-analysis": [
+      "exploratory-data-analysis"
+    ],
+    "exterior lattice": [
+      "exterior-lattice"
+    ],
+    "exterior-lattice": [
+      "exterior-lattice"
+    ],
+    "face angle": [
+      "face-angle"
+    ],
+    "face-angle": [
+      "face-angle"
+    ],
+    "fast fourier transform": [
+      "fast-fourier-transform"
+    ],
+    "fast-fourier-transform": [
+      "fast-fourier-transform"
+    ],
+    "fft": [
+      "fast-fourier-transform"
+    ],
+    "field anisotropy": [
+      "field-anisotropy"
+    ],
+    "field lattice": [
+      "lattice"
+    ],
+    "field topology": [
+      "field-topology"
+    ],
+    "field-anisotropy": [
+      "field-anisotropy"
+    ],
+    "field-topology": [
+      "field-topology"
+    ],
+    "fine structure constant": [
+      "fine-structure-constant"
+    ],
+    "fine-structure-constant": [
+      "fine-structure-constant"
+    ],
+    "finite boundary graph": [
+      "boundary-graph"
+    ],
+    "flywheel": [
+      "flywheel"
+    ],
+    "force analysis": [
+      "force-analysis"
+    ],
+    "force-analysis": [
+      "force-analysis"
+    ],
+    "foundational physics": [
+      "foundational-physics"
+    ],
+    "foundational-physics": [
+      "foundational-physics"
+    ],
+    "fourier analysis": [
+      "fourier-analysis"
+    ],
+    "fourier-analysis": [
+      "fourier-analysis"
+    ],
+    "fractional frequency differential": [
+      "fractional-frequency-differential"
+    ],
+    "fractional-frequency-differential": [
+      "fractional-frequency-differential"
+    ],
+    "free space force": [
+      "free-space-force"
+    ],
+    "free-space-force": [
+      "free-space-force"
+    ],
+    "frequency metrology": [
+      "frequency-metrology"
+    ],
+    "frequency modulation": [
+      "frequency-modulation"
+    ],
+    "frequency-metrology": [
+      "frequency-metrology"
+    ],
+    "frequency-modulation": [
+      "frequency-modulation"
+    ],
+    "galactic center alignment": [
+      "galactic-center-alignment"
+    ],
+    "galactic-center-alignment": [
+      "galactic-center-alignment"
+    ],
+    "galaxy axes": [
+      "galaxy-axis-orientation"
+    ],
+    "galaxy axis orientation": [
+      "galaxy-axis-orientation"
+    ],
+    "galaxy gyroscopic precession": [
+      "galaxy-gyroscopic-precession"
+    ],
+    "galaxy gyroscopic precession geometry": [
+      "galaxy-gyroscopic-precession"
+    ],
+    "galaxy orientation": [
+      "galaxy-axis-orientation"
+    ],
+    "galaxy shell coherence": [
+      "shell-coherence"
+    ],
+    "galaxy-axis-orientation": [
+      "galaxy-axis-orientation"
+    ],
+    "galaxy-gyroscopic-precession": [
+      "galaxy-gyroscopic-precession"
+    ],
+    "geodesy": [
+      "geodesy"
+    ],
+    "gps referenced measurement": [
+      "gps-referenced-measurement"
+    ],
+    "gps referenced timing": [
+      "gps-referenced-measurement"
+    ],
+    "gps-referenced-measurement": [
+      "gps-referenced-measurement"
+    ],
+    "gram matrix": [
+      "gram-tensor"
+    ],
+    "gram tensor": [
+      "gram-tensor"
+    ],
+    "gram-tensor": [
+      "gram-tensor"
+    ],
+    "gravimetry": [
+      "gravimetry"
+    ],
+    "gravity analogue": [
+      "gravity-analogue"
+    ],
+    "gravity structure": [
+      "gravity-structure"
+    ],
+    "gravity-analogue": [
+      "gravity-analogue"
+    ],
+    "gravity-structure": [
+      "gravity-structure"
+    ],
+    "gyroscopic geometry": [
+      "gyroscopic-geometry"
+    ],
+    "gyroscopic-geometry": [
+      "gyroscopic-geometry"
+    ],
+    "harmonic coupling": [
+      "harmonic-coupling"
+    ],
+    "harmonic ladder": [
+      "harmonic-ladder"
+    ],
+    "harmonic-coupling": [
+      "harmonic-coupling"
+    ],
+    "harmonic-ladder": [
+      "harmonic-ladder"
+    ],
+    "hartree energy": [
+      "hartree-energy"
+    ],
+    "hartree-energy": [
+      "hartree-energy"
+    ],
+    "heterodyne measurement": [
+      "heterodyne-measurement"
+    ],
+    "heterodyne-measurement": [
+      "heterodyne-measurement"
+    ],
+    "hidden architecture": [
+      "hidden-architecture"
+    ],
+    "hidden relations": [
+      "hidden-relations"
+    ],
+    "hidden-architecture": [
+      "hidden-architecture"
+    ],
+    "hidden-relations": [
+      "hidden-relations"
+    ],
+    "high school education": [
+      "high-school-education"
+    ],
+    "high-school-education": [
+      "high-school-education"
+    ],
+    "hostile audit": [
+      "hostile-audit"
+    ],
+    "hostile-audit": [
+      "hostile-audit"
+    ],
+    "hysteresis": [
+      "hysteresis"
+    ],
+    "icrf": [
+      "international-celestial-reference-frame"
+    ],
+    "icrs": [
+      "international-celestial-reference-system"
+    ],
+    "id14c": [
+      "pic-id14c-dataset"
+    ],
+    "id14e": [
+      "pic-id14e-dataset"
+    ],
+    "inertia": [
+      "inertia"
+    ],
+    "inertial sensing": [
+      "inertial-sensing"
+    ],
+    "inertial-sensing": [
+      "inertial-sensing"
+    ],
+    "instrument orientation": [
+      "instrument-orientation"
+    ],
+    "instrument-orientation": [
+      "instrument-orientation"
+    ],
+    "interdisciplinary discovery": [
+      "interdisciplinary-discovery"
+    ],
+    "interference phenomena": [
+      "interference-phenomena"
+    ],
+    "interference-phenomena": [
+      "interference-phenomena"
+    ],
+    "internal energy hierarchy": [
+      "internal-energy-hierarchy"
+    ],
+    "internal-energy-hierarchy": [
+      "internal-energy-hierarchy"
+    ],
+    "international celestial reference frame": [
+      "international-celestial-reference-frame"
+    ],
+    "international celestial reference system": [
+      "international-celestial-reference-system"
+    ],
+    "international-celestial-reference-frame": [
+      "international-celestial-reference-frame"
+    ],
+    "international-celestial-reference-system": [
+      "international-celestial-reference-system"
+    ],
+    "interplanar distance ladder": [
+      "interplanar-distance-ladder"
+    ],
+    "interplanar quantization": [
+      "interplanar-quantization"
+    ],
+    "interplanar-distance-ladder": [
+      "interplanar-distance-ladder"
+    ],
+    "interplanar-quantization": [
+      "interplanar-quantization"
+    ],
+    "intersection distribution": [
+      "intersection-distribution"
+    ],
+    "intersection-distribution": [
+      "intersection-distribution"
+    ],
+    "jack jacobian": [
+      "jack-jacobian"
+    ],
+    "jack-jacobian": [
+      "jack-jacobian"
+    ],
+    "json companion": [
+      "json-machine-readable-companion"
+    ],
+    "json machine readable companion": [
+      "json-machine-readable-companion"
+    ],
+    "json-machine-readable-companion": [
+      "json-machine-readable-companion"
+    ],
+    "k field": [
+      "quantum-k-field"
+    ],
+    "k field 101": [
+      "lecture-series"
+    ],
+    "k field 101 lecture series": [
+      "lecture-series"
+    ],
+    "k field converged closure": [
+      "converged-closure"
+    ],
+    "k field research": [
+      "quantum-k-field"
+    ],
+    "kepler camera comparison": [
+      "kepler-comparison"
+    ],
+    "kepler camera geometry": [
+      "kepler-camera-geometry"
+    ],
+    "kepler comparison": [
+      "kepler-comparison"
+    ],
+    "kepler-camera-geometry": [
+      "kepler-camera-geometry"
+    ],
+    "kepler-comparison": [
+      "kepler-comparison"
+    ],
+    "keyword index": [
+      "keyword-index"
+    ],
+    "keyword-index": [
+      "keyword-index"
+    ],
+    "kfield": [
+      "quantum-k-field"
+    ],
+    "kinetic mass": [
+      "kinetic-mass"
+    ],
+    "kinetic-mass": [
+      "kinetic-mass"
+    ],
+    "krytronx": [
+      "krytronx"
+    ],
+    "krytronx llc": [
+      "krytronx"
+    ],
+    "laerl force": [
+      "lateral-force"
+    ],
+    "lateral force": [
+      "lateral-force"
+    ],
+    "lateral-force": [
+      "lateral-force"
+    ],
+    "lattice": [
+      "lattice"
+    ],
+    "laws of physics": [
+      "physical-law"
+    ],
+    "lecture series": [
+      "lecture-series"
+    ],
+    "lecture-series": [
+      "lecture-series"
+    ],
+    "linear inertia": [
+      "linear-inertia"
+    ],
+    "linear-inertia": [
+      "linear-inertia"
+    ],
+    "long duration time series": [
+      "long-duration-time-series"
+    ],
+    "long-duration-time-series": [
+      "long-duration-time-series"
+    ],
+    "lucas limit": [
+      "lucas-limit"
+    ],
+    "lucas spectrum": [
+      "lucas-spectrum"
+    ],
+    "lucas supergroup": [
+      "lucas-supergroup"
+    ],
+    "lucas-limit": [
+      "lucas-limit"
+    ],
+    "lucas-spectrum": [
+      "lucas-spectrum"
+    ],
+    "lucas-supergroup": [
+      "lucas-supergroup"
+    ],
+    "lunar transit analysis": [
+      "lunar-transit-analysis"
+    ],
+    "lunar-transit-analysis": [
+      "lunar-transit-analysis"
+    ],
+    "machine readable companion": [
+      "machine-readable-companion"
+    ],
+    "machine-readable-companion": [
+      "machine-readable-companion"
+    ],
+    "manifold learning": [
+      "manifold-learning"
+    ],
+    "manifold-learning": [
+      "manifold-learning"
+    ],
+    "mass bridge": [
+      "mass-bridge"
+    ],
+    "mass bridge triangle": [
+      "mass-bridge"
+    ],
+    "mass coupling factor": [
+      "mass-coupling-factor"
+    ],
+    "mass-bridge": [
+      "mass-bridge"
+    ],
+    "mass-coupling-factor": [
+      "mass-coupling-factor"
+    ],
+    "materials physics": [
+      "materials-physics"
+    ],
+    "materials-physics": [
+      "materials-physics"
+    ],
+    "maximum residual closed route": [
+      "maximum-residual-route"
+    ],
+    "maximum residual route": [
+      "maximum-residual-route"
+    ],
+    "maximum-residual-route": [
+      "maximum-residual-route"
+    ],
+    "me v": [
+      "millielectronvolt"
+    ],
+    "media and press materials": [
+      "media-press"
+    ],
+    "media press": [
+      "media-press"
+    ],
+    "media-press": [
+      "media-press"
+    ],
+    "megahertz": [
+      "megahertz"
+    ],
+    "metamaterials": [
+      "metamaterials"
+    ],
+    "mhz": [
+      "megahertz"
+    ],
+    "millielectronvolt": [
+      "millielectronvolt"
+    ],
+    "minimal complete reconstruction kernel": [
+      "reconstruction-kernel"
+    ],
+    "moving average": [
+      "moving-average"
+    ],
+    "moving standard deviation": [
+      "rolling-standard-deviation"
+    ],
+    "moving-average": [
+      "moving-average"
+    ],
+    "movmean": [
+      "moving-average"
+    ],
+    "movstd": [
+      "rolling-standard-deviation"
+    ],
+    "multiscale signal structure": [
+      "multiscale-signal-structure"
+    ],
+    "multiscale-signal-structure": [
+      "multiscale-signal-structure"
+    ],
+    "my clear": [
+      "clear-channel"
+    ],
+    "nanometer": [
+      "nanometre"
+    ],
+    "nanometre": [
+      "nanometre"
+    ],
+    "navigation science": [
+      "navigation-science"
+    ],
+    "navigation-science": [
+      "navigation-science"
+    ],
+    "near infrared": [
+      "near-infrared"
+    ],
+    "near lock face angle": [
+      "face-angle"
+    ],
+    "near-infrared": [
+      "near-infrared"
+    ],
+    "net force vector": [
+      "net-force-vector"
+    ],
+    "net-force-vector": [
+      "net-force-vector"
+    ],
+    "new discoveries": [
+      "new-discoveries"
+    ],
+    "new-discoveries": [
+      "new-discoveries"
+    ],
+    "nir": [
+      "near-infrared"
+    ],
+    "nm": [
+      "nanometre"
+    ],
+    "nonlinear dimensionality reduction": [
+      "nonlinear-dimensionality-reduction"
+    ],
+    "nonlinear signal processing": [
+      "nonlinear-signal-processing"
+    ],
+    "nonlinear-dimensionality-reduction": [
+      "nonlinear-dimensionality-reduction"
+    ],
+    "nonlinear-signal-processing": [
+      "nonlinear-signal-processing"
+    ],
+    "observer dependent rendering": [
+      "observer-dependent-rendering"
+    ],
+    "observer rendering": [
+      "observer-dependent-rendering"
+    ],
+    "observer trajectory": [
+      "observer-trajectory"
+    ],
+    "observer-dependent-rendering": [
+      "observer-dependent-rendering"
+    ],
+    "observer-trajectory": [
+      "observer-trajectory"
+    ],
+    "ocxo": [
+      "oven-controlled-crystal-oscillator"
+    ],
+    "ocxo signal analysis": [
+      "ocxo-signal-analysis"
+    ],
+    "ontological approaches": [
+      "ontology"
+    ],
+    "ontology": [
+      "ontology"
+    ],
+    "open scientific software": [
+      "open-scientific-software"
+    ],
+    "open-scientific-software": [
+      "open-scientific-software"
+    ],
+    "orientation dependent phenomena": [
+      "orientation-dependent-phenomena"
+    ],
+    "orientation-dependent-phenomena": [
+      "orientation-dependent-phenomena"
+    ],
+    "orthogonal sensor geometry": [
+      "orthogonal-sensor-geometry"
+    ],
+    "orthogonal-sensor-geometry": [
+      "orthogonal-sensor-geometry"
+    ],
+    "oscillator metrology": [
+      "oscillator-metrology"
+    ],
+    "oscillator-metrology": [
+      "oscillator-metrology"
+    ],
+    "oven controlled crystal oscillator": [
+      "oven-controlled-crystal-oscillator"
+    ],
+    "oven controlled crystal oscillator signal analysis": [
+      "ocxo-signal-analysis"
+    ],
+    "oven-controlled-crystal-oscillator": [
+      "oven-controlled-crystal-oscillator"
+    ],
+    "over determined derivation chain": [
+      "overdetermined-derivation"
+    ],
+    "overdetermined derivation": [
+      "overdetermined-derivation"
+    ],
+    "overdetermined derivation chain": [
+      "overdetermined-derivation"
+    ],
+    "overdetermined-derivation": [
+      "overdetermined-derivation"
+    ],
+    "p dwayne esterline": [
+      "dwayne-esterline"
+    ],
+    "p. dwayne esterline": [
+      "dwayne-esterline"
+    ],
+    "palindromic sequences": [
+      "palindromic-sequences"
+    ],
+    "palindromic-sequences": [
+      "palindromic-sequences"
+    ],
+    "path cost": [
+      "path-cost"
+    ],
+    "path-cost": [
+      "path-cost"
+    ],
+    "pattern discovery": [
+      "pattern-discovery"
+    ],
+    "pattern-discovery": [
+      "pattern-discovery"
+    ],
+    "pca": [
+      "principal-component-analysis"
+    ],
+    "pdf archival report": [
+      "pdf-archival-report"
+    ],
+    "pdf report": [
+      "pdf-archival-report"
+    ],
+    "pdf-archival-report": [
+      "pdf-archival-report"
+    ],
+    "periodic sequence detection": [
+      "periodic-sequence-detection"
+    ],
+    "periodic-sequence-detection": [
+      "periodic-sequence-detection"
+    ],
+    "phase cost surface": [
+      "phase-cost-surface"
+    ],
+    "phase governing rules": [
+      "phase-governing-rules"
+    ],
+    "phase metrology": [
+      "phase-metrology"
+    ],
+    "phase reversal detection": [
+      "phase-reversal-detection"
+    ],
+    "phase ruler": [
+      "phase-ruler"
+    ],
+    "phase shift": [
+      "phase-shift"
+    ],
+    "phase unwrapping": [
+      "phase-unwrapping"
+    ],
+    "phase-cost-surface": [
+      "phase-cost-surface"
+    ],
+    "phase-governing-rules": [
+      "phase-governing-rules"
+    ],
+    "phase-metrology": [
+      "phase-metrology"
+    ],
+    "phase-reversal-detection": [
+      "phase-reversal-detection"
+    ],
+    "phase-ruler": [
+      "phase-ruler"
+    ],
+    "phase-shift": [
+      "phase-shift"
+    ],
+    "phase-unwrapping": [
+      "phase-unwrapping"
+    ],
+    "photon energy": [
+      "photon-energy"
+    ],
+    "photon energy mapping": [
+      "photon-energy-mapping"
+    ],
+    "photon-energy": [
+      "photon-energy"
+    ],
+    "photon-energy-mapping": [
+      "photon-energy-mapping"
+    ],
+    "photonic structures": [
+      "photonic-structures"
+    ],
+    "photonic-structures": [
+      "photonic-structures"
+    ],
+    "physical constants": [
+      "physical-constants"
+    ],
+    "physical dependency system": [
+      "dependency-system"
+    ],
+    "physical law": [
+      "physical-law"
+    ],
+    "physical law dependency system": [
+      "physical-law"
+    ],
+    "physical-constants": [
+      "physical-constants"
+    ],
+    "physical-law": [
+      "physical-law"
+    ],
+    "physics informed data science": [
+      "physics-informed-data-science"
+    ],
+    "physics-informed-data-science": [
+      "physics-informed-data-science"
+    ],
+    "pi": [
+      "principal-investigator"
+    ],
+    "pic": [
+      "capture-identifier"
+    ],
+    "pic id": [
+      "capture-identifier"
+    ],
+    "pic id 14c": [
+      "pic-id14c-dataset"
+    ],
+    "pic id 14e": [
+      "pic-id14e-dataset"
+    ],
+    "pic id14c": [
+      "pic-id14c-dataset"
+    ],
+    "pic id14c dataset": [
+      "pic-id14c-dataset"
+    ],
+    "pic id14e": [
+      "pic-id14e-dataset"
+    ],
+    "pic id14e dataset": [
+      "pic-id14e-dataset"
+    ],
+    "picture identifier": [
+      "capture-identifier"
+    ],
+    "planar field structure": [
+      "planar-field-structure"
+    ],
+    "planar structure": [
+      "planar-field-structure"
+    ],
+    "planar-field-structure": [
+      "planar-field-structure"
+    ],
+    "plane inersection distribution": [
+      "intersection-distribution"
+    ],
+    "plane intersection distribution": [
+      "intersection-distribution"
+    ],
+    "plane normal": [
+      "plane-normal"
+    ],
+    "plane normal axis": [
+      "plane-normal"
+    ],
+    "plane structure": [
+      "planar-field-structure"
+    ],
+    "plane system": [
+      "plane-system"
+    ],
+    "plane systems": [
+      "plane-system"
+    ],
+    "plane-normal": [
+      "plane-normal"
+    ],
+    "plane-system": [
+      "plane-system"
+    ],
+    "planetary transit analysis": [
+      "planetary-transit-analysis"
+    ],
+    "planetary-transit-analysis": [
+      "planetary-transit-analysis"
+    ],
+    "polar energy map": [
+      "polar-energy-map"
+    ],
+    "polar-energy-map": [
+      "polar-energy-map"
+    ],
+    "polarity laws": [
+      "polarity-laws"
+    ],
+    "polarity-laws": [
+      "polarity-laws"
+    ],
+    "polarization structure": [
+      "polarization-structure"
+    ],
+    "polarization-structure": [
+      "polarization-structure"
+    ],
+    "precession": [
+      "precession"
+    ],
+    "precision metrology": [
+      "precision-metrology"
+    ],
+    "precision timing": [
+      "precision-timing"
+    ],
+    "precision timing reference": [
+      "precision-timing-reference"
+    ],
+    "precision-metrology": [
+      "precision-metrology"
+    ],
+    "precision-timing": [
+      "precision-timing"
+    ],
+    "precision-timing-reference": [
+      "precision-timing-reference"
+    ],
+    "principal component analysis": [
+      "principal-component-analysis"
+    ],
+    "principal investigator": [
+      "principal-investigator"
+    ],
+    "principal-component-analysis": [
+      "principal-component-analysis"
+    ],
+    "principal-investigator": [
+      "principal-investigator"
+    ],
+    "projective exterior lattice": [
+      "exterior-lattice"
+    ],
+    "projective geometry": [
+      "projective-geometry"
+    ],
+    "projective ratio system": [
+      "projective-geometry"
+    ],
+    "projective-geometry": [
+      "projective-geometry"
+    ],
+    "propagation experiment": [
+      "propagation-experiment"
+    ],
+    "propagation-experiment": [
+      "propagation-experiment"
+    ],
+    "proton electron mass ratio": [
+      "proton-electron-mass-ratio"
+    ],
+    "proton-electron-mass-ratio": [
+      "proton-electron-mass-ratio"
+    ],
+    "public archive": [
+      "public-research-archive"
+    ],
+    "public release": [
+      "public-research-archive"
+    ],
+    "public research archive": [
+      "public-research-archive"
+    ],
+    "public-research-archive": [
+      "public-research-archive"
+    ],
+    "q spectrum": [
+      "q-spectrum"
+    ],
+    "q-spectrum": [
+      "q-spectrum"
+    ],
+    "quantized interplanar distance": [
+      "interplanar-quantization"
+    ],
+    "quantized interplanar distance ladder": [
+      "interplanar-distance-ladder"
+    ],
+    "quantum geometry": [
+      "quantum-geometry"
+    ],
+    "quantum gravity": [
+      "quantum-gravity"
+    ],
+    "quantum k field": [
+      "quantum-k-field"
+    ],
+    "quantum k field public release": [
+      "public-research-archive"
+    ],
+    "quantum optics": [
+      "quantum-optics"
+    ],
+    "quantum sensing": [
+      "quantum-sensing"
+    ],
+    "quantum spacetime": [
+      "quantum-spacetime"
+    ],
+    "quantum substrate": [
+      "quantum-substrate"
+    ],
+    "quantum-geometry": [
+      "quantum-geometry"
+    ],
+    "quantum-gravity": [
+      "quantum-gravity"
+    ],
+    "quantum-k-field": [
+      "quantum-k-field"
+    ],
+    "quantum-optics": [
+      "quantum-optics"
+    ],
+    "quantum-sensing": [
+      "quantum-sensing"
+    ],
+    "quantum-spacetime": [
+      "quantum-spacetime"
+    ],
+    "quantum-substrate": [
+      "quantum-substrate"
+    ],
+    "r.a.": [
+      "right-ascension"
+    ],
+    "ra": [
+      "right-ascension"
+    ],
+    "recip": [
+      "reciprocal-stack"
+    ],
+    "recip stack": [
+      "reciprocal-stack"
+    ],
+    "reciprocal basis": [
+      "reciprocal-basis"
+    ],
+    "reciprocal field": [
+      "reciprocal-geometry"
+    ],
+    "reciprocal geometry": [
+      "reciprocal-geometry"
+    ],
+    "reciprocal stack": [
+      "reciprocal-stack"
+    ],
+    "reciprocal-basis": [
+      "reciprocal-basis"
+    ],
+    "reciprocal-geometry": [
+      "reciprocal-geometry"
+    ],
+    "reconstruction kernel": [
+      "reconstruction-kernel"
+    ],
+    "reconstruction-kernel": [
+      "reconstruction-kernel"
+    ],
+    "recurrence analysis": [
+      "recurrence-analysis"
+    ],
+    "recurrence-analysis": [
+      "recurrence-analysis"
+    ],
+    "recursive audit": [
+      "hostile-audit"
+    ],
+    "recursive audit report": [
+      "hostile-audit"
+    ],
+    "recursive geometry": [
+      "recursive-geometry"
+    ],
+    "recursive lucas spectrum": [
+      "lucas-spectrum"
+    ],
+    "recursive-geometry": [
+      "recursive-geometry"
+    ],
+    "relativistic reference frames": [
+      "relativistic-reference-frames"
+    ],
+    "relativistic-reference-frames": [
+      "relativistic-reference-frames"
+    ],
+    "reproducible research": [
+      "reproducible-research"
+    ],
+    "reproducible-research": [
+      "reproducible-research"
+    ],
+    "research catalog": [
+      "research-catalog"
+    ],
+    "research provenance": [
+      "research-provenance"
+    ],
+    "research-catalog": [
+      "research-catalog"
+    ],
+    "research-provenance": [
+      "research-provenance"
+    ],
+    "residual shell": [
+      "residual-shell-structure"
+    ],
+    "residual shell structure": [
+      "residual-shell-structure"
+    ],
+    "residual-shell-structure": [
+      "residual-shell-structure"
+    ],
+    "resonance structure": [
+      "resonance-structure"
+    ],
+    "resonance-structure": [
+      "resonance-structure"
+    ],
+    "right ascension": [
+      "right-ascension"
+    ],
+    "rod material comparison": [
+      "rod-material-comparison"
+    ],
+    "rod-material-comparison": [
+      "rod-material-comparison"
+    ],
+    "rolling standard deviation": [
+      "rolling-standard-deviation"
+    ],
+    "rolling-standard-deviation": [
+      "rolling-standard-deviation"
+    ],
+    "rotating sphere": [
+      "rotating-sphere"
+    ],
+    "rotating-sphere": [
+      "rotating-sphere"
+    ],
+    "rotation coupled measurement": [
+      "rotation-coupled-measurement"
+    ],
+    "rotation period": [
+      "rotation-period"
+    ],
+    "rotation-coupled-measurement": [
+      "rotation-coupled-measurement"
+    ],
+    "rotation-period": [
+      "rotation-period"
+    ],
+    "rotor": [
+      "rotor"
+    ],
+    "rydberg constant": [
+      "rydberg-constant"
+    ],
+    "rydberg-constant": [
+      "rydberg-constant"
+    ],
+    "sci ml": [
+      "scientific-machine-learning"
+    ],
+    "scientific machine learning": [
+      "scientific-machine-learning"
+    ],
+    "scientific-machine-learning": [
+      "scientific-machine-learning"
+    ],
+    "sensor fusion": [
+      "sensor-fusion"
+    ],
+    "sensor geometry": [
+      "sensor-geometry"
+    ],
+    "sensor-fusion": [
+      "sensor-fusion"
+    ],
+    "sensor-geometry": [
+      "sensor-geometry"
+    ],
+    "serialized spectral address space": [
+      "serialized-spectral-address-space"
+    ],
+    "serialized-spectral-address-space": [
+      "serialized-spectral-address-space"
+    ],
+    "sga": [
+      "siena-galaxy-atlas"
+    ],
+    "sga 2020": [
+      "siena-galaxy-atlas"
+    ],
+    "sha 256 checksum": [
+      "sha-256-checksum"
+    ],
+    "sha-256-checksum": [
+      "sha-256-checksum"
+    ],
+    "sha256": [
+      "sha-256-checksum"
+    ],
+    "shell coherence": [
+      "shell-coherence"
+    ],
+    "shell-coherence": [
+      "shell-coherence"
+    ],
+    "siena galaxy atlas": [
+      "siena-galaxy-atlas"
+    ],
+    "siena-galaxy-atlas": [
+      "siena-galaxy-atlas"
+    ],
+    "signal processing": [
+      "signal-processing"
+    ],
+    "signal-processing": [
+      "signal-processing"
+    ],
+    "societal benefits": [
+      "societal-benefits"
+    ],
+    "societal-benefits": [
+      "societal-benefits"
+    ],
+    "solar system coupling": [
+      "solar-system-coupling"
+    ],
+    "solar system rotation harmonics": [
+      "solar-system-rotation-harmonics"
+    ],
+    "solar system rotation period harmonic ladder": [
+      "solar-system-rotation-harmonics"
+    ],
+    "solar transit analysis": [
+      "solar-transit-analysis"
+    ],
+    "solar-system-coupling": [
+      "solar-system-coupling"
+    ],
+    "solar-system-rotation-harmonics": [
+      "solar-system-rotation-harmonics"
+    ],
+    "solar-transit-analysis": [
+      "solar-transit-analysis"
+    ],
+    "solid rod": [
+      "solid-rod"
+    ],
+    "solid-rod": [
+      "solid-rod"
+    ],
+    "source data archive": [
+      "source-data-archive"
+    ],
+    "source-data-archive": [
+      "source-data-archive"
+    ],
+    "space physics": [
+      "space-physics"
+    ],
+    "space-physics": [
+      "space-physics"
+    ],
+    "spectral channel coupling": [
+      "spectral-channel-coupling"
+    ],
+    "spectral coherence": [
+      "spectral-coherence"
+    ],
+    "spectral-channel-coupling": [
+      "spectral-channel-coupling"
+    ],
+    "spectral-coherence": [
+      "spectral-coherence"
+    ],
+    "spectrometer": [
+      "spectrometer"
+    ],
+    "spectrophotometer": [
+      "spectrophotometer"
+    ],
+    "spectrophotometer studies": [
+      "spectrophotometry"
+    ],
+    "spectrophotometry": [
+      "spectrophotometry"
+    ],
+    "spectrophtometer": [
+      "spectrophotometer"
+    ],
+    "spectrophtometry": [
+      "spectrophotometry"
+    ],
+    "spherical beat energy": [
+      "spherical-beat-energy"
+    ],
+    "spherical beat photon energy analysis": [
+      "spherical-beat-energy"
+    ],
+    "spherical coherence": [
+      "spherical-coherence"
+    ],
+    "spherical-beat-energy": [
+      "spherical-beat-energy"
+    ],
+    "spherical-coherence": [
+      "spherical-coherence"
+    ],
+    "spheroical coherence": [
+      "spherical-coherence"
+    ],
+    "spheroidal coherence": [
+      "spherical-coherence"
+    ],
+    "spin reversal": [
+      "spin-reversal"
+    ],
+    "spin-reversal": [
+      "spin-reversal"
+    ],
+    "step by step derivation": [
+      "step-by-step-derivation"
+    ],
+    "step-by-step-derivation": [
+      "step-by-step-derivation"
+    ],
+    "structured vacuum": [
+      "structured-vacuum"
+    ],
+    "structured-vacuum": [
+      "structured-vacuum"
+    ],
+    "student reconstruction": [
+      "student-reconstruction"
+    ],
+    "student reconstruction process": [
+      "student-reconstruction"
+    ],
+    "student-reconstruction": [
+      "student-reconstruction"
+    ],
+    "substrate beneath known physics": [
+      "quantum-substrate"
+    ],
+    "system inversion": [
+      "system-inversion"
+    ],
+    "system-inversion": [
+      "system-inversion"
+    ],
+    "systems engineering": [
+      "systems-engineering"
+    ],
+    "systems-engineering": [
+      "systems-engineering"
+    ],
+    "tda": [
+      "topological-data-analysis"
+    ],
+    "terminology": [
+      "terminology"
+    ],
+    "textbook series": [
+      "textbook-series"
+    ],
+    "textbook-series": [
+      "textbook-series"
+    ],
+    "thermal chamber": [
+      "thermal-chamber"
+    ],
+    "thermal stability": [
+      "thermal-stability"
+    ],
+    "thermal-chamber": [
+      "thermal-chamber"
+    ],
+    "thermal-stability": [
+      "thermal-stability"
+    ],
+    "thruster": [
+      "thruster"
+    ],
+    "time force dependency": [
+      "time-force-dependency"
+    ],
+    "time frequency analysis": [
+      "time-frequency-analysis"
+    ],
+    "time-force-dependency": [
+      "time-force-dependency"
+    ],
+    "time-frequency-analysis": [
+      "time-frequency-analysis"
+    ],
+    "topic taxonomy": [
+      "topic-taxonomy"
+    ],
+    "topic-taxonomy": [
+      "topic-taxonomy"
+    ],
+    "topological data analysis": [
+      "topological-data-analysis"
+    ],
+    "topological-data-analysis": [
+      "topological-data-analysis"
+    ],
+    "total variation path cost": [
+      "path-cost"
+    ],
+    "training set": [
+      "training-set"
+    ],
+    "training-set": [
+      "training-set"
+    ],
+    "tube": [
+      "tube"
+    ],
+    "tubular rotor": [
+      "tubular-rotor"
+    ],
+    "tubular-rotor": [
+      "tubular-rotor"
+    ],
+    "twenty nine locks": [
+      "twenty-nine-locks"
+    ],
+    "twenty-nine-locks": [
+      "twenty-nine-locks"
+    ],
+    "typed graph": [
+      "unified-typed-graph"
+    ],
+    "unified typed graph": [
+      "unified-typed-graph"
+    ],
+    "unified-typed-graph": [
+      "unified-typed-graph"
+    ],
+    "unit sphere": [
+      "unit-sphere"
+    ],
+    "unit-sphere": [
+      "unit-sphere"
+    ],
+    "utc": [
+      "coordinated-universal-time"
+    ],
+    "vacuum impedance": [
+      "vacuum-impedance"
+    ],
+    "vacuum microstructure": [
+      "vacuum-microstructure"
+    ],
+    "vacuum structure": [
+      "structured-vacuum"
+    ],
+    "vacuum-impedance": [
+      "vacuum-impedance"
+    ],
+    "vacuum-microstructure": [
+      "vacuum-microstructure"
+    ],
+    "vector signal reconstruction": [
+      "vector-signal-reconstruction"
+    ],
+    "vector-signal-reconstruction": [
+      "vector-signal-reconstruction"
+    ],
+    "visible spectrum": [
+      "visible-spectrum"
+    ],
+    "visible-spectrum": [
+      "visible-spectrum"
+    ],
+    "volume filling hierarchy": [
+      "volume-filling-hierarchy"
+    ],
+    "volume-filling-hierarchy": [
+      "volume-filling-hierarchy"
+    ],
+    "wave propagation": [
+      "wave-propagation"
+    ],
+    "wave-propagation": [
+      "wave-propagation"
+    ],
+    "wavelength": [
+      "wavelength"
+    ],
+    "wavelet analysis": [
+      "wavelet-analysis"
+    ],
+    "wavelet-analysis": [
+      "wavelet-analysis"
+    ],
+    "windmill": [
+      "windmill"
+    ]
+  }
+}

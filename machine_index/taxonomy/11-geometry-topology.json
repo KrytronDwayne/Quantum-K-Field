@@ -1,0 +1,1021 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:geometry_topology",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "geometry_topology",
+    "order": 10
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 34,
+  "records": [
+    {
+      "id": "antipodal-doublet",
+      "label": "Antipodal Doublet",
+      "category": "geometry_topology",
+      "definition": "Paired counter-rotating or opposite-direction structure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.json",
+        "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.pdf"
+      ]
+    },
+    {
+      "id": "antipodal-symmetry",
+      "label": "Antipodal Symmetry",
+      "category": "geometry_topology",
+      "definition": "Relationship between opposite directions on a sphere or rotation.",
+      "aliases": [
+        "antipodal structure"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.json",
+        "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.pdf"
+      ]
+    },
+    {
+      "id": "basis",
+      "label": "Basis",
+      "category": "geometry_topology",
+      "definition": "Set of vectors spanning the Cell3 or related geometric space.",
+      "aliases": [
+        "basis matrix"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "directional-coupling",
+      "label": "Directional Coupling",
+      "category": "geometry_topology",
+      "definition": "Coupling that depends on direction or orientation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "dual-face",
+      "label": "Dual Face",
+      "category": "geometry_topology",
+      "definition": "Pair of vectors or edges defining a measured or predicted face.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "face-angle",
+      "label": "Face Angle",
+      "category": "geometry_topology",
+      "definition": "Included angle between geometric faces or face-defining vectors.",
+      "aliases": [
+        "near-lock face angle"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.json",
+        "Spectrophotometer_Studies/K-Field_cell3_to_spectrophotometer_near_lock_face_angle_1785939329.pdf"
+      ]
+    },
+    {
+      "id": "field-anisotropy",
+      "label": "Field Anisotropy",
+      "category": "geometry_topology",
+      "definition": "Directional nonuniformity attributed to field structure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "field-topology",
+      "label": "Field Topology",
+      "category": "geometry_topology",
+      "definition": "Topological organization of the K-Field and associated structures.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "boundary-graph",
+      "label": "Finite Boundary Graph",
+      "category": "geometry_topology",
+      "definition": "Finite graph representing a bounded geometric structure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "shell-coherence",
+      "label": "Galaxy Shell Coherence",
+      "category": "geometry_topology",
+      "definition": "Coherence between K-Field geometry and galaxy-shell structure.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Galaxy_Analysis/K-Field_and_Galaxy_shell_coherence_1783992215.pdf",
+        "Galaxy_Analysis/K-Field_cel3_and_Galaxy_shell_coherence_1784030762.pdf"
+      ]
+    },
+    {
+      "id": "gram-tensor",
+      "label": "Gram Tensor",
+      "category": "geometry_topology",
+      "definition": "Matrix of inner products used to compare geometric structures.",
+      "aliases": [
+        "Gram matrix"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "hidden-relations",
+      "label": "Hidden Relations",
+      "category": "geometry_topology",
+      "definition": "Non-obvious projective or geometric relationships.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-k-field"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "reproducible-research"
+      ],
+      "source_path_patterns": [
+        "**/*"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.json",
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.pdf"
+      ]
+    },
+    {
+      "id": "interplanar-distance-ladder",
+      "label": "Interplanar Distance Ladder",
+      "category": "geometry_topology",
+      "definition": "Ordered sequence of interplanar distances.",
+      "aliases": [
+        "quantized interplanar distance ladder"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.json",
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.json",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf"
+      ]
+    },
+    {
+      "id": "interplanar-quantization",
+      "label": "Interplanar Quantization",
+      "category": "geometry_topology",
+      "definition": "Quantized spacing or relationships between planes.",
+      "aliases": [
+        "quantized interplanar distance"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.json",
+        "Spectrophotometer_Studies/K-Field_cell3_vs_spectrophotometer_quantized_interplanar_distance_ladder_1785507240.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.json",
+        "Spectrophotometer_Studies/K-Field_spectrophotometer_quantized_interplanar_distance_ladder_1785505620.pdf"
+      ]
+    },
+    {
+      "id": "lattice",
+      "label": "Lattice",
+      "category": "geometry_topology",
+      "definition": "Repeated geometric structure or grid-like organization.",
+      "aliases": [
+        "field lattice"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.json",
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.pdf"
+      ]
+    },
+    {
+      "id": "orientation-dependent-phenomena",
+      "label": "Orientation-Dependent Phenomena",
+      "category": "geometry_topology",
+      "definition": "Measured effects that vary with instrument or observer orientation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "planar-field-structure",
+      "label": "Planar Field Structure",
+      "category": "geometry_topology",
+      "definition": "Field represented through intersecting or repeated planes.",
+      "aliases": [
+        "planar structure",
+        "plane structure"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.json",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_pic_id14E_analysis_exposed_plane_structure_1785932820.pdf"
+      ]
+    },
+    {
+      "id": "intersection-distribution",
+      "label": "Plane Intersection Distribution",
+      "category": "geometry_topology",
+      "definition": "Distribution of intersections among galaxy-derived or K-Field planes.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [
+        "plane inersection distribution"
+      ],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.json",
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734315.pdf",
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.json",
+        "Galaxy_Analysis/K-Field_galaxy_plane_inersection_distribution_analysis_1784734340.pdf"
+      ]
+    },
+    {
+      "id": "plane-normal",
+      "label": "Plane Normal",
+      "category": "geometry_topology",
+      "definition": "Vector normal to a plane, used for orientation and crossing analysis.",
+      "aliases": [
+        "plane-normal axis"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "plane-system",
+      "label": "Plane System",
+      "category": "geometry_topology",
+      "definition": "A family of related planes derived or analyzed as a system.",
+      "aliases": [
+        "plane systems"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "polarity-laws",
+      "label": "Polarity Laws",
+      "category": "geometry_topology",
+      "definition": "Rules governing polarity relationships in the Lucas branch.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "polarization-structure",
+      "label": "Polarization Structure",
+      "category": "geometry_topology",
+      "definition": "Directional or phase structure described using polarization.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "exterior-lattice",
+      "label": "Projective Exterior Lattice",
+      "category": "geometry_topology",
+      "definition": "Archive term for a projective exterior lattice and its hidden relations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.json",
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.pdf"
+      ]
+    },
+    {
+      "id": "projective-geometry",
+      "label": "Projective Geometry",
+      "category": "geometry_topology",
+      "definition": "Projective relationships used to connect geometric ratios and structures.",
+      "aliases": [
+        "projective ratio system"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592.json",
+        "Discovered_Pathways/K-Field_Mass-Bridge_is_now_a_locked_projective_ratio_system_1785176592.pdf",
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.json",
+        "Discovered_Pathways/K-Field_as_projective_exterior_lattice_hidden_relations_1784897464.pdf"
+      ]
+    },
+    {
+      "id": "q-spectrum",
+      "label": "q-Spectrum",
+      "category": "geometry_topology",
+      "definition": "The q-indexed spectrum named in the Lucas Limit branch.",
+      "aliases": [
+        "q spectrum"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "quantum-geometry",
+      "label": "Quantum Geometry",
+      "category": "geometry_topology",
+      "definition": "Geometric organization at quantum or foundational scales.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "foundational-physics"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "reciprocal-basis",
+      "label": "Reciprocal Basis",
+      "category": "geometry_topology",
+      "definition": "Dual basis associated with the Cell3 basis.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "reciprocal-geometry",
+      "label": "Reciprocal Geometry",
+      "category": "geometry_topology",
+      "definition": "Geometry based on reciprocal bases, inverse relations, or dual structures.",
+      "aliases": [
+        "reciprocal field"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.json",
+        "Discovered_Pathways/K-Field_Lucas_Supergroup_exact_deterministic_reciprocal_field_spectrum_1785237526.pdf"
+      ]
+    },
+    {
+      "aliases": [
+        "recip stack"
+      ],
+      "abbreviations": [
+        "recip"
+      ],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "reciprocal-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell0",
+        "cell3"
+      ],
+      "source_path_patterns": [
+        "Student_reconstruction_process/Galax_Derivation_Methods/**"
+      ],
+      "search_phrases": [
+        "reciprocal stack galaxy derivation"
+      ],
+      "status": "archive_term",
+      "archive_paths": [],
+      "id": "reciprocal-stack",
+      "label": "Reciprocal Stack",
+      "category": "geometry_topology",
+      "definition": "Stacked reciprocal construction used in a Cell0-to-Cell3 reconstruction pathway."
+    },
+    {
+      "id": "recursive-geometry",
+      "label": "Recursive Geometry",
+      "category": "geometry_topology",
+      "definition": "Geometry generated by repeated application of structural rules.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "residual-shell-structure",
+      "label": "Residual-Shell Structure",
+      "category": "geometry_topology",
+      "definition": "Shell-like residual organization in the Lucas Limit.",
+      "aliases": [
+        "residual shell"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "spherical-coherence",
+      "label": "Spherical Coherence",
+      "category": "geometry_topology",
+      "definition": "Coherence assessed over a spherical or spheroidal representation.",
+      "aliases": [
+        "spheroidal coherence"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [
+        "spheroical coherence"
+      ],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.json",
+        "Spectrophotometer_Studies/K-Field_spectrophtometer_spheroical_coherence_1785873414.pdf"
+      ]
+    },
+    {
+      "id": "unit-sphere",
+      "label": "Unit Sphere",
+      "category": "geometry_topology",
+      "definition": "Spherical representation of orientations or signals with unit-radius angular coordinates.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "volume-filling-hierarchy",
+      "label": "Volume-Filling Hierarchy",
+      "category": "geometry_topology",
+      "definition": "Hierarchical organization that fills or partitions volume.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "quantum-geometry"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "field-topology"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "Galaxy_Analysis/**",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**",
+        "Typed_Graphs/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.json",
+        "Discovered_Pathways/K-Field_mass_bridge_drives_volume_filling_hierarchy_1785204375.pdf"
+      ]
+    }
+  ]
+}

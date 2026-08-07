@@ -1,0 +1,797 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:gravity_inertia_forces",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "gravity_inertia_forces",
+    "order": 11
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 27,
+  "records": [
+    {
+      "id": "apparent-weight-modulation",
+      "label": "Apparent Weight Modulation",
+      "category": "gravity_inertia_forces",
+      "definition": "Orientation- or rotation-dependent variation in apparent weight.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.json",
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf",
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.json",
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.pdf"
+      ]
+    },
+    {
+      "id": "armature",
+      "label": "Armature",
+      "category": "gravity_inertia_forces",
+      "definition": "Mechanical or electromagnetic moving component in a pumped system.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.json",
+        "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf"
+      ]
+    },
+    {
+      "id": "bullet-trajectory",
+      "label": "Bullet Trajectory Modulation",
+      "category": "gravity_inertia_forces",
+      "definition": "Analysis of trajectory modulation for a projectile.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.json",
+        "Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.pdf"
+      ]
+    },
+    {
+      "id": "windmill",
+      "label": "CMB Windmill",
+      "category": "gravity_inertia_forces",
+      "definition": "Archive term for a rotor interacting with Earth–CMB traversal.",
+      "aliases": [
+        "Earth CMB windmill"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf"
+      ]
+    },
+    {
+      "id": "concentric-rotor",
+      "label": "Concentric Rotor",
+      "category": "gravity_inertia_forces",
+      "definition": "Nested or coaxial rotor configuration.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json",
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf"
+      ]
+    },
+    {
+      "id": "counter-rotation",
+      "label": "Counter-Rotation",
+      "category": "gravity_inertia_forces",
+      "definition": "Oppositely rotating components or systems.",
+      "aliases": [
+        "counter-rotating system"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.json",
+        "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.pdf",
+        "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.json",
+        "Discovered_Pathways/K-Field_counter-rotating_system_is_an_antipodal_doublet_1785179808.pdf"
+      ]
+    },
+    {
+      "id": "drop-tower",
+      "label": "Drop Tower",
+      "category": "gravity_inertia_forces",
+      "definition": "Experimental environment used in rotating-flywheel literature review.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json",
+        "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf",
+        "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json",
+        "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf"
+      ]
+    },
+    {
+      "id": "dual-axis-kinetic-mass",
+      "label": "Dual-Axis Kinetic Mass",
+      "category": "gravity_inertia_forces",
+      "definition": "Kinetic-mass analysis involving two axes.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf"
+      ]
+    },
+    {
+      "id": "experimental-gravitation",
+      "label": "Experimental Gravitation",
+      "category": "gravity_inertia_forces",
+      "definition": "Experimental investigation of gravitationally related effects.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "flywheel",
+      "label": "Flywheel",
+      "category": "gravity_inertia_forces",
+      "definition": "Rotating mass used in force and drop-tower literature analyses.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.json",
+        "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.pdf",
+        "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.json",
+        "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.pdf"
+      ]
+    },
+    {
+      "id": "force-analysis",
+      "label": "Force Analysis",
+      "category": "gravity_inertia_forces",
+      "definition": "Calculation or interpretation of forces in K-Field device studies.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json",
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf",
+        "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.json",
+        "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.pdf",
+        "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.json",
+        "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.pdf",
+        "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.json",
+        "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf",
+        "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.json",
+        "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.pdf",
+        "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.json",
+        "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.pdf",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.pdf"
+      ]
+    },
+    {
+      "id": "free-space-force",
+      "label": "Free-Space Force",
+      "category": "gravity_inertia_forces",
+      "definition": "Force analysis for a system operating without a supporting medium.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "gravimetry",
+      "label": "Gravimetry",
+      "category": "gravity_inertia_forces",
+      "definition": "Precision measurement of gravitational acceleration or weight.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "gravity-analogue",
+      "label": "Gravity Analogue",
+      "category": "gravity_inertia_forces",
+      "definition": "Statistical inward-potential structure interpreted as a gravity analogue.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.json",
+        "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.pdf"
+      ]
+    },
+    {
+      "id": "gravity-structure",
+      "label": "Gravity Structure",
+      "category": "gravity_inertia_forces",
+      "definition": "Scalar or geometric organization associated with gravitation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.json",
+        "Discovered_Pathways/K-Field_statistical_inward_potential_gravity_analogue_1785206671.pdf"
+      ]
+    },
+    {
+      "id": "inertia",
+      "label": "Inertia",
+      "category": "gravity_inertia_forces",
+      "definition": "Resistance to acceleration and its proposed geometric derivation.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.json",
+        "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.pdf"
+      ]
+    },
+    {
+      "id": "kinetic-mass",
+      "label": "Kinetic Mass",
+      "category": "gravity_inertia_forces",
+      "definition": "Mass behavior analyzed in moving or rotating systems.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf"
+      ]
+    },
+    {
+      "id": "lateral-force",
+      "label": "Lateral Force",
+      "category": "gravity_inertia_forces",
+      "definition": "Force transverse to a primary motion or axis.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [
+        "laerl force"
+      ],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json",
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+        "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.json",
+        "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf",
+        "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.json",
+        "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.pdf"
+      ]
+    },
+    {
+      "id": "linear-inertia",
+      "label": "Linear Inertia",
+      "category": "gravity_inertia_forces",
+      "definition": "Archive derivation of inertia in linear motion.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.json",
+        "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.pdf"
+      ]
+    },
+    {
+      "id": "net-force-vector",
+      "label": "Net Force Vector",
+      "category": "gravity_inertia_forces",
+      "definition": "Vector sum of forces in a device or traversal model.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+        "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf"
+      ]
+    },
+    {
+      "id": "rotating-sphere",
+      "label": "Rotating Sphere",
+      "category": "gravity_inertia_forces",
+      "definition": "Rotational mechanics model or supplemental paper involving a sphere.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/supplemental_materials_rotating_sphere_paper.pdf"
+      ]
+    },
+    {
+      "id": "rotor",
+      "label": "Rotor",
+      "category": "gravity_inertia_forces",
+      "definition": "Rotating mechanical element in applied K-Field analyses.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.json",
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf",
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json",
+        "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.pdf",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.pdf"
+      ]
+    },
+    {
+      "id": "spin-reversal",
+      "label": "Spin Reversal",
+      "category": "gravity_inertia_forces",
+      "definition": "Reversal of rotation direction used as an experimental condition.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.json",
+        "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.pdf"
+      ]
+    },
+    {
+      "id": "system-inversion",
+      "label": "System Inversion",
+      "category": "gravity_inertia_forces",
+      "definition": "Inversion associated with a counter-rotating system.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.json",
+        "Discovered_Pathways/K-Field_counter-rotating_system_inversion_1785182637.pdf"
+      ]
+    },
+    {
+      "id": "thruster",
+      "label": "Thruster",
+      "category": "gravity_inertia_forces",
+      "definition": "Proposed propulsion device using multiple K-Field elements.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.json",
+        "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.pdf",
+        "Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.json",
+        "Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.pdf"
+      ]
+    },
+    {
+      "id": "time-force-dependency",
+      "label": "Time–Force Dependency",
+      "category": "gravity_inertia_forces",
+      "definition": "Dependence of predicted or measured force on time.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.json",
+        "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.pdf"
+      ]
+    },
+    {
+      "id": "tubular-rotor",
+      "label": "Tubular Rotor",
+      "category": "gravity_inertia_forces",
+      "definition": "Tube-shaped rotor used in force and traversal analyses.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "force-analysis"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cmb-velocity-vector",
+        "rotation-coupled-measurement"
+      ],
+      "source_path_patterns": [
+        "Applied_Devices_Analysis/**",
+        "Discovered_Pathways/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.pdf",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.json",
+        "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "artifacts:Assets",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Assets",
+    "order": 1
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 2,
+  "records": [
+    {
+      "path": "Assets/K-Field_Logo_20260806.png",
+      "directory": "Assets",
+      "filename": "K-Field_Logo_20260806.png",
+      "extension": "png",
+      "normalized_title": "k field logo 20260806",
+      "raw_keywords": [
+        "field",
+        "logo"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Assets/K-Field_Logo_20260806.png"
+    },
+    {
+      "path": "Assets/Quantum_K-Field_GitHub_Profile_500x500.png",
+      "directory": "Assets",
+      "filename": "Quantum_K-Field_GitHub_Profile_500x500.png",
+      "extension": "png",
+      "normalized_title": "quantum k field git hub profile 500x500",
+      "raw_keywords": [
+        "500x500",
+        "field",
+        "git",
+        "hub",
+        "profile",
+        "quantum"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Assets/Quantum_K-Field_GitHub_Profile_500x500.png"
+    }
+  ]
+}

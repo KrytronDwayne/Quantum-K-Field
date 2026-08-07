@@ -1,0 +1,1502 @@
+{
+  "document_type": "research_archive_artifact_index_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "artifacts:Applied_Devices_Analysis",
+  "section": "artifact_index",
+  "partition": {
+    "type": "repository_directory",
+    "value": "Applied_Devices_Analysis",
+    "order": 2
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 73,
+  "records": [
+    {
+      "path": "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_13_element_thruster_1785003663.json",
+      "extension": "json",
+      "normalized_title": "k field 13 element thruster",
+      "raw_keywords": [
+        "element",
+        "field",
+        "thruster"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "thruster"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_13_element_thruster_1785003663.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field 13 element thruster",
+      "raw_keywords": [
+        "element",
+        "field",
+        "thruster"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "thruster"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_13_element_thruster_1785003663.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_3_element_plate_thruster_1785012327.json",
+      "extension": "json",
+      "normalized_title": "k field 3 element plate thruster",
+      "raw_keywords": [
+        "element",
+        "field",
+        "plate",
+        "thruster"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "thruster"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_3_element_plate_thruster_1785012327.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field 3 element plate thruster",
+      "raw_keywords": [
+        "element",
+        "field",
+        "plate",
+        "thruster"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "thruster"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_3_element_plate_thruster_1785012327.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_CMB_pumped_armature_analysis_1784661365.json",
+      "extension": "json",
+      "normalized_title": "k field cmb pumped armature analysis",
+      "raw_keywords": [
+        "armature",
+        "cmb",
+        "field",
+        "pumped"
+      ],
+      "canonical_topic_ids": [
+        "armature",
+        "cosmic-microwave-background",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_CMB_pumped_armature_analysis_1784661365.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field cmb pumped armature analysis",
+      "raw_keywords": [
+        "armature",
+        "cmb",
+        "field",
+        "pumped"
+      ],
+      "canonical_topic_ids": [
+        "armature",
+        "cosmic-microwave-background",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_CMB_pumped_armature_analysis_1784661365.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.json",
+      "extension": "json",
+      "normalized_title": "k field apparent weight modulation fixed lab rotor",
+      "raw_keywords": [
+        "apparent",
+        "field",
+        "fixed",
+        "lab",
+        "modulation",
+        "rotor",
+        "weight"
+      ],
+      "canonical_topic_ids": [
+        "apparent-weight-modulation",
+        "quantum-k-field",
+        "rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field apparent weight modulation fixed lab rotor",
+      "raw_keywords": [
+        "apparent",
+        "field",
+        "fixed",
+        "lab",
+        "modulation",
+        "rotor",
+        "weight"
+      ],
+      "canonical_topic_ids": [
+        "apparent-weight-modulation",
+        "quantum-k-field",
+        "rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_apparent_weight_modulation_fixed_lab_rotor_1784912553.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.json",
+      "extension": "json",
+      "normalized_title": "k field apparent weight modulation spin reversal experiment",
+      "raw_keywords": [
+        "apparent",
+        "experiment",
+        "field",
+        "modulation",
+        "reversal",
+        "spin",
+        "weight"
+      ],
+      "canonical_topic_ids": [
+        "apparent-weight-modulation",
+        "quantum-k-field",
+        "spin-reversal"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field apparent weight modulation spin reversal experiment",
+      "raw_keywords": [
+        "apparent",
+        "experiment",
+        "field",
+        "modulation",
+        "reversal",
+        "spin",
+        "weight"
+      ],
+      "canonical_topic_ids": [
+        "apparent-weight-modulation",
+        "quantum-k-field",
+        "spin-reversal"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_apparent_weight_modulation_spin_reversal_experiment_1784913657.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_bullet_trajectory_modulation_1785151191.json",
+      "extension": "json",
+      "normalized_title": "k field bullet trajectory modulation",
+      "raw_keywords": [
+        "bullet",
+        "field",
+        "modulation",
+        "trajectory"
+      ],
+      "canonical_topic_ids": [
+        "bullet-trajectory",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_bullet_trajectory_modulation_1785151191.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field bullet trajectory modulation",
+      "raw_keywords": [
+        "bullet",
+        "field",
+        "modulation",
+        "trajectory"
+      ],
+      "canonical_topic_ids": [
+        "bullet-trajectory",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_bullet_trajectory_modulation_1785151191.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_carbon_fiber_tube_lab_experiment_1784915745.json",
+      "extension": "json",
+      "normalized_title": "k field carbon fiber tube lab experiment",
+      "raw_keywords": [
+        "carbon",
+        "experiment",
+        "fiber",
+        "field",
+        "lab",
+        "tube"
+      ],
+      "canonical_topic_ids": [
+        "carbon-fiber-tube",
+        "quantum-k-field",
+        "tube"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field carbon fiber tube lab experiment",
+      "raw_keywords": [
+        "carbon",
+        "experiment",
+        "fiber",
+        "field",
+        "lab",
+        "tube"
+      ],
+      "canonical_topic_ids": [
+        "carbon-fiber-tube",
+        "quantum-k-field",
+        "tube"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_carbon_fiber_tube_lab_experiment_1784915745.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_circularly_polarized_elastic_oscillator_1784991135.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_circularly_polarized_elastic_oscillator_1784991135.json",
+      "extension": "json",
+      "normalized_title": "k field circularly polarized elastic oscillator",
+      "raw_keywords": [
+        "circularly",
+        "elastic",
+        "field",
+        "oscillator",
+        "polarized"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_circularly_polarized_elastic_oscillator_1784991135.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_circularly_polarized_elastic_oscillator_1784991135.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_circularly_polarized_elastic_oscillator_1784991135.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field circularly polarized elastic oscillator",
+      "raw_keywords": [
+        "circularly",
+        "elastic",
+        "field",
+        "oscillator",
+        "polarized"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_circularly_polarized_elastic_oscillator_1784991135.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_concentric_rotor_lateral_force_analysis_1785171858.json",
+      "extension": "json",
+      "normalized_title": "k field concentric rotor lateral force analysis",
+      "raw_keywords": [
+        "concentric",
+        "field",
+        "force",
+        "lateral",
+        "rotor"
+      ],
+      "canonical_topic_ids": [
+        "concentric-rotor",
+        "force-analysis",
+        "lateral-force",
+        "quantum-k-field",
+        "rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field concentric rotor lateral force analysis",
+      "raw_keywords": [
+        "concentric",
+        "field",
+        "force",
+        "lateral",
+        "rotor"
+      ],
+      "canonical_topic_ids": [
+        "concentric-rotor",
+        "force-analysis",
+        "lateral-force",
+        "quantum-k-field",
+        "rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_concentric_rotor_lateral_force_analysis_1785171858.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json",
+      "extension": "json",
+      "normalized_title": "k field dual axis kinetic mass cmb traversal geometry",
+      "raw_keywords": [
+        "axis",
+        "cmb",
+        "dual",
+        "field",
+        "geometry",
+        "kinetic",
+        "mass",
+        "traversal"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "dual-axis-kinetic-mass",
+        "earth-cmb-traversal",
+        "kinetic-mass",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field dual axis kinetic mass cmb traversal geometry",
+      "raw_keywords": [
+        "axis",
+        "cmb",
+        "dual",
+        "field",
+        "geometry",
+        "kinetic",
+        "mass",
+        "traversal"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "dual-axis-kinetic-mass",
+        "earth-cmb-traversal",
+        "kinetic-mass",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_geometry_1784745791.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json",
+      "extension": "json",
+      "normalized_title": "k field dual axis kinetic mass cmb traversal lateral force computation",
+      "raw_keywords": [
+        "axis",
+        "cmb",
+        "computation",
+        "dual",
+        "field",
+        "force",
+        "kinetic",
+        "lateral",
+        "mass",
+        "traversal"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "dual-axis-kinetic-mass",
+        "earth-cmb-traversal",
+        "force-analysis",
+        "kinetic-mass",
+        "lateral-force",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field dual axis kinetic mass cmb traversal lateral force computation",
+      "raw_keywords": [
+        "axis",
+        "cmb",
+        "computation",
+        "dual",
+        "field",
+        "force",
+        "kinetic",
+        "lateral",
+        "mass",
+        "traversal"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "dual-axis-kinetic-mass",
+        "earth-cmb-traversal",
+        "force-analysis",
+        "kinetic-mass",
+        "lateral-force",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_lateral_force_comptation_1784803951.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json",
+      "extension": "json",
+      "normalized_title": "k field dual axis kinetic mass cmb traversal net force vector",
+      "raw_keywords": [
+        "axis",
+        "cmb",
+        "dual",
+        "field",
+        "force",
+        "kinetic",
+        "mass",
+        "net",
+        "traversal",
+        "vector"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "dual-axis-kinetic-mass",
+        "earth-cmb-traversal",
+        "force-analysis",
+        "kinetic-mass",
+        "net-force-vector",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field dual axis kinetic mass cmb traversal net force vector",
+      "raw_keywords": [
+        "axis",
+        "cmb",
+        "dual",
+        "field",
+        "force",
+        "kinetic",
+        "mass",
+        "net",
+        "traversal",
+        "vector"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "dual-axis-kinetic-mass",
+        "earth-cmb-traversal",
+        "force-analysis",
+        "kinetic-mass",
+        "net-force-vector",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_CMB_traversal_net_force_vector_1784751310.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_analysis_1784741897.json",
+      "extension": "json",
+      "normalized_title": "k field dual axis kinetic mass analysis",
+      "raw_keywords": [
+        "axis",
+        "dual",
+        "field",
+        "kinetic",
+        "mass"
+      ],
+      "canonical_topic_ids": [
+        "dual-axis-kinetic-mass",
+        "kinetic-mass",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_analysis_1784741897.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field dual axis kinetic mass analysis",
+      "raw_keywords": [
+        "axis",
+        "dual",
+        "field",
+        "kinetic",
+        "mass"
+      ],
+      "canonical_topic_ids": [
+        "dual-axis-kinetic-mass",
+        "kinetic-mass",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_analysis_1784741897.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json",
+      "extension": "json",
+      "normalized_title": "k field dual axis kinetic mass starting orientation",
+      "raw_keywords": [
+        "axis",
+        "dual",
+        "field",
+        "kinetic",
+        "mass",
+        "orientation",
+        "starting"
+      ],
+      "canonical_topic_ids": [
+        "dual-axis-kinetic-mass",
+        "kinetic-mass",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field dual axis kinetic mass starting orientation",
+      "raw_keywords": [
+        "axis",
+        "dual",
+        "field",
+        "kinetic",
+        "mass",
+        "orientation",
+        "starting"
+      ],
+      "canonical_topic_ids": [
+        "dual-axis-kinetic-mass",
+        "kinetic-mass",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_dual_axis_kinetic_mass_staring_orientatio_1784805531.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.json",
+      "extension": "json",
+      "normalized_title": "k field earth kinematic derivation of coupling constant",
+      "raw_keywords": [
+        "constant",
+        "coupling",
+        "derivation",
+        "earth",
+        "field",
+        "kinematic"
+      ],
+      "canonical_topic_ids": [
+        "coupling-constant",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field earth kinematic derivation of coupling constant",
+      "raw_keywords": [
+        "constant",
+        "coupling",
+        "derivation",
+        "earth",
+        "field",
+        "kinematic"
+      ],
+      "canonical_topic_ids": [
+        "coupling-constant",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_flywheel_force_analysis_1784808116.json",
+      "extension": "json",
+      "normalized_title": "k field flywheel force analysis",
+      "raw_keywords": [
+        "field",
+        "flywheel",
+        "force"
+      ],
+      "canonical_topic_ids": [
+        "flywheel",
+        "force-analysis",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_flywheel_force_analysis_1784808116.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field flywheel force analysis",
+      "raw_keywords": [
+        "field",
+        "flywheel",
+        "force"
+      ],
+      "canonical_topic_ids": [
+        "flywheel",
+        "force-analysis",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_flywheel_force_analysis_1784808116.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_flywheel_force_distribution_disk_1784810003.json",
+      "extension": "json",
+      "normalized_title": "k field flywheel force distribution disk",
+      "raw_keywords": [
+        "disk",
+        "distribution",
+        "field",
+        "flywheel",
+        "force"
+      ],
+      "canonical_topic_ids": [
+        "flywheel",
+        "force-analysis",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_flywheel_force_distribution_disk_1784810003.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field flywheel force distribution disk",
+      "raw_keywords": [
+        "disk",
+        "distribution",
+        "field",
+        "flywheel",
+        "force"
+      ],
+      "canonical_topic_ids": [
+        "flywheel",
+        "force-analysis",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_flywheel_force_distribution_disk_1784810003.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_fourier_geomery_hidden_architecture_1784910918.json",
+      "extension": "json",
+      "normalized_title": "k field fourier geometry hidden architecture",
+      "raw_keywords": [
+        "architecture",
+        "field",
+        "fourier",
+        "geometry",
+        "hidden"
+      ],
+      "canonical_topic_ids": [
+        "hidden-architecture",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_fourier_geomery_hidden_architecture_1784910918.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field fourier geometry hidden architecture",
+      "raw_keywords": [
+        "architecture",
+        "field",
+        "fourier",
+        "geometry",
+        "hidden"
+      ],
+      "canonical_topic_ids": [
+        "hidden-architecture",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_fourier_geomery_hidden_architecture_1784910918.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_galaxy_gyroscopic_precession_geometry_1784741310.json",
+      "extension": "json",
+      "normalized_title": "k field galaxy gyroscopic precession geometry",
+      "raw_keywords": [
+        "field",
+        "galaxy",
+        "geometry",
+        "gyroscopic",
+        "precession"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "galaxy-gyroscopic-precession",
+        "precession",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field galaxy gyroscopic precession geometry",
+      "raw_keywords": [
+        "field",
+        "galaxy",
+        "geometry",
+        "gyroscopic",
+        "precession"
+      ],
+      "canonical_topic_ids": [
+        "galaxy-axis-orientation",
+        "galaxy-gyroscopic-precession",
+        "precession",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_galaxy_gyroscopic_precession_geometry_1784741310.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_hysteresis_closed_CMB_route_1784658249.json",
+      "extension": "json",
+      "normalized_title": "k field hysteresis closed cmb route",
+      "raw_keywords": [
+        "closed",
+        "cmb",
+        "field",
+        "hysteresis",
+        "route"
+      ],
+      "canonical_topic_ids": [
+        "closed-cmb-route",
+        "cosmic-microwave-background",
+        "hysteresis",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_hysteresis_closed_CMB_route_1784658249.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field hysteresis closed cmb route",
+      "raw_keywords": [
+        "closed",
+        "cmb",
+        "field",
+        "hysteresis",
+        "route"
+      ],
+      "canonical_topic_ids": [
+        "closed-cmb-route",
+        "cosmic-microwave-background",
+        "hysteresis",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_hysteresis_closed_CMB_route_1784658249.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_lab_scale_device_proposals_1784994055.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_lab_scale_device_proposals_1784994055.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field lab scale device proposals",
+      "raw_keywords": [
+        "device",
+        "field",
+        "lab",
+        "proposals",
+        "scale"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_lab_scale_device_proposals_1784994055.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_lab_scale_device_proposals_1784994055_machine_readable.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_lab_scale_device_proposals_1784994055_machine_readable.json",
+      "extension": "json",
+      "normalized_title": "k field lab scale device proposals",
+      "raw_keywords": [
+        "device",
+        "field",
+        "lab",
+        "proposals",
+        "scale"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_lab_scale_device_proposals_1784994055_machine_readable.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_laerl_force_analysis_1784896442.json",
+      "extension": "json",
+      "normalized_title": "k field lateral force analysis",
+      "raw_keywords": [
+        "field",
+        "force",
+        "lateral"
+      ],
+      "canonical_topic_ids": [
+        "force-analysis",
+        "lateral-force",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_laerl_force_analysis_1784896442.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field lateral force analysis",
+      "raw_keywords": [
+        "field",
+        "force",
+        "lateral"
+      ],
+      "canonical_topic_ids": [
+        "force-analysis",
+        "lateral-force",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_laerl_force_analysis_1784896442.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_linear_inertia_derivation_1784989727.json",
+      "extension": "json",
+      "normalized_title": "k field linear inertia derivation",
+      "raw_keywords": [
+        "derivation",
+        "field",
+        "inertia",
+        "linear"
+      ],
+      "canonical_topic_ids": [
+        "inertia",
+        "linear-inertia",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_linear_inertia_derivation_1784989727.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field linear inertia derivation",
+      "raw_keywords": [
+        "derivation",
+        "field",
+        "inertia",
+        "linear"
+      ],
+      "canonical_topic_ids": [
+        "inertia",
+        "linear-inertia",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_linear_inertia_derivation_1784989727.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json",
+      "extension": "json",
+      "normalized_title": "k field literature review drop tower rotating flywheels",
+      "raw_keywords": [
+        "drop",
+        "field",
+        "flywheels",
+        "literature",
+        "review",
+        "rotating",
+        "tower"
+      ],
+      "canonical_topic_ids": [
+        "drop-tower",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field literature review drop tower rotating flywheels",
+      "raw_keywords": [
+        "drop",
+        "field",
+        "flywheels",
+        "literature",
+        "review",
+        "rotating",
+        "tower"
+      ],
+      "canonical_topic_ids": [
+        "drop-tower",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785170501.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json",
+      "extension": "json",
+      "normalized_title": "k field literature review drop tower rotating flywheels",
+      "raw_keywords": [
+        "drop",
+        "field",
+        "flywheels",
+        "literature",
+        "review",
+        "rotating",
+        "tower"
+      ],
+      "canonical_topic_ids": [
+        "drop-tower",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field literature review drop tower rotating flywheels",
+      "raw_keywords": [
+        "drop",
+        "field",
+        "flywheels",
+        "literature",
+        "review",
+        "rotating",
+        "tower"
+      ],
+      "canonical_topic_ids": [
+        "drop-tower",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_literatre_review_drop_tower_rotating_flywheels_1785171455.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_mass_coupling_factor_1785088666.json",
+      "extension": "json",
+      "normalized_title": "k field mass coupling factor",
+      "raw_keywords": [
+        "coupling",
+        "factor",
+        "field",
+        "mass"
+      ],
+      "canonical_topic_ids": [
+        "mass-coupling-factor",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_mass_coupling_factor_1785088666.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field mass coupling factor",
+      "raw_keywords": [
+        "coupling",
+        "factor",
+        "field",
+        "mass"
+      ],
+      "canonical_topic_ids": [
+        "mass-coupling-factor",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field materials for coherently controlled angular momentum density",
+      "raw_keywords": [
+        "angular",
+        "coherently",
+        "controlled",
+        "density",
+        "field",
+        "momentum"
+      ],
+      "canonical_topic_ids": [
+        "angular-momentum-density",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238_machine_readable.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238_machine_readable.json",
+      "extension": "json",
+      "normalized_title": "k field materials for coherently controlled angular momentum density",
+      "raw_keywords": [
+        "angular",
+        "coherently",
+        "controlled",
+        "density",
+        "field",
+        "momentum"
+      ],
+      "canonical_topic_ids": [
+        "angular-momentum-density",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_materials_for_coherently_controlled_angular_momentum_density_1784992238_machine_readable.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_rod_material_comparison_1785093177.json",
+      "extension": "json",
+      "normalized_title": "k field rod material comparison",
+      "raw_keywords": [
+        "comparison",
+        "field",
+        "rod"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "rod-material-comparison"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_rod_material_comparison_1785093177.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field rod material comparison",
+      "raw_keywords": [
+        "comparison",
+        "field",
+        "rod"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "rod-material-comparison"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_rod_material_comparison_1785093177.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_sattelite_literature_search_results_1785173685.json",
+      "extension": "json",
+      "normalized_title": "k field satellite literature search results",
+      "raw_keywords": [
+        "field",
+        "literature",
+        "satellite",
+        "search"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_sattelite_literature_search_results_1785173685.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field satellite literature search results",
+      "raw_keywords": [
+        "field",
+        "literature",
+        "satellite",
+        "search"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_sattelite_literature_search_results_1785173685.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_single_cell3_lateral_force_reduction_1784985105.json",
+      "extension": "json",
+      "normalized_title": "k field single cell3 lateral force reduction",
+      "raw_keywords": [
+        "cell3",
+        "field",
+        "force",
+        "lateral",
+        "reduction",
+        "single"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "force-analysis",
+        "lateral-force",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_single_cell3_lateral_force_reduction_1784985105.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field single cell3 lateral force reduction",
+      "raw_keywords": [
+        "cell3",
+        "field",
+        "force",
+        "lateral",
+        "reduction",
+        "single"
+      ],
+      "canonical_topic_ids": [
+        "cell3",
+        "force-analysis",
+        "lateral-force",
+        "quantum-k-field"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_single_cell3_lateral_force_reduction_1784985105.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.json",
+      "extension": "json",
+      "normalized_title": "k field solar system coupling analysis phase shifted",
+      "raw_keywords": [
+        "coupling",
+        "field",
+        "phase",
+        "shifted",
+        "solar",
+        "system"
+      ],
+      "canonical_topic_ids": [
+        "phase-metrology",
+        "quantum-k-field",
+        "solar-system-coupling"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field solar system coupling analysis phase shifted",
+      "raw_keywords": [
+        "coupling",
+        "field",
+        "phase",
+        "shifted",
+        "solar",
+        "system"
+      ],
+      "canonical_topic_ids": [
+        "phase-metrology",
+        "quantum-k-field",
+        "solar-system-coupling"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_solar_system_coupling_analysis_phase_shifted_1784823303.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_solid_rod_vs_tube_1785091343.json",
+      "extension": "json",
+      "normalized_title": "k field solid rod vs tube",
+      "raw_keywords": [
+        "field",
+        "rod",
+        "solid",
+        "tube"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "solid-rod",
+        "tube"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_solid_rod_vs_tube_1785091343.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field solid rod vs tube",
+      "raw_keywords": [
+        "field",
+        "rod",
+        "solid",
+        "tube"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "solid-rod",
+        "tube"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_solid_rod_vs_tube_1785091343.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_time_force_dependency_1784909623.json",
+      "extension": "json",
+      "normalized_title": "k field time force dependency",
+      "raw_keywords": [
+        "dependency",
+        "field",
+        "force",
+        "time"
+      ],
+      "canonical_topic_ids": [
+        "force-analysis",
+        "quantum-k-field",
+        "time-force-dependency"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_time_force_dependency_1784909623.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field time force dependency",
+      "raw_keywords": [
+        "dependency",
+        "field",
+        "force",
+        "time"
+      ],
+      "canonical_topic_ids": [
+        "force-analysis",
+        "quantum-k-field",
+        "time-force-dependency"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_time_force_dependency_1784909623.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json",
+      "extension": "json",
+      "normalized_title": "k field tubular rotor earth cmb windmill",
+      "raw_keywords": [
+        "cmb",
+        "earth",
+        "field",
+        "rotor",
+        "tubular",
+        "windmill"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "quantum-k-field",
+        "rotor",
+        "tubular-rotor",
+        "windmill"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field tubular rotor earth cmb windmill",
+      "raw_keywords": [
+        "cmb",
+        "earth",
+        "field",
+        "rotor",
+        "tubular",
+        "windmill"
+      ],
+      "canonical_topic_ids": [
+        "cosmic-microwave-background",
+        "quantum-k-field",
+        "rotor",
+        "tubular-rotor",
+        "windmill"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_tubular_rotor_earth_CMB_windmill_1784901904.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_tubular_rotor_force_analysis_1784897756.json",
+      "extension": "json",
+      "normalized_title": "k field tubular rotor force analysis",
+      "raw_keywords": [
+        "field",
+        "force",
+        "rotor",
+        "tubular"
+      ],
+      "canonical_topic_ids": [
+        "force-analysis",
+        "quantum-k-field",
+        "rotor",
+        "tubular-rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_tubular_rotor_force_analysis_1784897756.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field tubular rotor force analysis",
+      "raw_keywords": [
+        "field",
+        "force",
+        "rotor",
+        "tubular"
+      ],
+      "canonical_topic_ids": [
+        "force-analysis",
+        "quantum-k-field",
+        "rotor",
+        "tubular-rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_tubular_rotor_force_analysis_1784897756.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.json",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_tubular_rotor_free_space_forces_1784904809.json",
+      "extension": "json",
+      "normalized_title": "k field tubular rotor free space forces",
+      "raw_keywords": [
+        "field",
+        "forces",
+        "free",
+        "rotor",
+        "space",
+        "tubular"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "rotor",
+        "tubular-rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.json"
+    },
+    {
+      "path": "Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "K-Field_tubular_rotor_free_space_forces_1784904809.pdf",
+      "extension": "pdf",
+      "normalized_title": "k field tubular rotor free space forces",
+      "raw_keywords": [
+        "field",
+        "forces",
+        "free",
+        "rotor",
+        "space",
+        "tubular"
+      ],
+      "canonical_topic_ids": [
+        "quantum-k-field",
+        "rotor",
+        "tubular-rotor"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/K-Field_tubular_rotor_free_space_forces_1784904809.pdf"
+    },
+    {
+      "path": "Applied_Devices_Analysis/supplemental_materials_rotating_sphere_paper.pdf",
+      "directory": "Applied_Devices_Analysis",
+      "filename": "supplemental_materials_rotating_sphere_paper.pdf",
+      "extension": "pdf",
+      "normalized_title": "supplemental materials rotating sphere paper",
+      "raw_keywords": [
+        "rotating",
+        "sphere",
+        "supplemental"
+      ],
+      "canonical_topic_ids": [
+        "rotating-sphere"
+      ],
+      "github_url": "https://github.com/KrytronDwayne/Quantum-K-Field/blob/main/Applied_Devices_Analysis/supplemental_materials_rotating_sphere_paper.pdf"
+    }
+  ]
+}

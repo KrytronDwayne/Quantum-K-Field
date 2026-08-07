@@ -1,0 +1,448 @@
+{
+  "document_type": "research_archive_topic_taxonomy_shard",
+  "schema_version": "2.0.0-sharded",
+  "shard_id": "taxonomy:physical_constants_atomic_physics",
+  "section": "topic_taxonomy",
+  "partition": {
+    "type": "category",
+    "value": "physical_constants_atomic_physics",
+    "order": 15
+  },
+  "parent_manifest": "../index.json",
+  "source_document": "Quantum-K-Field_topic_keyword_index_20260806T200100Z.json",
+  "record_count": 16,
+  "records": [
+    {
+      "id": "atomic-velocity",
+      "label": "Atomic Velocity",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Atomic velocity relationship included in the linked derivation chain.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "bohr-radius",
+      "label": "Bohr Radius",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Atomic length scale included in the archive's linked derivations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "classical-electron-radius",
+      "label": "Classical Electron Radius",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Electromagnetic length scale included in the archive's linked derivations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "compton-wavelength",
+      "label": "Compton Wavelength",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Mass-linked wavelength involved in Mass Bridge analyses.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "coupling-constant",
+      "label": "Coupling Constant",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Constant describing interaction strength; includes Earth-kinematic derivation studies.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.json",
+        "Applied_Devices_Analysis/K-Field_earth_kinematic_derivation_of_coupling_constant_1784828045.pdf"
+      ]
+    },
+    {
+      "id": "fine-structure-constant",
+      "label": "Fine-Structure Constant",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Dimensionless electromagnetic coupling constant discussed in the derivation chain.",
+      "aliases": [
+        "alpha"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "hartree-energy",
+      "label": "Hartree Energy",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Atomic energy scale included in the archive's linked derivations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "mass-coupling-factor",
+      "label": "Mass Coupling Factor",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Archive term for a factor connecting mass and K-Field coupling.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.json",
+        "Applied_Devices_Analysis/K-Field_mass_coupling_factor_1785088666.pdf"
+      ]
+    },
+    {
+      "id": "millielectronvolt",
+      "label": "Millielectronvolt",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Energy unit used in photon-energy and channel-difference analysis.",
+      "aliases": [
+        "meV"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "nanometre",
+      "label": "Nanometre",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Length unit used for optical wavelengths and Cell3 basis entries.",
+      "aliases": [
+        "nanometer",
+        "nm"
+      ],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "photon-energy",
+      "label": "Photon Energy",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Energy associated with spectral wavelengths or beat frequencies.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": [
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.json",
+        "Spectrophotometer_Studies/K-Field_spectrometer_spherical_beat_photon_energy_analysis_1785691484.pdf"
+      ]
+    },
+    {
+      "id": "photon-energy-mapping",
+      "label": "Photon-Energy Mapping",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Mapping of spectral counts or frequencies into photon energy.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "physical-constants",
+      "label": "Physical Constants",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Constants treated as linked outputs of geometric relationships.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "foundational-physics"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "proton-electron-mass-ratio",
+      "label": "Proton–Electron Mass Ratio",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Mass ratio linked to Cell3 face relationships in the archive narrative.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "rydberg-constant",
+      "label": "Rydberg Constant",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Spectroscopic constant included in the archive's linked derivations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    },
+    {
+      "id": "vacuum-impedance",
+      "label": "Vacuum Impedance",
+      "category": "physical_constants_atomic_physics",
+      "definition": "Electromagnetic vacuum property included in the archive's linked derivations.",
+      "aliases": [],
+      "abbreviations": [],
+      "misspellings_and_legacy_forms": [],
+      "broader_terms": [
+        "physical-constants"
+      ],
+      "narrower_terms": [],
+      "related_terms": [
+        "cell3",
+        "mass-bridge"
+      ],
+      "source_path_patterns": [
+        "Discovered_Pathways/**",
+        "README.md",
+        "Spectrophotometer_Studies/**",
+        "Start_Here/**"
+      ],
+      "search_phrases": [],
+      "status": "archive_term",
+      "archive_paths": []
+    }
+  ]
+}
