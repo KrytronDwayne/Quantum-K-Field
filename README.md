@@ -4,6 +4,8 @@
 
 # Quantum K-Field
 
+[![DOI](https://zenodo.org/badge/1325241703.svg)](https://doi.org/10.5281/zenodo.21853105)
+
 **A public research archive in observational anisotropy, astronomical orientation geometry, precision metrology, and geometric modeling**
 
 The **Quantum K-Field** is a research program developed by **Krytronx** and principal investigator **P. Dwayne Esterline**. The program began with repeated experimental observations of direction-dependent behavior and developed into a broader investigation of whether recurring structures seen across laboratory and astronomical datasets can be described within a common geometric framework.
